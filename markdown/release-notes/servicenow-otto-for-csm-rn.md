@@ -20,7 +20,9 @@ The ServiceNow Otto for Customer Service Management \(CSM\) application is an AI
 -   Work on multiple cases and tasks within a single browser window. ServiceNow Otto for CSM suggests next best actions, auto-populates case details, and handles routine tasks, letting agents focus on complex customer needs.
 -   Quickly access a complete customer 360° view with interaction history, product entitlements, active cases, and AI-generated insights, so agents have everything needed to resolve issues on first contact.
 
-See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm.md) for more information.
+See  for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Activation and other requirements
 
@@ -28,7 +30,7 @@ See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.github
 
     Customer Service Management is available with activation of the Case Management Core \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-    Gen AI features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    Gen AI features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
     Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported. Beginning Q2 FY26, all CSM Advanced or Prime SKUs already include ServiceNow Otto. Licensing depends on your current base package entitlements within the native AI SKU structure.
 
@@ -89,7 +91,7 @@ There is MCP Server support in ServiceNow Otto for Customer Service Management \
 
 ### What's new
 
--   **[Availability of MCP Server in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-mcp-server.md)**
+-   **Availability of MCP Server in ServiceNow Otto for Customer Service Management \(CSM\)**
 
     ServiceNow Otto for Customer Service Management \(CSM\) can now provide key data and AI actions through MCP connectors, bringing intelligent case management to third-party interfaces seamlessly. CSM customers can now use subflow and actions such as retrieve cases and case task details or AI skills such as generate summaries and resolution notes, analyze sentiment, and draft activity responses when using any AI-enabled MCP client, such as Moveworks or frontier LLM model channels such as Claude in the web
 
@@ -107,15 +109,15 @@ The Live Agent Assist AI agent is renamed to Live interaction recommendations AI
 
 ### What's changed
 
--   **[Live Agent Assist AI agent renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/live-agent-assist-renamed-entities.md)**
+-   **Live Agent Assist AI agent renamed**
 
     The Live Agent Assist AI agent is renamed to Live interaction recommendations AI agent. All related references, including skill names, AI Search Profile name, and knowledge graph tags are updated to match the new name.
 
--   **[In-context recommendation source display in Live interaction recommendations AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-live-agent-assist.md)**
+-   **In-context recommendation source display in Live interaction recommendations AI agent**
 
     View recommendation sources directly within the ServiceNow Otto panel without leaving your workspace. The source information follows horizon-aligned presentation patterns, so you can validate a recommendation in place before acting on it.
 
--   **[Selectable clarification options in Live interaction recommendations AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-live-agent-assist.md)**
+-   **Selectable clarification options in Live interaction recommendations AI agent**
 
     Select a clarification option directly instead of typing a response. When the Live interaction recommendations AI agent presents a multi-question clarification, select an option from a list instead of typing text such as "Option 1" or "Option 2". The underlying AI agent behavior remains unchanged.
 

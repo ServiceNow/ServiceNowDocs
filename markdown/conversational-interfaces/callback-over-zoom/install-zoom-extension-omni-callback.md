@@ -30,7 +30,7 @@ The following items are installed with Zoom extension for Omnichannel Callback:
 -   Script includes
 -   Business rules
 
-For more information, see [Components installed with Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.md).
+For a complete list of components installed with Zoom extension for Omnichannel Callback, see [Components installed with Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.md).
 
 ## Procedure
 
@@ -38,9 +38,9 @@ For more information, see [Components installed with Zoom extension for Omnichan
 
 2.  Find the Zoom extension for Omnichannel Callback application \(com.sn.zoom.callback\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you are displayed.
+    The versions available to you appear in the list next to the **Install** button.
 
 3.  Select a version from the list and select **Install**.
 

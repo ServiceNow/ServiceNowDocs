@@ -50,7 +50,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the Smartsheet external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  In the Workspaces, Sheets, Attachments, and Crawl content types sections, select the options for the items you want the connector to visit and retrieve when you run content crawls.
 

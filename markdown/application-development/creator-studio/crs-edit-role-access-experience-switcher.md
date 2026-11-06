@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [The experience switcher, Administer, Creator Studio, Developing your application, Building applications]
+breadcrumb: [The experience switcher, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a role's access to the experience switcher

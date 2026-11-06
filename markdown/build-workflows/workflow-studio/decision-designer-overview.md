@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
@@ -24,28 +24,8 @@ For an in-depth review and demo of decision table features and benefits, see [De
 
 -   As of the Washington DC release, Decision Builder is now part of Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor processes, flows, subflows, playbooks, actions, and decision tables in one place.
 -   The core Decision Builder feature is still available with the ServiceNow AI Platform® by default, but the latest updates are available for download through the Workflow Studio application in the ServiceNow® Store.
--   For more information about this update, see the Washington DC Decision Builder release notes.
 
-## Get started
-
-<table id="table_p4v_mvz_nyb" class="nav-card"><tbody><tr><td>
-
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-decision-builder.md)
-
-</td><td>
-
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access for decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configuring-decision-builder.md)
-
-</td></tr><tr><td>
-
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Build decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/using-decision-builder.md)
-
-</td><td>
-
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about decision table properties and Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/decision-builder-reference.md)
-
-</td></tr></tbody>
-</table>## Features
+## Features
 
 **Note:** After you install Workflow Studio decision tables, you can only access decision tables previously created in the classic environment through Workflow Studio. You can no longer create or modify decision tables in the classic environment.
 

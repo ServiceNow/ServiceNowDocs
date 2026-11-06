@@ -1,18 +1,18 @@
 ---
 title: Set up the environment and instance for ServiceNow Quote Experience
-description: Provision and configure the ServiceNow instance and the CPQ microservice instance, set up authentication between them, and configure the users and settings that ServiceNow Quote Experience requires.
+description: Provision and configure the ServiceNow instance and the ServiceNow CPQ microservice instance, set up authentication between them, and configure the users and settings that ServiceNow Quote Experience requires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-exp-env-instance-setup-task.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 2
-breadcrumb: [Without guided setup, Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up the environment and instance for ServiceNow Quote Experience
 
-Provision and configure the ServiceNow instance and the CPQ microservice instance, set up authentication between them, and configure the users and settings that ServiceNow Quote Experience requires.
+Provision and configure the ServiceNow instance and the ServiceNow CPQ microservice instance, set up authentication between them, and configure the users and settings that ServiceNow Quote Experience requires.
 
 ## Before you begin
 
@@ -40,15 +40,15 @@ Role required: admin
 
     For more information, see [Disable Quote Management application objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/disable-quote-management-fix-script.md).
 
-3.  Provision a CPQ microservice instance.
+3.  Provision a ServiceNow CPQ microservice instance.
 
-    For more information, see [Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-logik-instance.md).
+    For more information, see [Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-logik-instance.md).
 
     Then configure the tenant settings that ServiceNow Quote Experience requires. For more information, see [ServiceNow Quote Experience tenant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-exp-tenant-settings.md).
 
-4.  Integrate the ServiceNow and CPQ microservice instances.
+4.  Integrate the ServiceNow and ServiceNow CPQ microservice instances.
 
-    For more information, see [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md).
+    For more information, see [Setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md).
 
 5.  Set up system-to-system authentication \(JWT and OAuth\) and add it to the connection.
 
@@ -60,7 +60,7 @@ Role required: admin
 
 7.  Set up the integration user.
 
-    An integration user is created and assigned a set of roles during the CPQ integration setup \(see [Set up instance for CPQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-integration-create-certificates.md)\). Manually add the following additional roles:
+    An integration user is created and assigned a set of roles during the ServiceNow CPQ integration setup \(see [Set up instance for ServiceNow CPQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-integration-create-certificates.md)\). Manually add the following additional roles:
 
     -   `sn_l2c_core.viewer`
     -   `sn_csm_pricing.pricing_integrator`

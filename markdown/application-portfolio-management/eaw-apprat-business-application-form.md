@@ -292,11 +292,11 @@ Planned disposition of a business application. Use the following options:
 
 </td></tr><tr><td>
 
-Target date
+Planned disposition date
 
 </td><td>
 
-Target date for the planned disposition. The target date must be the current date or a future date.
+Target date for the planned disposition. The planned disposition date must be the current date or a future date.
 
 </td></tr><tr><td>
 
@@ -340,7 +340,7 @@ Portfolio manager
 
 </td><td>
 
-Owner of the portfolio, typically from IT. This field appears when you activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
+Owner of the portfolio, typically from IT. This field appears when you activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\). This field is available in the Default view.
 
 </td></tr><tr><td>
 

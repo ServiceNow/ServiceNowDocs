@@ -38,7 +38,7 @@ With the Sales CRM applications, your organization can improve sales and order p
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|
-|Streamline the process of configuring and pricing customizable products that are added to Sales Customer Relationship Management transactions.|[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-servicenowcpq.md)|Sales and order agent, admin to set up|
+|Streamline the process of configuring and pricing customizable products that are added to Sales Customer Relationship Management transactions.|[ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-servicenowcpq.md)|Sales and order agent, admin to set up|
 |Quickly configure and price opportunities, quotes, and orders for simple and complex product offers.|[Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-configurator.md)|Sales and order agent, admin to set up|
 |Get intelligent recommendations for products to offer to customers based on their preferences and purchase history during the quote process.|[Product Offering Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-offer-recommendations.md)|Sales agent, admin to set up|
 |Set the pricing for your products through price lists, contextual price controls, and if needed, pricing from external systems.|[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-management.md)|Pricing administrator or manager|
@@ -63,7 +63,7 @@ With the Sales CRM applications, your organization can improve sales and order p
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|
-|Hire and engage channel partners to sell your products and services, helping you to grow and improve your business.|[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)|Channel partners|
+|Hire and engage channel partners to sell your products and services, helping you to grow and improve your business.|[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)|Channel partners|
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|

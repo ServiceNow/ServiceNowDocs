@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [vibe coding, AI-assisted development, artificial intelligence, application development, natural language, prompts, autonomous app development, code generation, development tools]
-breadcrumb: [Explore, Agentic development, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # What is agentic development

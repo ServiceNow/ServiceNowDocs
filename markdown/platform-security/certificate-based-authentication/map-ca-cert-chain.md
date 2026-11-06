@@ -24,7 +24,7 @@ Role required: sso\_config\_admin
 
 1.  Navigate to **All** &gt; **Certificate Based Authentication** &gt; **CA Certificate Chain**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields:
 
@@ -103,10 +103,10 @@ Short description
 Short description of the user client certificate.
 
 </td></tr></tbody>
-</table>    **Note:** During the certificate upload, the read-only fields, **Valid from**, **Expires**, **Expires in days**, **Issuer**, and **Subject**, **Certificate Chain**, and **PEM Certificate** are extracted and auto-populated.
+</table>    **Note:** During the certificate upload, the read-only fields, **Valid from**, **Expires**, **Expires in days**, **Issuer**, **Subject**, **Certificate Chain**, and **PEM Certificate** are extracted and auto-populated.
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
-5.  Click **Validate Stores/Certificates** to validate the certificate.
+5.  Select **Validate Stores/Certificates** to validate the certificate.
 
 

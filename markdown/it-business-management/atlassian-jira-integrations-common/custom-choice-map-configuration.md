@@ -81,7 +81,7 @@ External Choice Name
 
 </td><td>
 
-Display name of the workflow transition in Jira.**Note:** In case there is no transition, insert the display name of the workflow state.
+Display name of the workflow transition in Jira. When you export a State change to Jira, this value must match the Jira transition name exactly, including case.**Note:** In case there is no transition, insert the display name of the workflow state. Export works only if this name matches a transition that Jira allows from the current status of the issue.
 
 </td></tr></tbody>
 </table>7.  Click **Update**.

@@ -101,7 +101,7 @@ Guided decision tree
 
 </td><td>
 
-A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.
+A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.**Important:** The Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. For more information, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
 
 </td></tr><tr><td>
 

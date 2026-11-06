@@ -102,7 +102,7 @@ Review each tab to understand the default defined behavior or opt to reconfigure
 
 </td><td>
 
-Review and adjust settings, as each tab has default settings that can be adjusted. **Important:** See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) for more information.
+Review and adjust settings, as each tab has default settings that can be adjusted. **Important:** See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) for more information.
 
 </td></tr></tbody>
 </table>4.  Select **Run your first scan** to enable the next step.
@@ -112,16 +112,16 @@ Review and adjust settings, as each tab has default settings that can be adjuste
     Additional and subsequent configuration may occur to adjust Scan Engine behavior.
 
 
--   **[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)**  
+-   **[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)**  
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 -   **[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md)**  
 You can modify an existing definition to further customize and refine its scanning criteria or deactivate a definition.
--   **[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)**  
+-   **[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)**  
 Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 
 **Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
 
 **Previous topic:**[Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-development-team.md)
 
-**Next topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
+**Next topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
 

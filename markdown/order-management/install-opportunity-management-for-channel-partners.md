@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-opportunity-management-for-channel-partners.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -46,15 +46,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d176950e131">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d175685e131">
 
 Demo data install task
 
-</th><th align="left" id="d176950e134">
+</th><th align="left" id="d175685e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d176950e140">
+</th></tr></thead><tbody><tr><td id="d175685e140">
 
 **If demo data is available and you want to install it**
 
@@ -64,7 +64,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d176950e170">
+</td></tr><tr><td id="d175685e170">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -87,7 +87,7 @@ You have successfully installed the Opportunity Management for Channel Partners 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

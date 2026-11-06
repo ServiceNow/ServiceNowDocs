@@ -22,7 +22,7 @@ Role required: User must have contributor access to the knowledge base.
 
 **Note:**
 
--   When versioning is enabled, and you move an article from one knowledge base to another, the latest version of an article is moved to the new knowledge base. However, the previous versions of the article remain in the old knowledge base. It is recommended to retire the article from the old knowledge base. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
+-   When versioning is enabled, and you move an article from one knowledge base to another, the latest version of an article is moved to the new knowledge base. However, the previous versions of the article remain in the old knowledge base. It is recommended to retire the article from the old knowledge base. For more information, see [Retire a knowledge article]().
 -   Although you can move an article from one knowledge base to another consider creating an article in new knowledge base.
 
 ## Procedure

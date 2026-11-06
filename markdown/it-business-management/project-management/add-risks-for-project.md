@@ -42,7 +42,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 5.  On the Risk form, fill in the fields.
 
-    For more information, see [Risk, issues, decisions, actions, and request change \(RIDAC\) form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md).
 
     **Note:** The Risk Assessment Summary section only appears when the **Enable Advanced Risk PPM Integration** property is enabled.
 

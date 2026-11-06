@@ -1,20 +1,20 @@
 ---
 title: Create a collection of files in ServiceNow Studio
-description: Create a collection of files for personal organization in ServiceNow Studio. Create and organize folders, and group apps and files your way.
+description: Create a collection in ServiceNow Studio to group multiple files and apps in one folder for personal organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-create-a-collection.html
 release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create a collection of files in ServiceNow Studio
 
-Create a collection of files for personal organization in ServiceNow Studio. Create and organize folders, and group apps and files your way.
+Create a collection in ServiceNow Studio to group multiple files and apps in one folder for personal organization.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin or delegated\_developer
 
 ## About this task
 
-Collections extend the current bookmark functionality in ServiceNow Studio by adding the ability to group multiple files and apps in the same folder. Bookmarks are still available as a sub-category within the collections tab in the Navigator panel.
+Collections extend bookmark functionality in ServiceNow Studio by grouping multiple files and apps in the same folder. Bookmarks remain available as a subcategory within the collections tab in the Navigator panel.
 
 ## Procedure
 
@@ -43,5 +43,5 @@ Collections extend the current bookmark functionality in ServiceNow Studio by ad
 
 ## Result
 
-The new collection displays in the Navigator panel and is available for use. For more information, see [Add files to a collection in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/qs-add-files-to-a-collection.md).
+The new collection appears in the Navigator panel and is available for use. For more information, see [Add files to a collection in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/qs-add-files-to-a-collection.md).
 

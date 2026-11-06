@@ -41,5 +41,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|AD user account was successfully enabled.|
 |Failure|An error occurred while attempting to enable the AD user account. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

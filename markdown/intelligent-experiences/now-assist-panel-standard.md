@@ -94,7 +94,7 @@ Enter actions.
 
 Voice Input
 
- \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: Voice input microphone on ServiceNow Otto panel.
+ \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: Voice dictation microphone on ServiceNow Otto panel.
 
 </td><td>
 

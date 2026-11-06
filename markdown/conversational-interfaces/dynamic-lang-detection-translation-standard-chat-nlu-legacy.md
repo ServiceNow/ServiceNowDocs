@@ -42,7 +42,7 @@ The default system language sets all users’ default session language. That us
 
 The following examples show how a conversational language can be impacted depending upon the language detection and dynamic translation settings:
 
-**Note:** If you create exclusion rules for Dynamic Translation, those excluded terms are honored during Dynamic Translation. For more information about the Exclusion Framework, see [Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dyn-translation-exclusion-framework.md).
+**Note:** If you create exclusion rules for Dynamic Translation, those excluded terms are honored during Dynamic Translation. For more information about the Exclusion Framework, see Exclusion Framework in Dynamic Translation.
 
 <table id="table_r24_xr4_ftb"><thead><tr><th>
 

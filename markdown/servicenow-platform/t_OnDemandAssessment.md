@@ -44,5 +44,5 @@ Select the assessable records to evaluate, create the categories and questions, 
 **Related topics**  
 
 
-[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Assessments.md)
+[Assessments]()
 

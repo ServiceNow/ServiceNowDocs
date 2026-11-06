@@ -18,6 +18,8 @@ Use ServiceNow AI Platform administration features to address the business needs
 
 -   **[Advanced AI Search Management Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/advanced-ai-search-management-tools-rn.md)**  
 The ServiceNow® Advanced AI Search Management Tools application helps AI Search administrators analyze search query traffic trends, review indexed record and configuration settings, and preview search query results. See the following sections for release notes by version.
+-   **[AI Search release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-search-rn.md)**  
+The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. See the following sections for release notes by version.
 -   **[Clone Admin Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/clone-admin-console-rn-static.md)**  
 The ServiceNow® Clone Admin Console application copies data and metadata from one ServiceNow instance to another ServiceNow instance to easily synchronize your instances.
 -   **[External Content Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/external-content-connectors-rn.md)**  

@@ -1,21 +1,21 @@
 ---
-title: Delete an IFL policy
-description: Permanently remove an identifier-first login \(IFL\) policy from the Policy-Based Login Experience console.
+title: Delete an identifier-first login policy
+description: Permanently remove an identifier-first login policy from the Authentication Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/delete-ifl-policy.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [delete IFL policy, remove authentication policy]
 breadcrumb: [Manage IFL policies, Use the IFL policies, Authentication Console, Authentication, Access Management]
 ---
 
-# Delete an IFL policy
+# Delete an identifier-first login policy
 
-Permanently remove an identifier-first login \(IFL\) policy from the Policy-Based Login Experience console.
+Permanently remove an identifier-first login policy from the Authentication Console.
 
 ## Before you begin
 
@@ -23,13 +23,13 @@ Role required: `user_authn_admin`
 
 ## About this task
 
-Deleting a policy permanently removes it. If you want to keep the policy but exclude it from evaluation, deactivate it instead. See [Activate or deactivate an IFL policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/activate-deactivate-ifl-policy.md).
+Deleting a policy permanently removes it. If you want to keep the policy but exclude it from evaluation, deactivate it instead. See [Activate or deactivate an identifier-first login policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/activate-deactivate-ifl-policy.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Authentication Console**.
 
-2.  Review the list of IFL policies.
+2.  Review the list of identifier-first login policies.
 
     The console lists each policy with its evaluation order and active status. The instance evaluates active policies in order and applies the first policy whose conditions match the user. For more information, see [Policy evaluation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/policy-evaluation-order.md).
 

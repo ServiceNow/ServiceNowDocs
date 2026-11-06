@@ -1,19 +1,19 @@
 ---
 title: Resolve tasks for AI assets in Employee Center
-description: Resolve the finding or request an exception from Employee Center AI posture findings.
+description: Resolve the finding or request an exception from Employee Center AI posture findings \(configuration issues\) directly through lightweight tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-management-employee-task.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-07"
+reading_time_minutes: 3
 keywords: [AI posture finding, AI Security Exposure Management, Employee Center, assignment rule, exception request]
 breadcrumb: [Using Employee Center AI asset remediation, AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
 ---
 
 # Resolve tasks for AI assets in Employee Center
 
-Resolve the finding or request an exception from Employee Center AI posture findings.
+Resolve the finding or request an exception from Employee Center AI posture findings \(configuration issues\) directly through lightweight tasks.
 
 ## Before you begin
 
@@ -21,25 +21,29 @@ The AI Security Exposure Management application and at least one AI posture-find
 
 Only the Zenity AI exposure integration is currently supported for import of AI posture findings.
 
-Roles required: sn\_vul.vulnerability\_admin, sn\_sec\_ai.vulnerability\_admin, admin
+You must have the following roles:
+
+-   sn\_vul.vulnerability\_admin, sn\_sec\_ai.vulnerability\_admin or admin
+-   sn\_vul\_cmn\_ws.read\_admin\_rules \(this granular role is included with the sn\_vul.vulnerability\_admin, sn\_sec\_ai.vulnerability\_admin and admin roles and is required for advanced settings access in the USEM workspace\)
+-   sn\_sec\_ai.config\_admin\_rules role \(this granular role is included with the sn\_vul.vulnerability\_admin, sn\_sec\_ai.vulnerability\_admin and admin roles and is required for access the AI SEM tab\)
 
 ## Procedure
 
-1.  To configure the workflow, navigate to the USEM workspace and select the administration module \(gear icon\).
+1.  To configure the workflow, navigate to the USEM \(Security Exposure Management\) workspace and select the administration module \(gear icon\).
 
 2.  Select the **Advanced settings** card.
-
-    This card is visible only if you have the sn\_vul.vulnerability\_admin, sn\_sec\_ai.vulnerability\_admin, or admin role.
 
 3.  In the left navigation, select **AI Security Exposure Management**.
 
 4.  Activate AI exposure tasks by configuring the following properties.
 
-    -   **sn\_sec\_ai.create\_employee\_tasks\_ai\_posture** - Toggle that enables the creation of employee tasks for AI posture findings.
-    -   **sn\_sec\_ai.employee\_task\_filter\_ai\_posture** - Filter that is evaluated against incoming posture findings.
-    Only the Zenity AI exposure integration is currently supported for import of AI posture findings.
+    -   **sn\_sec\_ai.create\_employee\_tasks\_ai\_posture** - Verify the check box is selected that automatically enables the creation of employee tasks for AI posture findings.
+    -   **sn\_sec\_ai.employee\_task\_filter\_ai\_posture** - Filter that is evaluated against incoming posture findings. Verify this is **Active** &gt; **is** &gt; **true** &gt; **.**
+    **Note:** Only the Zenity AI exposure integration is currently supported for import of AI posture findings.
 
-5.  Verify that AI posture findings are processed correctly.
+5.  Select **Save** if you've made any changes.
+
+6.  Verify that AI posture findings are processed correctly.
 
     When an AI posture finding is imported, the finding is checked against the filter in the **sn\_sec\_ai.employee\_task\_filter\_ai\_posture** property.
 
@@ -49,15 +53,15 @@ Roles required: sn\_vul.vulnerability\_admin, sn\_sec\_ai.vulnerability\_admin, 
 
     If you want to further limit which posture findings are eligible, you can update the sn\_sec\_ai.employee\_task\_filter\_ai\_posture system property. However, the admin role is required to update system properties.
 
-6.  As a user, navigate to Employee Center to review your assigned AI exposure tasks.
+7.  As a user, navigate to Employee Center to review your assigned AI exposure tasks.
 
-7.  Select **My Tasks**.
+8.  Select **My Tasks**.
 
-8.  Open the task associated with the posture finding.
+9.  Open the task associated with the posture finding.
 
-9.  Review the issue summary, the affected agent, tool, or prompt, the severity, the source tool, and the recommended remediation steps.
+10. Review the issue summary, the affected agent, tool, or prompt, the severity, the source tool, and the recommended remediation steps.
 
-10. Take action on the task by resolving the finding or requesting an exception.
+11. Take action on the task by resolving the finding or requesting an exception.
 
     -   To fix the issue yourself, correct the configuration in the source platform, such as Microsoft Copilot Studio, then select **Resolve** on the task.
     -   To request an exception instead, select **Request exception**, enter a justification in the **Justification** field, then submit the request.

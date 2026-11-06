@@ -22,7 +22,7 @@ Role required: activity\_creator or workflow\_admin
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-custom-activities.md).
+1.  Create a custom activity.
 
     This action creates a custom activity using a template.
 

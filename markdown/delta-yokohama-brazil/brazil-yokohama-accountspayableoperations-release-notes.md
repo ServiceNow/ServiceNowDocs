@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-accountspayableoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -676,6 +676,8 @@ Depending on your license, you will have access to certain application features,
 
  See [Accounts Payable Operations](https://www.servicenow.com/docs/access?context=acc-pay-mgmt-landing-page&family=australia&ft:locale=en-US) for more information.
 
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
+
 </td></tr><tr><td>
 
 Brazil
@@ -689,6 +691,8 @@ Brazil
 -   Synchronize invoice data with ERP systems through bidirectional integration for ingestion and posting.
 
  For an overview of Accounts Payable Operations capabilities, see [Accounts Payable Operations](https://www.servicenow.com/docs/access?context=acc-pay-mgmt-landing-page&family=brazil&ft:locale=en-US).
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

@@ -34,8 +34,8 @@ Explore the Certificate Authorities \(CA\) pattern API elements and permissions 
 A table of the fields and values to establish the IP address, range of IP addresses, or list of IP addresses for Certificate Discovery.
 -   **[IP-Based Discovery Schedule form and fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md)**  
 A table of the fields and values to set up an IP-based Certificate Discovery schedule.
--   **[Quick start test for Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/quick-start-tests-certificate-inventory-and-management.md)**  
-Quick start test for certificate discovery for GoDaddy, Entrust, Digicert, Setigo.
+-   **[Quick start tests for Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/quick-start-tests-certificate-inventory-and-management.md)**  
+Validate that Certificate Inventory and Management still works after you install the application or make a configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[Discovery schedule form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-schedule-form-table.md)**  
 To perform Discovery on root certificates stored outside your server, you must set a special Discovery schedule that locates these certificates. This table guides you through the form required for this task.
 -   **[Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/req-new-cert-form-table-fields.md)**  

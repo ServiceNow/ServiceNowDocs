@@ -7,7 +7,7 @@ release: brazil
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-23"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---

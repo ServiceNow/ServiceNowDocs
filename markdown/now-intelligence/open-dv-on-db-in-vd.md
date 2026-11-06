@@ -43,7 +43,7 @@ While working in the dashboard editor, you may find that you want to reconfigure
 
 ## What to do next
 
-Proceed to edit the data visualization as described in [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-dv-ac-center.md).
+Proceed to edit the data visualization as described in [Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-dv-ac-center.md).
 
 **Parent Topic:**[Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/editing-dv-in-line-db.md)
 

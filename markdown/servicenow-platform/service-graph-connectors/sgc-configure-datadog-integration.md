@@ -116,7 +116,7 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see .
 
     4.  Select **Update**.
 

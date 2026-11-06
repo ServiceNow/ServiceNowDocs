@@ -9,7 +9,7 @@ last_updated: "2026-09-09"
 reading_time_minutes: 6
 keywords: [supported metadata, app file types, autonomous engineer, business rules, client scripts, script includes, tables, flows, UI policies, ACLs, scripted REST APIs, scheduled jobs, UI actions, workspaces, service catalog, playbooks, data import pipeline, custom AI agents, ServiceNow Fluent]
 audience: developer
-breadcrumb: [Reference, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Reference, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Supported metadata in Autonomous Engineer
@@ -45,6 +45,14 @@ Application menus and modules
 </td><td>
 
 Application menus are the top-level categories in the application navigator sidebar. Modules are the individual links within those categories and can link to tables, URLs, lists, or other platform resources. When Build Agent or Autonomous Engineer creates a new application with tables, it generates the corresponding navigator structure so users can access the application from the sidebar.
+
+</td></tr><tr><td>
+
+Advanced Work Assignment configurations
+
+</td><td>
+
+Queue definitions, service channels, inbox layouts, assignment rules, presence states, and queue item sorting configurations for ServiceNow Fluent SDK support.
 
 </td></tr><tr><td>
 

@@ -29,15 +29,15 @@ The following plugins are installed with Predictive Intelligence for Major Incid
 -   Incident Management - Major Incident Management \(com.snc.incident.mim\)
 -   Predictive Intelligence for Incident Management \(com.snc.incident.ml\_solution\)
 
-On a non-production instance, you can install the plugin via the Application Manager.
+On a non-production instance, you can install the plugin through the Application Manager.
 
-The following procedure describes how to request the plugin via the Now Support Service Catalog for a production instance, if needed after subscription purchase.
+For a production instance, request the plugin through the Now Support Service Catalog after you purchase a subscription.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
+2.  Select **Request plugin** to open the Activate Plugin form on Now Support.
 
 3.  On the form, fill in the fields.
 
@@ -63,7 +63,7 @@ Plugin Name
 
 </td><td>
 
-Enter: `Predictive Intelligence for Major Incident Management (com.snc.incident.mim.ml_solution)`
+Name and ID of the plugin to request: `Predictive Intelligence for Major Incident Management (com.snc.incident.mim.ml_solution)`
 
 </td></tr><tr><td>
 

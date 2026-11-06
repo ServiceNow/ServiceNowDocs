@@ -85,7 +85,7 @@ Role required: admin or survey\_admin
 
 [Legacy survey migration]()
 
-[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SchedulePeriods.md)
+[Schedule periods]()
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduleEvents.md)
+[bundle-platadm.c_ScheduleEvents]
 

@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Collaboration, Administer, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Collaboration, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Customized app collaboration permissions in Creator Studio

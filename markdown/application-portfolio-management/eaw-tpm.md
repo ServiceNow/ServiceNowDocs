@@ -98,7 +98,7 @@ Hardware requires the Hardware Model reference on the Computer be populated.
 
 ## Update TLM Data for a business application or application service
 
-You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Lifecycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## View insights for technology life-cycle risks
 
@@ -110,7 +110,7 @@ You can track the technology lifecycle risk for business applications, applicati
 
     The data in the Technology lifecycle risks table is fetched from the TLM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table.
 
--   Execute the Populate Technology Lifecycle Risks scheduled job to generate the TLM technology lifecycle risks. This scheduled job populates the risk scores for business applications \(BA\), application services \(AS\), software products, and hardware models. The scores are calculated for a fiscal period of type month in the Technology lifecycle risks \(sn\_apm\_tpm\_technology\_risk\) table. For more details, see [Schedule a job to generate TPM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
+-   Execute the Populate Technology Lifecycle Risks scheduled job to generate the TLM technology lifecycle risks. This scheduled job populates the risk scores for business applications \(BA\), application services \(AS\), software products, and hardware models. The scores are calculated for a fiscal period of type month in the Technology lifecycle risks \(sn\_apm\_tpm\_technology\_risk\) table. For more details, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
 
 ## View TLM analysis run logs
 

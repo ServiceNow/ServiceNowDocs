@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/voice-to-form.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-27"
 reading_time_minutes: 1
 keywords: [voice to form, voice input]
 breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
@@ -30,6 +30,10 @@ The following languages are supported:
 -   Chinese
 -   Japanese
 -   Korean
+
+The following languages are supported:
+
+ar-SA, ca-ES, cs-CZ, da-DK, de-AT, de-CH, de-DE, el-GR, en-AE, en-AU, en-CA, en-GB, en-ID, en-IE, en-IN, en-NZ, en-PH, en-SA, en-SG, en-US, en-ZA, es-419, es-CL, es-CO, es-ES, es-MX, es-US, fi-FI, fr-BE, fr-CA, fr-CH, fr-FR, he-IL, hi-IN, hi-IN-translit, hi-Latn, hr-HR, hu-HU, id-ID, it-CH, it-IT, ja-JP, ko-KR, ms-MY, nb-NO, nl-BE, nl-NL, pl-PL, pt-BR, pt-PT, ro-RO, ru-RU, sk-SK, sv-SE, th-TH, tr-TR, uk-UA, vi-VN, wuu-CN, yue-CN, zh-CN, zh-HK, zh-TW.
 
 For reference fields, the system populates the field only when it finds an exact match to an existing record. If the match is partial or not found, the reference field is left empty.
 

@@ -1,26 +1,26 @@
 ---
 title: Migrate a blueprint to an SFDC-integrated destination
-description: Learn how to migrate a CPQ blueprint to a Salesforce-integrated CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections to ensure accurate data mapping and seamless integration between Salesforce and CPQ.
+description: Learn how to migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections to ensure accurate data mapping and seamless integration between Salesforce and ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-migrating-to-sfdc.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up blueprints, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Migrate a blueprint to an SFDC-integrated destination
 
-Learn how to migrate a CPQ blueprint to a Salesforce-integrated CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections to ensure accurate data mapping and seamless integration between Salesforce and CPQ.
+Learn how to migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections to ensure accurate data mapping and seamless integration between Salesforce and ServiceNow CPQ.
 
 ## Before you begin
 
 If necessary, perform the steps in [Migrate a blueprint from environment to environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-migrating-env-to-env.md).
 
-If necessary, install the CPQ Managed Package for Salesforce in the destination. For installation instructions, see [Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md).
+If necessary, install the ServiceNow CPQ Managed Package for Salesforce in the destination. For installation instructions, see [Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md).
 
-Ensure that the appropriate Salesforce users have access to CPQ.
+Ensure that the appropriate Salesforce users have access to ServiceNow CPQ.
 
 Role required: \(unknown\)
 
@@ -40,13 +40,13 @@ Role required: \(unknown\)
 
 2.  Add all other products from the old org that were referenced in any product rules.
 
-    Don’t forget to create pricebook entries for all your products! These records will be auto-replicated in our CPQ product cache every fifteen minutes. Wait at least fifteen minutes before continuing with the tests described below.
+    Don’t forget to create pricebook entries for all your products! These records will be auto-replicated in our ServiceNow CPQ product cache every fifteen minutes. Wait at least fifteen minutes before continuing with the tests described below.
 
 3.  Test the destination by walking through quote creation and configuration, and investigate and resolve any errors that you encounter.
 
 4.  Verify that external or SFDC API calls complete successfully and point to the right external system endpoints.
 
-    See External Connections setup in CPQ Admin.
+    See External Connections setup in ServiceNow CPQ Admin.
 
 
 ## What to do next

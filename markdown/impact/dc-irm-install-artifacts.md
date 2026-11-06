@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Review Governance, Risk, and Compliance artifacts

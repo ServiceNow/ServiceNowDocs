@@ -7,10 +7,10 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 5
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 keywords: [step-up authentication, AI voice agent, AI Voice Assistant Designer, caller verification]
-breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Step-up authentication
@@ -19,7 +19,7 @@ Step-up authentication requires a caller who is already authenticated to complet
 
 ## When to use step-up authentication
 
-Without step-up authentication, every caller is verified once at the start of the call and keeps the same level of access for the rest of it. The verification required at the start therefore has to be strong enough for the most sensitive request the caller might make later.
+Without step-up authentication, every caller is verified once at the start of the call and keeps the same level of access for the rest of it. The verification required at the start has to be strong enough for the most sensitive request the caller might make later.
 
 Step-up authentication separates the two. Callers complete a lighter verification to reach general requests, and complete an additional challenge only when the call reaches an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details.
 
@@ -27,7 +27,7 @@ Step-up authentication separates the two. Callers complete a lighter verificatio
 
 A caller must already be authenticated before step-up authentication can run. If the caller's first request reaches an AI voice agent that requires step-up authentication, the caller must first complete configured identification and authentication. The step-up challenge runs only after that authentication is complete.
 
-Step-up authentication behaves as follows:
+Step-up authentication behaves as follows.
 
 <table><thead><tr><th>
 
@@ -61,7 +61,7 @@ Factor reuse
 
 The first or second authentication factor can be selected again for step-up. A new challenge is issued.
 
- For example, if SMS OTP is the configured authentication factor and the step-up factor, the caller receives a new code during step up attempt. The earlier code is not reused.
+ For example, if SMS OTP is the configured authentication factor and the step-up factor, the caller receives a new code during the step-up attempt. The earlier code is not reused.
 
 </td></tr><tr><td>
 
@@ -92,16 +92,16 @@ System property
 
 Step-up authentication requires two settings, configured on different screens.
 
--   Which AI agents require step-up authentication is set in the **Access rules** section of AI Agent Studio. Step-up authentication is set per agent, in the Access rules section of AI Agent Studio, where agents are configured and built. For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
+-   Which AI agents require step-up authentication is set per agent, in the **Access rules** section of AI Agent Studio. For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
 -   Which factor callers use for step-up authentication is set on the **Caller verification** screen in AI Voice Assistant Designer. For more information, see [Configure step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-step-up-authentication.md).
 
 If an AI voice agent requires step-up authentication and no step-up factor is selected for the voice assistant, callers reaching that agent are directed to the configured fallback method.
 
 ## Supported factors
 
--   Okta Verify push notification
--   SMS verification code
--   Authenticator app time-based One Time Password \(TOTP\)
+-   Push notification - Okta Verify
+-   SMS One-time passcode \(OTP\)
+-   Time-based one-time password \(TOTP\)
 
 **Note:** Knowledge-based authentication \(KBA\), Soft PIN, and Email one-time password \(OTP\) aren't supported for step-up authentication.
 
@@ -118,8 +118,8 @@ The following examples show how the three can be combined.
 
 |Example|First factor|Second factor|Step-up factor|What the caller experiences|
 |-------|------------|-------------|--------------|---------------------------|
-|A different factor at each step|Soft PIN|SMS verification code|Okta Verify push notification|The caller completes the step-up challenge with an Okta Verify push notification after reaching an AI voice agent that requires it.|
-|The same factor reused for step-up authentication|SMS verification code|Okta Verify push notification|SMS verification code|The caller receives a new verification code rather than reusing the code sent earlier in the call.|
+|A different factor at each step|Soft PIN|SMS One-time passcode \(OTP\)|Push notification - Okta Verify|The caller completes the step-up challenge with a Push notification - Okta Verify after reaching an AI voice agent that requires it.|
+|The same factor reused for step-up authentication|Soft PIN|SMS One-time passcode \(OTP\)|SMS One-time passcode \(OTP\)|The caller receives a new verification code rather than reusing the code sent earlier in the call.|
 
 ## Limitations
 

@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin or itil\_admin
 
 For information about policy-based, large scale automated CI deletions, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
-**Note:** You can't delete base system tables. For information about deleting custom tables, see [Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DeleteATable.md).
+**Note:** You can't delete base system tables. For information about deleting custom tables, see .
 
 ## Procedure
 

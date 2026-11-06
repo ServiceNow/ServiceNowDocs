@@ -1,5 +1,5 @@
 ---
-title: Define a Product Model for License and Permit Playbook
+title: Define a Product Model for License and Permit Administration
 description: A product model record is required in a license/permit case application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-define-product-model-lp.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Define a Product Model for License and Permit Playbook
+# Define a Product Model for License and Permit Administration
 
 A product model record is required in a license/permit case application.
 

@@ -1,6 +1,6 @@
 ---
-title: Tables installed with Service Request Playbook
-description: This section describes the tables installed with the Service Request Playbook application and shows how they store and manage information.
+title: Tables installed with Service Request Administration
+description: This section describes the tables installed with the Service Request Administration application and shows how they store and manage information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-sr-playbook-tables.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Service Request, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Tables installed with Service Request Playbook
+# Tables installed with Service Request Administration
 
-This section describes the tables installed with the Service Request Playbook application and shows how they store and manage information.
+This section describes the tables installed with the Service Request Administration application and shows how they store and manage information.
 
 ## Service Request tables installed
 

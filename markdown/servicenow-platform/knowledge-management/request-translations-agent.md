@@ -59,5 +59,5 @@ The translation task is created for the article in the selected languages and as
 
 [Create translation assignments for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-translation-assignments.md)
 
-[Translate a knowledge article from a translation task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/translate-article-agent.md)
+[Translate a knowledge article from a translation task in Agent Workspace]()
 

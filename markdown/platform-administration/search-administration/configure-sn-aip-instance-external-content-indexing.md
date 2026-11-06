@@ -1,5 +1,5 @@
 ---
-title: Configure your ServiceNow AI Platform instance for external content indexing
+title: Configure your ServiceNow AI Platform source instance for external content indexing
 description: Create and configure a non-interactive service user account on your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.html
@@ -7,13 +7,13 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-28"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow instance external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Configure your ServiceNow AI Platform instance for external content indexing
+# Configure your ServiceNow AI Platform source instance for external content indexing
 
 Create and configure a non-interactive service user account on your ServiceNow AI Platform® source instance to allow access by the ServiceNow instance external content connector.
 
@@ -25,7 +25,7 @@ Role required: admin and security\_admin
 
 ## About this task
 
-The ServiceNow instance external content connector retrieves KB articles and security principals from a ServiceNow AI Platform instance. To allow the external content connector to access this content, you need to configure a non-interactive service user account that the connector will use when running document and user mapping crawls.
+The ServiceNow instance external content connector retrieves searchable content and security principals from a remote ServiceNow AI Platform instance. Content retrieved includes the remote instance's KB article, Service Catalog item, and incident records, plus attachments on those records. To grant the external content connector access to this content, you must configure a non-interactive service user account that the connector will use when running document and user mapping crawls.
 
 Perform all of these steps on the ServiceNow AI Platform instance that you want the external content connector to retrieve searchable content and metadata from. This is your source instance. The instance where the connector runs and populates search applications with the retrieved data is your destination instance.
 

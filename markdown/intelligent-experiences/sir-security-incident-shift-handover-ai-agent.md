@@ -112,7 +112,7 @@ Used in agentic workflows
 Generate SIR Shift Handover Report
 
 </td></tr></tbody>
-</table>Learn more about Security Incident Response at .
+</table>Learn more about Security Incident Response at [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sir-landing-page.md).
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sir-ai-agents-overview.md)
 

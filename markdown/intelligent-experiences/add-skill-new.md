@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-skill-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -20,7 +20,7 @@ If you want to add a custom skill to an AI agent, the skill must be published an
 
 When an AI agent uses a skill as a tool, the user the AI agent is running as must pass the ACL of the skill. Ensure that the security configurations for the skill are met by the AI agent and agentic workflow. For more information on setting skill-level ACLs, see [Configure access control lists for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 
-Access failures at run time rather than on save. Tool calls fail and the trace log records an access error against the tool, not a configuration warning. When a tool fails for some users and not others, compare the invoking user roles against the ACL of the underlying skill first. If you [manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-asset-new.md), it will flag access issues by the invoking user if there are any.
+Access failures happen at run time, not on save. Tool calls fail, and the trace log records an access error against the tool rather than a configuration warning. Tool calls fail and the trace log records an access error against the tool, not a configuration warning. When a tool fails for some users and not others, compare the invoking user roles against the ACL of the underlying skill first. If you [manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-asset-new.md), it will flag access issues by the invoking user if there are any.
 
 Role required: sn\_aia.admin
 

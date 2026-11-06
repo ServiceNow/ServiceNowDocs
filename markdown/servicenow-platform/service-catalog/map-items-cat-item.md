@@ -61,5 +61,5 @@ You cannot specify these types of items as related items for a catalog item.
 **Related topics**  
 
 
-[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/map-related-articles.md)
+[Map related articles]()
 

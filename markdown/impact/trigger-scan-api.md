@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 5
 keywords: [scan, API, POST, trigger]
-breadcrumb: [Scan Engine Headless REST API, Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan Engine Headless REST API, Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Trigger a scan via API
@@ -195,6 +195,4 @@ A scan is now running on your target. The API returned a scan result ID that you
 ## What to do next
 
 After triggering a scan, monitor its progress by polling the status endpoint. See [Check scan status and retrieve findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/check-scan-status-retrieve-findings.md) for details.
-
-**Parent Topic:**[Scan Engine Headless REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-headless-api-overview.md)
 

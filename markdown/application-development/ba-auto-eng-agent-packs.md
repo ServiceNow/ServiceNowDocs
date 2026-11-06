@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-auto-eng-agent-packs.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-08"
+last_updated: "2026-10-19"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, agent packs, Autonomous Engineer, Build Agent, implementation, ServiceNow products, ATF tests, run server side step, ATF list steps]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agent packs for Autonomous Engineer
@@ -36,8 +36,10 @@ For details on using agent packs to implement ServiceNow products and applicatio
 
 Agent packs are available in the Brazil EA \(Patch 0\) release:
 
--   The Planning pack, which parses requirements and interviews you for clarity, applies ServiceNow best practices, and generates a structured plan of work items.
+-   The Planning pack, which parses requirements, interviews you to resolve unclear details, applies implementation guidelines for ServiceNow products, and generates a structured plan of work items.
 -   The Platform development pack, which provides domain knowledge for implementing custom applications on your instance. The Platform development pack gives Autonomous Engineer awareness of platform tables, roles, and configuration patterns specific to custom app development. The awareness helps generated work items and artifacts align with standard platform conventions.
+
+During planning, Autonomous Engineer asks structured questions to gather requirements. Each question can include a default value and alternative answers. When your answers meet a deviation condition, the pack asks follow-up questions before it generates the plan.
 
 Agent packs are specific to ServiceNow products. Autonomous Engineer applies instance awareness and your requirements to generate the plan without product-specific domain knowledge.
 

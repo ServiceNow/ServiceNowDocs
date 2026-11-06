@@ -50,7 +50,7 @@ Cart integrator
 
 </td><td>
 
-Controls access to the cart records, separately from the access control on the REST endpoints. This role is installed and used only when you have configured a CPQ instance with Sales CRM.
+Controls access to the cart records, separately from the access control on the REST endpoints. This role is installed and used only when you have configured a ServiceNow CPQ instance with Sales CRM.
 
 </td><td>
 

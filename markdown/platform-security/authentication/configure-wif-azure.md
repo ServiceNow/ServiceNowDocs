@@ -7,10 +7,10 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [Workload Identity Federation, Microsoft Azure, Microsoft Entra, federated credential, subject identifier]
-breadcrumb: [Workload Identity Federation, OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Workload Identity Federation, OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure Workload Identity Federation for Microsoft Azure
@@ -45,11 +45,11 @@ This task uses the Workload Identity Federation fast-configuration UI. The UI cr
 
     |Field|Description|
     |-----|-----------|
-    |**Connection Name**|A unique name for this Workload Identity connection. Required.|
-    |**Application \(Client\) ID**|The Application \(Client\) ID of your Azure app registration. Required.|
-    |**Directory \(Tenant\) ID**|The Directory \(Tenant\) ID of your Azure app registration. Required.|
-    |**Subject to send in the token**|The subject identifier sent in the JWT. This value must exactly match the Subject in your Azure federated credential. A mismatch causes silent authentication failure. Required.|
-    |**Azure URL Override**|Optional. An override for the Azure token endpoint URL. Leave empty to use the default Azure endpoint.|
+    |Connection Name|A unique name for this Workload Identity connection.|
+    |Application \(Client\) ID|The Application \(Client\) ID of your Azure app registration.|
+    |Directory \(Tenant\) ID|The Directory \(Tenant\) ID of your Azure app registration.|
+    |Subject to send in the token|The subject identifier sent in the JWT. This value must exactly match the Subject in your Azure federated credential. A mismatch causes silent authentication failure.|
+    |Azure URL Override|An override for the Azure token endpoint URL. Leave empty to use the default Azure endpoint.|
 
 5.  Select **Submit**.
 

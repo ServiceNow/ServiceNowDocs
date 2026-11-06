@@ -20,7 +20,15 @@ The Digital Product Release Workspace provides a single location for release adm
 
 The following users can use the Digital Product Release Workspace. The workspace is personalized for different roles.
 
-<table id="table_cdy_h3z_qqb"><tbody><tr><td>
+<table id="table_cdy_h3z_qqb"><thead><tr><th>
+
+Persona
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
 
 Release manager
 

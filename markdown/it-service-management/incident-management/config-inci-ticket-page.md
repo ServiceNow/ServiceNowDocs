@@ -1,6 +1,6 @@
 ---
 title: Configure incident ticket page
-description: Configure the Incident ticket page from where users can view the details of an Incident in Service Portal.
+description: Configure the incident ticket page where users view incident details in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/config-inci-ticket-page.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Incident standard ticket page, Managing incidents, Incident Managem
 
 # Configure incident ticket page
 
-Configure the Incident ticket page from where users can view the details of an Incident in Service Portal.
+Configure the incident ticket page where users view incident details in Service Portal.
 
 ## Before you begin
 
@@ -66,7 +66,7 @@ State field
 
 </td><td>
 
-Any field of the task-extended table. By default, this field is mapped to the **State** field of the task-extended table. You have to configure the form to add this field.**Note:** You cannot add fields for any of the following information:
+Any field of the task-extended table. By default, this field is mapped to the **State** field of the task-extended table. Configure the form to add this field.**Note:** You cannot add fields for any of the following information:
 
 -   Number
 -   Short description
@@ -161,7 +161,7 @@ Comma-separated list of action widget parameters.**Note:** Use the same `key=val
     -   You can add only one of these tab types:
         -   Variable Editor \(Read-Only\)
         -   Variable Summarizer
-4.  Select and hold \(or right-click\) the header menu and select **Save**.
+4.  Select the Additional Action icon \[Omitted image "additional-actions.png"\] Alt text: and then select **Save**.
 
 5.  On the Tab Configurations related list, configure the fields.
 

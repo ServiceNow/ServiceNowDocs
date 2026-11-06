@@ -22,12 +22,12 @@ After configuring the EA MCP server, connect it to an AI assistant so the assist
 
     \[Omitted image "mcp-for-ea-active-state.png"\] Alt text: MCP Server Console showing the EA MCP Server card with an Active status indicator.
 
--   Confirm that the MCP for EA tools are enabled on your instance by navigating to **All** &gt; **MCP Server Console** &gt; **Tools**. To see which operations a tool can perform, open the tool and view its **Annotations** field. For example, the readOnlyHint annotation indicates that the tool only retrieves data.
+-   Confirm that the MCP for EA tools are enabled on your instance by navigating to **All** &gt; **MCP Server Console** &gt; **Tools**. To see which operations a tool can perform, open the tool and view its **Annotations** field. For example, the **readOnlyHint** annotation indicates that the tool only retrieves data.
 
     \[Omitted image "mcp-for-ea-tools-status.png"\] Alt text: Tools list in MCP Server Console with the Active column highlighted, showing EA MCP tools set to true.
 
 
-Role required: admin or sn\_mcp\_server.admin
+Role required: sn\_mcp\_server.admin or admin
 
 ## Procedure
 
@@ -37,8 +37,8 @@ Role required: admin or sn\_mcp\_server.admin
 
     Use the following values when configuring the connection:
 
-    -   **Server URL:** `https://*instance*.service-now.com/sncapps/mcp-server/mcp/sn_ea_mcp_server_ea_mcp_server`, where *instance* is your ServiceNow instance name.
-    -   **Connection method:** `npx mcp-remote` with Bearer token authentication.
+    -   **Server URL**: `https://*instance*.service-now.com/sncapps/mcp-server/mcp/sn_ea_mcp_server_ea_mcp_server`, where *instance* is your ServiceNow instance name.
+    -   **Connection method**: `npx mcp-remote` with Bearer token authentication.
     **Note:** If you're using Claude Desktop, add an entry with the key `sn-gen-ai-ea` to your MCP server configuration file and set the `command` to `npx`.
 
 

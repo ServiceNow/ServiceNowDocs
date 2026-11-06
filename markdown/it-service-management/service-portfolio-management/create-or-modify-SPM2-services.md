@@ -7,7 +7,7 @@ release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-20"
 reading_time_minutes: 3
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -88,7 +88,7 @@ Short Description
 
 </td><td>
 
-Type of service. Available values are: **Business Service**, **Technical Service**, and **Application Service**.
+Short description of the service.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Relationship manager for this service.
 
 </td></tr><tr><td colspan="2">
 
-**Important:** The following two fields only appear if you're using the deprecated Service Owner Workspace plugin. For more information on the deprecation of Service Owner Workspace, see .
+**Important:** The following two fields only appear if you're using the deprecated Service Owner Workspace plugin.
 
 </td></tr><tr><td>
 

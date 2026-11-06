@@ -9,7 +9,7 @@ classification: form-builder-glide-family-release
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with data, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit table properties in Table Builder

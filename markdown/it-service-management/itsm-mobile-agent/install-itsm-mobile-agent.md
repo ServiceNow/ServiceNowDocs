@@ -1,6 +1,6 @@
 ---
 title: Install ITSM Mobile Agent
-description: You can install the ITSM Mobile Agent application \(sn\_itsm\_mobile\_agt\) if you have the admin role. The application installs related plugins if they are not already installed.
+description: Install the ITSM Mobile Agent application \(sn\_itsm\_mobile\_agt\) if you have the admin role. The application installs related plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/install-itsm-mobile-agent.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Manage
 
 # Install ITSM Mobile Agent
 
-You can install the ITSM Mobile Agent application \(sn\_itsm\_mobile\_agt\) if you have the admin role. The application installs related plugins if they are not already installed.
+Install the ITSM Mobile Agent application \(sn\_itsm\_mobile\_agt\) if you have the admin role. The application installs related plugins if they are not already installed.
 
 ## Before you begin
 

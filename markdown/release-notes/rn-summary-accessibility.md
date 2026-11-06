@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 7
+last_updated: "2026-11-04"
+reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -109,35 +109,11 @@ Accessibility improvements were completed across the Cloud Cost Management Works
 
 </td></tr><tr><td>
 
-Data Privacy and Discovery
-
-</td><td>
-
--   ****
-    -   All user interface elements in Data Privacy and Data Discovery meet WCAG 2.1 Level AA standards for accessibility. The Store apps and all workflows are fully navigable by keyboard and compatible with screen readers including JAWS and NVDA.
-    -   Screen reader support includes proper ARIA labels for all UI components including policy configuration, findings inspection, and job management interfaces.
-    -   Color contrast ratios meet WCAG AA standards across all features and workflows.
-    -   For accessibility questions or to report accessibility issues, contact ServiceNow Support.
-
-</td></tr><tr><td>
-
 Digital End-User Experience
 
 </td><td>
 
 Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
-
-</td></tr><tr><td>
-
-Domain Separation
-
-</td><td>
-
--   ****
-    -   All user interface elements in Domain Separation meet WCAG 2.1 Level AA standards for accessibility. The administration console and all configuration workflows are fully navigable by keyboard and compatible with screen readers including JAWS and NVDA.
-    -   Screen reader support includes proper ARIA labels for all UI components including domain policy configuration, access control settings, and cross-domain restriction interfaces.
-    -   Color contrast ratios meet WCAG AA standards across all features and workflows.
-    -   For accessibility questions or to report accessibility issues, contact ServiceNow Support.
 
 </td></tr><tr><td>
 

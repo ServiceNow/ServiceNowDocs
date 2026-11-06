@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-14"
 reading_time_minutes: 2
-breadcrumb: [Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # AI-led software development life cycle \(SDLC\) on the ServiceNow AI Platform
@@ -49,4 +49,6 @@ Together, these components carry an application through the stages of the SDLC:
 
 
 For the full walkthrough of this model, see the [SDLC on ServiceNow](https://servicenow.github.io/sdk/guides/sdlc-guide).
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-vibe-coding.md)
 

@@ -46,7 +46,7 @@ By default, the search results page displays the total number of search results 
 
     The system displays an informational message indicating that you are editing in the application scope.
 
-6.  On the configuration panel's Config tab, enable the **Hide search results count** option.
+6.  On the configuration panel's **Config** tab, enable the **Hide search results count** option.
 
 7.  Select **Save**.
 

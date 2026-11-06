@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-aw-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-05"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
 breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -30,7 +30,7 @@ An agentic workflow uses the AI Agent Orchestrator to coordinate agents, delegat
 
 2.  Select **Create new agentic solution**, then select **New agentic workflow for a process**.
 
-3.  In the New Agentic Workflow pop-up window, describe your agentic workflow and select **Next**.
+3.  In the new agentic workflow pop-up window, describe your agentic workflow and select **Next**.
 
     Alternatively, you can select **Skip** to open a new agentic workflow form.
 
@@ -70,7 +70,7 @@ An agentic workflow uses the AI Agent Orchestrator to coordinate agents, delegat
 
 11. [Determine how and where users can engage with your agentic workflow and set the processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md).
 
-    Agentic workflows can be invoked through Virtual Agent assistants, UI actions, or both. You can configure how the workflow communicates its progress to users.
+    Agentic workflows can be invoked through ServiceNow Otto assistants, UI actions, or both. You can configure how the workflow communicates its progress to users.
 
 12. Select **Save** to save your changes.
 

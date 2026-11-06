@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building applications]
+breadcrumb: [Classic app development, Building applications]
 ---
 
 # Developing your application
@@ -124,7 +124,7 @@ Build apps smarter and deliver them faster with the new ServiceNow Studio. Servi
 
 ## Develop in sandbox environments
 
-Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes help enhance Git-based workflows of the software development life cycle by reducing conflicts and enabling faster time to production.
+Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes are temporary because they drift from the base instance configuration the longer they exist. Sandboxes support Git-based workflows of the software development life cycle and help reduce conflicts.
 
 ## Builder library
 

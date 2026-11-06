@@ -18,7 +18,7 @@ The ServiceNow® Service Portal application enables you to build mobile-friendly
 
 -   **[Enable identifier-first login in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/identifier-first-login-service-portal.md)**
 
-    Use an identifier-first login \(IFL\) authentication method in Service Portal where the authentication path is determined by the username or email entered, and evaluated against configured IFL policies.
+    Use an identifier-first login authentication method in Service Portal where the authentication path is determined by the username or email entered, and evaluated against configured identifier-first login policies.
 
 
 **Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-ui-rn-landing.md)

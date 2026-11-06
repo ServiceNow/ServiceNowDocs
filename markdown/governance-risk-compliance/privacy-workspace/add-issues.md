@@ -32,15 +32,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 5.  Select the Issues related list and do one of the following.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d103499e102">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d103998e102">
 
 Option
 
-</th><th align="left" id="d103499e105">
+</th><th align="left" id="d103998e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103499e111">
+</th></tr></thead><tbody><tr><td id="d103998e111">
 
 **To add an existing issue**
 
@@ -51,7 +51,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d103499e137">
+</td></tr><tr><td id="d103998e137">
 
 **To create an issue**
 

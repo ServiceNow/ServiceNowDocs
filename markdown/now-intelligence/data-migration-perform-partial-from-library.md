@@ -38,7 +38,7 @@ The **Ready to migrate** column can show one of four values:
 -   **Yes** — the dashboard is ready to migrate.
 -   **No** — the dashboard isn't ready to migrate yet. If you edit a dashboard that was previously marked **Yes**, its value changes back to **No** until it's reevaluated.
 -   **Already migrated** — the dashboard is ready to migrate and an active Next Experience version of it already exists.
--   **Not applicable** — the dashboard isn't a Core UI dashboard, or it's already in Next Experience.
+-   **Not applicable** — the dashboard was created in Next Experience directly and has no Core UI version to migrate from.
 
 You can migrate a Core UI dashboard from the library again as long as it's still the active Core UI version.
 

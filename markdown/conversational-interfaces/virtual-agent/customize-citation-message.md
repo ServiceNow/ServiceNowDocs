@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Customize citation message

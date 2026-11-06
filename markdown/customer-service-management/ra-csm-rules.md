@@ -14,6 +14,8 @@ breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement I
 
 A rule is a set of conditions that applies to a context. A rule shows recommendations to agents with certain roles for records that meet certain conditions.
 
+\[Omitted image "ra-rule.png"\] Alt text: Rule form in Recommended actions
+
 Creating a rule includes the following steps:
 
 -   Selecting the user roles that can see the recommendations associated with the rule.

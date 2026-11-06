@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Old Inbound integrations experience, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth OIDC provider for accepting third-party token
@@ -111,7 +111,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **Iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To learn more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/client-type.md).
+To learn more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -130,7 +130,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 6.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d283487e308">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d285020e308">
 
 **Automatically provision users**
 
@@ -138,7 +138,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d283487e317">
+</td></tr><tr><td id="d285020e317">
 
 **Provision data source**
 
@@ -146,7 +146,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d283487e338">
+</td></tr><tr><td id="d285020e338">
 
 **User roles applied to provisioned users**
 

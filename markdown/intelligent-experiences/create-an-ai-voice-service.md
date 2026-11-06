@@ -126,7 +126,7 @@ Instructions that tell the assistant how to handle specific situations and topic
         -   Ukrainian
         -   Malay
         -   Canadian English
-        See  for more information.
+        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/multi-lingual-support-for-voice-assistants.md) for more information.
 
     2.  Enter an **Opening message** for callers to hear when the call starts.
 
@@ -242,7 +242,7 @@ Knowledge-based authentication \(KBA\)
 
 </td><td>
 
-Verifies the caller using preconfigured security questions, or questions that you configure at the platform level using internal records or external sources. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/knowledge-based-authentication.md) for more information.
+Verifies the caller using preconfigured security questions, or questions that you configure at the platform level using internal records or external sources. See [Knowledge-based authentication \(security questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/knowledge-based-authentication.md) for more information.
 
 </td><td>
 
@@ -266,7 +266,7 @@ SMS verification code
 
 </td><td>
 
-Sends a one-time numeric code via SMS to the caller’s registered phone number. See [SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sms-otp-authentication.md) for more information.
+Sends a one-time numeric code via SMS to the caller’s registered phone number. See [SMS one-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sms-otp-authentication.md) for more information.
 
 </td><td>
 
@@ -302,7 +302,7 @@ Email one-time password \(OTP\)
 
 </td><td>
 
-Sends a one-time code to the caller’s configured email address. See [Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/email-otp-authentication.md) for more information.
+Sends a one-time code to the caller’s configured email address. See [Email one-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/email-otp-authentication.md) for more information.
 
 </td><td>
 

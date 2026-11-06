@@ -68,5 +68,5 @@ Specifies a processing hint.Format is **sysparm\_processing\_hint**=setfield:req
 **Related topics**  
 
 
-[Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-request-from-incident.md)
+[bundle-itsm.create-request-from-incident]
 

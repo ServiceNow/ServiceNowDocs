@@ -7,7 +7,7 @@ release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Default data privacy configurations, Data Privacy, Platform Privacy]
 ---
@@ -18,13 +18,10 @@ The Vault by Default data discovery job automatically runs on ServiceNow instanc
 
 The default initiative removes setup barriers by introducing an automatic data discovery job that runs out-of-the-box on all trial and licensed Vault instances. This job scans the three primary sources of accidental PII exposure on the ServiceNow platform and delivers findings directly to administrators.
 
-The data discovery job addresses a critical adoption challenge: most trial customers and new licensed customers never complete the setup process required to run their first data discovery scan. By automating the first scan and delivering immediate results, Vault by Default accelerates time-to-value and dramatically improves trial-to-paid conversion rates.
-
 ## Sample scan type specifications
 
 The Sample scan type is a specialized discovery job scan type that is:
 
--   **Automatic and hidden:** Not available for manual selection in the UI—used only by the default discovery job
 -   **Bounded:** Scans only the first 1,000 records OR records from the last 30 days \(whichever limit is reached first\)
 -   **Performance optimized:** Designed to complete quickly on instances of any size without performance impact
 -   **Pre-configured:** Includes predefined patterns for journal fields, free text fields, and OOTB regex patterns for common PII types
@@ -54,9 +51,7 @@ Customers can customize this policy or create additional discovery jobs with dif
 
 ## Limitations and considerations
 
--   **Scan scope limitation:** The Sample scan type limits results to 1,000 records or 30 days—not a comprehensive inventory of all sensitive data on the instance
 -   **Pattern accuracy:** OOTB regex patterns may have false positives or false negatives depending on data format and specificity
 -   **Non-configurable timing:** The default discovery job runs automatically on a fixed schedule; administrators cannot manually trigger the initial job
--   **Limited control:** The default job cannot be disabled by end users—it runs for all trial and licensed customers
--   **Email notifications:** Email service for job completion is handled separately by the Vault team; this feature does not include email notifications
+-   **Email notifications:** The Sensitive Data Visibility report is sent to users with `admin` and `data_discovery_admin` roles. It provides a summary of sensitive data in the free text and journal fields across the scanned tables and columns
 

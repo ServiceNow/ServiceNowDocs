@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-deal-registration-management.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
@@ -132,7 +132,7 @@ B2B deal registration agent \(sn\_prm\_dr.enterprise\_b2b\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2B deals into opportunities.A B2B deal registration agent can manage the full life cycle for B2B deal registrations.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see 
 
 </td><td>
 
@@ -146,7 +146,7 @@ B2C deal registration agent \(sn\_prm\_dr.enterprise\_b2c\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2C deals into opportunities.A B2C deal registration agent can manage the full life cycle for B2C deal registrations.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see 
 
 </td><td>
 
@@ -160,7 +160,7 @@ Deal registration agent \(sn\_prm\_dr.enterprise\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert any deal registration into an opportunity. A deal registration agent can manage the full life cycle of submitted deal registrations, both B2B and B2C.
 
-To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/update-deal-registration-record.md)
+To learn more about converting deals to opportunities, see 
 
 </td><td>
 
@@ -249,7 +249,7 @@ Partner data viewer \(sn\_prm.partner\_data\_viewer\)
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

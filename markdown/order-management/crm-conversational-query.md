@@ -1,6 +1,6 @@
 ---
 title: CRM conversational query
-description: CRM conversational query is an AI agent embedded in ServiceNow Otto. You can ask questions and issue commands in plain language and the agent performs the action without you opening a form.
+description: CRM conversational query is an AI agent in ServiceNow Otto that retrieves, updates, and creates CRM records from plain-language requests without opening a form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/crm-conversational-query.html
 release: brazil
@@ -12,17 +12,17 @@ breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Cus
 
 # CRM conversational query
 
-CRM conversational query is an AI agent embedded in ServiceNow Otto. You can ask questions and issue commands in plain language and the agent performs the action without you opening a form.
+CRM conversational query is an AI agent in ServiceNow Otto that retrieves, updates, and creates CRM records from plain-language requests without opening a form.
 
-The agent is accessible through the following ways:
+You can access the agent in the following ways:
 
--   ServiceNow Otto panel: available on the CRM home page.
--   MCP client \(for example, Claude\): through the Sales CRM MCP server published in Sales common. For information on how to connect to an MCP server from an MCP client, refer [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
+-   ServiceNow Otto panel: from the CRM home page.
+-   Model Context Protocol \(MCP\) client \(for example, Claude\): through the Sales CRM MCP server. This server is preconfigured and appears as **Sales CRM** in MCP Server Console. It's installed automatically with the Sales Common plugin when you install a Sales CRM application, such as Opportunity Management or Lead Management. You don't have to create a server or add tools. For information about connecting an MCP client to the server, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md). For information about connecting an MCP client to the Sales CRM MCP server, see .
 
 The agent supports the following operations on opportunity records and related entities, including contacts, tasks, touchpoints, meetings, line items, and competitors:
 
 -   Retrieve: view pipeline snapshots, opportunity details, tasks, touchpoints, contacts, accounts, and opportunity lines.
--   Update: change field values on opportunities and related records. Multi-field updates and relative date expressions such as "end of next month" are supported.
+-   Update: change field values on opportunities and related records. You can update multiple fields in one request and use relative dates, such as "end of next month".
 -   Create: add opportunities, contacts, tasks, touchpoints, and competitors.
 
 **Related topics**  

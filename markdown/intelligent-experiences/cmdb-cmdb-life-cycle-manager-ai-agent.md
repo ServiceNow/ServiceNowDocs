@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cmdb-cm
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -18,10 +18,9 @@ Performs actions related to the lifecycle management of configuration item \(CI\
 
 The agent helps users complete tasks related to CMDB life cycle manager.
 
-1.  If you have done it before, skip to step 2.
-2.  Ask the user whether they want to check the life cycle policies for all principal classes or just for specific ones.
-3.  Check if the selected CI classes have life cycle policies.
-4.  Inform the user that they have completed the step of managing life cycle policies.
+1.  Ask the user whether they want to check the life cycle policies for all principal classes or just for specific ones.
+2.  Check if the selected CI classes have life cycle policies.
+3.  Inform the user that they have completed the step of managing life cycle policies.
 
 <table><thead><tr><th>
 
@@ -74,7 +73,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_cmdb\_admin, snc\_internal
+sn\_cmdb\_admin
 
 </td></tr><tr><td>
 

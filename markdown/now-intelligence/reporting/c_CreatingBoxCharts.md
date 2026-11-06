@@ -8,13 +8,15 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 11
-breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+reading_time_minutes: 12
+breadcrumb: [Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Box reports
 
 Box reports, also called box plots, visualize the distribution of data including the maximum, minimum, quartiles, median, and mean.
+
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 Use box charts to report multiple data sets from different sources that are related to each other.
 
@@ -47,17 +49,21 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ### About this task
 
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
+
 Box reports enable you to show data organized by statistical averages.
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d156528e239">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d156835e301">
 
 **Data source**
 
@@ -65,7 +71,7 @@ Box reports enable you to show data organized by statistical averages.
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d156528e258">
+</td></tr><tr><td id="d156835e320">
 
 **Table**
 
@@ -73,7 +79,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name.For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md).
 
-</td></tr><tr><td id="d156528e277">
+</td></tr><tr><td id="d156835e339">
 
 **External import**
 
@@ -81,7 +87,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d156528e302">
+</td></tr><tr><td id="d156835e364">
 
 **MetricBase**
 

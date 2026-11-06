@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
 last_updated: "2026-09-30"
-reading_time_minutes: 7
+reading_time_minutes: 9
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planni
 
 Breaking down a target into smaller periods \(for example, Monthly\) helps you set a target value for each month and focus on that specific monthly target. The target breakdowns are automatically created based on the Check-in frequency and Target value distribution set for the target.
 
-The check-in frequency for a target can be set to Daily, Weekly, Monthly, Quarterly, or Yearly. Based on the Check-in frequency of the target, the corresponding target breakdowns are created. For example, if the Check-in frequency is set to Monthly for a target spanning for a year, 12 monthly target breakdowns are created. Planned target values are automatically set for each target breakdown based on the Target value distribution setting of the target.
+The check-in frequency for a target can be set to Daily, Weekly, Monthly, Quarterly, Yearly, or Period \(fiscal mode only\). Based on the Check-in frequency of the target, the corresponding target breakdowns are created. For example, if the Check-in frequency is set to Monthly for a target spanning for a year, 12 monthly target breakdowns are created. Planned target values are automatically set for each target breakdown based on the Target value distribution setting of the target.
 
 **Note:** The target breakdowns feature isn’t supported for qualitative targets.
 
@@ -104,4 +104,12 @@ When the check-in frequency is set to None for a target, the actual value must b
 ## Target breakdowns in target automation
 
 If you’ve enabled the target automation feature for a target and set the check-in frequency and Target value distribution, the target automation feature automatically updates the actual value in the respective target breakdown based on the check-in due date. After the actual value of a target breakdown is updated, the value is rolled up to rolls up to the actual value of the main target. Then, the progress of the target and its goal are auto-updated.
+
+## Target breakdowns in fiscal mode
+
+When the calendar mode is fiscal, the breakdowns of a target follow the fiscal periods instead of calendar months, quarters, and years. The check-in frequencies that a target can use depend on the periods that the fiscal calendar provides. For the values, see [Check-in frequency values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/check-in-frequency-values-spw.md).
+
+A target can use a check-in frequency only when the fiscal calendar covers its start and end dates. If the calendar doesn't cover them, the target can't be saved with that frequency, and its breakdowns aren't generated. For the reasons, see [Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/fiscal-calendar-support-targets.md).
+
+When the calendar mode or the fiscal calendar changes, targets that have breakdowns can become stale when their stored breakdowns no longer match the calendar. A stale target can't be changed until its check-in frequency is cleared. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/stale-targets.md).
 

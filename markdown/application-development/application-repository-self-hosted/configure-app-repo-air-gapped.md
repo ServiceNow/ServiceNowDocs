@@ -9,7 +9,7 @@ classification: application-repository-self-hosted
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Application Repository for self-hosted, air-gapped customers, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Application Repository for self-hosted, air-gapped customers, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Configure the application repository on an air-gapped instance

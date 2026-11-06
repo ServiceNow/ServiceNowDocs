@@ -22,9 +22,9 @@ You must have the security\_admin role to manage the OAuth integration. Configur
 -   **OAuth external client scenario** \(Inbound\): Your instance provides an endpoint for third-party clients to pull data from the instance.
 -   **OAuth provider scenario** \(Outbound\): Your instance pulls data from a third-party provider.
 
-**Note:** You must user authenticate for the first time to fetch the token post which, you don't need to authenticate using a user account before the token expiry.
+**Note:** You must authenticate for the first time to fetch the token post which, you don't need to authenticate using a user account before the token expiry.
 
-Both, simple security and high security frameworks support OAuth 2.0. High Security is recommended. See for information about which versions have high security already active and how to activate high security.
+Both, simple security and high security frameworks support OAuth 2.0. High Security is recommended. For OAuth 2.0 supported versions and how to activate high security, see [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_HighSecuritySettings.md).
 
 ## Key concepts of the OAuth 2.0 implementation
 

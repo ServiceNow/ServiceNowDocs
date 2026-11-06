@@ -679,17 +679,6 @@ Enables Google re-CAPTCHA on the self-registration page.-   Type: boolean
 
 </td></tr><tr><td>
 
-sn\_ext\_usr\_reg.eur\_user\_role
-
-</td><td>
-
-Adds a role when a sys\_user record is created through self-registration.
-
- -   Type: string
--   Default value: sn\_communities.community\_user
-
-</td></tr><tr><td>
-
 sn\_ext\_usr\_reg.Reg\_link\_expiration\_days
 
 </td><td>

@@ -1,20 +1,20 @@
 ---
-title: Authorization code grant workflow
-description: ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
+title: Complete the authorization code grant workflow
+description: ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured identity provider \(IdP\) for authentication and issues tokens after successful login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/authorization-workflow.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
-breadcrumb: [Auth Code Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Auth Code Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
-# Authorization code grant workflow
+# Complete the authorization code grant workflow
 
-ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
+ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured identity provider \(IdP\) for authentication and issues tokens after successful login.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 ## About this task
 
-This topic collection provides information about how ServiceNow manages authentication and API access when acting as both the authorization server and the resource server. It describes the behavior when SSO is enabled, including redirection to the identity provider \(IdP\) for user authentication and the issuance of an authorization code by ServiceNow after successful authentication. The usage of authorization code ensures that ServiceNow retains control over token issuance and access to protected resources.
+This topic collection provides information about how ServiceNow manages authentication and API access when acting as both the authorization server and the resource server. It describes the behavior when SSO is enabled, including redirection to the identity provider \(IdP\) for user authentication and the issuance of an authorization code by ServiceNow after successful authentication. The usage of authorization code verifies that ServiceNow retains control over token issuance and access to protected resources.
 
 \[Omitted image "mic-authorization-flow.png"\] Alt text: Authorization Workflow
 
@@ -34,9 +34,9 @@ This topic collection provides information about how ServiceNow manages authenti
 
 2.  Initiate the authorization request.
 
-    The client redirects the user to ServiceNow authorization endpoint to initiate the authorization request. The authorization request can be initiated either by including the `Client Secret` or `PKCE Code Challenge` in the request body, based on the client type- private or public. In the authorization request body, include `Client Secret` for private clients, and `PKCE Code Challenge` for public clients.
+    The client redirects the user to ServiceNow authorization endpoint to initiate the authorization request. The authorization request can be initiated either by including the `Client Secret` or `PKCE Code Challenge` in the request body, based on the client type \(private or public\). In the authorization request body, include `Client Secret` for private clients, and `PKCE Code Challenge` for public clients.
 
-    -   **For Private clients**
+    -   **For private clients**
 
         Include the `Client Secret` in the request body, while initiating the token request for private clients. Follow the procedure to initiate the authorization request using `Client Secret` for private clients.
 
@@ -117,10 +117,10 @@ Yes
 
 </td><td>
 
-A client-generated value used to avoid Cross-Site Request Forgery \(CSRF\) attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it
+A client-generated value used to avoid Cross-Site Request Forgery \(CSRF\) attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it.
 
 </td></tr></tbody>
-</table>    -   **For Public clients**
+</table>    -   **For public clients**
 
         Include the `PKCE Code Challenge` in the request body, while initiating the token request for public clients. Follow the procedure to initiate the authorization request using `PKCE Code Challenge` for public clients.
 
@@ -243,11 +243,11 @@ A client-generated value used to avoid CSRF attacks. The value is returned uncha
     
     ```
 
-5.  The client exchanges the authorization code for an access token \(and a refresh token, if it’s a private client\) by making a call to ServiceNow’s token endpoint.
+5.  Exchange the authorization code for an access token \(and a refresh token, if it’s a private client\) by making a call to the ServiceNow token endpoint.
 
-    The authorization code for access token can be initiated either by including the `Client Secret` or `PKCE Code Challenge` in the request body, based on the client type- private or public. In the token request body, include `Client Secret` for private clients, and `PKCE Code Challenge` for public clients.
+    The authorization code for an access token can be initiated either by including the `Client Secret` or `PKCE Code Challenge` in the request body, based on the client type \(private or public\). In the token request body, include `Client Secret` for private clients, and `PKCE Code Challenge` for public clients.
 
-    -   **For Private clients**
+    -   **For private clients**
 
         Include the `Client Secret` in the request body, while initiating the token request for private clients. Follow the procedure to initiate the token request using `Client Secret` for private clients.
 
@@ -345,7 +345,7 @@ Yes
 A client-generated value used to help prevent CSRF attacks. The value is returned unchanged in the redirect URI, enabling the client to validate it.
 
 </td></tr></tbody>
-</table>    -   **For Public clients**
+</table>    -   **For public clients**
 
         Include the `PKCE Code Challenge` in the request body, while initiating the token request for public clients. Follow the procedure to initiate the authorization request using `PKCE Code Challenge` for public clients.
 

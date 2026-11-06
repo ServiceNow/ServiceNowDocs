@@ -40,7 +40,7 @@ The relay also supports a `config.yaml` file shipped with the relay artifact. Pr
 
     For example, to enable debug logging, set the property name to `debug` and the value to `true`.
 
-    For a list of available properties and their defaults, see Relay properties.
+    For a list of available properties and their defaults, see [Relay properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/relay-properties-reference.md).
 
     Invalid property values fall back to defaults, and a warning is logged. Configuration polling is not affected.
 

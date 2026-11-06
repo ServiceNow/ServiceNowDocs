@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Multi-turn catalog ordering, genius results, generative AI]
-breadcrumb: [Chat experiences, Explore, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Standard chat
@@ -68,7 +68,7 @@ While the LLM processes the utterance, an animated avatar appears alongside late
 </td></tr></tbody>
 </table>## Chatting with the Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-catalog-ordering-gr.md) and [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-qna-genius-results.md).
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see  and .
 
 If multiple results are found, they are presented to users, and users can view inline citations and/or the Sources section at the bottom of the synthesized response. Users can view Knowledge Base articles, Virtual Agent topics, subflows or actions, external content, people citations, and complete catalog request items. Virtual Agent can only return available catalog items that match a user's request when the ServiceNow Otto Multi-Turn Catalog Ordering skill is enabled. Users can follow up on a synthesized response and receive an answer that considers the previous context. For example, if you previously were chatting about the company's travel policy and then enter `International`, the system recognizes that you’re wanting additional information on the company's international travel policy.
 
@@ -94,7 +94,7 @@ Each Virtual Agent response includes a feedback icons panel. The user can indica
 
 If AI Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous in a Virtual Agent chat, Virtual Agent asks a clarifying question and displays a citation with an action. Citations are presented starting from the second clarifying question. Select a citation to start the request. If there are no actions relative to the request, citations aren’t shown.
 
-If you need more help, ServiceNow Otto for Virtual Agent directs you to either a live agent, resets the conversation, or creates an incident. The option is determined by the admin in the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+If you need more help, ServiceNow Otto for Virtual Agent directs you to either a live agent, resets the conversation, or creates an incident. The option is determined by the admin in the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 1.  Live agent support routes the user to an available agent when configured.
 2.  Reset the conversation restarts the conversation to the beginning to ask another question.
@@ -130,11 +130,11 @@ The **\[Asset's name\]** option appears, and if selected, the asset flow begins 
 
 The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\). These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-knowledge-graph-designer.md).
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see .
 
 ## External content connections citations
 
-If external search sources are added to your information sources when [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connection:
+If external search sources are added to your information sources when [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connection:
 
 -   Microsoft SharePoint
 -   Confluence
@@ -145,7 +145,7 @@ If external search sources are added to your information sources when [Assistant
 -   ServiceNow® documentation
 -   Slack
 
-For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ext-cont-connectors-landing-page.md).
+For more information about external content connections, see .
 
 \[Omitted image "NAinVA-external-search-source-citation.png"\] Alt text: Response from external content with link to its source.
 

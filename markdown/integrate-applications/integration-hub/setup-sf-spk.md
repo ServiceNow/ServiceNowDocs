@@ -1,6 +1,6 @@
 ---
 title: Set up the Salesforce spoke
-description: Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow.Add and configure a Salesforce connection to authenticate ServiceNow requests in Salesforce spoke.Create a connected app in your Salesforce account to enable OAuth 2.0 authentication with the Salesforce spoke.Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow using OAuth authorization template.Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow using JWT signing key.Enable the JSON Web Token \(JWT\) Bearer Grant token authentication by attaching a valid Java KeyStore \(JKS\) certificate to the Salesforce spoke.Create a JSON Web Token \(JWT\) signing key to assign to your Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.Use the information generated during Salesforce connected app configuration to register Salesforce as an OAuth provider and enable the instance to request OAuth 2.0 tokens.Create Credential records for the Salesforce connected app that you created. The Salesforce spoke connection and credential alias use these credentials to authorize actions.Create connection records for your Salesforce account. The Salesforce spoke connection and credential alias use these connections to perform actions in Salesforce.
+description: Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow.Add and configure a Salesforce connection to authenticate ServiceNow requests in Salesforce spoke.Create an external client app in your Salesforce account to enable OAuth 2.0 authentication with the Salesforce spoke.Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow using OAuth authorization template.Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow using JWT signing key.Enable the JSON Web Token \(JWT\) Bearer Grant token authentication by attaching a valid Java KeyStore \(JKS\) certificate to the Salesforce spoke.Create a JSON Web Token \(JWT\) signing key to assign to your Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.Use the information generated during Salesforce connected app configuration to register Salesforce as an OAuth provider and enable the instance to request OAuth 2.0 tokens.Create Credential records for the Salesforce connected app that you created. The Salesforce spoke connection and credential alias use these credentials to authorize actions.Create connection records for your Salesforce account. The Salesforce spoke connection and credential alias use these connections to perform actions in Salesforce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sf-spk.html
 release: brazil
@@ -125,9 +125,9 @@ URL where Salesforce redirects after successful authentication. Use this format:
 
 The Salesforce spoke connection is configured and ready to be used.
 
-## Create a connected app in Salesforce
+## Create an external client app in Salesforce
 
-Create a connected app in your Salesforce account to enable OAuth 2.0 authentication with the Salesforce spoke.
+Create an external client app in your Salesforce account to enable OAuth 2.0 authentication with the Salesforce spoke.
 
 ### Before you begin
 
@@ -136,17 +136,17 @@ Create a connected app in your Salesforce account to enable OAuth 2.0 authentica
 
 ### About this task
 
-Complete these steps from your Salesforce account. See [Create a Connected App](https://help.salesforce.com/articleView?id=connected_app_create.htm&type=5) in [Salesforce Trailblazer forum](https://success.salesforce.com/) documentation for instructions on creating and configuring connected apps.
+See the [Create an External Client App](https://help.salesforce.com/s/articleView?id=xcloud.external_client_apps.htm&type=5) documentation for instructions on creating and configuring external client apps.
 
 ### Procedure
 
-1.  From your Salesforce account, create a connected app.
+1.  Select **Create an External Client App** in your Salesforce account.
 
-2.  Configure the connected app to enable your Salesforce application to share data with your ServiceNow instance.
+2.  Configure the external client app to enable your Salesforce application to share data with your ServiceNow instance.
 
     1.  Select **Enable OAuth Settings** and configure the authentication settings.
 
-    2.  If you want to set up the spoke using JWT signing key, select **Use Digital Signatures** and upload a Java KeyStore \(JKS\) certificate.
+    2.  To set up the spoke using a JWT signing key, select **Use Digital Signatures** and upload a Java KeyStore \(JKS\) certificate.
 
     3.  Select the OAuth scopes:
 
@@ -177,27 +177,27 @@ Client Credentials
 **Access and manage your data \(api\)**
 
 </td></tr></tbody>
-</table>    4.  Specify ServiceNow instance URL in Callback URL in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`
+</table>    4.  Specify ServiceNow instance URL in **Callback URL** in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`
 
-    5.  After creating the connected app, under **OAuth Policies** on the Edit Policies page, set these values:
+    5.  Set these values under **OAuth Policies** on the Edit Policies page:
 
         |Field|Value|
         |-----|-----|
         |Permitted Users|Admin approved users are pre-authorized|
         |IP Restrictions|Relax IP Restrictions|
 
-    6.  Configure user provisioning for the connected app as per your requirement.
+    6.  Configure user provisioning for the external client app according to your requirements.
 
 3.  Record the values of **Consumer Key** and **Consumer Secret**.
 
     **Note:**
 
-    -   Assign profile and permission set as per your requirement.
-    -   In OAuth app IP restrictions, specify OAuth policies to ensure that the connected app works like a default app.
+    -   Assign profile and permission set according to your requirements.
+    -   In OAuth app IP restrictions, specify OAuth policies to confirm that the external client app works like a default app.
 
 ### Result
 
-The connected app is created in Salesforce.
+The external client app is created in Salesforce.
 
 ## Option 1: Set up the Salesforce spoke using OAuth authorization template
 
@@ -205,7 +205,7 @@ Integrate your Salesforce account with your ServiceNow instance. Create a custom
 
 ### Before you begin
 
--   [Create a connected app in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-sf-spk.md)
+-   [Create an external client app in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-sf-spk.md)
 -   Role required: admin
 
 ### Procedure
@@ -422,7 +422,7 @@ Integrate your Salesforce account with your ServiceNow instance. Create a custom
 
 ### Before you begin
 
--   [Create a connected app in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-sf-spk.md)
+-   [Create an external client app in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-sf-spk.md)
 -   Role required: admin
 
 ### Attach a Java Key Store certificate to the Salesforce spoke

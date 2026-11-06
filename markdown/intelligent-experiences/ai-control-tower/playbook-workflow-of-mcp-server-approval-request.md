@@ -22,7 +22,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower** &gt; **AI assets** &gt; **Approvals**.
+1.  Navigate to **AI Control Tower** &gt; **AI assets** &gt; **Approvals**.
 
 2.  Select the MCP server from the asset type filter or navigate to Lifecycle and filter by the current state: **New**.
 

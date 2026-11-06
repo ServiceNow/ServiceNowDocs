@@ -1,6 +1,6 @@
 ---
 title: Enable identifier-first login in Service Portal
-description: Service Portal uses an identifier-first login \(IFL\) authentication method where the authentication path is determined by the username or email entered. The path is evaluated against configured IFL policies. IFL takes precedence over any identity provider or local login options configured for the portal.
+description: Service Portal uses an identifier-first login authentication method where the authentication path is determined by the username or email entered. The path is evaluated against configured identifier-first login policies. Identifier-first login takes precedence over any identity provider or local login options configured for the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/identifier-first-login-service-portal.html
 release: brazil
@@ -14,12 +14,12 @@ breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal,
 
 # Enable identifier-first login in Service Portal
 
-Service Portal uses an identifier-first login \(IFL\) authentication method where the authentication path is determined by the username or email entered. The path is evaluated against configured IFL policies. IFL takes precedence over any identity provider or local login options configured for the portal.
+Service Portal uses an identifier-first login authentication method where the authentication path is determined by the username or email entered. The path is evaluated against configured identifier-first login policies. Identifier-first login takes precedence over any identity provider or local login options configured for the portal.
 
 ## Before you begin
 
 -   The multi-provider SSO plugin is installed and activated on your instance. For more information, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
--   IFL policies are configured on your platform instance. For more information, see [Policy-based login experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/next-gen-login-experience.md).
+-   The policy-based login experience is enabled, and at least one active identifier-first login policy is configured on your platform instance. For more information, see [Policy-based login experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/next-gen-login-experience.md).
 
 Role required: admin
 
@@ -39,12 +39,12 @@ Role required: admin
 
 6.  Select **Update**.
 
-    **Note:** If a login widget for a portal is customized or copied, manually update the login widget with the IFL changes or revert to the original login widget.
+    **Note:** If a login widget for a portal is customized or copied, manually update the login widget with the identifier-first login changes or revert to the original login widget.
 
 
 ## Result
 
-When accessing the portal login page with IFL applied, a username/email entry field appears first. Only the IFL configuration is applied to the portal.
+When accessing the portal login page with identifier-first login applied, a username/email entry field appears first. Only the identifier-first login configuration is applied to the portal.
 
 **Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/portal-security.md)
 

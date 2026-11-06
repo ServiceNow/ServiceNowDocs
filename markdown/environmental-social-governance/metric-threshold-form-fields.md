@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metric-threshold-form-fields.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -55,7 +55,7 @@ Valid from
 
 </td><td>
 
-Date from which the threshold configuration is valid.
+Date from which the threshold configuration is valid.**Note:** The threshold is applied only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
 
 </td></tr><tr><td>
 

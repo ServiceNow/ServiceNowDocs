@@ -72,11 +72,7 @@ Your skill is configured.
 **Related topics**  
 
 
-[Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/additional-skill-input-and-trigger-information-for-now-assist_0.md)
-
-[Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-skills.md)
-
-[Skill inputs and triggers for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-hrsd-skill-inputs.md)
+[bundle-csm.additional-skill-input-and-trigger-information-for-now-assist_0]
 
 [Skill inputs for ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/now-assist-fsm-skill-inputs.md)
 

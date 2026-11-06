@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/batch-remediation-with-ai.html
 release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-10-28"
 reading_time_minutes: 4
 keywords: [batch remediation, AI-Eligible Findings, scan results, findings dashboard, bulk generate fixes]
 breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
@@ -72,7 +72,9 @@ Before you begin:
 
     The code comparison displays your original code on the left and the AI-suggested code on the right. Color coding shows changes: green for added code and pink for removed code.
 
-8.  Select to **Review the suggested fixes** before accepting them.
+8.  Review the suggested fixes on the **Review suggested fixes** page before you accept them.
+
+    The **Scanned Records** panel lists the records that have suggested fixes, grouped by record type, with the fix status of each record. Use the **Select application** list to switch applications. The page has three tabs: **Code Comparison**, **Suggested fixes details**, and **Record**.
 
     \[Omitted image "review-suggested-fixes-2.png"\] Alt text: Review suggested fixes page.
 
@@ -88,7 +90,7 @@ Before you begin:
 
     3.  Select **Reject** if the suggested fixes aren't suitable.
 
-        The fixes are discarded and you must fix the violations manually or accept them as-is.
+        The Reject all suggested fixes? dialog opens. You can describe what doesn't work in the **Feedbacks** field, then select **Reject suggested fixes**. The suggested code fixes aren't applied, and you fix the violations manually.
 
 10. Navigate to the **Resolved findings** tab to verify that your accepted fixes appear in the list.
 

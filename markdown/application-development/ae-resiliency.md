@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, resiliency, stuck agent, automatic retry, background agents, work items, execution]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Resilience in Autonomous Engineer

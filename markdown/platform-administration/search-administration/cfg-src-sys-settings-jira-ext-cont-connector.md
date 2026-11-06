@@ -83,7 +83,7 @@ To allow the connector to access your Atlassian Jira Cloud source system via the
 
         \[Omitted image "jira-cloud-ad-conf-jira-api-perms.png"\] Alt text: Configure Jira API button on Atlassian Permissions console.
 
-    6.  On the Granular scopes tab, select **Edit Scopes** and then select the options for each of the following scopes:
+    6.  On the **Granular scopes** tab, select **Edit Scopes** and then select the options for each of the following scopes:
 
         -   read:application-role:jira
         -   read:attachment:jira

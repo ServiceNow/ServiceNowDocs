@@ -17,7 +17,7 @@ Select specific assets directly from the Data Catalog page and submit them for b
 
 ## Before you begin
 
-Role required: df\_data\_steward
+Role required: df\_data\_steward, now\_assist\_panel\_user, and wdf\_operator
 
 ## Procedure
 

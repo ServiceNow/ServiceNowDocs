@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the release lifecycle documentation AI agent, Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Configure the release lifecycle documentation AI agent, Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Roles required for using the release lifecycle documentation AI agent

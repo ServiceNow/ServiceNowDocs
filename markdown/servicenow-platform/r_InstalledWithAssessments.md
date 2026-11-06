@@ -49,7 +49,7 @@ Assessment Category Result \[asmt\_category\_result\]
 
 </td><td>
 
-Stores all [category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SchedulePeriods.md).
+Stores all [category results]().
 
 </td><td>
 

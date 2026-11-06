@@ -93,7 +93,7 @@ The space is configured as flexible or permanent based on the assignment type th
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

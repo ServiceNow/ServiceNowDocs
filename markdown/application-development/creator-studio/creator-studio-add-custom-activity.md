@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Building applications]
+breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Make a custom activity available for playbooks in Creator Studio

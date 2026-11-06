@@ -9,7 +9,7 @@ classification: reporting
 topic_type: task
 last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Add a report to a responsive dashboard
@@ -43,5 +43,5 @@ Watch this eight-minute video to learn about generating reports, creating report
 6.  Select **Edit** to move or resize the report.
 
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DistributeReports.md)
 

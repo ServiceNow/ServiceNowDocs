@@ -70,7 +70,7 @@ Regulatory change managers can select the Explore with AI icon \[Omitted image "
 
     |Section|Description|
     |-------|-----------|
-    |Open alerts for last 12 months|Timeline of the incoming regulatory alerts that are active and are not closed over a period of 12 months. For example, if 10 records are received every month, they are grouped by a quarter and a total of 30 records for each quarter are displayed in the line graph. Four plots are displayed on the X-axis and 30 records are displayed in each plot.|
+    |Open alerts for last 12 months|Timeline of the incoming regulatory alerts that are active and are not closed over a period of 12 months. For example, if 10 records are received every month, they are grouped by quarter. A total of 30 records per quarter are displayed in the line graph. Four plots are displayed on the X-axis, with 30 records in each plot.|
     |Trends by taxonomy|Trends noted by the taxonomy elements such as content type, jurisdiction, regulatory body, sector, and theme.|
 
 -   Tasks: This section contains an overview of the user's tasks and user group's tasks.

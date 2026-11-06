@@ -23,7 +23,7 @@ The ServiceNow® Retail Strategic Portfolio Management Suite application helps r
 -   Gain portfolio-level visibility across all store projects with consistent milestone tracking and automatic status rollups.
 -   Make project tasks visible to store teams so that headquarters and store personnel collaborate on the same platform.
 
-See [Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-retail-suite-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -48,8 +48,8 @@ Added My Retail Project Tasks widget to Employee Slate, giving you a direct visi
 
 ### What's new
 
--   **[My Retail Project Tasks widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spmr-widgets-eslate.md)**
+-   **My Retail Project Tasks widget**
 
-    View and manage customer project tasks directly from Employee Slate. The My Retail Project Tasks widget displays the count of tasks assigned to the logged-in user, along with each task's short description, current status, and associated project. For more details on how to edit task details, see [Manage a customer project task in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/manage-spmr-tasks-from-widget-eslate.md).
+    View and manage customer project tasks directly from Employee Slate. The My Retail Project Tasks widget displays the count of tasks assigned to the logged-in user, along with each task's short description, current status, and associated project. For more details on how to edit task details, see .
 
 

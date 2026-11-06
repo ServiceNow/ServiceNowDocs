@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-datamanagementforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -281,7 +281,12 @@ Brazil
 
 </td><td>
 
--   **[Service organizations as buyers on install base records](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=brazil&ft:locale=en-US)**
+-   **[Product inventory configurations](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=brazil&ft:locale=en-US)**
+
+Order agents can modify, suspend, resume, or disconnect a consumer’s product inventory from the consumer record. Configuration updates reflect automatically on each quote or order to make sure customer's services are faster and more accurate.
+
+
+ -   **[Service organizations as buyers on install base records](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=brazil&ft:locale=en-US)**
 
 Add service organizations as buyers on install base records to control access to their product inventory by user role. Use the Modify or Disconnect actions from the service organization record to enable service organizations to create orders or quotes.
 

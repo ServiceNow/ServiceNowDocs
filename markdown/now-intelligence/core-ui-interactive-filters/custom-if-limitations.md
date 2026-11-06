@@ -48,7 +48,7 @@ Custom interactive filters are a fallback for use when standard interactive filt
 
 -   **Filtering widgets in Export to PDF**
 
-    When you create custom content to be placed as widgets on dashboards and home pages, you must perform extra tests before you export the content to PDF. In the exported PDF, report widgets that are filtered using custom interactive filters may appear as blank squares or the widget content does not respect the filter.
+    When you create custom content to be placed as widgets on Core UI dashboards, you must perform extra tests before you export the content to PDF. In the exported PDF, report widgets that are filtered using custom interactive filters may appear as blank squares or the widget content does not respect the filter.
 
 -   **Custom interactive filters cannot be used in a breakdown dashboard**
 

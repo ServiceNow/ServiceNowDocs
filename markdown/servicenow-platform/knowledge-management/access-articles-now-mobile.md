@@ -63,7 +63,7 @@ Up to five of the most popular knowledge articles.The Now Mobile app homepage in
 **Related topics**  
 
 
-[Browse articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/browse-articles-now-mobile.md)
+[Browse articles in the Now Mobile Information applet]()
 
 [Search for an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/search-article-now-mobile.md)
 

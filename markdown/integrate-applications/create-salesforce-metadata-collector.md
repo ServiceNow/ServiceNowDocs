@@ -125,21 +125,25 @@ The host name of the Salesforce instance using the following format: &lt;organiz
 
     |Field|Description|
     |-----|-----------|
-    |Connected app client ID|OAuth client ID for the Salesforce connected app on the instance.|
-    |Connected app client secret|OAuth client secret for the Salesforce connected app on the instance.|
+    |Authenticate using OAuth refresh token|
+    |Salesforce OAuth refresh token|The Salesforce OAuth refresh token to use in authenticating the collector via the Authorization Code flow.|
+    |Authenticate using username and password|
     |Username|The username to use to make the JDBC connection.|
     |Password|The password of the user.|
     |Security Token|Personal security token for the provided [Salesforce credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-the-salesforce-collector.md).|
+    |OAuth client ID and secret|
+    |Salesforce OAuth client ID|OAuth client ID for the Salesforce connected app on the instance.|
+    |Salesforce OAuth client secret|OAuth client secret for the Salesforce connected app on the instance.|
 
 9.  Configure the connection and reliability options.
 
 <table id="table_njt_klb_gkc"><thead><tr><th>
 
- 
+Field
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 

@@ -1,12 +1,12 @@
 ---
 title: Customer self-service for Sales Customer Relationship Management release notes
-description: The ServiceNow Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.REST APIs give an external ordering system programmatic control of a sales cart, from creating the cart through to submitting it as an order, and extend that control to consumers with a billing account and payment profile on each cart line item.
+description: The ServiceNow Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.This release includes enhancements to the Sales Cart REST API for querying cart line items, reading display values, and submitting orders for large carts.This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.REST APIs give an external ordering system programmatic control of a sales cart, from creating the cart through to submitting it as an order, and extend that control to consumers with a billing account and payment profile on each cart line item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-self-service-sales-crm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -44,17 +44,42 @@ See [Customer self-service for Sales Customer Relationship Management](https://r
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
 
+## November 2026
+
+This release includes enhancements to the Sales Cart REST API for querying cart line items, reading display values, and submitting orders for large carts.
+
+### What's new
+
+-   **[Query cart line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-cart-external-integration.md)**
+
+    Enable external ordering systems to retrieve only the cart line items they need by using the Sales Cart REST API to return the line items that match an encoded query. Results are limited to the specified cart, include only the line item fields that are configured for the cart and that you can read, and return up to 50 line items per request. Both customers \(B2B users\) and consumers \(B2C users\) can use the query.
+
+
+### What's changed
+
+-   **Display values in cart read responses**
+
+    Get readable values in cart responses without extra lookups. Previously, retrieving a cart returned display values only for product offerings and characteristics. Now, display values are returned for every attribute on the cart, its line items, and line item characteristics for cart retrieval, line item retrieval, and cart queries. Create and update requests don't return display values.
+
+-   **Order submission from a sales cart**
+
+    Submit orders faster and keep them ready for downstream processing \(PRB2089913, PRB2109260, PRB2080458\).
+
+    -   Previously, submitting a cart with many line items through the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder API waited until the entire order was created before returning. Now, carts with more than 20 line items are submitted asynchronously. The response returns immediately with an inbound queue record ID, and the cart state tracks progress, moving from Processing to Complete or Cancelled. If submission fails, the cart moves to the Cancelled state and can't be resubmitted.
+    -   Previously, customer orders created from a sales cart through the submit order API had no channel, so downstream processes couldn't distinguish self-service orders from agent-assisted orders. Now, orders submitted through the API have the channel set to Self-service portal.
+    -   Previously, the submit order API created customer orders in the Draft state. Now, it creates them in the New state.
+
 ## October 2026
 
 This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.
 
 ### What's changed
 
--   **[Order number in the submit order response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
+-   **Order number in the submit order response**
 
     Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
 
--   **[Product offering eligibility validation when creating a cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
+-   **Product offering eligibility validation when creating a cart**
 
     Prevent ineligible product offerings from reaching order submission by validating them as the cart is created.
 

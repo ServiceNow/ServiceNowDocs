@@ -183,7 +183,7 @@ You can assign the allocation to the child locations such as areas, rooms, and s
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

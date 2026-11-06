@@ -49,7 +49,7 @@ The base system provides a large set of default questions in all supported langu
 
     2.  Create a record in the **sys\_translated** table for the non-English language question.
 
-        Details appear at [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_TranslatedNameFieldTable.md) and [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_LanguagesTable.md).
+        Details appear at Translated Name / Field table and Languages table.
 
         |Field|Description|
         |-----|-----------|

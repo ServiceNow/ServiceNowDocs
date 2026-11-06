@@ -104,7 +104,7 @@ To analyze data according to different categories, select a breakdown from the d
 -   Queue
 -   Assignment Group
 
-For more information on analyzing data with breakdowns, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_SpecialDashboards.md).
+For more information on analyzing data with breakdowns, see Using breakdowns on dashboards.
 
 ## Reports
 

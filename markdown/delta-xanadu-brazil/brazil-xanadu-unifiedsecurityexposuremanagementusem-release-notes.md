@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-unifiedsecurityexposuremanagementusem-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 34
+last_updated: "2026-11-06"
+reading_time_minutes: 35
 breadcrumb: [Products combined by family]
 ---
 
@@ -264,12 +264,6 @@ USEM was enhanced and updated in the Australia release to support the new AI nat
 
     -   Links to Records: Select the counts and findings in the Security Exposure 360 output to link you directly to the underlying vulnerable item \(VITs\) and records in your instance.
     -   Suggested follow-up questions: Follow-up questions are provided that help you drill down.
--   **[Fix Intelligence for Security Exposure Management](https://www.servicenow.com/docs/access?context=fix-intel-for-usem-landing&family=australia&ft:locale=en-US)**
-
-Fix Intelligence for Security Exposure Management is a new application that enriches your host findings with normalized fix information from Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\). Detections are de-duplicated into Fix records that are linked to the findings and assets each fix resolves, with a rolled-up risk score per fix. Your team can remediate by fix instead of one finding at a time.
-
-Prioritize fixes from the **Fix Intelligence** tab, the **Findings View**, and the **Remediation View**, and group the findings that share a fix into a single remediation task. In this release, fixes are identified for host vulnerabilities from Qualys, Rapid7, Tenable.io, Wiz, and Microsoft Defender Vulnerability Management.
-
 -   **[Enhancements to the Vulnerability Response Integration with Wiz Test Results Integration](https://www.servicenow.com/docs/access?context=wiz-test-result-tab-filters&family=australia&ft:locale=en-US)**
 
 Enhancements to the Wiz integration that imports cloud configuration findings as Test Results in Configuration Compliance. Configuration issues related to AI assets, such as AI models and agents are routed into AI security exposure management tables \(AI posture findings\).
@@ -428,7 +422,24 @@ Brazil
 
 </td><td>
 
--   **[Schedule patch deployments through Change Request approval](https://www.servicenow.com/docs/access?context=vr-ws-patch-schedule-change-request&family=brazil&ft:locale=en-US)**
+-   **[Unified exposure pipeline](https://www.servicenow.com/docs/access?context=integrating-usem&family=brazil&ft:locale=en-US)**
+
+Configure, monitor, and troubleshoot scanner integrations within the Unified Security Exposure Management \(USEM\) interface. It has a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.
+
+The Security Assets view in the SEM workspace displays normalized and deduplicated assets reported by your security integrations. Each asset shows its risk rating, open findings, labels, and sources. The asset context enables USEM to create precise CIs in appropriate CMDB classes.
+
+**Note:** Th unified exposure pipeline can't be configured alongside the standard scanner integration applications from ServiceNow Store. You must disable all standard scanner integration applications and clear their data before using the unified exposure pipeline.
+
+-   **[Fix Intelligence for Security Exposure Management](https://www.servicenow.com/docs/access?context=fix-intel-for-usem-landing&family=brazil&ft:locale=en-US)**
+
+Accelerate remediation using the deduplicated USEM exposure findings and fix guidance. Automatically identify and group findings by fixes, remediation categories, and software versions for fix-oriented remediation workflows.
+
+Each fix record gives the recommended remediation, such as a software package and version to update, with its category, related security advisories, and patch month. The fix record also shows the number of affected findings and assets, with a rolled-up risk score and risk rating. Use these details to prioritize fixes that reduce the most exposure.
+
+**Note:** It is available only when scanner integrations are configured using the unified exposure pipeline.
+
+
+ -   **[Schedule patch deployments through Change Request approval](https://www.servicenow.com/docs/access?context=vr-ws-patch-schedule-change-request&family=brazil&ft:locale=en-US)**
 
 Route patch deployments scheduled from remediation tasks through Change Request approval for Microsoft SCCM and HCL BigFix integrations. This lets you align patch deployment for critical vulnerabilities with your organization's change management approval process, and optionally deploy the patch automatically once the change is approved.
 

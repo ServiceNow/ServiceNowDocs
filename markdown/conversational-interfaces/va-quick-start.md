@@ -15,7 +15,7 @@ breadcrumb: [\(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 
 Using the Conversational Interfaces console, you can quickly add Virtual Agent to a portal, configure branding, personalize the greeting, and begin to use pre-built ITSM Virtual Agent conversations.
 
-Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For migration guidance, see [KB3159779: Virtual Agent NLU and Keyword Feature Deprecation Migration Guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159779).
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ If you do not have a license for Virtual Agent, you can try Virtual Agent Lite, 
 
     Add a chat entry to the menu of your web portal. You can add Virtual Agent to additional portals later.
 
-    For conversations based on generative AI large language models \(LLMs\), you can quickly set up Now Assist in Virtual Agent and add it to a portal. For information about adding Now Assist in Virtual Agent to a portal, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+    For conversations based on generative AI large language models \(LLMs\), you can quickly set up Now Assist in Virtual Agent and add it to a portal. For information about adding Now Assist in Virtual Agent to a portal, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 4.  [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-chat-branding.md)
 

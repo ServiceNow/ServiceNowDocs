@@ -1,6 +1,6 @@
 ---
 title: Zero Trust Access \(ZTA\)
-description: Zero Trust Access \(ZTA\) is a security model that assumes no user or device is trusted by default.
+description: Zero Trust Access \(ZTA\) is a security model in which no user or device is trusted by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/session-access.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Access Management]
 
 # Zero Trust Access \(ZTA\)
 
-Zero Trust Access \(ZTA\) is a security model that assumes no user or device is trusted by default.
+Zero Trust Access \(ZTA\) is a security model in which no user or device is trusted by default.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 

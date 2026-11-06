@@ -30,7 +30,7 @@ Role required: sn\_aia.admin, sn\_mcp\_client.admin
 
 2.  Select **New**.
 
-    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in the AI Control Tower.
+    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in AI Control Tower.
 
 3.  Enter the Name.
 

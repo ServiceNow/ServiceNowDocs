@@ -18,7 +18,7 @@ A Billing download job obtains billing and usage data from each payer account fo
 
 ## Before you begin
 
-Roles required:insights\_admin
+Roles required: Cloud Integrations admin \(sn\_cld\_intg\_core.cloud\_integrations\_admin\)
 
 ## Procedure
 

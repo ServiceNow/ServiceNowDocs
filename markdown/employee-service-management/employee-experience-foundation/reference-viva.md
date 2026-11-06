@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Center for Microsoft Viva Connections, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center for Microsoft Viva Connections, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center for Microsoft Viva Connections reference

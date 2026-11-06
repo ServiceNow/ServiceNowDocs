@@ -56,6 +56,8 @@ View the progress and status of your sprint goals, stories, overall progress, an
 </td></tr></tbody>
 </table>## Reports
 
+The Sprint burndown and burnup reports use data from the **\[EAP\] Daily Data Collection** scheduled job. This job is inactive by default, so activate it to collect report data. The job runs once a day, so a day without collection has no data point. The job counts a story only when the start and end dates of its sprint include the collection day. A story without story points counts as 0 story points.
+
 <table id="table_dw3_bj5_gbc"><thead><tr><th>
 
 Title

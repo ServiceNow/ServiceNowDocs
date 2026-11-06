@@ -1,6 +1,6 @@
 ---
-title: Map the downstream production processes for the selected equipment model entity
-description: Use the downstream process to review the downstream production processes for the selected equipment model entity. You can also create and map a new downstream production process for the equipment model entity.
+title: Map the downstream production processes for an equipment model entity
+description: Review, create, and map downstream production processes for the selected equipment model entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/map-downstream-production-processes-equipment-model-entity.html
 release: brazil
@@ -8,13 +8,13 @@ product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Review and update the equipment model details, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
-# Map the downstream production processes for the selected equipment model entity
+# Map the downstream production processes for an equipment model entity
 
-Use the downstream process to review the downstream production processes for the selected equipment model entity. You can also create and map a new downstream production process for the equipment model entity.
+Review, create, and map downstream production processes for the selected equipment model entity.
 
 ## Before you begin
 
@@ -38,15 +38,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the downstream production processes for the equipment model, or map a new one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d25323e126">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d25308e127">
 
 Task
 
-</th><th align="left" id="d25323e129">
+</th><th align="left" id="d25308e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d25323e135">
+</th></tr></thead><tbody><tr><td id="d25308e136">
 
 **Review the downstream production processes for the selected equipment model entity**
 
@@ -54,7 +54,7 @@ Description
 
 Proceed to the next step and review the Downstream process form.
 
-</td></tr><tr><td id="d25323e144">
+</td></tr><tr><td id="d25308e145">
 
 **Map a downstream production process**
 
@@ -65,7 +65,7 @@ Proceed to the next step and review the Downstream process form.
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d25323e171">
+</td></tr><tr><td id="d25308e172">
 
 **Remove a downstream process**
 

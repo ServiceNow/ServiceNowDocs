@@ -40,7 +40,7 @@ Role required: sn\_oper\_res.manager
 
 4.  On the **Participants** tab in the scenario event form, select **Add** to associate an existing participant with the scenario event.
 
-    **Note:** The **Participant**, **Role**, and **Instruction** fields are read-only if you try to create a participant directly from the Participants tab of a scenario event. You must first create the participant on the **Participants** tab of the scenario analysis, and then select **Add** here to associate it with the scenario event. For more information about creating a participant, see [Add a participant and monitor the responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-a-participant-to-the-scenario-event.md).
+    **Note:** The **Participant**, **Role**, and **Instruction** fields are read-only if you try to create a participant directly from the Participants tab of a scenario event. You must first create the participant on the **Participants** tab of the scenario analysis, and then select **Add** here to associate it with the scenario event. For more information about creating a participant, see [Add a participant to a scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-a-participant-to-the-scenario-event.md).
 
     1.  Select **Add**.
 

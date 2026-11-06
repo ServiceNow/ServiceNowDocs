@@ -40,7 +40,7 @@ The system enforces the following rules when a change manager assigns a process 
 -   Only one active change model per domain can be designated for a given ITIL change process at a time. If a change manager activates a second change model designated for a process that's already represented by another active model, the system blocks the change.
 -   A change manager cannot designate a change model for a process if they don't have write access to the change model that's already assigned to that process.
 
-When the ChangeRequest API creates a new Normal, Standard, or Emergency change request, it resolves the change model to use as follows:
+When the ChangeRequest API creates a new Normal, Standard, or Emergency change request, it resolves the change model in the following order:
 
 1.  The API searches for an active change model designated for the matching ITIL change process.
 2.  If it finds a designated change model, the API creates the change request using that model.

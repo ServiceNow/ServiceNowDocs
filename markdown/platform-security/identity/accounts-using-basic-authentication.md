@@ -20,6 +20,8 @@ Accounts using basic authentication displays the non human identity accounts tha
 
 **Note:** The accounts displayed on the page are the accounts that are using username and password for authentication in the last 30 days.
 
+An account is listed when it authenticates API requests with a username and password. To restrict Basic Authentication on the instance, see [Basic authentication restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/basic-auth-restriction.md).
+
 \[Omitted image "mic-basic-auth.png"\] Alt text: Accounts using basic authentication
 
 You can select the machine identity name to know more about the account and the recommendation to maintain a good security posture for the account.

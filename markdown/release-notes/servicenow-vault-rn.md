@@ -1,13 +1,13 @@
 ---
 title: ServiceNow Vault release notes
-description: The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. See the following sections for release notes by version.For the October 2026 release of ServiceNow Otto for Vault version 3.1, use an agentic workflow to classify sensitive data across a large table estate without labeling each column by hand, and stay informed about data protection coverage with a monthly Vault coverage report email.ServiceNow Vault reduces the effort of monitoring and protecting sensitive data, adding AI-generated Insights, code signing metrics, and log export monitoring to Vault Console, generating module access policies as part of field encryption, and applying Zero Trust Access default policies on install.
+description: The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. See the following sections for release notes by version.For the November 2026 release of ServiceNow Vault, Vault Suite version 1.1.1 no longer includes Code Signing.For the October 2026 release of ServiceNow Otto for Vault version 3.1, use an agentic workflow to classify sensitive data across a large table estate without labeling each column by hand, and stay informed about data protection coverage with a monthly Vault coverage report email.ServiceNow Vault reduces the effort of monitoring and protecting sensitive data, adding AI-generated Insights, code signing metrics, and log export monitoring to Vault Console, generating module access policies as part of field encryption, and applying Zero Trust Access default policies on install.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/servicenow-vault-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-07-13"
 reading_time_minutes: 5
-keywords: [ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data discovery, data classification, anonymization, Workflow Data Fabric, ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data classification, anonymization, Zero Trust Access, code signing, Log Export Service]
+keywords: [ServiceNow Vault, Vault Suite, code signing, ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data discovery, data classification, anonymization, Workflow Data Fabric, ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data classification, anonymization, Zero Trust Access, code signing, Log Export Service]
 breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -32,6 +32,8 @@ The ServiceNow Vault application provides a set of data security tools that prot
 
 See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/servicenow-vault-landing.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 **Note:** ServiceNow Vault is available in the ServiceNow Store. For details, see the following activation information.
@@ -42,6 +44,17 @@ See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Brazil Patch 1
+
+For the November 2026 release of ServiceNow Vault, Vault Suite version 1.1.1 no longer includes Code Signing.
+
+### What's deprecated or removed
+
+-   **Code Signing in Vault Suite**
+
+    Code Signing is no longer included in Vault Suite. Installing Vault Suite doesn't install Code Signing. On instances that already have Code Signing, it no longer appears in Vault Console.
+
 
 ## Version 3.1
 
@@ -108,7 +121,7 @@ ServiceNow Vault reduces the effort of monitoring and protecting sensitive data,
 
 -   **Role masking in the Access Observer and Field Encryption workflows**
 
-    The security\_admin role is no longer used as the role masking agent for the Access Observer and Field Encryption agentic workflows. Following least-privilege principles, these workflows run without elevating to security\_admin.
+    The security\_admin role isn't part of the sn\_vault\_console.vault\_console\_admin role. To use the Access Observer and Field Encryption agentic workflows, assign the security\_admin role to sn\_vault\_console.vault\_console\_admin users, and then elevate to security\_admin.
 
 -   **Default policy naming**
 

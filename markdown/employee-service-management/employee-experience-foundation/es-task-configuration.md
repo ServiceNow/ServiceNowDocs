@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 3
 keywords: [task configuration, Employee Center, Employee Slate, Applies to, action group, AIX widget, AI insights skill, custom script]
-breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Task configuration enhancements

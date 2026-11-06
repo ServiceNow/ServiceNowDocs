@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Administering templates and forms for Creator Studio

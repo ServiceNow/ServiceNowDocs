@@ -35,7 +35,7 @@ This feature currently supports only Excel-to-browser interactions, where data i
 -   **[Stage 3: Deploy \(AI Agent Studio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md)**
     -   Technical users with the sn\_aia.admin role verify auto-generated agent name and description, agent steps, and desktop action tools in AI Agent Studio.
     -   Technical users test and deploy the AI agent in AI Agent Studio.
--   **[Stage 4: Execute \(AI Desktop Actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md)**
+-   **[Stage 4: Execute \(AI Desktop Actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-agentic-desktop.md)**
     -   Authorized users invoke deployed AI agents from the ServiceNow Otto panel, where the agent automatically executes the complete desktop automation process.
     -   The agent runs both background tasks \(such as fetching data from source files\) and on-screen tasks \(such as navigating web applications and entering form data\) desktop actions in AI Desktop Actions on the Windows machine, completing the entire workflow without user intervention.
 
@@ -166,11 +166,11 @@ Executing desktop actions
 
 [Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining-agent-features-and-workarounds.md)
 
-[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/desktop-actions-designer-workspace-ad.md)
 
-[Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)
+[Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-activate-desktop-action-ad.md)
 
 [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md)
 
-[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md)
+[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-agentic-desktop.md)
 

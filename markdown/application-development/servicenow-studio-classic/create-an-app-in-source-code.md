@@ -7,10 +7,10 @@ release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 keywords: [Create app in source code, ServiceNow Studio]
-breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create an app in source code
@@ -47,7 +47,7 @@ Role required: admin
 
     The scope name should fill automatically from the application name. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_NamespaceIdentifier.md).
 
-    If you receive an error because the scope name is not unique, begin the process again from the beginning.
+    If you receive an error because the scope name is not unique, start the process again.
 
 7.  Enter a package name for the application and press Enter.
 

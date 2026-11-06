@@ -240,7 +240,7 @@ Use a script to import and process data from your Kafka environment.
 -   **[Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-kafka-stream.md)**  
 Define a data stream for an Extract Transform Load \(ETL\), Transform Map, or Script consumer. A Kafka stream defines the stream of data to your consumer.
 -   **[Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md)**  
-View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 -   **[Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/producer-statistics.md)**  
 View detailed information about a Stream Connect producer and its performance, including the producer type and ID, and the total number of bytes and messages produced to a topic.
 

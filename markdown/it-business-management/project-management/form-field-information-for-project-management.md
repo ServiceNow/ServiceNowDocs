@@ -48,7 +48,7 @@ Use the Planning attribute form fields to modify a planning attribute.
 Learn about the fields of planned task relationship form.
 -   **[Portal board widget form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/portal-board-widget-form.md)**  
 Learn about the fields of portal board widget form.
--   **[Risk, issues, decisions, actions, and request change \(RIDAC\) form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md)**  
+-   **[RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md)**  
 Learn about the fields of the RIDAC form.
 -   **[Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/risk-value-matcher-form-pm.md)**  
 Learn about the fields of risk value matcher form.

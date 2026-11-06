@@ -35,7 +35,13 @@ Import work items and iterations of an Azure DevOps project into Agile Developme
 
 6.  Click **Import Work Items**.
 
-7.  Select a date and time range.
+7.  In the **Import Request** dialog box, select a date and time in the **From date time** field.
+
+    The import includes only work items that were modified in Azure DevOps since this date and time. For example, if you enter a time a few seconds before you click **Submit**, the import returns no work items.
+
+    The import skips work items that were imported earlier and haven't changed in Azure DevOps since then.
+
+    The **To date** field applies only to sprints. The import skips sprints that start before the **From date time** or end after the **To date**.
 
 8.  Click **Submit**.
 

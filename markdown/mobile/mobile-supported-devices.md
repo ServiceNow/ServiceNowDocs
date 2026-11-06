@@ -148,6 +148,8 @@ Android ™
 -   Pixel 10 Pro
 -   Pixel 10 Pro XL
 -   Zebra TC51
+-   Zebra TC22
+-   Zebra TC22R
 
  **Important:**
 

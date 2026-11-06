@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-serviceexchangeformerlyservicebridge-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 10
+last_updated: "2026-11-06"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -232,7 +232,15 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Upgrade authorization on a provider instance](https://www.servicenow.com/docs/access?context=se-upgrade-authorization-provider&family=brazil&ft:locale=en-US) and [Upgrade authorization on a consumer instance](https://www.servicenow.com/docs/access?context=se-upgrade-authorization-consumer&family=brazil&ft:locale=en-US)**
+
+Upgrade consumer connections from Resource Owner Password Credentials \(ROPC\) to Client Credentials OAuth by using Upgrade Auth on the connection record, to authenticate connections as an application rather than of with a user's password, improving security and compliance. Run the upgrade once from the provider instance to update both instances, keep the connection active, and avoid off-boarding and re-onboarding the consumer.
+
+
+ -   **[Automatic mitigation for connection issues](https://www.servicenow.com/docs/access?context=se-auto-mitigation&family=brazil&ft:locale=en-US)**
+
+Fix known connection errors automatically when a connection goes down, to restore data exchange faster and reduce manual troubleshooting. Review each fix in the issue work notes in the  Center.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -558,6 +566,7 @@ Brazil
 -   Run provider and consumer instances on different platform releases and application versions without disrupting the active entitlements or processes.
 -   Keep the development of shared catalogs and the workflows/integrations in the provider instance while sharing them with consumers as simple record producers that generate integrated requests in the provider instance.
 -   Share selected foundational data types with your consumers on a scheduled cadence to reduce manual effort, and eliminate the need to share data externally.
+-   Upgrade consumer connections from Resource Owner Password Credentials \(ROPC\) to Client Credentials OAuth by using the Upgrade Auth action on the Connection record, to improve security and compliance without off-boarding or re-onboarding.
 
  See [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&family=brazil&ft:locale=en-US) for more information.
 

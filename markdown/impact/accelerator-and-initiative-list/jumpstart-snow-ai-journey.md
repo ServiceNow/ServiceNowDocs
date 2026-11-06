@@ -24,22 +24,25 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
-## What You Get
+## What you get
 
 -   **Session Preparation**
 
     The Technical Accelerator Consultant:
 
-    -   Provision a temporary instance ​\(if applicable\)
-    -   Run AI Adoption Scan on the instance copy to assess current usage of AI and related products
-    -   Activate and run AI-powered data exploration tools to provide insights on opportunities to leverage AI products
--   **Customer Coaching Session \#1\(upto 1.5 hours\)**
+    -   Provisions an instance copy
+    -   Runs AI Adoption Scan on the instance copy to assess current usage of AI and related products
+    -   Activates and runs AI-powered data exploration tools
+-   **Customer Discovery Session \#1\(up to 1.5 hours\)**
 
     Discovery session to:
 
-    -   Set Accelerator expectations
-    -   Discuss strategic goals and objectives
--   **Customer Coaching Session \#2 \(Up to 1 hour\)**
+    -   Establish a Terminology Baseline
+    -   Understand the Anatomy of an Objective
+    -   Define Objective
+    -   Brainstorm and refine use case
+    -   Discuss and agree on next steps
+-   **Customer Delivery Session \#2 \(Up to 1 hour\)**
 
     Delivery session to review:
 
@@ -47,7 +50,7 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
     -   AI Adoption Brief
     -   Impact AI Accelerators Roadmap
 -   **Outputs**
-    -   30-day access to the temporary instance, where applicable
+    -   30-day access to the instance copy, where applicable
     -   Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
     -   Copy of the Delivery Session Deck containing the roadmap created during the engagement
     -   AI Adoption Scan results

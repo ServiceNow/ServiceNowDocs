@@ -1,6 +1,6 @@
 ---
-title: Tables installed with License and Permit Playbook
-description: This section describes the tables installed with the License and Permit Playbook application and shows how they store and manage information.
+title: Tables installed with License and Permit Administration
+description: This section describes the tables installed with the License and Permit Administration application and shows how they store and manage information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-lp-playbook-tables.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [License and Permit, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Tables installed with License and Permit Playbook
+# Tables installed with License and Permit Administration
 
-This section describes the tables installed with the License and Permit Playbook application and shows how they store and manage information.
+This section describes the tables installed with the License and Permit Administration application and shows how they store and manage information.
 
 ## License and Permit tables installed
 
@@ -28,5 +28,5 @@ This section describes the tables installed with the License and Permit Playbook
 |Government Service Evaluation Task|Contains information about service evaluation tasks.|Government Service Task|
 |License and Permit Item Received|Contains the details of license and permit items that have been issued or received, including item identifiers, issuance dates, and recipient information.|Install Base Item|
 
-**Parent Topic:**[Public Sector Digital Services License and Permit Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-lp-playbook.md)
+**Parent Topic:**[Public Sector Digital Services License and Permit Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-lp-playbook.md)
 

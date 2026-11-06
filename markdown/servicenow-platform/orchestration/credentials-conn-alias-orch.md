@@ -7,7 +7,7 @@ release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-10-21"
+last_updated: "2026-11-06"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -158,7 +158,7 @@ No
 
 </td></tr><tr><td>
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md)
+JDBC credentials
 
 </td><td>
 
@@ -170,7 +170,7 @@ Yes
 
 </td></tr><tr><td>
 
-[JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JMSCredentialsForm.md)
+JMS credentials
 
 </td><td>
 
@@ -182,7 +182,7 @@ Yes
 
 </td></tr><tr><td>
 
-[OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/oauth-2-credentials.md)
+OAuth 2.0 credentials
 
 </td><td>
 
@@ -269,7 +269,7 @@ Yes
 
 By default, Windows MID Servers use the login credentials of the MID Server service on the host machine to discover Windows devices in the network. You should [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) so that they have domain or local administrator privileges. For Linux and UNIX machines and network devices, the MID Server uses the SSH and SNMP credentials configured in the instance in **Discovery** &gt; **Credentials**.
 
-MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowActivities.md). Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md)\) and VMware.
+MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the Workflow activities. Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell]()\) and VMware.
 
 ### Encryption and decryption
 

@@ -14,7 +14,7 @@ breadcrumb: [Use, Sales Customer Relationship Management]
 
 Learn how to use configure, price, quote applications.
 
--   **[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-servicenowcpq.md)**  
+-   **[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-servicenowcpq.md)**  
 Agents and customers use the Configurator to customize configurable products in Sales Customer Relationship Management transactions such as opportunities, quotes, and orders.
 -   **[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-som-product-configurator.md)**  
 The configurator in Sales Customer Relationship Management is an interface for customizing configurable product offers. The interface displays the product options available and automatically calculates product pricing as you select options.

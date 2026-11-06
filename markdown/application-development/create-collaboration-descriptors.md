@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application collaboration, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application collaboration, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Create collaboration descriptors to assign permissions

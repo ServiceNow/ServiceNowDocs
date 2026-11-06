@@ -19,7 +19,7 @@ The ServiceNow® Audit Management application supports activities related to pla
 -   Plan and execute audit engagements – Plan engagements, execute them, and report findings to the audit committee and executive board.
 -   Assure stakeholders through engagement reporting – Assure key stakeholders that the organization's risk and compliance management strategy is effective.
 
-See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -36,11 +36,11 @@ This release streamlines evidence and document collection with a faster request 
 
 ### What's new
 
--   **[View control tests in a grid on an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/view-control-tests-tab-engagement-ws.md)**
+-   ****
 
     Manage all control tests for an engagement from a single grid on the **Control tests** tab. View test status, assigned auditor, and effectiveness results, create or delete control tests, and request evidence directly from a row without opening each record individually.
 
--   **[Using Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/manage-documents-panel.md)**
+-   **Using Document Management System**
 
     Store, organize, version, and control access to documents on engagements, control tests, and evidence records with the new Documents panel, alongside the existing Attachments panel. Connect an existing document from Microsoft SharePoint, Microsoft OneDrive, or Google Drive without downloading and re-uploading it.
 
@@ -49,7 +49,7 @@ This release streamlines evidence and document collection with a faster request 
 
 ### What's changed
 
--   **[Create evidence requests with a two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-evidence.md)**
+-   **Create evidence requests with a two-step process**
 
     Create evidence requests with a two-step process by selecting the **Skip collection detail** option, which moves the request directly to **Work in Progress** state. It also enables you to add evidence manually without creating an Evidence Collection Details record.
 

@@ -32,7 +32,7 @@ Register your instance for cloning and create a custom clone profile.
 
     Exclude a table to create an empty but usable table on the target instance.
 
-5.  .
+5.  [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-cleanup-script-latest.md).
 
     Use cleanup scripts to automate post-clone steps or to modify data after your clone.
 

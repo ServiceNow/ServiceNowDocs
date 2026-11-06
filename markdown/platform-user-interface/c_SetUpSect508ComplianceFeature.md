@@ -14,7 +14,7 @@ breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and
 
 You can configure accessibility features globally or for specific users. Users can also individually enable user preferences for themselves to meet their specific accessibility needs.
 
-The platform includes features that support Web Content Accessibility Guidelines \(WCAG\) 2.0 AA and WCAG 2.1 AA \(for some products\) to make the interface more accessible to all users. These features improve the user experience when accessing the instance with screen readers and keyboard navigation.
+The platform includes features that support Web Content Accessibility Guidelines \(WCAG\) 2.2 AA \(for some products\) to make the interface more accessible to all users. These features improve the user experience when accessing the instance with screen readers and keyboard navigation.
 
 Accessibility features are not enabled by default because some features are user specific. Administrators have the flexibility to enable features globally or for individual users.
 

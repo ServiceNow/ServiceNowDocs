@@ -32,7 +32,7 @@ You must have a role configured with access to approve the templates for the cha
 
 4.  Select **New**.
 
-5.  Fill in the template name and description fields.
+5.  Enter a name and description for the category.
 
 6.  Create a child category by selecting a parent template in the **Parent** field.
 
@@ -42,7 +42,7 @@ You must have a role configured with access to approve the templates for the cha
 
 9.  Add templates to the category.
 
-    1.  In the **Template** tab, select **Edit**.
+    1.  On the **Template** tab, select **Edit**.
 
     2.  Move the desired templates from the Collection list to the Template list.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [app form, request app add item]
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Customize your form for an app in Creator Studio

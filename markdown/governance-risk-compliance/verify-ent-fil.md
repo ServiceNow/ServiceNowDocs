@@ -16,7 +16,7 @@ Verify that entity filters are configured correctly and produce accurate results
 
 ## Before you begin
 
-Role required: sn\_oper\_res.manager
+Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
 ## Procedure
 

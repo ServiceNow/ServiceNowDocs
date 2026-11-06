@@ -24,9 +24,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   Supported versions: AppDynamics version 20.3
 -   Supported ServiceNow versions:
-    -   Xanadu
-    -   Yokohama
     -   Zurich
+    -   Australia
+    -   Brazil
 
 ## Configuring a connection for the connector
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, reconcile deployment task, deployment task]
-breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Reconcile a deployment task

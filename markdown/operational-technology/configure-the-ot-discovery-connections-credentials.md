@@ -18,7 +18,7 @@ Configure the Service Graph Connector for ServiceNow Operational Technology \(OT
 
 Role required: admin
 
-**Note:** It's recommended that you switch to the application scope toService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
+**Note:** It's recommended that you switch to the application scope to Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
 
 ## Procedure
 

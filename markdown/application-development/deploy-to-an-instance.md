@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 3
 keywords: [Deploy to an instance, Prerequisites, Steps, What gets installed where, Release and promotion, Roll back a deploy, Promote between instances, Install through an update set, Deploying from Lux Lab, Deploying from ServiceNow IDE, Deploying through Maven, Diagnose a failed deploy, Ship checklist, Next steps]
-breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Deploy to an instance

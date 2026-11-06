@@ -22,5 +22,5 @@ Live Archive applies the same security controls to archived records as to live r
 
 ## Where to go next
 
-For instructions on installing and configuring Live Archive, see [Install Live Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/install-data-archiving-plugin.md).
+For instructions on installing and configuring Live Archive, see .
 

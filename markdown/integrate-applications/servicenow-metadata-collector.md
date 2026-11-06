@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/servicen
 release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -42,7 +42,7 @@ System Application
 
 </td><td>
 
-App Name, Vendor, Version, Active status, Short Description, Source Table
+App Name, Vendor, Version, Active status, Short Description, Source Table, Description
 
 </td></tr><tr><td>
 
@@ -134,6 +134,14 @@ Classification Name, Description, Classification Type, Parent Classification \(f
 
 </td></tr><tr><td>
 
+Vault Data Classification Assignment​
+
+</td><td>
+
+Created, Created by
+
+</td></tr><tr><td>
+
 Dashboard
 
 </td><td>
@@ -218,6 +226,7 @@ Catalog pages show relationships between the following data asset types:
 |Data Product|Contained within Application Scope, Has Data Content \(contains Tables and Views\)|
 |Data Interface|Contained within Application Scope, Has Fields, May extend another Table \(via extends table\), May be extended by child Tables|
 |Vault Data Classification|May have Parent Classification \(via parent classification\), May have Child Classifications, Classifies Fields and Tables \(via has classification\)|
+|Vault Data Classification Assignment|Applies Vault Data Classification \(the classification type\), Has Vault Data Classification Assignment|
 |Dashboard|Contained within Application Scope, Tabs contained in the Dashboard|
 |Dashboard Tab|Dashboard the Tab is contained within|
 |Data Collection Job|Contained within Application Scope, Indicators the Data Collection Job collects|

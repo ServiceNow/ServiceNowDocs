@@ -88,7 +88,7 @@ Define important aspects of the selected project such as duration, estimated cos
 Perform the project planning such as create project schedule, make resource assignments, create baselines, and view critical path, using planning console in the classic Project Workspace.
 -   **[Track a project using project workbench in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/track-project-using-project-workbench.md)**  
 As a project manager, track and manage a project in Project Workbench.
--   **[Create and manage resource plans for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/manage-resources-for-project.md)**  
+-   **[Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/manage-resources-for-project.md)**  
 As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
 -   **[View and manage project financial plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)**  
 Use the **Financials** tab in Project Workspace to capture the costs and benefits of a project.

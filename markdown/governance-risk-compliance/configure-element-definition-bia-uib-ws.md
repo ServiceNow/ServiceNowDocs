@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -66,10 +66,22 @@ However, you can now add a Windows server asset in the Windows Server element de
 
 3.  On the form, fill in the fields.
 
+    1.  In the **Name** field, enter `Database servers`, and from the **Source Table** list, select **Server**.
+
+    2.  Select one or more fields from the **Source Table Fields** list.
+
+    3.  Set **Requires data backup** to **Yes**, and select **Submit**.
+
+    4.  Repeat substeps a–c to create a second element definition named `Web servers`, setting **Requires data backup** to **No**.
+
     For more information on the fields in the form, see [Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/element-definition-record-form.md).
 
 4.  Select **Submit**.
 
+
+## Element definition for Linux servers
+
+In this example, the element definition is named `Linux servers` and uses the Server source table with a filter set to **Class is Linux Server**. The **Name** and **Operating System** source table fields are selected. Plan contributors can select this element definition when adding assets to a plan. For more information, see [Add asset and scope to the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.md).
 
 -   **[Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/element-definition-record-form.md)**  
 Use the Element definition record form to configure a recovery tier with a set of business applications by using BCM UIB Workspace.

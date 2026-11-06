@@ -61,6 +61,8 @@ Role required: safe\_admin or safe\_art\_user
 
 8.  To start the first PI, click **Start** that appears in its section.
 
+    Only one PI of a program can be current. Complete the current PI before you start the next one.
+
     The **Planning** tab opens.
 
 9.  To complete a PI, click **Complete** that appears in its section.

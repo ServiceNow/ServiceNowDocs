@@ -28,9 +28,9 @@ The API Insights workspace provides a centralized interface where you can analyz
 
 ## Supported ServiceNow versions
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 ## Use cases
 

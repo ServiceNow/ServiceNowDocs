@@ -20,3 +20,9 @@ You can search for specific items using keywords, and access dynamic content lik
 
 \[Omitted image "we-catalog-browse-comp-catalog.png"\] Alt text: Catalog browse component displaying catalog item based on the selection made in the Browse by catalog and Browse by categories options.
 
+## Related components
+
+Use the Catalog browse component with other components on your website:
+
+[Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/catalog-item-web-component.md): Shows the request form for the item that the customer selects.
+

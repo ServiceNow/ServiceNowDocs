@@ -7,14 +7,14 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Using external connections with OAuth support
 
 External connections allow enrichments to retrieve data from third-party systems to enhance configurations. When security requires OAuth, you can set up an OAuth handshake using client credentials to authenticate and access external APIs. This approach ensures secure data exchange for tasks such as pricing updates or attribute population during configuration.
 
-Enrichments are scripts that run outside the rules engine and affect configurations in CPQ. There are five types of enrichments that can be enabled in a CPQ environment:
+Enrichments are scripts that run outside the rules engine and affect configurations in ServiceNow CPQ. There are five types of enrichments that can be enabled in a ServiceNow CPQ environment:
 
 -   On configure/reconfigure
 -   On BOM response
@@ -22,7 +22,7 @@ Enrichments are scripts that run outside the rules engine and affect configurati
 -   Picklist extension pricing
 -   On request
 
-External connections get data for a CPQ configuration from something outside CPQ. External connections can only be called from an enrichment.
+External connections get data for a ServiceNow CPQ configuration from something outside ServiceNow CPQ. External connections can only be called from an enrichment.
 
 Occasionally, an external connection requires an OAuth handshake for security purposes. For example, you may need to populate a field or an enrichment script with data from a third-party application, such as pricing or other attributes.
 
@@ -34,7 +34,7 @@ To set an OAuth external connection, follow these steps:
 
 2.  Define your authentication token.
     -   If the external connection calls an open API, no authentication token is needed.
-    -   If the external connection is Salesforce, CPQ takes care of the authentication token for you.
+    -   If the external connection is Salesforce, ServiceNow CPQ takes care of the authentication token for you.
     -   If the authentication supports a bearer token, insert the bearer token provided by the external service for the purposes of authentication.
     -   If the authentication requires OAuth authentication:
 
@@ -70,7 +70,7 @@ varchar \(unlimited\)
 
 </td><td>
 
-Holds the client ID created for CPQ with the authorization server
+Holds the client ID created for ServiceNow CPQ with the authorization server
 
 </td><td>
 
@@ -139,7 +139,7 @@ None
     var resultsMap = results.body.rates;
     ```
 
-    Line 1 defines the variable, referencing the parameter variable from our external connection “inputVariable”. A CPQ field that stores the data we want is wrapped in encodeURIComponent and completes the inputVariable path.
+    Line 1 defines the variable, referencing the parameter variable from our external connection “inputVariable”. A ServiceNow CPQ field that stores the data we want is wrapped in encodeURIComponent and completes the inputVariable path.
 
     Line 2 and 3 then trigger the external connection `exchangeRatesAPI` using the defined input. Additional scripting is required for the call to be narrowed down to retrieve the desired data and set a field, if that is a desired use case.
 

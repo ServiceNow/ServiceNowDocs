@@ -16,7 +16,7 @@ breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Soft
 
 Use the License operations view in Software Asset Workspace to manage software asset operations.
 
-The operations on the License operation view include license management, administration,contracts, discovery, client access, resource value, user subscriptions, content suggestions, cloud cost simulation, and SAM implementation. The application specific operations include IBM ASP, IBM ILMT V2 integrations, and engineering apps integrations.
+The operations on the License operations view include license management, administration, contracts, discovery, client access, resource value, user subscriptions, content suggestions, cloud cost simulation, and SAM implementation. The application specific operations include IBM ASP, IBM ILMT V2 integrations, and engineering apps integrations.
 
 Access the License operations view by navigating to **Software Asset Workspace** &gt; **License operations**.
 
@@ -67,7 +67,7 @@ The License operations view includes the following categories:
 -   **Reclamation**
     -   **Removal candidates**
 
-        View a list of all removal candidates. Removal candidates are used to reclaim software installations that aren’t being used. You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
+        View a list of all removal candidates. Removal candidates are used to reclaim software installations and subscriptions that aren’t being used. You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
 
     -   **Reclamation summary**
 

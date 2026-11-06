@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -221,6 +221,8 @@ This user can work on case tasks that they’ve created and that are assigned to
 -   Update the status of case tasks.
 -   Perform additional actions from case tasks such as sending email.
 
+**Note:** This is a fulfiller role.
+
 </td></tr><tr><td>
 
 Relationship agent\[sn\_customerservice.relationship\_agent\]
@@ -297,7 +299,7 @@ Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contribut
 </td><td>
 
 This user can perform the following on the customer-visible case tasks for the cases of the accounts that they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
--   Close case tasks in Business Organization Support portal.
+-   Close case tasks in Business Location Service Portal \(BLSP\).
 
 </td></tr><tr><td>
 
@@ -315,7 +317,7 @@ Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contrib
 </td><td>
 
 This user can perform the following on the customer-visible case tasks for the cases of consumers and households that they have access to at their service organization \(business location\):-   View and update case tasks and the fields on the case task record that they have access to.
--   Close case tasks in Business Organization Support portal.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td>
 
@@ -324,7 +326,7 @@ Service organization contributor\[sn\_customerservice.service\_organization\_con
 </td><td>
 
 This user can perform the following on the customer-visible case tasks for the cases they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
--   Close case tasks in Business Organization Support portal.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td>
 
@@ -333,7 +335,16 @@ Self contributor\[sn\_customerservice.self\_contributor\]
 </td><td>
 
 This user can perform the following on the customer-visible case tasks for the cases they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
--   Close case tasks.
+-   Close case tasks in portal.
+
+</td></tr><tr><td>
+
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases that they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -358,7 +369,9 @@ This user can:-   View and update case tasks and the fields that they have acces
 -   View the **Parent case**, **Account**, **Contact** and **Consumer** fields.
 
 </td></tr></tbody>
-</table>## Case tasks and external user roles
+</table>For details on the contributor user roles included with various plugins, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md), and for the overview of contributor user roles [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-contributor-users.md).
+
+## Case tasks and external user roles
 
 End users and requesters can access case tasks from the Customer and Consumer Service Portals by selecting **My Lists** &gt; **My Case Tasks**.
 

@@ -27,7 +27,7 @@ The two types of threshold for a metric are static and dynamic:
 -   Static: A static threshold for a metric or a metric definition refers to a fixed value used as a limit for tracking a metric.
 -   Dynamic: Dynamic thresholds are specified in percentages and calculate variance based on  previous  period data. For example, if you track electricity consumption  and the value in January 2026 is 700 kWh, you can define threshold conditions to  monitor  changes in  subsequent  periods. Using the condition builder, you can specify conditions such as "percentage change is between 5% and 10%" or "percentage change exceeds 15%." Each threshold level is  assigned  a unique color to provide visual indicators. When February 2026 data is collected and the percentage change from January falls within your defined conditions, the system displays the corresponding color indicator and triggers any configured actions such as sending notifications or creating issues. 
 
-## Threshold recalculation
+## Editing a threshold
 
 Editing a threshold recalculates the threshold rating and breach status for associated metric data or metric definition data. This keeps the ratings accurate to reflect current performance. Deleting or deactivating a threshold recalculates the threshold rating and breach status against any other threshold that still applies to the metric data or metric definition data. If no other threshold applies, the rating and breach status are cleared, and the threshold justification field on affected metric data tasks is hidden. In both cases, metric data that is already closed or completed keeps its existing rating.
 

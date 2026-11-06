@@ -1,6 +1,6 @@
 ---
 title: View change tasks
-description: You can view the state, risk, and the schedule of the change tasks in the Mobile Agent mobile application.
+description: View the state, risk, and schedule of change tasks in the Mobile Agent mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/mobile-view-changetask.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Get started with Change Management mobile tasks, Mobile experience 
 
 # View change tasks
 
-You can view the state, risk, and the schedule of the change tasks in the Mobile Agent mobile application.
+View the state, risk, and schedule of change tasks in the Mobile Agent mobile application.
 
 ## About this task
 
-As an ITSM agent or Technician working away from desk, use the Mobile Agent to review the state, risk, and schedule of your change tasks in real-time. The mobile view provides the same task details available on the desktop change form so that you can act on assigned work across locations.
+As an ITSM agent or technician working away from your desk, use the Mobile Agent to review the state, risk, and schedule of your change tasks in real time. The mobile view provides the same task details available on the desktop change form so that you can act on assigned work across locations.
 
 Use the Mobile Agent mobile application to review your change tasks when you're away from your desk. If you're a new user, start from the home screen, where the **My Work** tab groups the tasks assigned to you or to your group.
 
@@ -36,7 +36,7 @@ Role required: itil or sn\_change\_write
 
 3.  Tap the change task for a detailed view.
 
-4.  Tap any field with right arrow to view its details.
+4.  Tap any field with a right arrow to view its details.
 
 
 **Parent Topic:**[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/getting-started-with-changetasks.md)

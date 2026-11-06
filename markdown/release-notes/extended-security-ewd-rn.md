@@ -18,7 +18,7 @@ The ServiceNow® Extended Security for Enterprise-Wide Deployment application pr
 
 Enable additional ACL enforcement on partitioned tables \(Project, Demand, Portfolio, Program\) through the SPM Configuration console with table-specific configuration options for flexible, granular security deployment.
 
-See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ewd-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -35,11 +35,11 @@ Version 1.0.0 enables organizations configure additional security for Project, D
 
 ### What's new
 
--   **[Additional security on partitioned tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)**
+-   **Additional security on partitioned tables**
 
     Enable additional security \(ACL enforcement\) for partitioned tables to strengthen access control validation. Administrators can configure enhanced security on individual partitioned tables \(Project, Demand, Portfolio, Program\) through the **Configure SPM** console under **Partitions** &gt; **Enable additional security**. When enabled, users without partition role access see transparent access-restricted messages and security constraint indicators, including row counts of records hidden due to partition access restrictions. This provides clear governance visibility without exposing sensitive data.
 
--   **[Supported tables for additional security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)**
+-   **Supported tables for additional security**
 
     When enabled additional security on a table, partition role validation becomes mandatory for all users accessing records in that table. Additional security is supported for the following tables.
 

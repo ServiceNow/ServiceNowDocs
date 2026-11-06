@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d206499e151">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d205965e145">
 
 Method
 
-</th><th align="left" id="d206499e154">
+</th><th align="left" id="d205965e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206499e160">
+</th></tr></thead><tbody><tr><td id="d205965e154">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d206499e211">
+</td></tr><tr><td id="d205965e205">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d206499e268">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d205965e262">
 
 Email message window
 
-</th><th align="left" id="d206499e271">
+</th><th align="left" id="d205965e265">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d206499e280">
+</th></tr></thead><tbody><tr><td id="d205965e274">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d206499e297">
+</td></tr><tr><td id="d205965e291">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d206499e306">
+</td></tr><tr><td id="d205965e300">
 
 **Use template**
 
@@ -136,6 +136,10 @@ Shows email template recommendations while composing an email.
 [Generate a knowledge article from multiple cases]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 

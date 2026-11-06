@@ -16,7 +16,7 @@ Create a configurable product offering and generate an associated blueprint usin
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: sn\_prd\_pm.product\_catalog\_admin
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 1
-breadcrumb: [Solution configuration setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Solution configuration setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Node cloning for solution configuration

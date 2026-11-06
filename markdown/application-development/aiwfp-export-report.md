@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-10-06"
 reading_time_minutes: 1
-breadcrumb: [Credit Dashboard, AI Workflow Factory, Building applications]
+breadcrumb: [Credit Dashboard, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Export a report
@@ -16,7 +16,7 @@ Export the data from the Credit Dashboard to a .CSV report.
 
 ## Before you begin
 
-You must have the AI Workflow Factory application entitled and installed on your instance to access the Credit Dashboard. AI Workflow Factory is available in the ServiceNow Store. For more information, see the following resources:
+You must have the AI Workflow Factory Prime application entitled and installed on your instance to access the Credit Dashboard. AI Workflow Factory Prime is available in the ServiceNow Store. For more information, see the following resources:
 
 -   [Entitle an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/entitle-applications-in-application-manager.md)
 -   [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md)

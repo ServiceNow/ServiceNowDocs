@@ -14,7 +14,7 @@ breadcrumb: [\(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 
 Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are. They are engaged in web portals, Now® Mobile apps, and messaging applications.
 
-Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For migration guidance, see [KB3159779: Virtual Agent NLU and Keyword Feature Deprecation Migration Guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159779).
 
 -   **[\(Legacy\) Integrating Virtual Agent for NLU with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps-nlu.md)**  
 Enable users to run Virtual Agent bot conversations in supported third-party messaging apps. Use the Conversational Integration apps for Slack, Microsoft Teams, and Workplace that are available from the ServiceNow Store to configure these messaging apps on your ServiceNow instance.

@@ -1,12 +1,12 @@
 ---
 title: Unified Security Exposure Management \(USEM\) release notes
-description: The ServiceNow Unified Security Exposure Management \(USEM\) \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. See the following sections for release notes by release.This release adds a Change Request approval path to scheduled patch deployments, and separates risk modification from exception requests.This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
+description: The ServiceNow Unified Security Exposure Management \(USEM\) \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. See the following sections for release notes by release.The ServiceNow Unified Security Exposure Management \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. USEM was enhanced and updated in the Brazil release.This release adds a Change Request approval path to scheduled patch deployments, and separates risk modification from exception requests.This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/secops-sem-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 8
 keywords: [usem release notes, Unified Security Exposure Management, USEM, Patch Orchestration, Risk modification, Exception Management, Unified Security Exposure Management, USEM, SSVC, Patch Orchestration]
 breadcrumb: [Security Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -39,6 +39,29 @@ See [Unified Security Exposure Management \(USEM\)](https://raw.githubuserconten
 
 
 **Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/security-operations-rn-landing.md)
+
+## November 2026
+
+The ServiceNow® Unified Security Exposure Management \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. It centralizes workflows, improves visibility across exposures, and enforces governance through configurable rules. With consistent navigation and integrated configuration, USEM boosts productivity, collaboration, and control across security operations, delivering a unified experience for exposures across assets. USEM was enhanced and updated in the Brazil release.
+
+### What's new
+
+-   **[Unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/integrating-usem.md)**
+
+    Configure, monitor, and troubleshoot scanner integrations within the Unified Security Exposure Management \(USEM\) interface. It has a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.
+
+    The Security Assets view in the SEM workspace displays normalized and deduplicated assets reported by your security integrations. Each asset shows its risk rating, open findings, labels, and sources. The asset context enables USEM to create precise CIs in appropriate CMDB classes.
+
+    **Note:** Th unified exposure pipeline can't be configured alongside the standard scanner integration applications from ServiceNow Store. You must disable all standard scanner integration applications and clear their data before using the unified exposure pipeline.
+
+-   **[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/fix-intel-for-usem-landing.md)**
+
+    Accelerate remediation using the deduplicated USEM exposure findings and fix guidance. Automatically identify and group findings by fixes, remediation categories, and software versions for fix-oriented remediation workflows.
+
+    Each fix record gives the recommended remediation, such as a software package and version to update, with its category, related security advisories, and patch month. The fix record also shows the number of affected findings and assets, with a rolled-up risk score and risk rating. Use these details to prioritize fixes that reduce the most exposure.
+
+    **Note:** It is available only when scanner integrations are configured using the unified exposure pipeline.
+
 
 ## Brazil Early Availability
 

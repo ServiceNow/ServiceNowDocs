@@ -9,7 +9,7 @@ classification: automated-test-framework-atf
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 110
-breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Available quick start tests by application or feature
@@ -223,7 +223,7 @@ To learn more about Enterprise Architecture \(formerly Application Portfolio Man
 
 ## Assessments and Surveys
 
-Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl. Survey\).
+Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl.survey\).
 
 |Name|Description|Release version|
 |----|-----------|---------------|
@@ -5338,7 +5338,7 @@ Zurich
 
 ## Service Level Management
 
-Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.service\_level\_management.atf\).
+Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.sla.atf\).
 
 |Test|Description|Release version|
 |----|-----------|---------------|

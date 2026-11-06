@@ -91,5 +91,5 @@ Decrypted data.
 `java.lang.Exception`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+</table>**Parent Topic:**[MID Server configuration file security]()
 

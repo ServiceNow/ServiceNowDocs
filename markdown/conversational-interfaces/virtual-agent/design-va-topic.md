@@ -39,7 +39,7 @@ Use Assistant Designer topic creation controls and reusable conversational eleme
 
     Consider whether to add or restrict any data collection from the user through means such as additional instructions to the LLM or customized slot-filling.
 
-    Consider setting small talk filters to redirect user statements in LLM conversations. For details on configuring small talk filters, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-small-talk-filters.md).
+    Consider setting small talk filters to redirect user statements in LLM conversations. For details on configuring small talk filters, see .
 
 -   **Understand the design process in Assistant Designer.**
 
@@ -71,7 +71,7 @@ With this goal in mind, the topic requires the following elements:
 -   A prompt for the user to enter a comment
 -   A utility control to add the user input as a comment in the incident
 
-There are extra considerations when creating topics for LLM conversations. For guidelines on writing LLM instructions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md) and [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/llm-instruction-guidelines.md).
+There are extra considerations when creating topics for LLM conversations. For guidelines on writing LLM instructions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md) and .
 
 ## Build the conversation flow with Virtual Agent controls
 

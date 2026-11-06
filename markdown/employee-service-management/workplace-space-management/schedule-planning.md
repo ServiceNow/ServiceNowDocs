@@ -71,11 +71,11 @@ A schedule plan can be in one of the following states:
 **Related topics**  
 
 
+[]()
+
 [Space Optimization]()
 
 [Scenario Planning]()
-
-[Allocation - types, setting, and impact]()
 
 [Lists module]()
 

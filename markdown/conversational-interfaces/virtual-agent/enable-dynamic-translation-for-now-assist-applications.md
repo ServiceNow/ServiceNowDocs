@@ -19,15 +19,15 @@ Turn on multilingual service for user-entered text with native translation or Dy
 
 ## Before you begin
 
-To see a list of all available languages supported in ServiceNow Otto, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md).
+To see a list of all available languages supported in ServiceNow Otto, see Multilingual service for Now Assist.
 
-To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md). From the Zurich release, Dynamic Translation has available support in specific regulated markets. For details see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
+To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see Activate Dynamic Translation and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md). From the Zurich release, Dynamic Translation has available support in specific regulated markets. For details see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
 
 Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-There are two translation services available to translate user-generated content in ServiceNow Otto applications. For more information on the differences between the two, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md). In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
+There are two translation services available to translate user-generated content in ServiceNow Otto applications. For more information on the differences between the two, see Multilingual service for Now Assist. In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
 
 After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the ServiceNow Otto panel.
 
@@ -51,7 +51,7 @@ After you have enabled either Dynamic Translation or native translation, transla
 
 5.  To enable the preferred language from the available languages supported in the model providers selected in AI Control Tower, select **Edit** and then select the check-box next to the languages you want to use for translation.
 
-    See [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md) for more information about adding new languages for your preferred model to support.
+    See Multilingual service for Now Assist for more information about adding new languages for your preferred model to support.
 
     To update your choice, select **Save**.
 

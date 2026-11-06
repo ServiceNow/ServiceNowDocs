@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-pricing-plan.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -190,4 +190,6 @@ As a pricing admin or manager, follow these steps to define a custom pricing pla
 -   [Delete a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/delete-pricing-plan-step.md), if needed.
 
 As you add or change pricing steps, the system validates your entries, such as the sequence number, price point, and calculation type. When you finish adding or changing steps, publish the configurable pricing plan to make it active. The former active plan is retired.
+
+If a step condition can't be evaluated, you can't publish the pricing plan until you correct the condition.
 

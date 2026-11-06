@@ -30,7 +30,7 @@ A delegated developer must switch from the Global application scope to the scope
 
 ## Access to activity definitions
 
-Delegated developers reach all activity definitions by default, through the out-of-box content filtering rule that grants access to users with the delegated\_developer role. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+Delegated developers reach all activity definitions by default, through the out-of-box content filtering rule that grants access to users with the delegated\_developer role. For more information, see .
 
 -   **[Grant delegated access to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/grant-delegated-access-to-playbooks.md)**  
 Assign a user as a delegated developer so they can build playbooks within one application.

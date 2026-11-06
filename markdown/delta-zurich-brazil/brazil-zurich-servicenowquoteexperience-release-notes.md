@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowquoteexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -122,7 +122,7 @@ Amend simple and configurable products that originate from a contract, directly 
 
 -   **ServiceNow Quote Experience Integration with Subscription Management**
 
-Subscription Management integrates with ServiceNow Quote Experience, CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
+Subscription Management integrates with ServiceNow Quote Experience, ServiceNow CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
 
 -   **[Pricing in the ServiceNow Quote Experience](https://www.servicenow.com/docs/access?context=pricing-in-quote-experience&family=brazil&ft:locale=en-US)**
 
@@ -135,7 +135,7 @@ Calculate and adjust transaction pricing directly from a quote.
     -   Apply automatic price adjustments. Use rules such as volume tiers, promotions, and contracted discounts during a pricing call. A manual adjustment always takes precedence over an automatic one on the same line or header.
 -   **Configure ServiceNow Quote Experience through Guided Setup**
 
-Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your CPQ integration in a single guided flow, instead of configuring components separately.
+Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your ServiceNow CPQ integration in a single guided flow, instead of configuring components separately.
 
 
 </td></tr></tbody>
@@ -440,7 +440,7 @@ Brazil
 
 -   **Localization information**
 
-Enhanced localization in CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+Enhanced localization in ServiceNow CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in ServiceNow CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
 
 
 </td></tr></tbody>

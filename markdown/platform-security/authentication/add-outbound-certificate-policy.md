@@ -1,13 +1,13 @@
 ---
 title: Add an outbound certificate policy
-description: Add an outbound certificate policy to control how the instance validates a specific domain's SSL/TLS certificate's on outbound connections, adjusting individual validation checks for that domain.
+description: Add an outbound certificate policy to control how the instance validates a specific domain's SSL/TLS certificates on outbound connections, adjusting individual validation checks for that domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/add-outbound-certificate-policy.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [outbound certificate policy, certificate validation, SSL, TLS]
 breadcrumb: [Outbound certificate policies, Authentication, Access Management]
@@ -15,7 +15,7 @@ breadcrumb: [Outbound certificate policies, Authentication, Access Management]
 
 # Add an outbound certificate policy
 
-Add an outbound certificate policy to control how the instance validates a specific domain's SSL/TLS certificate's on outbound connections, adjusting individual validation checks for that domain.
+Add an outbound certificate policy to control how the instance validates a specific domain's SSL/TLS certificates on outbound connections, adjusting individual validation checks for that domain.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ The feature is enabled. A policy has no effect until the `com.glide.communicatio
 
 ## About this task
 
-An outbound certificate policy overrides the global SSL/TLS validation settings for a single domain. domains without a policy continue to use the global settings.
+An outbound certificate policy overrides the global SSL/TLS validation settings for a single domain. Domains without a policy continue to use the global settings.
 
 ## Procedure
 

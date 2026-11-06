@@ -14,6 +14,8 @@ breadcrumb: [Features and changes by product, Release notes for upgrading from A
 
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
 
+-   **[AI Workflow Factory Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-workflow-factory-prime-rn.md)**  
+The ServiceNow® AI Workflow Factory Prime application contains products that enable you to discover, build, run, and extend on the ServiceNow AI Platform. See the following sections for release notes by version.
 -   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-management-center-rn.md)**  
 The ServiceNow® App Engine Management Center application provides an innovative experience for you to manage the full life cycle of custom app development, from intake to deployment. See the following sections for release notes by version.
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-studio-rn.md)**  
@@ -24,6 +26,8 @@ The ServiceNow® Application Runtime Policy module enables optional, automatic g
 The ServiceNow® Automation Center application helps you govern your end-to-end, multi-vendor automation life cycles from one place, and use real-time dashboards to measure automation health and prevent failures. See the following sections for release notes by version.
 -   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-agent-rn.md)**  
 The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
+-   **[Partner Passport Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/partner-passport-portal-rn.md)**  
+Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Brazil release.
 -   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/data-catalog-rn.md)**  
  Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.
 -   **[Developer Sandboxes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
@@ -50,6 +54,8 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.
 -   **[Stream Connect release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/stream-connect-rn.md)**  
 The ServiceNow® Stream Connect application links your Apache Kafka environment to your ServiceNow instance, enabling you to stream data between your instance and your external systems. See the following sections for release notes by version.
+-   **[Table Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/table-builder-rn.md)**  
+The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. See the following sections for release notes by version.
 -   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/workflow-studio-rn-landing.md)**  
 The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Brazil release.
 -   **[Zero Copy Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connectors-rn.md)**  

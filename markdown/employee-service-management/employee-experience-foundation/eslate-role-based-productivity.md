@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-17"
 reading_time_minutes: 2
 keywords: [role-based productivity, productivity tiers, specialized assistants, role-based canvas, manager productivity]
-breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Key user roles and personas

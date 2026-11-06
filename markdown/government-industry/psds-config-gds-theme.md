@@ -34,7 +34,7 @@ Portal Title
 
 </td><td>
 
-The name of your portal. Changing the name of the portal in the  also changes the title on the portal form field in the platform UI.
+The name of your portal. Changing the name of the portal in the Branding Editor also changes the title on the portal form field in the platform UI.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Tag line &amp; background
 
 </td><td>
 
-Fields defined by the JSON schema in the **Quick start config** field on the portal record in the platform UI. The sample Service Portal adds **Tag Line** and **Background** to the  using the following schema:
+Fields defined by the JSON schema in the **Quick start config** field on the portal record in the platform UI. The sample Service Portal adds **Tag Line** and **Background** to the Branding Editor using the following schema:
 
 ```
 [{
@@ -110,7 +110,7 @@ Background image
 Upload an image to appear in the background of your homepage. This image is stored in the container for the widget on your homepage.
 
 </td></tr></tbody>
-</table>The default theme for the GDS Service Portal employs Gov.UK design system standards, and includes the official Gov.UK color palette \(primary, secondary, background, text colors\). To choose other colors, navigate to the Theme colors tab. The theme preview updates as you make changes. Changes made to the theme colors in the  appear in the CSS variables field of the portal form in the platform UI.
+</table>The default theme for the GDS Service Portal employs Gov.UK design system standards, and includes the official Gov.UK color palette \(primary, secondary, background, text colors\). To choose other colors, navigate to the Theme colors tab. The theme preview updates as you make changes. Changes made to the theme colors in the Branding Editor appear in the CSS variables field of the portal form in the platform UI.
 
 ## Add a header or footer
 

@@ -1,6 +1,6 @@
 ---
-title: AI Workflow Factory
-description: AI Workflow Factory enables you to discover, build, run, and extend on the ServiceNow AI Platform. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory capabilities to help your team move from idea to production faster.
+title: AI Workflow Factory Prime
+description: AI Workflow Factory Prime enables you to discover, build, run, and extend on the ServiceNow AI Platform. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory Prime capabilities to help your team move from idea to production faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ai-workflow-factory-prime.html
 release: brazil
@@ -8,127 +8,100 @@ topic_type: concept
 last_updated: "2026-09-09"
 reading_time_minutes: 5
 keywords: [AI workflow factory prime, AI workflow factory]
-breadcrumb: [Building applications]
+breadcrumb: [Agentic app development, Building applications]
 ---
 
-# AI Workflow Factory
+# AI Workflow Factory Prime
 
-AI Workflow Factory enables you to discover, build, run, and extend on the ServiceNow AI Platform®. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory capabilities to help your team move from idea to production faster.
+AI Workflow Factory Prime enables you to discover, build, run, and extend on the ServiceNow AI Platform®. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory Prime capabilities to help your team move from idea to production faster.
 
-**Important:** Check your entitlements to determine whether you have access to AI Workflow Factory tools and capabilities.
+**Important:** Check your entitlements to determine whether you have access to AI Workflow Factory Prime tools and capabilities.
 
 ## Get started
 
-<table id="table_dfp_rgd_hkc" class="nav-card presentation"><tbody><tr><td>
+\[Omitted image "ai-workflow-factory-prime-header-MMASSET0022547.png"\] Alt text: AI Workflow Factory Prime enables you to discover, build, run, and extend on the ServiceNow AI Platform.
 
-[App Engine Management Center\[Omitted image "bus-manage.svg"\] Alt text:Govern app development and deployment from a single, unified experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-engine-management-center.md)
+## Discover
 
-</td><td>
+-   **[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center-landing-page.md)**
 
-[App Engine Studio\[Omitted image "bus-application-developer.svg"\] Alt text:Build apps in a low-code, integrated builder environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-overview.md)
+    Use the ServiceNow Automation Center application to govern your end-to-end multi-vendor automation life cycles from one place. By using real-time dashboards, you can manage and measure the health of the automation and prevent automation failures across multiple vendors​.
 
-</td><td>
+-   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/process-mining.md)**
 
-[ATF Test Generator and Cloud Runner \[Omitted image "bus-scan.svg"\] Alt text:Generate regression tests for a specific instance with platform intelligence.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-intro.md)
+    Process Mining enables you to create automated business process flows from your data that enable you to monitor and more quickly discover inefficiencies in your processes.
 
-</td></tr><tr><td>
+-   **[Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/task-mining/task-mining.md)**
 
-[Autonomous Engineer\[Omitted image "bus-learn.svg"\] Alt text:Generate a complete implementation plan from your requirements. Then Build Agent builds all work items in parallel, reducing the need to author each artifact manually.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md)
+    Task Mining helps process owners collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
 
-</td><td>
 
-[Creator Studio\[Omitted image "bus-workflow.svg"\] Alt text:Create intelligent workflows in a guided, curated, no-code environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-landing.md)
+## Build
 
-</td><td>
+-   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-overview.md)**
 
-[Developer Sandboxes\[Omitted image "bus-sandbox.svg"\] Alt text:Enable parallel building and testing on top of a shared development instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md)
+    App Engine Studio is a low-code app building tool that enables you to build scoped ServiceNow applications using a guided wizard experience.
 
-</td></tr><tr><td>
+-   **[ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-intro.md)**
 
-[Process Mining\[Omitted image "bus-optimize-manage.svg"\] Alt text:Analyze and optimize your business processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining.md)
+    ATF Test Generator and Cloud Runner generates tests depending on the instance behavior and workflows. You can also execute the generated tests using the Cloud Runner option.
 
-</td><td>
+-   **[Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer.md)**
 
-[ServiceNow Otto for App Engine\[Omitted image "bus-elevate.svg"\] Alt text:Add AI capabilities to custom applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+    Autonomous Engineer helps to reduce the time it takes to implement applications by taking your specifications as input and driving the full implementation lifecycle through Build Agent.
 
-</td><td>
+-   **[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)**
 
-[ServiceNow Otto for Creator\[Omitted image "bus-app-creator.svg"\] Alt text:Use AI capabilities such as Build Agent to make development on the ServiceNow AI Platform more efficient.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
+    Build Agent is an AI tool designed for developers within ServiceNow Studio and the ServiceNow Integrated Development Environment \(ServiceNow IDE\). Build Agent acts as an autonomous AI agent capable of independently generating a complete ServiceNow scoped or global application. For example, a global scope app that uses tables such as incident, problem, and change.
 
-</td></tr><tr><td>
+-   **[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-landing.md)**
 
-[ServiceNow Studio for App Engine \[Omitted image "bus-explore.svg"\] Alt text:ServiceNow Studio for App Engine includes premium plugins and capabilities for ServiceNow Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+    Creator Studio is a tool that enables citizen developers to build request and fulfill applications in a no-code environment.
 
-</td><td>
+-   **[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md)**
 
-[Table Builder for App Engine\[Omitted image "bus-learn.svg"\] Alt text:Create, design, and administer tables and forms visually from a single user interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
+    Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
 
-</td><td>
+-   **[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)**
 
-[Task Mining\[Omitted image "bus-learn.svg"\] Alt text:Collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining.md)
+    ServiceNow Otto for Creator includes generative and agentic AI features that make developing on the ServiceNow AI Platform more efficient. The ServiceNow Otto for Creator AI capabilities are embedded across platform tools, so developers can generate apps, flows, code, and UI components without leaving the tools they use every day.
 
-</td></tr><tr><td>
+-   **[ServiceNow Studio for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)**
 
-[Workspace Builder \[Omitted image "bus-explore.svg"\] Alt text:Create and tailor custom workspaces where agents work on open records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/workspace-builder-landing.md)
+    ServiceNow Studio for App Engine includes premium plugins and capabilities for ServiceNow Studio. Install ServiceNow Studio for App Engine to get started building applications in ServiceNow Studio quickly.
 
-</td><td>
+-   **[Table Builder for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)**
 
- 
+    Table Builder for App Engine enables you to create, design, and administer tables and forms visually from a single user interface.
 
-</td><td>
+-   **[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/workspace-builder-landing.md)**
 
- 
+    Workspace Builder enables you to quickly create and tailor custom workspaces where agents work on open records.
 
-</td></tr></tbody>
-</table>## App Engine Management Center
 
-App Engine Management Center provides a unified experience for governing the development and deployment of custom applications for your organization. Oversee requests for new applications, collaboration requests, and insights into custom app usage and developer data. App Engine Management Center also includes ReleaseOps and Developer Sandboxes.
+## Run
 
-## App Engine Studio
+-   **[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-engine-management-center.md)**
 
-App Engine Studio is a low-code app building tool that enables you to build scoped ServiceNow applications using a guided wizard experience.
+    App Engine Management Center provides a unified experience for governing the development and deployment of custom applications for your organization. Oversee requests for new applications, collaboration requests, and insights into custom app usage and developer data. App Engine Management Center also includes ReleaseOps.
 
-## ATF Test Generator and Cloud Runner
+-   **[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-landing.md)**
 
-ATF Test Generator and Cloud Runner generates tests depending on the instance behavior and workflows. You can also execute the generated tests using the Cloud Runner option.
+    ReleaseOps automates and enhances the process of deploying changes, customizations, and custom applications on the ServiceNow AI Platform. ReleaseOps improves the existing pipelines deployment process by internally managing cross-instance trust and credential sharing, simplifying the setup and configuration of custom pipelines.
 
-## Autonomous Engineer
+-   **[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)**
 
-Autonomous Engineer helps to reduce the time it takes to implement applications by taking your specifications as input and driving the full implementation lifecycle through Build Agent.
+    ServiceNow Otto for App Engine gives developers the tools they need to add AI capabilities to custom applications. You can enhance an existing application with AI, or create an application that features AI from the start.
 
-## Creator Studio
 
-Creator Studio is a tool that enables citizen developers to build request and fulfill applications in a no-code environment.
+## Extend
 
-## Developer Sandboxes
+-   ****
 
-Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
+    ServiceNow® AI Desktop Actions enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop and web environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and web applications without APIs.
 
-## Process Mining
+-   **[ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cowork-landing.md)**
 
-Process Mining enables you to create automated business process flows from your data that enable you to monitor and more quickly discover inefficiencies in your processes.
+    ServiceNow Arc is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously, and operates within defined security, access, and governance policies.
 
-## ServiceNow Otto for App Engine
-
-ServiceNow Otto for App Engine gives developers the tools they need to add AI capabilities to custom applications. You can enhance an existing application with AI, or create an application that features AI from the start.
-
-## ServiceNow Otto for Creator
-
-ServiceNow Otto for Creator includes generative and agentic AI features that make developing on the ServiceNow AI Platform® more efficient. The ServiceNow Otto for Creator AI capabilities are embedded across platform tools, so developers can generate apps, flows, code, and UI components without leaving the tools they use every day.
-
-## ServiceNow Studio for App Engine
-
-ServiceNow Studio for App Engine includes premium plugins and capabilities for ServiceNow Studio. Install ServiceNow Studio for App Engine to get started building applications in ServiceNow Studio quickly.
-
-## Table Builder for App Engine
-
-Table Builder for App Engine enables you to create, design, and administer tables and forms visually from a single user interface.
-
-## Task Mining
-
-Task Mining helps process owners collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
-
-## Workspace Builder
-
-Workspace Builder enables you to quickly create and tailor custom workspaces where agents work on open records.
 

@@ -48,7 +48,7 @@ Orchestration activities that were converted to activity packs are deprecated fo
 The **SOAP Message** activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 -   **[Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_OrchestrationProbes.md)**  
 Certain probes, controlled by MID Servers, perform Orchestration tasks on remote computers, such as restarting a server or creating virtual machines from templates.
--   **[PowerShell activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md)**  
+-   **[PowerShell activities]()**  
 PowerShell is built on the Windows .NET Framework and is designed to control and automate the administration of Windows machines and applications.
 -   **[SSH activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationSSHActivities.md)**  
 SSH activities allow workflows to perform operations on Linux and Unix computers.

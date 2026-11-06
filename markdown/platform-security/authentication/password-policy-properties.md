@@ -35,7 +35,7 @@ glide.enable.password\_policy
 Enables a password policy for your instance. The policy goes into effect when a user changes or resets a password. This property is automatically set to **true**. **Note:**
 
 -   If your instance is customized, via the **ValidatePasswordStronger** installation exit or your Password Reset credential store \[pwd\_cred\_store\], then you must create this property and add it to your system properties.
--   Prior to the Orlando release, if your instance was customized with the **ValidatePasswordStronger** installation exit, then you had to create the Password Policy property to make the Password Policy work.
+-   Before the Orlando release, if your instance was customized with the **ValidatePasswordStronger** installation exit, then you had to create the Password Policy property to make the Password Policy work.
 -   Starting with the Orlando release, there is no installation exit customization. The Password Policy properties work by default. These properties can be manually turned off.
 
 </td></tr><tr><td>

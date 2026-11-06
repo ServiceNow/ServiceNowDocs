@@ -290,7 +290,7 @@ Allow null attribute
 
 </td><td>
 
-If at least one criterion attribute in the related table is not null, allow to attempt matching with an identifier entry even if there are criterion attributes which are null.
+If at least one criterion attribute in the related table is not null, matching with an identifier entry is attempted even when other criterion attributes are null.
 
 </td></tr><tr><td>
 

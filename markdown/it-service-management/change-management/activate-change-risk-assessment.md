@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - Risk Assessment
-description: You can activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) with the admin role. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-risk-assessment.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management plugins, Configure, Change Management, IT Service
 
 # Activate Change Management - Risk Assessment
 
-You can activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Risk Assessment plugin \(com.snc.change\_management.risk\_assessment\) with the admin role. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -54,7 +54,7 @@ Assessment Designer\[com.glide.assessment\_designer\]
 
 </td><td>
 
-Provides an interface to create and edit the Change Risk Assessment form that is required to collect user information on risk of the change request.
+Provides an interface to create and edit the Change Risk Assessment form that is required to collect user information about the risk of the change request.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -81,7 +81,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -99,11 +99,11 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -111,7 +111,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -119,7 +119,7 @@ You can [define risk assessment](https://raw.githubusercontent.com/ServiceNow/Se
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

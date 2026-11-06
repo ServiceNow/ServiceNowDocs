@@ -1,5 +1,5 @@
 ---
-title: Activating the SCIM plugin
+title: Activate the SCIM
 description: For SCIM activation, install the SCIM v2 - ServiceNow Cross-domain Identity Management \(com.snc.integration.scim2\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/activate-scim-plugin.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Activating the SCIM plugin
+# Activate the SCIM
 
 For SCIM activation, install the SCIM v2 - ServiceNow Cross-domain Identity Management \(com.snc.integration.scim2\) plugin.
 

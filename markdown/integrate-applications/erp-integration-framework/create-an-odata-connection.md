@@ -1,21 +1,21 @@
 ---
 title: Create an OData connection in Zero Copy Connector for ERP
-description: Create an OData v2 connection to link to an ERP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+description: Create an OData v2 connection to link to an ERP system so data can be extracted for use in remote tables and extraction tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-odata-connection.html
 release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-23"
 reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, connection, http]
-breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an OData connection in Zero Copy Connector for ERP
 
-Create an OData v2 connection to link to an ERP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+Create an OData v2 connection to link to an ERP system so data can be extracted for use in remote tables and extraction tables.
 
 ## Before you begin
 
@@ -25,7 +25,12 @@ For information about OData connections in Zero Copy Connector for ERP, see [Con
 
 ## About this task
 
-An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. The property must be enabled on the correct scope.After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\) System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
+An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables.
+
+-   The property must be enabled on the correct scope.
+-   After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.
+-   The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\)
+-   System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
 
 ## Procedure
 
@@ -71,9 +76,9 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     2.  In **Select service**, search for and select a service, for example **API\_BUSINESS\_PARTNER \(Remote API for business partner\)** in the OData service catalog.
 
-        When you specify the service, a call is made to the SAP service to read its metadata. The default service is /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. If you must change the service, create a property named sn\_erp\_integration.odata\_service\_path and set the value.
+        When you specify the service, a call is made to the SAP service to read its metadata. The default service is /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. If you must change the service, create a property named sn\_erp\_integration.catalog\_service\_path and set the value. This property applies to all ERP systems in the instance.
 
-        If you can't find the service you need, see [Add a service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
+        If you can't find the service you need, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
 
     3.  In **Select the endpoints**, search for and select an endpoint, for example **A\_BusinessPartnerType**.
 
@@ -147,24 +152,20 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     3.  Select **Save**.
 
-21. Test with Workflow Studio.
 
+## What to do next
+
+Test the connection using one of the following methods.
+
+-   Use scriptable API. For detailed information, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+-   Use Workflow Studio.
     1.  Navigate to **All** &gt; **Workflow Studio**.
-
     2.  On the home page, select **Actions**.
-
     3.  In the **Name** column, filter for **contains Value** and type `Use ERP`.
-
     4.  Select **Apply**.
-
     5.  Select **Use ERP data**.
-
     6.  Select **Test**.
-
     7.  Specify the **ModelName**, **ModelOperation**, **Mandatory fields** \(provide a value for the mandatory field if necessary\), select a **System**, and select **Run Test**.
-
     8.  When complete, select the link **Your test has finished running. View the Action execution details**.
-
     9.  View and check the output, for example, in **Output Data**, select the **Response** to view the output.
-
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-platformanalyticsexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
@@ -347,6 +347,10 @@ When you are moved to Next Experience navigation:
     -   The Analytics Overview page and all library pages now contain their own Platform Analytics navigation tree.
     -   The navigation path **Self-Service** &gt; **Dashboards** redirects to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
     -   The navigation path **Reports** &gt; **View / Run** redirects to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+-   **[ACL Assessment for Data Visualizations](https://www.servicenow.com/docs/access?context=report-view-acl-dashboard&family=australia&ft:locale=en-US)**
+
+The ACL Assessment for Reports, removed in Australia Patch 4, comes back in Patch 8 with support for Platform Analytics data visualizations. The condition builder for the data source is now also evaluated.
+
 -   **[Sort library records by column values](https://www.servicenow.com/docs/access?context=find-dashboard-library&family=australia&ft:locale=en-US)**
 
 Select the header of any column in a library page to sort the library by that column.

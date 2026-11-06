@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
 last_updated: "2026-09-17"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -44,15 +44,15 @@ SMART targets are specific, measurable, attainable, relevant, and time-bound. Wh
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d296612e148">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d304306e150">
 
 Option
 
-</th><th align="left" id="d296612e151">
+</th><th align="left" id="d304306e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d296612e157">
+</th></tr></thead><tbody><tr><td id="d304306e159">
 
 **From the Goals view**
 
@@ -64,7 +64,7 @@ Steps
 4.  Next to the goal, select the row context menu icon \[Omitted image "action-menu-icon.png"\] Alt text: and select **Add target**.
 
 
-</td></tr><tr><td id="d296612e204">
+</td></tr><tr><td id="d304306e206">
 
 **From the Targets tab**
 
@@ -93,6 +93,8 @@ The Goal side panel opens with the **Details** tab.
     -   Maintain above service uptime: Set check-in frequency to **Monthly** to track monthly uptime performance.
     -   Maintain constant staffing: Set check-in frequency to **Quarterly** to verify headcount stays within the tolerance band each quarter.
     For Maximize and Minimize targets, check-in frequency is optional.
+
+    In fiscal mode, you can select only the check-in frequencies that the fiscal calendar provides. For details, see [Check-in frequency values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/check-in-frequency-values-spw.md).
 
 4.  Select **Save**.
 

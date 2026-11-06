@@ -35,7 +35,7 @@ Virtual chat conducts a survey before and after the Agent Chat. The pre-survey g
 |Download a transcript of the conversation between the agent and the requester.|[Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md)|Requester|
 |Carry out a conversation in another language.|[Dynamic Translation for Agent Chat overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-dtac-overview.md)|Agent, requester|
 |Initiate conversations with requesters on a messaging app of the requester's choice.|[Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/agent-init-messg-interface.md)|Agent, requester|
-|Read a summarization of the chat \(this is available only if you have Now Assist installed\).|[Summarize a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)|Agent|
+|Read a summarization of the chat \(this is available only if you have Now Assist installed\).|Summarize a chat|Agent|
 
 ## Routing chats
 

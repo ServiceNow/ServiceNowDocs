@@ -7,10 +7,10 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [Workload Identity Federation, Google Cloud, GCP, Workload Identity Pool, token exchange]
-breadcrumb: [Workload Identity Federation, OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Workload Identity Federation, OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure Workload Identity Federation for Google Cloud
@@ -45,10 +45,10 @@ This task uses the Workload Identity Federation fast-configuration UI. The UI cr
 
     |Field|Description|
     |-----|-----------|
-    |**Connection Name**|A unique name for this Workload Identity connection. Required.|
-    |**Project Number**|The numeric Google Cloud project number. Found in the Google Cloud console under your project &gt; Dashboard. Required.|
-    |**Identity Provider Name**|The OIDC provider configured within your Workload Identity Pool. Required.|
-    |**Identity Pool Name**|The Workload Identity Pool you created in Google Cloud IAM. Required.|
+    |Connection Name|A unique name for this Workload Identity connection.|
+    |Project Number|The numeric Google Cloud project number. Found in the Google Cloud console under your project &gt; Dashboard.|
+    |Identity Provider Name|The OIDC provider configured within your Workload Identity Pool.|
+    |Identity Pool Name|The Workload Identity Pool you created in Google Cloud IAM.|
 
 5.  Select **Submit**.
 

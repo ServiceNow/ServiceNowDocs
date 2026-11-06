@@ -1,6 +1,6 @@
 ---
-title: Copy a report
-description: Users who can't create their own global reports can modify a global report, and then save a personal version of the report.
+title: Copy a Core UI report
+description: Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/copy-report.html
 release: brazil
@@ -9,12 +9,12 @@ classification: reporting
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Copy a report
+# Copy a Core UI report
 
-Users who can't create their own global reports can modify a global report, and then save a personal version of the report.
+Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 
 ## Before you begin
 
@@ -53,14 +53,14 @@ This topic refers to Reporting in the Core UI. If your instance is a new Brazil 
 
 6.  Modify the report.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 7.  Change the report visibility.
 
     In the upper right side of the report form, select the **Sharing** icon \(\[Omitted image "square-share-outline-24.svg"\]\) and select **Share**.
 
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 

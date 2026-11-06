@@ -17,11 +17,11 @@ Associate an existing business application with an AI system asset, independentl
 
 ## Before you begin
 
-Role required: AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 ## About this task
 
-You can associate a business application with an AI system either while creating the AI system asset, or afterward by editing an existing AI system's relationships. This topic covers both.
+You can associate a business application with an AI system either while creating the AI system asset, or afterward by editing an existing AI system's relationships.
 
 This association requires the Enterprise Architecture for AICT plugin, which installs automatically with AI Control Tower Core at the required version. For upgrade-order considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
@@ -37,20 +37,24 @@ This association requires the Enterprise Architecture for AICT plugin, which ins
 
 4.  From the list of available asset types, select **AI system**.
 
-    The dialog box closes and you are automatically redirected to the Add AI system asset form.
+    The dialog box closes and you're automatically redirected to the Add AI system asset form.
 
-5.  In the **Details** section of the form, fill in the fields and then select **Next**.
+5.  In the **Details** section of the form, fill in the fields.
 
     For field information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets-newexperience.md).
 
-6.  On the Relationships page, from the **Related to** list, select **Business Applications**.
+6.  Select **Next**.
 
-7.  Select **Add from inventory**.
+7.  On the Relationships page, from the **Related to** list, select **Business Applications**.
 
-8.  In the **Select Business Applications** dialog box, select the checkbox next to each business application that you want to associate, and then select **Add**.
+8.  Select **Add from inventory**.
 
-9.  Select **Next** to continue to **Use and Purpose**, or **Submit for review** if you're editing an existing asset.
+9.  In the Select Business Applications dialog box, select the check box next to each business application to associate, and then select **Add**.
 
+10. Select **Next** or **Submit for review**.
+
+    -   If you're creating a new asset, select **Next** to continue to **Use and Purpose**.
+    -   If you're editing an existing asset, select **Submit for review**.
 
 ## Result
 

@@ -44,7 +44,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 2.  Set up ServiceNow Otto in Virtual Agent.
 
-    For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+    For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     **Note:**
 

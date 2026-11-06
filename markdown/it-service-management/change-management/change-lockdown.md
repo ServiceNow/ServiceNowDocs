@@ -17,7 +17,9 @@ breadcrumb: [Configure, Change Management, IT Service Management]
 
 Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
 
-Change lockdown is available in the base system. After installation, the **Change Lockdowns** module appears in the Change application menu. To view or create a new change lockdown, see [Create a change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-lockdown.md).
+Change lockdown is available in the base system. After installation, the **Change Lockdowns** module appears in the Change application menu. To view or create a change lockdown, see [Create a change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-lockdown.md).
+
+**Note:** The Change lockdown depends on Change Management - Collision Detector plugin \(com.snc.change.collision\), this plugin is now activated automatically when you upgrade to the Brazil release.
 
 A lockdown moves through an approval cycle before it takes effect. You can preview the affected change requests and refine the criteria while the lockdown is in draft. You can also cancel the lockdown when the situation that prompted it is resolved. For the full list of states, see [Change lockdown states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-lockdown-states.md).
 
@@ -25,11 +27,11 @@ When a lockdown is approved and it reaches the **Enforced** state, the system wr
 
 For steps on previewing, approval, and cancellation, see [Manage a change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-change-lockdown.md).
 
-**Note:** If a change request was already on hold before the lockdown was created, it remains on hold after the lockdown is cancelled.
+**Note:** If a change request was already on hold before the lockdown was created, it remains on hold after the lockdown is canceled.
 
 ## Lockdowns and conflict detection
 
-A new conflict type is introduced, **Inside Change Lockdown** conflict type which identifies change requests that overlap with an active lockdown period.
+The **Inside Change Lockdown** conflict type identifies change requests that overlap with an active lockdown period.
 
 Conflict detection checks change requests against active lockdown records. If you create or reschedule a change request inside a lockdown period, the system places it on hold automatically.
 

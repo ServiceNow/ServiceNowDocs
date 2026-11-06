@@ -1,6 +1,6 @@
 ---
 title: Create a connection for ServiceNow Quote Experience calls
-description: Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
+description: Add a connection in ServiceNow CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-a-connection.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Integrations, ServiceNow Quote Experience, Configure, price, quote 
 
 # Create a connection for ServiceNow Quote Experience calls
 
-Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
+Add a connection in ServiceNow CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Connections are used in transaction rules only. Each connection stores the host URL, an optional path, and authentication credentials. When you configure an integration in ServiceNow Quote Experience, you select a connection and CPQ uses the stored credentials to authenticate outbound requests during a transaction.
+Connections are used in transaction rules only. Each connection stores the host URL, an optional path, and authentication credentials. When you configure an integration in ServiceNow Quote Experience, you select a connection and ServiceNow CPQ uses the stored credentials to authenticate outbound requests during a transaction.
 
 To call an external system from a configuration rule instead, configure an external connection.
 
@@ -48,15 +48,15 @@ The following authentication types are available: bearer token, OAuth client cre
 
 9.  In the **Authentication type** field, select the credential method that the external system requires, then complete the fields for that authentication type.
 
-<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d60140e211">
+<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d59230e211">
 
 Authentication type
 
-</th><th align="left" id="d60140e214">
+</th><th align="left" id="d59230e214">
 
 Fields to complete
 
-</th></tr></thead><tbody><tr><td id="d60140e220">
+</th></tr></thead><tbody><tr><td id="d59230e220">
 
 **Bearer token**
 
@@ -64,7 +64,7 @@ Fields to complete
 
 In the **Authentication token** field, enter the token used to authenticate outbound requests.
 
-</td></tr><tr><td id="d60140e232">
+</td></tr><tr><td id="d59230e232">
 
 **OAuth client credentials**
 
@@ -76,7 +76,7 @@ In the **Authentication token** field, enter the token used to authenticate outb
 -   **Scope** \(optional\): the permissions granted to the token on the external system, if required.
 
 
-</td></tr><tr><td id="d60140e264">
+</td></tr><tr><td id="d59230e264">
 
 **JWT client credentials**
 

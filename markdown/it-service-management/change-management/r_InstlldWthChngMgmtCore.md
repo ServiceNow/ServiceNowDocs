@@ -1,6 +1,6 @@
 ---
 title: Installed with Change Management - Core
-description: Several types of components are installed with the Change Management - Core.Change Management - Core modifies the following table.
+description: Several types of components are installed with the Change Management - Core.The Change Management - Core plugin modifies the following table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_InstlldWthChngMgmtCore.html
 release: brazil
@@ -20,7 +20,7 @@ Several types of components are installed with the Change Management - Core.
 
 ## Tables installed with Change Management core
 
-Change Management - Core modifies the following table.
+The Change Management - Core plugin modifies the following table.
 
 <table id="table_dqr_qng_y5"><thead><tr><th>
 

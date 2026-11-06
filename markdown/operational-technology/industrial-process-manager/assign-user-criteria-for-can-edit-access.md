@@ -36,6 +36,8 @@ You can assign the user criteria for Can Edit access in two locations:
     |**Equipment Model Entity View Access Table**|**All** &gt; **Equipment Model - ISA** &gt; **User Criteria - Can Edit**|
     |**Can Edit Equipment Models related list**|**All** &gt; **Equipment Model - ISA** &gt; **Sites** and open a site record. Select the Can Edit Equipment Models related list.|
 
+    **Note:** User criteria configurations aren't available with the ISA Equipment Model version 4.2.0.
+
 2.  Create a record by selecting **New**.
 
 3.  In the **Site** field, select the equipment model site record that you need.

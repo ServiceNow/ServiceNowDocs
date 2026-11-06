@@ -54,6 +54,8 @@ Create recall corrective actions AI agent extracts the information available in 
 Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
 -   **[Create an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-impacted-asset.md)**  
 Identify an impacted asset that must be replaced or recalled.
+-   **[Plan and execute recall campaign phases and sub-phases using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.md)**  
+Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 -   **[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-phases.md)**  
 Create a recall campaign for a specific geography or a dealership.
 

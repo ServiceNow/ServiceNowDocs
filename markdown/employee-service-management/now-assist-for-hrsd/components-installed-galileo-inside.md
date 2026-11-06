@@ -30,7 +30,7 @@ sn\_hr\_na\_galileo.admin
 
 </td><td>
 
-Is auto-assigned to the sn\_hr\_gen\_ai\_helper.admin role.
+Is auto-assigned to the `sn_hr_gen_ai.admin` role.
 
  Grants administrative access to the Galileo data store.
 

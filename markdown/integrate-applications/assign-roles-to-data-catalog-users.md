@@ -24,7 +24,7 @@ For detailed information about roles that are installed with Data Catalog, see [
 
 ## Procedure
 
--   Assign roles to users and groups using the Data Catalog feature.
+-   Assign [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog-roles.md) to users and groups using the Data Catalog feature.
 
     -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
     -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)

@@ -50,6 +50,10 @@ The Workplace Task form specifies details to assign a space to a neighborhood.
 The Neighborhood User Assignment Rule form specifies conditions based on which users or their profiles must be assigned to the neighborhood.
 -   **[User Workplace Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/user-workplace-profile-form.md)**  
 The User Workplace Profile form specifies details about an employee like their name, primary location, and allocation.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+
 
 **Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
 

@@ -9,7 +9,7 @@ classification: application-repository-self-hosted
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Preserve applications and customizations in development during a system clone, Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Preserve applications and customizations in development during a system clone, Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Results post cloning for application customizations

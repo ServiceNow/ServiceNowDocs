@@ -33,3 +33,5 @@ Role required: sn\_itom\_cam.cw\_requester
 5.  Select **Yes** to confirm.
 
 
+**Parent Topic:**[Managing cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/managing-an-account.md)
+

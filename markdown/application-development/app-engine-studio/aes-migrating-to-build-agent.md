@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Migrate to Build Agent, AES to Build Agent, Build Agent, App Engine Studio, Agentic development]
-breadcrumb: [Explore, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Migrating to Build Agent

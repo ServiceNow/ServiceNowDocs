@@ -304,7 +304,7 @@ Vendor Catalog Items
 
 </td><td>
 
-List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
+List of all vendor catalogs of this inventory. To learn more, see Vendor Catalog Items.
 
 </td></tr><tr><td>
 

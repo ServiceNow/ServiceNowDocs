@@ -102,7 +102,7 @@ The domain-separated instance has one setup record for Slack, Microsoft Teams, W
 
 Customers on the subdomain license either Slack, Microsoft Teams, or Workplace independently of the ServiceNow instance.
 
-The admin of the subdomain installs the integrations within the subdomain and configures the appropriate credentials to access Virtual Agent from the third-party client. For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+The admin of the subdomain installs the integrations within the subdomain and configures the appropriate credentials to access Virtual Agent from the third-party client. For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 **Parent Topic:**[\(Legacy\) Virtual Agent NLU technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-advanced-technical-reference-nlu.md)
 

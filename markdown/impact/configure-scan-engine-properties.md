@@ -1,5 +1,5 @@
 ---
-title: Configure Scan Engine parameters
+title: Configure Scan Engine properties
 description: Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-scan-engine-properties.html
@@ -11,7 +11,7 @@ keywords: [impact scan engine, scan properties, scheduled scans]
 breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Configure Scan Engine parameters
+# Configure Scan Engine properties
 
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 
@@ -231,7 +231,7 @@ Real-time scanning properties allow control over which users have access to real
 -   **[Configure real-time code resolution with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-ai-code-fix-for-platform-health.md)**  
 Follow these steps to configure real-time code resolution with AI suggested fixes for Impact Platform Health.
 -   **[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-properties.md)**  
-When real-time enforcement, `enforce_real_time_validation`, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. Settings determine which finding levels require approval before the form can be saved.
+When real-time enforcement, `enforce_real_time_validation`, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. The scope controls which finding levels can have exceptions. It doesn't decide which findings block a save.
 
 **Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)
 

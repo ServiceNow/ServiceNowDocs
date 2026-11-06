@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring release lifecycle documentation AI agent

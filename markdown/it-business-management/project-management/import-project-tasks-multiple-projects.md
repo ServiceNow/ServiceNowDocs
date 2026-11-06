@@ -30,6 +30,8 @@ Role required: import\_transformer, import\_admin, or admin
 
 4.  In the **Source of the import** field, select File, and then select **Choose File** to select the source Excel spreadsheet.
 
+    \[Omitted image "import\_task\_file.png"\] Alt text: Import task file configuration form
+
 5.  If required, specify the Work sheet and Header row number.
 
 6.  Select **Submit**

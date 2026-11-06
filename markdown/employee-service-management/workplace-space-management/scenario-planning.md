@@ -58,11 +58,11 @@ Using the Space optimization module you can create scenarios for a single buildi
 **Related topics**  
 
 
+[]()
+
 [Space Optimization]()
 
 [Schedule Planning]()
-
-[Allocation - types, setting, and impact]()
 
 [Lists module]()
 

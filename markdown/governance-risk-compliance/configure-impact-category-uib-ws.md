@@ -32,7 +32,11 @@ Role required: sn\_bcm.admin
 
     For more information on the fields in the form, see [Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/impact-category-new-record-form.md).
 
-4.  Select **Submit**.
+4.  Enter the name and details of the impact categories.
+
+    For example, enter `Financial impact` in the **Name** field, set **Contributes to** to `Recovery time objective`, and select all four timeframes in the **Applicable timeframes** field.
+
+5.  Select **Submit**.
 
 
 -   **[Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/impact-category-new-record-form.md)**  

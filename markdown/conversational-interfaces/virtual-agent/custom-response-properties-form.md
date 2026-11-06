@@ -1,13 +1,13 @@
 ---
 title: Custom output properties sheet
-description: Use this sheet to define a custom response control in Virtual Agent.
+description: Custom response properties define a custom response control in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/custom-response-properties-form.html
 release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-24"
 reading_time_minutes: 1
 keywords: [Virtual Agent, custom output, response control]
 breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
@@ -15,7 +15,7 @@ breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversati
 
 # Custom output properties sheet
 
-Use this sheet to define a custom response control in Virtual Agent.
+Custom response properties define a custom response control in Virtual Agent.
 
 ## Custom output properties sheet
 
@@ -41,7 +41,7 @@ Generate Control Data Function
 
 </td><td>
 
-Script function that provides the data used to render the custom control. For example, if you're creating a slider input control, you would define the values for the slider. These values include the slider minimum and maximum values, slide default values, icon used in the slider, and so on.
+Script function that provides the data used to render the custom control. For example, if you're creating a slider input control, you would define the values for the slider. These values include the slider minimum and maximum values, slider default values, icon used in the slider, and so on.
 
 </td></tr><tr><td>
 

@@ -22,7 +22,7 @@ Live Connect \(formerly SQL API\) provides read-only SQL access to your ServiceN
 -   Supports OAuth authentication for secure, FedRamp-compliant connections.
 -   Integrates with enterprise analytics platforms such as Pyramid Analytics, Power BI, and Tableau.
 
-See [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -52,7 +52,7 @@ Live Connect was enhanced and updated in the Brazil release.
 
 ### What's new
 
--   **[Enable OAuth for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/enable-oauth-for-live-connect.md)**
+-   ****
 
     Connect third-party ODBC and JDBC clients to ServiceNow using OAuth credentials to meet FedRamp compliance requirements and enable secure multi-factor authentication workflows. OAuth provides modern, encrypted authentication aligned with security standards and reduces credential exposure in transit.
 

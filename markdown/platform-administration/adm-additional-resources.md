@@ -98,7 +98,7 @@ Release notes
 
 </td><td>
 
-
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-search-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-search-rn.md)
 
 </td></tr><tr><td>
 

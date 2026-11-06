@@ -28,7 +28,7 @@ Configure remediation more comprehensively by creating CI remediation rules to m
 
 ## Remediation tasks
 
-When a remediation workflow is executed, a remediation task is created to capture details such as the time that the workflow started to run, the alert that triggered the remediation workflow \(if relevant\), and the CI that was remediated. View these tasks to track remediation activities in the organization.
+When a remediation workflow runs, a remediation task is created to capture the start time, the triggering alert \(if relevant\), and the remediated CI. View these tasks to track remediation activities in the organization.
 
 -   **[Create or edit CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_SACreateCIRemediation.md)**  
 Create a CI remediation rule that lets users manually apply an Orchestration workflow for resolving issues with specific CIs associated with alerts. Define these CIs in the CI filter conditions of the rule.

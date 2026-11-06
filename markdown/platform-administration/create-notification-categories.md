@@ -66,5 +66,5 @@ The system adds the new category to the Notification Categories \[sys\_notificat
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

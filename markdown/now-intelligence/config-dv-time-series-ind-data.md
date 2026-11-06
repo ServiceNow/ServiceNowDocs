@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-time
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -313,8 +313,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -325,6 +329,28 @@ Allow change date range
 </td><td>
 
 When turned on, the viewer has a date range selector control with a set of predefined options.
+
+ Not available when **Compare period over period** is turned on.
+
+</td></tr><tr><td>
+
+Compare period over period
+
+</td><td>
+
+Option to overlay each period as a separate series on the same chart, aligned by their position within the period. Use it to spot patterns, trends, or anomalies across periods.Available only for indicator data sources, and only when **Number of periods** and **Period** are set, **Show maximum range** and **Set absolute period** are off, and the chart type is Area, Line, Spline, or Step. Not available when the visualization has a group by or multiple metrics.
+
+The setting is hidden when the **Period** is Days, when the time aggregation unit is the same as the period unit, or when the indicator uses a business calendar. For more information, see [Period over period comparison in time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/period-over-period-comparison.md).
+
+</td></tr><tr><td>
+
+Allow change date range
+
+</td><td>
+
+When turned on, the viewer has a date range selector control with a set of predefined options.
+
+ Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -345,6 +371,8 @@ Show forecast
 </td><td>
 
 Option to display forecast data in the chart based on current trend data.**Note:** If there is not enough historical data to generate a forecast, no forecast or error is displayed.
+
+Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -368,7 +396,7 @@ Show trend
 
 </td><td>
 
-Option to display the direction that the indicator is moving, or how values have changed over time.
+Option to display the direction that the indicator is moving, or how values have changed over time.Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -376,7 +404,7 @@ Show confidence band
 
 </td><td>
 
-Option to display the bandwidth between which indicator scores are moving.
+Option to display the bandwidth between which indicator scores are moving.Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -392,7 +420,7 @@ Show comment
 
 </td><td>
 
-Option to display comments added to data points.
+Option to display comments added to data points.Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -436,11 +464,13 @@ When toggled on, if there is a filter applying multiple elements, these elements
 -   If there are no "is one of" filter conditions, the first multiple select filter with a selection overrides all other filters.
 -   A different multiple select filter can take effect if the first one is cleared.
 
-Default: off. A single aggregate line is shown for all elements.
+ Default: off. A single aggregate line is shown for all elements.
 
-Requires the latest Data Visualization application from the ServiceNow Store.
+ Requires the latest Data Visualization application from the ServiceNow Store.
 
  **Note:** Available only when no **Group by** is defined.
+
+ Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 

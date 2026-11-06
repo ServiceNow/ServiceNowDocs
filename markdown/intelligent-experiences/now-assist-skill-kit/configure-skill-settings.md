@@ -103,7 +103,7 @@ Description of the feature.
     -   **Now Assist context menu**
     -   **Virtual assistants**
 
-        For more information about Now Assist in Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+        For more information about Now Assist in Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     -   **UI Builder**
 5.  Review the **General information** section.

@@ -98,6 +98,8 @@ If the run completes with some columns skipped, check the system logs for the ca
 
 [Explore data assets in Data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/explore-data-assets-in-data-catalog.md)
 
+[Enable Vault classification for a metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/enable-vault-classification.md)
+
 [Run metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-metadata-collectors-dc.md)
 
 [Assign roles to Data catalog users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-roles-to-data-catalog-users.md)

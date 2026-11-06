@@ -22,7 +22,7 @@ You can activate the REST API Access Policy plugin \(com.glide.rest.policy\) if 
 
 The following items are installed with REST API Access Policy:
 
--   Plugins: com.gilde.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
+-   Plugins: com.glide.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
 -   Tables: sys\_api\_access\_policy, sys\_auth\_profile\_mapping, auth\_policy\_mapping, inbound\_auth\_profile, std\_http\_auth.
 
 For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-authentication.md).

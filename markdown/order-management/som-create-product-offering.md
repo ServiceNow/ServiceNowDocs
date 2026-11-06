@@ -93,9 +93,9 @@ Configuration Status
 </td><td>
 
 Indicates the status of the product offering: -   None: The product offering is not configured. This is the default value.
--   Creating: Creation of the product offering in CPQ Administration is in progress.
--   Created: The product offering is created in CPQ Administration and is available as a blueprint.
--   Error: An error occurred while creating blueprint for the product offering in CPQ Administration.
+-   Creating: Creation of the product offering in ServiceNow CPQ Administration is in progress.
+-   Created: The product offering is created in ServiceNow CPQ Administration and is available as a blueprint.
+-   Error: An error occurred while creating blueprint for the product offering in ServiceNow CPQ Administration.
 
 
 </td></tr><tr><td>
@@ -104,7 +104,7 @@ Configurable
 
 </td><td>
 
-Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-servicenowcpq.md).
+Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-servicenowcpq.md).
 
 </td></tr><tr><td>
 

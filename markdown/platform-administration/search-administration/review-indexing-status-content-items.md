@@ -39,7 +39,7 @@ Use the index inspector tool to review individual content items retrieved by an 
 
     1.  Perform the appropriate action for your version of the UI:
 
-<table id="table_els_wyl_vpb"><thead><tr><th>
+<table><thead><tr><th>
 
 UI version
 

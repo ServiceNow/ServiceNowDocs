@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -16,7 +16,7 @@ Configurable portal widgets provide you with the ability to configure the behavi
 
 The GDS Service Portal uses widgets for configuration. Widgets are what define the content of your portal pages. You can use the base system widgets provided with the GOV.UK Developer Toolkit in their default state, or you can clone, modify, or develop custom widgets to better fit your needs.
 
-**Note:**  To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/widget-dev-guide.md).
+**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/widget-dev-guide.md).
 
 When you create or update a page in the Service Portal Designer, you can add widgets to that page by searching in the widget filter and dragging a widget onto the page. You can then configure widget behavior, visual appearance, and content to update the information presented on the widgets. Each time you add a widget to a page, an instance of that widget is created that can be modified individually for use on that page. For each instance of a base system widget that you add to a page, you can configure the instance options available for that widget.
 

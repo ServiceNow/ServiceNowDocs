@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-10-04"
 reading_time_minutes: 6
-keywords: [ServiceNow, Health Log Analytics, HLA, logs, tagging, manual mapping, JavaScript function, auto-mapping, data input, source type, binding log data, CMDB]
+keywords: [ServiceNow, Health Log Analytics, HLA, logs, tagging, parsing, manual mapping, JavaScript function, auto-mapping, data input, source type, binding log data, CMDB]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 

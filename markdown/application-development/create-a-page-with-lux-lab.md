@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Create a page]
-breadcrumb: [Using Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Using Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a page with Lux Lab
@@ -40,7 +40,7 @@ Create a page in a new experience so that you can add elements to it, preview it
 
     2.  With the `/pages` folder highlighted, select the create folder icon.
 
-        Alternatively, right-click and select **New Folder**.
+        Alternatively, select and hold \(or right-click\) and select **New Folder**.
 
     3.  Enter a name for the new folder and press Enter.
 

@@ -53,5 +53,4 @@ Choose one of the tiles below to get started.
  [Use guided tours to provide step-by-step walkthroughs of applications within your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/guided-tours.md)
 
 </td></tr></tbody>
-</table>For additional getting started information, see the following Getting Started with Adoption Services video.
-
+</table>

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-17"
 reading_time_minutes: 1
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, large scale deployment ServiceNow]
-breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Deployment requests in ReleaseOps

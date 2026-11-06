@@ -20,7 +20,7 @@ Use the Digital End-User Experience \(DEX\) agentic workflow to diagnose and res
 **Important:** To access the DEX issue diagnosis and resolution agentic workflow, make sure that you install the following applications:
 
 -   ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
--   Digital End-User Experience application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Configuring Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/configure-dex-cf.md).
+-   Digital End-User Experience application. For more information, see  and .
 
 **Note:**
 

@@ -16,7 +16,7 @@ Enable ServiceNow Otto in Virtual Agent API to support generative AI skills acro
 
 ## Before you begin
 
-Set up ServiceNow Otto for Virtual Agent. See [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md) for more information.
+Set up ServiceNow Otto for Virtual Agent. See [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md) for more information.
 
 Role required: admin
 

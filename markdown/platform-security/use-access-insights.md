@@ -1,5 +1,5 @@
 ---
-title: Using Access Insights
+title: Use Access Insights
 description: Use Access Insights to understand users' peer-level access to a selected resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/use-access-insights.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Access Insights, Access Analyzer, Access Management]
 ---
 
-# Using Access Insights
+# Use Access Insights
 
 Use Access Insights to understand users' peer-level access to a selected resource.
 
@@ -18,9 +18,9 @@ Use Access Insights to understand users' peer-level access to a selected resourc
 
 Role required: access\_analyzer\_admin
 
-**Note:** To view the details of though Access Insights feature, you must use the [Compare user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/comparing-access-controls.md) feature.
+**Note:** To view the details of the Access Insights feature, you must use the [Compare user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/comparing-access-controls.md) feature.
 
-The following procedure describes the steps for viewing the peer level role or group assignment statistics within the Access Insights feature.
+The following procedure describes the steps for viewing the peer-level role or group assignment statistics within the Access Insights feature.
 
 ## Procedure
 
@@ -40,35 +40,35 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Select user 1\*
+Select user 1
 
 </td><td>
 
-Specify a user name to select from the list for the comparison.
+User name to select from the list for the comparison.
 
 </td></tr><tr><td>
 
-Select user 2\*
+Select user 2
 
 </td><td>
 
-Specify a user name to select from the list to compare with the user 1.
+User name to select from the list to compare with the user 1.
 
 </td></tr><tr><td>
 
-Rule Type\*
+Rule Type
 
 </td><td>
 
-Analyze access permissions for a table.**Note:** Only access permissions for a table can be used in the **Compare user access**.
+Access permissions for a table.**Note:** Only access permissions for a table can be used in the **Compare user access**.
 
 </td></tr><tr><td>
 
-Select table\*
+Select table
 
 </td><td>
 
-Specify a table name to select from the list.
+Table name to select from the list.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Select record
 
 </td><td>
 
-Specify a record name to select from the list.
+Record name to select from the list.
 
 </td></tr><tr><td>
 
@@ -84,16 +84,16 @@ Select field
 
 </td><td>
 
-Specify a field name to select from the list.
+Field name to select from the list.
 
 </td></tr></tbody>
-</table>4.  Click **Compare user access**.
+</table>4.  Select **Compare user access**.
 
     The **Compare user access** results show the access evaluation status for the operation per user. For example, **Charlier Fuhri** and **Charlie Knower**.
 
-5.  Click an operation.
+5.  Select an operation.
 
-    For example, click the **read** operation.
+    For example, select the **read** operation.
 
 6.  Select an **Access Control** to learn more about access.
 
@@ -108,5 +108,5 @@ Specify a field name to select from the list.
 
 ## Result
 
-Based on the insights gained, you can decide if a user has inappropriate access \(either too much or too little\) and make the necessary adjustments to their roles and groups to ensure consistency and compliance.
+Based on the insights gained, you can decide if a user has inappropriate access \(either too much or too little\) and make the necessary adjustments to their roles and groups to verify consistency and compliance.
 

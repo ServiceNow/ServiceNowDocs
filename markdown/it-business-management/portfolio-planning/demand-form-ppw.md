@@ -1,6 +1,6 @@
 ---
-title: Demand form
-description: The demand form information is used to create a demand.
+title: Demand details form
+description: The demand form information is used to update the Details tab of a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/demand-form-ppw.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 14
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Demand form
+# Demand details form
 
-The demand form information is used to create a demand.
+The demand form information is used to update the Details tab of a demand.
 
 <table id="table_olx_smf_cp"><thead><tr><th>
 
@@ -253,7 +253,7 @@ Project Manager
 
 </td><td>
 
-Project manager that would be assigned to the project created from this demand. When a project is created, this field becomes read only. This field appears if the **Category** field is set to Strategic and the **Type** field is set to Project. If you delete the project created from this demand, this field becomes editable.
+Project manager that would be assigned to the project created from this demand. When a project is created, this field is set to read only. This field appears if the **Category** field is set to Strategic and the **Type** field is set to Project. If you delete the project created from this demand, this field becomes editable.
 
 </td></tr><tr><td>
 
@@ -596,7 +596,7 @@ Option for enabling the assessments for the demand. This option is active by def
 If smart assessments is enabled for the demand, this same field also determines whether a smart assessment is triggered when the demand reaches the Screening state. If this option isn't selected, the demand skips the assessment and moves directly to the Qualified state. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md)
 
 </td></tr></tbody>
-</table>**Note:** The values in the **Value** and **Score** fields are updated when a cost plan, benefit plan, or resource assignment is created or updated for the demand in the Qualified or Approved state. The values in the fields are updated only until an artifact such as project, enhancement, defect, or change is created from the demand.
+</table>**Note:** The values in the **Value** and **Score** fields are updated when a cost plan, benefit plan, or resource assignment is created or updated for the Qualified or Approved demand. Updates stop after an artifact is created from the demand. Artifacts include projects, enhancements, defects, and changes.
 
 |Field|Description|
 |-----|-----------|
@@ -638,7 +638,7 @@ Determines the calculation to use for task dependencies for the project when the
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Team|The planning team to which the created EAP entity is assigned. This field becomes read only once the EAP entity is created. This value is an optional value.|
+|Team|The planning team to which the created EAP entity is assigned. This field is set to read only after the EAP entity is created. This value is an optional value.|
 |Converted to|The name of the created EAP entity. This field is read-only.|
 
 |Field|Description|

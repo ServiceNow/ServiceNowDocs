@@ -48,6 +48,8 @@ Role required: wm\_agent or wm\_dispatcher
 
 7.  Tap **Get Started** and answer each question in the questionnaire.
 
+    **Note:** In the Now Mobile Agent application, you can edit only the questionnaires on a work order task that are assigned to you. Questionnaires assigned to other users are view-only.
+
 8.  Perform one of the following actions.
 
     |To|Complete these steps|

@@ -21,8 +21,8 @@ Learn how to customize your mobile experience further. Configure actionable noti
 ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage alerts, incidents, and on-call schedules from the same mobile app. Visit the following ITSM Mobile Agent documentation to learn about customizing mobile notifications.
 
 -   [Configurable actionable notifications for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/actionable-notify-itsm-mobile.md)
--   [Enable Push notification categories for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/enable-notifications-categories.md)
--   [ITSM Mobile email notification redirection via web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-ma-email-notification-redirection.md)
--   [Set custom alert tones in ITSM Mobile Agent for different incident priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/set-alert-tones-incident-priority.md)
--   [Enable Override do not disturb to receive critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/enable-override-do-not-disturb-to-receive-critical-alerts.md)
+-   [Enable push notification categories for ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/enable-notifications-categories.md)
+-   [ITSM Mobile email notification redirection from the web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-ma-email-notification-redirection.md)
+-   [Set custom alert tones in ITSM Mobile Agent for incident priorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/set-alert-tones-incident-priority.md)
+-   [Enable critical alerts in Do Not Disturb mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/enable-override-do-not-disturb-to-receive-critical-alerts.md)
 

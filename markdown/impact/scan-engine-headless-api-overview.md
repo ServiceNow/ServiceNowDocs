@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-headless-api
 release: brazil
 topic_type: concept
 last_updated: "2026-09-23"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Scan Engine, API, headless, automation]
-breadcrumb: [Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine Headless REST API
@@ -126,13 +126,4 @@ Query for findings that have been fixed or resolved over time to track long-term
 
     The declared origin of the scan request, either API, UI, or Scheduled. Use this field to determine whether a scan was triggered programmatically.
 
-
--   **[Trigger a scan via API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/trigger-scan-api.md)**  
-You can start a Scan Engine scan by sending a POST request to the scan endpoint. The API returns a unique scan result ID that you use to check progress and retrieve findings.
--   **[Check scan status and retrieve findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/check-scan-status-retrieve-findings.md)**  
-After triggering a scan, poll the status endpoint to monitor progress and retrieve findings when the scan completes.
--   **[Automate scans in CI/CD pipelines and scheduled workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/integrate-scan-engine-ci-cd.md)**  
-Use the Scan Engine API to automate scans in Continuous Integration/Continuous Deployment \(CI/CD\) pipelines and scheduled jobs, enabling you to block risky changes or monitor instance health programmatically.
-
-**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 

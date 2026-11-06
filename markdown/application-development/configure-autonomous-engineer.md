@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, Build Agent, configure, install, agent packs, ServiceNow Studio, setup]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configure Autonomous Engineer

@@ -54,7 +54,7 @@ When you use Change Management with other ServiceNow products, you increase the 
 
 ## Products that benefit from Change Management
 
--   **Service Portfolio Management \(Service Portfolio Management\)**
+-   **Service Portfolio Management \(\)**
 
     Services have the context of the business and applications, along with the information and technologies that underpin them.
 

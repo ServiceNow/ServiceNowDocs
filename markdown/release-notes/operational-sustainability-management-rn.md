@@ -38,7 +38,7 @@ This release enhances sustainability reporting and content management with impro
 
 ### What's changed
 
--   **[Enhanced content generation in Document Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-data-columns.md)**
+-   **Enhanced content generation in Document Designer**
 
     With Document Designer version 23.0.3, you can create HTML-based scripted columns for content blocks in your reports.
 

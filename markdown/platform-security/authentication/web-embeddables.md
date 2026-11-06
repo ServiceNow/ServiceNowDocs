@@ -1,6 +1,6 @@
 ---
-title: Web Embeddables
-description: Secure the web embeddables feature for authenticating the ServiceNow's web components that are used in third-party portals.
+title: Web embeddables
+description: Secure the web embeddables feature for authenticating the ServiceNow web components that are used in third-party portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/web-embeddables.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Authentication, Access Management]
 ---
 
-# Web Embeddables
+# Web embeddables
 
-Secure the web embeddables feature for authenticating the ServiceNow's web components that are used in third-party portals.
+Secure the web embeddables feature for authenticating the ServiceNow web components that are used in third-party portals.
 
 The web embeddables capability enables you to embed the ServiceNow web components into external websites outside ServiceNow. You can use these web components to interact with the ServiceNow using dedicated APIs that allow for real-time data exchange and functionality use without requiring users to directly access the ServiceNow interface.
 
@@ -26,11 +26,11 @@ The \(`/now/client/authenticate`\) API end point is used for authenticating the 
 
 To use this end point, you need to send a valid bearer auth JWT based token in the authorization header as part of authentication request. When a valid token is sent, the session is considered as embedded with the removal of `admin` and `security admin` roles to the user.
 
-Further, you can perform role relegation to further configure the roles that are required to be removed during an embedded session. To learn more about embedded session role configuration, see [Configure client session access role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-client-session-access-role.md).
+You can perform role relegation to configure the roles that must be removed during an embedded session. To learn more about embedded session role configuration, see [Configure client session access role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-client-session-access-role.md).
 
-To know more about the configuration of web embeddables, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-web-embeddables.md).
+To learn more about the configuration of web embeddables, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-web-embeddables.md).
 
-By default, the policy can be configured with only **Embedded Session** filter criteria. You can leverage **Zero Trust Access \(ZTA\)** plugin to further enhance its usage with filters such as IP, Location, Role, Group, Identity Provider Attributes. You can add these filters to the policies created in the **Client Access Role Configuration** table. This ensures further strengthening the access complexity and have a better security posture while establishing an embedded session. For more information about ZTA, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md).
+By default, the policy can be configured with only **Embedded Session** filter criteria. You can use **Zero Trust Access \(ZTA\)** plugin to further enhance its usage with filters such as IP, Location, Role, Group, Identity Provider Attributes. You can add these filters to the policies created in the **Client Access Role Configuration** table. These filters help strengthen access control and improve security posture while an embedded session is established. For more information about ZTA, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md).
 
 **Note:**
 

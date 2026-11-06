@@ -78,7 +78,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 The third-party LLMs are configured with the Global data routing configuration for the APJC region.
 
-For information about Data routing, Fallback, and Spillover, see [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-model-providers.md)
+For information about Data routing, Fallback, and Spillover, see [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/explore-ai-model-providers.md)
 
 For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore Third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md)
 

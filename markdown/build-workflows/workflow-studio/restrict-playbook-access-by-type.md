@@ -26,7 +26,7 @@ The playbook type you want to filter by must exist.
 
 Restrict access by playbook type when a group of users should work with one category of playbook and no others. A business unit that owns its own playbook types can be given access to those types alone.
 
-This uses the same content access filtering mechanism that restricts activity definitions. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+This uses the same content access filtering mechanism that restricts activity definitions. For more information, see .
 
 ## Procedure
 

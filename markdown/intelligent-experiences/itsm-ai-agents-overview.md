@@ -14,6 +14,8 @@ breadcrumb: [IT Service Management, AI agents library, AI agents and agentic wor
 
 The following AI agents are available for IT Service Management.
 
+**Important:** For a list of agentic workflows for ServiceNow Otto for IT Service Management \(ITSM\), see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md).
+
 -   **[Additional incident context AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-additional-incident-context-agent-ai-agent.md)**  
 This AI agent retrieves information beyond the incident itself and presents the output in a readable format. This agent is strictly read-only; it can only retrieve and present information. It cannot update, modify, or perform any write operations on any records \(such as adding comments, changing fields, reassigning, resolving, or closing incidents\).
 -   **[Agent client collector \(ACC\) diagnostic AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-acc-agent-client-collector-acc-diagnostic-agent-ai-agent.md)**  

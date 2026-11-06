@@ -38,7 +38,7 @@ After activating HR Performance Analytics, the collection job runs daily by defa
 
     After the PA jobs run, you can view the collected data from the **Dashboard**.
 
-    See Dashboards overview.
+    See [HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md).
 
 -   **HR Manager**
 
@@ -52,7 +52,7 @@ After activating HR Performance Analytics, the collection job runs daily by defa
 
     Provides detailed data for the logged in HR agent. It provides the number of backlog of open cases, breached SLA cases, approval requests, and unassigned cases.
 
-    Group and stack the opened backlog cases by priority or state .
+    Group and stack the opened backlog cases by priority or state.
 
     You can filter by state, topic category, source, and priority.
 

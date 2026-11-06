@@ -74,5 +74,3 @@ When an app is disconnected, all SSO subscriptions for the app are deleted and a
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

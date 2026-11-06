@@ -1,6 +1,6 @@
 ---
 title: Reject multiple major incident candidates using the Actions menu
-description: You can reject one or more major incident candidates using the Actions menu. If you decide that the candidates do not qualify to be major incidents, then you can reject multiple candidates at once and provide the rejection reason.
+description: Reject one or more major incident candidates at once from the Actions menu when they don't qualify as major incidents, and provide a rejection reason.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/reject-candi-using-actions-menu.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Working on major incident management, Managing major incidents, Inc
 
 # Reject multiple major incident candidates using the Actions menu
 
-You can reject one or more major incident candidates using the Actions menu. If you decide that the candidates do not qualify to be major incidents, then you can reject multiple candidates at once and provide the rejection reason.
+Reject one or more major incident candidates at once from the Actions menu when they don't qualify as major incidents, and provide a rejection reason.
 
 ## Before you begin
 
@@ -30,9 +30,9 @@ Role required: major\_incident\_manager
 
 3.  On the Actions menu, select **Reject Major Incident Candidate**.
 
-    \[Omitted image "reject-major-inc-candidate.png"\] Alt text: reject major incident candidate
+    \[Omitted image "reject-major-inc-candidate.png"\] Alt text: Major incident candidates list with the Reject Major Incident Candidate option selected on the Actions menu
 
-4.  On the Rejection Reason dialog box, enter the reason why you decided not to accept the candidates as major incident.
+4.  In the Rejection Reason dialog box, enter the reason for rejecting the candidates.
 
 5.  Select **Reject**.
 

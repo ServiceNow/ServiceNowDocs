@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-ass
 release: brazil
 topic_type: concept
 last_updated: "2026-09-28"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, reference, user roles, data usage, domain separation, Generative AI, Gen AI]
 breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
@@ -19,6 +19,8 @@ Reference topics include information about user roles, data usage, and domain se
 Model version is the large language model version a skill uses to route requests to process users' queries. Default model version is where all the requests route to by default. This is pre-set by ServiceNow®. A target model version is chosen to route your requests to a different version at run-time, rather than using the default version.
 -   **[Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md)**  
 Domain separation is supported for the AI Admin Hub console. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Domain separation in ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-domain-separation.md)**  
+Domain separation is supported for ServiceNow Otto panel. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md)**  
 The Now Assist Conversational Help skills architecture solves latency by fetching answers hosted at the nearest location, which is best suited to the user.
 -   **[AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**  

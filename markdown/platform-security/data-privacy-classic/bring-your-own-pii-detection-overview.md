@@ -7,7 +7,7 @@ release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -18,7 +18,7 @@ Integrate your organization's PII detection service to discover and mask sensiti
 
 ServiceNow's Bring Your Own PII Detection Service feature enables organizations to connect their custom PII \(Personally Identifiable Information\) detection services to the ServiceNow Data Privacy module. Instead of relying solely on built-in detection patterns, you can configure external detection services to analyze data according to your organization's specific compliance requirements and detection rules.
 
-**Important:** This capability does not apply to sensitive data sitting on the platform. Instead, it applies to ServiceNow Otto inline guardrails for detecting and masking sensitive data, which are part of Now Assist Guardian capabilities. To leverage this capability, you need a Data Privacy or ServiceNow Vault license.
+**Important:** This capability does not apply to sensitive data stored on the platform. It applies to ServiceNow Otto inline guardrails for detecting and masking sensitive data, which are part of [Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.md) for capabilities. To leverage this capability, you need a Data Privacy or ServiceNow Vault license.
 
 The Bring Your Own PII Detection feature allows you to:
 

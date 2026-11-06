@@ -1,5 +1,5 @@
 ---
-title: Comparing user records
+title: Compare user records
 description: Compare user records to understand the access between two users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/comparing-user-records.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
-# Comparing user records
+# Compare user records
 
 Compare user records to understand the access between two users.
 
@@ -34,7 +34,7 @@ The following procedure describes the steps for comparing user records using the
 
     \[Omitted image "comparing-user-records.png"\] Alt text: Compare user records
 
-4.  Click **Compare user records**.
+4.  Select **Compare user records**.
 
     The results show in the Details, Roles, and Groups tabs:
 

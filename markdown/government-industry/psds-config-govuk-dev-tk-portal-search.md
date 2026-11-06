@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: brazil
 topic_type: concept
 last_updated: "2026-06-02"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -137,7 +137,7 @@ Script defining the endpoint and API calls to fetch data. This field is only vis
 
  For an example of a data fetch script, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
 
- **Note:**  
+ **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
 
 </td></tr><tr><td>
 
@@ -145,9 +145,9 @@ Facet generation script
 
 </td><td>
 
-Script defining search facets for a scripted search source.  This field is only visible when **Is scripted source** is selected.
+Script defining search facets for a scripted search source. Enable your end users to filter search results for a more meaningful result set. This field is only visible when **Is scripted source** is selected.
 
- **Note:**  
+ **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
 
 </td></tr><tr><td>
 
@@ -232,7 +232,25 @@ Using AI Search, GDS Service Portal users can find answers with features like au
 
 ### Procedure
 
-1.  
+1.  Navigate to **Service Portal** &gt; **Portals** and open a portal record.
+
+2.  On the form, select **Enable AI Search**.
+
+3.  In the **Search Application** field, select the search application configuration to use for the portal.
+
+    A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
+
+    For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+
+4.  In the **Search Results Configuration** field, select the search results configuration to enable for the portal.
+
+    A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can select a different configuration if needed.
+
+    For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-composite-dataset.md).
+
+5.  Select **Update**.
+
+
 ### Result
 
 AI Search is enabled throughout the portal, and constituents can use AI Search the next time they log in.

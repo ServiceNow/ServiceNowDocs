@@ -9,7 +9,7 @@ classification: system-update-sets
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Create and select an update set as the current set

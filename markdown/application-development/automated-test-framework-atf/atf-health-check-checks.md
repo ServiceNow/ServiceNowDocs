@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-18"
 reading_time_minutes: 7
 keywords: [ATF Health Check, instance scan, checks, automated test framework, performance, upgradability, manageability]
-breadcrumb: [ATF Health Check, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [ATF Health Check, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # ATF Health Check checks and configuration

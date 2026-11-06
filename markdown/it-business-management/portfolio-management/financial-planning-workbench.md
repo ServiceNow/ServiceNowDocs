@@ -16,7 +16,7 @@ breadcrumb: [Legacy- Plan the portfolio, Legacy portfolio workbench, Portfolio M
 
 The financial planning workbench is a central location to manage budget tasks, review, and approve the promoted plans. Financial planning workbench is deprecated in the Paris release. Financial planning workbench is still available on instances upgraded from a previous release but is not available for new instances.
 
-**Note:** The content in this topic is applicable for customers upgrading from a previous release to Brazil. If you are a new customer, see [Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md).
+**Note:** The content in this topic is applicable for customers upgrading from a previous release to Brazil. If you're a new customer, see [Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md).
 
 You must have the itfm\_plan\_analyst role to use the financial planning workbench.
 

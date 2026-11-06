@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [Pricing Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Pricing Management properties
@@ -36,7 +36,30 @@ Number of transaction lines included in each batch when a multiline pricing requ
 
  -   Type: Integer
 -   Default value: 500
--   Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.derived\_price\_cache\_enabled
+
+</td><td>
+
+Option to cache derived price rule matrix results for each source and target product offering pair.
+
+ -   Type: Boolean
+-   Default value: true
+-   Role required: Price List Administrator \(sn\_csm\_pricing.pricelist\_administrator\)
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.derived\_price\_cache\_ttl\_hours
+
+</td><td>
+
+Number of hours a cached derived price rule result is kept before it expires.
+
+ -   Type: Integer
+-   Default value: 72
+-   Role required: Price List Administrator \(sn\_csm\_pricing.pricelist\_administrator\)
 
 </td></tr><tr><td>
 
@@ -48,7 +71,6 @@ Option to include performance statistics, such as total and per-step timings, in
 
  -   Type: Boolean
 -   Default value: false
--   Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -64,7 +86,6 @@ Level of detail captured in the Pricing Management code execution log. Each leve
     -   Debug \(0\): Information that's useful when you debug the application.
     -   Info \(1\): Status information about pricing processing.
     -   Warning \(2\): Conditions that don't stop processing but may need attention.
--   Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -76,8 +97,7 @@ Number of decimal digits used when rounding non-currency pricing fields, such as
 
  -   Type: Integer
 -   Default value: 4
--   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-cpq.md)
+</table>**Parent Topic:**[Pricing Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/price-management-reference.md)
 

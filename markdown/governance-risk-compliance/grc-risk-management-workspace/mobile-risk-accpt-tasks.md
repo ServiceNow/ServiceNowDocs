@@ -65,15 +65,15 @@ Approve or reject a pending request from the list of records. Alternatively, vie
 
     \[Omitted image "mobile-risk-accpttask-details.jpg"\] Alt text: Risk acceptance task details.
 
-<table id="choicetable_mw5_22s_c3b"><thead><tr><th align="left" id="d314302e260">
+<table id="choicetable_mw5_22s_c3b"><thead><tr><th align="left" id="d315221e260">
 
 Option
 
-</th><th align="left" id="d314302e263">
+</th><th align="left" id="d315221e263">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d314302e269">
+</th></tr></thead><tbody><tr><td id="d315221e269">
 
 **Details tab**
 
@@ -83,7 +83,7 @@ With the Details tab selected, to approve or reject the request, at the top left
 
 two times to navigate back to the Risk Acceptance Task record. With the Risk Acceptance Task screen displayed, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the request. Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d314302e293">
+</td></tr><tr><td id="d315221e293">
 
 **Activity Stream tab**
 
@@ -93,7 +93,7 @@ With the Activity Stream tab selected, follow these steps.1.  View the work note
 2.  Navigate back to the Risk Acceptance Task record as described in the preceding option and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the request.
 
 
-</td></tr><tr><td id="d314302e323">
+</td></tr><tr><td id="d315221e323">
 
 **Tap a screen icon at the bottom of the screen.**
 

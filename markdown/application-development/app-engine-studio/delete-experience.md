@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Editing an experience, Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Editing an experience, Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete an experience

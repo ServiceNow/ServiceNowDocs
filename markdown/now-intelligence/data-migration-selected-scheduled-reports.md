@@ -40,5 +40,5 @@ The underlying reports in the scheduled export are migrated to the Platform Anal
 
 ## What to do next
 
-Edit the migrated scheduled export as needed. For more information, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-visualization-vd.md).
+Edit the migrated scheduled export as needed. For more information, see [Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-visualization-vd.md).
 

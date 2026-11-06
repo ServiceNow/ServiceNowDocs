@@ -29,7 +29,7 @@ Role required:
 
     -   If inactive \(default\): sn\_cmdb\_editor, asset, or itil
     -   If active: sn\_cmdb\_editor, asset, or itil, and snc\_platform\_rest\_api\_access
-    For more information, see [CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md), [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_RESTAPI.md), and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_TableAPI.md).
+    For more information, see [CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md), [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_RESTAPI.md), and Table API.
 
 
 ## About this task

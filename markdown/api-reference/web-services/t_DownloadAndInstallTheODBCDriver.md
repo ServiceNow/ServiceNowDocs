@@ -18,8 +18,10 @@ Download the ODBC driver \(32-bit or 64-bit\) that is compatible with your compu
 
 ## Before you begin
 
+-   Review the [ODBC driver installation requirements and supported software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/r_ODBCDriverInstallationReqs.md) and make sure your system meets the requirements.
 -   Make sure that you have administrator-level access for the Windows computer that you want to install the ODBC driver on.
--   Role required: admin
+
+Role required: admin
 
 ## About this task
 

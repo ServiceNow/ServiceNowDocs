@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Publish your app, Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Publish your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Publish an app from App Engine Studio when linked to source control

@@ -28,7 +28,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** The Conversational SMS service channel is automatically installed with an application that implements an SMS provider, such as the Conversational SMS Integration with Twilio \(sn\_va\_sms\_twilio\) application. For more information, see [Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/install-sms-twilio.md).
+**Note:** The Conversational SMS service channel is automatically installed with an application that implements an SMS provider, such as the Conversational SMS Integration with Twilio \(sn\_va\_sms\_twilio\) application. For more information, see [Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/install-sms-twilio.md).
 
 ## Procedure
 

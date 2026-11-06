@@ -38,8 +38,8 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and import\_admin.
 
     For more information about data sources, see:
 
-    -   [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_CreateNewDataSource.md)
-    -   [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_DataSourceFileTypeFields.md)
+    -   
+    -   
 8.  Select **Update**.
 
 

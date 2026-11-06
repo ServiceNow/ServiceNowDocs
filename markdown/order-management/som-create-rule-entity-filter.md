@@ -18,7 +18,7 @@ Create a rule filter for the product entity to be used in a product eligibility 
 
 Determine the entity to which the filter applies, for example a particular product catalog, category, or a product offering.
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 

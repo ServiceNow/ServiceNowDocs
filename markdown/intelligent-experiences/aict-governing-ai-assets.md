@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-governing-ai-assets.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-02"
+last_updated: "2026-10-28"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
@@ -19,9 +19,9 @@ Govern AI assets across the life cycle with integrated risk, compliance, securit
 
 Deploying AI at enterprise scale introduces regulatory, operational, security, privacy, and reputational risks. Regulations and frameworks in this space require organizations to demonstrate that AI systems are assessed, monitored, and controlled. Governance also addresses operational and security risks such as biased outputs, unauthorized data access, privileged agents operating without oversight, and inactive systems that retain active permissions.
 
-The Govern area in AI Control Tower brings together Risk and Compliance and Security and Privacy to support end-to-end AI governance. These areas work alongside life-cycle management and approval workflows to support end-to-end AI governance. Different teams manage each governance area by using their respective tools, while AI Control Tower provides a unified view of governance information for AI assets.
+The Govern area in AI Control Tower brings together Risk and Compliance, Security and Privacy, and Policies to support end-to-end AI governance. These areas work alongside life-cycle management and approval workflows to support end-to-end AI governance. Different teams manage each governance area by using their respective tools, while AI Control Tower provides a unified view of governance information for AI assets.
 
-Risk and Compliance provides visibility into regulatory classification, compliance posture, risk, assessments, and related governance records. Security and Privacy provides visibility into access concerns, privileged and dormant AI agents, AI asset security posture, and sensitive data protection.
+Risk and Compliance provides visibility into regulatory classification, compliance posture, risk, assessments, and related governance records. Security and Privacy provides visibility into access concerns, privileged and dormant AI agents, AI asset security posture, and sensitive data protection. Policies provide automated enforcement, such as containing an AI agent when a threat is detected or blocking an AI agent, model, or domain from being used.
 
 For more information about how AI Control Tower and AI Risk and Compliance work together across the AI life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-gov-lifecycle.md).
 
@@ -76,4 +76,19 @@ AI Control Tower provides visibility into the following dimensions of AI securit
 For privacy oversight, AI Control Tower integrates with the Data Privacy plugin to display sensitive data detection and anonymization activity. The Security and Privacy area shows the enabled data patterns used to detect and anonymize sensitive information in AI prompts.
 
 For organizations using Now Assist, ServiceNow AI Insights summarizes observations across the AI security posture, including areas that require attention and remediation actions. This capability requires the Now Assist AICT Security Posture Summarizer skill.
+
+## Controlling AI asset usage with policies
+
+AI asset usage policies let you define a governance rule once and have AI Control Tower enforce it automatically, instead of responding to each AI agent, model, or domain case by case. AI stewards create and manage policies in the Govern area.
+
+AI Control Tower supports the following types of policies:
+
+-   Threat Response: Contains an AI agent automatically when a detected threat matches the conditions that you define.
+
+-   Explicit Block: Stops a person, a department, or everyone from using a specific AI agent, model, or domain.
+
+-   Arc policies: Control what ServiceNow Arc can do on your users' devices, including which actions wait for a person's approval.
+
+
+For more information about managing policies and reviewing enforcement activity, see [Controlling AI asset usage in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-landing.md).
 

@@ -1,13 +1,13 @@
 ---
 title: Outbound certificate policies
-description: Outbound certificate policies let you control how the instance validates a specific domain's \(FQDN\)\) SSL/TLS certificate on outbound connections. Use these policies instead of applying global validation settings to every host.
+description: Outbound certificate policies let you control how the instance validates a specific domain's fully qualified domain name \(FQDN\) SSL/TLS certificate on outbound connections. Use these policies instead of applying global validation settings to every host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/outbound-certificate-policies.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [outbound certificate policy, certificate validation, SSL, TLS, wildcard, domain separation]
 breadcrumb: [Authentication, Access Management]
@@ -15,7 +15,7 @@ breadcrumb: [Authentication, Access Management]
 
 # Outbound certificate policies
 
-Outbound certificate policies let you control how the instance validates a specific domain's \(FQDN\)\) SSL/TLS certificate on outbound connections. Use these policies instead of applying global validation settings to every host.
+Outbound certificate policies let you control how the instance validates a specific domain's fully qualified domain name \(FQDN\) SSL/TLS certificate on outbound connections. Use these policies instead of applying global validation settings to every host.
 
 By default, the instance validates a domain's SSL/TLS certificate the same way for every outbound connection, using global validation settings. An outbound certificate policy lets you change that behavior for a single domain. For example, you can skip a specific validation check for a domain with a known certificate issue while every other domain keeps the global settings.
 
@@ -28,7 +28,7 @@ Each policy controls three validation checks for the domain it applies to:
 **Note:**
 
 -   All three are enabled by default, so a policy is secure by default.
--   Outbound certificate policies are opt-in Feature and is inactive by default. The REST/SOAP calls with mTLS functionality aren't affected.
+-   Outbound certificate policies are an opt-in feature and are inactive by default. The REST/SOAP calls with mTLS functionality aren't affected.
 -   Each endpoint/host can have only one active Outbound certificate policy on the instance. If a policy already exists for the host, update it as needed instead of creating a duplicate policy in a different scope.
 
 Managing policies requires the `outbound_http_request_admin` role, and policies take effect only when the `com.glide.communications.httpclient.outbound_cert_policy.enabled` property is set to `true`.
@@ -40,7 +40,7 @@ When the instance makes an outbound connection, it resolves the certificate poli
 |Scenario|Behavior|
 |--------|--------|
 |Exact match|A policy whose pattern exactly matches the domain \(for example, `www.api.partner.com`\) takes priority.|
-|Wildcard match|If no exact match exists, a wildcard policy \(for example, `*.partner.com`\) applies. Selects the most specific matching.|
+|Wildcard match|If no exact match exists, a wildcard policy \(for example, `*.partner.com`\) applies. The most specific matching policy is selected.|
 |Global fallback|If no policy matches the domain, the instance uses the global validation settings.|
 
 Because domains without a matching policy fall back to the global settings, existing connections are unaffected until you add a policy for a domain.
@@ -57,18 +57,18 @@ An outbound certificate policy changes certificate validation for every outbound
 **Note:**
 
 -   The REST/SOAP calls with mTLS aren't affected - Synchronous and asynchronous calls via internal HTTP client aren't affected.
--   Any calls via mid server aren't affected.
+-   Any calls via MID Server aren't affected.
 
 Before you create or change a policy, review the integrations that connect to the domain so that the change in validation behavior is expected across all of them.
 
-## Wild card patterns
+## Wildcard patterns
 
 A policy pattern can use a wildcard to apply to all sub-domains of a domain — for example, `*.partner.com`. To prevent a single policy from weakening validation across too many domains, the instance rejects overly broad wildcard patterns when you save a policy:
 
 -   A bare wildcard \(`*`\) and a top-level wildcard \(`*.com`\) are rejected.
 -   A wildcard pattern must contain at least two domain components — for example, `*.partner.com`.
 
-These constraints prevent an instance-wide validation bypass through a single overly broad pattern.
+These constraints help prevent an instance-wide validation bypass through a single overly broad pattern.
 
 ## Security considerations
 
@@ -81,5 +81,5 @@ Turning off a validation check for a domain reduces the protection that SSL/TLS 
 
 ## Known limitation
 
-When creating an Outbound certificate policy for a host in the UI, you can create multiple policies for the same host across different scopes. However, the system applies only the first policy created for that domain. To avoid confusion, update the existing policy if changes are needed instead of creating a new one.
+When creating an outbound certificate policy for a host in the UI, you can create multiple policies for the same host across different scopes. However, the system applies only the first policy created for that domain. To avoid confusion, update the existing policy if changes are needed instead of creating a new one.
 

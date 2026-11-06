@@ -123,7 +123,7 @@ Record evaluated as the assessment subject. You may need to configure the form t
 
 [Assessment results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentResults.md)
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.configure-form-layout]
 
 [View a metric result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAMetricResult.md)
 

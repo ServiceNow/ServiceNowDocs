@@ -7,9 +7,9 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-28"
 reading_time_minutes: 2
-breadcrumb: [Select a display experience, Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Select a display experience, Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Display your assistant on Platform or ServiceNow Studio
@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Premium chat is available for instances that meet ServiceNow readiness requirements. ServiceNow automatically performs eligibility checks to determine whether your instance can use premium chat.
+ is available for instances that meet ServiceNow readiness requirements. ServiceNow automatically performs eligibility checks to determine whether your instance can use premium chat.
 
 For eligible new customers, premium chat is the default and the only available chat experience. For existing customers, enhanced chat remains the default experience unless you opt in to premium chat.
 
@@ -35,9 +35,9 @@ If your instance previously had standard chat enabled, you can continue to use s
 -   The instance is eligible for premium chat.
 -   Premium chat might take time to appear as an option on your instance.
 
-Refresh your browser to view the option to opt in to premium chat. Premium chat is not available for instances that use regional data routing.
+Refresh your browser to view the option to opt in to premium chat. Premium chat isn't available for instances that use regional data routing.
 
-If your instance doesn’t meet the requirements, you can continue using your existing standard or enhanced chat experience. For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-premium.md). Otherwise, proceed to step 1.
+If your instance doesn’t meet the requirements, you can continue using your existing standard or enhanced chat experience. For more information about premium chat, see . Otherwise, proceed to step 1.
 
 For premium chat, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to ensure that everything was prefilled correctly.
 
@@ -51,7 +51,7 @@ For the ServiceNow Otto panel - Developer assistant, premium chat isn't availabl
 
 2.  To edit the chat experience, select the pencil icon.
 
-    The Edit chat experience modal appears. For new customers, the edit option isn’t available when:You're eligible for premium chat.You aren’t eligible for premium chat and have enhanced chat as the default chat experience.
+    The Edit chat experience modal appears. For new customers, the edit option isn’t available when:You're eligible for premium chat. You aren’t eligible for premium chat and have enhanced chat as the default chat experience.
 
     **Note:** Premium chat is available only for eligible assistants. If the assistant uses the Now LLM provider, the premium chat option isn't available.
 
@@ -71,7 +71,7 @@ For the ServiceNow Otto panel - Developer assistant, premium chat isn't availabl
 
 4.  Select **Save and continue**.
 
-    For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
+    For help with installation, see .
 
 
 ## What to do next

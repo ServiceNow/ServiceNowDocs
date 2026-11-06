@@ -48,7 +48,7 @@ Change tasks inherit some state conditions from the parent change request they a
 
 4.  In the **On hold reason** field, enter the reason for placing the change request on hold.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)

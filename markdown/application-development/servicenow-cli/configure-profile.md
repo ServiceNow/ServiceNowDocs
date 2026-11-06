@@ -9,7 +9,7 @@ classification: servicenow-cli
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CLI, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring and managing your ServiceNow CLI connection profiles

@@ -17,8 +17,6 @@ Use this AI agent to log IT support requests. It responds to requests such as "c
 
 ## Workflow
 
-bv
-
 This agent first attempts to resolve the problem with self-service solutions. If the problem persists, it drafts a structured IT support incident, confirms the details with the user for accuracy, and creates the official record for tracking.
 
 1.  Greet the user and gather information about the issue.

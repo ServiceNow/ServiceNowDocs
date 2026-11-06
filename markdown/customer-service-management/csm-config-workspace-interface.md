@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-interface.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-22"
+reading_time_minutes: 2
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -21,9 +21,9 @@ The CRM Workspace interface provides agents with the tools and information they 
 Within the CRM Workspace interface, two levels of tabs enable agents to work on multiple cases, tasks, and other customer records within a single browser window.
 
 -   Top-level tabs display case records or case type records.
--   Sub-tabs display record details in addition to related records, such as case tasks, work orders, and contact or account information.
+-   Sub-tabs display record details and related records, such as case tasks, work orders, and contact or account information.
 
-Agents can open up to 20 tabs simultaneously in the workspace. The system automatically caches the 10 most recently used tabs for faster navigation.
+Agents can open up to 20 tabs simultaneously in the workspace. The system automatically caches the 10 most recently used tabs.
 
 Agents can use this tab configuration to quickly move between records without losing their place.
 
@@ -32,11 +32,11 @@ Agents can use this tab configuration to quickly move between records without lo
 Agents get a complete view of a customer's history, including interactions, products, and cases. Agents can find this information throughout the CRM Workspace interface. For example:
 
 -   Record details: Provides customer or consumer information, details about the product or service, and a short description of the issue.
--   Contact and consumer lookup: Displays customer information in record cards and provides quick access to details such name, email, and phone.
+-   Contact and consumer lookup: Displays customer information in record cards and provides quick access to details such as name, email, and phone.
 -   Customer History: Displays customer, consumer, or account history information in the form of a filtered activity feed.
--   Activity stream: Displays a running history of updates and communications within a record such as field updates, comments, work notes, and emails.
+-   Activity stream: Displays a history of updates and communications within a record such as field updates, comments, work notes, and emails.
 -   Contextual side panel: Includes tabs that agents can use to view record information, SLA details, and attachments.
--   Related lists: Show records from other tables that are linked to the current record like case tasks or work orders.
+-   Related lists: Shows records from other tables that are linked to the current record such as case tasks or work orders.
 
 ## Record details
 
@@ -67,7 +67,7 @@ For more information, see [CRM Workspace contextual side panel components](https
 
 ## Agent inbox
 
-Agents see their assignments in their CRM Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
+Agents see their assignments in their CRM Workspace inbox. Work assignments appear as cards in the inbox that agents can accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
 
 For more information about the agent inbox, see the following topics:
 

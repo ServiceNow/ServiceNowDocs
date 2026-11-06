@@ -19,7 +19,7 @@ Assign a change model attribute to a state in a change model so that scripts can
 
 ## Before you begin
 
-The attribute must exist in the **Change Model Attributes** list.
+The attribute must exist in the Change Model Attributes list.
 
 Role required: admin
 
@@ -29,7 +29,7 @@ Role required: admin
 
 2.  Open the change model that you want to update, for example, **Normal**.
 
-3.  In the **Model States** related list, expand the state that you want to add the attribute to.
+3.  In the Model States related list, expand the state that you want to add the attribute to.
 
     The expanded state shows the **Attributes**, **State Transitions**, and **State Field Policies** lists. If another list is displayed, select the list context menu icon and select **Attributes**.
 

@@ -24,7 +24,7 @@ The data in the **Technology portfolio audit** table is fetched from the TPM Tec
 
 As an admin user, you can run the **Populate TPM Discovered Technologies and Lifecycles** scheduled job on-demand to calculate the technology lifecycle risk for your application portfolio. The scheduled job executes the script to generate lifecycle risk dates by querying the ITAM content library. These dates include end of support, end of extended support, and end of life for your software products and hardware models.
 
-For more details, see [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+For more details, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 Whether the script runs on demand or scheduled, you can view the results in the **Enterprise Architecture Workspace** &gt; **Setup** &gt; **Logs**.
 

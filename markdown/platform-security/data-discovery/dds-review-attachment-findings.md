@@ -98,11 +98,7 @@ Discovered pattern
 
 </td><td>
 
-Which, if any, established [Default data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/default-data-patterns.md) or [Default NER data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/default-ner-data-patterns.md) were discovered in the scan.
+Which, if any, established [Default data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/default-data-patterns.md) were discovered in the scan.
 
 </td></tr></tbody>
-</table>    **Warning:**
-
-    Rollback is not supported for anonymization triggered from Attachment Findings.
-
-
+</table>

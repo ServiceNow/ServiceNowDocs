@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [install creator studio, creator studio installation]
-breadcrumb: [Configure, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Installing Creator Studio from the ServiceNow Store

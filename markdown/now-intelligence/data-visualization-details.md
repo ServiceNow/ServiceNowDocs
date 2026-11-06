@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Edit a data visualization in the Visualization Designer, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Edit a data visualization in the library, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Data visualization details
@@ -87,5 +87,5 @@ Shared with
 Icons for every user who the visualization is shared with. Point to an icon to view the user's full name and the sharing details. For more information, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-dv-ac.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-dv-ac-center.md)
+</table>**Parent Topic:**[Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-dv-ac-center.md)
 

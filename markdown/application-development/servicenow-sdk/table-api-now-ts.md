@@ -9,7 +9,7 @@ classification: servicenow-sdk
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 18
-breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Table API - ServiceNow Fluent

@@ -33,7 +33,7 @@ To activate, in the **Select channels and status** screen:
 -   In the **Chat assistants** field, select **ServiceNow Otto in Virtual Agent \(default\)** to use the AI agent from the Virtual Agent.
 -   In the **Activation status** section, enable the **This AI agent is active** button.
 
-\[Omitted image "image.now-assist-demo-password-reset-agent1"\] Alt text: Demo password reset agent- enable Engage via Virtual Agent assistants\[Omitted image "image.now-assist-demo-password-reset-agent2"\] Alt text: Demo password reset agent- enable the agent
+\[Omitted image "now-assist-demo-password-reset-agent1.png"\] Alt text: Demo password reset agent- enable Engage via Virtual Agent assistants\[Omitted image "now-assist-demo-password-reset-agent2.png"\] Alt text: Demo password reset agent- enable the agent
 
-The DEMO Password reset agent uses the ESC Portal Default Search Profile. \[Omitted image "image.itsm-demo-pw-reset-agent-search-profile"\] Alt text: ESC Portal Default Search Profile
+The DEMO Password reset agent uses the ESC Portal Default Search Profile. \[Omitted image "itsm-demo-pw-reset-agent-search-profile.png"\] Alt text: ESC Portal Default Search Profile
 

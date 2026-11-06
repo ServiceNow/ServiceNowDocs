@@ -93,7 +93,7 @@ Select a card and then select the filters on the new tabs that are displayed to 
     -   Red
     -   Orange
     -   Yellow
--   View toxic combinations and assets with the least compliant scores that have the most security exposures due to failed configurations. Both misconfigurations and issues are populated on test results in Configuration Compliance. This data is imported by the [Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md), and this data is not displayed unless Configuration Compliance and the Wiz Vulnerability Response Integration are installed.
+-   View toxic combinations and assets with the least compliant scores that have the most security exposures due to failed configurations. Both misconfigurations and issues are populated on test results in Configuration Compliance. This data is imported by the [Understanding the Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md), and this data is not displayed unless Configuration Compliance and the Wiz Vulnerability Response Integration are installed.
 
     Findings with failed test results are color-coded. You can select the date range for the last 7 days or the last 30 days.
 

@@ -66,6 +66,8 @@ Tools
 
 Create Task Plan Record
 
+Fetch Domain Order record details.
+
 Fetch Order Intent Type
 
 

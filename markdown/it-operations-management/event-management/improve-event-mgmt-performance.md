@@ -26,6 +26,8 @@ The **em\_alert\_history** and **em\_impact\_status** tables can grow very large
 
 When upgrading from an earlier version with more than 5 million records in either the **em\_alert\_history** or **em\_impact\_status** tables, you must activate this plugin manually. When there are fewer than 5 million records, it activates automatically. You can customize this number by modifying the **evt\_mgmt.plugin\_activation.table\_max\_size** property.
 
+The Event Management Performance Accelerator plugin is part of Event Management licensing. For information about the applicable SKU or licensing requirements, contact your ServiceNow account manager.
+
 To evaluate the Event Management Performance Accelerator plugin on a subproduction instance, install the plugin in Application Manager. For instructions, see [Install an app or plugin](https://www.servicenow.com/docs/r/platform-administration/application-manager/installing-applications-in-application-manager.html).
 
 ## Procedure

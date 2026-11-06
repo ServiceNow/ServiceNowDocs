@@ -42,10 +42,9 @@ Last tested on July 05, 2024
 
 </td><td>
 
--   Xanadu
--   Washington DC
--   Vancouver
--   Utah
+-   Yokohama
+-   Zurich
+-   Australia
 
 </td></tr></tbody>
 </table>## Use cases

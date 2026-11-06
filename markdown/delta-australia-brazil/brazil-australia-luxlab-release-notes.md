@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-luxlab-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -183,7 +183,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+No activation is required. Lux is installed automatically on instances running Australia Patch 5 or later or Zurich Patch 12 or later.
+
 
 </td></tr><tr><td>
 
@@ -215,7 +218,75 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+Lux Lab requires the following:
+
+<table><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.12.1 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://www.servicenow.com/docs/access?context=rn-prepare-landing-page&family=australia&ft:locale=en-US)
+
+</td></tr></tbody>
+</table>
+
 
 </td></tr><tr><td>
 
@@ -399,7 +470,15 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Start a project from a base experience, an extension of an existing application, or a collection, and let Lux Lab scaffold it for you.
+-   Extend existing applications by adding extension targets from the file explorer's right-click menu.
+-   Create collection pages and control which page each user sees by adding access rules in a guided, two-step flow.
+-   Preview your application locally and deploy it to your instance without leaving the app.
+-   Edit code with the built-in editor and source control, including inline Git blame that shows who last changed each line.
+-   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
+-   Create store applications with a custom scope that doesn't require your instance's company code.
+
+ For more information, see [Lux Lab](https://www.servicenow.com/docs/access?context=lux-lab-landing&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 

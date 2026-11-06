@@ -38,15 +38,15 @@ A **State Change** approval can also be requested from the playbook, where it ap
 
     An approval that is already awaiting a decision can't be requested again while it's in progress.
 
-<table id="choicetable_approval_request_type"><thead><tr><th align="left" id="d83552e97">
+<table id="choicetable_approval_request_type"><thead><tr><th align="left" id="d83953e97">
 
 Option
 
-</th><th align="left" id="d83552e100">
+</th><th align="left" id="d83953e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d83552e106">
+</th></tr></thead><tbody><tr><td id="d83953e106">
 
 **__State Change__ approval**
 
@@ -54,7 +54,7 @@ Action
 
 Select **Request Approval**.
 
-</td></tr><tr><td id="d83552e123">
+</td></tr><tr><td id="d83953e123">
 
 **__Due Date Extension__ approval**
 

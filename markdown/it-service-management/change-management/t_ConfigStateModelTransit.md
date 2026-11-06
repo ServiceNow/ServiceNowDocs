@@ -1,6 +1,6 @@
 ---
 title: Configure state model transitions
-description: You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
+description: Use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ConfigStateModelTransit.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [State model and transitions, Configure, Change Management, IT Servi
 
 # Configure state model transitions
 
-You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
+Use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
 ## Before you begin
 

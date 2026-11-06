@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/syncing-exception-reasons.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
-breadcrumb: [Exception reason integration, Configure Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Exception reason integration, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Sync exception reasons
@@ -24,20 +24,20 @@ Role required: sn\_se.scan\_engine\_admin
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
+1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-2.  Select the **Exception reason** properties tab.
+2.  Select the **Exception Reason** tab.
 
 3.  Configure the integration settings.
 
     **Important:** Before enabling approvals, ensure your instances are registered in My SN Instances with the exact instance name matching your instance subdomain. For example, use `testservicesdev` not `DEV`. If the instance name is incorrect, the **Enable approvals in production** checkbox will remain greyed out. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) for details.
 
-    To require production approval before exception reasons take effect, select **Enable approvals in production** and specify one or more Approval Groups. Exception reasons will sync in a `Requested` state until approved or rejected.
+    To require production approval before exception reasons take effect, select **Enable approvals in production** on each non-production instance, and specify one or more approval groups on production. Exception reasons will sync in a `Requested` state until approved or rejected.
 
 
 ## Result
 
-Exception reasons created or updated on non-production instances are automatically synchronized to production. If approvals are enabled, the status syncs back to the developer instance after a decision is made.
+Exception reasons created or updated on non-production instances are automatically synchronized to production. If approvals are enabled, the status syncs back to the instance where the exception was raised after a decision is made.
 
 **Parent Topic:**[Exception reason integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-integration.md)
 

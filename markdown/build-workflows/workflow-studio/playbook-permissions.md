@@ -33,7 +33,7 @@ Two requirements apply regardless of which mechanism you use: all users need the
 
 -   **Content access filtering**
 
-    Restricts access to specific content at design time. Create a content definition that describes the content, then create a filtering rule that specifies which roles can access it. You can filter by activity definition, by playbook type, or by resource tag. Use it when a role grants more access than a user should have. For example, the pd\_author role allows users to edit any playbook and use any activity definition. You can grant a user playbook.write, which only lets them edit playbooks and use activity definitions that have been granted to them through content access filtering. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+    Restricts access to specific content at design time. Create a content definition that describes the content, then create a filtering rule that specifies which roles can access it. You can filter by activity definition, by playbook type, or by resource tag. Use it when a role grants more access than a user should have. For example, the pd\_author role allows users to edit any playbook and use any activity definition. You can grant a user playbook.write, which only lets them edit playbooks and use activity definitions that have been granted to them through content access filtering. For more information, see .
 
 -   **Runtime permissions**
 

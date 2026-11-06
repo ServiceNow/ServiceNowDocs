@@ -48,7 +48,7 @@ Activate CSM Walk-up Experience.
 
 </td><td>
 
-Activate the Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\). For details. see [Activate Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.md).**Note:** This plugin includes demo data.
+Activate the Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\). For details, see [Activate Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.md).**Note:** This plugin includes demo data.
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Surveys
 
 </td><td>
 
-Access customer satisfaction surveys and enable public access to the surveys, set survey trigger conditions, and view user responses. For more information about configuring schedules, see [CSM Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.md).
+Access customer satisfaction surveys and enable public access to the surveys, set survey trigger conditions, and view user responses. For more information about configuring surveys, see [CSM Walk-up Experience customer satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.md).
 
 </td></tr></tbody>
 </table>

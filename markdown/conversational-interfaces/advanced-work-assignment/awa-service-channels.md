@@ -114,7 +114,7 @@ Routes requests from the WhatsApp chat conversations.
 
 </td><td>
 
-Included with the [Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-whatsapp-twilio.md) store application.
+Included with the [Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md) store application.
 
 </td></tr></tbody>
 </table>You can also set up a custom service channel to address work that is not supported in the base system channels. For more information, see [Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md).

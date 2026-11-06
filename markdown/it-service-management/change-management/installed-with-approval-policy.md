@@ -1,6 +1,6 @@
 ---
-title: Components installed with Change Management -Approval policy
-description: Several types of components are installed with activation of the Change Management -Approval policy plugin, that includes tables.
+title: Components installed with Change Management - Approval Policy
+description: Several types of components are installed with activation of the Change Management - Approval Policy plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-approval-policy.html
 release: brazil
@@ -9,12 +9,12 @@ classification: change-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Change Management -Approval policy, Change Management plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Activate Change Management - Approval policy, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Components installed with Change Management -Approval policy
+# Components installed with Change Management - Approval Policy
 
-Several types of components are installed with activation of the Change Management -Approval policy plugin, that includes tables.
+Several types of components are installed with activation of the Change Management - Approval Policy plugin, including tables.
 
 ## Tables installed
 
@@ -35,5 +35,5 @@ Change Approval Policy \[chg\_policy\_approval\]
 Extends the Change Policy table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Change Management -Approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/activate-change-approval-policy.md)
+</table>**Parent Topic:**[Activate Change Management - Approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/activate-change-approval-policy.md)
 

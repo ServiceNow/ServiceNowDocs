@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 4
 keywords: [CI/CD, integration, pipeline, scheduled, automation]
-breadcrumb: [Scan Engine Headless REST API, Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan Engine Headless REST API, Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Automate scans in CI/CD pipelines and scheduled workflows
@@ -175,6 +175,4 @@ You can embed Scan Engine into your deployment pipeline to block risky changes o
 ## Result
 
 The Scan Engine scans run automatically as part of your deployment or health-check workflows, allowing you to identify issues early and maintain system health without manual intervention.
-
-**Parent Topic:**[Scan Engine Headless REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-headless-api-overview.md)
 

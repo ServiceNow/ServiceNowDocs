@@ -36,7 +36,7 @@ To use the feature, do the following:
 2.  From the header menu, select the AI icon to open the panel.
 3.  In the panel, type in a question related to a case.
 
-To get started with configuring the ServiceNow Otto Q&amp;A Skill, see the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
+To get started with configuring the ServiceNow Otto Q&amp;A Skill, see the [Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

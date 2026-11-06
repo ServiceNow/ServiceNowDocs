@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [OIDC provider configuration, external authorization server, MCP Server, JWT]
 breadcrumb: [External authorization servers for the ServiceNow MCP Server, Authentication, Access Management]
@@ -19,8 +19,8 @@ Create an OIDC Provider Configuration to register an external authorization serv
 
 ## Before you begin
 
--   You have the details of the external authorization server: its issuer URI and its OIDC metadata URL.
--   You have the role required to manage OIDC Provider Configurations and OAuth Protected Resources.
+-   The issuer URI and OIDC metadata URL of the external authorization server must be available.
+-   The role required to manage OIDC Provider Configurations and OAuth Protected Resources must be assigned.
 
 Role required: oauth\_admin
 

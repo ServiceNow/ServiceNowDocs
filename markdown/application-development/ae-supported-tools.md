@@ -6,8 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/ae-supp
 release: brazil
 topic_type: concept
 last_updated: "2026-09-16"
-reading_time_minutes: 4
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+reading_time_minutes: 5
+keywords: [Autonomous Engineer, supported tools, semantic search, run script, UI validation]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Supported tools for Autonomous Engineer

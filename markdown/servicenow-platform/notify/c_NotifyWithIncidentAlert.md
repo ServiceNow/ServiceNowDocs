@@ -37,7 +37,7 @@ Update users on the latest communication on an incident through selected communi
 **Related topics**  
 
 
-[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentAlertManagement.md)
+[bundle-itsm.c_IncidentAlertManagement]
 
 [Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NumberGroups.md)
 

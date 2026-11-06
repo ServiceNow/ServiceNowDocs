@@ -33,7 +33,9 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **AI skills**
 
-    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inventory-intelligence-agent.md)
+    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inventory-intelligence-agent.md).
+
+    Enable the **Intelligent Asset Deduplication** toggle to detect duplicate AI systems with LLM-powered detection. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/review-duplicates.md).
 
 -   **Cost**
 

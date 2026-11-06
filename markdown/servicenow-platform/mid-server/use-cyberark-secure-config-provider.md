@@ -40,7 +40,7 @@ CyberArk is commonly used to secure credentials in its external vault. However, 
 
     Use the following example as a guide.
 
-    1.  Secure the MID Server credentials by setting this parameter to match the **ID** and **Type** for that data in your [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CyberArkIntegrationConfiguration.md).
+    1.  Secure the MID Server credentials by setting this parameter to match the **ID** and **Type** for that data in your CyberArk integration configuration.
 
         ```
         <parameter name="mid.instance.username" secure="true" value="cyberark: id=<Full account name>, type=<Platform name>"/>
@@ -56,5 +56,5 @@ CyberArk is commonly used to secure credentials in its external vault. However, 
 5.  Restart the MID Server.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security]()
 

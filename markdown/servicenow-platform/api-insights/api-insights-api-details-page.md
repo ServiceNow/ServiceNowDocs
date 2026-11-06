@@ -148,7 +148,7 @@ Active vulnerability items
 
 </td><td>
 
-Security vulnerabilities associated with the API enabling to track and resolve potential risks.Select the card to display all vulnerabilities in the Vulnerability Manager Workspace and access more detailed information on them. For more information, see [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace-landing-page.md).
+Security vulnerabilities associated with the API enabling to track and resolve potential risks.Select the card to display all vulnerabilities in the Vulnerability Manager Workspace and access more detailed information on them. For more information, see .
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Security incidents
 
 </td><td>
 
-Security incidents, if enabled, providing insights into security breaches or issues that might have occurred with the API.Select the card to display all open security incidents in the Security Incident Response Workspace and access more detailed information on them. For more information, see [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sir-workspace-landing-page.md).
+Security incidents, if enabled, providing insights into security breaches or issues that might have occurred with the API.Select the card to display all open security incidents in the Security Incident Response Workspace and access more detailed information on them. For more information, see .
 
 </td></tr></tbody>
 </table>-   **Relationship map**

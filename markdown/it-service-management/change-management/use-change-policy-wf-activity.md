@@ -38,7 +38,7 @@ Role required: admin
 
     For example, when the change request is on-hold.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 **Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)

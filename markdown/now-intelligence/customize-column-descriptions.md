@@ -25,7 +25,7 @@ The Query Generation semantic layer uses column descriptions and usage instructi
 
 This procedure uses the Semantic Column Configuration table. Customizations made this way can be transferred between instances via update sets and override descriptions and usage instructions set directly in the Dimension table. For simpler, single-instance testing, you can edit the Semantic Label and Semantic Usage Instructions fields directly in the Dimension \[sn\_query\_gen\_dimension\] table instead. Such changes might be overridden by changes to the Dimension table included in a plugin upgrade.
 
-Use column configuration when you want to provide custom descriptions, add usage instructions for query guidance, or deactivate specific columns without removing the entire table from the semantic layer.
+Use column configuration when you want to provide custom descriptions. Add usage instructions for query guidance, or deactivate specific columns without removing the entire table from the semantic layer.
 
 ## Procedure
 

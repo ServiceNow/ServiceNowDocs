@@ -235,7 +235,7 @@ Configure all Task Communications Management features including communication pl
 -   sn\_comm\_management.comm\_plan\_mgr
 
 </td></tr></tbody>
-</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+</table>To learn more about managing subscriptions, see  and contact your account representative.
 
 **Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 

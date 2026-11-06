@@ -9,14 +9,14 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prerequisites for enhanced chat, Enhanced chat, Chat experiences, Explore, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Prerequisites for enhanced chat, Enhanced chat, Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Mobile app prerequisites for enhanced chat
 
 ServiceNow Otto for Virtual Agent provides users with a content-driven and search-driven generative AI experience. Depending on whether you have opted into standard or enhanced chat when configuring your assistant, you can integrate three different mobile app components with an assistant.
 
-For information on choosing how you want ServiceNow Otto for Virtual Agent to display on your mobile app, see [Mobile Now Assist display experience for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-na-display-experience-va.md). To understand the differences between ServiceNow Otto for Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
+For information on choosing how you want ServiceNow Otto for Virtual Agent to display on your mobile app, see . To understand the differences between ServiceNow Otto for Virtual Agent standard and enhanced chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
 
 The three different mobile app components that admins can integrate with an assistant are a mobile search widget, chat launcher, and custom app.
 

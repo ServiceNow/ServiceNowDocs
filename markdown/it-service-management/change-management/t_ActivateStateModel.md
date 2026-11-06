@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Change Management - State Model plugin builds on the Change Management - Core plugin. Activate State Model on an instance where Core is not yet active. During activation, State Model activates Core **Type** field on the change request. For the Core plugin, see [Activate Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ActivateChangeMgmtCore.md). For the state model concept, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+The Change Management - State Model plugin builds on the Change Management - Core plugin. Activate State Model on an instance where Core is not yet active. During activation, State Model activates Core **Type** field on the change request. For the Core plugin, see [Activate Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ActivateChangeMgmtCore.md). For the state model concept, see
 
 <table id="table_ub5_s43_w5"><thead><tr><th>
 
@@ -72,7 +72,7 @@ Several types of components are installed with the Change Management - State Mod
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -90,11 +90,11 @@ Several types of components are installed with the Change Management - State Mod
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -102,7 +102,7 @@ Several types of components are installed with the Change Management - State Mod
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -110,7 +110,7 @@ Several types of components are installed with the Change Management - State Mod
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

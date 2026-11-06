@@ -22,11 +22,12 @@ Role required: discovery\_admin or admin
 
 ## Procedure
 
-1.  To edit [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md), navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
+1.  To edit [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md), navigate to **All** &gt; **System Properties** &gt; **All Properties**.
 
     -   glide.discovery.certs.cert\_admin\_user\_id
     -   glide.discovery.certs.days\_before\_expiration\_to\_create\_renewal\_task
     -   glide.discovery.certs.enable\_incident\_creation\_for\_expired\_certificates
     -   glide.discovery.certs.enable\_renewal\_task\_creation\_for\_discovered\_certificates
     -   glide.discovery.certs.slack\_channel\_id
+    -   sn\_disco\_certmgmt.find\_and\_attach\_root\_certificate
 

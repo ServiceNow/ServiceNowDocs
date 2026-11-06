@@ -18,7 +18,7 @@ The Connect Support Properties page provides several configuration options speci
 
 **Important:**
 
-Starting with Utah, Connect Support has been deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/migrate-from-connect-support.md).
+Starting with Utah, Connect Support has been deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 These properties are available for Connect Support.
 

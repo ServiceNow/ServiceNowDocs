@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Discovery Operations Monitor dashboard, Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Update the data collection time interval for individual visualizations on the Di
 
 ## Before you begin
 
-Verify you're using Discovery Admin Workspace v1.15.0 or later.
+Discovery Admin Workspace must be installed, starting with v1.15.0.
 
 Role required: discovery\_admin
 

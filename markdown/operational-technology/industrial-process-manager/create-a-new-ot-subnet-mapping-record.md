@@ -1,6 +1,6 @@
 ---
-title: Create a new OT subnet mapping record
-description: Create a new OT subnet mapping to associate with an equipment model entity.
+title: Create an OT subnet mapping record
+description: Create an OT subnet mapping to associate with an equipment model entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Automatically map all OT devices, Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
-# Create a new OT subnet mapping record
+# Create an OT subnet mapping record
 
-Create a new OT subnet mapping to associate with an equipment model entity.
+Create an OT subnet mapping to associate with an equipment model entity.
 
 ## Before you begin
 

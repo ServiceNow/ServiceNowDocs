@@ -26,7 +26,7 @@ The chat integrations framework supports a multitude of Virtual Agent and Agent 
 
 -   **Account auto-linking**
 
-    Allow a user's third-party account to be auto-linked to their ServiceNow® profile. This feature bypasses the prompt for the user to link their accounts manually. Without account linking, conversations will take place in Guest mode. For configuration information, see [Account linking in pre-built messaging integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-adapter-autolinking.md).
+    Allow a user's third-party account to be auto-linked to their ServiceNow® profile. This feature bypasses the prompt for the user to link their accounts manually. Without account linking, conversations will take place in Guest mode. For configuration information, see [Account linking in pre-built messaging integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-adapter-autolinking.md).
 
 -   ****
 

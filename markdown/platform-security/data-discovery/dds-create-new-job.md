@@ -116,7 +116,7 @@ Scan attachments
 
 Scan file attachments that are not strictly image files.**Note:** You can view the attachments which contain sensitive data by selecting **Attachment Findings** in the **Scheduled Discovery** menu,
 
-The following file types are supported when scanning attachments: PDF, DOC\(X\), TXT, XLS\(X\), CSV, XML, EML, MSG, JPG, JPEG and PNG.
+The following file types are supported when scanning attachments: PDF, DOC\(X\), TXT, XLS\(X\), CSV, XML, EML, MSG.
 
 **Warning:** This feature requires sending your data to a controlled ServiceNow environment. Contact your account and support teams for enabling the attachment scanning feature
 
@@ -134,7 +134,7 @@ Scan embedded images
 
 </td><td>
 
-Scans standalone images \(for example, PNG or JPG files\) and images embedded within documents \(such as scanned PDFs or Word files with image attachments\). Enabling this may increase scan duration significantly depending on the number of documents and images.**Note:** You can view the images which contain sensitive data by selecting **Attachment Findings** in the **Scheduled Discovery** menu,
+Scan standalone images \(JPG, PNG or JPEG files\) as well as images embedded within documents \(such as scanned PDFs or Word files\). Enabling this may increase scan duration significantly depending on the number of documents and images.**Note:** You can view the images which contain sensitive data by selecting **Attachment Findings** in the **Scheduled Discovery** menu,
 
 </td></tr></tbody>
 </table>5.  Select the **Schedule** button.

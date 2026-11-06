@@ -34,7 +34,7 @@ Deflection occurs when a user asks a question or makes a request that doesn't re
 
     Create conversational subflows and actions in Workflow Studio and use them in Virtual Agent conversations.
 
--   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md)**
+-   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/integrating-now-assist-va-msteams.md)**
 
     Configure ServiceNow Otto for Virtual Agent to use Microsoft Teams as the delivery channel.
 

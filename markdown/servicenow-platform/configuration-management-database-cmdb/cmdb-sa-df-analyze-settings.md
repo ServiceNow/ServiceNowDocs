@@ -39,7 +39,7 @@ You need the sn\_cmdb\_admin role to access the CMDB success advisor for Data Fo
 
 The sn\_cmdb\_user role also provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.
 
-To manage business rules, change the application scope from CMDB success advisor to Global in the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+To manage business rules, change the application scope from CMDB success advisor to Global in the application picker.
 
 ## Use cases
 

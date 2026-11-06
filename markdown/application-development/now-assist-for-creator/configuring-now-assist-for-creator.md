@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Configure ServiceNow Otto for Creator, ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, create with Now Assist, Configure Now Assist for Creator, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation]
-breadcrumb: [ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
+breadcrumb: [ServiceNow Otto for Creator, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configuring ServiceNow Otto for Creator

@@ -59,7 +59,7 @@ In both of the following scenarios, the list of CIs refreshes to show only CIs w
     1.  Open a Change Request form.
     2.  Scroll down and select the **Affected CIs** tab. Select **Add**.
     3.  In the **Add Affected CIs** form, select the **List controls** menu icon, select **Filters** and then select **Principal Class**.
-    For more information about adding affected CIs to change requests, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
+    For more information about adding affected CIs to change requests, see Associated CIs on a change request.
 
 
 **Parent Topic:**[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)

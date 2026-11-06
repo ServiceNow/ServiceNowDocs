@@ -9,7 +9,7 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2026-09-17"
 reading_time_minutes: 1
-breadcrumb: [Homepage deprecation, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Homepage deprecation, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Install the Homepage deprecation help tool

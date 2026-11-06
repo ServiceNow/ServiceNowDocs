@@ -1,21 +1,21 @@
 ---
-title: Create an IFL policy for password authentication
-description: Create an identifier-first login \(IFL\) policy that routes matching users to password-based authentication \(a username and password managed within the platform\).
+title: Create an identifier-first login policy for password authentication
+description: Create an identifier-first login policy that routes matching users to password-based authentication \(a username and password managed within the platform\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-ifl-policy-password.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [create IFL policy, password authentication, Use Password, Authentication Console]
 breadcrumb: [Create an IFL policy, Manage IFL policies, Use the IFL policies, Authentication Console, Authentication, Access Management]
 ---
 
-# Create an IFL policy for password authentication
+# Create an identifier-first login policy for password authentication
 
-Create an identifier-first login \(IFL\) policy that routes matching users to password-based authentication \(a username and password managed within the platform\).
+Create an identifier-first login policy that routes matching users to password-based authentication \(a username and password managed within the platform\).
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: `user_authn_admin`
 
 ## About this task
 
-A password-based IFL policy routes matching users to log in with a username and password managed within the platform. Use this policy type for users who don't authenticate through single sign-on \(SSO\). For a policy that routes users to an identity provider, see [Create an IFL policy for SSO authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-sso.md).
+A password-based identifier-first login policy routes matching users to log in with a username and password managed within the platform. Use this policy type for users who don't authenticate through single sign-on \(SSO\). For a policy that routes users to an identity provider, see [Create an identifier-first login policy for SSO authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-sso.md).
 
 ## Procedure
 

@@ -7,7 +7,8 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-18"
 reading_time_minutes: 1
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+keywords: [Autonomous Engineer, Build Agent, chat panel, mode selector]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Autonomous Engineer chat panel

@@ -113,7 +113,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **CMDB application for APIs and CLI**
 
-    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cmdb-cli-commands.md) store app is installed.
+    Determines whether the CMDB application for APIs and CLI store app is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption.
 

@@ -9,7 +9,7 @@ last_updated: "2026-09-23"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, Build Agent, ServiceNow Studio, access, chat panel, mode selector]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Accessing Autonomous Engineer

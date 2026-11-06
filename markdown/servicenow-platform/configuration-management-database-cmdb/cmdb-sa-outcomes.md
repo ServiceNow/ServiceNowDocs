@@ -27,11 +27,11 @@ CMDB success advisor helps improve CMDB data quality by aligning data quality ef
 
 </td></tr><tr><td>
 
-[Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-use.md)
+Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.
 
 </td></tr><tr><td>
 
-[Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-use.md)
+Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.
 
 </td></tr></tbody>
 </table>## Choosing your CMDB success advisor outcome

@@ -25,11 +25,11 @@ Procure the ITSM Standard license or above for ServiceNow IT Service Management 
 3.  Configure the [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/admin-center-sow.md).
 4.  Assign the workspace to your agent groups.
 
-Starting Brazil release, for new provisioned zboot instances, a scheduled job is available. The scheduled job executes a batch installation to automatically install applications such as Service Operations Workspace for ITSM Advanced Applications only if the you have the necessary entitlements for the application.
+Starting Brazil release, for new provisioned zBoot instances, a scheduled job is available. The scheduled job executes a batch installation to automatically install applications such as Service Operations Workspace for ITSM Advanced Applications only if you have the necessary entitlements for the application.
 
 ## Service Operations Workspace Admin Center
 
-It provides effortless and quick access to manage most configurations in Service Operations Workspace for IT Service Management \(ITSM\). It also provides centralized control of the instance to admins.
+It provides access to manage most configurations in Service Operations Workspace for IT Service Management \(ITSM\). It also provides centralized control of the instance to administrators.
 
 \[Omitted video\] Description: Overview of SOW Admin Center
 

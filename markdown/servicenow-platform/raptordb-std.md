@@ -39,9 +39,5 @@ RaptorDB Professional adds analytical processing to the same transactional found
 **Related topics**  
 
 
-[Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateCustomIndex.md)
-
-[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
-
-[Live Archive with RaptorDB Professional V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/data-archiving-with-raptordb-professional-v2.md)
+[bundle-platadm.t_CreateCustomIndex]
 

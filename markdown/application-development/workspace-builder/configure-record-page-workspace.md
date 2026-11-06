@@ -9,7 +9,7 @@ classification: workspace-builder
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a record page for a workspace in Workspace Builder
@@ -311,7 +311,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d270782e921">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d200671e921">
 
 **Update the name of the record page**
 
@@ -328,7 +328,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d270782e956">
+</td></tr><tr><td id="d200671e956">
 
 **Preview the record page in a new browser tab**
 
@@ -336,7 +336,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d270782e977">
+</td></tr><tr><td id="d200671e977">
 
 **Delete a record page**
 

@@ -42,7 +42,7 @@ ServiceNow Store
 </td><td>
 
 -   You are installing HAM without using the guided Product Hub experience.
--   Your ServiceNow instance does not have ServiceNow Otto for Setup \(sn\_ia\) or Setup Hub \(sn\_ia\_base\) installed.
+-   Your ServiceNow instance does not have ServiceNow Otto for Setup \(sn\_ia\) version 5.0.10 or later, or Setup Hub \(sn\_ia\_base\), version 3.0.4 or later installed.
 
 </td></tr></tbody>
 </table>-   **[Hardware Asset Management on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/product-hub-for-ham.md)**  

@@ -47,13 +47,13 @@ The ServiceNow® Agent experience for CSM enables your customer service agents t
 
 ### What's changed
 
--   **[Name change for CSM/FSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-base-experience.md#section_cjb_ama_ljc)**
+-   **Name change for CSM/FSM Configurable Workspace**
 
     The name of the CSM/FSM Configurable Workspace has changed. The workspace name is dependent on the installed products.
 
     -   CRM Workspace: For customers using the Customer Service Management application or working in the Customer Relationship Management \(CRM\) environment.
     -   Industry-specific names: For customers using any of the industry products, such as Financial Services or Public Sector.
--   **[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm.md)**
+-   **ServiceNow Otto for Customer Service Management \(CSM\)**
 
     Starting with Zurich Patch 12, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Customer Service Management \(CSM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 

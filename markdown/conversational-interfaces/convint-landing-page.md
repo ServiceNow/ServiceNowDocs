@@ -27,7 +27,7 @@ Select a tile to get started with one of Conversational Interfaces products.
 
 </td><td>
 
-[Conversational integrations\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Bring ServiceNow Otto for Virtual Agent conversations to popular messaging applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent.md)
+[Conversational integrations\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Bring ServiceNow Otto for Virtual Agent conversations to popular messaging applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
 
 </td></tr><tr><td>
 

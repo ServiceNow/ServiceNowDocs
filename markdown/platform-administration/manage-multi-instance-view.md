@@ -16,7 +16,9 @@ Manage a consolidated view of clones across all your instances and clone status
 
 ## Before you begin
 
-Role required: clone\_admin. [Multi-Instance view is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/setup-multi-instance-view.md).
+[Multi-Instance view is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/setup-multi-instance-view.md).
+
+Role required: clone\_admin.
 
 ## Procedure
 

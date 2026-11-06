@@ -1,16 +1,16 @@
 ---
-title: Initiate registration
+title: Register and connect to the data provider
 description: Automated registration initiates, establishes, and verifies the secure connection to the Impact Delivery Instance, the provider, into one combined task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-registration.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-05"
-reading_time_minutes: 1
+last_updated: "2026-10-19"
+reading_time_minutes: 2
 breadcrumb: [Configuring Impact, Impact]
 ---
 
-# Initiate registration
+# Register and connect to the data provider
 
 Automated registration initiates, establishes, and verifies the secure connection to the Impact Delivery Instance, the provider, into one combined task.
 
@@ -49,9 +49,14 @@ Alternatively, toggle **Set up manually** to perform manual registration instead
 
 [Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md)
 
+-   **[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md)**  
+During Impact Guided Setup automated registration, a status is provided to indicate a successful connection. Use the Verify the Connection step to track the progress. If you used manual registration, verify your connection through the Provider Connections page.
+-   **[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)**  
+After the connection is established between your Impact Store Application and the Impact Delivery Instance, next migrate your data.
+
 **Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Scan blocking and override behavior scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/understanding-scan-blocking-override-behavior.md)
+**Previous topic:**[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-other-integration-options.md)
 
 **Next topic:**[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md)
 

@@ -24,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Indicator Groups** &gt; **Change success score - multipliers**.
 
-2.  Open the indicator that you want to modify.
+2.  Open the indicator to modify.
 
 3.  In the formula, change the multiplier value.
 
-    \[Omitted image "modifyformula.png"\] Alt text: Modify the formula by changing the multiplier value
+    \[Omitted image "modifyformula.png"\] Alt text: Indicator formula with a multiplier value
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-score-calculation.md)

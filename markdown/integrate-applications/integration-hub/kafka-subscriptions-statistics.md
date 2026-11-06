@@ -1,6 +1,6 @@
 ---
 title: Viewing Kafka subscriptions and statistics
-description: View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+description: View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/kafka-subscriptions-statistics.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Inte
 
 # Viewing Kafka subscriptions and statistics
 
-View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 
 A subscription is a record associated with a consumer. It stores configuration and performance details about the consumer. A subscription is created when a Kafka stream is activated.
 

@@ -23,9 +23,9 @@ The ServiceNow ITOM MCP Server Console lets agents fetch ITOM data and perform a
 -   Request and execute alert remediation suggestions.
 -   Set up MID-less log ingestion integrations for Health Log Analytics directly from your MCP Client.
 
-See [Using the ITOM MCP Server Console to perform ITOM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/use-itom-mcp-server.md) for more information.
+See  for more information.
 
-The ITOM MCP Server Console includes AIOps, SRM, and LEAP tools. For details on LEAP tools, see [LEAP MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-mcp-server-overview.md).
+The ITOM MCP Server Console includes AIOps, SRM, and LEAP tools. For details on LEAP tools, see .
 
 ## Activation and other requirements
 
@@ -44,23 +44,23 @@ This release enables Event Management operators and administrators to investigat
 
 ### What's new
 
--   **[Resolve alerts without leaving your MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-alert-actions.md)**
+-   **Resolve alerts without leaving your MCP Client**
 
     Assign, close, reopen, acknowledge, and annotate alerts through natural-language prompts in your MCP Client application, eliminating context switching between tools. This reduces resolution time and keeps you focused on the incident at hand. The tool automatically detects whether your request applies to a single alert or an alert group, so you can coordinate action across multiple related alerts in one request.
 
--   **[Coordinate response to related alerts in your MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-bulk-alert-actions.md)**
+-   **Coordinate response to related alerts in your MCP Client**
 
     Assign, close, reopen, or acknowledge multiple related alerts as a group in a single request from your MCP Client. When a widespread outage affects several systems, you can route all related alerts to the responsible team and add investigation notes simultaneously. This keeps your response coordinated without repetitive manual work.
 
--   **[Review service dependencies and incident impact in your MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-ci-reliability.md)**
+-   **Review service dependencies and incident impact in your MCP Client**
 
     Assess configuration item \(CI\) reliability status, topology, and incident impact directly from your MCP Client application through natural-language prompts. Assess which upstream and downstream services are affected by an alert, so your team understands the full scope of impact before escalating or deciding on remediation steps. Create service level objectives \(SLOs\) for CIs that don't have them yet, and monitor active SLOs and related alerts, all without navigating to the ServiceNow UI.
 
--   **[Get remediation suggestions in your MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-alert-remediation.md)**
+-   **Get remediation suggestions in your MCP Client**
 
     Request a remediation suggestion for an alert through natural-language prompts in your MCP Client application. The tool uses your existing workflows and knowledge base articles to recommend the next step, so you can resolve issues faster without navigating back to the ServiceNow UI. Review the suggestion or follow the deep link back to Service Operations Workspace to confirm and execute the remediation action.
 
--   **[Set up MID-less log ingestion for HLA from your MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-hla-ingest.md)**
+-   **Set up MID-less log ingestion for HLA from your MCP Client**
 
     Create and configure MID-less log ingestion integrations for Health Log Analytics directly from your AI-enabled MCP Client application, without navigating to the Integrations Launchpad. Request integration creation, activation, renaming, and token rotation entirely through natural-language prompts. The MCP Client returns all endpoint and credential details needed to configure your collector, eliminating manual UI navigation for integration setup and credential management.
 

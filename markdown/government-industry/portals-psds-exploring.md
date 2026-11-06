@@ -35,7 +35,7 @@ Self-service in Public Sector offers the following benefits:
 
 ## Playbooks for Portals
 
-Whether you're a government service agent or a constituent using the Government Service Portal or Grants Management Portal, you can use Public Sector Digital Services playbooks on service portals to complete the tasks and activities needed to resolve your requests. Playbooks on service portals \(for constituents using the Government Service Portal or Grants Management Portal\) integrates seamlessly into Playbooks for government service agents using the CRM Workspace, giving both parties the step-by-step guidance for the case flow process and the contextual information that you need to successfully complete each stage of the flow and its associated activities.
+Whether you're a government service agent or a constituent using the Government Service Portal or Grants Management Portal, you can use Public Sector Digital Services playbooks on service portals to complete the tasks and activities needed to resolve your requests. Playbooks on service portals \(for constituents using the Government Service Portal or Grants Management Portal\) integrates seamlessly into Playbooks for government service agents using the Public Sector Workspace, giving both parties the step-by-step guidance for the case flow process and the contextual information that you need to successfully complete each stage of the flow and its associated activities.
 
 Guided intake with playbooks on service portals makes it effortless to fill out a form or provide information for a case. Playbooks offer a clear roadmap that indicates your progress in the submission process and the remaining steps that you need to complete. If needed, you can navigate back to a previous step, or use intuitive options and input controls that enable you to input information in a detailed manner. Additionally, you can save an application or intake form that is not yet ready for submission and resume work on it later.
 
@@ -63,7 +63,7 @@ The playbook includes multiple activities. You can see the activity stream again
 The following playbooks on service portal experiences are available for constituent use:
 
 -   Grants Management: Grants Proposal Playbook, Grants Workspace Playbook
--   Service Request Playbook
+-   Service Request Administration
 -   Information Request Administration
 
 ## Engagement Messenger
@@ -92,5 +92,5 @@ As constituents answer questions and select options presented by Virtual Agent, 
 
 If constituents want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 
-To learn more about chat, see [Configure chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_ChatFeature.md).
+To learn more about chat, see .
 

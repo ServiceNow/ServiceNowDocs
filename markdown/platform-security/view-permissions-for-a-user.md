@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Evaluate access, Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Use Evaluate access, Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
 # View permissions for a user
@@ -18,7 +18,7 @@ Use Access Analyzer to view permissions for a selected user.
 
 Role required: access\_analyzer\_admin
 
-This procedure explains how to view the permissions for a specific user \(such as **ITIL User**\) on the **Incident** table by using the Evaluate Access feature in Access Analyzer.
+This procedure explains how to view the permissions for a specific user \(such as **ITIL User**\) on the Incident table by using the Evaluate access feature in Access Analyzer.
 
 **Note:** Access Analyzer is a ServiceNow AI Platform Store product.
 
@@ -26,7 +26,7 @@ This procedure explains how to view the permissions for a specific user \(such a
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
 
-    The Analyze access and permissions homepage is displayed.
+    The Analyze access and permissions home page is displayed.
 
 2.  Select your criteria as follows:
 
@@ -40,43 +40,43 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Analyze by \*
+Analyze by
 
 </td><td>
 
-Select **User**.
+**User** option.
 
 </td></tr><tr><td>
 
-Select user \*
+Select user
 
 </td><td>
 
-Specify a user name to select from the list. In this example, **ITIL User**.
+User name to select from the list. In this example, **ITIL User**.
 
 </td></tr><tr><td>
 
-Rule type \*
+Rule type
 
 </td><td>
 
-Analyze access for the following:-   Table
+Access for the following:-   Table
 -   UI page
 -   REST Endpoint
 -   Client callable script include
 -   AI Agent
--   Agentic workflow.
-In the example, `Table`
+-   Agentic workflow
+In the example, **Table**
 
 .
 
 </td></tr><tr><td>
 
-Select table \*
+Select table
 
 </td><td>
 
-Specify a table name to select from the list. In this example, **Incident**.
+Table name to select from the list. In this example, **Incident**.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Select record
 
 </td><td>
 
-Specify a record name to select from the list. In this example, **INC0000001**.
+Record name to select from the list. In this example, **INC0000001**.
 
 </td></tr><tr><td>
 
@@ -92,12 +92,12 @@ Select field
 
 </td><td>
 
-Specify a field name to select from the list. This field can be used to analyze permissions even at the field level. For example, Active, Created By, and so on.
+Field name to select from the list. This field can be used to analyze permissions even at the field level. For example, Active, Created By, and so on.
 
 </td></tr></tbody>
 </table>3.  Specify the description in the **Description** field.
 
-4.  Click **Analyze permissions**.
+4.  Select **Analyze permissions**.
 
     \[Omitted image "view-permissions-for-a-user.png"\] Alt text: Permission evaluation of Abel Tuter
 
@@ -107,9 +107,9 @@ Specify a field name to select from the list. This field can be used to analyze 
 
     The results can be read by referring to the Legends, access control list \(ACL\), IAccesshandler, and Data filters.
 
-    Let's take the example of **read** operation. For the **ITIL User** overall access is Passed, which means the user is able to read the record with the correct permissions \(ACL\).
+    Let's take the example of **read** operation. For the **ITIL User** , overall access is Passed, which means the user can read the record with the correct permissions \(ACL\).
 
-    Similarly for **create** operation, the overall access is passed with an alert icon, which means that there could be a presence of script for the ACL evaluation.
+    Similarly, for **create** operation, the overall access is passed with an alert icon, which means that there could be a presence of script for the ACL evaluation.
 
     **Note:** In the example, **write** and **delete** operations are blocked for the selected user and the user can’t edit or delete the selected record \(INC0000001\).
 
@@ -117,11 +117,11 @@ Specify a field name to select from the list. This field can be used to analyze 
 
     \[Omitted image "acl-details-for-user.png"\] Alt text: ACL Details
 
-    The Debug logs page displayed the business rule and associated ACLs that are required to perform the **read** operation for the record.
+    The Debug logs page displays the business rule and associated ACLs that are required to perform the **read** operation for the record.
 
     The Debug logs shows that there’s a business rule and four ACLs associated for the read operation.
 
-    There’s a status **Passed** for one of the ACL, which means to read the selected record, the user has the required ACL and can read the record. Since one of the ACL is **Passed**, the other ACL evaluations are **Skipped**.
+    There’s a status **Passed** for one of the ACLs, which means to read the selected record, the user has the required ACL and can read the record. Since one of the ACLs is **Passed**, the other ACL evaluations are **Skipped**.
 
 6.  Select the Access Control that is Passed to see the details of the ACL.
 

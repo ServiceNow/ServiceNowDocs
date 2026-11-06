@@ -27,7 +27,7 @@ The API returns one of two shapes:
 
 ## Access instructions and requirements
 
-The SecretsAPI is supported by the Unified Secrets Gateway \(USG\) product and is available with the USG plugin \(com.glide.usg.global\) and requires the com.glide.kmf.global plugin. The API is provided within the sn\_usg\_ns namespace.
+The SecretsAPI is supported by the [Unified Secrets Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/usg-landing.md) \(USG\) product and is available with the USG plugin \(com.glide.usg.global\) and requires the com.glide.kmf.global plugin. The API is provided within the sn\_usg\_ns namespace.
 
 To access this API, use `var api = new sn_usg_ns.SecretsAPI();` with no constructor arguments.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-ai-asset-details.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-19"
+reading_time_minutes: 5
 keywords: [AI asset, asset record, asset details, asset relationship map, use and purpose, asset ownership]
 breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -21,9 +21,26 @@ The **Details** tab is available for both managed and unmanaged assets. For an u
 
 ## AI asset details
 
-Use the **Details** section to confirm and maintain the administrative metadata that identifies an AI asset and clarifies who is accountable for it. Asset owners reference these values to keep the record current. AI stewards reference them during reviews and audits. The asset tag contains the unique ID assigned to every asset. Each asset tag consists of a type prefix followed by a 20-digit number.
+Use the **Details** section to confirm and maintain the administrative metadata that identifies an AI asset, shows where it came from, and clarifies who is accountable for it. Asset owners reference these values to keep the record current. AI stewards reference them during reviews and audits. The asset tag contains the unique ID assigned to every asset. Each asset tag consists of a type prefix followed by a 20-digit number.
 
-For example, the **Managed by** field identifies the asset owner who keeps the record accurate and receives lifecycle tasks. The **License details** field captures the license terms that apply to the asset and is referenced during procurement reviews. The **Locations** field records the geographic locations where the asset is supported and is used to confirm coverage during data residency reviews. To update any of these values, edit them on the asset record.
+Use the **Provider**, **Vendor**, and **Source system** fields to tell who built an asset, who supplies it, and where it was discovered or imported from.
+
+-   **Provider**
+
+    The organization that built the asset.Assets that ServiceNow builds show Service-now.com. AI agents that your organization builds on your instance show your company name. For assets that a connector discovers on another platform, the connector sets the provider.
+
+-   **Vendor**
+
+    The company that the asset was purchased from. AI agents that run on your instance show ServiceNow as the vendor, including agents that your organization builds. For assets that a connector discovers on another platform, the vendor is that platform's company, such as Google or Databricks.
+
+-   **Source system**
+
+    The platform or instance that the asset came from. For assets that a connector discovers, this is the connector's platform, such as Google Vertex AI or Databricks. For assets that you import from another instance by using multi-instance management, this is the name of that instance. Assets that are created on your instance don't show a source system. For details about multi-instance management, see [Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-multi-instance.md).
+
+
+For example, an AI agent that your organization builds shows your company as the provider and ServiceNow as the vendor, and has no source system.
+
+The **Managed by** field identifies the asset owner who keeps the record accurate and receives lifecycle tasks. To update any of these values, edit them on the asset record.
 
 ## Use and purpose
 

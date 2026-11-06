@@ -23,7 +23,7 @@ Role required: virtual\_agent\_admin or admin
 
 If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without prompting the user again. To prompt the user when not slot-filled, use input controls.
 
-For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/entities.md). For more information about system entities, see [\(Legacy\) NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nlu-system-entities.md).
+For more information about NLU entities, see Entities. For more information about system entities, see [\(Legacy\) NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nlu-system-entities.md).
 
 ## Procedure
 

@@ -31,7 +31,7 @@ Establish secure private connectivity between your private cloud data sources an
 
 </td><td>
 
-
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information such as relay properties for a private relay.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/reverse-tunnel-reference.md)
 
 </td></tr></tbody>
 </table>## Reverse Tunnel overview

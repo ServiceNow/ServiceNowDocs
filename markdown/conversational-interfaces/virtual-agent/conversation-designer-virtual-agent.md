@@ -28,7 +28,7 @@ You can also view and manage the following in Assistant Designer:
     Virtual Agent conversations can include subflows and actions if they were made conversational in Workflow Studio or topics that include subflows and actions through the Action utility node.
 
     -   Conversational subflows and actions are available in Assistant Designer only if ServiceNow Otto for Virtual Agent has been configured.
-    -   Conversational subflows and actions are also shown in Assistant Designer Asset library if the ServiceNow Otto panel is available. For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    -   Conversational subflows and actions are also shown in Assistant Designer Asset library if the ServiceNow Otto panel is available. For more information, see .
     -   Conversational subflows and actions only appear to users during a conversation if the subflows and actions skill is turned on in AI Admin Hub.
 -   Custom skills
 
@@ -47,7 +47,7 @@ With LLM topic discovery, you can use generative AI through ServiceNow Otto for 
 
 When you open Assistant Designer, the Asset library lists the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
-**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-small-talk-filters.md).
+**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see .
 
 In the Asset library, you can access and edit any of these assets, and create topics, topic blocks, setup topics, small talk topics, and custom controls.
 
@@ -55,7 +55,7 @@ In the Asset library, you can access and edit any of these assets, and create to
 
 **Note:**
 
--   Conversational subflows and actions are available in Assistant Designer if ServiceNow Otto for Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto panel is available. For more information on the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
+-   Conversational subflows and actions are available in Assistant Designer if ServiceNow Otto for Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto panel is available. For more information on the ServiceNow Otto panel, see .
 -   MCP Server capabilities that you add to an assistant are stored in the sys\_gen\_ai\_skills table at run time, the same underlying table used for other conversational assets. But they don't appear as an asset in the Asset library. MCP Servers aren't treated as a conversational asset, so you can only view and manage them from within the Assistant create/edit flow, in their own dedicated section. Because they don't appear in the Asset library, you can't update their Discoverable, Visible, or Promoted status.
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md).
@@ -101,7 +101,7 @@ Use the **Properties** tab to do the following:
 
 -   Specify the name and type of asset, such as [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md), [custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/custom-controls.md), and so on.
 -   Specify the purpose of the topic, and which assistants can run this topic for ServiceNow Otto customers.
--   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent.md).
+-   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
 -   Associate [live agent variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/live-agent-chat-context-vars.md) with a topic.
 
 For more information, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).

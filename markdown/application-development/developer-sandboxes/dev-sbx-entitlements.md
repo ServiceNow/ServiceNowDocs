@@ -7,9 +7,11 @@ release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
-breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
+keywords: [developer sandboxes, sandbox entitlements, sandbox license, sandbox license admin, license allocation, sandbox packs, free sandboxes, non-production instances, self-serve license assignment]
+audience: administrator
+breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Developer Sandboxes entitlements
@@ -27,5 +29,5 @@ In addition to the free sandboxes, Developer Sandboxes entitlements include the 
 
 For details on how to check your entitlements, see [Viewing instance-level entitlements in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/viewing-instance-level-entitlements.md).
 
-**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+**Parent Topic:**[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-configuring-landing.md)
 

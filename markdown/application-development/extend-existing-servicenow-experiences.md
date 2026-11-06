@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 4
 keywords: [Extend existing ServiceNow experiences, Prerequisites, Steps, Two extensions targeting the same route]
-breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Extend existing ServiceNow experiences

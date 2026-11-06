@@ -121,7 +121,9 @@ Requires queryable field
 
 </td><td>
 
-Option to indicate whether you can retrieve data from the remote table without querying the source table.Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
+Option to indicate whether you can retrieve data from the remote table without querying the source table.
+
+ Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
 
 </td></tr><tr><td>
 

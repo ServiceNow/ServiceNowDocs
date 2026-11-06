@@ -18,13 +18,13 @@ Virtual Agent can automate many workflows, and a number of common solutions are 
 
 Virtual Agent comes with a basic configuration that includes common greetings, NLU intents, reusable logic, and prebuilt conversations. Using these building blocks, you can quickly put together workflows to handle some of the most common organizational needs, including the following:
 
--   [Resetting a password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-password-management.md)
--   [IT Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-va-self-service-topics.md)
--   [IT troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-va-it-issues-generic.md)
--   [HR queries and employee profile updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-virtual-agent-conversations.md)
--   [Customer Service queries and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
+-   Resetting a password
+-   IT Self-Service
+-   IT troubleshooting
+-   HR queries and employee profile updates
+-   Customer Service queries and requests
 
-To help you understand the possibilities, the Asset Refresh example uses prebuilt topic blocks that are included in the [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent.md) plugin. These topic blocks do most of the "heavy lifting" in the topic.
+To help you understand the possibilities, the Asset Refresh example uses prebuilt topic blocks that are included in the ITSM Virtual Agent Conversations plugin. These topic blocks do most of the "heavy lifting" in the topic.
 
 ## Asset Refresh workflow
 

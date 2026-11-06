@@ -18,6 +18,8 @@ Reference topics provide additional information about components installed with 
 
 -   **[Success Dashboard indicators user roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/success-roles.md)**  
 Leaders and process owners of both ITSM and HR can configure and use the Success Dashboard indicators to measure the success of the implementation.
+-   **[ITSM Success Dashboard glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/glossary-landing-sd.md)**  
+Learn about the terms and concepts in ITSM Success Dashboard.
 
 **Parent Topic:**[ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md)
 

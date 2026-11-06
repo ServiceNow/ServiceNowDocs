@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 7
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -288,7 +288,7 @@ IBM MQ Manager \[cmdb\_ci\_appl\_ibm\_wmq\]
 
 1.  Enable configuration file tracking by setting the `glide.discovery.enable_file_tracking` Discovery property to true.
 
-    You can also configure other properties to control the size and number of tracked configuration files, the time window during which changes to configuration files are tracked for a given version, and the number of changes allowed on a configuration file during that time window. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) for details.
+    You can also configure other properties to control the size and number of tracked configuration files. Additional properties set the time window for tracking changes to a given version and the maximum number of changes allowed on a configuration file during that window. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) for details.
 
 2.  To prevent unauthorized access to the sensitive information from configuration files, perform the following steps:
     1.  Ensure that access control rules \(ACL\) are placed on the Tracked Configuration file table \[cmdb\_ci\_config\_file\_tracked\]. Only allow authorized users to view this table or uncheck the **Save Content** setting.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-upgradeconsole-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -130,7 +130,7 @@ Review, select, and update multiple applications from a single console, reducing
 
  -   **[App version compatibility support](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&family=australia&ft:locale=en-US)**
 
-Update the Now Assist suite to manage application version compatibility by automatically updating all related applications to compatible versions when you upgrade an application in the compatibility matrix.
+Update the AI Suites to manage application version compatibility by automatically updating all related applications to compatible versions when you upgrade an application in the compatibility matrix.
 
 -   **[ATF Troubleshooting agent access](https://www.servicenow.com/docs/access?context=um-post-upgrade-activities&family=australia&ft:locale=en-US)**
 
@@ -562,7 +562,7 @@ Australia
 </td><td>
 
 -   Access the ATF troubleshooting agent directly from the Upgrade console.
--   Manage your application version compatibility by updating the Now Assist suite.
+-   Manage your application version compatibility by updating the AI Suites.
 
  See [Upgrade Management](https://www.servicenow.com/docs/access?context=um-landing-page&family=australia&ft:locale=en-US) for more information.
 

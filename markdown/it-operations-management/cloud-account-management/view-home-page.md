@@ -30,3 +30,5 @@ As an admin or asset viewer, you can access the home page in either of two ways.
 -   The Needs attention widget appears only for admins with the Cloud Account Management entitlement.
 -   The Other cloud tools widget displays the applications installed on your instance. Cloud Discovery is a prerequisite for installing Cloud Account Management.
 
+**Parent Topic:**[Viewing Cloud Account Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/about-cam-dashboard.md)
+

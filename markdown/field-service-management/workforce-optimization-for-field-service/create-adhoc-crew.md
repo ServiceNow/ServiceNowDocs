@@ -18,7 +18,7 @@ Create an ad hoc task-specific crew for a task if existing crews are not availab
 
 ## Before you begin
 
-Role required: wm\_manager
+Role required: wm\_crew\_moderator
 
 ## About this task
 

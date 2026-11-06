@@ -5,7 +5,7 @@ locale: en-US
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 8
 ---
 
 # Add a building using Workplace Space Management
@@ -303,7 +303,7 @@ The building is added to the selected region, site, and campus.
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

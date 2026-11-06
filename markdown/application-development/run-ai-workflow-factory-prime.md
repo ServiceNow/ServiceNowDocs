@@ -6,15 +6,30 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/run-ai-
 release: brazil
 topic_type: concept
 last_updated: "2026-10-01"
-reading_time_minutes: 2
-breadcrumb: [AI Workflow Factory, Building applications]
+reading_time_minutes: 3
+breadcrumb: [AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Run
 
 Deploy, run, and govern custom applications at-scale with unlimited table capacity, embedded AI agents, centralized management for developers and apps, and faster query performance.
 
-## App Engine Management Center
+## Run
+
+<table id="table_s24_dz5_wkc" class="nav-card presentation"><tbody><tr><td>
+
+[App Engine Management Center\[Omitted image "bus-manage.svg"\] Alt text:Govern app development and deployment from a single, unified experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-engine-management-center.md)
+
+</td><td>
+
+[ReleaseOps \[Omitted image "bus-rocketship.svg"\] Alt text: Automate deployments across your ServiceNow ecosystem.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-landing.md)
+
+</td><td>
+
+[ServiceNow Otto for App Engine\[Omitted image "bus-elevate.svg"\] Alt text:Add AI capabilities to custom applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+
+</td></tr></tbody>
+</table>## App Engine Management Center
 
 The App Engine Management Center \(AEMC\) is a centralized location for admins and developers to govern and manage the full life cycle of custom applications, from idea submission to deployment and continuous monitoring.
 
@@ -41,5 +56,5 @@ ReleaseOps automates deployment of changes across your pipeline, increases predi
 -   **[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)**  
 Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 
-**Parent Topic:**[AI Workflow Factory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ai-workflow-factory-prime.md)
+**Parent Topic:**[AI Workflow Factory Prime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ai-workflow-factory-prime.md)
 

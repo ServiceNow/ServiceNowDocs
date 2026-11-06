@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-authentication-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 19
+last_updated: "2026-11-06"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -157,7 +157,12 @@ Brazil
 
 </td><td>
 
--   **[Policy-based login experience](https://www.servicenow.com/docs/access?context=next-gen-login-experience&family=brazil&ft:locale=en-US)**
+-   **[Step-up authentication for AI voice agents](https://www.servicenow.com/docs/access?context=step-up-authentication&family=brazil&ft:locale=en-US)**
+
+Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
+
+
+ -   **[Policy-based login experience](https://www.servicenow.com/docs/access?context=next-gen-login-experience&family=brazil&ft:locale=en-US)**
 
 Use the Policy-based experience \(identifier-first login\) framework in the Authentication Console to craft login policies to simplify the login experience by presenting relevant login methods based on user context, such as username or email.
 
@@ -192,11 +197,6 @@ Use the Basic Auth Restriction page to strengthen instance security by limiting 
 -   **[Authenticate MCP clients with external authorization servers](https://www.servicenow.com/docs/access?context=mcp-3p-auth-concept&family=brazil&ft:locale=en-US)**
 
 Register an external authorization server as a trusted token issuer for the MCP Server by creating an OIDC Provider Configuration that identifies the provider's issuer URI and metadata endpoint. The MCP Server validates a token from a registered provider locally — confirming the issuer is trusted, the signature is valid, the audience matches, and the token has not expired — without depending on the ServiceNow authorization server. Tokens from issuers that aren't registered and active are rejected.
-
-
- -   **[Step-up authentication for AI voice agents](https://www.servicenow.com/docs/access?context=step-up-authentication&family=brazil&ft:locale=en-US)**
-
-Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
 
 
 </td></tr></tbody>
@@ -417,7 +417,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Basic Authentication for inbound integrations**
+
+Starting with the Brazil release, Basic Authentication is being prepared for future deprecation. OAuth 2.0, mutual TLS \(mTLS\), and federated token-based authentication provide the latest experience for this functionality. Basic Authentication remains supported on inbound requests, such as REST and SOAP, until a future release. Migrate your inbound integrations to a supported method. For guidance on identifying and migrating these integrations, see the [KB3220405](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220405) article.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -461,6 +464,8 @@ Zurich
 
 Authentication is a ServiceNow AI Platform product that is active by default.
 
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -471,6 +476,8 @@ Australia
 -   **Activation information**
 
 Authentication is a ServiceNow AI Platform product that is active by default.
+
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=australia&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -844,13 +851,6 @@ Australia
 -   **[Step-up authentication for AI voice agents](https://www.servicenow.com/docs/access?context=step-up-authentication&family=australia&ft:locale=en-US)**
 
 Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
-
-
- [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
-
--   **[Human-assisted SMS OTP](https://www.servicenow.com/docs/access?context=human-assisted-sms-otp&family=australia&ft:locale=en-US)**
-
-Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
 
 
  [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)

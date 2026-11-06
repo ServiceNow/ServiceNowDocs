@@ -1,20 +1,20 @@
 ---
-title: Create hierarchical sorting levels for equipment templates
-description: Create and assign hierarchical levels for your equipment model template. When you assign an equipment template to an equipment model, these levels sort and structure the data you see in it.
+title: Create sorting levels for equipment model templates
+description: Create and assign hierarchical levels for your equipment model template to control how equipment is sorted and organized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-equipment-model-template-levels.html
 release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-13"
+reading_time_minutes: 2
 breadcrumb: [Defining equipment model templates, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
-# Create hierarchical sorting levels for equipment templates
+# Create sorting levels for equipment model templates
 
-Create and assign hierarchical levels for your equipment model template. When you assign an equipment template to an equipment model, these levels sort and structure the data you see in it.
+Create and assign hierarchical levels for your equipment model template to control how equipment is sorted and organized.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can assign levels to an equipment model template for sorting purposes. For example, you can assign Site, Area, Work Center and other levels to the equipment, and designate the sorting sequence for each.
+You can assign levels such as Site, Area, and Work Center to your equipment model template, and define the sort order for each.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can assign levels to an equipment model template for sorting purposes. For e
 
 3.  In the Template Levels related list, select **New**.
 
-4.  On the form, fill in the fields.
+4.  Complete the fields in the Template Level form.
 
 <table id="table_ec1_wtm_hqb"><thead><tr><th>
 
@@ -48,7 +48,7 @@ Level name
 
 </td><td>
 
-Name of the level to which you are assigning the equipment model. Examples include:-   **Site**
+Name of the level to which you're assigning the equipment model. Examples include:-   **Site**
 
 An industrial site.
 
@@ -101,7 +101,7 @@ Number that indicates the position of the level in the equipment model hierarchy
 
 ## What to do next
 
-Create granular types within an equipment model template hierarchical level.
+To assign types to your equipment model template, see [Create equipment model level types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-equipment-model-template-type.md).
 
 **Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
 

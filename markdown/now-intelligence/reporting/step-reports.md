@@ -8,13 +8,15 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 18
-breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+reading_time_minutes: 19
+breadcrumb: [Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Step line reports
 
 Step line reports plot individual data points to show how the value of one or more items changes over time. Horizontal lines in the step report show the duration of a change and vertical lines show its magnitude.
+
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 The values of an item at specific dates or times are displayed as data points connected by horizontal lines. Values along the horizontal axis of the step line report represent the time measurement \(years, hours, minutes, milliseconds, and so on\). Values on the vertical axis represent the magnitude of changes to the items being monitored. Users with the report\_admin role can define the ranges that are used in a step line report.
 
@@ -26,7 +28,7 @@ This data visualization is supported on the mobile platform. For more informatio
 
 \[Omitted image "step-report.png"\] Alt text: Step line report example
 
-**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md)
+**Parent Topic:**[Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a step line report
 
@@ -40,11 +42,15 @@ For a step line report use case, [Time series data visualization example](https:
 
 ### About this task
 
-This task refers to the Brazil release using Core UI.
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
+
+The equivalent Platform Analytics data visualization is described under Time series data visualizations. For more information, see [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/time-series-visualization-types.md).
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On instances with Unified Analytics enabled, and on new Brazil instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
@@ -52,7 +58,7 @@ This task refers to the Brazil release using Core UI.
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d221329e280">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d222930e349">
 
 **Data source**
 
@@ -60,7 +66,7 @@ This task refers to the Brazil release using Core UI.
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d221329e299">
+</td></tr><tr><td id="d222930e368">
 
 **Table**
 
@@ -68,7 +74,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name.For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md).
 
-</td></tr><tr><td id="d221329e318">
+</td></tr><tr><td id="d222930e387">
 
 **External import**
 
@@ -76,7 +82,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d221329e343">
+</td></tr><tr><td id="d222930e412">
 
 **MetricBase**
 
@@ -159,7 +165,7 @@ Calendar
 
 </td><td>
 
-Calendar that is the basis for the time series in the report. Select either the standard calendar or a [customized business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/business-calendars.md).
+Calendar that is the basis for the time series in the report. Select either the standard calendar or a [customized business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/business-calendars.md).Only users with the admin role can select business calendars. Business calendars might not populate for non-admin viewers.
 
 </td></tr><tr><td>
 
@@ -183,7 +189,7 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
  Select **Minimum** or **Maximum** to show the maximum or minimum value for each segment of the report.
 
- For more information on aggregation options, see [Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/aggregation-reporting.md).
+ For more information on aggregation options, see [Aggregation in Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/aggregation-reporting.md).
 
  If you choose **Average**,**Sum**, **Count Distinct**, **Minimum**, or **Maximum**, you may be able to aggregate on fields from extended tables. See [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md).
 
@@ -470,7 +476,7 @@ Show legend
 
 </td><td>
 
-Enable this option to show a chart legend. This check box appears when a **Group by** field is selected on the report form.Legends are truncated by default. To adjust truncation lengths, configure the properties **glide.chart.label.legend.truncate\_to** and **glide.chart.label.legend.truncate\_to.large**. For more information, see [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-properties.md).
+Enable this option to show a chart legend. This check box appears when a **Group by** field is selected on the report form.Legends are truncated by default. To adjust truncation lengths, configure the properties **glide.chart.label.legend.truncate\_to** and **glide.chart.label.legend.truncate\_to.large**. For more information, see [Core UI Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-properties.md).
 
 </td></tr><tr><td>
 

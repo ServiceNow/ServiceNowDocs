@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowottoforcreator-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
@@ -349,7 +349,7 @@ Build a detailed, step-by-step plan for your application development with the Bu
 
 -   **[Build Agent supports Azure OpenAI and Google Gemini](https://www.servicenow.com/docs/access?context=install-build-agent&family=zurich&ft:locale=en-US)**
 
-Use Build Agent with Azure OpenAI and Google Gemini in addition to Anthropic Claude on AWS.
+Use Build Agent with Azure OpenAI and Google Gemini in addition to Anthropic Claude.
 
 -   **[Use images as prompts in Build Agent](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
 
@@ -1093,7 +1093,7 @@ Zurich
 
  [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
 -   Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
 

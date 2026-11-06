@@ -33,7 +33,7 @@ The following applications are available with Public Sector Digital Services tha
 
     Provides an end-to-end workflow for handling applications for social benefit programs submitted by public sector end users.
 
--   **[License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-license-permit.md)**
+-   **[License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-license-permit.md)**
 
     Provides an end-to-end workflow for handling license and permit requests submitted by public sector end users.
 
@@ -41,12 +41,12 @@ The following applications are available with Public Sector Digital Services tha
 
     Provides an end-to-end workflow for handling public record and information requests submitted by public sector end users.
 
--   **[Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-service-request.md)**
+-   **[Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-service-request.md)**
 
     Provides an end-to-end workflow for handling non-emergency service requests submitted by public sector end users.
 
 
-The corresponding playbook for each case type automatically appears in the **Playbook** tab when an agent creates a public service request case in the CRM Workspace, or when a constituent puts in a request through the Government Service Portal.
+The corresponding playbook for each case type automatically appears in the **Playbook** tab when an agent creates a public service request case in the Public Sector Workspace, or when a constituent puts in a request through the Government Service Portal.
 
 To learn more about playbooks, see [Using Playbooks Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-playbooks-overview.md).
 

@@ -7,14 +7,14 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # General guidelines for scripting
 
 Write efficient scripts using a JavaScript-like language. Follow these general guidelines for naming, variables, and table access.
 
-This guide will walk you through the general guidelines for writing efficient and reliable scripts in CPQ using a JavaScript-like language. Following these guidelines will help you create maintainable, readable, and well-performing code.
+This guide will walk you through the general guidelines for writing efficient and reliable scripts in ServiceNow CPQ using a JavaScript-like language. Following these guidelines will help you create maintainable, readable, and well-performing code.
 
 ## Quick summary
 
@@ -180,5 +180,5 @@ To learn about general guideliines for using the `lookup` function, see [Minimiz
 
 [Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/scripting.md)
 
-[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-logik-io-scripting-language-reference.md)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-logik-io-scripting-language-reference.md)
 

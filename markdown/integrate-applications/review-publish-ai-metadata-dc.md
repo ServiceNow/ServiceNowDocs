@@ -17,7 +17,7 @@ Compare ServiceNow Otto's suggested values against previous values, correct anyt
 
 ## Before you begin
 
-Role required: df\_data\_steward
+Role required: df\_data\_steward, now\_assist\_panel\_user, and wdf\_operator
 
 ## About this task
 

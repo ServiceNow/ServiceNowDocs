@@ -23,7 +23,7 @@ The ServiceNow® Project Workspace application provides an interactive UI to ena
 -   Create and compare schedule and financial baselines to monitor project performance against original plans.
 -   Collaborate with stakeholders through activity streams, attachments, and status reporting capabilities.
 
-See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -40,7 +40,7 @@ Keep project tasks and their resource assignments in sync by preventing task dat
 
 ### What's new
 
--   **[Project type module visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-project-type-pw.md)**
+-   **Project type module visibility**
 
     Show only the modules that are relevant to each project type in Project Workspace. In the **Show modules** section of the project type form, select the modules to display for projects of that type: **Playbook**, **Planning**, **Details**, **Financials**, **RIDAC**, **Resource**, **Analytics**, **Docs**, and **Status Report**. All modules are selected by default, and projects without a project type display all modules. Role-based access to each module continues to apply.
 
@@ -52,13 +52,13 @@ Keep project tasks and their resource assignments in sync by preventing task dat
 
 ### What's changed
 
--   **[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/use-projects-pw.md)**
+-   ****
 
     On project tasks with logged actuals, you can't change the Planned start or move the end date earlier than the last logged actual, whether you edit dates directly or a dependency recalculates them. When the Actual start and end dates are present, the restriction applies to them. This keeps the tasks and assignments in sync.
 
--   **[Preview attachments and manage excel files with dedicated prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-project-using-ai-pw.md)**
+-   **Preview attachments and manage excel files with dedicated prompts**
 
-    When you generate a project plan, a preview of the attachment now appears before you proceed. This matches the existing behavior of [generating tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-tasks-using-ai-pw.md). Excel attachments are now processed with a dedicated prompt tailored to tabular data, separate from word, pdf, and powerpoint attachments. This applies when generating a project plan or inserting tasks.
+    When you generate a project plan, a preview of the attachment now appears before you proceed. This matches the existing behavior of generating tasks. Excel attachments are now processed with a dedicated prompt tailored to tabular data, separate from word, pdf, and powerpoint attachments. This applies when generating a project plan or inserting tasks.
 
 
 ## Version 7.6.2
@@ -67,15 +67,15 @@ Organize and access your work more efficiently with the new Lists view, which pr
 
 ### What's new
 
--   **[List view for centralized navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/use-projects-pw.md#section_oz3_352_kkc)**
+-   **List view for centralized navigation**
 
     Centralized location for accessing all project-related entities such as My projects, All projects, Project templates, and RIDAC categories \(Risks, Issues, Decisions, Actions, Request changes\), streamlining navigation and improving productivity. Create and save custom lists in the My lists tab to organize your work according to your preferences.
 
--   **[Recalculate planned costs for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fin-recalculate-costs-pws.md)**
+-   ****
 
     Recalculate the cost plans, benefit plans, and their rolled-up investment-level values directly from the Financials view using the **Recalculate costs** option.
 
--   **[Create dynamic docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/create-a-status-report-template-project-workspace.md)**
+-   **Create dynamic docs template**
 
     Customize the docs based on your organization and project requirements using the dynamic docs template in Project Workspace.
 

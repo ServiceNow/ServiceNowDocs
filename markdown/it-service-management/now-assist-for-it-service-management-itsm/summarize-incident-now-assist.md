@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -35,9 +35,13 @@ An incident summary provides you with a concise summary of an incident. The summ
 -   Additional comments
 -   Resolution notes \(for a resolved incident\)
 
-For information about the incident states, see [Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/c_IncidentManagementStateModel.md).
+For information about the incident states, see [Incident life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/c_IncidentManagementStateModel.md).
 
 You can summarize an incident in Core UI and Service Operations Workspace for ITSM.
+
+If incident summarization fails with the `Summarization could not be completed because access to the base table Incident was unsuccessful` error message, check the role masking and agent access role configuration. For more information on role masking, see the Role masking for ServiceNow Otto for ITSM agentic workflows, AI agents, and skills section in [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+
+**Important:** For agent access role configuration, verify that you are using the default sys\_id of the itil role available in the base system. If the sys\_id of that role is different, contact ServiceNow® Customer Support to get it resolved.
 
 ## Procedure
 
@@ -63,15 +67,15 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 3.  When you're finished summarizing an incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d128952e223">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d206042e248">
 
 Option
 
-</th><th align="left" id="d128952e226">
+</th><th align="left" id="d206042e251">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d128952e232">
+</th></tr></thead><tbody><tr><td id="d206042e257">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -82,7 +86,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d128952e259">
+</td></tr><tr><td id="d206042e284">
 
 **Expand or collapse the summary**
 
@@ -90,7 +94,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d128952e280">
+</td></tr><tr><td id="d206042e305">
 
 **Provide feedback for the summary**
 
@@ -98,7 +102,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d128952e303">
+</td></tr><tr><td id="d206042e328">
 
 **Copy the incident summary**
 
@@ -106,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d128952e319">
+</td></tr><tr><td id="d206042e344">
 
 **View the information about the incident summary**
 

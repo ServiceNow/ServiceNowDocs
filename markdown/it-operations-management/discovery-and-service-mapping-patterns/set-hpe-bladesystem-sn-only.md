@@ -19,7 +19,7 @@ You can exclude the universally unique identifier \(UUID\) from the **Serial num
 
 ## Before you begin
 
-Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: discovery\_admin
 

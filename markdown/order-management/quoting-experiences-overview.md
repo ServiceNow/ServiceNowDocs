@@ -30,7 +30,7 @@ The product catalog and product configurator lets users select and configure pro
 
 ## Quote Pricing
 
-ServiceNow Quote Experience integrates natively with CPQ [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-management.md), enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
+ServiceNow Quote Experience integrates natively with ServiceNow CPQ [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-management.md), enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
 
 ## Composable architecture
 
@@ -42,13 +42,13 @@ The ServiceNow Quote Experience is modular and can be embedded into your existin
 
 ## Implementation considerations
 
-CPQ supports a range of deployment models and regulatory requirements:
+ServiceNow CPQ supports a range of deployment models and regulatory requirements:
 
 -   Deploy cloud-first implementations for modern, composable quoting experiences.
 -   Support tailored implementations for on-premises or federally regulated environments.
 -   Configure the solution to align with organizational controls, compliance requirements, and integration constraints.
 
-## Supported use cases for the CPQ
+## Supported use cases for the ServiceNow CPQ
 
 Use the ServiceNow Quote Experience when you need a scalable, configurable quote solution that:
 

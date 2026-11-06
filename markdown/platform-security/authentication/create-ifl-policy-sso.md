@@ -1,31 +1,31 @@
 ---
-title: Create an IFL policy for SSO authentication
-description: Create an identifier-first login \(IFL\) policy that routes matching users to a single sign-on \(SSO\) identity provider.
+title: Create an identifier-first login policy for SSO authentication
+description: Create an identifier-first login policy that routes matching users to a single sign-on \(SSO\) identity provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-ifl-policy-sso.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [create IFL policy, SSO login, identity provider, Multi-Provider SSO, Authentication Console]
 breadcrumb: [Create an IFL policy, Manage IFL policies, Use the IFL policies, Authentication Console, Authentication, Access Management]
 ---
 
-# Create an IFL policy for SSO authentication
+# Create an identifier-first login policy for SSO authentication
 
-Create an identifier-first login \(IFL\) policy that routes matching users to a single sign-on \(SSO\) identity provider.
+Create an identifier-first login policy that routes matching users to a single sign-on \(SSO\) identity provider.
 
 ## Before you begin
 
 Role required: `user_authn_admin`
 
-The SSO login authentication method is available only when the Multi-Provider SSO plugin is installed and at least one identity provider is configured. Until then, the SSO login option is unavailable and you can select only Use Password. To route users to password authentication instead, see [Create an IFL policy for password authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-password.md).
+The SSO login authentication method is available only when the Multi-Provider SSO plugin is installed and at least one identity provider is configured. Until then, the SSO login option is unavailable and you can select only Use Password. To route users to password authentication instead, see [Create an identifier-first login policy for password authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-password.md).
 
 ## About this task
 
-An SSO-based IFL policy routes matching users to an organization identity provider, so they log in using their existing SSO credentials.
+An SSO-based identifier-first login policy routes matching users to an organization identity provider, so they log in using their existing SSO credentials.
 
 ## Procedure
 

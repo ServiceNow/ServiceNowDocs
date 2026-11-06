@@ -22,17 +22,17 @@ Role required: rota\_manager, rota\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operation Workspace**.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
 2.  Select the **Schedules** icon.
 
-3.  On **Schedules** page, select **On-call Notification preferences** and select **Edit** to add or edit or delete Delivery channels.
+3.  On the **Schedules** page, select **On-call Notification preferences** and then select **Edit** to add, edit, or delete delivery channels.
 
-4.  Select **Add New** to add a new channel and provide name and email ID.
+4.  Select **Add New** to add a new channel and enter the name and email address.
 
-5.  Select **Phone numbers** tab to add and edit phone numbers.
+5.  Select the **Phone numbers** tab to add and edit phone numbers.
 
-6.  To delete a delivery channel, select the channel from the list and select **Delete** icon.
+6.  To delete a delivery channel, select the channel from the list and select the **Delete** icon.
 
     **Important:**
 

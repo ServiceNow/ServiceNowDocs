@@ -42,7 +42,7 @@ Name
 
 </td><td>
 
-\[Read-Only\] Assessable record name based on the [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectTheDisplayValue.md) of the source record. The name appears on assessment questionnaires.
+\[Read-Only\] Assessable record name based on the Select a field as the table display value of the source record. The name appears on assessment questionnaires.
 
 </td></tr><tr><td>
 

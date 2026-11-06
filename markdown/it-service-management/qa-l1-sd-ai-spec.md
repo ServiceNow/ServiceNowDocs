@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/qa-l1-sd-
 release: brazil
 topic_type: concept
 last_updated: "2026-09-18"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [quality assessment, coaching, L1 Service Desk AI Specialist, AI skills]
 breadcrumb: [Explore, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -32,6 +32,15 @@ The skill scores the response against four metrics. Two metrics contribute to th
 -   **Root Cause of Failure \(Diagnostic\)**: the dominant reason a resolution fell short. Doesn't affect the quality score.
 
 The assessment related list shows a human-readable **Value** column with each metric's label. The score column is blank for diagnostic metrics.
+
+On the coaching assessment form, the Quality metric results related list shows the **Assessment**, **Metric**, **Score**, **Value**, and **Reasoning** columns. The **Category** and **Metric type** columns no longer appear. The **Score** column is empty for diagnostic metrics. The **Value** column shows a human-readable label for each metric, as listed in the following table.
+
+|Metric|Value labels|
+|------|------------|
+|Resolution Step Quality|Contributes to resolution, Neutral, Misleading, Not Accessible|
+|Executable Resolution|Yes, Partial, No|
+|Knowledge Accuracy \(Diagnostic\)|Consistent, Partially Consistent, Contradicts KB, No KBs Cited|
+|Root Cause of Failure \(Diagnostic\)|None, Execution Blocked, Knowledge Gap, Wrong Diagnosis|
 
 ## Quality score and tier
 

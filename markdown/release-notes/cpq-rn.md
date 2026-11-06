@@ -40,7 +40,7 @@ See [Subscription Management in Quote Experience](https://raw.githubusercontent.
 
 -   **Localization information**
 
-    Enhanced localization in CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+    Enhanced localization in ServiceNow CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in ServiceNow CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
@@ -88,7 +88,7 @@ This release adds subscription amendments and renewals for simple products, guar
 
 -   **ServiceNow Quote Experience Integration with Subscription Management**
 
-    Subscription Management integrates with ServiceNow Quote Experience, CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
+    Subscription Management integrates with ServiceNow Quote Experience, ServiceNow CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
 
 -   **[Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-in-quote-experience.md)**
 
@@ -101,6 +101,6 @@ This release adds subscription amendments and renewals for simple products, guar
     -   Apply automatic price adjustments. Use rules such as volume tiers, promotions, and contracted discounts during a pricing call. A manual adjustment always takes precedence over an automatic one on the same line or header.
 -   **Configure ServiceNow Quote Experience through Guided Setup**
 
-    Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your CPQ integration in a single guided flow, instead of configuring components separately.
+    Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your ServiceNow CPQ integration in a single guided flow, instead of configuring components separately.
 
 

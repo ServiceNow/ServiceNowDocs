@@ -26,7 +26,7 @@ Role required: insights\_admin
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-The Cloud cost summarizer generative AI skill generates comprehensive summary of your cloud spend trends across cloud providers, top cost drivers, and optimization recommendations. The summary displays month-over-month and year-over-year changes, commitment coverage, and the top five recommendations to reduce costs. These insights help you to make more informed decisions about your cloud spend.
+The Cloud cost summarizer generative AI skill generates comprehensive summary of your cloud spend trends across cloud providers, top cost drivers, and optimization recommendations. The summary displays month-over-month changes, commitment coverage, and the top five recommendations to reduce costs. These insights help you to make more informed decisions about your cloud spend.
 
 ## Procedure
 
@@ -42,15 +42,15 @@ The Cloud cost summarizer generative AI skill generates comprehensive summary of
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d107231e136">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d108577e136">
 
 Action
 
-</th><th align="left" id="d107231e139">
+</th><th align="left" id="d108577e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107231e145">
+</th></tr></thead><tbody><tr><td id="d108577e145">
 
 **Copy to clipboard icon**
 
@@ -58,7 +58,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d107231e154">
+</td></tr><tr><td id="d108577e154">
 
 **Refresh icon**
 
@@ -66,7 +66,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d107231e163">
+</td></tr><tr><td id="d108577e163">
 
 **Feedback**
 

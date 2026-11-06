@@ -47,5 +47,5 @@ When a field is configured as mandatory, then if the **required** metric is enab
 
 [CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
 
-[Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_MakingAFieldMandatory.md)
+[bundle-platadm.t_MakingAFieldMandatory]
 

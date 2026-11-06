@@ -1,6 +1,6 @@
 ---
 title: CI form contextual help AI agent
-description: CI form contextual help AI agent helps users by answering questions about CI attributes and classes. It guides them through CI forms, dashboards, home pages, and other views on the workspace.
+description: Answers questions about CI attributes and classes. It also provides guidance on CI forms, dashboards, home pages, and other views on the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cmdb-ci-form-contextual-help-ai-agent.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic work
 
 # CI form contextual help AI agent
 
-CI form contextual help AI agent helps users by answering questions about CI attributes and classes. It guides them through CI forms, dashboards, home pages, and other views on the workspace.
+Answers questions about CI attributes and classes. It also provides guidance on CI forms, dashboards, home pages, and other views on the workspace.
 
 ## Workflow
 

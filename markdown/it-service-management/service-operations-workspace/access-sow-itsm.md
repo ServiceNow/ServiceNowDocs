@@ -22,7 +22,7 @@ Role required: itil
 
 ## Procedure
 
-1.  Log into your ServiceNow instance.
+1.  Log in to your ServiceNow instance.
 
 2.  From the **Workspaces** menu, select **Service Operations Workspace**.
 

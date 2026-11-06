@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [GOV.UK Developer Toolkit reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -20,7 +20,7 @@ You can use these widgets as is, or you can duplicate and edit them to suit your
 
 For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal-widgets.md).
 
-**Note:**  To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/widget-dev-guide.md).
+**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/widget-dev-guide.md).
 
 There are five main categories of widgets available for use with the GDS Service Portal.
 

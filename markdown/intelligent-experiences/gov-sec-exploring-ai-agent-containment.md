@@ -17,6 +17,8 @@ Explore how deactivating AI agents works to enforce guardrails and help improve 
 
 AI agents operate as autonomous actors across the enterprise, frequently with elevated or administrative privileges. AI agent containment using kill switch protocol gives you the ability to immediately contain an AI agent and revoke all of its active credentials across the connected enforcement points that you configured.
 
+To deactivate or reinstate an AI agent, you need the sn\_ai\_security.operator role. AI stewards can also do this, because the sn\_ai\_governance.ai\_steward role includes that role.
+
 Control enforcement points \(PEPs\) are part of AI agent containment. CEPs can be identity providers, AI agent runtimes, or infrastructure platforms. Supported AI agent platforms are AWS Bedrock, AWS Bedrock AgentCore, Azure AI Foundry, Gemini Enterprise Agent Platform \(agents with a unique identity only\), and ServiceNow AI agents. The supported identity provider is Okta.
 
 When you contain an AI agent, AI Control Tower issues revocation requests and confirms enforcement completion from each configured CEP before declaring the agent contained.

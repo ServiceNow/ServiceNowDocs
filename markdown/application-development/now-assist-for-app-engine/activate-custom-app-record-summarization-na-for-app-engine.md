@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [activate AI skill, activate custom app record summarization, ServiceNow Otto for App Engine, AI Admin Hub]
-breadcrumb: [Configure, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for App Engine, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Activate the custom app record summarization skill

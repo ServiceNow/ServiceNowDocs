@@ -22,7 +22,7 @@ Role required: AI steward
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower** &gt; **Configurations** &gt; **AI Gateway** &gt; **Global MCP clients**.
+1.  Navigate to **AI Control Tower** &gt; **Configurations** &gt; **AI Gateway** &gt; **Global MCP clients**.
 
 2.  Select **Add**.
 

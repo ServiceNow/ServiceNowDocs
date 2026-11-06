@@ -28,9 +28,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   2019.4 HF6
     -   2020.2.1. HF2
 -   Supported ServiceNow versions:
-    -   Washington DC
-    -   Xanadu
-    -   Yokohama
+    -   Zurich
+    -   Australia
+    -   Brazil
 
 ## Use cases
 

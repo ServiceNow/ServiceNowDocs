@@ -1,12 +1,12 @@
 ---
 title: Knowledge Center release notes
-description: The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release. See the following sections for release notes by version.The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan.
+description: The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release. See the following sections for release notes by version.The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan. It also adds style guides for AI-generated articles in Knowledge Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/knowledge-center-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [ServiceNow AI Platform capabilities release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -38,7 +38,7 @@ See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 ## Brazil Early Availability
 
-The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan.
+The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan. It also adds style guides for AI-generated articles in Knowledge Center.
 
 ### What's new
 
@@ -53,6 +53,10 @@ The September 2026 release extends Health score configuration with Duplicate sco
 -   **[Create knowledge articles using AI and Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-article-using-sharepoint.md)**
 
     Connect ServiceNow Otto to a SharePoint site through an external content connection \(XCC\) so its content can be used when creating knowledge articles with AI. Microsoft SharePoint appears as an available source in the source list when you create an article using AI in Knowledge Center. ServiceNow Otto searches, aggregates, and summarizes relevant Microsoft SharePoint content to help generate the article.
+
+-   **[Using style guides in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-style-guides-in-the-knowledge-center.md)**
+
+    Style guides are now available in Knowledge Center, so you can define the tone, voice, and terminology that AI follows when it generates knowledge articles. Administrators create a style guide, assign it to a knowledge base, and set its order. Authors then select it when they generate an article.
 
 
 ### What's changed

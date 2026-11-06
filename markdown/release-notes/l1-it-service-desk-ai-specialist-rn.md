@@ -1,12 +1,12 @@
 ---
 title: L1 IT Service Desk AI Specialist release notes
-description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.The L1 IT Service Desk AI Specialist has been updated.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
+description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.Adds performance dashboard enhancements, cross-group reassignment outcome tracking, and requester portal configuration, and removes the routing journey count cards, Research depth, and Pre resolution condition settings.The L1 IT Service Desk AI Specialist has been updated.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/l1-it-service-desk-ai-specialist-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -42,7 +42,52 @@ See [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/Service
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-service-management-rn-landing.md)
 
-## Brazil Patch 0 and Version 1.2
+## Version 1.3 \| Brazil Patch 0
+
+Adds performance dashboard enhancements, cross-group reassignment outcome tracking, and requester portal configuration, and removes the routing journey count cards, Research depth, and Pre resolution condition settings.
+
+### What's new
+
+-   **[Rate trend chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+    Track the durable auto-resolve and coverage rates over time with a Rate trend chart on the AI Specialist Performance dashboard, and select a day to see its incidents.
+
+-   **[Overview funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+    Follow incidents from assignment to eligible groups through durable resolution in a four-step funnel on the Overview tab. Drill down into each step, and use the calculation cards to see how each rate is worked out.
+
+-   **[Cross-group reassignment outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cross-group-reassignment-l1-sd-ai-spec.md)**
+
+    See what your service desk team did with cross-group reassignment recommendations in a chart that shows which were adopted, overridden, or are awaiting a decision.
+
+-   **[Requester reference portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+    AI Admins can set the portal that knowledge article and catalog item links open in for requesters. Links in work notes for Service Desk Agents continue to open in the platform view.
+
+
+### What's changed
+
+-   **[Catalog variable collection and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/catalog-variable-collection-slot-fill-l1-sd-ai-spec.md)**
+
+    The L1 IT Service Desk AI Specialist now fills catalog item variables from the incident and the caller's details and shows requesters what it already captured, so requesters answer fewer questions. It also now uses dynamic response authoring for L1 IT Service Desk AI Specialist Catalog submission responses. Default instructions are provided so the agent composes each message fresh instead of relying on a fixed template.
+
+
+### What's deprecated or removed
+
+-   **[Routing journey count cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+    Removed. The Routing journey count cards are replaced by the funnel on the Overview tab.
+
+-   **[Research depth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+    Removed. The unused Research depth setting is no longer available. There is no replacement.
+
+-   **[Pre resolution condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+    Removed. The Pre resolution condition setting is no longer available, and incidents are no longer checked against it. There is no replacement.
+
+
+## Version 1.2 \| Brazil Patch 0
 
 The L1 IT Service Desk AI Specialist has been updated.
 

@@ -16,7 +16,7 @@ breadcrumb: [Set up self-service, Configure, Customer Service Management]
 
 Understand the stages involved in setting up Engagement Messenger before you add it to your customer service web portal.
 
-After you install the Engagement Messenger application in your instance, you’re ready to configure it. You can also watch the [academy video](https://www.youtube.com/watch?v=uViv-3bcg3k&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=20) to understand the overall functionality of Engagement Messenger.
+Setting up Engagement Messenger involves installing the application and completing a series of configuration tasks. You can also watch the [academy video](https://www.youtube.com/watch?v=uViv-3bcg3k&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH&index=20) to understand the overall functionality of Engagement Messenger.
 
 The configuration process involves the following tasks:
 

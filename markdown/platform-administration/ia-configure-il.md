@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-conf
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
 breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -72,6 +72,16 @@ Role required: admin
 
     You can now use the agent to ask questions in natural language and get guidance during the configuration process. The agent retrieves relevant information from ServiceNow documentation and presents a summarized response with links to related topics. For example, if you ask “What are roles?”, the agent searches the ServiceNow documentation site and returns a definition along with links to learn more. Select the **Choose something else** pill in the ServiceNow Otto agent chat view to review all available console items and start a different configuration path.
 
+    For example, you're a change manager, and Incident Management is already configured. You want change governance in place and your instance audit-ready before Q1. In the Service Management workspace, select **Configure with AI**, and enter a prompt like this:
+
+    "I'm the Change Manager. Incidents are live. Year-end close is coming and SOX auditors arrive in Q1, so I need audit-ready change governance before the freeze. Lock in the change governance layer: freeze windows, change models for standard and emergency, assign the change team, and configure the CAB."
+
+    ServiceNow Otto evaluates the existing configuration and preserves the settings that already apply. It then presents three starting options. Select the option that fits your goal, or ask ServiceNow Otto for other examples if you're unsure how to phrase a detail. ServiceNow Otto asks for any information it still needs to complete the setup, such as freeze dates, emergency approvals, or CAB members.
+
+    Before applying anything, ServiceNow Otto presents one summary of the full proposed configuration and states that no changes have been made yet. Review it, and approve it to apply the changes. ServiceNow Otto then reports which changes were saved and, for any that were not, the reason.
+
+    Configuring change governance manually can require one to two days of administrator effort and several weeks of workshops to define and agree on governance rules. With ServiceNow Otto, you can configure change governance through a single conversation. Start with a proposed configuration and review or refine the suggested decisions instead of creating the configuration from scratch.
+
     The adoption of LitJS components in NAP enables the import and use of reusable components, promoting a scalable and consistent framework while improving development efficiency. You can also select the **ServiceNow Otto** icon on the menu bar to see the Open in expanded view pill that guides you through the configuration process using LitJS components.
 
     The ServiceNow Otto panel shows up and starts the agentic configuration process.
@@ -97,7 +107,7 @@ Role required: admin
 
     **Note:** Select How this works link to find more information about the console items. The following modal shows up with these options on selecting the help link.
 
-    \[Omitted image "image.ia-help-link-modal"\] Alt text: Screenshot showing the help link modal
+    \[Omitted image "ia-help-link-modal.png"\] Alt text: Screenshot showing the help link modal
 
 12. Select **Mark as configured** when you complete the configuration process of a configuration.
 

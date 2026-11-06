@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 1
 keywords: [test group run, characteristic precedence]
-breadcrumb: [Test group characteristics, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Reference, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Test group run characteristics
@@ -32,8 +32,10 @@ After the system selects a test definition, it applies the characteristic mappin
 
 The characteristic and characteristic option lists on a test group run characteristic show only the characteristics defined for the test group of that run. The lists for a test characteristic show the characteristics of the test definition or of the test group of the associated run.
 
-## Related information
+**Related topics**  
 
--   [Test group characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-group-characteristics.md)
--   [Map a test group characteristic to a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/map-test-group-characteristics-to-test-definition.md)
+
+[Test group characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-group-characteristics.md)
+
+[Map a test group characteristic to a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/map-test-group-characteristics-to-test-definition.md)
 

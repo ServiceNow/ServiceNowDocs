@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-legalconflictofinterest-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -626,9 +626,14 @@ Australia
 
 </td><td>
 
-Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
+-   Submit COI request using natural language from the conversational interface of ServiceNow Otto in Virtual Agent or Employee Center.
+-   Risk assessment with configurable risk factors and score to automate approval workflow
+-   Risk assessment reports with detailed scoring and analysis enable legal fulfillers to make faster, informed approval decisions.
+-   Configurable approval flows in accordance with the organization's Conflict of Interest \(COI\) policy.
 
  See [Legal Conflict of Interest](https://www.servicenow.com/docs/access?context=legal-conflict-of-interest-landing-page&family=australia&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 

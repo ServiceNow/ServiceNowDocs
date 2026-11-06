@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [explore, vibe coding, AI-assisted development, conversational interface, plain language, application development, AI agents, code generation, developer experience, governance, security]
-breadcrumb: [Agentic development, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring agentic development
@@ -83,6 +83,8 @@ To learn more about agentic development on the ServiceNow AI Platform, see:
 This guide provides a holistic view of agentic development on the ServiceNow AI Platform. It helps you understand the range of agentic development approaches available, from fully automated code generation to agentic development workflows.
 -   **[What is agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-what-is-vibe-coding.md)**  
 Agentic development uses AI to turn a natural language description of the outcome you want into applications using prompts in a conversation. Autonomous app development is agentic development on the ServiceNow AI Platform.
+-   **[AI-led software development life cycle \(SDLC\) on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ai-sdlc.md)**  
+Build, test, source-control, and release ServiceNow applications end to end using the recommended ServiceNow stack.
 -   **[Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-governance.md)**  
 Agentic development on the ServiceNow AI Platform accelerates application development by using AI to generate code and configurations from natural language prompts. However, speed must not compromise security, compliance, and maintainability.
 -   **[Tool comparison for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-tool-comparison.md)**  

@@ -1,6 +1,6 @@
 ---
 title: Problem Management in Service Operations Workspace reference
-description: Reference topics provide additional information about Problem Management in Service Operations Workspace.
+description: Find additional information about Problem Management in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reference-problem-management-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Problem Management in Service Operations Workspace, Managing IT ser
 
 # Problem Management in Service Operations Workspace reference
 
-Reference topics provide additional information about Problem Management in Service Operations Workspace.
+Find additional information about Problem Management in Service Operations Workspace.
 
 -   **[Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/problem-form-sow.md)**  
 Description of the field values for the problem form in Service Operations Workspace.

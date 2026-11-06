@@ -46,7 +46,7 @@ Topic authors can also see the test results in the Conversation Task FDIH Invoca
 
     If an action or subflow in the test window is slow to respond or appears to be waiting, you see a relevant error message.
 
-    By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
+    By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see Scheduled jobs.
 
     You can change this interval, as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 

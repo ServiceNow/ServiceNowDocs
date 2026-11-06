@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/approving-exception-requests-scan-engine.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
 breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
 ---

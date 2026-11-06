@@ -22,7 +22,7 @@ Role required: cmdb\_ot\_isa\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Industrial Process Manager** &gt; **Equipment Model Template**.
+1.  Navigate to **All &gt; Industrial Workspace Admin &gt; Industrial Process Manager &gt; Equipment Model Template**.
 
 2.  Select **New**.
 
@@ -39,7 +39,7 @@ Role required: cmdb\_ot\_isa\_admin
 
 ## What to do next
 
-Create hierarchical sorting levels for the equipment model template.
+For more information, see [Create sorting levels for equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-equipment-model-template-levels.md)
 
 **Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
 

@@ -19,6 +19,8 @@ Multi-domain service order \(MDSO\) orchestration in Sales CRM for Telecommunica
 
 Domain orders run in parallel by default. Where one domain order depends on the output of another, catalog-defined decomposition rules enforce the wait condition automatically. Each domain order routes to its target system using the appropriate TMF Open API standard. The platform manages outbound requests, inbound responses, and error handling within a single orchestration view.
 
+\[Omitted image "MMASSET0022315.png"\] Alt text: Diagram of multi-domain service order orchestration showing a customer order decomposed into parallel domain orders routed to fulfillment systems using TMF Open API standards.
+
 ## Benefits
 
 -   A single customer order decomposes into multiple domain orders, each routed to the appropriate fulfillment domain using catalog-defined rules, without manual order construction.

@@ -869,22 +869,6 @@ cmdb\_ci\_linux\_server
 
 </td></tr><tr><td>
 
-microsoft.containerservice/managedclusters
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Yes
-
-</td><td>
-
-cmdb\_ci\_kubernetes\_cluster
-
-</td></tr><tr><td>
-
 Microsoft.Compute/virtualmachinescalesets
 
 </td><td>

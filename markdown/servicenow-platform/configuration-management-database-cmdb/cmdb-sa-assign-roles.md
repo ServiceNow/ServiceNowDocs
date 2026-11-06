@@ -19,7 +19,7 @@ Assign roles to control access to features, capabilities, and data in the CMDB s
 
 ## Before you begin
 
-Set the application scope to CMDB success advisor using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to CMDB success advisor using the application picker. For more information, see Application picker.
 
 Role required: admin
 

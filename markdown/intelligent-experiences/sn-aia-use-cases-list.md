@@ -444,11 +444,11 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+Now Assist for Zero Copy Connector
 
 </td><td>
 
-[Explore ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
+Explore ERP models
 
 </td></tr><tr><td>
 
@@ -504,6 +504,6 @@ Available agentic workflows
 
 |Product|Available agentic workflows|
 |-------|---------------------------|
-|Build Agent|Create in-app agents, skills, and workflows|
-|ServiceNow Otto for Creator|[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-theme-now-assist.md)|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)|[Create in-app agents, skills, and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-custom-ai-agent.md)|
+|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator-landing.md)|[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-theme-now-assist.md)|
 

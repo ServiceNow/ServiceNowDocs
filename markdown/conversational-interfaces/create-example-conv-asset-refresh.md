@@ -24,7 +24,7 @@ Install the following applications:
     You must have a subscription for Virtual Agent before you can activate the Glide Virtual Agent plugin.
 
 -   [Enable Natural Language Understanding \(NLU\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-nlu-settings.md), if not already enabled \(recommended\).
--   [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/setup-itsm-virtual-agent.md) \(available in the ServiceNow® Store\)
+-   ITSM Virtual Agent Conversations \(available in the ServiceNow® Store\)
 
     If this application is already installed, check the ServiceNow Store for an updated version before you begin.
 

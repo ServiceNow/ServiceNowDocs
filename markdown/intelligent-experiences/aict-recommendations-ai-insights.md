@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-re
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [recommendation, AI insight, Top action items, Activity Center]
 breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -30,9 +30,13 @@ A recommendation is an action item that AI Control Tower has identified as worth
 
 Recommendations appear throughout AI Control Tower.
 
--   **Your top recommendations in Home**
+-   **Your top recommendations on the Home page**
 
     **Your top recommendations** on the Home page provides recommendations across your portfolio. Select **See all Recommendations in Activity Center** to open the full list.
+
+-   **Your top recommendations on the Risk &amp; Compliance tab**
+
+    **Your top recommendations** on the **Risk &amp; Compliance** tab under **Govern** also lists stalled lifecycle tasks and significant issues. For more information, see [Detecting governance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-insight-detection.md) and [Act on AI asset governance insight recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-resolve-ai-asset-insight-recommendations.md).
 
 -   **Recommendations view in Activity Center**
 
@@ -142,4 +146,15 @@ Each recommendation moves through a lifecycle as you or an agent works on it. Th
 |**Cancelled**|The recommendation was stopped before it completed, either by the user or by the system.|
 
 You can manually mark a recommendation as **Complete** or delete it from the action menu on the recommendation card, regardless of its current status.
+
+**Related topics**  
+
+
+[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-activity-center.md)
+
+[ServiceNow Otto in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-convrstn-support.md)
+
+[Detecting governance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-insight-detection.md)
+
+[Act on AI asset governance insight recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-resolve-ai-asset-insight-recommendations.md)
 

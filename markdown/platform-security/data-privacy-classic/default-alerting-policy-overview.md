@@ -7,7 +7,7 @@ release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Default data privacy configurations, Data Privacy, Platform Privacy]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Default data privacy configurations, Data Privacy, Platform Privacy
 # Default alerting policy for sensitive data entry
 
 The default alerting policy automatically detects sensitive data being entered into unstructured fields in real-time and alerts administrators, providing immediate visibility into sensitive data flows without requiring configuration.
-
-The default alerting policy is part of the Vault by Default initiative to provide immediate value to licensed Vault customers upon Data Privacy Store App installation. Unlike discovery jobs that find existing sensitive data, the alerting policy monitors data entry in real-time, alerting administrators the moment sensitive information is entered into monitored fields.
 
 The default alerting policy solves a critical visibility gap: licensed Vault customers have limited insight into what types of sensitive data users are entering in unstructured fields \(comments, notes, free text fields\). By automatically creating and activating an alerting policy upon Store App installation, customers immediately begin receiving alerts about sensitive data flows without any configuration effort.
 
@@ -65,10 +63,10 @@ These patterns are predefined and cannot be modified in the default policy. To a
 
 When the alerting policy detects sensitive data:
 
--   **Alert is generated immediately:** The alert is created and sent to administrators without delay.
+-   **Alert is generated immediately:** For the user entering sensitive data; and user logs are maintained in Real-time protection for admins to view
 -   **User is not blocked:** The user can continue entering data and submit the form normally—the alert does not prevent any action.
 -   **Data is not modified:** The sensitive data is not masked, redacted, or altered; it is entered exactly as typed.
--   **Alert includes data type:** Administrators receive a notification indicating which type of sensitive data was detected.
+-   **Alert includes data type:** Users receive a notification indicating which type of sensitive data was detected.
 -   **Visibility only:** The primary function is to alert and create an audit trail, not to prevent data entry.
 
 This non-blocking design ensures the user experience is not disrupted while still providing administrators with visibility into sensitive data flows.

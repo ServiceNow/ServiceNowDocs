@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-configurableworkspace-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 14
+last_updated: "2026-11-06"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -397,7 +397,12 @@ Brazil
 
 </td><td>
 
--   **[AI gradients for declarative actions](https://www.servicenow.com/docs/access?context=creating-declarative-actions&family=brazil&ft:locale=en-US)**
+-   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&family=brazil&ft:locale=en-US)**
+
+Listen to AI-generated page or section summaries through an audio player with playback controls.
+
+
+ -   **[AI gradients for declarative actions](https://www.servicenow.com/docs/access?context=creating-declarative-actions&family=brazil&ft:locale=en-US)**
 
 Customize declarative action buttons with AI gradients that visually indicate when users are interacting with AI-powered experiences.
 

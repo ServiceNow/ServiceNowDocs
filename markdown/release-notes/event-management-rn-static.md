@@ -24,7 +24,7 @@ The ServiceNow®Event Management application helps you detect and resolve IT iss
 -   Accelerate response with built-in playbooks and remediation actions.
 -   Reduce manual effort by automating alert handling with ServiceNow Otto for ITOM.
 
-See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

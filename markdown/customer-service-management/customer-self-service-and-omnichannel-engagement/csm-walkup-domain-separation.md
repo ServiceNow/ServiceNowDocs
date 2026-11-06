@@ -1,6 +1,6 @@
 ---
 title: Domain separation and the CSM Walk-up Experience application
-description: This section is an overview of domain separation as it pertains to the CSM Walk-up Experience application and how it relates to Service Portal pages, interaction queues, and configurations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+description: Learn how domain separation applies to the CSM Walk-up Experience application, including its effects on Service Portal pages, interaction queues, and configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-domain-separation.html
 release: brazil
@@ -14,7 +14,9 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # Domain separation and the CSM Walk-up Experience application
 
-This section is an overview of domain separation as it pertains to the CSM Walk-up Experience application and how it relates to Service Portal pages, interaction queues, and configurations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Learn how domain separation applies to the CSM Walk-up Experience application, including its effects on Service Portal pages, interaction queues, and configurations.
+
+Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic
 
@@ -28,7 +30,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Domain separation overview
 
 Domain separation in the CSM Walk-up Experience application is supported at the **Basic** level. However, the application depends on the Service Portal, which is not supported for domain separation. Domain separation pertains to the CSM Walk-up Experience application in the following ways:
 

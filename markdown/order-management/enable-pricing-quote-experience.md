@@ -20,8 +20,8 @@ Role required: admin
 
 Before you enable pricing, confirm that:
 
--   You have access to CPQ Administration to import and export the quote blueprint.
--   Complete the CPQ setup. For more information, see [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md)
+-   You have access to ServiceNow CPQ Administration to import and export the quote blueprint.
+-   Complete the ServiceNow CPQ setup. For more information, see [Setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md)
 
 ## About this task
 
@@ -37,7 +37,7 @@ Pricing Management is a ServiceNow® capability that Quote Experience can integr
 
     1.  transaction.oneQuoting.pricing.enabled to 'TRUE'
     2.  transaction.oneQuoting.pricing.integration.type to 'productized'
-3.  In CPQ Administration, export and import the quote blueprint.
+3.  In ServiceNow CPQ Administration, export and import the quote blueprint.
 
     The blueprint deployment creates and stores the pricing field mappings, which are read at run time.
 

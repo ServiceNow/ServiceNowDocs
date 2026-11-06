@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-language-preferences.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-14"
+last_updated: "2026-10-29"
 reading_time_minutes: 2
 breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,10 @@ Role required: admin
 
 ## About this task
 
-From the Brazil release, the **Date format** and **Time format** fields have been relocated from the [User profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user.md) to **Language &amp; Region** in Preferences. Also from the Brazil release, the values available in the drop-down **Combined date and time format** change to align with **Date format** and **Time format** selections.
+From the Brazil release, the user's date and time format settings are updated as follows.
+
+-   The user's **Date format** and **Time format** fields are visible in two locations: the [User profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user.md) and **Language &amp; Region** in Preferences.
+-   In **Language &amp; Region**, the values available in the drop-down **Combined date and time format** dynamically change according to **Date format** and **Time format** selections.
 
 ## Procedure
 

@@ -28,7 +28,7 @@ Line type and line action data add context to the transaction fields, indicating
 
 Subscription workflows assign the line type and line action based on the amendment or renewal and pass these values to Quote Experience with the subscription data.
 
-For configurable product offerings, the CPQ Configurator processes the changes by splitting lines and assigning line types and line actions. For more information about the CPQ Configurator, see [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-servicenowcpq.md).
+For configurable product offerings, the CPQ Configurator processes the changes by splitting lines and assigning line types and line actions. For more information about the CPQ Configurator, see [ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-servicenowcpq.md).
 
 For non-configurable product offerings, Quote Experience uses the line type and line action values to represent the change on the quote and to support downstream workflows. For example, an upsell requiring additional quantity creates a split line. The workflow sets the line type to **Amend** and the line action to **Add** for the additional quantity.
 

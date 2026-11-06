@@ -1,6 +1,6 @@
 ---
-title: Jumpstart Your ServiceNow Otto Skill Kit
-description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow OttoSkill Kit.
+title: Jumpstart Your ServiceNow AI Skill Kit
+description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow AI Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.html
 release: brazil
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Jumpstart Your ServiceNow Otto Skill Kit
+# Jumpstart Your ServiceNow AI Skill Kit
 
-This Accelerator provides a demonstration of the possibilities and capabilities of *ServiceNow Otto*Skill Kit.
+This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow AI Skill Kit.
 
 ## Accelerator overview
 
-Jumpstart Your *ServiceNow Otto* Skill Kit provides Impact customers with an overview of the capabilities and features of *ServiceNow Otto* Skill Kit. Through an applied  demonstration, we highlight the  creation of a simple, custom use case, such as Sentiment Analysis, illustrating how Skill Kit helps to harness the full potential of Now LLM and the platform for their unique needs. Additionally, this Accelerator provides customers with key resources and leading practices guides for getting started.​
+Jumpstart Your ServiceNow AI Skill Kit provides Impact customers with an overview of the capabilities and features of ServiceNow AI Skill Kit. Through an applied demonstration, we highlight the creation of a simple, custom use case, such as Sentiment Analysis, illustrating how Skill Kit helps to harness the full potential of Now LLM and the platform for their unique needs. Additionally, this Accelerator provides customers with key resources and leading practices guides for getting started.​
 
 ## Package Availability
 
@@ -28,13 +28,13 @@ Jumpstart Your *ServiceNow Otto* Skill Kit provides Impact customers with an ove
 
 -   **Session preparation**
     -   Provision a temporary instance
-    -   Activate *ServiceNow Otto* Skill Kit
+    -   Activate ServiceNow AI Skill Kit
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:
 
-    -   Overview of *ServiceNow Otto* Skill Kit and Data Kit capabilities and features
-    -   Applied demonstration of *ServiceNow Otto* Skill Kit:
+    -   Overview of ServiceNow AI Skill Kit and AI Data Kit capabilities and features
+    -   Applied demonstration of ServiceNow AI Skill Kit:
         -   Configuration of Sentiment Analysis Skill
         -   -   Prompt assistance
 -   Skill configuration

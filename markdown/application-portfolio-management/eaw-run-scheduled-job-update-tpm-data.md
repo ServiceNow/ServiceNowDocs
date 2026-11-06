@@ -1,5 +1,5 @@
 ---
-title: Run a scheduled job to generate TPM lifecycle data
+title: Run a scheduled job to generate TLM lifecycle data
 description: Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Run a scheduled job to generate TPM lifecycle data
+# Run a scheduled job to generate TLM lifecycle data
 
 Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 

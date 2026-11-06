@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/create-an-intelligent-approval-from-a-kb-article.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-09"
+last_updated: "2026-10-19"
 reading_time_minutes: 3
 keywords: [intelligent approvals, create intelligent approval, create from KB article, AI approval, publish policy]
 breadcrumb: [Build intelligent approvals, Intelligent approvals, Build workflows]
@@ -40,17 +40,17 @@ Generate an intelligent approval from an existing KB article.
 
     \[Omitted image "example-create-iap-from-kb-03.png"\] Alt text: Sample analysis of policy KB article
 
-4.  Review the approval conditions of the intelligent approval.
+4.  Review the table and approval conditions of the intelligent approval.
 
     \[Omitted image "example-create-iap-from-kb-04.png"\] Alt text: Sample suggested table and approval conditions extracted from policy KB
 
     For example, intelligent approvals for change request records should use the change\_request table.
 
-5.  Select **Edit** to see the conditions when the intelligent approval will make a decision.
+5.  Select **Edit** to view or update the table and conditions used by the intelligent approval to make a decision.
 
     \[Omitted image "example-create-iap-from-kb-05.png"\] Alt text: Sample suggested conditions
 
-    For example, an intelligent approval may review change request records when the State is Assess or when the State is Authorize, and when the Type is Normal or when the State is Emergency.
+    For example, an intelligent approval may review records from the Change Request table when the State is Assess or when the State is Authorize, and when the Type is Normal or when the State is Emergency.
 
     Select **Define my own** to override the **Suggestion** scope and start conditions. Enter a description of the record types, field values, and start conditions that you want to use for this intelligent approval.
 

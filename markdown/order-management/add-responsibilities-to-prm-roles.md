@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-responsibilities-to-prm-roles.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [PRM roles and components, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -36,15 +36,15 @@ Related party configurations define the title of a relationship between an entit
 
 2.  Open a channel partner record and add an external staff member or an enterprise partner relationship manager based on your requirement.
 
-<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d53545e124">
+<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d52866e124">
 
 Task
 
-</th><th align="left" id="d53545e127">
+</th><th align="left" id="d52866e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53545e133">
+</th></tr></thead><tbody><tr><td id="d52866e133">
 
 **Register External staff member**
 
@@ -53,9 +53,9 @@ Description
 1.  Select **Register External Partner Staff** from the channel partner record.
 2.  Select the **Role Type** you want to associate with your user, whether external partner manager or external partner associate.
 3.  Select **Submit**.
- To learn more about the role type and the member registration fields, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md).
+ To learn more about the role type and the member registration fields, see .
 
-</td></tr><tr><td id="d53545e168">
+</td></tr><tr><td id="d52866e169">
 
 **Register Enterprise Partner Relationship Manager**
 
@@ -78,7 +78,7 @@ An external staff member or an enterprise partner relationship manager is regist
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

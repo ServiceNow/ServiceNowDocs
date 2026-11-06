@@ -1,5 +1,5 @@
 ---
-title: Configure decision tables for License and Permit Playbook
+title: Configure decision tables for License and Permit Administration
 description: Use decision tables to simplify the pricing configuration of a license or permit request that depends on multiple factors. Decision tables provide a single point where you can create, view, and modify pricing and dependent attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-configure-decision-tables.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure decision tables for License and Permit Playbook
+# Configure decision tables for License and Permit Administration
 
 Use decision tables to simplify the pricing configuration of a license or permit request that depends on multiple factors. Decision tables provide a single point where you can create, view, and modify pricing and dependent attributes.
 

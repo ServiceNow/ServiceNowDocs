@@ -19,8 +19,8 @@ Confirm these requirements before working with archive data.
 |Requirement|Details|
 |-----------|-------|
 |RaptorDB Professional V2|Live Archive requires RaptorDB Professional V2. Confirm your entitlement with your account representative before installation.|
-|Live Archive installed|Live Archive must be installed on the instance. Archive tables don't exist until at least one archive rule has run after installation. For installation steps, see [Install Live Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/install-data-archiving-plugin.md).|
-|Archive rule configured and run|At least one archive rule must have run so that an archive table exists on the instance. An archive table is created the first time an archive rule moves records out of its corresponding live table. For archive rule setup, see [Create an archive rule in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dmc-create-archive-rule.md).|
+|Live Archive installed|Live Archive must be installed on the instance. Archive tables don't exist until at least one archive rule has run after installation. For installation steps, see .|
+|Archive rule configured and run|At least one archive rule must have run so that an archive table exists on the instance. An archive table is created the first time an archive rule moves records out of its corresponding live table. For archive rule setup, see .|
 
 ## Access control requirements
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [standalone, environment setup, without pipeline]
-breadcrumb: [Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configure a standalone environment

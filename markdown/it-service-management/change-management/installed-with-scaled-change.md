@@ -38,7 +38,7 @@ The Major Change plugin installs the following data archive rule. For general in
 
 |Rule|Description|
 |----|-----------|
-|Archive Child Changes|Archives a Child change \(a Change Request \[**change\_request**\] record with the Primary change request field set\) six months after its Primary change's **Active** field is set to false.|
+|Archive Child Changes|Archives a Child change \(a Change Request \[change\_request\] record with the Primary change request field set\) six months after its Primary change's **Active** field is set to false.|
 
 **Parent Topic:**[Scaled change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/scaled-change-overview.md)
 

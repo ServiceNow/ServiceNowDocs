@@ -1,6 +1,6 @@
 ---
 title: Data Loss Prevention Incident Response Analyst Workspace
-description: Use the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to view the DLP incidents. Assign the incidents to end users for resolution and more.Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace so that you can review the DLP incidents and assign or resolve them. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.A Data Loss Prevention Incident Response Playbook is a step-by-step guide for addressing and mitigating data loss incidents, which can include unauthorized exposures, leaks, or breaches of sensitive information that can compromise your organization’s security.Add a Playbook in the Data Loss Prevention Incident Response Analyst workspace that can act as a guide for addressing and mitigating data loss incidents that can compromise your organization’s security.Cancel a Data Loss Prevention Incident Response Playbook to stop a business flow when it is no longer valid.Use the DLP Analyst workspace to view or reactivate the archived DLP incidents.
+description: Use the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to view the DLP incidents. Assign the incidents to end users for resolution and more.Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to review, assign, and resolve DLP incidents. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.A Data Loss Prevention Incident Response Playbook is a step-by-step guide for addressing and mitigating data loss incidents, which can include unauthorized exposures, leaks, or breaches of sensitive information that can compromise your organization’s security.Add a Playbook in the Data Loss Prevention Incident Response Analyst workspace that can act as a guide for addressing and mitigating data loss incidents that can compromise your organization’s security.Cancel a Data Loss Prevention Incident Response Playbook to stop a business flow when it is no longer valid.Use the DLP Analyst workspace to view or reactivate the archived DLP incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/using-dlp-ops-portal.html
 release: brazil
@@ -32,7 +32,7 @@ The DLP workspace consists of a home page with dashboards, list views, and form 
 
 ## Review and assign your DLP incidents
 
-Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace so that you can review the DLP incidents and assign or resolve them. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.
+Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to review, assign, and resolve DLP incidents. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.
 
 ### Before you begin
 
@@ -47,7 +47,7 @@ Role required:
 
     The DLP Workspace My Incidents ops list page opens in a new tab.
 
-2.  Click on the **DLP Workspace** home icon to view the workspace homepage view.
+2.  View the workspace homepage by selecting the **DLP Workspace** home icon.
 
 3.  Review the dashboard widgets to identify trends by incidents by severity, top offenders, incidents by scan source, and incidents by policy.
 
@@ -59,7 +59,7 @@ Role required:
     |Overdue critical incidents|View the incidents that have the critical severity label and that are overdue.|
     |Incidents assigned to end users|View the incidents that are assigned to end users.|
 
-5.  You can review and assign the DLP incidents using two ways:
+5.  Review and assign DLP incidents using one of the following methods:
 
     1.  The first way is to locate and select one or more DLP incidents that you want to review, and click the check box next to the incidents.
 
@@ -90,7 +90,7 @@ List Actions
 List of actions that you can perform. Choices are as follows:-   **Save as**
 -   **Edit columns**
 -   **Reset widths**
-**Note:** When you have your own custom list which is created under **My Lists** section configured for your workspace, you will be able to perform the below additional list actions as well:
+**Note:** When you have your own custom list which is created under **My Lists** section configured for your workspace, you can perform the below additional list actions as well:
 
 -   **Rename**
 -   **Save**
@@ -128,7 +128,7 @@ Assign Incident
 Action to determine whom to assign the DLP incident to. Choices are as follows:-   **Assign incident to**: Option to assign the incident to an analyst, end user, or someone else.
 -   **User**: Option to determine which user that the incident should be assigned to.
 -   **Incident state pre-user response**: Option to determine which state that the incident should be in before the user responds. It can also be a custom state.
--   **Attach assessment**: Option to indicate whether you want to attach an assessment to the incident. If enabled, below options will be available:
+-   **Attach assessment**: Option to indicate whether you want to attach an assessment to the incident. If enabled, the following options are available:
     -   **Assessment template**: Option to select an assessment template for the DLP incident.
     -   **Incident state post user response** Option to select which state that the DLP incident should be in after the user responds.
 
@@ -155,7 +155,7 @@ Update State
 
 </td><td>
 
-Action to update the state of the incident. You can update the state of the incident by select one of the states from the drop-down options. It can also be a custom state.
+Action to update the state of the incident. You can update the state of the incident by select one of the states from the drop-down list. It can also be a custom state.
 
 </td></tr><tr><td>
 
@@ -163,16 +163,16 @@ Close
 
 </td><td>
 
-Action to close the incidents. Select the corresponding **Closure code** from the drop down list and add closure comments.The **Close** feature in Data Loss Prevention Incident Response is done both asynchronously and synchronously from the list view.
+Action to close the incidents. Select the corresponding **Closure code** from the drop-down list and add closure comments.The **Close** feature in Data Loss Prevention Incident Response is done both asynchronously and synchronously from the list view.
 
-1.  Synchronous closure: When closing incidents synchronously, it means that the closure action is performed immediately. When you select multiple incidents for closure and if the incident count is less than or equal to 100 then the incidents are closed foreground from the DLP incidents list view. Here 100 is the default value.
+1.  Synchronous closure: When closing incidents synchronously, it means that the closure action is performed immediately. When you select multiple incidents for closure and the incident count is 100 or fewer, the incidents are closed from the DLP incidents list view. The default value is 100.
 2.  Asynchronous closure: This implies that the closure request is submitted and the application runs the request in the background if the selected incidents count is greater than 100.
 
 You need to refresh the DLP incidents list view to see the updated the incidents status.
 
 **Note:**
 
-    -   The selected incidents count for both asynchronous or synchronous closure is configured using the system property `sn_dlir.closure_sync_count_limit`.
+    -   The selected incidents count for both asynchronous or synchronous closure is configured using the system property **sn\_dlir.closure\_sync\_count\_limit**.
     -   By default the incident count is set to 100.
 
 
@@ -186,17 +186,17 @@ You need to refresh the DLP incidents list view to see the updated the incidents
             -   **Attachments**: If you have any attachments related to the DLP incident, click **Browse** and select the attachment from your local drive.
         -   **Additional Details** tab: Displays all the additional information about the DLP incident including custom fields.
 
-            **Important:**
+            **Warning:**
 
             -   Custom fields for DLP incidents are supported only on the San Diego version or later.
             -   You can use the **Additional Details** tab to see if any custom fields have been created for a particular DLP incident or not.
         -   **Custom attributes** tab: Displays the list of custom attributes related to the DLP incident.
-        -   **Other incidents from end user**: Displays the incident from the same end user. One can consolidate incidents by performing the **Add as child incident** action from this related list.
+        -   **Other incidents from end user**: Displays the incident from the same end user. You can consolidate incidents by performing the **Add as child incident** action from this related list.
         -   **Detected Sensitive Information type**: Displays the incident detected sensitive information.
 
             **Note:** This related list is visible only for the DLP Incidents created for Microsoft or Symantec integrations. Within the Microsoft or Symantec incident record, whenever the user accesses the detected sensitive information type record, the highlighted match content with respect to that integration is displayed.
 
-        -   **Child Incidents**: Displays the child incidents created manually \(by performing the ‘Add as child incident’ action\) or from the DLP consolidation rules. One can unlink the child incident by performing the ‘Unlink child incident’ from this related list.
+        -   **Child Incidents**: Displays the child incidents created manually \(by performing the 'Add as child incident' action\) or from the DLP consolidation rules. You can unlink the child incident by performing the 'Unlink child incident' from this related list.
         -   **Cloned incidents**: Displays the cloned incidents from the parent incident. By clicking on the **Clone incident** action of the form view, you can create a new cloned incident.
         -   **Assessments** tab: Displays the list of assessments that are assigned to the DLP incident.
     4.  Choose the option that is appropriate for you.
@@ -218,7 +218,7 @@ Assign Incident
 Action to determine whom to assign the DLP incident to. Choices are as follows:-   **Assign incident to**: Option to assign the incident to an analyst, end user, or someone else.
 -   **User**: Option to select which user that the incident should be assigned to.
 -   **Incident state pre-user response**: Option to select which state that the incident should be in before the user responds. It can also be a custom state.
--   **Attach assessment**: Option to indicate whether you want to attach an assessment to the incident. If enabled, below options will be available:
+-   **Attach assessment**: Option to indicate whether you want to attach an assessment to the incident. If enabled, the following options are available:
     -   **Assessment template**: Option to select an assessment template for the DLP incident.
     -   **Incident state post user response**: Option to select which state that the DLP incident should be in after the user responds.
 
@@ -285,13 +285,13 @@ Clone Incident
 
 </td><td>
 
-Action to create a clone incident if the incident record impacts multiple users. You can assign the cloned incidents to multiple stakeholders such as legal/IT.After you create a clone incident record, a new **Cloned Incidents** tab gets created under the parent DLP incident and all the cloned incidents are listed in this view.
+Action to create a clone incident if the incident record impacts multiple users. You can assign the cloned incidents to multiple stakeholders such as legal and IT.After you create a clone incident record, a new **Cloned Incidents** tab gets created under the parent DLP incident and all the cloned incidents are listed in this view.
 
 **Note:**
 
--   If the parent DLP incident record is closed, then all the cloned incident records will close automatically.
+-   If the parent DLP incident record is closed, all cloned incident records close automatically.
 -   If a DLP incident record contains a cloned incident, it cannot be assigned to end users. The Parent DLP incident records can be managed only by users with the Analyst role.
--   You also have an option to automatically update the parent state based on the state of the cloned incidents in the Default Configuration module. For example, if all the cloned incidents are moved to the Escalated state, then the parent incident will also be moved to the Escalated state.
+-   You also have an option to automatically update the parent state based on the state of the cloned incidents in the Default Configuration module. For example, if all the cloned incidents are moved to the Escalated state, then the parent incident also moves to the Escalated state.
 
 
 </td></tr><tr><td>
@@ -300,7 +300,7 @@ Close
 
 </td><td>
 
-Action to close the incident. You must select the corresponding **Closure code** from the drop down list and add any closure comments, if required.
+Action to close the incident. You must select the corresponding **Closure code** from the drop-down list and add any closure comments, if required.
 
 </td></tr><tr><td>
 
@@ -311,7 +311,7 @@ Close as false positive
 Action to close the incident as false positive. You can also add any additional comments before closing the incident.
 
 </td></tr></tbody>
-</table>6.  You can see the List view from the homepage by going to the top-left of the page and clicking the **Lists** tab.
+</table>6.  View the list page by selecting the **Lists** tab on the workspace homepage.
 
     The Lists category consists of the default and customized list pages for DLP incidents.
 
@@ -326,7 +326,7 @@ Action to close the incident as false positive. You can also add any additional 
         -   User action pending
         -   Cloned Incidents
         -   Archived Incidents
-    -   **My Lists** tab: Displays any lists that you’ve renamed and any lists that you created.
+    -   **My Lists** tab: Displays any lists that you've renamed and any lists that you created.
 
 ## Preview evidence files
 

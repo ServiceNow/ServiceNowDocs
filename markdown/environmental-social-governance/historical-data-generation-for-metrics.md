@@ -60,9 +60,9 @@ If the metric already has a metric data task for a past period, that period is s
 
 ## Historical data in campaign cycles that are already closed
 
-A historical metric data task might be added to a campaign cycle that's already in the Approval or Closed state. In such cases, the outcome depends on whether bulk actions are enabled by the bulk submission system property.
+A historical metric data task might be added to a campaign cycle that's already in the Approval or Closed state. In such cases, the outcome depends on whether bulk actions are enabled. To enable bulk actions, both the `Enable bulk submission, approval and rejection` and `Enable Real-time CMD Recalculation` properties must be enabled. To change these properties, navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Properties**.
 
-**Note:** To change this property, navigate to **All** &gt; **Operational Sustainability Management** &gt; **Properties**. Changing the property doesn't affect campaign cycles that were already processed or historical data that was already created.
+**Note:** Changing the property doesn't affect campaign cycles that were already processed or historical data that was already created.
 
 -   **When bulk submission is enabled**
 

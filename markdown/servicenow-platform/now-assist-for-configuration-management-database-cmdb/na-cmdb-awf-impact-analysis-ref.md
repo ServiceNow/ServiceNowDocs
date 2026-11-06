@@ -17,7 +17,7 @@ breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(
 
 Reference information for the Impact analysis agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
 
-**Note:** The Impact analysis agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md).
+**Note:** The Impact analysis agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in .
 
 ## Role requirements
 

@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for Google Cloud Platform \(GCP\) Vertex AI
-description: Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/gcp-vertex-ai.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discov
 
 # AI Service Graph Connector for Google Cloud Platform \(GCP\) Vertex AI
 
-Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Download apps from the Store
 

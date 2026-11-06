@@ -76,8 +76,6 @@ This role enables users, when added to an individual case as a related party, to
 -   Accept or reject a solution
 -   Close a case
 
-**Note:** To perform the tasks, you must have at least one fulfiller license \(such as csm\_agent, sn\_customerservice\_agent, or sn.customerservice.svc\_location\_agent\) in addition to this role.
-
 </td><td>
 
 -   sn\_customerservice.case\_write\_granular

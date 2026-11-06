@@ -29,7 +29,7 @@ In order to avoid creation of duplicate expense lines, keep the following factor
 -   Specify the amount you want to use for each task.
 -   Do not create duplicate task rate cards where you create multiple task rate cards for the same task and condition.
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 

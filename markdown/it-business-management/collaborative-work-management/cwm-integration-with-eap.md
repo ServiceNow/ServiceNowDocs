@@ -50,5 +50,13 @@ New sprints for the team must be created in EAP. After creating new sprints in E
 
 \[Omitted image "eap-cwm-sprints.png"\] Alt text: Sprint planning view for EAP teams in CWM.
 
+## Tabs and sprint actions for connected teams
+
+The Home, Backlog, Hierarchy, Planning board, and Docs tabs remain available in EAP for teams connected to CWM.
+
+The **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams. Start and complete sprints from the Sprint planning view on the CWM Board instead.
+
+On the team page in EAP, select **Go to CWM** to open the team's board. In the Sprint planning view of the CWM Board, a banner message states that sprints for the board are managed in EAP.
+
 **Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

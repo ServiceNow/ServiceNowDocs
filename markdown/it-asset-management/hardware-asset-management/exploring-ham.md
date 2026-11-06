@@ -20,6 +20,8 @@ Learn more about Hardware Asset Management by reviewing the benefits that it can
 
 Hardware Asset Management enables you to track and manage the end-to-end life-cycle of all your organizational assets such as hardware and consumables. You can simplify every stage of the asset life-cycle with prescriptive workflows and tasks. Asset tagging, assigning ownership, and location tracking of the asset mitigate the risk of asset loss. Hardware Asset Management can also identify unapproved hardware assets and ensure compliance with established policies and regulations of your organization.
 
+\[Omitted image "ham-architecture-dia.svg"\] Alt text: HAM architecture diagram showing the HAM tables, workflows, and better together solutions
+
 ## Hardware Asset Management benefits
 
 |Benefit|Feature|Users|
@@ -67,7 +69,7 @@ You can consistently represent a product along all applications, processes, work
 -   **[Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)**  
 Automate the update of your asset records throughout its life cycle and remove the effort of manually maintaining asset accuracy.
 -   **[Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/hardware-normalization.md)**  
-Asset Management Hardware Model Normalization enables you to normalize the details, such as manufacturer, product, model, and device type, of your hardware and consumable models. Data from the models is compared against the data in the Hardware Model Normalization Content Service.
+ Hardware Model Normalization standardizes the manufacturer, product, model, and device type, of your hardware and consumable models. The system compares the details on each model against the Hardware Model Normalization Content Service and fills in the standard values it finds.
 -   **[Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md)**  
 Customize the flows in some of the Hardware Asset Management features by using the available decision tables.
 -   **[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/return-merchandise-authorization.md)**  

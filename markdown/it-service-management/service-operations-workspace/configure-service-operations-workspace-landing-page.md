@@ -42,5 +42,5 @@ Role required: admin
 
 [Create a copy of the Service Operations Workspace landing page]()
 
-[Customize the incident record page]()
+[Incident record page customization]()
 

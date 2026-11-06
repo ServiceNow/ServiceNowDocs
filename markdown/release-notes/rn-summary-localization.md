@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-localization.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -67,6 +67,17 @@ Strings in AI asset security score details, AI agent containment, and configurat
 
 </td></tr><tr><td>
 
+AI Search
+
+</td><td>
+
+-   ****
+
+AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/international-language-support-ais.md).
+
+
+</td></tr><tr><td>
+
 Accounts Payable Operations
 
 </td><td>
@@ -78,24 +89,13 @@ Accounts Payable Operations supports multiple languages. However, the current Do
 
 </td></tr><tr><td>
 
-Agent Client Collector
-
-</td><td>
-
--   ****
-
-The current available languages for Agent Client Collector are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
-
-
-</td></tr><tr><td>
-
 Autonomous Workforce
 
 </td><td>
 
 -   ****
 
-AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See Multilingual support for AI specialists for more information.
+AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See [Multilingual support for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/lang-support-aiw.md) for more information.
 
 
 </td></tr><tr><td>
@@ -133,24 +133,13 @@ Business Portal text is displayed in the language set for the active ServiceNow 
 
 </td></tr><tr><td>
 
-Data Privacy and Discovery
+Decision tables
 
 </td><td>
 
 -   ****
 
-All user-facing strings in Data Privacy and Data Discovery are localized for supported ServiceNow languages at general availability \(GA\). Supported languages include English, French, German, Spanish, Italian, Japanese, Portuguese, Chinese \(Simplified and Traditional\), and Korean. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
-
-
-</td></tr><tr><td>
-
-Domain Separation
-
-</td><td>
-
--   ****
-
-All user-facing strings in Domain Separation are localized for supported ServiceNow languages at general availability \(GA\). Supported languages include English, French, German, Spanish, Italian, Japanese, Portuguese, Chinese \(Simplified and Traditional\), and Korean. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
+Decision tables in Workflow Studio support the Localization Framework. However, editing decision tables in Excel isn’t supported for localized content, so the Excel editing feature is available only on instances that use English.
 
 
 </td></tr><tr><td>
@@ -260,7 +249,7 @@ ServiceNow Otto for Virtual Agent
 
 -   ****
 
-Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see [Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/dynamic-translation-va.md).
+Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see .
 
 
 </td></tr><tr><td>
@@ -271,7 +260,7 @@ ServiceNow Quote Experience
 
 -   ****
 
-Enhanced localization in CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+Enhanced localization in ServiceNow CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in ServiceNow CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
 
 
 </td></tr><tr><td>

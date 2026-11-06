@@ -22,13 +22,13 @@ The Zoom extension for Omnichannel Callback app is a ServiceNow AI Platform® ca
 
 Zoom extension for Omnichannel Callback offers the following capabilities:
 
--   Allows users to request a video callback from omnichannels such as Virtual Agent, Engagement Messenger, portals, and chats.
+-   Enables users to request a video callback from omnichannels such as Virtual Agent, Engagement Messenger, portals, and chats.
 -   Enables agents and users to collaborate to resolve an issue.
 -   Enables agents to join a Zoom meeting from an interaction record.
 -   Imports the Zoom meeting transcript to the interaction record. The inserted transcripts are not sentiment analyzed.
 -   Imports the Zoom meeting recording URL to the interaction record.
 -   Displays the names of participants who attended the meeting.
--   Marks the interaction Close complete when the following conditions are met:
+-   Marks the interaction **Close complete** when the following conditions are met:
     -   Both the participants joined the meeting.
     -   The Zoom meeting has ended.
 

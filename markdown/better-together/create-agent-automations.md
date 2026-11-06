@@ -33,7 +33,7 @@ After the agent is created, you must review the agent instructions and test each
 
 **Important:**
 
-Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/download-agentic-desktop-installer.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     The **Choose destination instance** dialog box is displayed.
 
-    \[Omitted image "image.unified-cr-agent"\] Alt text: Choose destination instance
+    \[Omitted image "unified-cr-agent.png"\] Alt text: Choose destination instance
 
 4.  Select an instance to create the agent in, and select **Continue**.
 
@@ -59,7 +59,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     A summary of the agent being created is displayed.
 
-    \[Omitted image "image.unified-agent-summ"\] Alt text: Agent configuration summary
+    \[Omitted image "unified-agent-summ.png"\] Alt text: Agent configuration summary
 
 5.  Review the agent configuration summary, and select **Create agent in AI Studio**.
 
@@ -89,7 +89,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     2.  Test the on-screen task desktop action.
 
-        For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
+        For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-activate-desktop-action-ad.md).
 
     3.  Verify the position of failed anchors and adjust for each screen in the desktop action.
 
@@ -129,5 +129,5 @@ When an authorized user types a request in the ServiceNow Otto panel that matche
 
 Example: The HR team is now ready to execute the employee onboarding agent. When a new hire is added to the system, an HR coordinator types the new employee's name and hire date into the ServiceNow Otto panel. The AI agent automatically executes the complete onboarding workflow, reducing manual data entry time from 30 minutes to seconds and eliminating errors caused by manual form filling.
 
-For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md).
+For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-agentic-desktop.md).
 

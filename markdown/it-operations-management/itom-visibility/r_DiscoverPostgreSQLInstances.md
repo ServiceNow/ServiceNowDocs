@@ -32,7 +32,7 @@ Discovery can find running instances of PostgreSQL on Windows and Linux systems.
 
 -   **Differentiate multiple PostgreSQL instances on the same host by port number**
 
-    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can make multiple PostgreSQL instances on the same host distinguishable by port number by creating the **mid.discovery.postgresql.include\_port\_in\_name** MID Server property. For more information, see [Include the port number in PostgreSQL instance names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/enable-postgresql-port-in-name.md).
+    Starting with Discovery and Service Mapping Patterns version 1.35.1, you can make multiple PostgreSQL instances on the same host distinguishable by port number by creating the **mid.discovery.postgresql.include\_port\_in\_name** MID Server property. For more information, see [Include the port number in PostgreSQL instance names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/enable-postgresql-port-in-name.md).
 
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).

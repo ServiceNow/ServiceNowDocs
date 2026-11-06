@@ -1,6 +1,6 @@
 ---
 title: Transaction events
-description: Events trigger rule groups, integrations, repricing, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
+description: Events trigger rule groups, integrations, repricing, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-events.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Transaction events
 
-Events trigger rule groups, integrations, repricing, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
+Events trigger rule groups, integrations, repricing, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in ServiceNow CPQ.
 
 Events are activated by buttons on the quote layout or by API calls.
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Build your application
@@ -16,7 +16,7 @@ Build and define the data, design elements, and logic that make up your applicat
 
 ## Agentic AI
 
-Create applications with help from agentic AI. For more information, see [AI Workflow Factory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ai-workflow-factory-prime.md).
+Create applications with help from agentic AI. For more information, see [AI Workflow Factory Prime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ai-workflow-factory-prime.md).
 
 -   **[Define and build the data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-and-build-data-model.md)**  
 After planning is complete, define and build the data model. Create one or more tables with fields, load the table with demo data, and verify access controls to the data.

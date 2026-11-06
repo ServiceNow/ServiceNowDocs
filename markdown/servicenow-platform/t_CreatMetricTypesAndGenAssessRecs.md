@@ -179,7 +179,7 @@ Evaluation method
 \[Admin only\] Indicates the evaluation method for this metric type. The system sets this field based on how the metric type is created. The possible evaluation methods are:-   **Assessment**: Default filter value for metric types. Only this evaluation method uses assessable records, conditions, and stakeholders.
 -   **Attestation**: For details, see
 
-[Attestations - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/c_Attestations.md).
+Attestations - Legacy.
 
 -   **Survey**: For details, see [Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDefinitions.md).
 
@@ -349,5 +349,5 @@ All assessable records associated with the type. This related list is hidden in 
 
 [Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.configure-form-layout]
 

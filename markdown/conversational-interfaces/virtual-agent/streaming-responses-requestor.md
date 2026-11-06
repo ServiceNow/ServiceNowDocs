@@ -27,7 +27,7 @@ For standard chat, the **Show more** link appears after six lines of text is str
 
 For enhanced chat, streaming is applicable to the synthesized response wherever it applies. When streaming completes, the entire synthesized response displays, rather than a truncated response, in the chat window or enhanced chat. The synthesized response can stream in the chat window or on the portal's search results page, as well as the enhanced chat's **ServiceNow Otto** tab.
 
-To enable streaming, configure your AI assistants to stream responses during the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+To enable streaming, configure your AI assistants to stream responses during the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 **Important:** The streaming feature isn’t available when dynamic translation is turned on. To enable streaming, dynamic translation must be turned off.
 

@@ -146,7 +146,7 @@ Date this knowledge article expires.
 </table>**Related topics**  
 
 
-[Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-word.md)
+[Create a knowledge article in Microsoft Word]()
 
 [Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-word.md)
 

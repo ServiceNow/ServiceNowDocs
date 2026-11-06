@@ -7,7 +7,7 @@ release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,7 @@ Data center infrastructure allocation reserves rack unit space in a data center 
 
 When a data center infrastructure allocation change request is submitted, the target data center and rack unit requirements are taken as input. Power, weight, temperature constraints, and any equipment specifications in the **Short description**, **Description**, and **Work notes** fields are also included in the rack allocation analysis.
 
-Selecting the **Find Allocation** button initiates the rack allocation agentic workflow. It handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints. The workflow processes change requests that require rack unit allocation and creates Affected CI records. To learn more see 
+Selecting the **Find Allocation** button initiates the rack allocation agentic workflow. It handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints. The workflow processes change requests that require rack unit allocation and creates Affected CI records.
 
 After data center infrastructure allocation completes, the change request is updated in the following areas:
 

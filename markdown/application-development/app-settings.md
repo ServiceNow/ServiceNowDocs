@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [App Settings panel, Ways to open the panel, Settings sections, Profile, Appearance, Editor, Context, Instance, Integrations, Updates, Advanced, Default settings]
-breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # App Settings panel

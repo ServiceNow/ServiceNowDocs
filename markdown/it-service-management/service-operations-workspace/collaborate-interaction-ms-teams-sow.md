@@ -1,6 +1,6 @@
 ---
 title: Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace
-description: You can initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders to resolve the issue.
+description: Initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders and resolve the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/collaborate-interaction-ms-teams-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Interaction Management in Service Operations Workspace, Operating I
 
 # Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace
 
-You can initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders to resolve the issue.
+Initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders and resolve the issue.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: itil or admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text:\) icon.
 
 3.  Select **Interactions** &gt; **Open**.
 
 4.  Select the interaction record.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\) from the contextual side panel.
 
 6.  Select **Start Microsoft Teams chat**.
 
@@ -38,50 +38,50 @@ Role required: itil or admin
 
 8.  To start a chat conversation, perform the following actions.
 
-    1.  In the **Collaborate** panel, click the plus sign \(+\), and select **Start Microsoft Teams chat**.
+    1.  In the **Collaborate** panel, select the plus sign \(+\), and select **Start Microsoft Teams chat**.
 
     2.  In the **Start Microsoft Teams chat** dialog box, specify the participants.
 
-    3.  To specify more chat options, click **Show more chat options** and specify a client.
+    3.  To specify more chat options, select **Show more chat options** and specify a client.
 
-        You can choose Microsoft Teams application or the Microsoft Teams web application.
+        You can choose the Microsoft Teams application or the Microsoft Teams web application.
 
-    4.  Click **Start Chat**.
+    4.  Select **Start Chat**.
 
         -   A chat conversation is initiated in Microsoft Teams.
         -   All automatic chats are automatically imported to the **Collaborate** panel.
-9.  To view a chat conversation, click the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) on the chat and select **View chat**.
+9.  To view a chat conversation, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text:\) on the chat and select **View chat**.
 
 10. To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d301334e240">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d101997e239">
 
 Option
 
-</th><th align="left" id="d301334e243">
+</th><th align="left" id="d101997e242">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301334e249">
+</th></tr></thead><tbody><tr><td id="d101997e248">
 
 **Import a chat from any conversation**
 
 </td><td>
 
-1.  Click the plus sign \(+\) and select **Import Microsoft Teams chat**.
+1.  Select the plus sign \(+\) and select **Import Microsoft Teams chat**.
 2.  Under the **Choose a conversation to view details** section, select a conversation that you want to import.
-3.  Select the chat and click **Import**.
+3.  Select the chat and then select **Import**.
 
 
-</td></tr><tr><td id="d301334e279">
+</td></tr><tr><td id="d101997e278">
 
 **Import a chat from a conversation in which you are a member**
 
 </td><td>
 
-1.  From the conversation that you are a member of, click the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) and select **View chat**.
-2.  Click the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text: filter chat messages icon\) and select the type of messages you want to view.
-3.  Select the required messages and click **Import**.
+1.  From the conversation that you are a member of, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text:\) and select **View chat**.
+2.  Select the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text:\) and select the type of messages you want to view.
+3.  Select the required messages and then select **Import**.
 
 
 </td></tr></tbody>

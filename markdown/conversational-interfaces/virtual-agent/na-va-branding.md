@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Create assistants, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Create different ServiceNow Otto for Virtual Agent branding configurations for t
 
 ## Before you begin
 
-For more information about ServiceNow Otto for Virtual Agent, see [Exploring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/exploring-virtual-agent.md) and [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+For more information about ServiceNow Otto for Virtual Agent, see [Exploring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/exploring-virtual-agent.md) and [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 Role required: virtual\_agent\_admin or admin
 

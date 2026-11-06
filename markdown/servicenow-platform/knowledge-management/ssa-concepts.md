@@ -147,7 +147,7 @@ Self-service analytics is based on the activity pattern associated with a deflec
     Associates deflection configuration with an activity pattern. A deflection pattern is implemented as a table.
 
 
-**Parent Topic:**[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
+**Parent Topic:**[Self-Service Analytics]()
 
 **Related topics**  
 

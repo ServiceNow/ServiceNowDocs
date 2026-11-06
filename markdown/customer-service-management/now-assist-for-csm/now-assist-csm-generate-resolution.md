@@ -29,8 +29,6 @@ In CRM Workspace and Core UI, you can generate the resolution information for a 
 
 You can also generate resolution information on demand from the ServiceNow Otto panel.
 
-**Note:** The resolution notes generation skill requires a minimum of 50 words in the case record to generate the resolution notes. If the resolution notes cannot be generated, the system displays a message below the **Resolution notes** field.
-
 **Note:** You can skip this if you're using the ServiceNow Otto Content menu experience for Resolution Notes Generation skill.
 
 ## Procedure

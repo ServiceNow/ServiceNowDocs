@@ -7,8 +7,8 @@ release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-21"
+reading_time_minutes: 3
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,9 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
 
         -   For a Sprint, the option is displayed as **Complete Sprint**.
         -   For a PI, the option is displayed as **Complete Planning Interval**.
-        **Note:** Before marking a Planning Interval as Complete, all its associated child Sprints must be complete.
+        **Note:** Before you complete a Planning Interval, complete all of its child Sprints. If open Sprints of the child teams overlap the dates of the Planning Interval, the **Complete Planning interval** alert shows how many teams and Sprints are still open. The alert lists each team with its open Sprints. Each Sprint is a link that opens the team Backlog, the Agile 2.0 sprint planning board, or the CWM board, depending on how the team plans its work. Close the Sprints, and then complete the Planning Interval again. To close the alert, select **Got it**.
+
+        \[Omitted image "eap-complete-pi-open-sprints-alert.png"\] Alt text: Complete Planning interval alert listing the open Sprints of two teams, with a Got it button.
 
         \[Omitted image "eap-complete-sprint.png"\] Alt text: Complete Sprint in EAP.
 
@@ -47,7 +49,7 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
         -   If all assigned work is complete, then the iteration is automatically marked complete without any confirmation from you.
         **Note:** When you complete any iteration, it is no longer displayed in the Backlog page, and all the work items which are completed in that iteration are no longer available to view from the Backlog page either.
 
-    The **Spillover** and **New scope** fields on the iteration are calculated from its stories.
+    The **Spillover** and **New scope** fields on the Sprint are calculated from its stories. These fields apply to Sprints only, and not to Planning Intervals.
 
     -   **Spillover**
 
@@ -57,7 +59,7 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
 
         Sum of the story points of the stories that were added to the iteration after it started.
 
-    Both fields are read-only. Select a value to open the stories that it counts. Cancelled stories aren't counted, and the values are calculated only for iterations that you complete after you upgrade to this release.
+    Both fields are read-only. Select a value to open the stories that it counts. Cancelled stories aren't counted, and the values are calculated only for Sprints that you complete after you upgrade to this release.
 
 4.  Start an iteration.
 
@@ -65,9 +67,11 @@ This task doesn't apply to teams connected to CWM. For these teams, start or com
 
         -   For a Sprint, the option is displayed as **Start Sprint**.
         -   For a PI, the option is displayed as **Start Planning Interval**.
+        A team can have only one current iteration at a time. Complete the current iteration before you start the next one.
+
         \[Omitted image "eap-start-sprint.png"\] Alt text: Start next sprint in EAP.
 
-    The stories that are in the iteration when it starts are recorded as its committed stories. This set is what the **Spillover** and **New scope** fields are measured against when you complete the iteration.
+    The stories that are in the iteration when it starts are recorded as its committed stories. This set is what the **Spillover** and **New scope** fields are measured against when you complete the Sprint.
 
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap.md)

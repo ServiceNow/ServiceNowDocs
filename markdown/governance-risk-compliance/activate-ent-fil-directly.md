@@ -16,7 +16,7 @@ Activate the entity filters directly from the form by adding the Active check bo
 
 ## Before you begin
 
-Role required: sn\_oper\_res.manager
+Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
 ## Procedure
 

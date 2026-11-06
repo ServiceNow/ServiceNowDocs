@@ -9,7 +9,7 @@ classification: system-update-sets
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System update sets, Deploying applications, Building applications]
+breadcrumb: [System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Update sets reference

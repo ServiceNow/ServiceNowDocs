@@ -38,7 +38,7 @@ Because automations blocks are created using AI, results may vary between runs. 
 
 1.  Navigate to **Workspaces** &gt; **Automation center Workspace**.
 
-2.  Select the list icon \(\[Omitted image "image.autocenter-list-icon"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -56,7 +56,7 @@ Because automations blocks are created using AI, results may vary between runs. 
 
     The **Generate automations** window is displayed.
 
-    \[Omitted image "image.unified-gen-auto"\] Alt text: Generate automations window
+    \[Omitted image "unified-gen-auto.png"\] Alt text: Generate automations window
 
 8.  Enter additional instructions in the **Optional context** field to guide the decomposition.
 

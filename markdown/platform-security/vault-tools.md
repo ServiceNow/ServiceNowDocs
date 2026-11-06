@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/vault-tools.h
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Vault console dashboard, ServiceNow Vault]
 ---
 
@@ -83,7 +83,7 @@ Dictionary entries, tables, or columns that are classified.
 </td></tr></tbody>
 </table>## Protect your data
 
-ServiceNow Vault uses data anonymization, cloud encryption, field encryption, log export, zero trust access, and code signing to help secure and protect your data.
+ServiceNow Vault uses data anonymization, cloud encryption, field encryption, log export, and zero trust access to help secure and protect your data.
 
 <table id="table_vdj_n2b_1gc"><thead><tr><th>
 
@@ -221,26 +221,6 @@ Classes protected with Continuous authentication
 
 Number of classes protected with continuous authentication, categorized by class.
 
-</td></tr><tr><td rowspan="2">
-
-[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)Use digital signatures to verify the authenticity and integrity of your data and prevent unauthorized or tampered records from being processed. Select **Go to Code Signing** to open the [Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-health-and-status-dashboard.md).
-
-</td><td>
-
-Operations applied on code-signed records in the past week
-
-</td><td>
-
-Code-signed records that were created, updated, or deleted in the past week on your production instance.
-
-</td></tr><tr><td>
-
-Operations applied on code-signed records by table
-
-</td><td>
-
-Tables with the most code-signed records that were created, updated, or deleted.
-
 </td></tr></tbody>
 </table>## Monitor your data
 
@@ -265,9 +245,9 @@ The AI Insights section within ServiceNow Vault helps you keep track of activiti
 
 </td><td>
 
-[Code Signing\[Omitted image "bus-contract.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
+[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
 
- [Help improve security by validating sensitive application configuration data and scripts before they are used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
+ [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
 
 </td></tr><tr><td>
 
@@ -289,9 +269,7 @@ The AI Insights section within ServiceNow Vault helps you keep track of activiti
 
 </td><td>
 
-[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
-
- [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
+ 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-dashboard.md)

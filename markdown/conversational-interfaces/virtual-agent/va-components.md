@@ -61,11 +61,11 @@ Virtual Agent adds several roles for users operating as Virtual Agent administra
 
 Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
 
-For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UserAdministration.md).
+For details on the administration of users, groups, and roles, see User Administration.
 
 -   If the Virtual Agent admin is granted access to AI Search-related tables, the search application administrator role \[search\_application\_admin\] is included.
 -   If the Virtual Agent admin is granted access to Entity View Action Mapper tables, the EVAM admin role \[evam\_admin\] is included.
--   For multilanguage support, the localization\_requestor role is included by default. For more information, see [Localization Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/roles-localization-framework.md).
+-   For multilanguage support, the localization\_requestor role is included by default. For more information, see Localization Framework roles.
 -   Automated Customer Experiences \(ACE\) user \[sn\_ace.ace\_user\] role can access and read ACE records.
 -   Workflow Studio \[action\_designer\] role launches the Workflow Studio app, to automate tasks with sequences of related steps.
 -   Activity subscriptions administrator \[actsub\_admin\] role creates subscribable objects and subscribes to activities on those objects.

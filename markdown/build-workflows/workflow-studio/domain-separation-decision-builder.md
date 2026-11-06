@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables reference, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Domain separation and Decision Builder

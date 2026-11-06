@@ -66,5 +66,5 @@ sn\_prd\_pm.enable\_product\_lifecycle\_prepublish\_visibility
 
 [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/extended-product-lifecycle-states.md)
 
-[af706e26b2fafd69ff1a83541297eca5c5a4f90d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/move-offering-spec-states.md)
+[Validate product offerings and specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/move-offering-spec-states.md)
 

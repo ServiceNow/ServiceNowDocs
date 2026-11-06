@@ -153,7 +153,7 @@ Action Name
 
 </td><td>
 
-Enter a descriptive name for the action. In subsequent policy actions for the same policy, you can reference this name in a **Value** field. It refers to the JSON payload that is received from the cloud provider after an API call. For example, to reference an allocated IP address that was returned by the action that is named RefAction, you can use the following expression in the **Value** field of another policy action: `$(parameter.RefAction.Allocated_IP}`.
+Enter a descriptive name for the action. In subsequent policy actions for the same policy, you can reference this name in a **Value** field. It refers to the JSON payload that is received from the cloud provider after an API call. For example, to reference an allocated IP address returned by the action named RefAction, use the following expression in the **Value** field of another policy action: `$(parameter.RefAction.Allocated_IP}`.
 
 </td></tr><tr><td>
 

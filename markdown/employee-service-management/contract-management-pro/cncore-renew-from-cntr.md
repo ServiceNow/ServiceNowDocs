@@ -61,15 +61,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
     -   For own paper renewals: Adding documents is optional. Attached documents are classified as supporting documents.
     -   For third-party paper renewals: Adding documents is required. You must classify the attached document as either a supporting document or the contract type selected.
-<table><thead><tr><th align="left" id="d263803e227">
+<table><thead><tr><th align="left" id="d263195e227">
 
 Method
 
-</th><th align="left" id="d263803e230">
+</th><th align="left" id="d263195e230">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d263803e236">
+</th></tr></thead><tbody><tr><td id="d263195e236">
 
 **Choose a file**
 
@@ -79,7 +79,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d263803e260">
+</td></tr><tr><td id="d263195e260">
 
 **Drag and drop**
 

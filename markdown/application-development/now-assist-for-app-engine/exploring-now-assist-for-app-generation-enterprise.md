@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [now assist, ServiceNow Otto, ServiceNow Otto for App Engine, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
-breadcrumb: [ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
+breadcrumb: [ServiceNow Otto for App Engine, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring ServiceNow Otto for App Engine

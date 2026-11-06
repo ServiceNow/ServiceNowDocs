@@ -8,9 +8,9 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [change the home dashboard]
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Set responsive dashboards as your home
@@ -39,6 +39,10 @@ For more information, see:
 -   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
 When dashboards are set as your **Home**, the most recently selected dashboard is always loaded. You cannot specify a dashboard as your **Home**. Mark a dashboard as a favorite to navigate to the dashboard easily.
+
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 

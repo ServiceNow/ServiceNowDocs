@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/verify-impact-data-connection.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
-breadcrumb: [Configuring Impact, Impact]
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Register and connect to the data provider, Configuring Impact, Impact]
 ---
 
 # Verify Impact data connection
@@ -63,16 +63,10 @@ Inbound status
 
 
 </td></tr></tbody>
-</table>    **Warning:** If either status does not update to Active Replication, contact your Impact Customer Success Manager before proceeding. In some cases, you may be instructed to continue with the manual registration process. However, if the automated registration failed, the manual configuration may also fail if the root cause is unresolved. See [Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-the-connection-impact-delivery-instance.md) for manual registration.
-
-
+</table>
 ## What to do next
 
 [Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)
 
-**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Initiate registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-registration.md)
-
-**Next topic:**[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)
+**Parent Topic:**[Register and connect to the data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-registration.md)
 

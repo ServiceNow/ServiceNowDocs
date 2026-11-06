@@ -30,7 +30,7 @@ Activation
 
 </th></tr></thead><tbody><tr><td>
 
-[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
+Customer Service Virtual Agent conversations
 
 </td><td>
 
@@ -40,7 +40,7 @@ Plugin name: com.sn\_csm.virtualagent
 
 </td></tr><tr><td>
 
-[Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-va-conversation.md)
+Field Service Virtual Agent Conversations
 
 </td><td>
 
@@ -50,7 +50,7 @@ Request the Field Service Virtual Agent Conversations and Field Service NLU Mode
 
 </td></tr><tr><td>
 
-[Human Resources Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-virtual-agent-conversations.md)
+Human Resources Virtual Agent conversations
 
 </td><td>
 
@@ -60,7 +60,7 @@ Request the HR Service Delivery Virtual Agent Conversations app from the Service
 
 </td></tr><tr><td>
 
-[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent.md)
+ITSM Virtual Agent Conversations
 
 </td><td>
 
@@ -70,7 +70,7 @@ Request ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversation
 
 </td></tr><tr><td>
 
-[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-va-conversations.md)
+
 
 </td><td>
 
@@ -106,9 +106,9 @@ For details on creating, testing \(previewing\), duplicating, and publishing a t
 ## Working with prebuilt ServiceNow NLU models in ServiceNow NLU Workbench
 
 -   Reviewing a prebuilt NLU model – After you install the plugins for predefined topics, you can view the prebuilt models in NLU Workbench. The prebuilt NLU models for ServiceNow applications define the intents, entities, and utterances used for the predefined topics. These models are also trained and published. You can also review the utterances for a prebuilt model in Virtual Agent Designer. However to copy a prebuilt model, you use NLU Workbench.
--   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-nlu-model.md) prebuilt NLU models to create your own NLU models and [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/import-nlu-intent.md) from prebuilt models or other NLU models that you create in NLU Workbench.
+-   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can Duplicate an NLU model prebuilt NLU models to create your own NLU models and Import an NLU intent from prebuilt models or other NLU models that you create in NLU Workbench.
 
-For details on creating, training, and publishing ServiceNow NLU models, see [\(Legacy\) Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-landing.md).
+For details on creating, training, and publishing ServiceNow NLU models, see .
 
 **Parent Topic:**[\(Legacy\) Virtual Agent NLU technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-advanced-technical-reference-nlu.md)
 

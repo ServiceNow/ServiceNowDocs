@@ -19,7 +19,7 @@ Create an alias for a basic authentication credential to run IBM Flash System di
 ## Before you begin
 
 -   Verify you have a basic authentication account with read-only access configured on the IBM Flash System array.
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Select the Application scope icon \[Omitted image "application-scope-icon.png"\] and verify that the scope is set to **Discovery and Service Mapping Patterns**. The pattern launcher only resolves credentials created in the **Discovery and Service Mapping Patterns** scope.
 
 Role required: discovery\_admin

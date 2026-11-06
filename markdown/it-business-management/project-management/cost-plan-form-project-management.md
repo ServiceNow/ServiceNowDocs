@@ -177,7 +177,7 @@ Estimate at Completion
 
 </td><td>
 
-Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods.For example, the duration of a project is from January 01 to December 31, and if you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of functional cost from May to December`.
+Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods.For example, if a project is from January 01 to December 31, and if you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of functional cost from May to December`.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)

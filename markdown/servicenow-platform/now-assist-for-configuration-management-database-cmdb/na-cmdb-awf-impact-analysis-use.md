@@ -19,7 +19,7 @@ Use the Impact analysis agentic workflow to identify upstream services and CIs l
 
 ## Before you begin
 
--   Activate the Impact analysis agentic workflow, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md).
+-   Activate the Impact analysis agentic workflow, as described in .
 -   You have the `itil` role to read CMDB, incident, and change records
 -   A change record \(change\_request or incident\) exists and is active
 -   The change record has a CI set, or has exactly one affected CI

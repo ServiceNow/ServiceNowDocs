@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/prop
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -270,7 +270,7 @@ Tables referenced by the system to fetch child records when analyzing CMDB asset
 
 </td><td>
 
-Default limit for IRM GlideRecord getter. \[sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit\]
+Default limit for IRM GlideRecord getter. This limit also caps the number of records processed by the Update BIA dependencies snapshot and Update BCP dependencies snapshot scheduled jobs. \[sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit\]
 
 </td><td>
 

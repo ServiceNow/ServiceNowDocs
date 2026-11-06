@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/schedu
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
 
@@ -522,6 +522,30 @@ Queue registry for Schedule Optimization break \(event attribute\) processing.- 
 -   Default Value: 3
 
 </td></tr></tbody>
+</table>## Predictive Intelligence system properties used with Schedule Optimization
+
+The following system properties are available with the Predictive Intelligence plugin. To access these properties, navigate to **All** &gt; **System Properties** &gt; **All Properties**.
+
+<table id="simpletable_ihd_dl4_pkc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+glide.platform\_ml.training.retry.limit
+
+</td><td>
+
+Controls how many times the optimization engine will retry if the machine learning service fails. Set to `0` to disable retries and prevent unexpected work reassignment.
+
+-   Type: integer
+-   Default value: set to 0
+
+</td></tr></tbody>
 </table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-components.md)
 
 **Related topics**  
@@ -529,7 +553,7 @@ Queue registry for Schedule Optimization break \(event attribute\) processing.- 
 
 [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
 [Configuring log levels for detailed optimization analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configuring-log-levels-for-detailed-optimization-analysis.md)
 

@@ -24,6 +24,8 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: How to add the layout, state model, and playbook to an issue workflow
+
 The layout defines the fields, sections, header information, and vertical navigation available for an issue. The state model defines the lifecycle stages an issue moves through and the rules for moving between them. The playbook provides the step-by-step guided experience users see while working through the issue lifecycle.
 
 The **Workflow components** step opens automatically after you save the workflow's basic details.

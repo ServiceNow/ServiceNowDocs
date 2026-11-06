@@ -1,5 +1,5 @@
 ---
-title: Reporting properties
+title: Core UI Reporting properties
 description: Use properties to fine-tune report behavior and appearance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/reporting-properties.html
@@ -9,10 +9,10 @@ classification: reporting
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Reporting properties
+# Core UI Reporting properties
 
 Use properties to fine-tune report behavior and appearance.
 
@@ -450,5 +450,5 @@ Maximum number of choices for radio button and check box interactive filters.-  
  Category: Choice list, Reference field, Date, Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-reference.md)
+</table>**Parent Topic:**[Core UI Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-reference.md)
 

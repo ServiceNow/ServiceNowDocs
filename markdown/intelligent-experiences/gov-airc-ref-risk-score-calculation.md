@@ -25,7 +25,7 @@ Control effectiveness % = (sum of weights of compliant controls ÷ sum of weight
 
 ```
 
-The Impact and Likelihood factors each use the following scale.
+The Impact and Likelihood factors use the same four score values, but different rating labels.
 
 |Rating|Score|
 |------|-----|
@@ -33,6 +33,13 @@ The Impact and Likelihood factors each use the following scale.
 |Medium|4|
 |High|7|
 |Critical|10|
+
+|Rating|Score|
+|------|-----|
+|Unlikely|1|
+|Likely|4|
+|Highly likely|7|
+|Almost certain|10|
 
 The control effectiveness calculation uses only active controls with a status of Compliant or Non-compliant, weighted by the control weighting value. The result is rounded to a whole number. If the risk has no such controls, the result is 0.
 

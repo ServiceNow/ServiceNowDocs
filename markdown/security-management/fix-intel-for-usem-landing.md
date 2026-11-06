@@ -1,6 +1,6 @@
 ---
 title: Fix Intelligence for Security Exposure Management
-description: Fix Intelligence for Security Exposure Management brings fix and remediation intelligence from Armis Centrix for Vulnerability Prioritization and Remediation \(ViPR\) into Unified Security Exposure Management \(USEM\), so your security team can remediate vulnerabilities by fix instead of one finding at a time.
+description: Fix Intelligence for Security Exposure Management provides prescriptive fix and remediation intelligence , so your security team can remediate exposure findings by fix instead of one finding at a time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/fix-intel-for-usem-landing.html
 release: brazil
@@ -13,9 +13,9 @@ breadcrumb: [Integrate, Unified Security Exposure Management, Security Operation
 
 # Fix Intelligence for Security Exposure Management
 
-Fix Intelligence for Security Exposure Management brings fix and remediation intelligence from Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\) into Unified Security Exposure Management \(USEM\), so your security team can remediate vulnerabilities by fix instead of one finding at a time.
+Fix Intelligence for Security Exposure Management provides prescriptive fix and remediation intelligence , so your security team can remediate exposure findings by fix instead of one finding at a time.
 
-Use Fix Intelligence for SEM to consolidate the fixes that resolve your vulnerabilities. View how many findings and assets each fix covers, and prioritize remediation by the fixes that reduce the most risk.
+Use Fix Intelligence for SEM to consolidate the fixes that resolve your exposure findings. View how many findings and assets each fix covers, and prioritize remediation by the fixes that reduce the most risk.
 
 ## Get started
 
@@ -25,7 +25,7 @@ Use Fix Intelligence for SEM to consolidate the fixes that resolve your vulnerab
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configuring Fix Intelligence for Security Exposure Management Install Fix Intelligence for SEM and set up the integration with Armis Centrix™ for ViPR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-fix-intel.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configuring Fix Intelligence for Security Exposure Management Install Fix Intelligence for SEM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-fix-intel.md)
 
 </td></tr><tr><td>
 

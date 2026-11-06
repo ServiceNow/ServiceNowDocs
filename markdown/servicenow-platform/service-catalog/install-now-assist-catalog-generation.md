@@ -46,7 +46,7 @@ AI Authoring for Catalog Builder is a capability within the ServiceNow Otto for 
 
         **Note:** If the skill isn’t active, select **View details**. Then on the Service Catalog page, turn on the Catalog item generation skill.
 
-        For more information about AI Admin Hub, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
+        For more information about AI Admin Hub, see .
 
 
 ## What to do next

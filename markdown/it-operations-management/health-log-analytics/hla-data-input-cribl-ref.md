@@ -38,7 +38,7 @@ Description
 
 </td><td>
 
-Description of the data input.
+Optional description of the data input.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ MID server
 
 </td><td>
 
-The MID Server to which the Cribl logs are streamed.This field is required.
+The MID Server to which the Cribl logs are streamed. This field is required.
 
 </td></tr><tr><td>
 
@@ -54,11 +54,7 @@ Port
 
 </td><td>
 
-The port on the MID Server.
-
-Choose a port within the suggested range from the array. The port must not be occupied by another process. Make sure that your organization’s security team opens the selected port.
-
-This field is required.
+The port on the MID Server used for listening to logs. This field is required.**Important:** Enter a unique port that no other application on the MID Server uses. Ask your security team to allow traffic on this port between the MID Server and the log sources.
 
 </td></tr></tbody>
 </table><table id="table_wjp_m5n_sdc"><thead><tr><th>
@@ -100,7 +96,7 @@ Cribl route
 
 </td><td>
 
-The Cribl route that directs log data to a specific destination.This field is auto-populated with a drop-down list of all available routes, each configured with a default destination. You must select the desired route from this list. This field is required.
+The Cribl route that directs log data to a specific destination. This field is required.This field is auto-populated with a drop-down list of all available routes, each configured with a default destination. You must select the desired route from this list.
 
 </td></tr><tr><td>
 
@@ -108,7 +104,7 @@ Cribl destination
 
 </td><td>
 
-The created Cribl destination. The Cribl destination points to the MID Server host and port configured in the data input. This field is read-only.
+The created Cribl destination. This field is read-only. The Cribl destination points to the MID Server host and port configured in the data input.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)

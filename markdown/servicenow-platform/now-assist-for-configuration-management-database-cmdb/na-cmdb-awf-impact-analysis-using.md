@@ -23,7 +23,7 @@ Generative AI might produce inaccurate or incomplete information. Impact analysi
 
 The Impact analysis agentic workflow solves a key gap in change management. Today's impact assessment process relies on flat lists of topologically related services with no semantic reasoning about which services will actually be disrupted, or how severely. Change managers must trace CMDB relationships manually and apply institutional knowledge to assess blast radius.
 
-**Note:** The Impact analysis agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md).
+**Note:** The Impact analysis agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in .
 
 ## Key benefits
 

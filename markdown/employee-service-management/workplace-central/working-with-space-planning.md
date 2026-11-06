@@ -28,6 +28,12 @@ As a space planner, manage the spaces, their assignments, and their allocations 
 Manage the workplace user profiles, their details, and their assignments using the Space Planning module.
 -   **[Manage scenarios using Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/manage-scenarios.md)**  
 Create, copy, or delete space planning scenarios.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+
 
 **Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/use-workplace-central.md)
 

@@ -38,7 +38,7 @@ To enable users to search for knowledge articles in any language, you can define
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

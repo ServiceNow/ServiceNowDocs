@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Developer Sandboxes domain separation
@@ -32,7 +32,7 @@ For more information on support levels, see [Application support for domain sepa
 
 Domain separation must be installed and set up on the base instance before sandboxes are created. When creating a sandbox, the domains defined in the base instance are inherited, and users can define new domains only for the lifecycle of that sandbox. Installing the plugin directly in a sandbox will not work correctly.
 
-**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+**Parent Topic:**[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-configuring-landing.md)
 
 **Related topics**  
 

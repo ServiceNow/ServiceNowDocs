@@ -1,18 +1,18 @@
 ---
 title: Performance Analytics indicators and the database tables
-description: Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that the AI Control Tower uses to calculate value.
+description: Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that AI Control Tower uses to calculate value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/pa-indicators-and-tables.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Performance Analytics indicators and the database tables
 
-Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that the AI Control Tower uses to calculate value.
+Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that AI Control Tower uses to calculate value.
 
 ## Predefined PA indicators for ServiceNow® AI systems
 

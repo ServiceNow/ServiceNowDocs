@@ -44,13 +44,13 @@ Role required: sn\_process\_mining\_admin
 
         The Connector Configurations page is displayed.
 
-        \[Omitted image "image.app-conn-config"\] Alt text: Connector configurations list
+        \[Omitted image "app-conn-config.png"\] Alt text: Connector configurations list
 
     2.  Select **New**.
 
         The Connector Configuration new record form is displayed.
 
-        \[Omitted image "image.app-config-record"\] Alt text: New connector configuration record
+        \[Omitted image "app-config-record.png"\] Alt text: New connector configuration record
 
     3.  Provide the details on the form.
 

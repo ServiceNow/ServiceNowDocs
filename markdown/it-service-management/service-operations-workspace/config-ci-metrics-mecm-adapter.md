@@ -8,8 +8,8 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+reading_time_minutes: 2
+breadcrumb: [Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation
@@ -38,9 +38,9 @@ Configure the display of the asset utilization metrics for Microsoft Endpoint Co
 Configure the top processes by CPU and top processes by memory metrics for Microsoft Endpoint Configuration Manager for Investigation.
 -   **[Configure services metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-services-metrics.md)**  
 Configure the services metrics for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
--   **[Configure logged in users metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-logged-in-users-metrics.md)**  
-Configure the display of the logged in users metrics for Microsoft Endpoint Configuration Manager for Investigation.
--   **[Configure Installed application metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-install-app-metrics.md)**  
+-   **[Configure logged-in users metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-logged-in-users-metrics.md)**  
+Configure the display of the logged-in users metrics for Microsoft Endpoint Configuration Manager for Investigation.
+-   **[Configure installed application metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-install-app-metrics.md)**  
 Configure the display of the installed application metrics for Microsoft Endpoint Configuration Manager for Investigation.
 -   **[Configure remedial action - Restart Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-ra-restart-service.md)**  
 Configure the Restart Service remedial action for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
@@ -53,5 +53,5 @@ Extend the hardware inventory to add the CMPivot entity on the CMPivot entity li
 -   **[Verify a CMPivot entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-cmpivot-entity.md)**  
 Verify a CMPivot entity and its attributes to configure the display of the CI metrics information on the Investigation tab of the Incident record.
 
-**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
+**Parent Topic:**[Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
 

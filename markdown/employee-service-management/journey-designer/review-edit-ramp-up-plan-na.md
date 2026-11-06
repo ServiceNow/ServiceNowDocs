@@ -27,7 +27,6 @@ The configuration tasks in the following topics must be completed:
 -   [Set Onboarding ramp up trigger to use Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/set-trigger-emp-center.md).
 -   [Activate Onboarding ramp-up trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/activate-trigger-rampup.md)
 -   [Activate the associated AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/turn-on-nowassist-skills.md)
--   
 -   [Add Employee Center to Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/enable-na-va-ec.md)
 
 To trigger this agentic workflow, the **Trigger onboarding rampup agent** scheduled job runs nightly to search for Journey records associated with a new employee's onboarding journey. This scheduled job targets Journey records for new employees who are starting their onboarding journey within five days. Specifically, this scheduled job selects the **Initiate onboarding ai** check box in the Journey record to initiate the agentic workflow when the following conditions are true:
@@ -64,15 +63,15 @@ A manager receives a notification from ServiceNow Otto after they access the Emp
 
 4.  Converse with ServiceNow Otto to convey the changes you want made to the ramp-up plan.
 
-<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d210934e289">
+<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d210408e285">
 
 Option
 
-</th><th align="left" id="d210934e292">
+</th><th align="left" id="d210408e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210934e298">
+</th></tr></thead><tbody><tr><td id="d210408e294">
 
 **Create a stage**
 
@@ -80,7 +79,7 @@ Description
 
 Tell ServiceNow Otto to add a stage with a title of your choice. You can also add courses or tasks to the stage you’re creating in a single request. For example, type `Create a stage named Data Science` to create a stage titled, "Data Science."
 
-</td></tr><tr><td id="d210934e315">
+</td></tr><tr><td id="d210408e311">
 
 **Delete a stage**
 
@@ -88,7 +87,7 @@ Tell ServiceNow Otto to add a stage with a title of your choice. You can also ad
 
 Tell ServiceNow Otto to delete a stage that you want removed from the ramp-up plan. Deleting a stage also deletes the courses or tasks that are nested in that stage.
 
-</td></tr><tr><td id="d210934e327">
+</td></tr><tr><td id="d210408e323">
 
 **Add a course or task**
 
@@ -96,7 +95,7 @@ Tell ServiceNow Otto to delete a stage that you want removed from the ramp-up pl
 
 Tell ServiceNow Otto to add a course or task to an existing or new stage. For example, type `Add a task named "Knowledge transfer from Adam Clark" to the Data Science stage` to add a task to the new hire's onboarding journey that appears in the Data Science stage.
 
-</td></tr><tr><td id="d210934e344">
+</td></tr><tr><td id="d210408e340">
 
 **Delete a course or task**
 
@@ -104,7 +103,7 @@ Tell ServiceNow Otto to add a course or task to an existing or new stage. For ex
 
 Tell ServiceNow Otto to delete a course or task that you want removed from a stage in the ramp-up plan.
 
-</td></tr><tr><td id="d210934e357">
+</td></tr><tr><td id="d210408e353">
 
 **Create a one-on-one meeting**
 
@@ -112,7 +111,7 @@ Tell ServiceNow Otto to delete a course or task that you want removed from a sta
 
 Tell ServiceNow Otto to create a one-on-one meeting for the new hire with the employee you specify.For example, type `Add 1:1 meeting with Abel Tuter` to schedule a one-on-one meeting between the new hire and Abel Tuter as part of the ramp-up plan.
 
-</td></tr><tr><td id="d210934e374">
+</td></tr><tr><td id="d210408e370">
 
 **Delete a one-on-one meeting**
 
@@ -120,7 +119,7 @@ Tell ServiceNow Otto to create a one-on-one meeting for the new hire with the em
 
 Tell ServiceNow Otto to delete a one-on-one meeting that you want removed from the ramp-up plan.For example, type `Delete 1:1 meeting with Abel Tuter` to remove a scheduled one-on-one meeting between the new hire and Abel Tuter from the ramp-up plan.
 
-</td></tr><tr><td id="d210934e391">
+</td></tr><tr><td id="d210408e387">
 
 **Update a field in the Journey Accelerator Plan record**
 
@@ -128,7 +127,7 @@ Tell ServiceNow Otto to delete a one-on-one meeting that you want removed from t
 
 Tell ServiceNow Otto to update a field in the Journey Accelerator Plan record to a value that you specify.
 
-</td></tr><tr><td id="d210934e409">
+</td></tr><tr><td id="d210408e405">
 
 **Create a task**
 

@@ -290,7 +290,7 @@ Option to allow duplicate concurrent execution of remedial actions.**Note:** If 
 
 ## What to do next
 
-When a Remedial Action Type is created, you must create an implementation or do the necessary changes in the existing implementation of the **RemedialActionProvider** scripted extension point. To view and use the new or modified remedial actions, you must configure the Investigate UI to display the remedial actions. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+When a remedial action type is created, you must create an implementation or do the necessary changes in the existing implementation of the **RemedialActionProvider** scripted extension point. To view and use the new or modified remedial actions, you must configure the Investigate UI to display the remedial actions. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
 **Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)
 

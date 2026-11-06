@@ -1,6 +1,6 @@
 ---
 title: Activate Incident Management — ATF Tests
-description: You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
+description: You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers Automated Test Framework \(ATF\) tests for Incident Management. This plugin includes demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-incident-mgmt-atf-tests.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Ser
 
 # Activate Incident Management — ATF Tests
 
-You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
+You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers Automated Test Framework \(ATF\) tests for Incident Management. This plugin includes demo data.
 
 ## Before you begin
 

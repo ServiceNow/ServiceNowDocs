@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring CI metrics for MECM, Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure processes metrics
@@ -67,13 +67,13 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
     \[Omitted image "edit-cpu-config.png"\] Alt text: Edit running processes CPU
 
-8.  Click **Save**.
+8.  Select **Save**.
 
 9.  From the list of configurations, select and edit **Running processes - MEM**.
 
 10. In the **Action input** field, add the script GUID.
 
-11. Click **Save**.
+11. Select **Save**.
 
 
 ## Result

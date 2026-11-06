@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-mobileplatform-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 25
 breadcrumb: [Products combined by family]
 ---
@@ -298,6 +298,10 @@ Fill an entire mobile form by speaking aloud using voice to form. On-device AI m
 -   **[Support for Microsoft Entra Shared Device Mode](https://www.servicenow.com/docs/access?context=shared-device-device-level&family=brazil&ft:locale=en-US)**
 
 Enable secure multi-user device sharing with Microsoft Entra Shared Device Mode. Users authenticate once at the device level, and Microsoft Entra-enabled apps use this authentication as part of their own sign-in process. When users sign out, data is cleared across all apps, preparing the device for the next user. This setup is applicable for areas like kiosk and shift-based deployments managed through Microsoft Intune.
+
+-   **[Mobile scripting in offline](https://www.servicenow.com/docs/access?context=mobile-script-concept&family=brazil&ft:locale=en-US)**
+
+Use mobile scripts to run reusable JavaScript on the user’s device while offline, so offline buttons and write-back actions stay consistent with online behavior. Mobile scripts are a subset of web scripts, which are stored centrally on the instance. The platform pushes them to mobile devices as part of the offline cache.
 
 
 </td></tr></tbody>

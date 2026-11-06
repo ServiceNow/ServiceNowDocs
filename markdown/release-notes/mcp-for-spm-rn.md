@@ -21,7 +21,7 @@ The ServiceNow® MCP for Strategic Portfolio Management application connects any
 -   Generate AI-powered insights — including at-risk goals, portfolio plan bottlenecks, project risks, and RAG status reports — using eight MCP tools exposed through the SPM MCP Server Console.
 -   Identify and save RIDAC risks as AI drafts directly from your AI assistant, enabling project managers to act on risks without switching to ServiceNow.
 
-See [MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-mcp-server-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -38,11 +38,11 @@ Version 1.5.0 of MCP for Strategic Portfolio Management includes tool annotation
 
 ### What's changed
 
--   **[Role-based tool access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+-   **Role-based tool access**
 
     Control which SPM MCP server tools each user can run based on their assigned roles. Each tool is mapped to the SPM roles required to use it, and the MCP Server Console enforces that mapping through role-based access control.
 
--   **[Tool annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+-   **Tool annotations**
 
     The SPM MCP server tools include annotation hints, such as title, readOnlyHint, and destructiveHint, in the tools/list response as defined by the MCP specification. AI assistants use these hints to apply the correct permission policies, so read-only tools are no longer treated as potentially destructive by default. Administrators can review and configure the annotations for each tool in the MCP Server Console.
 
@@ -53,19 +53,19 @@ Version 1.4.0 introduces MCP for Strategic Portfolio Management, enabling users 
 
 ### What's new
 
--   **[SPM MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-mcp-server-landing-page.md)**
+-   **SPM MCP server**
 
     Connect any MCP-compatible AI assistant to your ServiceNow instance to query Strategic Portfolio Management data through natural language, without opening the ServiceNow application. The SPM MCP server ships as a standalone application \(com.sn.spm.mcp\) and is managed through the MCP Server Console.
 
--   **[Goal tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+-   **Goal tools**
 
     Retrieve goals and generate AI-powered insights directly from your AI assistant. The Get Goals tool retrieves goals and objectives filtered by owner, department, or strategy. The Generate Goal Insights tool generates AI-powered insights for goals and targets by cross-referencing historical data and identifying trends.
 
--   **[Portfolio tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+-   **Portfolio tools**
 
     Retrieve portfolio plans and generate insights to support strategic decision-making. The Get Portfolio Plans tool retrieves portfolio plans including resource allocation and timeline details. The Get Portfolio Insights tool surfaces at-risk projects, delayed starts and ends, and dependencies to highlight potential bottlenecks.
 
--   **[Project tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+-   **Project tools**
 
     Query project data and generate AI-driven reports and risk assessments from your AI assistant. The Get Projects tool retrieves projects with associated metadata such as ownership, deadlines, and budget constraints. The Generate Project Insights tool detects project risks and analyzes status trajectory using predictive modeling. The Get AI Status Report tool generates a Red, Amber, Green \(RAG\) status report across resources, cost, schedule, and scope. The Identify Project Risks tool detects AI-identified RIDAC risks and saves them to the risk table as AI drafts.
 

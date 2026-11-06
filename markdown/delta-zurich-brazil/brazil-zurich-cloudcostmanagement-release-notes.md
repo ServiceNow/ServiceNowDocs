@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-cloudcostmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 14
+last_updated: "2026-11-06"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -138,10 +138,6 @@ Australia
 
 </td><td>
 
--   **[Make smarter cloud cost decisions with AI-powered summarization of cloud spend](https://www.servicenow.com/docs/access?context=spend-summary-otto-ccm&family=australia&ft:locale=en-US)**
-
-Get an AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings. The **Summarize** button enables you to view month-over-month changes, commitments coverage, and the top five recommendations to reduce costs. Use these insights to make more informed decisions about your cloud spend.
-
 -   **[Get complete cost visibility with TCO and unit economics](https://www.servicenow.com/docs/access?context=business-insights-ccm-ws&family=australia&ft:locale=en-US)**
 
 Enhance total spend analysis with TCO insights for your business applications by combining cloud costs with non-cloud costs such as hardware, software licensing, and labor. Upload business data to track revenue, units, and margins alongside your cloud costs using the Unit Economics view. Use the new Business Insights view to analyze spending trends by application owner, business application, department, business unit, and cost center.
@@ -186,10 +182,6 @@ Gain full visibility into your cloud costs and actionable insights for your Azur
 Brazil
 
 </td><td>
-
--   **[Make smarter cloud cost decisions with AI-powered summarization of cloud spend](https://www.servicenow.com/docs/access?context=spend-summary-otto-ccm&family=brazil&ft:locale=en-US)**
-
-Get an AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings. The **Summarize** button enables you to view month-over-month changes, commitments coverage, and the top five recommendations to reduce costs. Use these insights to make more informed decisions about your cloud spend.
 
 -   **[Get complete cost visibility with TCO and unit economics](https://www.servicenow.com/docs/access?context=business-insights-ccm-ws&family=brazil&ft:locale=en-US)**
 

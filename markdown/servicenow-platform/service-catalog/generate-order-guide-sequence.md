@@ -90,5 +90,5 @@ Sequence generated for order guides with only record producers as rule base item
 **Related topics**  
 
 
-[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md)
+[bundle-crworkflow.process-automation-designer]
 

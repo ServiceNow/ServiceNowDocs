@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Publish an application to the ServiceNow Store

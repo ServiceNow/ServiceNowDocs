@@ -18,6 +18,8 @@ Set up the pillars and entity types from the Operational Resilience Workspace UI
 
 Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
+Only users with the sn\_oper\_res.admin role can create or edit pillars. Users with the sn\_oper\_res.manager role can view pillars and can create and edit entity types.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** and select **Setup****Pillars** from the List view.

@@ -18,7 +18,7 @@ After running a query in the CMDB Query Builder, you can create a basic report t
 
 ## Before you begin
 
-The [Core UI plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ActivateUI16.md) \(com.glide.ui.ui16\) must be activated.
+The Core UI plugin \(com.glide.ui.ui16\) must be activated.
 
 Role required:
 
@@ -43,7 +43,7 @@ The Reports application creates a basic report, which is scoped to the query res
 **Related topics**  
 
 
-[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting-landing-page.md)
+[bundle-par.reporting-landing-page]
 
 [Build a CMDB query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md)
 

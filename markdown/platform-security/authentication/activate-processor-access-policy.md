@@ -44,7 +44,5 @@ The following items are installed with Processor Access Policy:
 
 ## What to do next
 
-.
-
-Configure authentication profile for the processors, for more information see, [Configure Authentication profile for Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-auth-profile-processor.md).
+Configure authentication profile for the processors, for more information, see [Configure Authentication profile for Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-auth-profile-processor.md).
 

@@ -40,15 +40,15 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Continuous Authorization and Monitoring employs the seven steps defined by the Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 
--   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)**
+-   **[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)**
 
-    CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+    CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 
 -   **[Digital Portfolio Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-landing.md)**
 
     Manage and maintain all your solutions \(services, service offerings, business applications, and application services\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
 
--   **Enterprise Architecture Workspace**
+-   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)**
 
     The Enterprise Architecture Workspace is part of the Application Portfolio Management \(APM\) application. The workspace is a unified interface with multiple views that help you manage your portfolio efficiently. You can use these views to stay up to date with your tasks, insights, tasks that need attention, portfolio health, and dashboards.
 

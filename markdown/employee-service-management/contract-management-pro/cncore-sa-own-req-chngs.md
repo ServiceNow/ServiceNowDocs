@@ -38,15 +38,15 @@ Role required: sn\_cm\_core.contract\_user
 
 5.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d573364e111">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d572128e111">
 
 Location
 
-</th><th align="left" id="d573364e114">
+</th><th align="left" id="d572128e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d573364e120">
+</th></tr></thead><tbody><tr><td id="d572128e120">
 
 **From internal storage**
 
@@ -56,7 +56,7 @@ Action
 2.  Download the document by selecting the document in Contract Documents tab or selecting Download document in the Preview tab.
 
 
-</td></tr><tr><td id="d573364e138">
+</td></tr><tr><td id="d572128e138">
 
 **From external storage**
 
@@ -67,15 +67,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>6.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d573364e162">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d572128e162">
 
 Review result
 
-</th><th align="left" id="d573364e165">
+</th><th align="left" id="d572128e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d573364e171">
+</th></tr></thead><tbody><tr><td id="d572128e171">
 
 **No change is required**
 
@@ -83,7 +83,7 @@ Action
 
 Select **Send for signature** to send the document for signature. For more information, see [Manage signature in own-paper requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-sa-own-send-sign.md).
 
-</td></tr><tr><td id="d573364e192">
+</td></tr><tr><td id="d572128e192">
 
 **Changes are required**
 

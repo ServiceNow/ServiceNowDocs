@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Use AES with a Git source control repository

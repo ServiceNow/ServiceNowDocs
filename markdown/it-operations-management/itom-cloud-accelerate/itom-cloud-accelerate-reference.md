@@ -16,3 +16,8 @@ breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 
 Reference topics provide additional information for configuring and using ITOM Cloud Accelerate.
 
+-   **[Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md)**  
+Tables that list the plugins or applications that are installed with ITOM Cloud Accelerate applications. When you update your application, any newly required application dependencies are installed.
+
+**Parent Topic:**[ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-landing-page.md)
+

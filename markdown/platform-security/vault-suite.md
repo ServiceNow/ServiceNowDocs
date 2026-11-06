@@ -57,18 +57,6 @@ Discovers, classifies, and anonymizes sensitive data to prevent leakage during c
 
 </td></tr><tr><td>
 
-Code Signing
-
-</td><td>
-
-com.glide.code\_signing\_enterprise
-
-</td><td>
-
-Verifies the integrity of code artifacts on the platform.
-
-</td></tr><tr><td>
-
 Field Encryption
 
 </td><td>

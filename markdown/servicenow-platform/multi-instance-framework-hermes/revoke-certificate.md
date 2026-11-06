@@ -18,7 +18,7 @@ Revoke a ServiceNow® instance-signed certificate so that it can't be used in se
 
 ## Before you begin
 
-Role required: hermes\_admin or sn\_kmf.cryptographic\_manager
+Role required: hermes\_admin and sn\_kmf.cryptographic\_manager
 
 ## Procedure
 

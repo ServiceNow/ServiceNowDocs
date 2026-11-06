@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/sales-order-management-rn-landing.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -19,6 +19,8 @@ ServiceNow® Sales Customer Relationship Management is a set of new and updated 
 Sales Customer Relationship Management includes workflows for Customer Lifecycle Operations \(Customer Life Cycle Management\). For details on these features in the Brazil release, see the [Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-mgmt-rn-landing.md).
 
 Agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases in CRM Workspace. Case line items are also visible in this view. The Case lines and workflows application supports referencing multiple order line items on a case record.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 -   **[CRM API Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/crm-api-core-rn.md)**  
 The ServiceNow® CRM API Core application tracks and manages Sales CRM workflows with configurable request processing and Service Order Management integration. See the following sections for release notes by version.

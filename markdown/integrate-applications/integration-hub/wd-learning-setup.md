@@ -1,14 +1,14 @@
 ---
 title: Set up the Workday Learning spoke
-description: Integrate the ServiceNow instance Workday instance by using the OAuth 2.0 to authenticate ServiceNow requests.Configure your ServiceNow instance to perform actions that use the Workday SOAP web services.Configure the default connection and credential record by providing the required details to authenticate requests.Set up the required Workday reports in your ServiceNow instance.Update the timezone of the Workday tenant in your ServiceNow instance.
+description: Integrate the ServiceNow instance Workday instance by using the OAuth 2.0 to authenticate ServiceNow requests.Configure your ServiceNow instance to perform actions that use the Workday SOAP web services.Configure the default connection and credential record by providing the required details to authenticate requests.Configure a connection to your Workday Learning account. The Workday Learning spoke connection and credential aliases use these connections to perform actions in Workday Learning.Set up the required Workday reports in your ServiceNow instance.Update the timezone of the Workday tenant in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-learning-setup.html
 release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 5
 breadcrumb: [Workday Learning Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -148,6 +148,57 @@ Role required: admin
 
     \[Omitted image "wd-learning-enable.png"\] Alt text: Authorize Workday.
 
+
+## Configure a connection for the Workday Learning spoke
+
+Configure a connection to your Workday Learning account. The Workday Learning spoke connection and credential aliases use these connections to perform actions in Workday Learning.
+
+### Before you begin
+
+Role required: admin.
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Click the **Integrations** tab.
+
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
+
+4.  Locate the alias for **WorkdayLearning** and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the Workday Learning spoke, click **View Details**.
+
+        \[Omitted image "wd-learning-connection.png"\] Alt text: Connection for the Workday Learning spoke with View Details highlighted.
+
+    -   To manage more than one Workday Learning spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "wd-learning-connection-conf.png"\] Alt text: Initial connection configuration with Configure highlighted.
+
+5.  On the form, fill in these fields:
+
+    |Field|Value required|
+    |-----|--------------|
+    |Connection Information|
+    |Name|Name to identify the Workday Learning connection record.|
+    |Connection URL|URL of your Workday tenant in this format: `https://<tenant-name>.workday.com`. Replace `<tenant-name>` with the name of your Workday tenant.|
+    |Tenant Name|Name of your Workday tenant.|
+    |Credential Information|
+    |Token URL|URL to fetch the OAuth token from, in this format: `https://<tenant-name>.workday.com/ccx/oauth2/<tenant>/token`.|
+    |Client ID|Client ID supplied when you register the API client in Workday.|
+    |Client Secret|Client secret supplied when you register the API client in Workday.|
+    |OAuth Redirect URL|Redirect URL for the OAuth flow. Default value: `https://<instance-name>.service-now.com/oauth_redirect.do`. Replace `<instance-name>` with the name of your ServiceNow instance.|
+    |Authorization URL|URL used to authorize access, in this format: `https://<tenant-name>.workday.com/<tenant>/authorize`.|
+
+    \[Omitted image "wd-learning-conf-temp.png"\] Alt text: Configure a connection for the Workday Learning spoke.
+
+6.  Click **Save and Get OAuth Token**.
+
+
+### Result
+
+The Workday Learning spoke connection is configured and ready to be used.
 
 ## Configure the Workday reports
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-deprecated-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 22
+last_updated: "2026-11-04"
+reading_time_minutes: 26
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -30,6 +30,11 @@ AI Admin Center
 
 </td><td>
 
+-   **[AI Admin Center Next Experience workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md)**
+
+The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
+
 -   **[Calculate savings projections for automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
 
 Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
@@ -41,9 +46,25 @@ The daily recommendation is no longer visible. Only three default configurations
 
 </td></tr><tr><td>
 
+AI Admin Hub
+
+</td><td>
+
+-   **AI Admin Hub**
+
+AI Admin Hub is being prepared for deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition.
+
+
+</td></tr><tr><td>
+
 AI Agent Advisor
 
 </td><td>
+
+-   **[AI Admin Center Next Experience workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md)**
+
+The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
 
 -   **[Calculate savings projections for automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
 
@@ -60,6 +81,17 @@ AI Control Tower
 
 </td><td>
 
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or have customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Prompt injection settings removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+
+
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
@@ -67,6 +99,10 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 -   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
 
 The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **[Data integrity incident detection categories removed from external AI setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+All categories are removed. For example, Guardrail Circumvention Attempt and Untrusted Links and Downloads are unavailable in the external AI setting.
 
 
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
@@ -80,6 +116,23 @@ The Veza connector now authenticates using OAuth 2.0 instead of an API key. The 
 -   **[Findings by severity metric removed from Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
 
 The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
+
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>
@@ -112,7 +165,18 @@ App Engine Studio
 
 -   **PDF Extractor tool \(table creation from PDFs\)**
 
-The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md).
+The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see .
+
+
+</td></tr><tr><td>
+
+Authentication
+
+</td><td>
+
+-   **Basic Authentication for inbound integrations**
+
+Starting with the Brazil release, Basic Authentication is being prepared for future deprecation. OAuth 2.0, mutual TLS \(mTLS\), and federated token-based authentication provide the latest experience for this functionality. Basic Authentication remains supported on inbound requests, such as REST and SOAP, until a future release. Migrate your inbound integrations to a supported method. For guidance on identifying and migrating these integrations, see the [KB3220405](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220405) article.
 
 
 </td></tr><tr><td>
@@ -288,11 +352,11 @@ ITOM AIOps
 
 </td><td>
 
--   **[Classic Dynatrace event integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dynatrace-advanced-settings-fields.md)**
+-   **Classic Dynatrace event integration**
 
 Replaced by the new Dynatrace Grail connector. Move to the Grail connector to keep receiving Dynatrace alerts.
 
--   **[Auto-dismissing success banner \(pull connectors\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/pull-connector.md)**
+-   **Auto-dismissing success banner \(pull connectors\)**
 
 Replaced by a persistent activation modal after a passing connection test.
 
@@ -354,6 +418,36 @@ Kubernetes Visibility Agent \(KVA\)
 -   **Legacy Kubernetes discovery API**
 
 The legacy Kubernetes discovery API is deprecated and will be removed in a future release. Use the enhanced discovery capabilities and updated API endpoints introduced in this release.
+
+
+</td></tr><tr><td>
+
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   **[Routing journey count cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+Removed. The Routing journey count cards are replaced by the funnel on the Overview tab.
+
+-   **[Research depth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+Removed. The unused Research depth setting is no longer available. There is no replacement.
+
+-   **[Pre resolution condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+Removed. The Pre resolution condition setting is no longer available, and incidents are no longer checked against it. There is no replacement.
+
+
+</td></tr><tr><td>
+
+Next Experience
+
+</td><td>
+
+-   **The Unified Navigation onboarding modals are removed.**
+
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and all associated steps, are no longer available.
 
 
 </td></tr><tr><td>
@@ -434,9 +528,9 @@ Project Portfolio Management
 
 </td><td>
 
--   **[Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_TheProjectPlanningConsole.md)**
+-   **Planning console**
 
-Starting Brazil release, Planning console is deprecated and is no longer supported. Project managers can [access Project Workspace using Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/access-new-project-workspace.md) to work on project planning.
+Starting Brazil release, Planning console is deprecated and is no longer supported. Project managers can access Project Workspace using Next Experience to work on project planning.
 
 -   **Process Mining**
 
@@ -515,14 +609,6 @@ ACL records on request management tables and fields no longer grant access based
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
--   ****
-
-</td></tr><tr><td>
-
 Service Graph Connector Integration for Claroty CTD
 
 </td><td>
@@ -541,6 +627,17 @@ ServiceNow Otto for Contract Management Pro
 -   **Now LLM Service**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the October 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>
@@ -573,17 +670,17 @@ ServiceNow Otto for Virtual Agent
 The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md).
 
 
--   **[Deprecation of Virtual Agent for NLU and keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page-nlu.md)**
+-   **Deprecation of Virtual Agent for NLU and keywords**
 
 Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
--   **[Deprecation of Virtual Agent channel integrations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent-nlu.md)**
+-   **Deprecation of Virtual Agent channel integrations applications**
 
 Starting with the Brazil release, the following Virtual Agent channel integration applications are being prepared for future deprecation:
 
-    -   [Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conv-integ-alexa.md)
-    -   [Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-ivr-voice.md)
-    -   [IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-ibm-watson-assistant-config.md)
+    -   Conversational Integration with Alexa
+    -   Conversational IVR with Amazon Connect
+    -   IBM Watson Assistant conversations
 They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md)**
@@ -608,7 +705,7 @@ The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE 
 
 -   **Tools tab**
 
-The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/integrated-development-tools.md).
+The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see .
 
 -   **Create menu**
 
@@ -624,6 +721,11 @@ The Resources section has been removed from the ServiceNow Studio home page. The
 ServiceNow Vault
 
 </td><td>
+
+-   **Code Signing in Vault Suite**
+
+Code Signing is no longer included in Vault Suite. Installing Vault Suite doesn't install Code Signing. On instances that already have Code Signing, it no longer appears in Vault Console.
+
 
 -   **Now LLM Service**
 
@@ -651,7 +753,7 @@ Strategic Spend Tracking for PPM
 
 </td><td>
 
--   **[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-strategic-spend-tracking-overview.md)**
+-   ****
 
 Starting with the Brazil release, Strategic Spend Tracking for PPM is being prepared for future deprecation and it will be hidden. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -704,19 +806,6 @@ Vulnerability Response Integration with Claroty CTD
 
 Starting with the Brazil release, the Vulnerability Response Integration with Claroty CTD application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
--   **Ask AI button**
-
-The **Ask AI** button was removed from the Model Manager.
-
-
--   ****
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)

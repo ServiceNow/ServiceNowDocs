@@ -35,6 +35,7 @@ Roles required:
 
     -   A connection alias \(sn\_ado\_int.Azure\_DevOps\) is available by default.
     -   You must create a connection alias for every Azure DevOps organization that you use.
+    -   The default alias allows only one active connection. You can't activate a second connection or credential for the same alias.
 2.  Use OAuth 2.0 or Basic Auth to create credentials.
 
     -   OAuth 2.0: See [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-azdevops-boards-oauth.md).

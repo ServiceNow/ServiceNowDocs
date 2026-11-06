@@ -17,8 +17,6 @@ breadcrumb: [Write client-side scripts, Scripting, API implementation, API imple
 
 Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
-\[Omitted video\] Description: Introduction to client scripts, script types, APIs, and good practices
-
 Use client scripts to configure forms, form fields, and field values while the user is using the form. Client scripts can:
 
 -   make fields hidden or visible

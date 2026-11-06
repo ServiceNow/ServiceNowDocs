@@ -28,14 +28,14 @@ Role required: admin
 
     For detailed information, see the following topics:
 
-    -   [Create a credential for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-credential-ms-translation.md)
-    -   [Configure the credential for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-credential-google.md)
+    -   Create a credential for the MicrosoftTranslation alias
+    -   Configure the credential for the GoogleTranslation alias
 2.  Create a connection for the translator service alias.
 
     For detailed information, see the following topics:
 
-    -   [Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-connection-ms-translation.md)
-    -   [Configure the connection attributes for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-connection-google.md)
+    -   Create a connection for the MicrosoftTranslation alias
+    -   Configure the connection attributes for the GoogleTranslation alias
 
 ## What to do next
 

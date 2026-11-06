@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-08-29"
 reading_time_minutes: 4
-breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Layout elements and hierarchy

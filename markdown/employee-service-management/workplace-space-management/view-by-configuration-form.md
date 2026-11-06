@@ -105,9 +105,13 @@ Domain for the view by configuration.This field is automatically set to global a
 **Related topics**  
 
 
+[Allocation - types, setting, and impact]()
+
 [Components installed with Workplace Space Management]()
 
 [Properties installed with Workplace Space Management]()
 
 [KPI Configuration form]()
+
+[]()
 

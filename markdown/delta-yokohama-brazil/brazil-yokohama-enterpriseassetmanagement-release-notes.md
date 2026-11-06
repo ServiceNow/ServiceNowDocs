@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-enterpriseassetmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 34
 breadcrumb: [Products combined by family]
 ---
@@ -1069,6 +1069,8 @@ Australia
 
  See [Enterprise Asset Management](https://www.servicenow.com/docs/access?context=enterprise-asset-management&family=australia&ft:locale=en-US) for more information.
 
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
+
 </td></tr><tr><td>
 
 Brazil
@@ -1081,6 +1083,8 @@ Brazil
 -   Minimize downtime, improve performance, and extend the asset lifespan by using various workflows and capabilities, such as planned maintenance, asset performance and KPI tracking, and asset repairs.
 
  See [Enterprise Asset Management](https://www.servicenow.com/docs/access?context=enterprise-asset-management&family=brazil&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

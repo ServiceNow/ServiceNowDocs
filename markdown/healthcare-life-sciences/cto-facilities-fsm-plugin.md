@@ -20,6 +20,8 @@ This plugin provides all roles and features needed for the healthcare facilities
 
 For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/c_ManageWorkOrders.md).
 
+Case and work order states are synchronized according to a predefined state mapping. To change which case state maps to which work order state, see [Modify state decision tables in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-modify-state-tables.md).
+
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 
 Work orders aren't created from healthcare facilities cases. Instead, agents work on fulfilling those cases directly from their portals.

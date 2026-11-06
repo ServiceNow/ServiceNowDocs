@@ -1,13 +1,13 @@
 ---
 title: Configure crawl settings for an Amazon S3 external content connector
-description: Define inclusion and exclusion filters to specify the buckets and file types you want your Amazon S3 external content connector to retrieve when running content crawls.
+description: Define inclusion and exclusion filters to specify the buckets and file types for your Amazon S3 external content connector to retrieve during content crawls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-amazon-s3-external-content-connector.html
 release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-27"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,17 +15,17 @@ breadcrumb: [Amazon S3 external content connector, Configure, External Content C
 
 # Configure crawl settings for an Amazon S3 external content connector
 
-Define inclusion and exclusion filters to specify the buckets and file types you want your Amazon S3 external content connector to retrieve when running content crawls.
+Define inclusion and exclusion filters to specify the buckets and file types for your Amazon S3 external content connector to retrieve during content crawls.
 
 ## Before you begin
 
-A connector administrator must have already created the Amazon S3 external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
+A connector administrator must have already created the Amazon S3 external content connector that you need to configure crawl settings for. To learn about this procedure, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Amazon S3 external content connector crawls all buckets and file types from its specified source system and sends files with all supported extensions to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Amazon S3 external content connector crawls all buckets and file types from its specified source system and sends files with all supported extensions to AI Search for indexing. Only perform this task if you need the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the buckets to crawl when running content crawls
 -   Inclusion or exclusion filters for the file extensions to retrieve when running content crawls
@@ -46,20 +46,20 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 1.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
-2.  In the Connectors list, select the record for the Amazon S3 external content connector whose settings you want to modify.
+2.  In the Connectors list, select the record for the Amazon S3 external content connector whose settings you need to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  Select one of the following **Content filtering** options:
 
     -   To crawl all buckets from the source system, select **Crawl all content**.
     -   To crawl only a specified set of buckets from the source system, select **Include only these buckets**, then use the **Add S3 bucket URLs to include** field and **Add** button to enter URLs for buckets you want the connector to include when crawling.
 
-        As an example, you might enter `https://s3.amazonaws.com/published` to only include searchable content from a bucket with name `published`.
+        As an example, you might enter `https://s3.amazonaws.com/published` to only include searchable content from a bucket named `published`.
 
     -   To crawl all but a specified set of buckets from the source system, select **Exclude only these buckets**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
 
-        As an example, you might enter `https://s3.amazonaws.com/legacy_bucket` to exclude searchable content from a bucket with name `legacy_bucket`.
+        As an example, you might enter `https://s3.amazonaws.com/legacy_bucket` to exclude searchable content from a bucket named `legacy_bucket`.
 
 5.  Select one of the following **Filetype filtering** options:
 
@@ -88,8 +88,6 @@ If one of your connectors reaches the content indexing limit, you can update its
 ## Result
 
 The Amazon S3 external content connector is updated with your modified crawl settings.
-
-**Important:** All content the connector retrieves from your Amazon S3 buckets is treated as public content, searchable by everyone who has access to your configured AI Search experience.
 
 ## What to do next
 

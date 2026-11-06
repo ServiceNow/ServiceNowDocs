@@ -1,5 +1,5 @@
 ---
-title: Viewing previous search results in Access Analyzer
+title: View previous search results in Access Analyzer
 description: View, reanalyze, or export results from previous searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-analyzer-queries.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
-# Viewing previous search results in Access Analyzer
+# View previous search results in Access Analyzer
 
 View, reanalyze, or export results from previous searches.
 
@@ -32,15 +32,15 @@ Role required: access\_analyzer\_admin
 
     \[Omitted image "access-analyzer-queries.png"\] Alt text: Access Analyzer queries
 
-2.  To view previous **Evaluate access** search results, click a link under **Analyzed by**.
+2.  To view previous **Evaluate access** search results, select a link under **Analyzed by**.
 
     \[Omitted image "query-details.png"\] Alt text: Access Analyzer Details
 
-    To refresh results for the user \(based on the same query criteria\), click **Reanalyze**.
+    To refresh results for the user \(based on the same query criteria\), select **Reanalyze**.
 
-    To export the results, click **Export**.
+    To export the results, select **Export**.
 
-3.  To view previous **Compare user access** results, click a link under **Compared users**.
+3.  To view previous **Compare user access** results, select a link under **Compared users**.
 
     \[Omitted image "access-analyzer-queries-compare.png"\] Alt text: Compare user access
 

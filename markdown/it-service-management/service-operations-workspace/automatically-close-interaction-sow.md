@@ -1,6 +1,6 @@
 ---
 title: Automatically close an interaction in Service Operations Workspace
-description: Automatically close the interaction when an incident linked is closed in Service Operations Workspace.
+description: Automatically close the interaction when a linked incident is closed in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/automatically-close-interaction-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Interaction Management in Service Operations Workspace,
 
 # Automatically close an interaction in Service Operations Workspace
 
-Automatically close the interaction when an incident linked is closed in Service Operations Workspace.
+Automatically close the interaction when a linked incident is closed in Service Operations Workspace.
 
 ## Before you begin
 
@@ -24,14 +24,14 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Configurations**.
 
-2.  Select **Interaction Management.**
+2.  Select **Interaction Management**.
 
 3.  Toggle the **Close Interaction when linked Incident is resolved** option.
 
 
 ## Result
 
-The interaction record will be automatically closed in the Service Operations Workspace once the linked incident is closed.
+The interaction record is automatically closed in the Service Operations Workspace after the linked incident is closed.
 
 **Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
 

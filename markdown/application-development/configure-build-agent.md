@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/configu
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Build Agent, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent configuration
@@ -30,6 +30,8 @@ Because Autonomous Engineer runs through Build Agent as its execution layer, mos
 
 -   **[Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-build-agent.md)**  
 For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
+-   **[Properties, tables, and roles installed with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-properties-installed-with.md)**  
+System properties installed with Build Agent control operational settings and resource limits. Tables store conversation, message, checkpoint, and telemetry data. Roles define access control for properties and features.
 -   **[Build Agent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-plugins.md)**  
 Plugins are required for Build Agent, and vary by version.
 -   **[Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-connct-mcp-server.md)**  

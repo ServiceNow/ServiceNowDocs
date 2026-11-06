@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deploying apps, Build apps, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Deploying apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # App versioning and release notes for Creator Studio apps

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-aicontroltower-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 68
+last_updated: "2026-11-06"
+reading_time_minutes: 74
 breadcrumb: [Products combined by family]
 ---
 
@@ -382,7 +382,12 @@ Australia
 
 </td><td>
 
--   **[Monitor agent activity chart improvements](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Arc policy management](https://www.servicenow.com/docs/access?context=gov-pol-managing-arc-policies&family=australia&ft:locale=en-US)**
+
+Create policies and rules that control ServiceNow Arc usage.
+
+
+ -   **[Monitor agent activity chart improvements](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=australia&ft:locale=en-US)**
 
 Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
 
@@ -410,13 +415,43 @@ Perform AI agent containment \(kill switch\) with the AI Security Operator role.
 
 Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
 
--   **[Sub-vendor AI costs](https://www.servicenow.com/docs/access?context=mc-ai-cost-types-and-sub-vendor-rates&family=australia&ft:locale=en-US)**
+-   **[Cost types and sub-vendor rates](https://www.servicenow.com/docs/access?context=mc-ai-cost-types-and-sub-vendor-rates&family=australia&ft:locale=en-US)**
 
 Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
 
--   **[\[Placeholder link text to key mc-subscription-based-cost-for-ai-vendors\]](https://www.servicenow.com/docs/access?context=mc-subscription-based-cost-for-ai-vendors&family=australia&ft:locale=en-US)**
+-   **[Subscription-based costs](https://www.servicenow.com/docs/access?context=mc-subscription-based-cost-for-ai-vendors&family=australia&ft:locale=en-US)**
 
 Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+-   **[AI Connector for Amazon](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074844)**
+
+A new source system **Amazon Quick** has been added to the AI Connector for Amazon.
+
+-   **[AI Connector for Anthropic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147725)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
+
+-   **[AI Connector for Salesforce](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074918)**
+
+Establish a sever-to-server integration without manual intervention with JWT connection.
+
+-   **[AI Connector for OpenAI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147723)**
+
+Configure mTLS certificate-based authentication besides the API Key for better security.
+
+The October version of the connector supports X.509 certificate creation.
+
+-   **[AI Connector for Microsoft - Copilot Lite](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074871)**
+
+You can n w discover AI agents from Copilot Lite \(Builder Agent\) following a set of prerequisites on the Microsoft Entra admin center.
+
+-   **[AI Connector for Google Enterprise - Agent Platform](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074877)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
 
 
  -   **[Control AI asset usage through policies](https://www.servicenow.com/docs/access?context=gov-pol-landing&family=australia&ft:locale=en-US)**
@@ -562,7 +597,7 @@ Discover and import Anthropic AI Models and track usage data \(per-user AI asset
 
 Publish the ServiceNow Agents to Microsoft Agent 365 ensuring the ServiceNow agents are sent to external registries.
 
--   **[Service Graph Connectors for AI Control Tower](https://www.servicenow.com/docs/access?context=service-graph-connectors-for-ai-control-tower&family=australia&ft:locale=en-US)**
+-   **[Service Graph Connectors for AI Governance](https://www.servicenow.com/docs/access?context=service-graph-connectors-for-ai-control-tower&family=australia&ft:locale=en-US)**
 
 AI Service Graph Connector for Databricks discover AI agents and import to AI Control Tower from Databricks environment.
 
@@ -639,7 +674,28 @@ Brazil
 
 </td><td>
 
--   **[Monitor agent activity chart improvements](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=brazil&ft:locale=en-US)**
+-   **[ServiceNow Arc policy management](https://www.servicenow.com/docs/access?context=gov-pol-managing-arc-policies&family=brazil&ft:locale=en-US)**
+
+Create policies and rules that control ServiceNow Arc usage.
+
+-   **[AI Gateway client-based access policies](https://www.servicenow.com/docs/access?context=ai-gw-controlling-client-access&family=brazil&ft:locale=en-US)**
+
+Create client access policies that grant each MCP client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
+
+-   **[Security settings usability improvements and AI usage consent](https://www.servicenow.com/docs/access?context=gov-sec-configuring&family=brazil&ft:locale=en-US)**
+
+Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
+
+-   **[Agent containment list filter and rename](https://www.servicenow.com/docs/access?context=gov-sec-review-kill-switch-protocol-log&family=brazil&ft:locale=en-US)**
+
+Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
+
+-   **[Post-runtime metrics configuration change and category rename](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=brazil&ft:locale=en-US)**
+
+When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
+
+
+ -   **[Monitor agent activity chart improvements](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=brazil&ft:locale=en-US)**
 
 Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
 
@@ -680,6 +736,36 @@ Set a rate for a specific service from an integrated vendor, such as an agent pl
 -   **[Subscription-based costs](https://www.servicenow.com/docs/access?context=mc-subscription-based-cost-for-ai-vendors&family=brazil&ft:locale=en-US)**
 
 Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+-   **[AI Connector for Amazon](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074844)**
+
+A new source system **Amazon Quick** has been added to the AI Connector for Amazon.
+
+-   **[AI Connector for Anthropic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147725)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
+
+-   **[AI Connector for Salesforce](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074918)**
+
+Establish a sever-to-server integration without manual intervention with JWT connection.
+
+-   **[AI Connector for OpenAI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147723)**
+
+Configure mTLS certificate-based authentication besides the API Key for better security.
+
+The October version of the connector supports X.509 certificate creation.
+
+-   **[AI Connector for Microsoft - Copilot Lite](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074871)**
+
+You can n w discover AI agents from Copilot Lite \(Builder Agent\) following a set of prerequisites on the Microsoft Entra admin center.
+
+-   **[AI Connector for Google Enterprise - Agent Platform](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074877)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
 
 
  -   **[Control AI asset usage through policies](https://www.servicenow.com/docs/access?context=gov-pol-landing&family=brazil&ft:locale=en-US)**
@@ -914,7 +1000,20 @@ Australia
 
 </td><td>
 
--   **[View input and output in trace details](https://www.servicenow.com/docs/access?context=mon-ai-session-details&family=australia&ft:locale=en-US)**
+-   **[Security settings usability improvements and AI usage consent](https://www.servicenow.com/docs/access?context=gov-sec-configuring&family=australia&ft:locale=en-US)**
+
+Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
+
+-   **[Agent containment list filter and rename](https://www.servicenow.com/docs/access?context=gov-sec-review-kill-switch-protocol-log&family=australia&ft:locale=en-US)**
+
+Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
+
+-   **[Post-runtime metrics configuration change and category rename](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=australia&ft:locale=en-US)**
+
+When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
+
+
+ -   **[View input and output in trace details](https://www.servicenow.com/docs/access?context=mon-ai-session-details&family=australia&ft:locale=en-US)**
 
 Toggle between input and output when viewing trace details.
 
@@ -1107,7 +1206,7 @@ The Kill Switch Protocol Log is renamed the Agent containment list, and the **Vi
 
 Date and time values in the Security tab — including the agent containment list, the Overview tab's Dormant AI agents and Privileged AI agents details, and the Post-runtime tab's security events — are now shown in Coordinated Universal Time \(UTC\) rather than your local timezone.
 
--   **[AI Gateway](https://www.servicenow.com/docs/access?context=ai-gateway&family=brazil&ft:locale=en-US)**
+-   **[AI Gateway settings](https://www.servicenow.com/docs/access?context=ai-gateway&family=brazil&ft:locale=en-US)**
 
 Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
 
@@ -1206,6 +1305,12 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 
 The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
 
+-   **[V1 AI asset onboarding playbook](https://www.servicenow.com/docs/access?context=aict-playbooks-reference&family=zurich&ft:locale=en-US)**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
  The AI Gateway application is deprecated in the Australia release and is no longer supported.
 
@@ -1215,9 +1320,20 @@ Australia
 
 </td><td>
 
--   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+-   **[V1 AI asset onboarding playbook](https://www.servicenow.com/docs/access?context=aict-playbooks-reference&family=australia&ft:locale=en-US)**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Prompt injection settings removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=australia&ft:locale=en-US)**
+
+In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://www.servicenow.com/docs/access?context=now-assist-guardian-analytics&family=australia&ft:locale=en-US).
+
+
+ -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 -   **[Traceloop Warehouse HTTPS connection removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-pi-sensitive-metrics&family=australia&ft:locale=en-US)**
 
@@ -1226,7 +1342,13 @@ The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloo
 
  -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[V1 AI asset onboarding playbook](https://www.servicenow.com/docs/access?context=aict-playbooks-reference&family=australia&ft:locale=en-US)**
+
+The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
  -   AI Control Tower removed in [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US):
@@ -1252,13 +1374,28 @@ Brazil
 
 </td><td>
 
--   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
+-   **[V1 AI asset onboarding playbook](https://www.servicenow.com/docs/access?context=aict-playbooks-reference&family=brazil&ft:locale=en-US)**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or have customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Prompt injection settings removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=brazil&ft:locale=en-US)**
+
+In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://www.servicenow.com/docs/access?context=now-assist-guardian-analytics&family=brazil&ft:locale=en-US).
+
+
+ -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 -   **[Traceloop Warehouse HTTPS connection removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-pi-sensitive-metrics&family=brazil&ft:locale=en-US)**
 
 The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **[Data integrity incident detection categories removed from external AI setting](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=brazil&ft:locale=en-US)**
+
+All categories are removed. For example, Guardrail Circumvention Attempt and Untrusted Links and Downloads are unavailable in the external AI setting.
 
 
  -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
@@ -1272,6 +1409,12 @@ The Veza connector now authenticates using OAuth 2.0 instead of an API key. The 
 -   **[Findings by severity metric removed from Security](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=brazil&ft:locale=en-US)**
 
 The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
+
+-   **[V1 AI asset onboarding playbook](https://www.servicenow.com/docs/access?context=aict-playbooks-reference&family=brazil&ft:locale=en-US)**
+
+The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
 </td></tr></tbody>
@@ -1323,6 +1466,8 @@ Brazil
 
 Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
 
+
+**Important:** AI Risk and Compliance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -9,7 +9,7 @@ classification: servicenow-cli
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Developing your application, Building applications]
+breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a record

@@ -5,7 +5,7 @@ locale: en-US
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 39
+reading_time_minutes: 38
 ---
 
 # Create a reservation
@@ -48,15 +48,15 @@ For example, reservation planners or space planners with the dedicated role \(sn
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d573580e157">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d572344e157">
 
 Location
 
-</th><th align="left" id="d573580e160">
+</th><th align="left" id="d572344e160">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d573580e166">
+</th></tr></thead><tbody><tr><td id="d572344e166">
 
 **From Employee Center Portal**
 

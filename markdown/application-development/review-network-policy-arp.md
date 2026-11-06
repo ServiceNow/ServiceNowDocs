@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [network policies, ARP, Application Runtime Policy, approve policy, Enforcing mode]
-breadcrumb: [Use, Application Runtime Policy \(ARP\), Developing your application, Building applications]
+breadcrumb: [Use, Application Runtime Policy \(ARP\), Developing your application, Classic app development, Building applications]
 ---
 
 # Review network policies

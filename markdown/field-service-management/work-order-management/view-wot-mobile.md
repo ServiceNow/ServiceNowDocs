@@ -37,7 +37,7 @@ The task list displays the following information for each work order task:
 
 -   For a work order task, if the parent work order has been initiated from a case, navigate from the work order screen and drill down see the case details.
 
-    **Note:** The logged-in user must have the case\_viewer role to navigate to the case screen from work order and sn\_csm\_proxy\_cont role to add work notes and comments to the **Case Activity Stream**.
+    **Note:** The logged-in user must have the case\_viewer role to navigate to the case screen from work order and sn\_customerservice.proxy\_contact role to add work notes and comments to the **Case Activity Stream**.
 
 
 ## Procedure
@@ -66,6 +66,9 @@ The task list displays the following information for each work order task:
 
     1.  Tap the overflow icon and select **Edit**.
     2.  Do the following: To edit the task short description, tap the **Short Description** field, to make the necessary edits and select the back icon to go back to the **Edit** screen.
+
+        **Note:** The **Short Description** field must contain a value. You can't save your edits to a work order task in the Now Mobile Agent application if this field is empty.
+
     3.  To edit the task description, tap the **Description** field, enter a description for the task and, select the back icon to go back to the **Edit** screen.
     4.  Perform one of the following actions:
         -   On an iOS device, tap **Submit**.

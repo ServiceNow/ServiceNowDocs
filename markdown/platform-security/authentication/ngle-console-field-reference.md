@@ -1,23 +1,23 @@
 ---
-title: IFL policy field reference
-description: Field descriptions for an identifier-first login \(IFL\) policy in the Authentication console.
+title: Identifier-first login policy field reference
+description: Field descriptions for an identifier-first login policy in the Authentication Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/ngle-console-field-reference.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [IFL policy fields, NGLE console field reference]
 breadcrumb: [Authentication Console, Authentication, Access Management]
 ---
 
-# IFL policy field reference
+# Identifier-first login policy field reference
 
-Field descriptions for an identifier-first login \(IFL\) policy in the Authentication console.
+Field descriptions for an identifier-first login policy in the Authentication Console.
 
-## IFL policy fields
+## Identifier-first login policy fields
 
 <table><thead><tr><th>
 

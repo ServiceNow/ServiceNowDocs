@@ -1,13 +1,13 @@
 ---
 title: Add an operation to a model in Zero Copy Connector for ERP
-description: Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+description: Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.html
 release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, operation, create, update, read, crud]
 breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 # Add an operation to a model in Zero Copy Connector for ERP
 
-Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ This video was recorded in the Zurich release.
 
 \[Omitted video\] Description: Video that shows how to add an operation to a model in Zero Copy Connector for ERP.
 
--   Read operations retrieve ERP data by reading a table or using a BAPI, RFC, or OData.
--   Update operations use a BAPI, RFC, OData, or IDoc to write updates to the ERP system.
--   Create operations use a BAPI, RFC, OData, or IDoc to create an instance of the business object in the SAP system.
+-   Read operations retrieve ERP data by reading a table or using a BAPI, RFC, OData, or REST.
+-   Update operations use a BAPI, RFC, OData, IDoc, or REST to write updates to the ERP system.
+-   Create operations use a BAPI, RFC, OData, IDoc, or REST to create an instance of the business object in the SAP system.
 
 **Note:** For update operations where ETag is required and OData services are used, the ETag is fetched by default and sent with the update call. Verify that you don't make overriding changes.
 
@@ -69,7 +69,7 @@ The foundation of the operation is created.
 
 ## What to do next
 
-Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\]\) on the operation's card to remove any operations you don't need, or to start over.
 

@@ -34,7 +34,7 @@ Role required: If the **com.snc.par.coreui.report\_create.enabled** system prope
 
     The Report Designer opens.
 
-4.  Follow the instructions in the topic [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md) to create your report.
+4.  Follow the instructions in the topic [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md) to create your report.
 
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/creating-data-visualizations.md)

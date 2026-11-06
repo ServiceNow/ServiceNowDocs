@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-24"
 reading_time_minutes: 4
 keywords: [Virtual Agent, custom control, custom input, response control]
 breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
@@ -101,7 +101,7 @@ Enable
 
 </td><td>
 
-Toggle switch that determines whether the custom control appears as its own icon in the Utilities section of the palette on the **Flow** tab. This provides easy access to the control for other authors.
+Toggle switch that determines whether the custom control appears as its own icon in the Utilities section of the palette on the **Flow** tab. This provides access to the control for other authors.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

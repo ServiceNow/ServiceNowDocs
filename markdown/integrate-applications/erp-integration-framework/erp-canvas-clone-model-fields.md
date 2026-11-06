@@ -57,7 +57,7 @@ Application
 
 </td><td>
 
-Application scope the ERP model is linked to. For example, if you create a custom model, the model is in that scope.
+Application scope the ERP model is linked to. For example, if yo create a custom model, the model is in that scope.
 
 </td></tr><tr><td>
 

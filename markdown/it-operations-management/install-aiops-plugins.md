@@ -17,11 +17,13 @@ Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNo
 
 ## Before you begin
 
+Verify that the sn\_ia\_config.ia\_user role is assigned to the evt\_mgmt\_admin role.
+
 Role required: evt\_mgmt\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+1.  Navigate to **Admin** &gt; **Home**.
 
     The Admin Home page opens.
 

@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a record producer

@@ -22,7 +22,7 @@ The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in 
 -   Share status reports with stakeholders and teams to support collaboration and planning.
 -   Use default templates for detailed project reviews or high-level executive summaries.
 
-See [Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-ppt-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

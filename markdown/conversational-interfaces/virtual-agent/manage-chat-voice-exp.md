@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-breadcrumb: [Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure voice settings for a chat assistant
@@ -33,7 +33,7 @@ Voice settings are supported only on certain chat experiences, as shown in the f
 
 For more information about ServiceNow Otto for Virtual Agent premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-integrated-chat.md).
 
-For more information about ServiceNow Otto panel – Platform assistant chat experiences, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-standard.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-enhanced.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-premium.md). Azure Speech Service is used for standard chat and enhanced chat and Cartesia for premium chat.
+For more information about ServiceNow Otto panel – Platform assistant chat experiences, see , , or . Azure Speech Service is used for standard chat and enhanced chat and Cartesia for premium chat.
 
 ## Procedure
 

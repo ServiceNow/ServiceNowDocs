@@ -1,13 +1,13 @@
 ---
 title: Policy-based login experience technical reference
-description: System properties, affected login routes, policy conditions, authentication methods, and fallback behavior for the next-generation login experience.
+description: System properties, affected login routes, policy conditions, authentication methods, and fallback behavior for the policy-based login experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/ngle-technical-reference.html
 release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [NGLE technical reference, login routes, policy\_based\_login\_experience.enabled]
 breadcrumb: [IFL policy field reference, Authentication Console, Authentication, Access Management]
@@ -15,13 +15,15 @@ breadcrumb: [IFL policy field reference, Authentication Console, Authentication,
 
 # Policy-based login experience technical reference
 
-System properties, affected login routes, policy conditions, authentication methods, and fallback behavior for the next-generation login experience.
+System properties, affected login routes, policy conditions, authentication methods, and fallback behavior for the policy-based login experience.
 
 ## System properties
 
 |Property|Description|Default|
 |--------|-----------|-------|
-|Enable policy-based login `glide.authenticate.policy_based_login_experience.enabled`|Enables the policy-based login experience. The identifier-first login flow takes effect when this property is enabled and at least one active IFL policy exists.|false|
+|Enable policy-based login `glide.authenticate.policy_based_login_experience.enabled`|Enables the policy-based login experience. The identifier-first login flow takes effect when this property is enabled, the Enable policy-based login setting is turned on, and at least one active identifier-first login policy exists.|false|
+
+The Enable policy-based login setting on the Settings tab of the Authentication Console must also be turned on. This setting determines the first authentication factor during user login.
 
 ## Affected login routes
 
@@ -31,7 +33,7 @@ Traditional login pages, such as `login.do` and `oauth_login.do`, remain functio
 
 ## Policy conditions
 
-IFL policies support the following user-context conditions. When a policy has multiple conditions, all conditions must be met for the policy to match.
+Identifier-first login policies support the following user-context conditions. When a policy has multiple conditions, all conditions must be met for the policy to match.
 
 -   IP address
 -   Role
@@ -39,7 +41,7 @@ IFL policies support the following user-context conditions. When a policy has mu
 
 ## Fallback sequence
 
-If no IFL policy matches, the instance applies the default routing in this order:
+If no identifier-first login policy matches, the instance applies the default routing in this order:
 
 1.  Default SSO routing, using the user's SSO source or the default identity provider \(IdP\).
 2.  If no IdP applies, the local login page.

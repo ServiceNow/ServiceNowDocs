@@ -1,18 +1,20 @@
 ---
 title: Using AI Admin Hub
-description: Use AI Admin Hub to explore the various Now Assist plugins, skills, and associated Generative AI application features you are entitled to.
+description: Use AI Admin Hub to explore the AI plugins and skills available to you. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-now-assist-admin\_0.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-23"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
 breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Using AI Admin Hub
 
-Use AI Admin Hub to explore the various Now Assist plugins, skills, and associated Generative AI application features you are entitled to.
+Use AI Admin Hub to explore the AI plugins and skills available to you. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+
+**Note:** Starting with the Brazil release, AI Admin Hub is being prepared for future deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md)**  
 Activate AI skills by configuring settings such as display locations. After the skills have been activated, they can be used across the ServiceNow AI Platform based on the availability and display settings you choose.

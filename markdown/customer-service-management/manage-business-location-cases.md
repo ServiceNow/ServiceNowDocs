@@ -43,7 +43,7 @@ The **Requestor Organization** and **Provider Organization** can be set manually
 
 Location agents, location consumer agents and managers can create cases for business organizations without adding an account, contact, or consumer. The location agent, location consumer agent or manager who creates the case is added to the **Opened by** field.
 
-As a Location Support Agent \[sn\_bus\_loc.svc\_location\_support\_agent\], you can fulfil cases requested by the organizations that your business organization serves. You can also access these cases and work on them in the CRM workspace. The Business Location 360 page in the CRM workspace provides a comprehensive view that includes the crucial contextual information including the contracts and their associated entitlements that you need for resolving reported issues.
+As a Location Support Agent \[sn\_bus\_loc.svc\_location\_support\_agent\], you can fulfil cases requested by the organizations that your business organization serves. You can view the Contracts and Entitlements by navigating to **All** &gt; **Contracts and Entitlements** &gt; **Customer contracts/Entitlements**.
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 

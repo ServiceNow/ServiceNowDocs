@@ -41,7 +41,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 4.  Select the location record in the **CMN Location Campus** field.
 
-    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [8a1c30d5486ba0d800d0f5527989394ea28de4f5.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [9c904d6e199e2d14ba420cb25cb6510923f007b8.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 5.  Select **Update** to map the campus with the location record.
 
@@ -53,7 +53,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 8.  Complete the synchronization steps.
 
-    To learn more about the synchronization steps, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/sync-ind-mapping-cmn-location.md).
+    To learn more about the synchronization steps, see .
 
 
 ## Result
@@ -69,7 +69,7 @@ View the details of your datacenter infrastructure using the floor map. To learn
 **Related topics**  
 
 
-[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/sync-cmn-location.md)
+[bundle-emplsm.sync-cmn-location]
 
 [Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Slack notification installed with Major Incident Management
-description: Slack notifications are added with activation of Incident Management – Major Incident Management.
+title: Slack notifications installed with Major Incident Management
+description: Slack notifications are added when you activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/slack-notification-installed-with-MIM.html
 release: brazil
@@ -12,14 +12,14 @@ reading_time_minutes: 1
 breadcrumb: [Activate Major Incident Management, Major Incident Management plugins, Managing major incidents, Incident Management, IT Service Management]
 ---
 
-# Slack notification installed with Major Incident Management
+# Slack notifications installed with Major Incident Management
 
-Slack notifications are added with activation of Incident Management – Major Incident Management.
+Slack notifications are added when you activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\).
 
 |Slack notification|Description|
 |------------------|-----------|
-|Major Incident Candidate assigned|Notifies Major Incident Management Group when **Major Incident State** changes to **Proposed**.|
-|IAT conference notification|When conference call is initiated, a slack notification is sent to all the participants of the conference call.|
+|Major Incident Candidate assigned|Notifies the Major Incident Management Group when **Major Incident State** changes to **Proposed**.|
+|IAT conference notification|Notifies all participants when a conference call starts.|
 
 **Parent Topic:**[Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md)
 

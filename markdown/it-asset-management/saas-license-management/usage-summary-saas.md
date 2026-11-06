@@ -74,5 +74,3 @@ Create a mapping for an SSO group with a software model to manage your licenses 
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

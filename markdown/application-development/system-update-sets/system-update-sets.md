@@ -9,7 +9,7 @@ classification: system-update-sets
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deploying applications, Building applications]
+breadcrumb: [Deploying applications, Classic app development, Building applications]
 ---
 
 # System update sets

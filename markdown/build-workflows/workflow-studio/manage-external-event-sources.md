@@ -171,7 +171,7 @@ HMAC Util Script
 
 </td><td>
 
-Option to specify the script that generates or validates the hash.To know more about HMAC, see [Configure HMAC - Token-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-hmac.md).
+Option to specify the script that generates or validates the hash.To know more about HMAC, see [Configure HMAC token-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-hmac.md).
 
 </td></tr><tr><td rowspan="3">
 

@@ -39,5 +39,5 @@ You can activate the Adaptive Authentication plugin \(com.snc.adaptive\_authenti
 
 Configure your authentication policies to enforce contextual authentication controls on your instance.
 
-Once your policies are configured. Enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-adaptive-auth-properties.md).
+After your policies are configured, enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-adaptive-auth-properties.md).
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The following Tables are installed with Certificate-based authentication:
+The following tables are installed with Certificate-based authentication:
 
 -   sys\_user\_certificate
 -   sys\_ca\_certificate

@@ -155,22 +155,6 @@ Enables journey owners to edit and add Journey Accelerator tasks and stages in a
 
 </td></tr><tr><td>
 
-**Can view satisfaction score**
-
-</td><td>
-
-Enables journey owners to see the pulse survey results tied to this journey.**Note:** This feature requires integration with Listening Posts. See, .
-
-</td></tr><tr><td>
-
-**Can add recommended learning**
-
-</td><td>
-
-Enables journey owners to add courses that are related to training or learning. This permission depends on your organization’s implantation of Journey designer app and features.**Note:** This feature requires integration with Learning Posts. See, .
-
-</td></tr><tr><td>
-
 **Can add quick links**
 
 </td><td>

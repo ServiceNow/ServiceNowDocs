@@ -71,7 +71,7 @@ When switching to an external TrustStore, import all certificates from the bundl
 
     The keytool utility prompts you for the TrustStore password. The default password for the MID Server bundled JRE TrustStore `cacerts` is `changeit`. If the default password has been changed, enter the current password. Don't change the TrustStore password unless your security policy requires it.
 
-    If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md).
+    If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see Upload a certificate to an instance.
 
 3.  Display a list of the current certificates by running the command: `keytool.exe -list -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
@@ -86,6 +86,8 @@ When switching to an external TrustStore, import all certificates from the bundl
 [Encrypt or decrypt MID Server configuration file values]()
 
 [MID Server configuration file security]()
+
+[MID Server authentication methods comparison]()
 
 [MID Server authentication credentials and SOAP requests]()
 
@@ -106,6 +108,8 @@ When switching to an external TrustStore, import all certificates from the bundl
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## Specify an external TrustStore for the MID Server
 

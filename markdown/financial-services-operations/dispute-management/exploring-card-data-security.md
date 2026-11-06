@@ -25,7 +25,7 @@ Using tokens prevents sensitive data from being stored on a ServiceNow instance,
 
 You can configure data to be tokenized as it enters your ServiceNow instance, and have it restored to its original value when it is sent to Third-Party Systems.
 
-\(Disclaimer: This application enables data tokenization capabilities for Dispute Cases and Dispute Transactions.\)
+\(Disclaimer: This application enables data tokenization capabilities for Dispute Cases and Dispute Transactions. Card Data Security is hosted in the United States only. For other regional support, contact your ServiceNow representative for more information.\)
 
 ## Value of Card Data Security
 

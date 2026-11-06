@@ -29,7 +29,7 @@ This task is optional. By default, the Webcrawler external content connector cra
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
-Each Webcrawler connector can retrieve up to 50,000 items \(URLs\) from its source system when running content crawls.
+Each Webcrawler connector can retrieve up to 30,000 items \(URLs\) from its source system when running content crawls.
 
 **Note:** This is an exception to the general content crawl limit of one million \(1,000,000\) items.
 
@@ -39,7 +39,7 @@ Each Webcrawler connector can retrieve up to 50,000 items \(URLs\) from its sour
 
 2.  In the Connectors list, select the record for the Webcrawler external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  To load content crawl URLs from the source system's sitemaps, select the **Use sitemap** option.
 

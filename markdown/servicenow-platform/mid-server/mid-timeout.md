@@ -69,6 +69,8 @@ The purpose is a text field that the customer can update at any point to indicat
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -88,4 +90,6 @@ The purpose is a text field that the customer can update at any point to indicat
 [Attach a script file to a file synchronized MID Server]()
 
 [MID Server FIPS Enforced Mode]()
+
+[MID Server IPKI authentication]()
 

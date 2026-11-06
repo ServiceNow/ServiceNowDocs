@@ -22,7 +22,7 @@ Use the Virtual Agent Conversational Integration apps to configure the messaging
 
 1.  Install the Conversational Integration messaging apps, that are pre-built with ServiceNow Virtual Agent from the ServiceNow Store and then associate the app with your own ServiceNow instance.
 
-    For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+    For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 2.  Install the Conversational Integration apps for Slack, Microsoft Teams, and Workplace, LINE, Twilio, WhatsApp, Facebook Messenger, Alexa, Google Assistant, Amazon Connect, on your ServiceNow instance once they become available for installation after installing from the ServiceNow Store.
 

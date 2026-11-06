@@ -21,7 +21,7 @@ Retail Strategic Portfolio Management Suite is a purpose-built extension of the 
 
 Retail projects in Retail Strategic Portfolio Management Suite are structured, template-driven work items that guide teams through store life cycle scenarios.
 
-The Retail Strategic Portfolio Management Suite works as an extension to the existing SPM capabilities such as project templates, project fields, playbooks, and workflows to tailor them specifically for retail store operations giving all the personas a connected experience on one platform.
+The Retail Strategic Portfolio Management Suite works as an extension to the existing SPM capabilities such as project templates, project fields, playbooks, and workflows to tailor them specifically for retail store operations. This gives all the personas a connected experience on one platform.
 
 Retail companies run hundreds of store projects every year. A large grocery chain might be opening 40 new stores, refurbishing 120 others, closing 15, and refreshing technology in 200, all in the same fiscal year. These projects typically have three core problems.
 
@@ -30,7 +30,7 @@ Retail companies run hundreds of store projects every year. A large grocery chai
 
     For example: If the IT team doesn't get notified that construction is complete, POS installation sits idle for weeks.
 
--   No visibility at the portfolio level: executives need to know how all store projects are progressing against timeline, budget, and completion targets. Without a common data model \(shared fields, shared milestones, shared project types\), rolling up status, comparing progress, or spotting risks across the portfolio is difficult.
+-   No visibility at the portfolio level: executives need how all store projects are progressing against timeline, budget, and completion targets. Without a common data model \(shared fields, shared milestones, shared project types\), rolling up status, comparing progress, or spotting risks across the portfolio is difficult.
 
 ## Common project structure for every store scenario
 
@@ -42,7 +42,7 @@ For example, a New Store Opening template comes preloaded with tasks organized a
 
 Some of the work in a store life cycle project is completed by the store itself rather than by a headquarters team. Set the **Visible to customer** field on a project task to let the assigned store team see that task and act on it in Retail. A project task without this field set remains visible only to headquarters.
 
-Store personas see only the project tasks for the retail organization that they belong to, so a task that is tagged to one store isn't visible to the staff of another store. For information about how store teams work these tasks, see [Project tasks in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-spm-project-tasks-overview.md).
+Store personas see only the project tasks for the retail organization that they belong to. A a task that is tagged to one store isn't visible to the another staff. For information about how store teams work these tasks, see [Project tasks in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-spm-project-tasks-overview.md).
 
 ## Retail-specific project fields that enable structured tracking
 
@@ -60,7 +60,7 @@ Every project of a given type shares the same fields, templates, and milestones,
 
 ## Life-cycle scenarios offered with the retail suite
 
-Each scenario has its own template, its own set of project fields, and its own guided playbook. These aren't five separate products; they're five configurations of the same underlying framework, all managed within the Workspace sharing the same reporting infrastructure and visible in a single portfolio view.
+Each scenario has its own template, its own set of project fields, and its own guided playbook. These aren't five separate products; they're five configurations of the same underlying framework, all managed within the Workspace. It shares the same reporting infrastructure and is visible in a single portfolio view.
 
 |Scenario|Offerings|Key milestones offered|
 |--------|---------|----------------------|

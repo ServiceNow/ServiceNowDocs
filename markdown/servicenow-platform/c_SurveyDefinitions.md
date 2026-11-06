@@ -20,7 +20,7 @@ Survey administrators and survey readers can also send survey invitations direct
 
 -   **[Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ModifySurveyDefinitions.md)**  
 You can configure additional options for a survey definition.
--   **[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SchedulePeriods.md)**  
+-   **[Schedule periods]()**  
 The available schedule periods are **Only Once**, **No Limit**, **Daily**, **Weekly**, **Monthly**, and **Yearly**.
 
 **Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyAdminTasks.md)

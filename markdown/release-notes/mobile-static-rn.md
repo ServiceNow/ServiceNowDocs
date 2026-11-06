@@ -45,6 +45,10 @@ The September 2026 mobile release introduces voice-to-form capabilities for fast
 
     Enable secure multi-user device sharing with Microsoft Entra Shared Device Mode. Users authenticate once at the device level, and Microsoft Entra-enabled apps use this authentication as part of their own sign-in process. When users sign out, data is cleared across all apps, preparing the device for the next user. This setup is applicable for areas like kiosk and shift-based deployments managed through Microsoft Intune.
 
+-   **[Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-script-concept.md)**
+
+    Use mobile scripts to run reusable JavaScript on the user’s device while offline, so offline buttons and write-back actions stay consistent with online behavior. Mobile scripts are a subset of web scripts, which are stored centrally on the instance. The platform pushes them to mobile devices as part of the offline cache.
+
 
 ### What's changed
 

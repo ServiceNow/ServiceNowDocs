@@ -26,7 +26,7 @@ Oracle Wallet stores credentials in a wallet on the target server. Discovery rea
 |OS|Minimum Visibility Content version|Minimum Discovery and Service Mapping Patterns version|Minimum Data Collection for Oracle Global Licensing and Advisory Services version|
 |---|----------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------|
 |UNIX|6.32.0|1.31.0|1.12.0|
-|Windows|6.35.0|1.35.0|1.13.0|
+|Windows|6.35.0|1.35.1|1.13.0|
 
 For information on enabling Oracle Wallet authentication, see [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md).
 

@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
 
-For information about how to change settings that were configured when the data input was created, such as adding a new path or changing the data input's MID Server destination or port, see [Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-modify.md).
+To change settings configured when the data input was created, such as adding a new path or changing the MID Server destination or port, see [Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-modify.md).
 
 ## Procedure
 

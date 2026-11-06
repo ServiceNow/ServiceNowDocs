@@ -8,13 +8,17 @@ product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
 
 # Migrating site user access to user criteria and groups
 
 When you upgrade to version 1.0.12 of the ISA Equipment Model, the migration from site user access to user criteria and groups begins automatically.
+
+**Note:** Current users can decide whether to migrate to other available versions of the ISA Equipment Model. However, user criteria configurations aren't available with the ISA Equipment Model version 4.2.0. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md).
+
+## Upgrading to ISA Equipment Model version 1.0.12
 
 The following changes occur when you upgrade to version 1.0.12 of the ISA Equipment Model.
 

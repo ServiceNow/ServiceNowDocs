@@ -43,7 +43,7 @@ The SAP DMS external content connector requires a user account with specific rol
 
     1.  Log in to the SAP Business Technology Platform \(BTP\) at [https://cockpit.btp.cloud.sap/](https://cockpit.btp.cloud.sap/) using your global account credentials.
 
-    2.  In the Subaccounts tab, select your subaccount with the aforementioned entitlements.
+    2.  In the **Subaccounts** tab, select your subaccount with the aforementioned entitlements.
 
     3.  Navigate to **Security** &gt; **Users**.
 

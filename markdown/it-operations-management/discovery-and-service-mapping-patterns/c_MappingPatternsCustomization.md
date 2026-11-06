@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 12
+reading_time_minutes: 13
 keywords: [Discovery role, Pattern role]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -149,7 +149,7 @@ Discovery operator
 
 </td><td>
 
-Can run or cancel existing discovery schedules and view discovery-related data, including logs, ECC queue payloads, device history, and MID Server logs. Can't create, edit, or delete records. Not supported for Discovery Admin Workspace.
+Can run or cancel existing discovery schedules and view discovery-related data, including logs, ECC queue payloads, device history, and MID Server logs. Can't create, edit, or delete records.Starting with Discovery Admin Workspace v1.22.0, has read-only access to the workspace and can run existing schedules with **Discover now**. For more information, see Discovery Operator role access.
 
 </td></tr><tr><td>
 

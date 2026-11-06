@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aiw-profile.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-keywords: [AI specialist, AI specialist profile]
+last_updated: "2026-10-13"
+reading_time_minutes: 2
+keywords: [ai specialist profile, ai specialist name, ai specialist icon, ai specialist brand, ai specialist description, ai specialist userid, ai specialist user id, ai specialist title, ai specialist department]
 breadcrumb: [Configure in the legacy AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -43,13 +43,13 @@ To learn how to modify the tasks that an AI specialist is capable of, see [Edit 
 
     Review the full list of roles granted to the AI specialist to check your AI specialist has access only to what it needs to accomplish tasks.
 
-    \[Omitted image "aiw-aias-profile.png"\] Alt text: Fill in the profile section of the AI specialist guided setup in AI Agent Studio
+    \[Omitted image "aiw-aias-profile.png"\] Alt text: Profile tab of the AI specialist guided setup with fields for name, title, department, user ID, description, capabilities, assignment groups, and required roles
 
-6.  Select **Save** to save your changes.
+6.  Select **Save and continue** to save your changes.
 
     You can make additional changes to your AI specialist before selecting save. Changing tabs in the AI specialist guided setup won't lose your changes.
 
-    If you don't select **Save** before navigating to a new page or closing the browser, your changes are lost.
+    If you don't select **Save and continue** before navigating to a new page or closing the browser, your changes are lost.
 
 
 ## Result

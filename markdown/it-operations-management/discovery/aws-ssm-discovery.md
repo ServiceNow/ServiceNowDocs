@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -101,7 +101,7 @@ For more information on AWS Management Console configuration, see the [Amazon SS
 
 -   **Define root and non-root credentials**
 
-    The MID Server property **mid.discovery.aws\_ssm.linux.fallback\_root\_user** enables EC2 instances to default to the root user. By default, this setting is **false**, but if you don’t want to set up alternate user credentials, you can enable it to run commands as root. If you leave this setting turned off, you must create a credential record in the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table, where you simply provide the user name that should be used to run commands on the instance. For more information, [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
+    The MID Server property **mid.discovery.aws\_ssm.linux.fallback\_root\_user** enables EC2 instances to default to the root user. By default, this setting is **false**, but if you don’t want to set up alternate user credentials, you can enable it to run commands as root. If you leave this setting turned off, you must create a credential record in the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table. In this table, you provide the user name that should be used to run commands on the instance. For more information, [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
 
 -   **Configure MID Server properties**
 
@@ -124,4 +124,8 @@ For more information on AWS Management Console configuration, see the [Amazon SS
 
     SSM discovery can be deployed within an AWS-based Cloud Discovery schedule in the Discovery Admin Workspace. To do this, go to the Deep discovery step, enable the **Create an IP-based discovery schedule** toggle, and select **Discover servers though AWS Systems Manager \(SSM\) Agent** as the Discovery method. For more information, see [Create an AWS Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-AWS-schedule-DAW.md).
 
+
+## Diagnose issues
+
+For help identifying and resolving AWS SSM discovery issues, see the [Amazon SSM Discovery diagnosis guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2325108) article in the Now Support Knowledge Base.
 

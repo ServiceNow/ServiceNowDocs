@@ -21,7 +21,7 @@ The ServiceNow® Certificate Inventory and Management application discovers, inv
 -   Prevent outages by tracking expiration dates and notifying certificate owners through email, Microsoft Teams, and Slack before certificates expire.
 -   Automate certificate requests, renewals, and revocations through routing policies that connect to your certificate authorities and external vaults.
 
-See [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cert-inventory-mgmt.md) for more information.
+See  for more information.
 
 ## Activation requirements
 
@@ -38,15 +38,15 @@ The 4.4.0 release extends automated certificate management to DigiCert ACME, Sec
 
 ### What's new
 
--   **[Extended ACME capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/exploring-acme.md)**
+-   **Extended ACME capabilities**
 
     Request, renew, and revoke certificates through DigiCert ACME, Sectigo Universal ACME, and Sectigo Public ACME CAs using automated flows. If your organization uses a different CA that is compatible with the ACME protocol, you can add it and use it to extend automated certificate management to that CA.
 
--   **[CyberArk PVWA private key storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-mid-server-automatic-cert-renewal.md)**
+-   **CyberArk PVWA private key storage**
 
     Store private keys in CyberArk PVWA during automated certificate operations, in addition to HashiCorp Vault and Azure Key Vault.
 
--   **[Certificate format support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/certificate-routing-policy-field-values.md)**
+-   **Certificate format support**
 
     Receive issued certificates in DER binary or PKCS12 format, instead of PEM format.
 

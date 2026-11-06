@@ -338,7 +338,7 @@ The option that you selected is submitted. At any time, you can view your select
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

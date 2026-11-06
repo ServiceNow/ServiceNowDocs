@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Resources for enhancing your app

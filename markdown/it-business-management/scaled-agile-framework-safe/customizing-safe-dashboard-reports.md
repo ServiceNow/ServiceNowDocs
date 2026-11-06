@@ -18,7 +18,7 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dash
 
 -   Configure indicators to reflect your customizations.
 
-    For example, if there are any new states introduced to the SAFe story table, then the corresponding indicators and indicator sources for the story table that rely on the **State** field must be updated as well.
+    For example, if you add states to the SAFe story table, you must update the indicators and indicator sources that rely on the **State** field.
 
     For more information, see [Customize indicators of your Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/customize-indicators-of-safe-dashboard-reports.md).
 

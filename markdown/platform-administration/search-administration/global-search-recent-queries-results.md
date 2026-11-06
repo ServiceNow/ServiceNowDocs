@@ -20,9 +20,9 @@ The **Recently Searched** and **Recently Viewed** lists appear below the Unified
 
 \[Omitted image "pol-search-recent-srch-view.png"\] Alt text: Unified Navigation search field showing Recently Searched and Recently Viewed lists.
 
-The **Recently Searched** list shows the most recent search queries from your personal search history. This list only appears when your search history includes previous search queries.
+The **Recently Searched** list shows the most recent search queries from your personal search history. This list appears only when your search history includes previous search queries.
 
-The **Recently Viewed** list shows the most recently viewed search results from your personal search history. This list only appears when your search history includes previously viewed search results.
+The **Recently Viewed** list shows the most recently viewed search results from your personal search history. This list appears only when your search history includes previously viewed search results.
 
 **Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 

@@ -21,7 +21,7 @@ The ServiceNow® Kubernetes Visibility Agent \(KVA\) provides comprehensive disc
 -   Visualize Kubernetes resource relationships and dependencies through integrated dashboards and dependency views.
 -   Maintain an up-to-date inventory of containerized applications and infrastructure to support service mapping and incident management.
 
-See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

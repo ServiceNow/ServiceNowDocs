@@ -281,7 +281,7 @@ You can add an allocation if there is none. For more information on how to add a
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

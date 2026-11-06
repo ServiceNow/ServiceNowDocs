@@ -20,7 +20,7 @@ The ServiceNow® SPM Enterprise-Wide Deployment application provides data partit
 -   Enforce partition visibility automatically across Project Workspace, Portfolio Planning Workspace, Resource Management Workspace, and Strategic Planning Workspace.
 -   Assign the EWD PMO role to users who require visibility across all partitions, such as PMO leads and portfolio managers.
 
-See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ewd-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -30,7 +30,7 @@ See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNo
 
 -   **Upgrade information**
 
-    After upgrading to SPM Enterprise-Wide Deployment v1.0.5, the system administrators loose access to the partitioned-data that they don't have the respective partition role assigned. Set the **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property to `true` if system administrators must continue accessing all the partitioned-data even though they don't have the respective partition role. For details, see [Configure administrator access to all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-admin-access-to-all-partitions.md).
+    After upgrading to SPM Enterprise-Wide Deployment v1.0.5, the system administrators loose access to the partitioned-data that they don't have the respective partition role assigned. Set the **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property to `true` if system administrators must continue accessing all the partitioned-data even though they don't have the respective partition role. For details, see .
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-business-management-rn-landing.md)
@@ -41,14 +41,14 @@ The version 1.1.0 release supports partition-specific dashboards, limits the par
 
 ### What's new
 
--   **[Partition-specific dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/map-dashboard-to-partition-ewd.md)**
+-   **Partition-specific dashboards**
 
     Map dashboards to partitions so that each partition uses its own dashboard layout and settings. A partition-to-dashboard mapping table stores these associations, so you can create, update, and delete mappings as your partition structure changes.
 
 
 ### What's changed
 
--   **[Portfolio project partition coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/supported-tables-for-partition-ewd.md)**
+-   **Portfolio project partition coverage**
 
     Partition protection extends to the relationships between portfolios and projects, stored in the Portfolio Project \[`pm_m2m_portfolio_project`\] table. Users see portfolio-project relationships only for the partitions that they can access.
 
@@ -59,7 +59,7 @@ The version 1.0.5 release restricts system administrator access to partition dat
 
 ### What's changed
 
--   **[Restrict system administrator access to partitioned data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-admin-access-to-all-partitions.md)**
+-   **Restrict system administrator access to partitioned data**
 
     Restrict system administrators from accessing partition-protected data through a new configurable system property. The system property **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** controls whether system administrators can access all partitions by default. By default, this property is set to `false`, which means system administrators must have the appropriate partition role to access partition-protected data.
 

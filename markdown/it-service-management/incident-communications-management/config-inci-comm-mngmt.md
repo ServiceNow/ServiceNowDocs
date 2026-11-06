@@ -18,5 +18,5 @@ Configure Incident Communications Management to create and manage communications
 
 ## Configuration overview
 
-Configure Incident Communications Management by installing and activating the Incident Communications Management \(com.snc.iam\) plugin.
+Configure Incident Communications Management by activating the Incident Communications Management plugin \(com.snc.iam\).
 

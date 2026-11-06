@@ -1,19 +1,19 @@
 ---
-title: Explore
-description: MCP for Enterprise Architecture provides enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data in their AI client. Opening the ServiceNow instance is not required.
+title: Explore MCP for Enterprise Architecture
+description: MCP for Enterprise Architecture gives enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from the AI client you already use, without opening the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/exploring-ea-mcp-server.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-24"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [EA MCP server]
 breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]
 ---
 
-# Explore
+# Explore MCP for Enterprise Architecture
 
-MCP for Enterprise Architecture provides enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data in their AI client. Opening the ServiceNow instance is not required.
+MCP for Enterprise Architecture gives enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from the AI client you already use, without opening the ServiceNow instance.
 
 ## MCP for Enterprise Architecture overview
 
@@ -28,11 +28,11 @@ The Enterprise Architecture \(EA\) Model Context Protocol \(MCP\) server connect
 
 ## Available tools
 
-Access Enterprise Architecture data and Now Assist AI skills as MCP tools, enabling LLM \(large language model\) agents to query and process business applications, capabilities, architectural relationships, and diagrams.
+Access Enterprise Architecture data and Now Assist AI skills as MCP tools, enabling large language model \(LLM\) agents to query and process business applications, capabilities, architectural relationships, and diagrams.
 
 The tools installed with the application are annotated as read-only. They retrieve or analyze EA data but don't create, update, or delete records in your instance. For details about tool annotations, see [Components installed with MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/installed-with-mcp-for-ea.md). For the parameters that each tool accepts, see [MCP for Enterprise Architecture tool parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-mcp-server-tool-parameters.md).
 
-The following tools are available:
+The following tools are available.
 
 |Tool name \[ID\]|Description|
 |----------------|-----------|
@@ -49,8 +49,9 @@ The following tools are available:
 To learn more about configuring and using MCP for Enterprise Architecture, see the following topics.
 
 -   [Configure MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configuring-ea-mcp-server.md)
--   [Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-ea-mcp-server.md)
+-   [Using MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-ea-mcp-server.md)
 -   [MCP for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/reference-ea-mcp-server.md)
+-   [Example prompts for MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-mcp-server-example-prompts.md)
 
 **Parent Topic:**[MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-mcp-server-landing-page.md)
 

@@ -30,6 +30,6 @@ Role required: platform\_document\_management\_admin
 
 5.  Select **Save**.
 
-    To create custom data patterns beyond the provided defaults, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-data-discovery-patterns.md).
+    To create custom data patterns beyond the provided defaults, see .
 
 

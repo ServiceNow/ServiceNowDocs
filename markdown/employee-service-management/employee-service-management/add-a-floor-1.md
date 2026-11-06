@@ -282,7 +282,7 @@ The floor is added to the building.
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto for Creator, Install ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, Install Now Assist for Creator]
-breadcrumb: [Configure, ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for Creator, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Install ServiceNow Otto for Creator

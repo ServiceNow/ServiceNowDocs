@@ -21,7 +21,7 @@ Manage a change lockdown by previewing affected change requests, submitting for 
 
 Create the change lockdown and add at least one schedule entry, because the **Preview** action becomes available only after a schedule entry is saved. For more information, see [Create a change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-lockdown.md).
 
-Role required: `change_manager`
+Role required: change\_manager
 
 ## About this task
 
@@ -37,11 +37,11 @@ A lockdown progresses through the **Draft**, **Awaiting Approval**, and **Enforc
 
 3.  Select **Close**.
 
-    If the preview dispalys the change requests that the lockdown should not affect, adjust the **Condition** or **Change Request Condition** field, or edit the schedule entry, then preview again.
+    If the preview displays change requests that the lockdown should not affect, adjust the **Condition** or **Change Request Condition** field, or edit the schedule entry, then preview again.
 
 4.  Select **Request Approval**.
 
-    The **State** field moves to **Awaiting Approval** and a message confirms that approval has been requested for the lockdown. Reload the record to see the approval record on the **Approvers** tab.
+    The **State** field changes to **Awaiting Approval**, and a message confirms that approval has been requested for the lockdown. Reload the record to see the approval record on the **Approvers** tab.
 
 5.  Select **Revert to Draft** to refine the lockdown before it is approved.
 
@@ -49,7 +49,7 @@ A lockdown progresses through the **Draft**, **Awaiting Approval**, and **Enforc
 
 6.  Ask the approver to approve or reject the lockdown.
 
-    An approval, the change lockdown moves to **Enforced** state and the approval becomes no longer required. The matched change requests are written to the **Schedule Lockdown Changes** related list with the **On hold** column set to `true`.
+    When the lockdown is approved, it moves to the **Enforced** state and the approval changes to **No Longer Required**. The matched change requests are written to the **Schedule Lockdown Changes** related list with the **On hold** column set to `true`.
 
     A rejection returns the lockdown to the **Draft** state, so that you can shorten the period or narrow the conditions and request approval again.
 
@@ -60,7 +60,7 @@ A lockdown progresses through the **Draft**, **Awaiting Approval**, and **Enforc
     |**Before approval**|The lockdown ends without placing any change request on hold. Use this option when the critical period is called off while the lockdown is in the **Draft** or **Awaiting Approval** state.|
     |**After approval**|The lockdown releases the change requests that it holds. On the **Schedule Lockdown Changes** tab, the **On hold** column changes from `true` to `false`. A change request that is on hold for another reason stays on hold.|
 
-    **Note:** A cancelled lockdown cannot be reverted or reused. To lock down changes again, create a new lockdown record.
+    **Note:** A canceled lockdown cannot be reverted or reused. To lock down changes again, create a new lockdown record.
 
 
 **Parent Topic:**[Change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-lockdown.md)

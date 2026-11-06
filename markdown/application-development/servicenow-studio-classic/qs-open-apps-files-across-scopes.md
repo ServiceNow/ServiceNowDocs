@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Open apps and app files across scopes in ServiceNow Studio
@@ -20,7 +20,7 @@ Open and edit apps and app files in any scope — global or custom — in Servic
 
 Each app or file you open in ServiceNow Studio opens in its own tab, showing the file name, file type, and scope.
 
-\[Omitted image "sn-studio-integrated-tab-bs1.png"\] Alt text: Each file opens in its own tab within ServicNow Studio, showing the file type and the application the record is in.
+\[Omitted image "sn-studio-integrated-tab-bs1.png"\] Alt text: Each file opens in its own tab within ServiceNow Studio, showing the file type and the application the record is in.
 
 If your browser window is narrow, open tabs may overflow. Select the more actions icon and choose **Show Opened Editors** to see a list of all open files. Select any file to open it in the canvas.
 

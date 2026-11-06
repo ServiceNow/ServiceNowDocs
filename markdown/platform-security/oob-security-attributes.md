@@ -43,7 +43,7 @@ Following security attributes are added for client session \(plugin: `com.glide.
 -   **Is Servicenow Web Session**: The attribute is used in web interactive session.
 -   **Is Mobile App Session**: The attribute is used if the **mobile\_client** property is true in the **oauth\_entity** record.
 
-**Note:** You must use the **IsIframeEmbeddedSession**, **IsIntegrationAsAServiceSession**, and **IsIntegrationAsAUserSession** only while configuring client type for OAuth and SSO records. To learn more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/client-type.md).
+**Note:** You must use the **IsIframeEmbeddedSession**, **IsIntegrationAsAServiceSession**, and **IsIntegrationAsAUserSession** only while configuring client type for OAuth and SSO records. To learn more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/client-type.md).
 
 ## Non-explicit and explicit behavior explained
 

@@ -17,7 +17,7 @@ breadcrumb: [State field policies for change models, Create a Change model, Conf
 
 The Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) includes state field policies for the base system change models. All default policies make fields mandatory only.
 
-To view, edit, or deactivate these policies, go to the **State Field Policies** related list on the model state record. To add or modify policies, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-state-field-policies.md).
+To view, edit, or deactivate these policies, go to the State Field Policies related list on the model state record. To add or modify policies, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-state-field-policies.md).
 
 |State|Mandatory fields|
 |-----|----------------|

@@ -125,5 +125,5 @@ Condition builder to create the recipients list based on the specified table and
 
 [Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-recipient-list.md)
 
-[Create a recipients list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_TargetCommCreateRecipientList.md)
+[bundle-csm.t_TargetCommCreateRecipientList]
 

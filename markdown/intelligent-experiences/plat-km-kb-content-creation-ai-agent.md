@@ -109,3 +109,12 @@ Not applicable.
 
 **Parent Topic:**[Knowledge Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-knowledge-management-ai-agents-overview.md)
 
+**Related topics**  
+
+
+[Generate a Knowledge article from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Now-Assist-generate-article-NApanel.md)
+
+[Generate a Knowledge article from the classic environment with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Now-Assist-generate-article-coreui.md)
+
+[Generate a Knowledge article using multi-language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Now-Assist-generate-article-using-multilanguage-support.md)
+

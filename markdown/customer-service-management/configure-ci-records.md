@@ -85,7 +85,7 @@ Fields
 
 </td><td>
 
-Select the fields to display on the record. **Note:** For the out-of-the-box **Contact** and **Consumer** record configurations, the **Fields** value is locked and displays the default fields for the corresponding context table. To display additional or different fields on the Contact Card in the Customer Information view, see [Configure fields on the Contact Card in the Customer Information view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
+Select the fields to display on the record. **Note:** For the out-of-the-box **Contact** and **Consumer** record configurations, the **Fields** value is locked and displays the default fields for the corresponding context table. To display additional or different fields on the Contact Card in the Customer Information view, see [Configure fields on the Contact Card in the Customer Information view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-contact-card-fields.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -94,5 +94,5 @@ Select the fields to display on the record. **Note:** For the out-of-the-box **C
 **Related topics**  
 
 
-[Configure fields on the Contact Card in the Customer Information view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
+[Configure fields on the Contact Card in the Customer Information view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-contact-card-fields.md)
 

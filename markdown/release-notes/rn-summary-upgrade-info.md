@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-upgrade-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 9
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -41,7 +41,7 @@ AI Desktop Actions
 
 </td><td>
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see .
 
 </td></tr><tr><td>
 
@@ -51,9 +51,9 @@ AI Risk and Compliance
 
 -   ****
 
-If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+If you're upgrading from an earlier release, upgrade sequentially through each release. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
 
-**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) and .
 
 
 </td></tr><tr><td>
@@ -76,6 +76,8 @@ Change Management
 The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
 
 To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
+The Change Management - Collision Detector plugin \(com.snc.change.collision\) is now activated automatically when you upgrade to the Brazil release.
 
 </td></tr><tr><td>
 
@@ -283,7 +285,7 @@ Project Portfolio Management
 
 -   ****
 
-Users who already have Project Portfolio Management can upgrade to PPM Standard. New users must purchase PPM Standard. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+Users who already have Project Portfolio Management can upgrade to PPM Standard. New users must purchase PPM Standard. For more information, see .
 
 
 </td></tr><tr><td>
@@ -304,7 +306,7 @@ SPM Enterprise-Wide Deployment
 
 -   ****
 
-After upgrading to SPM Enterprise-Wide Deployment v1.0.5, the system administrators loose access to the partitioned-data that they don't have the respective partition role assigned. Set the **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property to `true` if system administrators must continue accessing all the partitioned-data even though they don't have the respective partition role. For details, see [Configure administrator access to all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-admin-access-to-all-partitions.md).
+After upgrading to SPM Enterprise-Wide Deployment v1.0.5, the system administrators loose access to the partitioned-data that they don't have the respective partition role assigned. Set the **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** system property to `true` if system administrators must continue accessing all the partitioned-data even though they don't have the respective partition role. For details, see .
 
 
 </td></tr><tr><td>

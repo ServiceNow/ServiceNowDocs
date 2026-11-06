@@ -52,7 +52,6 @@ You have the following options for setting up communication channels:
     -   [Add an agent to the chat support assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_AddAgentToChatSupAssignGroup.md).
     -   [Activate Virtual Agent for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-virtual-agent-csm.md).
     -   [Activate Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
-    -   Integrate Customer Service Virtual Agent with Facebook Messenger.
 -   Set up the [social media integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/social-media-integration.md) feature to support case resolution through social media channels.
 
     -   [Create a social media profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-social-profile.md) for an account, contact, or consumer.

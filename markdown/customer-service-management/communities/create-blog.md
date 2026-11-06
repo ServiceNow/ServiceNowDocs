@@ -107,15 +107,15 @@ Click the check box to publish the blog on a specified date. Select the date, ti
 </td></tr></tbody>
 </table>4.  Complete one of the following actions to save your blog.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d302131e264">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d304360e264">
 
 To
 
-</th><th align="left" id="d302131e267">
+</th><th align="left" id="d304360e267">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d302131e273">
+</th></tr></thead><tbody><tr><td id="d304360e273">
 
 **Save as Draft**
 
@@ -128,7 +128,7 @@ From your profile page, you have the following options.1.  To review your blog b
 -   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options icon and then **Delete**.
 
 
-</td></tr><tr><td id="d302131e339">
+</td></tr><tr><td id="d304360e339">
 
 **Schedule**
 
@@ -136,7 +136,7 @@ From your profile page, you have the following options.1.  To review your blog b
 
 Click **Schedule** to post a blog on the specified date. You can edit or disable the schedule until the blog is published. **Note:** This option appears for a blog for which **Schedule Publish** option is selected.
 
-</td></tr><tr><td id="d302131e357">
+</td></tr><tr><td id="d304360e357">
 
 **Post**
 

@@ -20,7 +20,7 @@ Use the AI Admin Hub console to configure and activate the generative AI skills 
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy and reduce hallucinations for your activated Now Assist skills.
 
-Use the AI Admin Hub console to configure ServiceNow Otto for Threat Intelligence Security Center \(TISC\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for Threat Intelligence Security Center \(TISC\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md).
 
 To configure ServiceNow Otto for Threat Intelligence Security Center \(TISC\), complete the following tasks:
 

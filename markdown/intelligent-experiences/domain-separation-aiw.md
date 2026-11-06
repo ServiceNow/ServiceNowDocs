@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-separation-aiw.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
+keywords: [domain separation ai specialists, domain separation autonomous workforce, domain separation ai workforce, domain support ai specialists, domain support ai workforce]
 breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 

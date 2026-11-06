@@ -39,7 +39,7 @@ The discovery and mapping process consists of the following interactions:
 
         \[Omitted image "DiscoDiscoveryFlowStage1.png"\] Alt text: Service Mapping checks the CMDB and triggers the horizontal discovery.
 
-    3.  Discovery creates the first set of probes for port discovery, referred to as Shazzam probes, and places them as a discovery request in the External Communication Channel \(ECC\) queue.
+    3.  Discovery creates the first set of probes for port discovery, referred to as Shazzam probes. It places them as a discovery request in the External Communication Channel \(ECC\) queue.
     4.  The MID Server checks the ECC queue and retrieves the discovery request assigned to it.
     5.  The MID Server runs the probes against the host and discovers open ports.
 
@@ -83,7 +83,7 @@ The discovery and mapping process consists of the following interactions:
 
 [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/application-services.md)
 
-[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
+[ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
 [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md)
 

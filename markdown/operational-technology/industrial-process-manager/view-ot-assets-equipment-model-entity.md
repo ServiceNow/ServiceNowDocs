@@ -1,5 +1,5 @@
 ---
-title: Add OT devices that are associated with the selected equipment model entity
+title: Add OT devices associated with an equipment model entity
 description: Use OT devices to review the OT devices that are associated with the selected equipment model entity and its child entities. You can also select and associate other OT devices to the selected equipment model entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Review and update the equipment model details, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
-# Add OT devices that are associated with the selected equipment model entity
+# Add OT devices associated with an equipment model entity
 
 Use OT devices to review the OT devices that are associated with the selected equipment model entity and its child entities. You can also select and associate other OT devices to the selected equipment model entity.
 
@@ -45,15 +45,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the associated OT devices or the associate additional OT devices to the selected equipment model entity.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d96411e151">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d95993e151">
 
 Task
 
-</th><th align="left" id="d96411e154">
+</th><th align="left" id="d95993e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d96411e160">
+</th></tr></thead><tbody><tr><td id="d95993e160">
 
 **Review the associated OT devices for the selected equipment model entity**
 
@@ -61,7 +61,7 @@ Description
 
 Proceed to the next step and review the OT devices form.
 
-</td></tr><tr><td id="d96411e169">
+</td></tr><tr><td id="d95993e169">
 
 **Associate the additional OT devices to the selected equipment model entity**
 
@@ -73,7 +73,7 @@ Proceed to the next step and review the OT devices form.
 4.  To edit the columns on the table, select the List Actions \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: List Actions icon\) icon. Select **Edit columns** to choose the columns you want to display. For example, if you want to display the IP address column for the OT devices, select **IP Address** from the Available columns and select **OK**.
 
 
-</td></tr><tr><td id="d96411e214">
+</td></tr><tr><td id="d95993e214">
 
 **Remove the OT devices from the selected equipment model entity**
 

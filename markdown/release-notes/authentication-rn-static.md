@@ -1,6 +1,6 @@
 ---
 title: Authentication release notes
-description: The ServiceNow Authentication application supports many authentication mechanisms that enable you to authenticate the users. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Authentication.The Brazil Patch 1 release adds step-up authentication for AI voice agents in Authentication.
+description: The ServiceNow Authentication application supports many authentication mechanisms that enable you to authenticate the users. See the following sections for release notes by version.The Brazil Patch 1 release adds step-up authentication for AI voice agents in Authentication.The Brazil Early Availability release adds security features for Authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/authentication-rn-static.html
 release: brazil
@@ -18,7 +18,7 @@ The ServiceNow® Authentication application supports many authentication mechani
 ## About Authentication
 
 -   Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details.
--   Simplify the login experience by crafting login policies that present relevant methods based on user context with the Policy-based experience - Identifier-first login experience.
+-   Simplify the login experience by creating identifier-first login policies that present relevant methods based on user context with the policy-based login experience.
 -   Act before SSO is disrupted with home page banner alerts when SAML SP signing or encryption keystores are nearing or past expiry.
 -   Authenticate callers in AI voice agent sessions using a one-time passcode delivered to a registered email address, as a standalone, primary, or secondary factor.
 -   Connect ServiceNow to Microsoft Azure and Google Cloud Platform without storing or rotating client secrets, using federated identity based on signed JWTs.
@@ -44,6 +44,17 @@ See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
         Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
 
 
+## Brazil Patch 1
+
+The Brazil Patch 1 release adds step-up authentication for AI voice agents in Authentication.
+
+### What's new
+
+-   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/step-up-authentication.md)**
+
+    Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
+
+
 ## Brazil Early Availability
 
 The Brazil Early Availability release adds security features for Authentication.
@@ -52,7 +63,7 @@ The Brazil Early Availability release adds security features for Authentication.
 
 -   **[Policy-based login experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/next-gen-login-experience.md)**
 
-    Use the Policy-based experience \(identifier-first login\) framework in the Authentication Console to craft login policies to simplify the login experience by presenting relevant login methods based on user context, such as username or email.
+    Use the policy-based login experience in the Authentication Console to create identifier-first login policies that simplify the login experience by presenting relevant login methods based on user context, such as username or email. To turn on the experience, set the glide.authenticate.policy\_based\_login\_experience.enabled property to true, turn on Enable policy-based login in the Authentication Console, and create at least one active identifier-first login policy.
 
 -   **[SAML certificate expiry notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SAML2.0WebBrowserSSOProfile.md)**
 
@@ -102,14 +113,10 @@ The Brazil Early Availability release adds security features for Authentication.
     Use the KBA setup to configure Knowledge-Based Authentication \(KBA\) for the voice channel. Choose from base system questions at both the identification level and the authentication level. AI voice service mappings are populated automatically from your Assistant Designer selection, so manually mapping voice services is no longer a mandatory step in the KBA setup.
 
 
-## Brazil Patch 1
+### What's deprecated or removed
 
-The Brazil Patch 1 release adds step-up authentication for AI voice agents in Authentication.
+-   **Basic Authentication for inbound integrations**
 
-### What's new
-
--   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/step-up-authentication.md)**
-
-    Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
+    Starting with the Brazil release, Basic Authentication is being prepared for future deprecation. OAuth 2.0, mutual TLS \(mTLS\), and federated token-based authentication provide the latest experience for this functionality. Basic Authentication remains supported on inbound requests, such as REST and SOAP, until a future release. Migrate your inbound integrations to a supported method. For guidance on identifying and migrating these integrations, see the [KB3220405](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220405) article.
 
 

@@ -17,7 +17,7 @@ The agent containment list shows agents that were deactivated and reinstated for
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: sn\_ai\_security.viewer to view the list, sn\_ai\_security.operator or sn\_ai\_governance.ai\_steward to reinstate agents
 
 ## Procedure
 

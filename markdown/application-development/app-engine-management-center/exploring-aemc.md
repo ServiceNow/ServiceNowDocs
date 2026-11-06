@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [App Engine Management Center, AEMC, Custom app governance, Governing app development, Deploy applications]
-breadcrumb: [App Engine Management Center, Run, AI Workflow Factory, Building applications]
+breadcrumb: [App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring the App Engine Management Center

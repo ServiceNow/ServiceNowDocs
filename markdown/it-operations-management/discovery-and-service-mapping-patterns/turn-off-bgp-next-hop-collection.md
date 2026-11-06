@@ -19,7 +19,7 @@ You can turn off Next Hop Routing Rule \[dscy\_route\_next\_hop\] table collecti
 
 ## Before you begin
 
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Navigate to `sys_properties.list` and verify that the **glide.discovery.bgp\_router\_disable** property is set to false.
 
 Role required: discovery\_admin

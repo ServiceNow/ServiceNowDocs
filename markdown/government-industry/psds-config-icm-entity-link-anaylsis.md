@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: brazil
 topic_type: task
 last_updated: "2026-03-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Entity Management, Investigative Case Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -180,7 +180,80 @@ Role required: admin
     
     ```
 
-7.  
+7.  Embed the Component in UI Builder.
+
+    1.  Navigate to **UI Builder** and navigate to your workspace record page.
+
+    2.  Open a new tab.
+
+    3.  Ensure the scope is set to **sn\_config\_comps**, and search the component palette for Link Analysis default.
+
+    4.  Place the compenent onto the page you wish for the link analysis component to appear.
+
+    5.  Add the following properties to the page context.
+
+<table id="table_mdc_tfm_1lc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Bind To
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+table
+
+</td><td>
+
+Page param: table name
+
+</td><td>
+
+The home record's table \(e.g., "myapp\_case"\)
+
+</td></tr><tr><td>
+
+sysID
+
+</td><td>
+
+Page param: record sys\_id
+
+</td><td>
+
+The home record's sys\_id
+
+</td></tr><tr><td>
+
+graphSysId
+
+</td><td>
+
+Static string: your MY\_GRAPH\_ID value
+
+</td><td>
+
+Must match the constant in your Config Provider
+
+</td></tr><tr><td>
+
+maxLevels
+
+</td><td>
+
+Static number: 2
+
+</td><td>
+
+How many relationship hops \(1, 2, or 3\)
+
+</td></tr></tbody>
+</table>
 ## Result
 
 The link analysis is now set up, and the relationship between each entity can be viewed with a graph.

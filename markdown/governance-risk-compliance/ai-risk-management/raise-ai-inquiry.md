@@ -25,15 +25,15 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user
 
 1.  Raise an AI inquiry from the Employee Center or from the AI Risk and Compliance Workspace.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d257405e79">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d258241e79">
 
 Option
 
-</th><th align="left" id="d257405e82">
+</th><th align="left" id="d258241e82">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d257405e88">
+</th></tr></thead><tbody><tr><td id="d258241e88">
 
 **Raise an AI inquiry using the Employee Center**
 
@@ -43,7 +43,7 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 2.  Select the **Raise an AI inquiry** card.
 **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d257405e137">
+</td></tr><tr><td id="d258241e137">
 
 **Raise an AI inquiry using the AI Risk and Compliance Workspace**
 

@@ -1,12 +1,12 @@
 ---
 title: Zero Copy Connector for ERP release notes
-description: The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
+description: The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/zero-copy-connector-for-erp-rn.html
 release: brazil
 topic_type: topic
-last_updated: "2026-09-29"
-reading_time_minutes: 1
+last_updated: "2026-10-20"
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -17,10 +17,12 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
 ## About Zero Copy Connector for ERP
 
--   Add Workday RaaS reports to read operations by pasting a sample report response.
--   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Retrieve and update data from an ERP system, such as SAP, SuccessFactors, Workday, or Oracle E-Business Suite.
+-   Create models that include ERP system data in remote tables and extraction tables.
+-   Use extracted and transformed data to build applications that access the models.
+-   Accelerate application development with Zero Copy Connector for ERP content packs that contain predefined models and process extensions.
 
-See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -33,10 +35,39 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
     SAP ECC, SAP S/4 HANA, and Oracle E-Business Suite \(12.2 and later\) are the available systems that integrate with Zero Copy Connector for ERP.
 
 
--   **[Brazil Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connector-for-erp-rn-2026-09.md)**  
-The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
--   **[Brazil October 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connector-for-erp-rn-2026-10.md)**  
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+
+## Brazil Early Availability 2 \(10.7.1, October 2026\)
+
 The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
 
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+### What's new
+
+-   **Support for Workday RaaS**
+
+    Add Workday RaaS reports to read operations by pasting a sample report response.
+
+
+## Brazil Early Availability \(10.6.0, September 2026\)
+
+The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
+
+### What's new
+
+-   **Support for Oracle E-Business Suite**
+
+    Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
+
+-   **Use Oracle EBS ISG services**
+
+    Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
+
+-   **AI search for WADL service endpoints**
+
+    Search for endpoints of discovered WADL services from the interface using AI Search.
+
+-   **Row count for the scriptable API**
+
+    Call the `getRowCount()` method on the `API` class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for `execute()`.
+
 

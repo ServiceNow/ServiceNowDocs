@@ -40,7 +40,7 @@ Enable certificate based authentication
 
 </td><td>
 
-Option to enable to Certificate-based authentication for both user interface logins and inbound web services.Default: true
+Option to enable Certificate-based authentication for both user interface logins and inbound web services.Default: true
 
 **Note:** On the Portal pages, use the Form Layout to add the field to the form and then enable the property.
 
@@ -58,7 +58,7 @@ Enable auto-redirect for certificate based login
 
 </td><td>
 
-Determines whether to require that the user click **Log in with PIV/CAC card** after selecting a registered certificate and entering their PIN. Activate to automatically log in the user after they select a registered client certificate and enter their PIN. Deactivate to require that the user click **Log in with PIV/CAC card** after they select a registered client certificate and enter their PIN.Default: false
+Determines whether to require that the user select **Log in with PIV/CAC card** after selecting a registered certificate and entering their PIN. Activate to automatically log in the user after they select a registered client certificate and enter their PIN. Deactivate to require that the user select **Log in with PIV/CAC card** after they select a registered client certificate and enter their PIN.Default: false
 
 </td></tr></tbody>
 </table>

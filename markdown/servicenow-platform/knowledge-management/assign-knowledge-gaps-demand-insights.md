@@ -53,7 +53,7 @@ Knowledge gap feedback tasks created through the Knowledge Demand Insights featu
 **Related topics**  
 
 
-[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignmentModuleRule.md)
+[bundle-platadm.t_AssignmentModuleRule]
 
 [Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md)
 

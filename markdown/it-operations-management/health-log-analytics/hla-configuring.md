@@ -21,7 +21,11 @@ As an Administrator, set up and configure Health Log Analytics for Operators to 
 
 Complete the following tasks for a successful setup and configuration of Health Log Analytics.
 
-**Important:** Regardless of how you implement Health Log Analytics, for log data ingestion via a MID Server you must first configure [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and ensure that the MID Server log ingestion capability is enabled.
+**Important:**
+
+Regardless of how you set up data inputs in Health Log Analytics, you must meet the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and verify that the MID Server log ingestion capability is enabled.
+
+**Note:** This requirement doesn't apply when using MID-less integrations to stream logs to Health Log Analytics.
 
 For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md).
 

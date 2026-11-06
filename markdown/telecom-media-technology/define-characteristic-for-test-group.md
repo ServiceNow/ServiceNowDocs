@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 1
 keywords: [test group, characteristic]
-breadcrumb: [Test group characteristics, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up a test group, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define a characteristic for a test group
@@ -29,12 +29,7 @@ Role required: sn\_st\_mgmt.test\_def\_creator, admin
 
 4.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Characteristic|Service or product characteristic that the tests in the group use. The list excludes characteristics that you already added to this test group.|
-    |Characteristic option|Option for the selected characteristic.|
-    |Test group|Auto-populated name of the test group for which you're defining the characteristic.|
-    |Is Mandatory|Option to specify that the characteristic is required for the test.|
+    For more information about the fields, see [Test Characteristic form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-characteristic-fields.md).
 
     **Note:** A characteristic belongs to either a test group or a test definition, not both. You can't change the owner after you save the record.
 
@@ -43,5 +38,9 @@ Role required: sn\_st\_mgmt.test\_def\_creator, admin
 
 ## Result
 
-The characteristic is added to the test group. You can now map it to a test definition. See [Map a test group characteristic to a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/map-test-group-characteristics-to-test-definition.md).
+The characteristic is added to the test group.
+
+## What to do next
+
+Map the characteristic to a test definition so that the test definition inherits it. See [Map a test group characteristic to a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/map-test-group-characteristics-to-test-definition.md).
 

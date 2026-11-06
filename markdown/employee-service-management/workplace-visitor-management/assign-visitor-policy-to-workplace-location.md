@@ -26,7 +26,7 @@ Role required: sn\_wsd\_visitor.admin
 
 ## About this task
 
-You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and ensure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
+You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and make sure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
 
 ## Procedure
 
@@ -42,7 +42,7 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
 6.  In the Locations related list, apply the policy to internal or external visitors and configure whether the policies require signatures.
 
-    1.  Select the preview icon \(\) for the record that you want to edit.
+    1.  Select the preview option for the record that you want to edit.
 
     2.  On the preview window for the location policy, select **Open Record**.
 

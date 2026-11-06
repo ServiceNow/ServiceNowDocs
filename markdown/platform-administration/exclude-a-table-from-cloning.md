@@ -37,3 +37,7 @@ Data is removed during the exclusion substage before the node repoint. The data 
 4.  Select **Submit**.
 
 
+## Result
+
+The exclusion is created but isn't automatically added to your clone profiles. Add it to each profile where you want it applied. For more information, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-clone-profile.md).
+

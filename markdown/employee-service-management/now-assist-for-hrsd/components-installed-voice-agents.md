@@ -1,5 +1,5 @@
 ---
-title: Components installed with voice
+title: Components installed with Voice
 description: Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Components installed with voice
+# Components installed with Voice
 
 Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 

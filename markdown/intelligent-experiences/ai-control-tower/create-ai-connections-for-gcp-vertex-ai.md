@@ -23,7 +23,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower workspace** &gt; **Configuration** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower workspace** &gt; **Configuration** &gt; **AI connections**.
 
 2.  Select **Add**.
 

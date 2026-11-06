@@ -23,7 +23,7 @@ You must first create and publish a remediation workflow that addresses the CI i
 -   The table in the workflow must match the task type in the remediation rule.
 -   The workflow isn't configured with any filter conditions by setting **If condition matches** to `None`, so that the filters of the CMDB remediation rule will apply.
 
-For more information about using Classic Workflows, see [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowOverview.md).
+For more information about using Classic Workflows, see .
 
 Role required: sn\_cmdb\_admin or itil\_admin \(on top of sn\_cmdb\_editor or itil\)
 
@@ -63,7 +63,7 @@ Task filter
 
 </td><td>
 
-Filters tasks to apply remediation to. Also applies [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md) on CI fields so that remediation is applied to tasks associated with matching CIs.
+Filters tasks to apply remediation to. Also applies dot-walking on CI fields so that remediation is applied to tasks associated with matching CIs.
 
 </td></tr><tr><td>
 
@@ -121,5 +121,5 @@ Manually initiate a workflow to remediate a CI that failed a CMDB health test. F
 
 [CMDB Health reference]()
 
-[Dot-Walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md)
+[bundle-platux.c_DotWalking]
 

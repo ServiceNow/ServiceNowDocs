@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for Amazon
-description: Use the  AI Service Graph Connector for Amazon to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the  AI Service Graph Connector for Amazon to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aws\_0.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discov
 
 # AI Service Graph Connector for Amazon
 
-Use the  AI Service Graph Connector for Amazon to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for Amazon to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Download apps from the Store
 

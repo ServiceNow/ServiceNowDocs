@@ -8,7 +8,7 @@ product: Goal Framework
 classification: goal-framework
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -136,6 +136,7 @@ Can create, view, edit, and delete any goal.
 |-------------|-----------|
 |Update Actual value of the targets using Goal Framework for SPM|Updates the actual value of the targets by collecting the data from the respective target sources, so that the progress of the targets is updated and then the targets' progress is rolled up to the goals.|
 |Migrate BreakdownInterval To Checkinfrequency|Migrates the existing values from the **Review frequency** field to the **Check-in frequency** field in the target records. For more information, see [Migrate target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/migrate-target-breakdowns.md).|
+|Goal calendar alignment - Reset check-in frequency for stale targets|Sets the check-in frequency of each stale target to None and deletes its breakdowns. The actual value of each target is kept. The job runs on demand. Its script takes a start date and an end date in YYYY-MM-DD format, and an optional encoded query in **extraQuery** to narrow the targets. For steps, see [Reset the check-in frequency of stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/reset-stale-target-check-in-frequency.md).|
 
 ## Tables installed
 
@@ -279,7 +280,7 @@ Predefined script that updates the **Actual value** field on the target form by 
 |glide.ui.sn\_gf\_goal\_target\_activity.field|Option to enable activity stream for fields of the targets.|
 |sn\_gf.allow\_goal\_deletion|Option to enable deletion of goals. The default value is true.|
 |sn\_gf.allow\_target\_deletion|Option to enable deletion of targets. The default value is true.|
-|sn\_gf.goal\_calendar\_type|Option to set calender type for setting goals. The available calendar types are Gregorian Calendar and Fiscal Period. The default value is Gregorian Calendar.|
+|sn\_gf.goal\_calendar\_type|Option to set calender type for setting goals. The available calendar types are Gregorian Calendar and Fiscal Period. The default value is Gregorian Calendar. This property is superseded by **sn\_gfa.calendar\_type** in Goal Framework for SPM.|
 |sn\_gf.maintain\_constant\_tolerance\_percent|Tolerance percentage that is used to determine whether the actual value of a Maintain constant target meets the planned target. The default value is 5. For more information, see [Configure the tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configure-maintain-constant-tolerance.md).|
 |sn\_gf.weighted\_average\_enabled|Option to enable the weighted average logic to calculate the progress of goals from their subgoals and targets.|
 
@@ -288,6 +289,7 @@ Predefined script that updates the **Actual value** field on the target form by 
 |sn\_gfa\_disable\_target\_breakdown|Option to enable the target breakdowns feature at the instance level. The default value is false.|
 |sn\_gfa.target\_breakdown\_decimals|Option to define the number of decimals to show for target values while generating the target breakdowns. The default value is 2.|
 |sn\_gfa.weeklyCheckInDayToMapMonth|Option to define end day of the week for weekly target breakdowns mapping to month. The default value is Friday.|
+|sn\_gfa.calendar\_type|Option to set the goal calendar mode. The available values are `gregorian` and `fiscal`. The default value is `gregorian`. Changing the value can make targets stale. For more information, see [Setting a goal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/set-a-goal-calendar.md).|
 
 **Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

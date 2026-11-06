@@ -66,11 +66,11 @@ Ensure that you have installed the Workplace Connectors application. For more in
 **Related topics**  
 
 
+[]()
+
 [Scenario Planning]()
 
 [Schedule Planning]()
-
-[Allocation - types, setting, and impact]()
 
 [Lists module]()
 

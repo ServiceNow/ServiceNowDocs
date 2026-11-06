@@ -43,7 +43,7 @@ Search Suggestions generates auto-complete suggestions and search suggestions fr
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_search_suggestion_blacklist.list`.
+    2.  In the navigation field, enter `sys_search_suggestion_blacklist.list`.
 
     3.  Press Enter.
 

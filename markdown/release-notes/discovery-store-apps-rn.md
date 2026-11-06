@@ -1,6 +1,6 @@
 ---
 title: Discovery store applications release notes
-description: The ServiceNow Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Foundry Hub, with field updates for Amazon Bedrock and Microsoft Foundry \(classic\).Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.ACC-Visibility September 2026 adds package discovery, custom software filter rules, license key verification, and software categorization for improved inventory control.The September release introduces life cycle management for service accounts, IP addresses, and tags.The September release includes updates to the mapping of RDS allocated storage capacity information and operating system domain and the import of primary IP address for Server. This release also includes the discovery of Amazon FSx file system resources and introduces IMDS v2 support for the discovery of Kubernetes resources.The September release includes updates to patch job discovery, operating system domain mapping, import of MAC address for Network Adapter, and deep discovery jobs.ITOM URL Discovery 1.6.0 fixes a cross-application scope error that prevented broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
+description: The ServiceNow Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Foundry Hub, with field updates for Amazon Bedrock and Microsoft Foundry \(classic\).Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.The September release introduces life cycle management for service accounts, IP addresses, and tags.The September release includes updates to the mapping of RDS allocated storage capacity information and operating system domain and the import of primary IP address for Server. This release also includes the discovery of Amazon FSx file system resources and introduces IMDS v2 support for the discovery of Kubernetes resources.The September release includes updates to patch job discovery, operating system domain mapping, import of MAC address for Network Adapter, and deep discovery jobs.ITOM URL Discovery 1.6.0 fixes a cross-application scope error that blocked broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/discovery-store-apps-rn.html
 release: brazil
@@ -28,12 +28,12 @@ The ServiceNow® Discovery store applications provide a unified, connected view 
 
 See the following documentation for more information:
 
--   [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_MappingPatternsCustomization.md)
+-   Discovery patterns used by ITOM Visibility
 -   [Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-aws-sg.md)
 -   [Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-azure.md)
 -   [Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgc-cmdb-integration-gcp.md)
--   [ITOM Content Service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-content-service-classifiers.md)
--   [AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ai-agent-topology-mapping-landing.md)
+-   ITOM Content Service candidates
+-   
 
 ## Activation and other requirements
 
@@ -50,116 +50,93 @@ New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Found
 
 ### What's new
 
--   **[Discover AI agents in Microsoft Foundry \(new\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-foundry-new-pattern.md)**
+-   **Discover AI agents in Microsoft Foundry \(new\)**
     -   Discovers AI agents, models, prompts, and tags.
     -   Creates Product and Asset Models for each discovered item, with AI Control Tower \(AICT\) populated.
     -   Establishes relationships between Agent and Model.
--   **[Discover AI assistants in Microsoft Foundry Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-foundry-hub-pattern.md)**
+-   **Discover AI assistants in Microsoft Foundry Hub**
     -   Discovers AI assistants, prompts, models, hub projects, and tags.
     -   Creates Product and Asset Models for each discovered item, with AICT populated.
     -   Establishes relationships between Assistant and Model, and between Assistant and Hub Project.
 
 ### What's changed
 
--   **[Amazon Bedrock attribute updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/amazon-bedrock-pattern.md)**
+-   **Amazon Bedrock attribute updates**
     -   Version is now populated in the object ID and product instance ID fields.
     -   Vendor is populated in AI System Digital Asset \(alm\_ai\_system\_digital\_asset\) and AI Prompt Digital Asset \(alm\_ai\_prompt\_digital\_asset\).
     -   Manufacturer now populates from the **glide.appcreator.company.friendly\_name** system property instead of a hardcoded value in the AI System Component Product Model \(cmdb\_ai\_system\_component\_product\_model\) and AI Prompt Product Model \(cmdb\_ai\_prompt\_product\_model\) tables.
--   **[Microsoft Foundry \(classic\) attribute updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-foundry-classic-pattern.md)**
+-   **Microsoft Foundry \(classic\) attribute updates**
     -   Vendor is populated in AI System Digital Asset \(alm\_ai\_system\_digital\_asset\) and AI Prompt Digital Asset \(alm\_ai\_prompt\_digital\_asset\).
     -   Manufacturer now populates from the **glide.appcreator.company.friendly\_name** system property instead of a hardcoded value in the AI System Component Product Model \(cmdb\_ai\_system\_component\_product\_model\) and AI Prompt Product Model \(cmdb\_ai\_prompt\_product\_model\) tables.
 
-## Discovery and Service Mapping Patterns version 1.35.0
+## Discovery and Service Mapping Patterns version 1.35.1
 
 Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.
 
 ### What's new
 
--   **[New patterns for resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_MappingPatternsCustomization.md)**
+-   **New patterns for resource discovery**
 
     Discover the following resources:
 
-    -   [IBM Flash System storage servers, pools, volumes, network adapters, fibre channel ports, and controllers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ibm-flash-system-pattern.md)
-    -   [AWS Marketplace products \(product type: AMI and SaaS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-marketplace-pattern.md)
-    -   [AWS Linux Server CIs \(cloud discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-linux-server-pattern.md)
-    -   [AWS Windows Server CIs \(cloud discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-windows-server-pattern.md)
-    -   [Oracle OCI hardware types \(shapes\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-cloud-hardware-type-pattern.md)
-    -   [Oracle Access Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-access-manager-pattern.md)
-    -   [Oracle Coherence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-coherence-pattern.md)
-    -   [Oracle Enterprise Manager Management Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-oem-oms-pattern.md)
-    -   [Oracle Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-forms-pattern.md)
-    -   [Oracle HTTP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-http-server-pattern.md)
-    -   [Oracle Internet Directory Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-oid-server-pattern.md)
-    -   [Oracle Node Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-node-manager-pattern.md)
-    -   [Oracle Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-reports-pattern.md)
-    -   [Oracle Siebel CRM Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-siebel-crm-server-pattern.md)
-    -   [Oracle Siebel Gateway Name Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-siebel-gateway-pattern.md)
-    -   [Oracle TNS Listener](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-tns-listener-pattern.md)
-    -   [Oracle Unified Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-unified-directory-pattern.md)
-    -   [Red Hat 389 Directory Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-389-directory-server-pattern.md)
-    -   [Red Hat JBoss Enterprise Application Platform Host Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-jboss-eap-hc-pattern.md)
-    -   [Red Hat JBoss Enterprise Application Platform Server on UNIX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-jboss-eap-server-unix-pattern.md)
-    -   [Red Hat JBoss Enterprise Application Platform Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-jboss-eap-server-pattern.md)
-    -   [Red Hat Podman](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-podman-pattern.md)
-    -   [Red Hat Single Sign-On Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-sso-server-pattern.md)
-    -   [Red Hat WildFly Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/red-hat-wildfly-server-pattern.md)
--   **[OCI UK Sovereign Cloud support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-oci-service-accounts.md)**
+    -   IBM Flash System storage servers, pools, volumes, network adapters, fibre channel ports, and controllers
+    -   AWS Marketplace products \(product type: AMI and SaaS\)
+    -   AWS Linux Server CIs \(cloud discovery\)
+    -   AWS Windows Server CIs \(cloud discovery\)
+    -   Oracle OCI hardware types \(shapes\)
+    -   Oracle Access Manager
+    -   Oracle Coherence
+    -   Oracle Enterprise Manager Management Server
+    -   Oracle Forms
+    -   Oracle HTTP Server
+    -   Oracle Internet Directory Server
+    -   Oracle Node Manager
+    -   Oracle Reports
+    -   Oracle Siebel CRM Server
+    -   Oracle Siebel Gateway Name Server
+    -   Oracle TNS Listener
+    -   Oracle Unified Directory
+    -   Red Hat 389 Directory Server
+    -   Red Hat JBoss Enterprise Application Platform Host Controller
+    -   Red Hat JBoss Enterprise Application Platform Server on UNIX
+    -   Red Hat JBoss Enterprise Application Platform Server on Windows
+    -   Red Hat Podman
+    -   Red Hat Single Sign-On Server
+    -   Red Hat WildFly Server
+-   **OCI UK Sovereign Cloud support**
 
     Discover Oracle OCI UK Sovereign Cloud accounts by configuring a UK Sovereign Cloud datacenter URL when creating an OCI service account.
 
--   **[Cisco Nexus Virtual Routing and Forwarding discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/network-router-patterns.md)**
+-   **Cisco Nexus Virtual Routing and Forwarding discovery**
 
     Discover Virtual Routing and Forwarding \(VRF\) instances on Cisco Nexus switches using the "Network Switch" and "Network Router" patterns.
 
--   **[Kubernetes MID Server cluster high availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-discovery.md)**
+-   **Kubernetes MID Server cluster high availability**
 
     Discover Kubernetes clusters using a MID Server cluster instead of a single MID Server for high availability and load balancing. Set up using a MID Server cluster by configuring the `sn_itom_pattern.k8s_midserver` property to a MID Server cluster name.
 
--   **[Oracle Wallet for Oracle Database discovery Windows support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-wallet-authentication.md)**
+-   **Oracle Wallet for Oracle Database discovery Windows support**
 
     Discover Oracle Databases on Windows using Oracle Wallet instead of storing applicative credentials on the ServiceNow AI Platform. Enable Oracle Wallet authentication by setting the **glide.discovery.oracle\_wallet\_authentication** property to **true**.
 
--   **[Kubernetes large-payload discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-discovery.md)**
+-   **Kubernetes large-payload discovery**
 
     Discover Kubernetes clusters using the "Kubernetes Cluster - Per-Namespace LP" pattern to handle large cluster payloads.
 
 
 ### What's changed
 
--   **[AWS active datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/exclude-aws-resource-ldc-discovery.md)**
+-   **AWS active datacenter discovery**
 
     AWS discovery now uses the Resource Explorer API instead of the Config API to determine whether a datacenter region is active or passive. Use the `mid.cloud.discovery.sonar.exclude_resource_types` property to exclude specific resource types when evaluating a region's status.
 
--   **[OCI virtual machine BYOL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-vm-pattern.md)**
+-   **OCI virtual machine BYOL discovery**
 
     The "Oracle OCI - Virtual Machine \(LP\)" pattern now discovers the Windows license type for OCI virtual machines \(VMs\), including Bring Your Own License \(BYOL\) and License Included.
 
--   **[Service Account and Logical Datacenter job full resync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-sa-ldc-full-resync.md)**
+-   **Service Account and Logical Datacenter job full resync**
 
     The **Populate SA and LDC IN CMDB** job supports a full resync to reprocess all configuration item \(CI\) records. Configure the **sn\_itom\_pattern.populate\_saldc\_full\_resync** system property when service accounts or logical datacenters have incorrect or corrupted values for a CI.
-
-
-## Agent Client Collector for Visibility Content version 2.0.3
-
-ACC-Visibility September 2026 adds package discovery, custom software filter rules, license key verification, and software categorization for improved inventory control.
-
-### What's new
-
--   **[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/accvc-package-discovery.md)**
-
-    Discover software on endpoints that isn't discoverable by traditional checks and policies.
-
--   **[Create a custom filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-custom-filter-rule.md)**
-
-    Create a custom software filter rule to exclude irrelevant entries from Discovery in your Software Asset Management \(SAM\) inventory.
-
--   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-license-key-rule.md)**
-
-    Verify software legitimacy by creating license keys on your Windows, Linux and macOS devices.
-
--   **[Categorize software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-software-categorization.md)**
-
-    Use software categorization to group discovered software packages into business-relevant categories. Software categorization helps you avoid manually tagging software and provides administrative teams with an efficient inventory of software records.
 
 
 ## Service Graph Connector for Microsoft Azure version 1.18.0
@@ -401,12 +378,12 @@ The September release includes updates to patch job discovery, operating system 
 
 ## URL Discovery version 1.6.0
 
-ITOM URL Discovery 1.6.0 fixes a cross-application scope error that prevented broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
+ITOM URL Discovery 1.6.0 fixes a cross-application scope error that blocked broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
 
 ### What's changed
 
 -   **Discover all URLs toggle**
 
-    Fixed a cross-application scope error that prevented the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to ITOM URL Discovery to enable or disable the toggle.
+    Fixed a cross-application scope error that blocked the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to **ITOM URL Discovery** to turn the toggle on or off.
 
 

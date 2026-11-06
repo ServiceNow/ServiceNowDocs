@@ -29,7 +29,7 @@ Create a serverless discovery schedule to run IBM Flash System storage discovery
     -   `POST /rest/v1/lsdrive`
     -   `POST /rest/v1/lsfabric`
 -   Create an alias for a basic authentication credential. For more information, see [Create an alias for a basic authentication credential for IBM Flash System discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-ibm-flash.md).
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Retrieve the following values from your IBM Flash System array:
     -   Management IP address
     -   REST API port \(typically 7443\)

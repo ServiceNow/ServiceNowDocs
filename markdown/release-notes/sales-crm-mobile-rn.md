@@ -1,12 +1,13 @@
 ---
 title: Sales CRM Mobile release notes
-description: The ServiceNow Sales CRM Mobile application enables sales representatives and managers to access and manage customer information, sales pipeline, opportunities, and more from a mobile device. See the following sections for release notes by version.Sales CRM Mobile is introduced in this release, giving sales representatives and managers a dedicated mobile app to manage customer information, pipeline, and opportunities from anywhere.
+description: The ServiceNow Sales CRM Mobile application enables sales representatives and managers to access and manage customer information, sales pipeline, opportunities, and more from a mobile device. See the following sections for release notes by version.Sales CRM Mobile version 1.1 adds CRM touchpoints and other enhancements.Sales CRM Mobile is introduced in this release, giving sales representatives and managers a dedicated mobile app to manage customer information, pipeline, and opportunities from anywhere.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/sales-crm-mobile-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [touchpoints, ServiceNow Otto]
 breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -32,6 +33,21 @@ See [Mobile experience for Sales CRM](https://raw.githubusercontent.com/ServiceN
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
+
+## Version 1.1
+
+Sales CRM Mobile version 1.1 adds CRM touchpoints and other enhancements.
+
+### What's new
+
+-   **[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-your-day-sales-crm-mobile.md)**
+
+    Touchpoints track your interactions with contacts, accounts, leads, and opportunities. View them from the quick access section of My Day. Use the **My Touchpoints** tab to view the touchpoints related your records. On the **All** tab, users can view all the touchpoints in the instance. Open a touchpoint to view its owner, details, related records, and activities.
+
+-   **[ServiceNow Otto AI Interface activated by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/servicenow-otto-sales-crm-mobile.md)**
+
+    ServiceNow Otto AI Interface on mobile is activated by default for users to access it.
+
 
 ## Version 1.0
 

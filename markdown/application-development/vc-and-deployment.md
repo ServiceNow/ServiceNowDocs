@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [vibe coding, AI-assisted development, deployment, workflow, collaborative design, AI-driven app development, review and testing, deployment approval, autonomous checks, Git-based source control, update sets, application packaging, scoped applications, CI/CD]
-breadcrumb: [Develop, Agentic development, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development and deployment

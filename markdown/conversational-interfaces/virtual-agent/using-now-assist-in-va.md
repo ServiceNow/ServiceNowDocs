@@ -191,7 +191,7 @@ Redirects into the full-page experience's chat tab.
 
 Standard, enhanced, and premium chat require the ServiceNow default chat widget button to be turned on. The following actions must be completed for enhanced or premium chat to display a synthesized response after entering a search query through the portal:
 
--   [Configure the portal's AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais.md)
+-   Configure the portal's AI Search
 -   Turn on the ServiceNow default Search page widget.
 -   Turn on the ServiceNow default chat widget button.
 
@@ -207,11 +207,11 @@ The following actions must be completed for enhanced or premium chat to display 
 Want to learn more? Visit these resources.
 
 -   For more information on enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-enhanced-chat.md).
--   For more information on enhanced chat in Employee Center, see [Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/nass-now-assissist-self-service.md).
--   For more information on enhanced chat in self-service portals, see [ServiceNow Otto conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nass-portal.md).
+-   For more information on enhanced chat in Employee Center, see .
+-   For more information on enhanced chat in self-service portals, see .
 -   For more information on premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-integrated-chat.md).
--   For more information on ServiceNow Otto, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   For more information on ServiceNow Otto for AI Search, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-ais.md).
--   For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md).
+-   For more information on ServiceNow Otto, see .
+-   For more information on ServiceNow Otto for AI Search, see .
+-   For more information on language support, see .
 -   For more information on ServiceNow Otto for Virtual Agent analytics, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/ai-engagement-analytics.md).
 

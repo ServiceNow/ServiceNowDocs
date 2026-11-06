@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-systemlocalization-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -160,7 +160,7 @@ Brazil
 
 -   **[Improved visibility for the user's date format and time format settings.](https://www.servicenow.com/docs/access?context=next-experience-language-preferences&family=brazil&ft:locale=en-US)**
 
-The date and time format settings are relocated from the user profile to the Language &amp; Region section within the user's Preferences. These important settings are now visible and editable in one place.
+Date and time format settings can be edited in two locations: the user profile and the Language &amp; Region section within the user's Preferences. This update improves the visibility and availability of these important settings.
 
 
 </td></tr></tbody>
@@ -533,6 +533,7 @@ Brazil
 
 -   Accommodate users in multiple countries, using different languages and currencies, within the same instance.
 -   Adapt your instance to a specific region or locale without impacting functionality.
+-   Adjust settings such as the display format for dates and times to align with regional expectations.
 -   Localize your instance using one or more of the default language packs provided. If your target language is not provided by default, you can create your own translations of UI text.
 
  See [System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&family=brazil&ft:locale=en-US) for more information.

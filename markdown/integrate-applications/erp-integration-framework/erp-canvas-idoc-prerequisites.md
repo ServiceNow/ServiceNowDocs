@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, integration, canvas, data hub, sap, zero, copy, connector, entity, idoc]
-breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Complete IDOC prerequisites

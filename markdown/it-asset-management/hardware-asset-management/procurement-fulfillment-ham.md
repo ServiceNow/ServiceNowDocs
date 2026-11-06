@@ -35,7 +35,7 @@ You can fulfill hardware asset requests submitted through the Service Catalog ap
 -   **[Use Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/advanced-shipment-notification.md)**  
 Use Advanced Shipment Notification \(ASN\) to automate and create asset records when your assets are in transit.
 -   **[Create an inventory stock order request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-inventory-stock-order.md)**  
-Create an inventory stock order request so that you can order new hardware in bulk for your stockrooms. After your request is approved, the Hardware Stock Order flow takes you through the process of requesting, sourcing, and receiving your order.
+Create an inventory stock order request so that you can order new hardware in bulk for your stockrooms. The Hardware Stock Order flow tracks your order through approval, sourcing, and receiving.
 -   **[Manage RMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-rma-req.md)**  
 Initiate a Return Merchandise Authorization \(RMA\) process by submitting an RMA request to initiate an RMA process with your vendor. You can repair or replace a faulty asset.
 -   **[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-loaner-asset.md)**  

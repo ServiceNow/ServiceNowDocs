@@ -1,6 +1,6 @@
 ---
-title: Access Analyzer Debug logs
-description: Access Analyzer debug logs supply detailed information about the evaluation of access controls for a specific operation. These logs assist administrators and developers in troubleshooting access issues, optimizing security configurations, and ensuring that users have appropriate access to resources within the ServiceNow platform.
+title: Access Analyzer debug logs
+description: Access Analyzer debug logs supply detailed information about the evaluation of access controls for a specific operation. These logs assist administrators and developers in troubleshooting access issues, optimizing security configurations, and verifying that users have appropriate access to resources within the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-analyzer-logs.html
 release: brazil
@@ -10,11 +10,11 @@ reading_time_minutes: 3
 breadcrumb: [Frequently Asked Questions, Access Analyzer, Access Management]
 ---
 
-# Access Analyzer Debug logs
+# Access Analyzer debug logs
 
-Access Analyzer debug logs supply detailed information about the evaluation of access controls for a specific operation. These logs assist administrators and developers in troubleshooting access issues, optimizing security configurations, and ensuring that users have appropriate access to resources within the ServiceNow platform.
+Access Analyzer debug logs supply detailed information about the evaluation of access controls for a specific operation. These logs assist administrators and developers in troubleshooting access issues, optimizing security configurations, and verifying that users have appropriate access to resources within the ServiceNow platform.
 
-## Fields in Debug logs
+## Fields in debug logs
 
 For a given operation, the debug logs show a granular view of how ACLs, business rules, and other security attributes are evaluated.
 
@@ -59,7 +59,7 @@ ACLs for the operations are evaluated in the following order:
 
 ## Presence of a script
 
-Alert Icon in any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access.
+Alert icon in any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access.
 
 **Note:** During an Access Analyzer query, business rules are executed first and then the access control list.
 

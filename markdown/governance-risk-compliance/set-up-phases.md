@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Set up the phases
@@ -68,4 +68,9 @@ For information on mapping event tasks to phases, see [Mapping event tasks to ph
 
     The configured phase is shown in the list view of the Phases module. It can be tagged to the recovery and event tasks, allowing for more effective tracking and management of these tasks.
 
+
+-   **[Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/phase-form.md)**  
+To configure phases as part of recovery activities, use the Phase form to set up phases for recovery and event tasks in the BCM Configurable Workspace. You can then associate these phases with recovery and event tasks, enabling you to track their progression effectively.
+
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

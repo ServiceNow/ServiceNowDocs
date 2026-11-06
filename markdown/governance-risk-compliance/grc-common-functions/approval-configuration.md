@@ -20,7 +20,7 @@ To set up multiple levels of approvals in your application, you must complete th
 
 1.  Set up an approval configuration record. For more information, see [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
 2.  Set up the approval levels. For more information, see [Assign an approval level for the approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-levels.md).
-3.  Set up assignment configurations. For more information, see [Auto-assign configuration for regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.md).
+3.  Set up assignment configurations. For more information, see [Set up auto-assignment for regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.md).
 4.  Set up the approval rules. For more information, see [Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md).
 
 **Note:**

@@ -7,10 +7,10 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [Workload Identity Federation, WIF, outbound OAuth, JWKS, Key Management Framework, KMF]
-breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Workload Identity Federation for outbound OAuth
@@ -21,7 +21,7 @@ Authenticate outbound OAuth calls to Microsoft Azure and Google Cloud using a si
 
 With traditional client-secret authentication, the instance sends a `client_id` and `client_secret` to the cloud provider. The provider validates the secret and issues an access token. That approach requires storing, rotating, and protecting the secret.
 
-With Workload Identity Federation \(WIF\), the instance sends a JWT signed by a private key held in the Key Management Framework \(KMF\). The cloud provider fetches the corresponding public key from the instance's JWKS endpoint, validates the JWT signature, and issues an access token. No shared secret is stored on the instance, and the private key never leaves KMF.
+With Workload Identity Federation \(WIF\), the instance sends a JWT signed by a private key held in the Key Management Framework \(KMF\). The cloud provider fetches the corresponding public key from the instance's JWKS endpoint, validates the JWT signature, and issues an access token. No shared secret is stored on the instance, and the private key stays in KMF.
 
 WIF is supported for two cloud providers in this release:
 
@@ -40,5 +40,5 @@ WIF is supported for two cloud providers in this release:
 -   The issuer URL — served by the instance at `/.well-known/openid-configuration`.
 -   The JWKS endpoint URL — the public-key set served by the instance for signature validation.
 
-**Note:** Once WIF is configured, the `client_secret` is not sent to the cloud provider. The existing OAuth entities that use a stored `client_secret` continue to work unchanged — WIF is an additive capability, not a replacement for other outbound authentication methods.
+**Note:** After WIF is configured, the `client_secret` is not sent to the cloud provider. The existing OAuth entities that use a stored `client_secret` continue to work unchanged — WIF is an additive capability, not a replacement for other outbound authentication methods.
 

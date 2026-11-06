@@ -55,7 +55,7 @@ For more information, see [Components installed with Engagement Messenger](https
 
 ## What to do next
 
--   If you want to enable Virtual Agent chat support in the Engagement Messenger, activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
+-   If you want to enable Virtual Agent chat support in the Engagement Messenger, activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) and set the **com.glide.cs.embed.csp\_frame\_ancestors** system property value to **'self' &lt;your website URL&gt;**.
 
     For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md).
 

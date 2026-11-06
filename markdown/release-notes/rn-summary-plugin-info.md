@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 12
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -36,19 +36,19 @@ AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through 
 
 </td></tr><tr><td>
 
+AI Workflow Factory Prime
+
+</td><td>
+
+AI Workflow Factory Prime Credit Dashboard \(sn\_aiwf\_credit\): This plugin contains the Credit Dashboard, including credit, capability, and usage data.
+
+</td></tr><tr><td>
+
 App Engine Management Center
 
 </td><td>
 
 Developer Sandboxes License Management \(com.glide.dsb.licensing\): Use this plugin to assign sandbox packs from AEMC. Install on your controller \(production\) instance to distribute sandbox packs to non-production instances. Use the com.glide.dsb.licensing plugin from only one production instance, the instance you're using to assign packs.
-
-</td></tr><tr><td>
-
-Cloud Cost Management
-
-</td><td>
-
-ServiceNow Otto for Cloud Cost Management \(com.sn\_now\_assist\_ccm\): Enables cloud resource admins and users to use the capabilities of generative AI skills in Cloud Cost Management.
 
 </td></tr><tr><td>
 
@@ -146,6 +146,14 @@ Enterprise Asset Management
 
 </td></tr><tr><td>
 
+External Content Connectors
+
+</td><td>
+
+External Content Connectors Custom Connector \(com.sn\_ext\_conn\_ccg\): Plugin for the Custom Connector Gateway external content connector. This plugin is included when you install the External Content Connectors Application Suite plugin.
+
+</td></tr><tr><td>
+
 Operational Sustainability Management
 
 </td><td>
@@ -160,7 +168,7 @@ Privacy Management
 
 AI Data Explorer \(sn\_pa\_ai\_canvas\): Install the plugin to enable privacy managers and analysts to analyze privacy data, explore trends across sources, and surface actionable recommendations using natural language queries. Use the **Explore** button on the home pages of the Privacy Workspace and Personal Data Rights Workspace to open AI Data Explorer. For information on installing, configuring and using it, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ai-data-explorer.md).
 
-GRC Issue Management \(sn\_grc\_issue\_mgmt\): Install the plugin to enable a redesigned issue management experience with configurable workflows, custom state models, issue approvals, and centralized administration. For more information, see [Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issue-workflows.md).
+GRC Issue Management \(sn\_grc\_issue\_mgmt\): Install the plugin to enable a redesigned issue management experience with configurable workflows, custom state models, issue approvals, and centralized administration. For more information, see .
 
 </td></tr><tr><td>
 
@@ -196,19 +204,11 @@ WebRTC Voice \(sn-webrtc\): The WebRTC voice feature for self-service enables us
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
+ServiceNow Arc
 
 </td><td>
 
- \(\): 
-
-</td></tr><tr><td>
-
-ServiceNow Cowork
-
-</td><td>
-
-ServiceNow Cowork \(sn\_app\_cowork\): Provides the Cowork policy, approval, and configuration records that govern the desktop agent.
+ServiceNow Arc \(sn\_app\_cowork\): Provides the Arc policy, approval, and configuration records that govern the desktop agent.
 
 </td></tr><tr><td>
 
@@ -233,16 +233,6 @@ Threat Intelligence Security Center
 </td><td>
 
 sn\_sec\_cs\_sighting: Integrates Threat Intelligence Security Center with CrowdStrike Falcon NextGen SIEM for sighting search.
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
- \(\): 
-
- \(\): 
 
 </td></tr></tbody>
 </table>## Deprecated plugins in Brazil
@@ -325,14 +315,6 @@ Gamification Core Framework \(com.snc.gamification\): There is no replacement fo
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
 Service Operations Workspace for ITSM
 
 </td><td>
@@ -347,18 +329,8 @@ ServiceNow Studio
 
 -   ****
 
-Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-servicenow-studio.md).
+Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see .
 
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
- \(\): 
-
- \(\): 
 
 </td></tr></tbody>
 </table>## Plugins planned for deprecation in Brazil
@@ -374,6 +346,14 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
+
+AI Admin Hub
+
+</td><td>
+
+AI Admin Hub, formerly Now Assist Admin Console \(sn\_nowassist\_admin\): Planned for future deprecation. This plugin's functions are relocated to [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md).
+
+</td></tr><tr><td>
 
 Cloud Cost Management
 
@@ -466,14 +446,6 @@ No plugins are planned for deprecation beyond those listed above.
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
- \(\): Planned for deprecation in . 
-
-</td></tr><tr><td>
-
 Service Graph Connector Integration for Claroty CTD
 
 </td><td>
@@ -504,16 +476,6 @@ Vulnerability Response Integration with Claroty CTD
 </td><td>
 
 Vulnerability Response Integration with Claroty CTD \(sn\_clarotyctdvr\): Planned for deprecation by the Canada release.
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
- \(\): Planned for deprecation in . 
-
- \(\): Planned for deprecation in . 
 
 </td></tr></tbody>
 </table>## Renamed or changed plugins in Brazil
@@ -580,29 +542,11 @@ No plugins were renamed or changed in this release.
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
 ServiceNow Otto for Virtual Agent
 
 </td><td>
 
 Conversational Integration with Apple Messages for Business \(com.sn.va.abc.adapter\): Deprecation of NLU functionality and migration to LLM support.
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
- \(\): 
-
- \(\): 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)

@@ -8,7 +8,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d394968e245">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d394048e239">
 
 Option
 
-</th><th align="left" id="d394968e248">
+</th><th align="left" id="d394048e242">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394968e254">
+</th></tr></thead><tbody><tr><td id="d394048e248">
 
 **Yes, draft with ServiceNow Otto**
 
@@ -76,7 +76,7 @@ Description
 
 Use ServiceNow Otto to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d394968e270">
+</td></tr><tr><td id="d394048e264">
 
 **No, write it myself**
 
@@ -110,6 +110,10 @@ Draft the article manually.
 [Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 

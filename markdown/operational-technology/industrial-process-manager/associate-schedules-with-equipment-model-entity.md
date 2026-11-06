@@ -28,7 +28,7 @@ Role required: sn\_isa\_schedule\_admin
 
 3.  Select the **Schedules** tab.
 
-4.  To add a new schedule for the selected equipment model entity, do these actions:
+4.  To add a schedule for the selected equipment model entity, do these actions:
 
     -   Select **New**.
     -   Fill in the form and select **Submit**.

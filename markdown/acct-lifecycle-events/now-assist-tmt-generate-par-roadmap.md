@@ -41,7 +41,7 @@ Use ServiceNow Otto to generate a roadmap by analyzing the engagement's details,
 
 8.  Select **Generate roadmap**.
 
-    The Product adoption roadmap agent creates lanes based on the **Phase** field. It collects contextual data from the current engagement, identifies similar engagements with existing roadmaps, and arranges products or capabilities into lanes based on those patterns. You can view the steps in the ServiceNow Otto panel.
+    The Product adoption roadmap agent creates the roadmap's lanes based on the Phase field, collects contextual data from the current engagement, identifies similar engagements with existing roadmaps, analyzes how those were organized, and arranges products or capabilities into lanes based on the patterns identified. You can view the steps in the ServiceNow Otto panel.
 
 9.  Review the generated roadmap in the panel: a link to the completed roadmap \(in Draft state\) and a summary of the rearrangement logic.
 

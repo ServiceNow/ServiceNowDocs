@@ -22,15 +22,15 @@ Role required: admin.
 
 1.  Access the archive rule that you want to configure in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d129771e59">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d130748e59">
 
 Option
 
-</th><th align="left" id="d129771e62">
+</th><th align="left" id="d130748e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d129771e68">
+</th></tr></thead><tbody><tr><td id="d130748e68">
 
 **Using a data management policy**
 
@@ -42,7 +42,7 @@ Steps
 4.  In the **Archive Related Records** related list, select **New**.
 
 
-</td></tr><tr><td id="d129771e110">
+</td></tr><tr><td id="d130748e110">
 
 **Using the Archive Rules module**
 

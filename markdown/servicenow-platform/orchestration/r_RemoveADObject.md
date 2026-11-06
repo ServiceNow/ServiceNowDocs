@@ -71,5 +71,5 @@ The object type to remove: -   **user**
 |Success|AD object was successfully removed.|
 |Failure|An error occurred while attempting to remove the AD object. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

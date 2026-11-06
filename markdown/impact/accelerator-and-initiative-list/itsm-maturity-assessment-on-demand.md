@@ -21,15 +21,6 @@ A structured, self-service offering to assess your current IT Service Management
 
 ITSM Maturity Assessment – On Demand provides Impact customers with a structured, self-paced engagement to assess their ITSM maturity, understand current strengths and gaps, and identify priority areas for improvement. The assessment generates a practical action plan aligned to target maturity levels and evaluates the following ITSM domains:
 
--   Incident Management
--   Problem Management
--   Request Management
--   Change Management
--   Knowledge Management
--   Continual Improvement Management
--   Service Desk
--   CSDM Foundations
-
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.

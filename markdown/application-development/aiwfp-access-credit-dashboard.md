@@ -1,25 +1,27 @@
 ---
 title: Access the Credit Dashboard
-description: Access the Credit Dashboard to learn about your AI Workflow Factory credit usage.
+description: Access the Credit Dashboard to learn about your AI Workflow Factory Prime credit usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aiwfp-access-credit-dashboard.html
 release: brazil
 topic_type: task
 last_updated: "2026-10-06"
 reading_time_minutes: 1
-breadcrumb: [Credit Dashboard, AI Workflow Factory, Building applications]
+breadcrumb: [Credit Dashboard, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Access the Credit Dashboard
 
-Access the Credit Dashboard to learn about your AI Workflow Factory credit usage.
+Access the Credit Dashboard to learn about your AI Workflow Factory Prime credit usage.
 
 ## Before you begin
 
-You must have the AI Workflow Factory application entitled and installed on your instance to access the Credit Dashboard. AI Workflow Factory is available in the ServiceNow Store. For more information, see the following resources:
+You must have the AI Workflow Factory Prime application entitled and installed on your instance to access the Credit Dashboard. AI Workflow Factory Prime is available in the ServiceNow Store. For more information, see the following resources:
 
 -   [Entitle an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/entitle-applications-in-application-manager.md)
 -   [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md)
+
+**Important:** The Credit Dashboard contains a known error in which the dashboard doesn't populate with data until specific scheduled jobs run, which sometimes occur up to 24 hours after the installation. See [Troubleshooting the Credit Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aiwfp-credit-dashboard-troubleshooting.md) for more information.
 
 Role required: none
 

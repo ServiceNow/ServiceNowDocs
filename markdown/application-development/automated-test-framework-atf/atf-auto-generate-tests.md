@@ -9,7 +9,7 @@ classification: automated-test-framework-atf
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Auto-generate ATF tests
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access the Auto-generate Tests feature using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d245366e53">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d367770e53">
 
 Option
 
-</th><th align="left" id="d245366e56">
+</th><th align="left" id="d367770e56">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d245366e62">
+</th></tr></thead><tbody><tr><td id="d367770e62">
 
 **Using Auto-generate Tests module**
 
@@ -46,7 +46,7 @@ Steps
 
 **Note:** The ATF Test Generator and Cloud Runner store app page shows up.
 
-</td></tr><tr><td id="d245366e99">
+</td></tr><tr><td id="d367770e99">
 
 **Using Tests or Suites module**
 

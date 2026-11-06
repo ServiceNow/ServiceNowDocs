@@ -30,7 +30,7 @@ Role required: it\_project\_manager
 
 4.  On the Issue form, fill in the fields.
 
-    For more information, see [Risk, issues, decisions, actions, and request change \(RIDAC\) form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md).
 
 5.  Search in the knowledge base for any article related to the issue.
 

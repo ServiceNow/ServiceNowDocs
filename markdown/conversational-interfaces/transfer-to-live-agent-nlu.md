@@ -47,7 +47,7 @@ Conversations in Virtual Agent are transferred to a live agent in several ways. 
 
     You can choose the **Contact support** option and then select **Contact Live Agent** to transfer the conversation to a live agent.
 
-    **Note:** Users running a Virtual Agent messaging integration must enter the command `Hi` or `agent` to access the live agent transfer option. If your environment isn't configured for live agents, the `agent` command doesn't work. For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+    **Note:** Users running a Virtual Agent messaging integration must enter the command `Hi` or `agent` to access the live agent transfer option. If your environment isn't configured for live agents, the `agent` command doesn't work. For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
     \[Omitted image "va-manual-transfer.png"\] Alt text: Virtual Agent chat window and contact support options.
 

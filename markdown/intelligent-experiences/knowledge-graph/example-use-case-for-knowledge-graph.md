@@ -8,7 +8,9 @@ product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
+keywords: [Knowledge Graph, slot filling, natural language query, user context, personalized responses, permission-aware responses, people citation, Knowledge Graph schema, LLM topics, conversational catalog, user profile schema, enterprise data]
+audience: administrator
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
@@ -24,10 +26,10 @@ In this release, the available prebuilt integrations with ServiceNow® Otto for 
 
 **Note:**
 
--   To enable Knowledge Graph for ServiceNow® Otto for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See 
+-   To enable Knowledge Graph for ServiceNow® Otto for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-kg-schema-assistant.md)
 -   To enable Knowledge Graph for external users, with user role `snc_external`, verify if the **sn\_kg.enable\_external\_user\_check** property is set to true.
 
-For more information see .
+For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-kg-schema-assistant.md).
 
 **Note:**
 

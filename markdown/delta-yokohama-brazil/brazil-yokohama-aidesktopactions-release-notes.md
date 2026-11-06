@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-aidesktopactions-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 30
 breadcrumb: [Products combined by family]
 ---
@@ -70,7 +70,7 @@ Brazil
 
 -   **Upgrade information**
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download installer](https://www.servicenow.com/docs/access?context=download-agentic-desktop-installer&family=brazil&ft:locale=en-US).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [\[Placeholder link text to key bundle-platai.download-agentic-desktop-installer\]](https://www.servicenow.com/docs/access?context=download-agentic-desktop-installer&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -665,7 +665,7 @@ Brazil
 
 -   **Activation information**
 
-AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure](https://www.servicenow.com/docs/access?context=configure-agentic-desktop&family=brazil&ft:locale=en-US).
+AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [\[Placeholder link text to key bundle-platai.configure-agentic-desktop\]](https://www.servicenow.com/docs/access?context=configure-agentic-desktop&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -1001,7 +1001,7 @@ Brazil
 -   Detect errors during execution and recover by evaluating context and trying alternative approaches.
 -   Let AI agents process instructions and generate execution plans autonomously or semi-autonomously, reducing manual setup for repetitive tasks.
 
- See [Agentic Desktop](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=brazil&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-platai.agentic-desktop-landing-page\]](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

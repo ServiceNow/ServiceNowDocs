@@ -22,7 +22,7 @@ Common Governance, Risk, and Compliance features provide shared capabilities for
 -   Improve efficiency with common workflows, approvals, notifications, and workspace experiences.
 -   Extend Governance, Risk, and Compliance processes with integrations, reporting, dashboards, and automation capabilities.
 
-See [Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/common-grc-features.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -39,26 +39,26 @@ This release enhances issue management with configurable workflows, approval flo
 
 ### What's new
 
--   **[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issue-workflows.md)**
+-   **Issue workflows**
 
     With GRC Issue Management version 23.0.5, you can configure issue-specific workflows with custom lifecycle states, layouts, guided activities, trigger conditions, approval requirements, and routing rules. Use different workflows for different categories of issues without customizing the issue table.
 
--   **[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issue-approval-flows.md)**
+-   **Issue approval flows**
 
     With GRC Issue Management version 23.0.5, you can add an approval checkpoint before an issue or remediation task advances. This applies to state changes or due date extensions. Track approval requests, decisions, and approval history directly on the associated record.
 
--   **[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/entity-change-management.md)**
+-   **Entity lifecycle management**
 
     With GRC Profiles version 23.0.7, you can review the impact of proposed entity changes on associated risks and controls before applying the changes. Accept the changes or modify the entity filter to help prevent unintended changes.
 
 
 ### What's changed
 
--   **[Automatic entity owner and class updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/what-is-an-entity-filter.md)**
+-   **Automatic entity owner and class updates**
 
     With GRC Profiles version 23.0.7, the system automatically re-evaluates and updates entity owner and entity class when source record data or entity-filter membership changes. This change keeps entity ownership and classification aligned with the applicable entity-filter configuration.
 
--   **[Issue grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/issue-grouping-in-workspaces.md)**
+-   **Issue grouping**
 
     With GRC Issue Management version 23.0.5, you can add existing standalone issues directly from the Child Issues related list when grouping issues. You can group issues that use different workflows, and each child issue continues to follow its own workflow.
 

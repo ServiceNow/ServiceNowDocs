@@ -32,10 +32,6 @@ To start monitoring scores for an AI system, you must activate evaluation scorin
 
 \[Omitted image "mon-ai-asset-monitor.png"\] Alt text: The Monitor tab showing quality and safety score cards, asset monitoring details, a trend chart, and a list of recent evaluated sessions for a single AI system.
 
-## Required roles
-
-The admin role is required to view the Monitor tab.
-
 ## Accessing monitoring details for an AI system
 
 Access monitoring details for an AI system in one of the following ways:
@@ -109,11 +105,11 @@ Choose which metrics to display by selecting an option from the list.
 
 -   **__Lowest performing metrics__**
 
-    Show the top five metrics that had the biggest drop in performance over the selected time period. This is the default selection.
+    Show the top five metrics with the lowest average score over the selected time period. This is the default selection.
 
 -   **Top performing metrics**
 
-    Show the top five metrics that had the biggest increase in performance over the selected time period.
+    Show the top five metrics with the highest average score over the selected time period.
 
 -   **__Quality metrics__**
 

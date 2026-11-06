@@ -38,7 +38,5 @@ Role required: admin
 **Related topics**  
 
 
-[Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-partner-staff-on-workspace.md)
-
-[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-channel-partner-record.md)
+[bundle-omgmt.register-partner-staff-on-workspace]
 

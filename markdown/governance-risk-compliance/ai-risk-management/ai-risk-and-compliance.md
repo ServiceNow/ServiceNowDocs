@@ -43,4 +43,5 @@ The ServiceNow® AI Risk and Compliance application, along with the ServiceNow®
  
 
 </td></tr></tbody>
-</table>
+</table>**Important:** Governance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
+

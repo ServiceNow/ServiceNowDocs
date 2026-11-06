@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add assets to a chat assistant
@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 Assets are the building blocks of each assistant, providing them with instructions and functionality for helping users.
 
-When viewing or editing an existing assistant, you can view or edit the assets that are associated with an assistant. Assets can also be added to an assistant from the Asset Library and/or Topic Migration.
+When viewing or editing an existing assistant, you can view or edit the assets that are associated with an assistant. Assets can also be added to an assistant from the Asset Library or Topic Migration.
 
 **Note:** If you're an existing customer who previously turned on or off a skill type for an existing assistant, you can add or remove any individual asset when editing an assistant.
 
@@ -38,18 +38,18 @@ When viewing or editing an existing assistant, you can view or edit the assets t
 
     \[Omitted image "sno-assets-0826.png"\] Alt text: Add assets to an assistant.
 
-    The **Add assets from library** modal appears where you can multi-select assets that you want to assign to the assistant. Asset types include:
+    The **Add assets from library** modal appears where you can multi-select assets to assign to the assistant. Asset types include:
 
     -   Topics define what the assistant can talk about and bring structure to back-and-forth conversation.
     -   Subflows are reusable building blocks of logic that your assistant calls on to complete multi-step processes.
     -   Actions are single, simple steps that help your assistant complete tasks.
-    -   Custom skills skills are AI-powered capabilities you build to extend what your assistant can do.
+    -   Custom skills are AI-powered capabilities you build to extend what your assistant can do.
     -   AI agents independently reason, plan, and take action to complete tasks, based on your instruction.
     **Note:** There are variations for ServiceNow Otto panel assistants.
 
     For ServiceNow Otto panel - Platform assistant, the available asset types are topics, subflows, actions, custom skills, and agentic workflows. Agentic workflows are a group of AI agents that work together to independently solve problems.
 
-    **Note:** If you want to use AI agents for your ServiceNow Otto panel - Platform assistant, contact Support.
+    **Note:** If you need to use AI agents for your ServiceNow Otto panel - Platform assistant, contact Support.
 
     For ServiceNow Otto panel - Developer assistant, only topics are available.
 
@@ -61,7 +61,7 @@ When viewing or editing an existing assistant, you can view or edit the assets t
 
     \[Omitted image "sno-manage-assets-0826.png"\] Alt text: View list of added assets and manage assets.
 
-    To unmap an asset, select **Manage assets** and uncheck the desired asset.
+    To unmap an asset, select **Manage assets** and clear the check box for the asset.
 
 3.  Select **Save and continue**.
 

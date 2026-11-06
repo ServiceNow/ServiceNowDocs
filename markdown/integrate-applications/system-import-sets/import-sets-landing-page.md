@@ -7,7 +7,7 @@ release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-16"
 reading_time_minutes: 1
 keywords: [import data, rte, transform map]
 breadcrumb: [Imports, Workflow Data Fabric]

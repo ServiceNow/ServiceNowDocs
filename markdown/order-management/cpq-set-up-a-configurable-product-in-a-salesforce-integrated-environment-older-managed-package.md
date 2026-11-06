@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up configurable products, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in a Salesforce-integrated environment \(older managed package\)
@@ -26,7 +26,7 @@ If your SF Managed Package was installed before June 2022, follow these steps to
 
 1.  On the Salesforce Configurable Products tab, click **Enable/Disable external configuration**.
 
-2.  Find the Product2 record to connect to a CPQ configuration experience \(blueprint\), and set the corresponding Enable/Disable Externally Configurable checkbox to true, and save.
+2.  Find the Product2 record to connect to a ServiceNow CPQ configuration experience \(blueprint\), and set the corresponding Enable/Disable Externally Configurable checkbox to true, and save.
 
 3.  Click **Save**.
 

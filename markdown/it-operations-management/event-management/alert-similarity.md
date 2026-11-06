@@ -32,7 +32,7 @@ ML helps find similar alerts based on text found in these alert record fields:
 
 In the Alert Workspace, select the required alert and click **Insight** to view additional information about the alert.
 
-In the Alerts list, select the required alert and use the Alert Insight tabs on the right side of the alert record to view additional information about the alert. For example, you can view the top recent alerts for the current CI and similar CIs to find the most suitable solution towards resolving the alert.
+In the Alerts list, select an alert and use the Alert Insight tabs to view additional information. For example, you can view the top recent alerts for the current CI and similar CIs to find the most suitable solution towards resolving the alert.
 
 The alert insight tabs are:
 

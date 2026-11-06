@@ -75,6 +75,10 @@ Beginning with the Yokohama release, you can configure the BIA template with the
     The BIA template with the legacy assessment is configured in the instance.
 
 
+## Primary element assessed behavior
+
+When **Primary element assessed** is set to **Database servers**, the **Include CIA** field is visible and **Impact categories** offers all categories. When **Primary element assessed** is set to **Web servers**, the **Include CIA** field is hidden and **Impact categories** offers only categories that contribute to the recovery time objective.
+
 -   **[BIA template form for the legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-template-new-record-form.md)**  
 Use the BIA template form to configure the business impact analysis with the legacy template. You can add details such as name, description, elements, impact categories, and so on in the form.
 

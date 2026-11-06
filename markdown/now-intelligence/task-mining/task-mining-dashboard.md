@@ -47,7 +47,7 @@ Selecting the **View across task timeline** link displays the Activities across 
 
 The stacked column bar chart divides the task length into percentages. For example, if the task takes 200 minutes, the first section shows 20 minutes of activity. View detailed information on an activity by hovering over a column bar.
 
-\[Omitted image "task-mining-task-timeline.png"\] Alt text: Screenshot showing the Applications categories across task timeline chart in the Task Mining task activities analysis.
+\[Omitted image "task-mining-task-timeline.png"\] Alt text: The Applications categories across task timeline chart in the Task Mining task activities analysis.
 
 ## Overall activity analysis
 

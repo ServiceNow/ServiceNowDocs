@@ -18,7 +18,7 @@ Create a labor rate card to capture costs by the time consumed on an hourly basi
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 

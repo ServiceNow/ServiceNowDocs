@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [vibe coding, AI-assisted development, agentic development, application development, natural language, full-stack applications, workflows, integrations, governance, security, autonomous development]
-breadcrumb: [Build, AI Workflow Factory, Building applications]
+breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development on the ServiceNow AI Platform
@@ -76,7 +76,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Getting started guide**
 
-    [Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/getting-started-landing-page.md)
+
 
 -   **Build Agent docs**
 

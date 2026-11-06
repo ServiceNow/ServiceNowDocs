@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Objectives and Outcomes in Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [Objectives and outcomes in Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Manage Objectives and Outcomes in Impact Delivery Instance
@@ -57,5 +57,5 @@ This feature is in the Impact Delivery Instance. Download Impact from the Servic
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Objectives and Outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/objectives-and-outcomes-in-impact-delivery-instance.md)
+**Parent Topic:**[Objectives and outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/objectives-and-outcomes-in-impact-delivery-instance.md)
 

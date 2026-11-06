@@ -26,7 +26,7 @@ Role required: admin
 
 If a knowledge article is created using the Knowledge Management - Add-in for Microsoft Word, you can edit the article using only the linked Word document in the Word Online application. However, if you delete or move the linked Word document, the URL to the Word document and article is broken. Therefore, you will no longer be able to edit the article using the linked Word document. To continue editing such articles:
 
--   Manually enter the new document URL for the Word document in the **Document URL** field on the Knowledge form in Microsoft Word. For more information about the field, see [Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-word.md).
+-   Manually enter the new document URL for the Word document in the **Document URL** field on the Knowledge form in Microsoft Word. For more information about the field, see [Create a knowledge article in Microsoft Word]().
 -   Unlink the article from its linked Word document by following the steps in this procedure.
 
 ## Procedure

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [test group characteristics, characteristic mapping, conditional test group]
-breadcrumb: [Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Test groups, Explore, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Test group characteristics
@@ -31,11 +31,10 @@ After the system selects a test definition, it applies the mapping to decide whi
 
 You can add conditions to the relationship between a specification and a test group. The test group applies to a product inventory record only when the record meets the conditions. For details, see [Define conditions for a test group relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/define-conditions-for-test-group-relationship.md).
 
-## Related tasks
+**Related topics**  
 
--   [Define a characteristic for a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/define-characteristic-for-test-group.md)
--   [Map a test group characteristic to a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/map-test-group-characteristics-to-test-definition.md)
--   [Define a test decomposition rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/define-test-decomposition-rule.md)
--   [Define conditions for a test group relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/define-conditions-for-test-group-relationship.md)
--   To set up the test group itself, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/setting-test-group.md).
+
+[Test groups in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-group-stm.md)
+
+[Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/setting-test-group.md)
 

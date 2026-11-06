@@ -1,5 +1,5 @@
 ---
-title: API Authentication
+title: API authentication
 description: Authentication configurations for API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/api-authentication.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
 
-# API Authentication
+# API authentication
 
 Authentication configurations for API.
 
-API based Authentication in ServiceNow's validates the identity of a user who accesses an instance, and then authorizes the user to features that match the user's role or job function while making an API call to the ServiceNow instance.
+API based authentication in ServiceNow validates the identity of a user who accesses an instance, and then authorizes the user to features that match the user's role or job function while making an API call to the ServiceNow instance.
 
-Following are the types of API Authentication in ServiceNow:
+Following are the types of API authentication in ServiceNow:
 
 -   [Certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/certificate-api-auth.md)
 -   [OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/oauth-inbound-and-outbound.md)

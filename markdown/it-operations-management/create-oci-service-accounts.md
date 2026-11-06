@@ -23,7 +23,7 @@ Retrieve the Compartment ID from **Identity &amp; Security** &gt; **Compartments
 
 For GovCloud accounts, confirm that Discovery and Service Mapping Patterns is using at least version 1.29.0.
 
-For UK Sovereign Cloud accounts, confirm that Discovery and Service Mapping Patterns is using at least version 1.35.0.
+For UK Sovereign Cloud accounts, confirm that Discovery and Service Mapping Patterns is using at least version 1.35.1.
 
 Role required: discovery\_admin
 

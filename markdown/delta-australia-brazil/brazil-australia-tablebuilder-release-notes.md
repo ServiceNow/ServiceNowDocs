@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-tablebuilder-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[New role required to add a formula to a column](https://www.servicenow.com/docs/access?context=add-formula-column-table-builder&family=brazil&ft:locale=en-US)**
+
+Accessing the formula editor in Table Builder now requires the formula\_read role. Previously, the formula editor stalled in the loading state. This issue is related to PRB2093578.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -196,7 +199,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Table Builder by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -257,7 +263,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+Internet Explorer isn't supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -352,7 +361,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Build your app’s tables, forms, and display logic from one place, without switching between separate tools.
+-   Edit table structure and records together in one view, so you can see how data changes as you build.
+-   Bring existing data into your app by importing it from a spreadsheet into a new or existing table.
+-   Connect your data by adding reference fields that relate one table to another.
+-   Control who can access your data by configuring table permissions as you build.
+
+ See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

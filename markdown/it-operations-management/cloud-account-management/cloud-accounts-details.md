@@ -7,7 +7,7 @@ release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -57,14 +57,6 @@ Account status
 The current status of the account. The available statuses are:-   Active
 -   Suspended
 -   Closed
-
-</td></tr><tr><td>
-
-Cloud bill this month
-
-</td><td>
-
-The cloud expenditure for the current month.
 
 </td></tr><tr><td>
 

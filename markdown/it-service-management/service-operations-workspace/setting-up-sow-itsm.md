@@ -1,6 +1,6 @@
 ---
 title: Setting up integrations in Service Operations Workspace for ITSM
-description: You can set up multiple integrations in Service Operations Workspace for ITSM to leverage its complete capabilities.
+description: You can set up multiple integrations in Service Operations Workspace for ITSM to use its complete capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/setting-up-sow-itsm.html
 release: brazil
@@ -14,12 +14,12 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM, Service Operatio
 
 # Setting up integrations in Service Operations Workspace for ITSM
 
-You can set up multiple integrations in Service Operations Workspace for ITSM to leverage its complete capabilities.
+You can set up multiple integrations in Service Operations Workspace for ITSM to use its complete capabilities.
 
 -   **[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate.md)**  
-Set up the Investigation Framework in Service Operations Workspace to enable the display of the CI metrics information on the **Investigation** tab of the Incident records.
+Set up the Investigation Framework in Service Operations Workspace to display CI metrics on the **Investigation** tab of the incident records.
 -   **[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/setup-password-reset-sow.md)**  
-The Password Reset application provides a mechanism for end users to either unlock the account or reset their password with the help of service desk support. This feature enables a secure and an efficient password management system. The users must reach out to the service desk agents to update their login credentials.
+The Password Reset application provides a mechanism for end users to either unlock the account or reset their password with the help of service desk support. This feature supports password management. Users must contact service desk agents to update their login credentials.
 -   **[Setting up Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-ra-itsm.md)**  
 You can set up Recommended Actions for ITSM to apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the Service Operations Workspace.
 -   **[Setting up AI Search in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/ai-search-sow.md)**  

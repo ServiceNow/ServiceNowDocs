@@ -65,9 +65,7 @@ The Edge
 The Edge is removed in Core UI. The collapsed view of the Core UI application navigator is similar to the Edge.
 
 </td></tr></tbody>
-</table>-   **[Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ActivateUI16.md)**  
-Core UI can be activated with the Core UI plugin \(com.glide.ui.ui16\) if you have the admin role.
--   **[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)**  
+</table>-   **[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)**  
 The Core UI application navigator appears at the left of the interface and provides access to all available applications and modules, favorites, and recently viewed items.
 -   **[System settings for the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_UI16BannerFrame.md)**  
 You can define system settings to customize the Core UI for yourself. The gear icon, located within the banner frame, displays the system settings window.

@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Use a spreadsheet, Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create new table from spreadsheet import

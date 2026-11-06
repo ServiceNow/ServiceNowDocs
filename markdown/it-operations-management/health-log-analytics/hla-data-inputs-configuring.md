@@ -17,6 +17,8 @@ breadcrumb: [Set up data inputs manually, Set up HLA on your instance, Configuri
 
 Configure the data input process manually in Health Log Analytics. Data input configuration is an essential step in setting up the Health Log Analytics application.
 
+**Note:** You're encouraged to integrate available data inputs from the Integrations Launchpad instead of configuring them manually. This tool provides a unified interface for convenient integration with connectors that feed raw log messages from external sources into your instance for processing and analysis. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
+
 -   **[Configure an Amazon CloudWatch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)**  
 Set up a data input for streaming log data from Amazon CloudWatch to your ServiceNow instance.
 -   **[Configure an Amazon S3 data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-s3.md)**  

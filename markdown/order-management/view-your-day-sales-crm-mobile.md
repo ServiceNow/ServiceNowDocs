@@ -47,6 +47,7 @@ Role required: **sales\_mobile\_user**
 
     -   Tasks: View the list of tasks accessible to you and the status of those tasks. You can select a task to view more details.
     -   Calendar: You can view the scheduled meetings.
+    -   Touchpoints: View your touchpoints related to your records on the **My Touchpoints** tab. You can view all the touchpoints in your instance on the **All** tab. Touchpoints track your interactions with contacts, accounts, leads, and opportunities. Each card shows the category, state, touchpoint number, name, associated record, and type. Select a touchpoint to view its details and activities, and go to its associated contact, account, lead, or opportunity.
 
 ## What to do next
 

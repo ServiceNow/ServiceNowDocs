@@ -9,7 +9,7 @@ classification: form-builder-glide-family-release
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create form annotations in Table Builder
@@ -57,15 +57,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 6.  Select an option for **Annotation text**.
 
-<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d300642e311">
+<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d217377e317">
 
 Annotation text option
 
-</th><th align="left" id="d300642e314">
+</th><th align="left" id="d217377e320">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d300642e320">
+</th></tr></thead><tbody><tr><td id="d217377e326">
 
 **Plain text**
 
@@ -73,7 +73,7 @@ Description
 
 Text that is entered renders on the form as plain text.
 
-</td></tr><tr><td id="d300642e329">
+</td></tr><tr><td id="d217377e335">
 
 **Rich text**
 

@@ -29,9 +29,9 @@ Role required: `sn_change_write or itil`
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  To create a new flow, select the **New** button, and select Flow.
+2.  Select **New**, and then select **Flow**.
 
-    For more information about Flow Designer, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
+    For more information about Flow Designer, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
 3.  Enter a name in the **Flow name** field, and select **Build flow**.
 
@@ -40,7 +40,7 @@ Role required: `sn_change_write or itil`
     |Setting|Value|
     |-------|-----|
     |Trigger type|Record Created or Updated|
-    |Table|Change Request \[**change\_request**\]|
+    |Table|Change Request \[change\_request\]|
     |Condition|\[**Model**\] \[**is**\] \[**Scaled change**\] and \[**State**\] \[**is**\] \[**Assess**\]|
     |Run Trigger|Only if not currently running|
 
@@ -67,7 +67,7 @@ When a change using the Primary change model enters the configured state, the fl
 
 To view child changes on a primary change request, select **Configure**, select **Related Lists**, and add the related list driven by the `primary_change` field. This related list displays the child changes generated for a primary change. It is hidden until child changes are created and does not appear on a child change.
 
-Child changes generated from a Parent change have the `Configuration item` and `Model` fields set to read-only
+Child changes generated from a Primary change have the **Configuration item** and **Model** fields set to read-only.
 
 **Parent Topic:**[Scaled change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/scaled-change-overview.md)
 

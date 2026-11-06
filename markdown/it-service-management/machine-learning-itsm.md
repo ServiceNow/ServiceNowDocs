@@ -21,7 +21,7 @@ Activate Predictive Intelligence for Incident Management by requesting the Predi
 -   **[Activate Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-pred-intelli-mim.md)**  
 Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 -   **[Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/predictive-intelligence-for-incident.md)**  
-Use your instance records to build specific solutions for Incident Management.
+Use your instance records to build classification and similarity solutions for Incident Management.
 -   **[Request Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-predictive-intelligence-for-im.md)**  
 To activate Predictive Intelligence for Incident, request the Predictive Intelligence for Incident plugin \(com.snc.incident.ml\) through the Now Support Customer Service system. This plugin activates related plugins if they are not already active.
 

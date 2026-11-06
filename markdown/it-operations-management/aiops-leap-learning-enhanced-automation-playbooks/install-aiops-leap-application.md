@@ -33,6 +33,10 @@ The following items are installed with LEAP:
 
 For more information, see [Components installed with LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/components-installed-with-aiops-leap.md).
 
+**Note:** LEAP is included in ServiceNow Otto for IT Operations Management \(ITOM\)
+
+For more information, see [Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/app-now-assist-itom.md)
+
 ## Procedure
 
 1.  Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.

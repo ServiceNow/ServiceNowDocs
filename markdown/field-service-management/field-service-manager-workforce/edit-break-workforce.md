@@ -31,15 +31,15 @@ Role required: wm\_manager.
 
 4.  Select the **Edit** \[Omitted image "edit-schedule.png"\] Alt text: edit icon, then choose an option.
 
-<table><thead><tr><th align="left" id="d46693e106">
+<table><thead><tr><th align="left" id="d46732e106">
 
 Option
 
-</th><th align="left" id="d46693e109">
+</th><th align="left" id="d46732e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46693e115">
+</th></tr></thead><tbody><tr><td id="d46732e115">
 
 **__Delete__**
 
@@ -49,7 +49,7 @@ Remove the break.1.  Select the **Delete break** \[Omitted image "delete-break.p
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d46693e145">
+</td></tr><tr><td id="d46732e145">
 
 **__Edit__**
 

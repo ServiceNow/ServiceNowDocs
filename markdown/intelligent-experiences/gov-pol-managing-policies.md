@@ -21,5 +21,5 @@ Create a Threat Response policy to automatically contain an agent when a detecte
 
 Both policy types work the same way once published. Edit a policy to change what it enforces, clone it to try a variant without changing the original, or delete it to end its enforcement entirely. A policy has no pause or disable state, so deleting it is the only way to stop it from running.
 
-Once a policy is published, confirm it's doing what you designed it to do. See [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Once a policy is published, confirm it's doing what you designed it to do. See [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 

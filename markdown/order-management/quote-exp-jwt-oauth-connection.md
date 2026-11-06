@@ -1,18 +1,18 @@
 ---
 title: Set up JWT and OAuth authentication for ServiceNow Quote Experience
-description: Set up system-to-system authentication between ServiceNow and the CPQ microservice by generating a key pair, registering an OAuth application in ServiceNow, and configuring the serviceNowJwtConnection system connection in CPQ Administration.
+description: Set up system-to-system authentication between ServiceNow and the ServiceNow CPQ microservice by generating a key pair, registering an OAuth application in ServiceNow, and configuring the serviceNowJwtConnection system connection in ServiceNow CPQ Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-exp-jwt-oauth-connection.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up JWT and OAuth authentication for ServiceNow Quote Experience
 
-Set up system-to-system authentication between ServiceNow and the CPQ microservice by generating a key pair, registering an OAuth application in ServiceNow, and configuring the `serviceNowJwtConnection` system connection in CPQ Administration.
+Set up system-to-system authentication between ServiceNow and the ServiceNow CPQ microservice by generating a key pair, registering an OAuth application in ServiceNow, and configuring the `serviceNowJwtConnection` system connection in ServiceNow CPQ Administration.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Role required: admin
     -   Set the user field to the user name. If the user name is not available, use the user ID.
     For detailed instructions, see [KB1275215](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1275215).
 
-4.  Convert the private key to PKCS8 format so that you can add it to the CPQ Administration connection.
+4.  Convert the private key to PKCS8 format so that you can add it to the ServiceNow CPQ Administration connection.
 
     1.  Convert the JKS keystore to PKCS12 by using the following command:
 
@@ -60,7 +60,7 @@ Role required: admin
         cat private_key_pk8.pem
         ```
 
-5.  In CPQ Administration, configure the `serviceNowJwtConnection` system connection to enable JWT and OAuth authentication.
+5.  In ServiceNow CPQ Administration, configure the `serviceNowJwtConnection` system connection to enable JWT and OAuth authentication.
 
     1.  Navigate to **CPQ Administration** &gt; **Utilities** &gt; **Connections**.
 

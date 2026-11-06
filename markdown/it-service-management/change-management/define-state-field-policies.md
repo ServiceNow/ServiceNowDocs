@@ -35,11 +35,11 @@ Each policy controls one field in one state. To control multiple fields, add one
 
 2.  Select the change model to update.
 
-3.  In the **Model States** related list, select the state to add field policies to.
+3.  In the Model States related list, select the state to add field policies to.
 
-4.  In the **State Field Policies** related list, select **New**.
+4.  In the State Field Policies related list, select **New**.
 
-5.  Complete the State Field Policy form.
+5.  On the State Field Policy form, fill in the fields.
 
 <table id="table-state-field-policy-form"><thead><tr><th>
 
@@ -51,7 +51,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Name**
+Name
 
 </td><td>
 
@@ -59,23 +59,23 @@ Change request field that the policy applies to. The list shows fields from the 
 
 </td></tr><tr><td>
 
-**Mandatory**
+Mandatory
 
 </td><td>
 
-Requires a value in the field while the change request is in this state. Selecting this check box also adds the field to a **State Field Policy Managed** transition condition on every transition into this state.
+Option that requires a value in the field while the change request is in this state. Selecting this check box also adds the field to a **State Field Policy Managed** transition condition on every transition into this state.
 
 </td></tr><tr><td>
 
-**Read Only**
+Read Only
 
 </td><td>
 
-Blocks changes to the field while the change request is in this state.
+Option that blocks changes to the field while the change request is in this state.
 
 </td></tr><tr><td>
 
-**Application**
+Application
 
 </td><td>
 
@@ -83,11 +83,11 @@ Application scope that owns the policy. Controls which application the policy is
 
 </td></tr><tr><td>
 
-**Active**
+Active
 
 </td><td>
 
-Applies the policy to change requests in this state. Selected by default.**Note:** Set the Active check box to enable the policy. A field can be marked as mandatory, read-only, or both for the same state.
+Option that applies the policy to change requests in this state. Selected by default.**Note:** Select the **Active** check box to activate the policy. A field can be marked as mandatory, read-only, or both for the same state.
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.

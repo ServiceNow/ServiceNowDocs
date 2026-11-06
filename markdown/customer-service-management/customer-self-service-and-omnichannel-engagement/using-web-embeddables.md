@@ -1,6 +1,6 @@
 ---
 title: Configure Web Embeddables
-description: Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
+description: Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform. Dedicated APIs support real-time data exchange without requiring users to access the ServiceNow instance directly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.html
 release: brazil
@@ -8,13 +8,13 @@ product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Web Embeddables
 
-Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
+Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform. Dedicated APIs support real-time data exchange without requiring users to access the ServiceNow instance directly.
 
 The Web Embeddables homepage displays modules, components, and provides an overview on how to configure and embed components. It also shows Frequently Asked Questions that provide insights into the most common queries asked by users.
 
@@ -22,17 +22,19 @@ The Web Embeddables homepage displays modules, components, and provides an overv
 
 \[Omitted video\] Description: Web Embeddables overview video
 
-You can configure and embed the following ServiceNow components on the third-party websites.
+You can configure and embed the following ServiceNow components on third-party websites.
 
--   Case list: Displays a comprehensive list of multiple cases along with their key details.
--   Case view: Displays a detailed view of all case-related activities. Case view component includes a process tab that displays relevant playbooks when they are created for the case record
--   Case create: Displays a form that helps you to create a case to address any issues related to products and services.
--   Catalog item: Displays a form that you can fill in to request an item or service.
--   Knowledge article view: Displays knowledge articles along with key details like title, content, author, view count, read time, and others. You can also rate the article and switch the language as per your preferred locale.
--   Data visualization: Display a graphical representation of information from any ServiceNow table using visual elements such as single score, pie chart, donut and semi donut.
--   Playbook intake: Enable users to submit cases using Playbook's guided experience. Systematically capture case details and display stages and activities involved in resolving the case.
--   Catalog browse: Allows you to browse and search catalog items from different catalogs and categories within a third-party website.
--   Object list: Enables you to display records from different tables with their related actions in a list format.
+|Component|Description|
+|---------|-----------|
+|[Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/case-list-component.md)|A list of cases with key details such as number, short description, and status.|
+|[Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/case-view-web-component.md)|The details of one case, with activity, attachments, and a process tab that displays relevant playbooks.|
+|[Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/case-create-component.md)|A form to submit a case for issues related to products and services.|
+|[Catalog item component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/catalog-item-web-component.md)|A form to request an item or service.|
+|[Knowledge article view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-comp-overview.md)|A knowledge article with its title, author, view count, and read time. Users can rate the article and switch the display language.|
+|[Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-comp-overview.md)|Data from any table as a score, pie, donut, or semi-donut chart.|
+|[Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-comp-overview.md)|A guided experience for submitting a case, with the stages and activities involved in resolving it.|
+|[Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-browse-comp.md)|Catalog items that you can browse by catalog or category, or search by keyword.|
+|[Object list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-object-list-comp.md)|Records from any table in a list, with bulk and inline actions.|
 
 ## Web Embeddables end-to-end flow
 

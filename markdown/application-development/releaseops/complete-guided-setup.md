@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [large scale deployment ServiceNow, ReleaseOps guided setup]
-breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Complete ReleaseOps guided setup

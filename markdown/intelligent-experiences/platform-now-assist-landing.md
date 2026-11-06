@@ -1,11 +1,11 @@
 ---
 title: AI Admin Hub
-description: ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
+description: ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-now-assist-landing.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-29"
 reading_time_minutes: 4
 keywords: [generative AI, Gen AI, Now Assist, Artificial intelligence, Virtual Agent, LLM]
 breadcrumb: [Generative AI skills, Enable AI Experiences]
@@ -13,9 +13,13 @@ breadcrumb: [Generative AI skills, Enable AI Experiences]
 
 # AI Admin Hub
 
-ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
+ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows and AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:**
+
+Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows and AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044](https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044) to read about the foundation of generative AI at ServiceNow®.
 
@@ -64,4 +68,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-products.md).
 

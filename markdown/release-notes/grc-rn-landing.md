@@ -18,7 +18,9 @@ ServiceNow Governance, Risk, and Compliance \(GRC\) helps organizations identify
 
 Release notes are available for the following GRC products and shared capabilities.
 
--   **[AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-airc-rn.md)**  
+-   **[Advanced Risk release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-advanced-risk-rn.md)**  
+The ServiceNow® Advanced Risk application enables you to identify, analyze, evaluate, treat, and monitor risks that could impact your organization in achieving its business objectives. Release notes are organized by version.
+-   **[AI Risk and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-ai-risk-and-compliance-rn.md)**  
 The ServiceNow® AI Risk and Compliance application provides a centralized process for assessing AI assets, scoring risk, and driving remediation. Release notes are organized by version.
 -   **[Audit Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-audit-rn.md)**  
 The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.

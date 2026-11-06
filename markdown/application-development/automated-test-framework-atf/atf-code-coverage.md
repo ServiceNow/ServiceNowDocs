@@ -9,7 +9,7 @@ classification: automated-test-framework-atf
 topic_type: concept
 last_updated: "2026-09-14"
 reading_time_minutes: 4
-breadcrumb: [Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # ATF Code Coverage

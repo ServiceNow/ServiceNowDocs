@@ -23,7 +23,7 @@ The ServiceNow® ITOM Cloud Accelerate applications streamline cloud automation 
 -   Scan for violations of best-practice norms and remediate configuration drift with Cloud Configuration Governance.
 -   Drive hyperautomation for the cloud using the ready-to-use actions and subflows in the Cloud Action Library.
 
-See [ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

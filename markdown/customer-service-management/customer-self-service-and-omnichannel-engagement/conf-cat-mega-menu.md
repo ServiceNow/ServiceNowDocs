@@ -1,6 +1,6 @@
 ---
 title: Configure the category of a Portal Mega Menu widget
-description: Configure a Portal Mega Menu widget to define a menu category and associate pages to it to be able to navigate easily to different pages from the portal page.
+description: Define a menu category for a Portal Mega Menu widget and associate pages to enable navigation across portal pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Set up Confi
 
 # Configure the category of a Portal Mega Menu widget
 
-Configure a Portal Mega Menu widget to define a menu category and associate pages to it to be able to navigate easily to different pages from the portal page.
+Define a menu category for a Portal Mega Menu widget and associate pages to enable navigation across portal pages.
 
 ## Before you begin
 

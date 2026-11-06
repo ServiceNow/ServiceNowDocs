@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-24"
 reading_time_minutes: 1
 keywords: [Create, Virtual agent, custom control definition, Conversational Interfaces]
 breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
@@ -84,7 +84,7 @@ Field
 
 </th><th>
 
-Descrlption
+Description
 
 </th></tr></thead><tbody><tr><td>
 

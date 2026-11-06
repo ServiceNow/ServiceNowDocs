@@ -34,15 +34,15 @@ The system provides the default connection and credential alias for Azure OpenAI
     -   To set up the embedding model alias for Google Gemini Text Embedding, select **Google Gemini API**.
 3.  Create a connection record for your alias.
 
-<table id="choicetable_hql_2zg_1gc"><thead><tr><th align="left" id="d308066e107">
+<table id="choicetable_hql_2zg_1gc"><thead><tr><th align="left" id="d310598e107">
 
 Option
 
-</th><th align="left" id="d308066e110">
+</th><th align="left" id="d310598e110">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d308066e116">
+</th></tr></thead><tbody><tr><td id="d310598e116">
 
 **Update the existing connection record**
 
@@ -55,7 +55,7 @@ Procedure
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d308066e163">
+</td></tr><tr><td id="d310598e163">
 
 **Create a new connection record**
 
@@ -74,15 +74,15 @@ For a description of the field values, see [Create an HTTP\(s\) connection](http
 
 4.  Create a credential record for your alias.
 
-<table id="choicetable_xp4_ykh_1gc"><thead><tr><th align="left" id="d308066e208">
+<table id="choicetable_xp4_ykh_1gc"><thead><tr><th align="left" id="d310598e208">
 
 Option
 
-</th><th align="left" id="d308066e211">
+</th><th align="left" id="d310598e211">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d308066e217">
+</th></tr></thead><tbody><tr><td id="d310598e217">
 
 **Update the existing credential record**
 
@@ -100,7 +100,7 @@ The API Key Credentials record opens.
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d308066e275">
+</td></tr><tr><td id="d310598e275">
 
 **Create a new credential record**
 

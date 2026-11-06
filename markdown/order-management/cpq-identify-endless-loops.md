@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [blueprint rules, endless loops, rule cycle report, circular references]
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Identify endless loops in blueprint rules
@@ -21,7 +21,7 @@ Role required: Admin
 
 ## Procedure
 
-1.  In CPQ Admin, select **Configuration Blueprints**, and then open a blueprint.
+1.  In ServiceNow CPQ Admin, select **Configuration Blueprints**, and then open a blueprint.
 
 2.  Select the **three vertical dots** icon next to **Deploy**, and then select **Rule Cycle Report**.
 

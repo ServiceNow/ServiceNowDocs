@@ -51,7 +51,7 @@ For more information on the **Service Graph Connector for AWS** setup instructio
 
 If you upgrade the connector, complete the following tasks before the upgrade process:
 
--   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CustomerUpdatesTable.md).
+-   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See .
 -   Upgrade any dependencies.
 
 After you've installed the latest version of the Service Graph Connector for AWS:
@@ -63,7 +63,7 @@ After you've installed the latest version of the Service Graph Connector for AWS
 
 1.  Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+    For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **AWS** &gt; **Setup**.
 
@@ -478,7 +478,7 @@ Connection alias associated with the AWS environment setup and configured in ste
 
     4.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see .
 
     5.  Select **Update**.
 

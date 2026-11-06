@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -33,7 +33,9 @@ Information from the Related item BIA, Related item Recovery Time Objective \(RT
 
 The BIA Manager \(sn\_bia.bia\_manager\) includes the Doc writer \(sn\_doc.writer\) role that provides read and write permissions to the document templates.
 
-You can assign ownership of a business impact analysis to an individual owner, to an owner group, or to both. When you create a BIA, you're added as the **BIA owner** by default. To assign the BIA to a group, select a group in the **BIA owner group** field. The list shows only groups that hold the BIA planner or BIA manager role. You must provide either a **BIA owner** or a **BIA owner group** to save the record. When you select an owner group, the **BIA owner** field is limited to members of that group. Clear the **BIA owner** field to assign the BIA to the group only. All members of the owner group have the same edit rights on the BIA as the owner.
+The Smart assessment for a BIA is generated only if you have the BCM Core Viewer \(sn\_bcm.core\_viewer\) role. Make sure you have this role before you create a BIA.
+
+You can assign ownership of a business impact analysis to an individual owner, to an owner group, or to both. When you create a BIA, you're added as the **BIA owner** by default. To assign the BIA to a group, select a group in the **BIA owner group** field. The list shows only groups that hold the sn\_bia.bia\_planner or sn\_bia.bia\_manager role. You must provide either a **BIA owner** or a **BIA owner group** to save the record. When you select an owner group, the **BIA owner** field is limited to members of that group. Clear the **BIA owner** field to assign the BIA to the group only. All members of the owner group have the same edit rights on the BIA as the owner.
 
 \[Omitted image "bia-owner-group-field.png"\] Alt text: Create Impact analysis form with the BIA owner and BIA owner group fields.
 
@@ -62,7 +64,7 @@ You can assign ownership of a business impact analysis to an individual owner, t
     -   **Overview**: View the current state and overall state progression for the business impact analysis.
     -   **Details**: Add the details of the business impact analysis such as its name, template, business unit, department, and so on.
     -   **Assessment**: Fill in responses to the assessment questionnaires for the business impact analysis in the **Recovery time objective assessment**, **Recovery point objective assessment**, and **Dependency assessment** cards.
-3.  In the User Administration or Assignment details section of the form, assign BIA ownership.
+3.  In the **Assignment details** section of the form, assign BIA ownership.
 
     1.  To assign group ownership, select the **BIA Owner group** field and select a group from the filtered list.
 
@@ -97,7 +99,7 @@ You can assign ownership of a business impact analysis to an individual owner, t
 
     The **Finalized RPO** field is auto-calculated based on the values in the **Recovery point objective** and **Adjusted RPO** fields available on the same form.
 
-    If the BIAs already have the **Recovery point objective** field, the application uses that Recovery point objective value automatically for the finalized RPO. If the BIA has the **Adjusted RPO** field, the application uses that Adjusted RTO value automatically for the finalized RPO. For information on the field, see the field description in the [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
+    If the BIAs already have the **Recovery point objective** field, the application uses that Recovery point objective value automatically for the finalized RPO. If the BIA has the **Adjusted RPO** field, the application uses that Adjusted RPO value automatically for the finalized RPO. For information on the field, see the field description in the [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
 
     When you update the value in the **Adjusted RPO** field manually, the **Reason for Adjusted RPO** field is displayed. You can add the reason and save the changes.
 
@@ -173,13 +175,13 @@ You can assign ownership of a business impact analysis to an individual owner, t
 
         If you're the BIA owner or BCM manager, you can select a contributor to the business impact analysis.
 
-        **Note:** Although the BIA contributors with the sn\_bia.bia\_contributor role have read access to the BIA, they can complete the assessments on the **Assessment** tab.
+        **Note:** BIA contributors with the sn\_bia.bia\_contributor role have read access to the BIA and can complete the assessments on the **Assessments** tab.
 
         The BIA contributors can't edit the list of the contributors.
 
         When you select a contributor to the BIA, that contributor is synchronized to the linked Smart assessment. A contributor who holds an appropriate BIA role can open and complete the assessment. Synchronization of the contributor list requires the Collaborator plugin.
 
-11. Select **Submit**.
+11. Select **Submit** to submit the Dependency assessment.
 
     A message confirms that the assessment is successfully submitted.
 
@@ -187,21 +189,26 @@ You can assign ownership of a business impact analysis to an individual owner, t
 
     If you want to update the result in the assessment, you can select the card to update the details. The assessment then moves to the **Open** state again. You can retake and resubmit the assessment, thus completing the workflow.
 
-    To revert an archived BIA to the **Draft** state, select the **Edit** button.
+    **Note:** To edit a submitted assessment, you must have write access to the BIA. You must also be one of the following:
 
-    Starting with BCM release 9.0.x, you can revert an archived business impact analysis \(BIA\) to the **Draft** state by selecting the **Edit** button on the form. It helps you to have more flexibility in managing business impacted analyses and related records.
+    -   A user with the `sn_smart_asmt.assessment_admin` role.
+    -   The primary owner of the assessment, or an active delegate of the primary owner.
+    -   The requestor of the assessment, or an active delegate of the requestor.
+    When you edit a submitted assessment, the assessment moves to the **Open** state and is reassigned to you.
+
+    To revert an approved or archived BIA to the **Draft** state, select **Edit**.
 
 12. To perform more actions on the BIA, select **More actions**.
 
-<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d275089e767">
+<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d275994e777">
 
 Step
 
-</th><th align="left" id="d275089e770">
+</th><th align="left" id="d275994e780">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d275089e776">
+</th></tr></thead><tbody><tr><td id="d275994e786">
 
 **Select __Discuss__.**
 
@@ -209,7 +216,7 @@ Description
 
 Add the subject for the discussion and add participants that have access to the record. Include a brief message for the participants and select **Start discussion**.
 
-</td></tr><tr><td id="d275089e791">
+</td></tr><tr><td id="d275994e801">
 
 **Select __Generate MS Word__.**
 
@@ -217,7 +224,7 @@ Add the subject for the discussion and add participants that have access to the 
 
 Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
-</td></tr><tr><td id="d275089e809">
+</td></tr><tr><td id="d275994e819">
 
 **Select __Generate PDF__.**
 
@@ -235,7 +242,7 @@ The BIA group's pending tasks and BIA owner's assigned items are shown in the fo
 
 \[Omitted image "my-grp-pending-tasks.png"\] Alt text: BIA group's pending tasks and BIA owner's assigned items.
 
-</td></tr><tr><td id="d275089e843">
+</td></tr><tr><td id="d275994e853">
 
 **Select __Copy__.**
 
@@ -245,15 +252,15 @@ Create a copy of the BIA. BIA details, including its state, assessments, questio
 
 The copied BIA inherits the original **BIA owner group** only. You're automatically assigned as the individual **BIA owner** of the copy.
 
-</td></tr><tr><td id="d275089e865">
+</td></tr><tr><td id="d275994e875">
 
-**Select __360º view__.**
+**Select __360° view__.**
 
 </td><td>
 
-Generate 360º relationships for the BIA. A graphical presentation of the BIA and its relationships is displayed.
+Generate 360° relationships for the BIA. A graphical presentation of the BIA and its relationships is displayed.
 
-</td></tr><tr><td id="d275089e877">
+</td></tr><tr><td id="d275994e887">
 
 **Select __Delete__.**
 
@@ -261,7 +268,7 @@ Generate 360º relationships for the BIA. A graphical presentation of the BIA an
 
 Delete the BIA record. A warning message confirms that deleting the record results in an automatic deletion of related records, which may also cause a cascade of additional records to be deleted.
 
-</td></tr><tr><td id="d275089e889">
+</td></tr><tr><td id="d275994e899">
 
 **Select __Save__.**
 

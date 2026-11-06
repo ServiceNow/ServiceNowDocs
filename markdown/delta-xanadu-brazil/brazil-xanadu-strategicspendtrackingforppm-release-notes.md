@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-strategicspendtrackingforppm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -282,7 +282,7 @@ Brazil
 
 </td><td>
 
--   **[Strategic Spend Tracking for PPM](https://www.servicenow.com/docs/access?context=ppm-strategic-spend-tracking-overview&family=brazil&ft:locale=en-US)**
+-   **[Strategic spend tracking](https://www.servicenow.com/docs/access?context=ppm-strategic-spend-tracking-overview&family=brazil&ft:locale=en-US)**
 
 Starting with the Brazil release, Strategic Spend Tracking for PPM is being prepared for future deprecation and it will be hidden. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 

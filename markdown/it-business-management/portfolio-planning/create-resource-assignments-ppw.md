@@ -24,7 +24,7 @@ The demand must have planned dates.
 
 ## About this task
 
--   To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+-   To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 -   To create, edit, or remove resource assignment records, you can also use the **Create resource assignments** tab in **Details**.
 
 ## Procedure

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-pivot-table-data.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-07"
 reading_time_minutes: 6
 breadcrumb: [Pivot table visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -78,11 +78,19 @@ Group by
 
 </td></tr><tr><td>
 
-Select columns
+Columns
 
 </td><td>
 
-The field whose values are each represented in a vertical column.
+The field whose values are each represented in a vertical column. All fields in the table, including list fields are available.
+
+</td></tr><tr><td>
+
+Rows
+
+</td><td>
+
+The field whose values are each represented in a horizontal row. All fields in the table, including list fields are available.
 
 </td></tr><tr><td>
 
@@ -104,19 +112,13 @@ If **Max number of groups** is set and this option is turned on, an aggregate of
 
 </td></tr><tr><td>
 
-Rows
-
-</td><td>
-
-Hierarchy of table fields with values displayed horizontally.
-
-</td></tr><tr><td>
-
 Field for &lt;table&gt;
 
 </td><td>
 
-The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. You can group by any field in the table including list fields.For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.
+
+**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
 -   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportRanges.md).

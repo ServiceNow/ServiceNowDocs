@@ -70,15 +70,15 @@ The environment type can be used by other ServiceNow applications that use Multi
 
 3.  From the pop-up window, select one of the following options for adding instances.
 
-<table><thead><tr><th align="left" id="d320863e305">
+<table><thead><tr><th align="left" id="d323526e305">
 
 Option
 
-</th><th align="left" id="d320863e308">
+</th><th align="left" id="d323526e308">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d320863e314">
+</th></tr></thead><tbody><tr><td id="d323526e314">
 
 **Run scan**
 
@@ -90,7 +90,7 @@ Run a scan to automatically discover related non-production instances. The scan 
 2.  Select **Save and request access**.
 If no instances are discovered, select **Add another instance** to add instances manually instead.
 
-</td></tr><tr><td id="d320863e341">
+</td></tr><tr><td id="d323526e341">
 
 **Skip and set up manually**
 
@@ -130,15 +130,15 @@ Role required: sn\_amf.amf\_core\_admin or admin
 
 1.  Navigate to a request in one of the following ways depending on the instance type.
 
-<table id="choicetable_rjs_qcs_lkc"><thead><tr><th align="left" id="d320863e480">
+<table id="choicetable_rjs_qcs_lkc"><thead><tr><th align="left" id="d323526e480">
 
 Option
 
-</th><th align="left" id="d320863e483">
+</th><th align="left" id="d323526e483">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d320863e489">
+</th></tr></thead><tbody><tr><td id="d323526e489">
 
 **From the non-production instance**
 
@@ -146,7 +146,7 @@ Description
 
 Navigate to **All** &gt; **Multi-Instance Management** &gt; **Instance Configuration** &gt; **Manager Instances**.
 
-</td></tr><tr><td id="d320863e513">
+</td></tr><tr><td id="d323526e513">
 
 **From the controller instance**
 

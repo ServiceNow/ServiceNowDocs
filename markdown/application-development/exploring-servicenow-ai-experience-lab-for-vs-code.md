@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring ServiceNow Lux Lab for VS Code extension
@@ -16,6 +16,8 @@ breadcrumb: [ServiceNow Lux Lab for VS Code extension, Building pro-code applica
 The ServiceNow Lux Lab for VS Code extension provides framework intelligence and quick commands to help you create and extend ServiceNow experiences with pages and widgets tailored to fit your needs.
 
 ## ServiceNow Lux Lab for VS Code extension overview
+
+\[Omitted video\] Description: ServiceNow Lux Lab for VS Code extension
 
 The ServiceNow Lux Lab for VS Code extension enables you to create and extend ServiceNow experiences. With built-in framework intelligence, you can run quick commands, preview entire applications, and see which files are relevant for your work from inside the explorer. Create experiences, pages, and widgets that support tailored functionality in your ServiceNow applications.
 

@@ -42,5 +42,5 @@ When catalog item requesters want to order items on portals or Next Experience U
 
 [Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ScriptableServiceCatalogVariables.md)
 
-[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-service-catalog-variables-in-report.md)
+[bundle-par.use-service-catalog-variables-in-report]
 

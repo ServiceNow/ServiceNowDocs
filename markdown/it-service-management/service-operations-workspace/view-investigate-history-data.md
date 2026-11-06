@@ -35,7 +35,7 @@ You can do the following on the history tab:
     -   Memory utilization
     Point your mouse device device over a data point \(represents specific date or time\) on the scatter plot to view the values of the metrics along with the date when the metrics data is retrieved.
 
--   Click a data point \(represents specific date or time\) on the scatter plot to display the data of all the CI metrics on the Metrics snapshot section along with the date and time.
+-   Select a data point \(represents specific date or time\) on the scatter plot to display the data of all the CI metrics on the Metrics snapshot section along with the date and time.
 
 **Parent Topic:**[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/features-of-investigation-tab.md)
 

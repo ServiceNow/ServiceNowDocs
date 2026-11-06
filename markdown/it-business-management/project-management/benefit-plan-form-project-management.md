@@ -84,7 +84,7 @@ Field to indicate when the benefits start realizing. Select any of the following
 -   **Start Date**: At the start of the project.
 -   **End Date**: After the project ends.
 
- If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the end date of the project changes, the benefit plan start date shifts to align with the new end date of the project.
+ Based on the selected offset type changes, benefit plan start date shifts. For example, if the offset type is set to **End Date** and the end date of the project changes. Then the benefit plan start date shifts to align with the new end date of the project.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-properties.md). For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
+Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-properties.md). For upgraded customers, if the selected currency is different from the configured functional currency from the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
 
 </td></tr><tr><td>
 

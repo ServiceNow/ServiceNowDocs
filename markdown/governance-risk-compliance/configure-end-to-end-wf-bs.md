@@ -16,7 +16,9 @@ Configure an end-to-end workflow for a business service to fetch the CSDM depend
 
 ## Before you begin
 
-Role required: sn\_oper\_res.manager
+Role required: sn\_oper\_res.manager with the itil user role, sn\_oper\_res.admin with the itil user role
+
+To create a business service, you also need a role that can create records on the Service \[cmdb\_ci\_service\] table, such as itil or sn\_cmdb\_editor. With the sn\_oper\_res.manager role alone, you can add existing business services to Operational Resilience reporting, but you can't create them.
 
 ## About this task
 

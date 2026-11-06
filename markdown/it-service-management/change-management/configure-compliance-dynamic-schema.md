@@ -44,7 +44,7 @@ The compliance dynamic schema for change requests is delivered as a single dynam
 
 3.  On the **Dynamic Attributes** tab, review the attributes that users can record.
 
-    The related list shows the name, label, type, choice set, description, and active state of each attribute. To add or update a dynamic attribute, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-schema.md) .
+    The related list shows the name, label, type, choice set, description, and active state of each attribute. To add or update a dynamic attribute, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-schema.md).
 
 4.  Select the **Dynamic Categories** tab and review the categories that users can select.
 

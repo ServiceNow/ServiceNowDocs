@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Complete ReleaseOps guided set up in AEMC

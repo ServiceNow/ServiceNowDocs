@@ -22,7 +22,7 @@ Install the required plugins:
 -   Conversational Messaging \(com.glide.messaging.awa\)
 -   Core ServiceNow® mobile plugins
 
-    For more information, see [Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-plugins.md).
+    For more information, see Mobile plugins.
 
 
 Role required: admin
@@ -31,7 +31,7 @@ Role required: admin
 
 1.  Install the corresponding mobile plugins for each application that you want to use in Virtual Agent.
 
-    For example, if you're using Virtual Agent ITSM conversations, install the ITSM Mobile Agent \(sn\_itsm\_mobile\_agt\) plugin as well. For more information, see [Mobile plugins for ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-plugins.md).
+    For example, if you're using Virtual Agent ITSM conversations, install the ITSM Mobile Agent \(sn\_itsm\_mobile\_agt\) plugin as well. For more information, see Mobile plugins for ServiceNow Agent.
 
 2.  Navigate to **All** &gt; **Now Mobile App** &gt; **Applet Launchers**.
 
@@ -86,5 +86,5 @@ The topics you create in Assistant Designer asset library can be used in both th
 
 ## What to do next
 
-To enable ServiceNow Otto for Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+To enable ServiceNow Otto for Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 

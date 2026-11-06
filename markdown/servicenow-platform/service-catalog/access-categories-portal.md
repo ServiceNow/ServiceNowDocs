@@ -34,7 +34,7 @@ Role required: requester
 
 3.  In the **Catalogs** section, select the required catalog from the list.
 
-    For information on how you can configure a catalog, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/associate-portal-catalog.md).
+    For information on how you can configure a catalog, see Configure a catalog in Service Portal.
 
     **Note:**
 
@@ -70,5 +70,5 @@ Role required: requester
 
 [Request an order guide from Service Portal]()
 
-[SC Categories widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sc-categories-widget.md)
+[bundle-platux.sc-categories-widget]
 

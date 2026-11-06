@@ -113,15 +113,15 @@ Password associated with the username.
 </td></tr></tbody>
 </table>4.  Configure connection security.
 
-<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d510187e253">
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d504808e253">
 
 Option
 
-</th><th align="left" id="d510187e256">
+</th><th align="left" id="d504808e256">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d510187e262">
+</th></tr></thead><tbody><tr><td id="d504808e262">
 
 **Default**
 
@@ -129,7 +129,7 @@ Description
 
 Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
 
-</td></tr><tr><td id="d510187e273">
+</td></tr><tr><td id="d504808e273">
 
 **TLS**
 
@@ -140,7 +140,7 @@ Select this option if your data source requires one-way SSL and uses its own cer
 </td></tr></tbody>
 </table>5.  If you selected TLS, attach the Base64-encoded truststore PEM file using one of the following options.
 
-<table id="choicetable_iqc_pl2_h3c"><tbody><tr><td id="d510187e291">
+<table id="choicetable_iqc_pl2_h3c"><tbody><tr><td id="d504808e291">
 
 **Attach TrustStore file**
 
@@ -148,7 +148,7 @@ Select this option if your data source requires one-way SSL and uses its own cer
 
 Upload the PEM file by selecting **Attach PEM file** and selecting the file.
 
-</td></tr><tr><td id="d510187e303">
+</td></tr><tr><td id="d504808e303">
 
 **Enter TrustStore file contents**
 

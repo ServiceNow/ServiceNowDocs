@@ -308,6 +308,13 @@ relatedRecords
 
 Context information for the interaction. Pass this parameter to associate the voice interaction with a callback request or other related record. Data type: Object
 
+```
+"relatedRecords": {
+    "context_document": "String",
+    "context_table": "String"
+  }
+```
+
 Default: None
 
 </td></tr><tr><td>

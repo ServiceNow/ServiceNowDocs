@@ -7,7 +7,7 @@ release: brazil
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-09-23"
+last_updated: "2026-10-20"
 reading_time_minutes: 9
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
 breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
@@ -29,11 +29,13 @@ These model cards reflect the AI models that power various features within the S
 
     Selectable ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
+    This model is available for Generative AI Controller application 15.1 or higher.
+
 -   **[Model card for ServiceNow large language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm-v2.pdf)**
 
     ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
-    This model is available for Generative AI Controller application 15.1.0 or higher.
+    This model is available for Generative AI Controller application 11.2 or higher.
 
 -   **[Model card for ServiceNow small language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-slm-v2.pdf)**
 
@@ -66,7 +68,8 @@ The October release adds models to the Now LLM Service and to Google Gemini. It 
 
 -   New restricted model: Gemini 3.7 Flash supports the Build Agent. You can't select it for your skills and agents.
 
--   Gemini 2.5 models retired: Gemini 2.5 Pro, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite are retired on October 8, 2026. These models are no longer available, and requests to them fail. Gemini 3.5 Flash replaces all three models. Review your skills, agents, and generative AI configurations for references to the retired models, and select Gemini 3.5 Flash instead.
+-   Gemini 2.5 models retired: Gemini 2.5 Pro, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite are retired on October 8, 2026. Gemini 3.5 Flash replaces all three models. Review your skills, agents, and generative AI configurations for references to the retired models, and select Gemini 3.5 Flash instead.
+
 -   Claude Sonnet 4.5 retired: Claude Sonnet 4.5 is retired on October 8, 2026. Claude Sonnet 4.6 replaces it. Select Claude Sonnet 4.6 for your skills and agents.
 
 -   V2 models deprecated for new development: The ServiceNow large language model \(V2\) and small language model \(V2\) are deprecated for new development. Your existing skills and agents continue to work. Retirement is planned for the December release, when these models are replaced by Gemma.
@@ -74,7 +77,7 @@ The October release adds models to the Now LLM Service and to Google Gemini. It 
 
 ## September 2026
 
-September release adds restricted models from AWS Anthropic. Restricted models support specific features only. You can't select them for your skills and agents.
+The September release adds restricted models from AWS Anthropic. Restricted models support specific features only. You can't select them for your skills and agents.
 
 This release doesn't add any general purpose models. The models that you can select in the AI Admin Hub console are unchanged.
 
@@ -106,7 +109,7 @@ The Now LLM Service model strategy has moved toward integrated model provider fl
 
 ## June 2026
 
-June release includes updates to third-party model defaults. It also contains a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
+The June release includes updates to third-party model defaults. It also contains a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
 
 -   Third-party default model version update: Teams that did not update their third-party default model versions to the latest available versions in the May release must do so in the June release. GAIC 13.1.2 is the required version for this update.
 

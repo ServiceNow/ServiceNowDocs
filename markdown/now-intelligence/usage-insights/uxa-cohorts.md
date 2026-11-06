@@ -7,7 +7,7 @@ release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-26"
 reading_time_minutes: 1
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---

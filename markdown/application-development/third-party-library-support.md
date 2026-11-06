@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [JavaScript modules and third-party libraries, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [JavaScript modules and third-party libraries, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Third-party library support in Brazil

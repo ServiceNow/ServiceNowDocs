@@ -45,7 +45,7 @@ MID Server supports several schemes for securing sensitive data in the `config.x
     The data is re-secured or encrypted, based on the security scheme you have selected.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security]()
 
 **Related topics**  
 

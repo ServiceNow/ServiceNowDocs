@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-PagerDuty spoke v1.6.0 is the latest version. For version history of the spoke, see [PagerDuty spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pagerduty.html).
+PagerDuty spoke v1.6.1 is the latest version. For version history of the spoke, see [PagerDuty spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pagerduty.html).
 
 ## Supported versions
 

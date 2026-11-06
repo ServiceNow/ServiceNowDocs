@@ -1,20 +1,20 @@
 ---
 title: On-Call Scheduling subflows
-description: On-Call Scheduling subflows are reusable automated processes for on-call escalation and notification.
+description: Subflows in On-Call Scheduling enable you to build and configure on-call escalation and notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.html
 release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2026-09-19"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # On-Call Scheduling subflows
 
-On-Call Scheduling subflows are reusable automated processes for on-call escalation and notification.
+Subflows in On-Call Scheduling enable you to build and configure on-call escalation and notification.
 
 ## Using subflows for on-call escalation
 

@@ -50,7 +50,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     To set up ServiceNow Otto for Virtual Agent, you configure an assistant.
 
-    See: [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md)
+    See: [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md)
 
 -   **2. Review your Virtual Agent topic inventory**
 
@@ -60,7 +60,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     See:
 
-    -   
+    -   [\(Legacy\) Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
     -   [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-auto-discovry-report.md)
 -   **3. Review your knowledge base**
 
@@ -76,7 +76,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? Use existing Virtual Agent topics with minimal effort.
 
-    See: 
+    See: [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/llm-topic-migration.md)
 
 -   **5. Review Service Catalog items**
 
@@ -99,19 +99,19 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
 -   When migrating legacy NLU topics, optimize topic descriptions so that the topic is clearly described and aligned with the intent and expected results.
 
-    For details, see .
+    For details, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-llm-instruction-guidelines.md).
 
 -   You can customize the look of your assistant and the chat experience during guided setup.
 
-    For details, see .
+    For details, see [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/brand-assistant.md).
 
 -   You can choose the chat experience you want for each assistant:
-    -   
-    -   
-    -   
+    -   [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-standard-chat.md)
+    -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-enhanced-chat.md)
+    -   [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)
 -   You can integrate ServiceNow Otto for Virtual Agent with Microsoft Teams.
 
-    For details, see .
+    For details, see [Integrating ServiceNow® Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md).
 
 
 For more information about conversational catalogs in AI, see the following information from ServiceNow Community and YouTube:

@@ -36,7 +36,7 @@ Public Sector Digital Services helps government agencies manage the complete lif
 
 </td></tr><tr><td>
 
-[License and Permit Playbook \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-license-permit.md)
+[License and Permit Administration \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-license-permit.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Public Sector Digital Services helps government agencies manage the complete lif
 
 </td><td>
 
-[Service Request Playbook \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-service-request.md)
+[Service Request Administration \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-exploring-pbs-service-request.md)
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ A dedicated, customizable workspace for government agents and agents from extern
 
 </td><td>
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-csm-workspace.md)
+[Public Sector Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 

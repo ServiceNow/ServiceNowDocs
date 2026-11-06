@@ -38,7 +38,7 @@ Role required: none
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98049e124">
+<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98286e124">
 
 **Accept a conversation from a queue**
 
@@ -46,7 +46,7 @@ Role required: none
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d98049e145">
+</td></tr><tr><td id="d98286e145">
 
 **Accept a transfer request**
 
@@ -63,7 +63,7 @@ Under **Cases**, click **Accept** by a transfer request.\[Omitted image "Connect
 
 5.  Initiate a Zoom meeting to help resolve customer issues faster.
 
-    For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/initiate-chat-zoom.md).
+    For more information, see Initiate Zoom meetings from chats.
 
 
 **Related topics**  

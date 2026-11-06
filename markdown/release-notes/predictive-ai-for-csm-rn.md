@@ -21,7 +21,7 @@ Predictive AI for CSM includes Recommended Actions, Guided Decisions Experience,
 -   ServiceNow's Task Intelligence solution applies machine learning to Customer Service Management, automating routine case work to help teams resolve customer issues faster. The system intelligently processes requests, comprehends written content, assesses customer emotion, and auto-generates case records, cutting down on manual administrative work.
 -   Process Optimization for CSM visualizes your customer service workflows. It uses case data and audit logs to reveal exactly how customer requests move through your service operations.
 
-Predictive AI for CSM applies rule-based logic based on traditional machine learning patterns and does not use generative or agentic AI. See [Configuring Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba.md), [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-guided-decisions.md), [Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intelligence.md), and [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/process-opt-csm.md) and for more information.
+Predictive AI for CSM applies rule-based logic based on traditional machine learning patterns and does not use generative or agentic AI. See , , , and  and for more information.
 
 ## Activation and other requirements
 

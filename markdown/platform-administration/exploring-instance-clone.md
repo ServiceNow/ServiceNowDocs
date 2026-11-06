@@ -62,13 +62,33 @@ For clone terminology and definitions, see [Clone terminology](https://raw.githu
 
 ## Instance Clone benefits
 
-|Benefit|Feature|
-|-------|-------|
-|Tidy up data with exclusions and preservers for specific clone scenarios.||
-|Establish consistent clone outcomes with clone profiles and registered instances.|[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-configurations-tab.md)|
-|Copy data from a production instance to a non-production instance or to copy data between non-production instances.|[Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_StartAClone.md)|
+<table id="table_vpv_hfg_ngc"><thead><tr><th>
 
-## Instance Clone use cases
+Benefit
+
+</th><th>
+
+Feature
+
+</th></tr></thead><tbody><tr><td>
+
+-   Establish consistent clone outcomes with clone profiles and registered instances.
+-   Tidy up data with exclusions and preservers for specific clone scenarios.
+
+</td><td>
+
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-configurations-tab.md)
+
+</td></tr><tr><td>
+
+Copy data from a production instance to a non-production instance or to copy data between non-production instances.
+
+</td><td>
+
+[Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_StartAClone.md)
+
+</td></tr></tbody>
+</table>## Instance Clone use cases
 
 ## Clone to a different version
 

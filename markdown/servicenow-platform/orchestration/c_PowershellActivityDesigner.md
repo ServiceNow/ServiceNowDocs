@@ -7,7 +7,7 @@ release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-10-21"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ PowerShell activities are configured to return data to a workflow from a host us
 
 You must purchase [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r-orchestration.md) to use this template. For specific information about using the tools in the activity designer, refer to these resources:
 
--   [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_WorkflowActivityDesigner.md)
--   [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/CreateInputVariables.md)
--   [Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreateAParsingRule.md)
+-   
+-   
+-   Create a parsing rule
 
 ServiceNow supports PowerShell 3.0 to 5.1.
 

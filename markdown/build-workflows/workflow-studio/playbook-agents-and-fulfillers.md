@@ -67,8 +67,8 @@ Restart a playbook from the beginning, an activity, or a stage.
 Cancel a playbook to stop a business workflow when no longer valid.
 -   **[Open full lists within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/full-list-playbook.md)**  
 Open a full list within playbook cards to view and update list items.
--   **[Using activity stream within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-stream-in-playbook.md)**  
-Use activity stream within a playbook to add comments or notes, and view communication and task history for the parent or associated record.
+-   **[Using the activity stream within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-stream-in-playbook.md)**  
+Add comments or notes, and view communication and task history for a parent or associated record using the activity stream. The activity stream is available only on cards where an administrator has configured it.
 
 **Parent Topic:**[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

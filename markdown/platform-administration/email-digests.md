@@ -93,5 +93,5 @@ Reduce the number of notifications you receive for a selected target record duri
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 
