@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-localization.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 2
+last_updated: "2026-11-04"
+reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -88,13 +88,14 @@ AI specialist supports multiple languages for user interaction. Because language
 
 </td></tr><tr><td>
 
-CPQ
+Decision tables
 
 </td><td>
 
-Japanese Localization for CPQ admin UI: The CPQ admin UI supports internationalization for the CPQ Configurator and Transaction Manager. Static user interface elements, including labels, headings, and system text, can be displayed in Japanese. This is part of an initial pilot to support SoftBank onboarding. Administrators can select their preferred language through the ServiceNow platform. If any static content is not translated, the system automatically falls back to English. It also supports Japanese character input across applicable fields and controls. User-generated content remains in the language in which it is entered.
+-   ****
 
-Enhanced localization in CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+Decision tables in Workflow Studio support the Localization Framework. However, editing decision tables in Excel isn’t supported for localized content, so the Excel editing feature is available only on instances that use English.
+
 
 </td></tr><tr><td>
 
@@ -138,6 +139,16 @@ RPA Hub
 </td><td>
 
 RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-international-language-support.md).
+
+</td></tr><tr><td>
+
+ServiceNow CPQ
+
+</td><td>
+
+Japanese Localization for ServiceNow CPQ admin UI: The ServiceNow CPQ admin UI supports internationalization for the CPQ Configurator and Transaction Manager. Static user interface elements, including labels, headings, and system text, can be displayed in Japanese. This is part of an initial pilot to support SoftBank onboarding. Administrators can select their preferred language through the ServiceNow platform. If any static content is not translated, the system automatically falls back to English. It also supports Japanese character input across applicable fields and controls. User-generated content remains in the language in which it is entered.
+
+Enhanced localization in ServiceNow CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in ServiceNow CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
 
 </td></tr><tr><td>
 

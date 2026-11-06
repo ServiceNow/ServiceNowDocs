@@ -29,5 +29,5 @@ Lets explore some of the major benefits:
 -   Minimize custom integrations.
 -   Accelerate time to value.
 
-To understand benefits and features of SGC in detail, see [Service Graph Connectors](https://www.servicenow.com/products/service-graph-connectors.html).
+To understand benefits and features of SGC in detail, see [Service Graph Connectors](https://www.servicenow.com/products/service-graph-connectors.html) and see [AI Control Tower - AI Discovery Connectors](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990) for the connectors available in AI Control Tower.
 

@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Set rows active or inactive
@@ -33,5 +33,5 @@ Mark a Decision Tables row as active or inactive:
     \[Omitted image "active-rows.png"\] Alt text: Setting rows as active
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

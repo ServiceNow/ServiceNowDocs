@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Portal prerequisites for enhanced chat

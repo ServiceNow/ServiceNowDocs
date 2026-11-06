@@ -61,6 +61,8 @@ Priority lookup rules are organizational configurations set by administrators. T
 
 4.  Select **Submit**.
 
+    **Note:** When you initially create and save an incident, the **Work notes** field is not mandatory. If you change the priority of the incident by selecting different **Impact** or **Urgency** values on a incident form that was saved, the **Work notes** field becomes mandatory.
+
 
 **Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-configuration.md)
 

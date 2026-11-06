@@ -1,6 +1,6 @@
 ---
-title: Assign tasks to ServiceNow Cowork
-description: Use ServiceNow Cowork to complete multi-step work, such as investigating incidents, creating reports, or coordinating updates across platforms. Combine skills, sub-agents, and connectors in a single request so Cowork can complete the whole piece of work from start to finish.
+title: Assign tasks to ServiceNow Arc
+description: Use ServiceNow Arc to complete multi-step work, such as investigating incidents, creating reports, or coordinating updates across platforms. Combine skills, sub-agents, and connectors in a single request so Arc can complete the whole piece of work from start to finish.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/assign-tasks-cowork.html
 release: australia
@@ -8,18 +8,18 @@ topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 2
 keywords: [complex tasks, multistep tasks, skills, subagents]
-breadcrumb: [Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Use, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Assign tasks to ServiceNow Cowork
+# Assign tasks to ServiceNow Arc
 
-Use ServiceNow Cowork to complete multi-step work, such as investigating incidents, creating reports, or coordinating updates across platforms. Combine skills, sub-agents, and connectors in a single request so Cowork can complete the whole piece of work from start to finish.
+Use ServiceNow Arc to complete multi-step work, such as investigating incidents, creating reports, or coordinating updates across platforms. Combine skills, sub-agents, and connectors in a single request so Arc can complete the whole piece of work from start to finish.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
-The platforms the task uses, such as ServiceNow instance, Microsoft 365, or GitHub, must be connected. For more information, see [Connectors in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/connectors-in-cowork.md).
+The platforms the task uses, such as ServiceNow instance, Microsoft 365, or GitHub, must be connected. For more information, see [Connectors in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/connectors-in-cowork.md).
 
 ## Procedure
 
@@ -27,15 +27,15 @@ The platforms the task uses, such as ServiceNow instance, Microsoft 365, or GitH
 
     For example: Find my open P1 incidents, check each one for related changes in the last week, summarize the likely cause, and draft an update email to each assignment group.
 
-    Cowork determines the steps automatically, so describe the result, not the steps.
+    Arc determines the steps automatically, so describe the result, not the steps.
 
 2.  Enter a slash followed by the skill name, such as /plan-my-time, to run a skill as part of the task.
 
-    Cowork also uses skills automatically when your request matches a skill's description.
+    Arc also uses skills automatically when your request matches a skill's description.
 
 3.  Name a sub-agent in your request to hand part of the work to a specialist.
 
-    For example: Use the researcher sub-agent to find the API documentation, and then use the build-fixer sub-agent to fix the failing test. Cowork automatically routes work to sub-agents when a task requires focused expertise.
+    For example: Use the researcher sub-agent to find the API documentation, and then use the build-fixer sub-agent to fix the failing test. Arc automatically routes work to sub-agents when a task requires focused expertise.
 
 4.  Include when the task should run, such as every Monday at 9 a.m., to run it on a schedule.
 
@@ -45,11 +45,11 @@ The platforms the task uses, such as ServiceNow instance, Microsoft 365, or GitH
 
 7.  Select **Kanban** in the sidebar to follow the task.
 
-8.  If Cowork asks for approval or input, respond in the chat so the task can continue.
+8.  If Arc asks for approval or input, respond in the chat so the task can continue.
 
     **Example request**: Every Monday, summarize last week's P1 incidents, create a PowerPoint presentation with a slide per incident, and post the summary to my team's Teams channel.
 
-    Cowork processes this request in stages:
+    Arc processes this request in stages:
 
     1.  Queries ServiceNow for P1 incidents through the ServiceNow connector.
     2.  Assigns the analysis to the sn-analyst sub-agent.
@@ -59,7 +59,7 @@ The platforms the task uses, such as ServiceNow instance, Microsoft 365, or GitH
 
 ## Result
 
-Cowork executes each step of the task, using the required skills, sub-agents, and connectors. When the task is done, it moves to **Completed** on the **Kanban** board, and the results appear in the chat.
+Arc executes each step of the task, using the required skills, sub-agents, and connectors. When the task is done, it moves to **Completed** on the **Kanban** board, and the results appear in the chat.
 
 ## What to do next
 
@@ -69,5 +69,5 @@ For better results with complex tasks:
 -   State the output format, such as an email draft, a spreadsheet, or a slide per item.
 -   For work you repeat, turn it into a custom skill.
 
-**Parent Topic:**[Using ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-using.md)
+**Parent Topic:**[Using ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-using.md)
 

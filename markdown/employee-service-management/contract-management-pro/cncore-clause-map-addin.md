@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Create template using Word add-in, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Complete clause mapping to build a clause library
@@ -54,7 +54,7 @@ Clauses that are imported from the Microsoft Word document are used to build a c
 6.  View the clause variations associated with a clause by selecting the Display/hide hierarchical lists icon \(\[Omitted image "lsd-icon-hirerachy-lists.png"\] Alt text: Display/hide hierarchical lists\) for the clause.
 
 
-**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
+**Parent Topic:**[Creating a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 
 **Related topics**  
 

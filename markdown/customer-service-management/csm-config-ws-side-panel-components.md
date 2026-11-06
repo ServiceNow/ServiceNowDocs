@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Configurable Workspace contextual side panel components
 
 Use the contextual side panel to quickly access tools and information directly from the record page, helping agents research and resolve customer issues without leaving the case view.
 
-The contextual side panel is embedded within multiple [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-pages-templates.md) in CRM Workspace. The side panel contains tabs with different functionality that vary depending on the record page. While the content within the side panel may be similar from one record page to another, the order and availability of the tabs may vary.
+The contextual side panel is embedded within multiple [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-pages-templates.md) in CSM Configurable Workspace. The side panel contains tabs with different functionality that vary depending on the record page. While the content within the side panel may be similar from one record page to another, the order and availability of the tabs may vary.
 
 <table id="id_rzq_vgj_vfc"><thead><tr><th>
 

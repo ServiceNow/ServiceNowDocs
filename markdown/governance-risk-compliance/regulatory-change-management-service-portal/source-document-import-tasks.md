@@ -26,7 +26,7 @@ Compliance team members evaluate the citation associated with the alert and dete
 
 You can associate multiple source document import tasks with a single regulatory alert. This configuration simplifies management and improves tracking of regulatory content ingestion processes. Each task adds relevant documents to the regulatory library for comprehensive capture and organization. Grouping tasks under one alert enhances traceability throughout the regulatory change management process.
 
-## New workflow of a source document import task
+## Source document import task workflow
 
 Upgrade the following applications to get the new workflow:
 

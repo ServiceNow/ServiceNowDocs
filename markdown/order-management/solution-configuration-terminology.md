@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [solution configuration, terminology, glossary]
-breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Solution configuration terminology
@@ -28,7 +28,7 @@ Terms used in solution configurations and their definitions.
 |Target field|The field on the child blueprint that receives the value from the source field through a field mapping. Target fields are read-only during a configuration session.|
 |Solution BOM|The consolidated bill of materials that aggregates all products added across every configuration in the session, including children and grandchildren. The solution BOM is returned when a solution is saved.|
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 **Related topics**  
 

@@ -22,7 +22,7 @@ Connect your external data sources with ServiceNow to enhance self-service capab
 
 \[Omitted image "ia-external-sources.png"\] Alt text: Screenshot showing external sources
 
-See [Webcrawler external content connector predefined web sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/predefined-websources-webcrawler-ext-cont-connector.md) for more information.
+See  for more information.
 
 ## ServiceNow sources
 

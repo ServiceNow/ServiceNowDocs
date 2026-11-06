@@ -26,7 +26,7 @@ The Purchase Order Confirmation \[sn\_poem\_po\_confirmation\] table contains th
 |Number|String|Auto-generated unique identifier for this PO confirmation record.|
 |Active|True/False|Indicates whether this confirmation record is currently active.|
 |Created|Date/Time|Date and time on which this PO Confirmation was created.|
-|ERP number|String|Reference purchase order ID in the external ERP system.|
+|ERP number|String|Reference purchase order confirmation ID in the external ERP system.|
 |Updates|Integer|Number of fields edited every time the record is updated.|
 |Additional comments|Journal Input|Free text for the supplier to enter any comments relevant to the entire order confirmation.|
 |Updated by|String|User who last modified this record.|

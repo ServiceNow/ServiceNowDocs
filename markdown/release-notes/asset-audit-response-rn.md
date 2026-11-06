@@ -28,6 +28,8 @@ The ServiceNow® Asset Audit Response application provides workspaces where asse
 
 See [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audit-response.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 **Important:** Asset Audit Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

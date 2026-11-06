@@ -82,5 +82,5 @@ Update the wish list automatically with user-specific changes from multiple tabs
 
 [Clone a widget]()
 
-[bundle-platcap.add-to-wishlist-portal]
+[Add an item to the wish list in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-to-wishlist-portal.md)
 

@@ -26,7 +26,7 @@ The multi-currency functionality provides the following benefits:
 
 ## How to configure
 
-Role required: sn\_shop.procurement\_administrator
+Role required: sn\_shop.shopping\_hub\_admin
 
 Plugin required: Shopping Hub \(sn\_spend\_uib\)
 

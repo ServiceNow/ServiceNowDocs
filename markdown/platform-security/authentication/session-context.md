@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
 
@@ -27,7 +27,7 @@ The Session Validation Context feature evaluates the IP-addresses based on the c
 The Session Validation Context works based on the following mechanism:
 
 -   Captures the user's IP address on session creation from user request and stores it in the session and database.
--   Rejects a request when its IP address differs from that in the session or outside of the customer defined valid IP ranges you defined.
+-   Rejects a request when its IP address differs from the one in the session, or when it is outside the valid IP ranges that you define.
 
 **Note:** The Session Validation Context is:
 
@@ -84,10 +84,6 @@ Defines the default behavior of this context when evaluating the policy. Select 
 
 Denies access to all users by default, and only allows access when the conditions in the **Allow Policy** field evaluate to true.
 
--   **Deny Policy**
-
-Allows access to all users by default, and only denies access when the conditions in the **Deny Policy** field evaluate to true.
-
 
 </td></tr><tr><td>
 
@@ -97,20 +93,12 @@ Allow Policy
 
 The policy used for this context. This field appears only when the **Default Policy** field is set to **Allow Policy**.
 
-</td></tr><tr><td>
-
-Deny Policy
-
-</td><td>
-
-The policy used for this context. This field appears only when the **Default Policy** field is set to **Deny Policy**.
-
 </td></tr></tbody>
-</table>You can choose the **Session Validation Policy** as Allow Policy or Deny Policy based on the policy input and policy conditions.
+</table>The **Session Validation Policy** uses Allow Policy, based on the policy input and policy conditions.
 
 **Note:** You can only use the IP, Role, and Group filter criteria for Session Validation policy.
 
 ## Policy inputs and conditions
 
-The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference; but they can’t be used to change the policy inputs or conditions. To modify your policy, navigate to the policy using the reference icon next to the **Allow Policy** or **Deny Policy** field.
+The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** field. These tabs serve as a reference; but they can’t be used to change the policy inputs or conditions. To modify your policy, navigate to the policy using the reference icon next to the **Allow Policy** field.
 

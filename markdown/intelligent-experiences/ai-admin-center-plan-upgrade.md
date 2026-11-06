@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: task
 last_updated: "2026-10-02"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Increasing AI readiness, AI Admin Center, Enable AI experiences]
 ---
@@ -17,7 +17,7 @@ Run an upgrade readiness pre-check and evaluate the current version against the 
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -69,11 +69,80 @@ Follow these steps to run the upgrade readiness pre-check and review the results
 
 6.  Select **View details** for each result in the list.
 
-    The selected details open in a side panel, grouped by issue type.
+    The selected details open in a side panel, grouped by issue type. Each section heading shows the number of findings in the section.
 
     \[Omitted image "ai-admin-center-lux-plan-upgrade-details.png"\] Alt text: Side panel showing detailed results of an upgrade pre-check.
 
-    1.  Use the search and filter options to refine the list.
+    The details side panel contains the following sections.
+
+<table id="table_ubm_vvt_1lc"><thead><tr><th>
+
+Section
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+New features
+
+</td><td>
+
+Displays new capabilities available in the target release.
+
+ Each new feature shows a description, purpose, use cases, and the impact of the feature.
+
+</td></tr><tr><td>
+
+Deprecated changes
+
+</td><td>
+
+Displays features removed or marked for removal in the target release.
+
+</td></tr><tr><td>
+
+Customization issues
+
+</td><td>
+
+Displays customizations at risk of breaking from upgrading the target release.
+
+ Each customization shows the affected record, table, and the action that will occur upon upgrade: **Preserved** or **Will be updated**.
+
+ **Preserved** customizations aren't changed or overwritten by the upgrade.
+
+ **Will be updated** customizations are overwritten with the current value after the upgrade. Document the setting and reincorporate it as needed after the update.
+
+</td></tr><tr><td>
+
+Application compatibility
+
+</td><td>
+
+Displays the current and target versions compared to identify changes.
+
+</td></tr><tr><td>
+
+Behavior changes
+
+</td><td>
+
+Displays existing features that work differently in the target release.
+
+ Each finding shows the differences between the current and target versions along with the impact of the change.
+
+</td></tr><tr><td>
+
+Fixed
+
+</td><td>
+
+Displays issues that are resolved in the target version.
+
+</td></tr></tbody>
+</table>    1.  Use the search and filter options to refine the list.
 
         -   Type in the search box and select the **Search** icon \(\[Omitted image "icon-now-assist-center-search.png"\] Alt text: Search icon.\) to filter by search criteria.
         -   Select one or more options from the **Types** filter menu.

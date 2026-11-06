@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Industrial Process Manager, Operational Technology]
+breadcrumb: [Explore the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Industrial Process Manager common terminology
@@ -67,5 +67,5 @@ ETL
 Common term that is used for taking data from a source system, transforming it, and then uploading it to a target system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
+</table>**Parent Topic:**[Explore Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
 

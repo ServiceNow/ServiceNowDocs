@@ -14,6 +14,8 @@ breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents l
 
 This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
 
+**Note:** This version of the AI agent is available on Zurich Patch 12, Australia Patch 5, and later releases, and replaces the earlier version of the agent. If you're using an earlier release, see [Change request plans AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-change-request-plans-ai-agent.md).
+
 ## Workflow
 
 1.  Autonomously retrieve the change request record and all available change policy documents.

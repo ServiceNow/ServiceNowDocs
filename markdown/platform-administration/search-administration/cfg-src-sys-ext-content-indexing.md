@@ -95,7 +95,7 @@ Each external content connector has its own source system configuration requirem
 
 [Export SAP SuccessFactors Learning data for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.md)
 
-[Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)
+[Configure your ServiceNow AI Platform source instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)
 
 [Configure Slack for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-src-sys-settings-slack-ext-cont-connector.md)
 

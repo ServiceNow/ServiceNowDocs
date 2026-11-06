@@ -1,19 +1,19 @@
 ---
-title: Configuring MCP for Enterprise Architecture
-description: Configure the EA MCP server to authenticate and connect your ServiceNow instance to an MCP-compatible AI assistant. Install the application, then connect the server to your AI client to enable natural language access to EA data.
+title: Configure MCP for Enterprise Architecture
+description: The EA MCP server connects your ServiceNow instance to an MCP-compatible AI assistant, enabling natural language access to EA data. To set up the connection, install the application and configure the server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/configuring-ea-mcp-server.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-27"
 reading_time_minutes: 1
-keywords: [configure]
+keywords: [EA MCP server]
 breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]
 ---
 
-# Configuring MCP for Enterprise Architecture
+# Configure MCP for Enterprise Architecture
 
-Configure the EA MCP server to authenticate and connect your ServiceNow instance to an MCP-compatible AI assistant. Install the application, then connect the server to your AI client to enable natural language access to EA data.
+The EA MCP server connects your ServiceNow instance to an MCP-compatible AI assistant, enabling natural language access to EA data. To set up the connection, install the application and configure the server.
 
 ## Configuration overview
 

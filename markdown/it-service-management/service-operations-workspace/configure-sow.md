@@ -23,9 +23,9 @@ Set up Service Operations Workspace by procuring the required license, configuri
 -   **[Setting up integrations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/setting-up-sow-itsm.md)**  
 You can set up multiple integrations in Service Operations Workspace for ITSM to leverage its complete capabilities.
 -   **[Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/admin-center-sow.md)**  
-The Admin Center provides centralized control of the instance to admins. It provides effortless, quick access to manage all customizations in Service Operations Workspace \(SOW\) for IT Service Management \(ITSM\), and additional plugins that extend the Service Operations Workspace for ITSM capabilities.
+Use the Admin Center to manage all customizations in Service Operations Workspace for ITSM from a single page.
 -   **[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)**  
-Besides the configurations that are part of the essential setup for implementing Service Operations Workspace for ITSM, you can still improve your Service Operations Workspace for ITSM experience with a few configurations.
+Improve your Service Operations Workspace for ITSM experience with configurations beyond the essential setup.
 
 **Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-landing-page.md)
 

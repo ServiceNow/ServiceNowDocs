@@ -1,13 +1,13 @@
 ---
 title: Zero Copy Connector for ERP release notes
-description: The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
+description: The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/zero-copy-connector-for-erp-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-09-24"
 reading_time_minutes: 6
-keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, workday, raas, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
+keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, workday, raas, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -17,18 +17,14 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
 ## About Zero Copy Connector for ERP
 
--   Connect to Oracle E-Business Suite \(12.2 and later\).
--   Add Workday RaaS reports to read operations by pasting a sample report response.
--   Use REST APIs to extend beyond SAP systems.
--   Use the improved AI suggestions and interface to map fields in the Model Manager.
--   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.
--   Discover OData services faster using an AI agent for Zero Copy Connector for ERP.
+-   Retrieve and update data from an ERP system, such as SAP, SuccessFactors, Workday, or Oracle E-Business Suite.
+-   Create models that include ERP system data in remote tables and extraction tables.
+-   Use extracted and transformed data to build applications that access the models.
+-   Accelerate application development with Zero Copy Connector for ERP content packs that contain predefined models and process extensions.
 
 See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md) and [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) for more information.
 
 ## Activation and other requirements
-
-**Important:** Zero Copy Connector for ERP and ServiceNow Otto for Zero Copy Connector are available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 -   **Activation information**
 
@@ -41,7 +37,7 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
-## October 2026
+## Australia 10.7.1 \(October 2026\)
 
 The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 
@@ -54,12 +50,12 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
 ### What's changed
 
--   ****
+-   **[Building flows with the Zero Copy Connector for ERP Use ERP Data action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-build-flow-operation.md)**
 
-    [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-build-flow-operation.md)Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
+    Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
 
 
-## September 2026
+## Australia 10.6.0 \(September 2026\)
 
 The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 
@@ -84,9 +80,9 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
 ### What's deprecated or removed
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
-## August 2026
+## Australia 10.0.9 \(August 2026\)
 
 The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 
@@ -104,7 +100,7 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
     After you specify the REST service to use, the endpoint and return type are added automatically.
 
 
-## Australia General Availability
+## Australia General Availability \(10.0.9, May 2026\)
 
 The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 
@@ -150,10 +146,6 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
     Additional models, including Vendor Bank Details, Vendor Location Details, and Vendor Contact Details, are added to the content pack for use when interacting with an SAP system.
 
-
-## Australia
-
-The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 
 ### What's deprecated or removed
 

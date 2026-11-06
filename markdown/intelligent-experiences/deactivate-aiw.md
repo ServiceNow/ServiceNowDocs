@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/deactivate-aiw.html
 release: australia
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
-keywords: [AI specialist]
+keywords: [deactivate AI specialist, turn off AI specialist, disable AI specialist]
 breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
 ---
 
@@ -23,9 +23,9 @@ Role required: sn\_aia.admin
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 
-2.  In the **AI specialists** tab, select the AI specialist you want to view the activity of.
+2.  In the **AI specialists** tab, select the AI specialist you want to deactivate.
 
-3.  Select the more options button \[Omitted image "Form\_MoreOptions.png"\] to open the drop-down menu.
+3.  Select the more options button \[Omitted image "Form\_MoreOptions.png"\] Alt text: to open the drop-down menu.
 
 4.  Select **Deactivate**.
 

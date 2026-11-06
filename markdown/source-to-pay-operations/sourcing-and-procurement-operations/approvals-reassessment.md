@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 3
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -27,6 +27,8 @@ A reduction in funds revision is not allowed if the amount is below what has alr
 For information on approval rules, see [Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-types.md) and [Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md).
 
 When an approval reassessment is sent to approvers, the approval amount to be considered must include the revised line's original amount and the increase in funds. For example, if the original line amount is $1000 and an increase in funds revision results in the line amount to be $1500, the amount to be considered for reassessment and approval is $1500.
+
+There is no out-of-the-box setting to reassess approvals only when a revision raises the cost above a threshold. Whether approvals are reassessed depends on the rule that is triggered and the resend approvals for reassessment property.
 
 When the resend approvals for assessment property is set to Yes, if there is an existing approval plan record that is in progress, and a revision or merge occurs before the plan is completed, its status is updated to No longer required, and a new plan is created. If the property is set to No, and if the existing approval plan is in progress, it is reused.
 

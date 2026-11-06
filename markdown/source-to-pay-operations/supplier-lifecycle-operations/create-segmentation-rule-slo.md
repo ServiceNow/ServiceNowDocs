@@ -7,8 +7,8 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [SLO, Supplier Lifecycle Operations, segmentation rule, segmentation table, condition builder, categorizing suppliers, Supplier Relationship and Performance Management]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -21,6 +21,14 @@ Create a segmentation rule that defines criteria for categorizing suppliers into
 
 Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
+## About this task
+
+A segmentation rule groups onboarded suppliers into a segment so that you can apply the same KPIs to all of them. Set conditions on the rule to define which suppliers belong to the segment. Suppliers that match the conditions are automatically added to the segment and receive KPIs from the KPI templates that you map to the rule. You can also add individual suppliers manually.
+
+When the rule runs, the system generates KPIs and KPI collection tasks for all the suppliers in the segment. For example, you can create one rule for all IT hardware suppliers to apply the same set of KPI templates to that group.
+
+For more information, see [Add KPI templates to a segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-kpi-template-segmentation-rule.md), [Add suppliers to a segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-segmentation-rule.md), and [Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
@@ -28,10 +36,10 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 2.  Do one of the following:
 
     -   Under Quick actions, select **Create segmentation rule**.
-    -   Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\), navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**, and then select **New**.
+    -   Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\), navigate to **Lists** &gt; **Relationship management** &gt; **Segmentation rules**, and then select **New**.
 3.  On the form, fill in the fields.
 
-<table><thead><tr><th>
+<table id="table_k2y_2cw_1lc"><thead><tr><th>
 
 Field
 
@@ -106,7 +114,7 @@ Condition
 
 </td><td>
 
-Option that enables you to build a filter by adding conditions with fields, operators, and values.Select **Edit conditions** to open the condition builder.
+Conditions that define which suppliers belong to the segment. Select **Set conditions** to open the condition builder and add conditions with a field, operator, and value. For example, to select suppliers located in India, set the field to `Country`, the operator to `is`, and the value to `India`.After you set conditions, the link changes to **Edit conditions**.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
@@ -117,9 +125,9 @@ Option that enables you to build a filter by adding conditions with fields, oper
 A new segmentation rule is created.
 
 -   **[Add KPI templates to a segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-kpi-template-segmentation-rule.md)**  
-You can add new KPI templates to a segmentation rule if the existing templates used for suppliers don’t meet your needs.
+Add KPI templates to a segmentation rule to define the KPIs that are generated for the suppliers in the segment when the rule runs. You must add at least one KPI template before you run the rule.
 -   **[Add suppliers to a segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-segmentation-rule.md)**  
-You can add a new supplier to a segmentation rule if the existing suppliers don’t meet your needs.
+Add suppliers to a segmentation rule so that KPIs are generated for them when the rule runs.
 
 **Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

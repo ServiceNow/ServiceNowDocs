@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Task Mining, Platform Analytics]
 ---
@@ -26,9 +26,9 @@ The process to install a Task Mining agent is as follows:
 
     When a Task Mining adds a workstation user to a Task Mining project, a data request is sent to all managers of every workstation user. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 
-2.  The manager approves the request.
+2.  The manager approves the data request.
 
-    When the manager approves the data log request, the Task Mining agent can be installed. For more information, see [Approve workspace user data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/approve-workspace-user-log-requests.md).
+    When the manager approves the data request, the Task Mining agent can be installed. For more information, see [Approve workspace user data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/approve-workspace-user-log-requests.md).
 
 3.  Installation is performed by an IT or security user who is a part of the Task Mining Agent Install group with admin rights on the target workstation.
 

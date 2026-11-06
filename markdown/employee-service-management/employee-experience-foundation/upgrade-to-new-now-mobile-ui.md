@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee profile for Now Mobile, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee profile for Now Mobile, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Upgrade search redirection to the new Now Mobile profile page

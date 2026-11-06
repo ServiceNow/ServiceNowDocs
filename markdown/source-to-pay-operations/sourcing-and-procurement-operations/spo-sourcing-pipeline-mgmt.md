@@ -20,7 +20,7 @@ Sourcing Managers gain access to a unified pipeline project workspace that conso
 
 **Important:** Check your entitlements to determine whether you have access to Sourcing Pipeline Management.
 
-With the pipeline\_management\_admin role, you can configure the Pipeline project creation rule decision table to automate the creation of pipeline projects. The default pipeline project creation rule automatically creates a pipeline project when the total price of the products being sourced exceeds $250,000. When a sourcing intake request is submitted, a pipeline project is automatically created in the Draft state when the rule conditions are met. The pipeline project is associated with the sourcing request.
+With the sn\_spend\_pipeline.pipeline\_management\_admin role, you can configure the Pipeline project creation rule decision table to automate the creation of pipeline projects. The default pipeline project creation rule automatically creates a pipeline project when the total price of the products being sourced exceeds $250,000. When a sourcing intake request is submitted, a pipeline project is automatically created in the Draft state when the rule conditions are met. The pipeline project is associated with the sourcing request.
 
 For more information about using Sourcing Pipeline Management, see [Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md).
 
@@ -45,7 +45,7 @@ Fulfillers can view tasks related to pipeline projects in the Distribution of Wo
 -   **[Components installed with Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/components-pipeline-mgmt.md)**  
 Several types of components are installed with activation of the Sourcing Pipeline Management \(sn\_spend\_pipeline\) plugin, including user roles and tables.
 -   **[Pipeline project creation rule for high-value sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-project-creation-rule.md)**  
-By default, the Pipeline project creation rule decision table is used to create pipeline projects automtatically in Sourcing Pipeline Management.
+By default, the Pipeline project creation rule decision table is used to create pipeline projects automatically in Sourcing Pipeline Management.
 -   **[Automatic pipeline project creation via Shopping Hub or Employee Center intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/automatic-pipeline-creation.md)**  
 When a shopper submits sourcing requests for products, pipeline projects are automatically created, provided the product price meets the budget conditions defined in the decision table.
 -   **[Email notifications for pipeline projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-email-notifications.md)**  

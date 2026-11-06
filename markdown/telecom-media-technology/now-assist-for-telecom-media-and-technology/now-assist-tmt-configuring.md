@@ -105,7 +105,7 @@ Remote Hands Case Summary
 1.  Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
     If you’re already in the AI Admin Hub console, you can select the **AI Skills** tab on the screen.

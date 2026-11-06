@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -81,7 +81,7 @@ Error Framework is enabled by default. Administrators can disable it by setting 
 
 -   **AI insights**
 
-    The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page includes an AI Insights panel powered by ServiceNow Otto for Error Framework. The panel analyzes your current Discovery errors and generates a prioritized summary to help you focus on the most important issues first. Insights are scoped to your active domain and update automatically when you change filters on the Errors tab.
+    The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page includes an AI Insights panel powered by ServiceNow Otto for Error Framework. The panel analyzes your current Discovery errors and generates a prioritized summary to help you focus on the most important issues first. Insights are scoped to the domain selected in the **Domain** drop-down and update automatically when you change filters on the Errors tab.
 
     The panel surfaces the following:
 

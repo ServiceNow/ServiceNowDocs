@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To recalculate the costs of resource assignments, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To recalculate the costs of resource assignments, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 

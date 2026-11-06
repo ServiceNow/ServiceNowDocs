@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-10-15"
+reading_time_minutes: 2
 breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -60,6 +60,12 @@ For more information about the checkout experiences for shoppers based on whethe
     -   Select **Supplier site** to open the supplier's website.
     \[Omitted image "sh-product-tile.png"\] Alt text: Product tile in Shopping Hub.
 
+
+## What to do next
+
+On the Suppliers list, the **Preferred**, **Onboarded**, and **Punchout** filters are combined. A supplier is listed only if it meets every filter that you select. Suppliers are listed based on the products that match the filters. When Source-to-Pay Integration Framework is installed, the punchout suppliers that are available to you are always listed, and these filters do not narrow them.
+
+Suppliers are grouped under a letter by the first character of the supplier's legal name. The Categories list shows up to three levels of categories.
 
 **Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

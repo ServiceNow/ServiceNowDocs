@@ -25,7 +25,7 @@ To learn about migration and its benefits, see [Platform Analytics Migration Cen
 
 **Note:** You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance. If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
-This task is only applicable on instances that are upgraded to releases Xanadu or later. Net new instances from Xanadu onward don't have the **Core UI** column or the **Switch to Next Experience UI** button.
+This task is only applicable on instances that are upgraded to releases Xanadu or later. Net new instances from Xanadu onward don't have the **Switch to Next Experience UI** button.
 
 ## Procedure
 

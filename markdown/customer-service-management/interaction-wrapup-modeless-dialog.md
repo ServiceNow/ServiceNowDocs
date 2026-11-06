@@ -1,24 +1,24 @@
 ---
 title: Interaction wrap up with modeless dialog
-description: Interaction wrap up provides agents with dedicated time after each call or chat to finalize interaction details. Agents can use this time to wrap up their work before starting a new conversation.
+description: Interaction wrap up provides agents with dedicated time after each call or chat to finalize interaction details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/interaction-wrapup-modeless-dialog.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-11-02"
 reading_time_minutes: 7
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Interaction wrap up with modeless dialog
 
-Interaction wrap up provides agents with dedicated time after each call or chat to finalize interaction details. Agents can use this time to wrap up their work before starting a new conversation.
+Interaction wrap up provides agents with dedicated time after each call or chat to finalize interaction details.
 
-When interaction wrap up is enabled, an interaction record moves from the Work In Progress state to the Wrap Up state at the end of a customer conversation. This configurable period of time enables agents to complete tasks such as posting work notes and updating record information before moving on to assist other customers.
+When interaction wrap up is enabled, an interaction record moves from the **Work In Progress** state to the **Wrap Up** state at the end of a customer conversation. This configurable period of time enables agents to complete tasks such as posting work notes and updating record information before moving on to assist other customers.
 
-While in the Wrap Up state, an agent’s capacity is not reduced until the state of the interaction moves to Closed Complete.
+While in the Wrap Up state, an agent's capacity is not reduced until the state of the interaction moves to **Closed Complete**.
 
-## Interaction wrap up features
+## Interaction wrap-up features
 
 Interaction wrap up includes several configurable features:
 
@@ -35,7 +35,11 @@ Interaction wrap up provides agents with dedicated time to complete their work o
 
 Managers can configure the length of the wrap-up period for their agents. Managers can also access reports on wrap-up time usage and effectiveness and use analytics to track data accuracy and agent productivity improvements.
 
-Admins can set and manage wrap-up time limits for voice and chat interactions and create wrap-up codes. Agents can quickly select from a list of available codes during wrap-up.
+Admins can set and manage wrap-up time limits for voice and chat interactions and create wrap-up codes. Agents can select from a list of available codes during wrap-up.
+
+## Required roles
+
+To use the interaction wrap up feature, agents need the interaction agent \(interaction\_agent\) role. The service management agent \(sn\_esm\_agent\) role contains this role.
 
 ## Wrap-up codes
 
@@ -49,20 +53,20 @@ System administrators can create wrap-up codes. From the Interaction Wrap Up Con
 
 For more information, see the following topics:
 
--   [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interaction-wrap-up-config.md)
+-   [Create an interaction wrap up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interaction-wrap-up-config.md)
 -   [Create interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/config-interaction-wrapup-codes.md)
 -   [Enable interaction wrap up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-interaction-wrapup-codes.md)
 
 ## Wrap-up timer
 
-The interaction wrap up timer displays a countdown of the wrap-up period. The wrap-up timer starts when the wrap up period begins.
+The interaction wrap up timer displays a countdown of the wrap-up period. The wrap-up timer starts when the wrap-up period begins.
 
-Agents can complete their work within the wrap-up period and submit the wrap-up data. If agents do not complete their work, the system automatically ends the wrap-up period and saves the wrap-up data with the default code and notes field blank.
+Agents can complete their work within the wrap-up period and submit the wrap-up data. If agents don't complete their work, the system automatically ends the wrap-up period and saves the wrap-up data with the default code and notes field blank.
 
 Depending on the settings in the Interaction Wrap Up Configuration record, the wrap-up timer appears on an interaction record in one of two locations:
 
 -   In the wrap-up modeless dialog: The timer is displayed in the modeless dialog if wrap-up codes are enabled.
--   In the interaction record header secondary values. The timer is displayed in the secondary values if wrap-up codes are not enabled.
+-   In the interaction record header secondary values. The timer is displayed in the secondary values if wrap-up codes aren't enabled.
 
 The system administrator can configure the display of the wrap-up timer by enabling the **Show duration to agent** field on the Interaction Wrap Up Configuration record.
 
@@ -95,64 +99,16 @@ If the wrap-up time expires before the agent selects **Submit &amp; close**, the
 
 Agent actions that impact the wrap-up modeless dialog:
 
-<table id="table_orw_b5l_rdc"><thead><tr><th>
+|Action|Result|
+|------|------|
+|Initiating an outbound conversation during the wrap-up period|The system ends the countdown and closes the modeless dialog.|
+|Changing the agent status during the wrap-up period|The system ends the countdown and closes the modeless dialog.|
+|Logging out during the wrap-up period|If an agent logs out during the wrap-up period without selecting **Submit &amp; close**, the wrap-up time continues. If the agent does not log back in, the system closes the wrap-up.|
+|Closing the interaction while in wrap-up mode|The system displays a warning message. If the agent still wants to close the interaction, the system submits the wrap-up using the default wrap-up code.|
+|Transferring a call to another agent|Each agent's wrap-up period begins the moment they exit the call. This behavior applies to both warm and cold transfers.|
+|Canceling an inbound or outbound call|When a caller cancels an inbound call that hasn't been connected to an agent or an agent cancels an outbound call, wrap-up is not initiated.|
 
-Action
-
-</th><th>
-
-Result
-
-</th></tr></thead><tbody><tr><td>
-
-Initiating an outbound conversation during the wrap-up period
-
-</td><td>
-
-The system ends the countdown and closes the modeless dialog.
-
-</td></tr><tr><td>
-
-Changing the agent status during the wrap-up period
-
-</td><td>
-
-The system ends the countdown and closes the modeless dialog.
-
-</td></tr><tr><td>
-
-Logging out during the wrap-up period
-
-</td><td>
-
-If an agent logs out during the wrap-up period without selecting **Submit &amp; close**, the wrap-up time continues. If the agent does not log back in, the system closes the wrap-up.
-
-</td></tr><tr><td>
-
-Closing the interaction while in wrap up mode
-
-</td><td>
-
-The system displays a warning message. If the agent still wants to close the interaction, the system submits the wrap-up using the default wrap-up code.
-
-</td></tr><tr><td>
-
-Transferring a call to another agent
-
-</td><td>
-
-Each agent’s wrap-up period begins the moment they exit the call. This behavior applies to both warm and cold transfers.When a call is transferred from one agent to another, each agent’s wrap-up period begins the moment they exit the call.
-
-</td></tr><tr><td>
-
-Cancelling an inbound or outbound call
-
-</td><td>
-
-When a caller cancels an inbound call that hasn’t been connected to an agent or agent cancels an outbound call, wrap-up is not initiated.
-
-</td></tr></tbody>
-</table>## Wrap-up segments
+## Wrap-up segments
 
 The system stores interaction wrap-up data in wrap-up segments. Storing the data in segments enables multiple wrap-ups per interaction. For example, when one agent transfers an interaction to another agent, each agent can complete a wrap-up for the same interaction record.
 
@@ -160,7 +116,7 @@ Interaction wrap-up segment records are stored in the Interaction Wrap Up Segmen
 
 ## My Wrap Ups list
 
-The My Wrap Ups list displays a list of all wrap-up records for the current user. To access this list in the Lists tab, navigate to **Interactions** &gt; **My Wrap Ups**. This list view includes a link to the interaction record, the wrap-up state \(In progress or Complete, and the wrap-up code and notes.
+The My Wrap Ups list displays all wrap-up records for the current user. To access this list in the Lists tab, navigate to **Interactions** &gt; **My Wrap Ups**. This list view includes a link to the interaction record, the wrap-up state \(In progress or Complete\), and the wrap-up code and notes.
 
 The following roles have access to the My Wrap Ups list:
 
@@ -168,25 +124,25 @@ The following roles have access to the My Wrap Ups list:
 -   Consumer service agent \(sn\_customerservice.consumer\_agent\)
 -   System administrator \(admin\)
 
-## Wrap up controller
+## Wrap-up controller
 
 There are two different controllers for interaction wrap up:
 
 -   Interaction UI controller: Original controller; includes legacy wrap-up functionality.
--   Wrap up controller: New controller introduced in Yokohama; includes wrap-up codes and the wrap-up modeless dialog.
+-   Wrap-up controller: Controller that includes wrap-up codes and the wrap-up modeless dialog.
 
 The Wrap up controller includes output properties that determine where the wrap-up timer is displayed: in the modeless dialog or in the interaction header secondary values. The Wrap up controller also controls how the timer is updated.
 
 The CSM Interaction record page and the CSM voice interaction record page include an input property that determines the wrap-up functionality: **disableLegacyWrapUpLogic**.
 
--   If set to false: the wrap-up functionality remains the same. For upgrade customers, this prevents conflicts with the current or custom wrap-up functionality. The default value of this property is false.
--   If set to true: the interaction record page uses the new wrap-up functionality.
+-   If set to false: the wrap-up functionality remains the same. For upgrade customers, this helps avoid conflicts with the current or custom wrap-up functionality. The default value of this property is false.
+-   If set to true: the interaction record page uses the updated wrap-up functionality.
 
 To edit this property:
 
-1.  In UI Builder, select the CSM/FSM Configurable Workspace experience.
+1.  In UI Builder, select the CSM Configurable Workspace or CSM/FSM Configurable Workspace experience.
 2.  Select the CSM Interaction record page.
-3.  In the Data and scripts section on the left side, select CSM Interaction Record to open the Edit CSM Interaction Record modal.
+3.  In the Data and scripts section select CSM Interaction Record to open the Edit CSM Interaction Record modal.
 4.  In the Configure tab of the modal, enable or disable the **disableLegacyWrapUpLogic** property.
 
 ## Interaction record pages

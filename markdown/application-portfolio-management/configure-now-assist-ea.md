@@ -24,7 +24,7 @@ Role required: admin
 
 Use the AI Admin Hub to configure ServiceNow Otto for EA. While all ServiceNow Otto for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the AI Admin Hub.
 
@@ -38,7 +38,7 @@ The following table lists the features and skills that you can access from the A
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
-**Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+**Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are as follows:
 
@@ -50,7 +50,7 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 1.  Install the ServiceNow Otto for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/supporting-info-now-assist-ea.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** to access the skills tab of the AI Admin Hub.
 
     If you’re already in the AI Admin Hub, you can select the **AI Skills** tab on the screen.
@@ -61,15 +61,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36954e360">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36967e360">
 
 Skill
 
-</th><th align="left" id="d36954e363">
+</th><th align="left" id="d36967e363">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36954e369">
+</th></tr></thead><tbody><tr><td id="d36967e369">
 
 **ADR Doc Summarization and Actions**
 
@@ -80,7 +80,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d36954e400">
+</td></tr><tr><td id="d36967e400">
 
 **Business application insights**
 
@@ -131,7 +131,7 @@ The You are making a copy of a skill dialog box appears.
     7.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d36954e655">
+</td></tr><tr><td id="d36967e655">
 
 **Diagram change analysis**
 
@@ -156,7 +156,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d36954e744">
+</td></tr><tr><td id="d36967e744">
 
 **Refine text**
 
@@ -166,7 +166,7 @@ The diagram change analysis skill is activated.
 2.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d36954e766">
+</td></tr><tr><td id="d36967e766">
 
 **Create diagram from image**
 

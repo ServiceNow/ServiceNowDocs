@@ -1,6 +1,6 @@
 ---
-title: Set up ServiceNow Cowork
-description: Connect Cowork to your ServiceNow instance and prepare your workspace and secure sandbox.
+title: Set up ServiceNow Arc
+description: Connect Arc to your ServiceNow instance and prepare your workspace and secure sandbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-cowork.html
 release: australia
@@ -8,32 +8,32 @@ topic_type: task
 last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [Set up Cowork]
-breadcrumb: [Configure, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Set up ServiceNow Cowork
+# Set up ServiceNow Arc
 
-Connect Cowork to your ServiceNow instance and prepare your workspace and secure sandbox.
+Connect Arc to your ServiceNow instance and prepare your workspace and secure sandbox.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.admin or sn\_app\_cowork.user
+Role required: sn\_app\_arc.admin or sn\_app\_arc.user
 
 ## Procedure
 
-1.  Select and open the ServiceNow Cowork application.
+1.  Select and open the ServiceNow Arc application.
 
 2.  When macOS asks for access to your keychain, enter your login keychain password, and then select **Always Allow** or **Allow** to grant access for this session only.
 
     Your login keychain is your macOS password.
 
-3.  On the Meet ServiceNow Cowork screen, select **Get Started**.
+3.  On the Meet ServiceNow Arc screen, select **Get Started**.
 
 4.  On the Connect ServiceNow screen, enter your instance name in the **Instance URL** field.
 
 5.  Select a sign in method.
 
-    -   **Sign in within ServiceNow Cowork**: Use your password or PIN.
+    -   **Sign in within ServiceNow Arc**: Use your password or PIN.
     -   **Sign in via browser**: Use any sign in option your instance supports, such as SSO.
 6.  Select **Sign in with ServiceNow**.
 
@@ -41,7 +41,7 @@ Role required: sn\_app\_cowork.admin or sn\_app\_cowork.user
 
 8.  If the Update Required dialog appears, select **Update &amp; Restart**.
 
-    After Cowork restarts, sign in again.
+    After Arc restarts, sign in again.
 
 9.  On the Workspace &amp; Security screen, confirm the default workspace folder or select **Choose** to pick a different folder.
 
@@ -52,16 +52,22 @@ Role required: sn\_app\_cowork.admin or sn\_app\_cowork.user
     -   Rootfs image ready
     -   OpenShell gateway started
     -   MicroVM sandbox ready
+    These checks apply to macOS. On Windows, Arc uses a different sandbox, so the checks shown can differ.
+
     If setup stalls or fails, select **Retry**.
 
 11. Select **Continue**.
 
-12. On the You're All Set screen, confirm the model that Cowork uses, and then select **Start Using ServiceNow Cowork**.
+12. On the You're All Set screen, confirm the model that Arc uses, and then select **Start Using ServiceNow Arc**.
 
 
 ## Result
 
-Cowork opens and is ready to use. You can change your workspace and other options anytime in **Settings**.
+Arc opens and is ready to use. You can change your workspace and other options anytime in **Settings**.
 
-**Parent Topic:**[Configuring ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
+## What to do next
+
+For more information about resolving common issues, see [Troubleshoot Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/troubleshoot-arc.md).
+
+**Parent Topic:**[Configuring ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
 

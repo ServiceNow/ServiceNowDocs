@@ -1,6 +1,6 @@
 ---
 title: Set up the environment to manage approvals
-description: Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a CPQ implementation.
+description: Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a ServiceNow CPQ implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/setup-approvals-prerequisites.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configu
 
 # Set up the environment to manage approvals
 
-Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a CPQ implementation.
+Complete the setup tasks before creating approval configurations and workflows. These prerequisites enable the approval system for a ServiceNow CPQ implementation.
 
 ## Before you begin
 

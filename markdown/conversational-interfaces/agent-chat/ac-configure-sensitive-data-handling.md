@@ -1,5 +1,5 @@
 ---
-title: Configuring Sensitive Data Handler
+title: Configure Sensitive Data Handler
 description: Detect and mask sensitive information that is shared in Agent Chat or Virtual Agent conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
-# Configuring Sensitive Data Handler
+# Configure Sensitive Data Handler
 
 Detect and mask sensitive information that is shared in Agent Chat or Virtual Agent conversations.
 
@@ -41,7 +41,7 @@ Role required: admin, virtual\_agent\_admin
     3.  Requester to Virtual Agent - detect and mask sensitive data entered by the requester during a Virtual Agent conversation.
     **Note:** You must select at least one conversation flow.
 
-5.  The Regular Expressions tab displays the existing expressions:
+5.  The **Regular Expressions** tab displays the existing expressions:
 
 <table id="table_hzl_rk4_gsb"><thead><tr><th>
 

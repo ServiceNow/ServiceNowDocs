@@ -1,6 +1,6 @@
 ---
-title: Dynamic Translation for Agent Chat overview
-description: Dynamic Translation for Agent Chat \(DTAC\) translates chat conversations from one language to another. This translating enables agents and requesters to have chat conversations with each other without the need of a shared language.
+title: Dynamic Translation for Agent Chat
+description: Dynamic Translation for Agent Chat \(DTAC\) translates chat conversations from one language to another. This translating enables agents and requesters to have chat conversations with each other without the need for a shared language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ci-dtac-overview.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Agent Chat, Conversational Interfaces]
 ---
 
-# Dynamic Translation for Agent Chat overview
+# Dynamic Translation for Agent Chat
 
-Dynamic Translation for Agent Chat \(DTAC\) translates chat conversations from one language to another. This translating enables agents and requesters to have chat conversations with each other without the need of a shared language.
+Dynamic Translation for Agent Chat \(DTAC\) translates chat conversations from one language to another. This translating enables agents and requesters to have chat conversations with each other without the need for a shared language.
 
 For example, a requester who speaks only French starts a chat conversation with a live agent who speaks only English. From the requester’s view, the entire conversation is conducted in French, while from the agent’s view, the entire conversation is conducted in English.
 
@@ -39,7 +39,7 @@ DTAC is available for requesters on Agent Chat in mobile for iOS and Android.
 
 ## Translation support limited to one language
 
-DTAC can only support translation from one language to another therefore additional agents or managers joining chat sessions should speak the same language as the primary agent.
+DTAC can only support translation from one language to another. Additional agents or managers joining chat sessions should speak the same language as the primary agent.
 
 -   Agent chat transfers – Agents transferring a chat conversation should both speak the same language.
 -   Managers joining chat conversation – Managers joining chat conversation to monitor or assist agents should speak the same language as the primary agent.

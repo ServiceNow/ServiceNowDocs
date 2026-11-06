@@ -20,6 +20,6 @@ Explore the **Controls** section on the configurations page of the AI Control To
 Expand the **Controls** section to explore the sub sections:
 
 -   [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/explore-approvals.md)
--   [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-model-providers.md)
+-   
 -   [Automation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/automation-rules.md)
 

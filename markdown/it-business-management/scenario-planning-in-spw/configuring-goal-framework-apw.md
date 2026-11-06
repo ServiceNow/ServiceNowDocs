@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -29,6 +29,8 @@ If your organization uses the legacy goal and strategy tables \(Goal, Enterprise
 Configure goal preferences to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 -   **[Customize label for Goal and Target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/customize-labels-for-goal-and-target-tables.md)**  
 Customize the label for Goal \[sn\_gf\_goal\] and Target \[sn\_gf\_goal\_target\] tables according to your organization’s requirement.
+-   **[Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/change-number-prefix-goals-targets-spw.md)**  
+Change the Number field prefixes for goals and targets, for example, to OBJ and KR for objectives and key results, and update existing records.
 -   **[Configure a table for an assigned entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-assigned-entity-egm.md)**  
 Configure a table for an assigned entity type, so that the goal user can associate goals with the required assigned entity.
 -   **[Create goals demo data with target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-goals-demo-data-with-target-breakdowns.md)**  
@@ -47,6 +49,14 @@ Configure target sources for target automation so that the goal user can define 
 Defining a custom unit of measure helps the goal users to set the unit of measure for targets as per their choice. Unit of measures are two types, quantitative and qualitative.
 -   **[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md)**  
 Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
+-   **[Configure the tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-maintain-constant-tolerance-spw.md)**  
+Change the tolerance band that determines whether a Maintain constant target is on target. The default tolerance is ±5%.
+-   **[Configure check-in due date reminders for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/configure-target-checkin-reminders-spw.md)**  
+Set how many days before a target's review due date the owner and contributors are reminded, based on the target's check-in frequency.
+-   **[Setting a goal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/set-a-goal-calendar-spw.md)**  
+The goal calendar decides which periods your targets use for their check-in frequency and breakdowns. You can use the Gregorian calendar or a fiscal calendar.
+-   **[Managing stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/managing-stale-targets.md)**  
+Understand which targets become stale after a goal calendar change, and how to recover them.
 
 **Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

@@ -24,6 +24,10 @@ Role required: sn\_shop.procurement\_administrator
 
 If you upgraded to Yokohama Patch 12 or Zurich Patch 6 and cannot specify decimal quantities for services, run this script from the Scripts - Background module. The script converts the quantity field type from integer to decimal and updates the field scale to four decimal places.
 
+**Caution:**
+
+This script changes the dictionary definition of a field, and the change cannot be rolled back when **Record for rollback?** is deselected. Test the script in a sub-production instance and back up your instance before you run it in production.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.

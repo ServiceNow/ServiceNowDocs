@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-05-13"
 reading_time_minutes: 1
 keywords: [instance scan checks, health dashboard, system health, scan suites]
-breadcrumb: [Explore, Service Exchange]
+breadcrumb: [Service Exchange Center, Explore, Service Exchange]
 ---
 
 # Instance scan checks

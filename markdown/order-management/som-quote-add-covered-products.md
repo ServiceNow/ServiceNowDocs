@@ -26,7 +26,7 @@ When converting quotes to orders, the covered product relationships are transfer
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All** and select a quote to which a covered product is to be added.
 
@@ -40,15 +40,15 @@ When converting quotes to orders, the covered product relationships are transfer
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d69024e147">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d69154e147">
 
 Covered product type
 
-</th><th align="left" id="d69024e150">
+</th><th align="left" id="d69154e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d69024e156">
+</th></tr></thead><tbody><tr><td id="d69154e156">
 
 **Covered quote line item**
 
@@ -56,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d69024e165">
+</td></tr><tr><td id="d69154e165">
 
 **Covered sold product**
 
@@ -64,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d69024e177">
+</td></tr><tr><td id="d69154e177">
 
 **Covered install base item**
 

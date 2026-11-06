@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-activation-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 61
+last_updated: "2026-11-04"
+reading_time_minutes: 62
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -66,6 +66,17 @@ AI Control Tower
 </td><td>
 
 Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+AI Cost Management
+
+</td><td>
+
+-   ****
+
+Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -213,9 +224,9 @@ Agent experience for CSM
 
 </td><td>
 
-CRM Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
+CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -333,14 +344,6 @@ Buying Group
 </td><td>
 
 Install Buying Group by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
-Features such as product and configuration sharing in ServiceNow Quote Experience features, require activation by ServiceNow. Submit a support ticket to enable these features.
 
 </td></tr><tr><td>
 
@@ -616,6 +619,17 @@ Install Data products by requesting it from the ServiceNow Store. Visit the [Ser
 
 </td></tr><tr><td>
 
+Decision tables
+
+</td><td>
+
+-   ****
+
+Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+
+</td></tr><tr><td>
+
 DevOps Change Velocity
 
 </td><td>
@@ -730,7 +744,7 @@ Enterprise Architecture
 
 Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md).
 
-Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -843,7 +857,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1138,6 +1152,14 @@ Install Legal Request Management by requesting it from the ServiceNow Store. Vis
 
 </td></tr><tr><td>
 
+Legal Virtual Agent Conversations
+
+</td><td>
+
+Install Legal Virtual Agent Conversations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Live Connect
 
 </td><td>
@@ -1156,11 +1178,33 @@ Install Localization Workspace by requesting it from the ServiceNow Store. See [
 
 </td></tr><tr><td>
 
+Lux
+
+</td><td>
+
+-   ****
+
+No activation is required. Lux is installed automatically on instances running Australia Patch 5 or later or Zurich Patch 12 or later.
+
+
+</td></tr><tr><td>
+
+Lux Lab
+
+</td><td>
+
+-   ****
+
+No activation is required. Lux is installed automatically on instances running Australia Patch 5 or later or Zurich Patch 12 or later.
+
+
+</td></tr><tr><td>
+
 MCP Server Console
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
@@ -1248,7 +1292,7 @@ Now Assist for Sales CRM for Telecommunications
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1361,6 +1405,17 @@ Install Order Management by requesting it from the ServiceNow Store. Visit the [
 
 </td></tr><tr><td>
 
+Partner Passport Portal
+
+</td><td>
+
+-   ****
+
+Partner Passport Portal is installed on every instance with no separate plugin to activate. Check your entitlements to determine whether you can purchase partner applications. For more information, see .
+
+
+</td></tr><tr><td>
+
 Partner Relationship Management
 
 </td><td>
@@ -1440,7 +1495,7 @@ Predictive AI for CSM
 
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
 
@@ -1453,6 +1508,14 @@ Predictive Intelligence
 </td><td>
 
 Predictive Intelligence is a ServiceNow AI Platform feature that is active by default.
+
+</td></tr><tr><td>
+
+Predictive intelligence for Legal Service Delivery
+
+</td><td>
+
+Install ServiceNow Otto for Legal Service Delivery \(LSD\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -1502,7 +1565,7 @@ Project Workspace
 
 Install Project Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md) plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1718,6 +1781,14 @@ Install ServiceNow CLI by requesting it from the ServiceNow Store. Visit the [Se
 
 </td></tr><tr><td>
 
+ServiceNow CPQ
+
+</td><td>
+
+Features such as product and configuration sharing in ServiceNow Quote Experience features, require activation by ServiceNow. Submit a support ticket to enable these features.
+
+</td></tr><tr><td>
+
 ServiceNow IDE
 
 </td><td>
@@ -1750,6 +1821,17 @@ ServiceNow Otto for Care Team Operations
 </td><td>
 
 Install ServiceNow Otto for Care Team Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Cloud Cost Management \(CCM\)
+
+</td><td>
+
+-   ****
+
+Install ServiceNow Otto for Cloud Cost Management \(CCM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -1789,7 +1871,7 @@ ServiceNow Otto for Enterprise Architecture \(EA\)
 
 </td><td>
 
-Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1797,7 +1879,7 @@ ServiceNow Otto for FSM
 
 </td><td>
 
-Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1880,7 +1962,7 @@ ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 </td><td>
 
-Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 

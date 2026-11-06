@@ -66,7 +66,7 @@ To configure Session Validation, you must perform the following steps:
 
 7.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **Session Validation Context**.
 
-8.  Set the Default Policy to **Allow Policy** or **Deny Policy** to set the session validation context according to the policy input and policy conditions.
+8.  Set the Default Policy to **Allow Policy** to set the session validation context according to the policy input and policy conditions.
 
     **Note:** By default:
 

@@ -1,6 +1,6 @@
 ---
 title: Configure auto test prompting and UI tests
-description: Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent.
+description: Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent and Autonomous Engineer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-config-testing.html
 release: australia
@@ -13,13 +13,15 @@ breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Pl
 
 # Configure auto test prompting and UI tests
 
-Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent.
+Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent and Autonomous Engineer.
 
 ## Before you begin
 
 Role required: admin
 
 ## About this task
+
+**Note:** As of Australia Patch 6, the Test Agent setting for Autonomous Engineer is enabled by default.
 
 For more information on UI tests, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-ui-test-script-atf.md).
 
@@ -47,7 +49,7 @@ Sync ATF tests with app
 
 </td><td>
 
-Generates ATF tests when Build Agent creates an app, and keeps them synced when the app is edited.
+Generates ATF tests when Build Agent or Autonomous Engineer creates an app, and keeps them synced when the app is edited.
 
 </td></tr><tr><td>
 
@@ -57,6 +59,7 @@ Run UI ATF tests
 
 Runs the client-side and server-side UI ATF tests. -   The **Sync ATF tests with app** setting must be enabled.
 -   This setting is off by default since UI runs are slower.
+-   This setting applies to both Build Agent and Autonomous Engineer.
 
 
 </td></tr></tbody>
@@ -65,7 +68,7 @@ Runs the client-side and server-side UI ATF tests. -   The **Sync ATF tests with
 
 ## Result
 
-Build Agent runs ATF tests in conversations based on your settings.
+Build Agent and Autonomous Engineer run ATF tests in conversations based on your settings.
 
 **Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
 

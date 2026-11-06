@@ -46,7 +46,7 @@ None.
 
 None.
 
-## AI Admin Center user
+## AI Admin Center user \[sn\_na\_center.nac\_user\]
 
 Perform read actions in AI Admin Center workspace.
 

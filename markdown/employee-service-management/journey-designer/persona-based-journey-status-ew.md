@@ -1,6 +1,6 @@
 ---
-title: Persona-based journey status and progress in Employee Works
-description: In Employee Works, a journey's status and progress are calculated separately for each participant, based only on the tasks assigned to that participant.
+title: Persona-based journey status and progress in EmployeeWorks Web App
+description: In EmployeeWorks Web App, a journey's status and progress are calculated separately for each participant, based only on the tasks assigned to that participant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/persona-based-journey-status-ew.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-18"
 reading_time_minutes: 1
 keywords: [journey status, journey progress, persona-based, Employee Works]
-breadcrumb: [Journeys in EmployeeWorks Web App, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use the Journeys widget on the EmployeeWorks Web App home page, Journeys in EmployeeWorks Web App, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Persona-based journey status and progress in Employee Works
+# Persona-based journey status and progress in EmployeeWorks Web App
 
-In Employee Works, a journey's status and progress are calculated separately for each participant, based only on the tasks assigned to that participant.
+In EmployeeWorks Web App, a journey's status and progress are calculated separately for each participant, based only on the tasks assigned to that participant.
 
 ## Journey status
 
@@ -37,5 +37,7 @@ Tasks assigned to other journey participants are excluded from these calculation
 
 ## Where persona-based status and progress appear
 
-Persona-based status and progress are supported on the Journey Home Page widget and the Journey List page, for both the employee's My Journeys view and the manager's Team Journeys view.
+Persona-based status and progress are supported on the Journey Home Page widget, Journey List page, and the Journey Details page for the employees and on the Journey Details page for the manager.
+
+**Parent Topic:**[Use the Journeys widget on the EmployeeWorks Web App home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/use-journey-home-widget-ew.md)
 

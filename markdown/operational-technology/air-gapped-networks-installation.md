@@ -42,7 +42,7 @@ For more information, see [Install containerized OT Discovery packages](https://
 -   **[Install containerized OT Discovery packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-packages.md)**  
 Install the OT Discovery containerized packages on your network.
 -   **[Install containerized OT Discovery components on Rocky 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-rocky-10.md)**  
-Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector onto a machine with Rocky 10 OS.
+Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector on a machine running Rocky Linux 10.
 
 **Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md)
 

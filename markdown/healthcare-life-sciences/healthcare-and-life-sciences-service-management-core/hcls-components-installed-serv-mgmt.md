@@ -844,7 +844,7 @@ Playbooks for Customer Service Management \(sn\_csm\_playbook\)
 
 </td><td>
 
-Enables the CRM Workspace playbook experience.
+Enables the CSM Configurable Workspace playbook experience.
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Mobile, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure a personalized greeting

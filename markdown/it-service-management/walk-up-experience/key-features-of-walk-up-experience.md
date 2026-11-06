@@ -7,7 +7,7 @@ release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-11-02"
 reading_time_minutes: 5
 breadcrumb: [Explore, Walk-up Experience, IT Service Management]
 ---
@@ -37,7 +37,7 @@ Every employee or a guest can check in and get support at an established walk-up
 
             **Note:** Requires activation of the ServiceNow Mobile Request Native Application Screens and Applet Launcher plugin \(com.glide.mobile-employee\). See [Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md) for more information. This plugin enables the Service Catalog functionality by default.
 
-        -   Schedule appointments for support and receive appointment reminders, as well as cancel or reschedule appointments from links in the reminder or from the online check-in interface.
+        -   Schedule appointments for support and receive appointment reminders. Cancel or reschedule from links in the reminder or from the online check-in interface.
         -   Schedule only one appointment for each walk-up location queue at a time.
 
             **Note:** Even with a scheduled appointment, you can still check into a walk-up location queue online or in person onsite.
@@ -46,12 +46,15 @@ Every employee or a guest can check in and get support at an established walk-up
 
             **Note:** Configuration is necessary to make this available to the **Appointment delegation group** of users, such as executive assistants. This is configured in the Walk-up Location Queue \(\[wu\_location\_queue\]\) table.
 
-        -   Receive notifications via email or your mobile device when your request is assigned to an IT support fulfiller, when you are close to next in line to be helped, and when your walk-up request has been closed or abandoned, should you decide not to attend the queue.
+        -   Receive notifications via email or your mobile device for the following events:
+            -   Your request is assigned to an IT support fulfiller.
+            -   You are close to next in line to be helped.
+            -   Your walk-up request has been closed or abandoned if you decide not to attend the queue.
         -   View your Walk-up Experience appointments in your primary calendar with Microsoft Office 365 Outlook calendar integration. When you make an appointment, modify it, or cancel it, your calendar is sent invites to an appointment and any updates.
 
             **Note:** This feature is only available when Microsoft Office 365 Outlook is the hosted calendar service.
 
-        -   Add your online Walk-up Experience appointment to a calendar of your choice with iCalendar. Click a link in the portal to download an iCalendar file containing appointment details, including appointment location.
+        -   Add your online Walk-up Experience appointment to a calendar of your choice with iCalendar. Select a link in the portal to download an iCalendar file containing appointment details, including appointment location.
     -   Onsite at the Walk-up Experience location:
         -   Check into a queue at the physical walk-up location by manually entering either your name or email or by scanning an employee badge.
 
@@ -61,30 +64,33 @@ Every employee or a guest can check in and get support at an established walk-up
         -   View the monitor displaying how many people are currently in the queue, guest positions in the queue, who is being helped, and estimated wait times.
         -   Hear an audio sound emitted from the on-site walk-up location large monitor when a person moves to the top of the queue for service.
         -   Answer an available single-question survey which captures your user sentiment after a visit.
-    -   After-hours support — Get support even when a walk-up queue is closed. An IT support phone number is displayed on the check-in device, along with a link to create an incident in real time.
+    -   After-hours support — Get support even when a walk-up queue is closed. An IT support phone number displays on the check-in device, along with a link to create an incident in real-time.
 -   **Agents**
 
     The IT organization uses the Walk-up Experience application to meet the demand of urgent IT issues and requests.
 
     -   Walk-up Experience IT technicians manage daily operations at the walk-up queue locations. They resolve IT-related issues, support mobile devices and laptops, and fulfill requests for software and hardware consumables.
-    -   The agents can accept and close Walk-up Experience interactions through the Agent Workspace interface. Agent Workspace contains a personal inbox where walk-up interactions, if configured in Advanced Work Assignment, are automatically pushed for assignment.
-    -   Agents can manage all aspects of Walk-up Experience fulfillment using Agent Workspace. Based on their capacity, and if records are on-hold, they can work on multiple transactions at the same time and promote interactions to incidents or requests, or access associated stockroom consumables.
-    -   Technicians can view and accept scheduled appointments in their Agent Workspace personal inbox. Appointments are routed to the inbox according to agent availability. Alternatively, agents can pick and choose appointments manually.
-    -   If necessary, technicians can work with anyone in the queue at any time. Technicians can manually assign themselves to a walk-up interaction, by accepting the interaction from a list of unassigned interactions in Agent Workspace.
+    -   The agents can accept and close Walk-up Experience interactions through the Service Operations Workspace \( SOW\). SOW contains a personal inbox where walk-up interactions, if configured in Advanced Work Assignment, are automatically pushed for assignment.
+    -   Agents can manage all aspects of Walk-up Experience fulfillment using SOW. Based on their capacity, agents can work on multiple transactions at the same time. If records are on hold, they can promote interactions to incidents or requests, or access associated stockroom consumables.
+    -   Technicians can view and accept scheduled appointments in their personal inbox. Appointments are routed to the inbox according to agent availability. Alternatively, agents can pick and choose appointments manually.
+    -   If necessary, technicians can work with anyone in the queue at any time. Technicians can manually assign themselves to a walk-up interaction, by accepting the interaction from a list of unassigned interactions in SOW.
     -   Agents can use the Agent Assist feature to expedite incident resolution.
 -   **Managers**
 
     IT managers supervise the walk-up location technicians and oversee daily operations.
 
     -   Walk-up managers can observe and capture operational and performance data by monitoring the walk-up dashboard.
-    -   Walk-up managers can use the application to increase IT customer satisfaction, verify, and confirm that stockroom inventory is available, provide customer service in a timely manner, and report performance data to upper management.
+    -   Walk-up managers can use the application to increase IT customer satisfaction, confirm stockroom inventory availability, and provide customer service in a timely manner.
+    -   Walk-up managers can report performance data to upper management.
 -   **Administrators**
 
-    Configure and maintain walk-up related systems, such as the walk-up location branding and text, queue locations and schedules, appointments, advanced work assignments, and notifications, CSAT surveys, and associated stockrooms.
+    Configure and maintain walk-up related systems, including location branding, queue locations and schedules, appointments, advanced work assignments, notifications, and CSAT surveys.
+
+    Manage associated stockrooms and walk-up location text.
 
     Access the pre-built **Walk-up online check-in Experience** widget for use in your Service Portal. Make minor label changes directly in the widget without the need to customize through code.
 
-    Enable Walk-up Experience Microsoft Office 365 calendar integration. When users make an appointment, modify it, or cancel it, the Outlook calendar is sent invites to an appointment and any updates. For more information about this feature, refer to [Integrate Microsoft Office 365 calendar with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-ms-office-365-integration.md).
+    Enable Walk-up Experience Microsoft Office 365 calendar integration. When users make an appointment, modify it, or cancel it, the Outlook calendar sends invites to make an appointment and any updates. For more information about this feature, refer to [Integrate Microsoft Office 365 calendar with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/walkup-ms-office-365-integration.md).
 
     **Note:** This feature is only available when Microsoft Office 365 Outlook is the hosted calendar service.
 

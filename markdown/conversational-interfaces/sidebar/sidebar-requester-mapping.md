@@ -1,5 +1,5 @@
 ---
-title: Sidebar requester mapping
+title: Configure Sidebar requester mapping
 description: Create a requester mapping to define the requesting user for a record. This requester is used to identify the main contact for a record and Sidebar sends an email notification to the requester when they have unread messages in their discussions in the last 24 hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/sidebar-requester-mapping.html
@@ -9,10 +9,10 @@ classification: sidebar
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Sidebar, Configuring Sidebar, Sidebar, Conversational Interfaces]
+breadcrumb: [Set up Sidebar, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
-# Sidebar requester mapping
+# Configure Sidebar requester mapping
 
 Create a requester mapping to define the requesting user for a record. This requester is used to identify the main contact for a record and Sidebar sends an email notification to the requester when they have unread messages in their discussions in the last 24 hours.
 

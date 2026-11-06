@@ -7,7 +7,7 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Process Manager, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Several types of components may be installed with activation of the Industrial P
 Enable the system properties for the ISA Equipment Model as needed.
 -   **[System properties used by the OT subnet mapping feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/system-properties-used-by-automated-mapping-feature.md)**  
 An Amazing Admin can view and configure the system properties that support the OT subnet mapping feature.
--   **[Automated mapping components installed when Industrial Process Manager and Operational Technology Manager are both installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/components-installed-with-manufacturing-process-manager-integration-with-operational-technology.md)**  
+-   **[Automated mapping components installed with Industrial Process Manager and Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/components-installed-with-manufacturing-process-manager-integration-with-operational-technology.md)**  
 Several types of automated mapping components will be installed with activation of the Industrial Process Manager when Operational Technology Manager is also active, including tables, system properties, and scheduled flows.
 -   **[Migrating site user access to user criteria and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/migrating-site-user-access-to-user-criteria-and-groups.md)**  
 When you upgrade to version 1.0.12 of the ISA Equipment Model, the migration from site user access to user criteria and groups begins automatically.

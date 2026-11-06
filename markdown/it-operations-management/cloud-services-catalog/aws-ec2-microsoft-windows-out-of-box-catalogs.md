@@ -51,7 +51,7 @@ Order a secure Windows virtual machine on EC2, assign security groups. Select as
 
 </td><td>
 
-This catalog item form allows capability to assign one or more security groups \(firewall-port rules\) to the compute instance so that the network access to the VM is restricted. Security groups are listed for the selected VPC and subnets.
+This catalog item form assigns one or more security groups \(firewall-port rules\) to the compute instance, restricting network access to the VM. Security groups are listed for the selected VPC and subnets.
 
 </td></tr></tbody>
 </table>**Note:**

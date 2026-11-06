@@ -33,7 +33,7 @@ The AI agent conversation doesn't get closed after the execution is complete by 
 
 3.  On the form, fill in the fields.
 
-<table id="table_p1w_dxp_x2c"><thead><tr><th>
+<table id="table_follow_up_agent_property_form"><thead><tr><th>
 
 Field
 

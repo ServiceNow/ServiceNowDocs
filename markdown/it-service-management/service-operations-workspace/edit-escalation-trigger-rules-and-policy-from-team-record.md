@@ -1,6 +1,6 @@
 ---
 title: Create escalation trigger rules and policy from team record
-description: Navigate to team record to create new policy and trigger rules
+description: Create a new escalation policy and trigger rules from a team record if you have the rota\_manager or rota\_admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Escalation triggers and policies, Configuring On-Call Scheduling in
 
 # Create escalation trigger rules and policy from team record
 
-Navigate to team record to create new policy and trigger rules
+Create a new escalation policy and trigger rules from a team record if you have the rota\_manager or rota\_admin role.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: rota\_manager, rota\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operation Workspace**.
 
-2.  Click the **Schedule** icon.
+2.  Select the **Schedule** icon.
 
 3.  On the **Schedules** page, right-click the shift span and click \[Omitted image "edit-icon.png"\] Alt text: Edit icon icon.
 

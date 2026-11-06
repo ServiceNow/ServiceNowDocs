@@ -1,20 +1,20 @@
 ---
 title: Admin Center in Service Operations Workspace for ITSM
-description: The Admin Center provides centralized control of the instance to admins. It provides effortless, quick access to manage all customizations in Service Operations Workspace \(SOW\) for IT Service Management \(ITSM\), and additional plugins that extend the Service Operations Workspace for ITSM capabilities.
+description: Use the Admin Center to manage all customizations in Service Operations Workspace for ITSM from a single page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/admin-center-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Admin Center in Service Operations Workspace for ITSM
 
-The Admin Center provides centralized control of the instance to admins. It provides effortless, quick access to manage all customizations in Service Operations Workspace \(SOW\) for IT Service Management \(ITSM\), and additional plugins that extend the Service Operations Workspace for ITSM capabilities.
+Use the Admin Center to manage all customizations in Service Operations Workspace for ITSM from a single page.
 
 The Admin Center provides a single page where an admin can access all platform capabilities, applications, plugins, and help. It consists of the following tabs:
 

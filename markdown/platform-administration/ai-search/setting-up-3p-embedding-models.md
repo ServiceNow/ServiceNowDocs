@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-05-29"
 reading_time_minutes: 1
-breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring an external or custom embedding model
@@ -34,6 +34,6 @@ Configure your custom and third-party embedding models in the AI Search RAG appl
     2.  Activate a third-party embedding model. For more information, see [Activating the third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-3p-embedding-model.md).
 -   **Configuring custom embedding models**
 
-    You can configure a custom embedding model end-to-end by leveraging the Bring Your Own Embedding Model \(BYOM\) capability. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/creating-byom.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/creating-byom.md).
+    You can configure a custom embedding model end-to-end by leveraging the Bring Your Own Embedding Model \(BYOM\) capability. For more information, see [Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/creating-byom.md).
 
 

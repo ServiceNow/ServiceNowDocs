@@ -28,15 +28,15 @@ Role required: web\_service\_admin
 
     If you navigate through the scripted REST API record, most fields in the REST Response record are pre-populated.
 
-<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d722498e64">
+<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d722756e64">
 
 Option
 
-</th><th align="left" id="d722498e67">
+</th><th align="left" id="d722756e67">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d722498e73">
+</th></tr></thead><tbody><tr><td id="d722756e73">
 
 **Navigate through a scripted REST API record**
 
@@ -48,7 +48,7 @@ Procedure
 4.  In the **Response Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d722498e118">
+</td></tr><tr><td id="d722756e118">
 
 **Navigate directly to the REST Response record**
 

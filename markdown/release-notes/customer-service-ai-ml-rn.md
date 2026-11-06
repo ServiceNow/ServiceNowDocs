@@ -47,6 +47,8 @@ The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applicati
 
 See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/intelligence-csm.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 **Important:** The following applications are available in ServiceNow Store:
@@ -63,7 +65,7 @@ For details, see the "Activation information" section of these release notes.
 
     Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-    Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
     Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
 

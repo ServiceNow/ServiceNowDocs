@@ -33,7 +33,7 @@ Attachment upload, transmission, and rendering operate through the NextWave off-
 
 ## Procedure
 
-1.  Open the WhatsApp interaction in the CRM Workspace.
+1.  Open the WhatsApp interaction in the CSM Configurable Workspace.
 
 2.  To send an attachment, select the attachment control in the message input area and choose a file.
 

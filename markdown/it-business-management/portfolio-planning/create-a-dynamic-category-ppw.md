@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [dynamic category, custom fields, demand experience, SPM]
-breadcrumb: [Demand experiences, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Configuring demand experiences, EWD for demands, Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create a dynamic category

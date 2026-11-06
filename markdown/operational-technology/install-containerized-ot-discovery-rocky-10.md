@@ -1,18 +1,18 @@
 ---
 title: Install containerized OT Discovery components on Rocky 10
-description: Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector onto a machine with Rocky 10 OS.
+description: Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector on a machine running Rocky Linux 10.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/install-containerized-ot-discovery-rocky-10.html
 release: australia
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
 breadcrumb: [Air-gapped networks and OT Discovery installation, Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install containerized OT Discovery components on Rocky 10
 
-Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector onto a machine with Rocky 10 OS.
+Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector on a machine running Rocky Linux 10.
 
 ## Before you begin
 

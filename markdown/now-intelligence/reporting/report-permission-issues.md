@@ -9,7 +9,7 @@ classification: reporting
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report permission issues
@@ -30,7 +30,7 @@ Another common issue is that fewer rows appear in list reports than the viewer e
 
 The usual cause is that each row of a list report is first compared against any read access control lists \(ACLs\) defined on the report's source tables.
 
-The ACL is considered for each list row that might be displayed in a report. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md).
+The ACL is considered for each list row that might be displayed in a report. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md).
 
 ## Non-list reports show incomplete data
 
@@ -40,9 +40,9 @@ This issue is caused by the fact that Before Query business rules are performed 
 
 ## Reports no longer public
 
-On upgrade to Australia, all public Core UI reports are unpublished to enhance security awareness and control. The glide.report.published\_reports.enabled property on all Core UI reports is set to false. Users with the report\_admin role can navigate to the Reports Public \[sys\_report\_public\] table to view unpublished reports and enable the public capacity or enable sharing with logged in users inside the platform. For more information, see .
+On upgrade to Australia, all public Core UI reports are unpublished to enhance security awareness and control. The glide.report.published\_reports.enabled property on all Core UI reports is set to false. Users with the report\_admin role can navigate to the Reports Public \[sys\_report\_public\] table to view unpublished reports. Such users can also enable the public capacity or enable sharing with logged in users inside the platform.
 
 **Note:** To make a Core UI report available only to users who are logged in, set its **Sharing** setting to **Everyone**, but do not publish it.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

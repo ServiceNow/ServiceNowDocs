@@ -1,12 +1,12 @@
 ---
 title: Data Catalog release notes
-description: The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
+description: The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.Build Agent and Autonomous Engineer add support for new AI models.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-catalog-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-04-16"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -34,6 +34,17 @@ See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
+
+## November 2026
+
+Build Agent and Autonomous Engineer add support for new AI models.
+
+### What's new
+
+-   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-models-versions.md)**
+
+    Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+
 
 ## October 2026
 

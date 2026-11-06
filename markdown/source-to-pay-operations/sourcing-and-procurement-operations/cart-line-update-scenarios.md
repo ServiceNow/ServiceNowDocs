@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 breadcrumb: [Shopping cart, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -16,6 +16,7 @@ breadcrumb: [Shopping cart, Using Shopping Hub, Use, Sourcing and Procurement Op
 
 Cart lines are created, updated, or deleted based on the updates that you make to the products in your shopping cart.
 
+-   The price on a cart line is captured when you add the product to your cart and is refreshed at checkout. If the catalog price increases after you add the product, the cart line does not show the new price until checkout.
 -   A new cart line is created for every new product that you add to your shopping cart.
 -   If an existing cart line is created through one method, and you go back to the same product details page and add more through another method, first by quantity and then by budget for example, the existing cart line is updated accordingly without creating a new cart line. In this scenario, when you add by budget, quantity is back-calculated. Similarly, when you add by quantity, the corresponding budget is calculated by multiplying the quantity with the contractual price.
 

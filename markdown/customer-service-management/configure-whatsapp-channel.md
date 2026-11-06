@@ -1,11 +1,11 @@
 ---
 title: Configure WhatsApp channel
-description: Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CRM Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
+description: Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CSM Configurable Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-whatsapp-channel.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
 keywords: [WhatsApp, omnichannel, configure]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]
@@ -13,13 +13,13 @@ breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure
 
 # Configure WhatsApp channel
 
-Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CRM Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
+Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CSM Configurable Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
 
 Here's an example of a customer service journey combining WhatsApp support with omnichannel.
 
 Amara is a customer support director at a global e-commerce company managing support across multiple channels. Customers increasingly prefer WhatsApp for support, but the team was handling WhatsApp conversations outside of ServiceNow through a separate platform, creating data silos and inconsistent service levels.
 
-After setting up WhatsApp channel integration through the WhatsApp Cloud API \(or Twilio\), the team can now receive WhatsApp conversations directly in the CRM Workspace. They get the same queue management, assignment routing, and interaction tracking as other channels.
+After setting up WhatsApp channel integration through the WhatsApp Cloud API \(or Twilio\), the team can now receive WhatsApp conversations directly in the CSM Configurable Workspace. They get the same queue management, assignment routing, and interaction tracking as other channels.
 
 After setting this up, the customer saw support friction drop for WhatsApp-first users, and three channels became one unified workspace. First-response time improved by 35%, and agents now see all customer interactions \(WhatsApp, chat, email, phone\) in a single queue.
 
@@ -121,7 +121,7 @@ CSM Admin
 
 </td><td>
 
-Verify that the channel appears in the CRM Workspace. To confirm, assign a test interaction to an agent; the WhatsApp messaging UI appears only once an interaction is assigned. Agents must see the channel in their workspace interface to receive and manage interactions.
+Verify that the channel appears in the CSM Configurable Workspace. To confirm, assign a test interaction to an agent; the WhatsApp messaging UI appears only once an interaction is assigned. Agents must see the channel in their workspace interface to receive and manage interactions.
 
 </td><td>
 

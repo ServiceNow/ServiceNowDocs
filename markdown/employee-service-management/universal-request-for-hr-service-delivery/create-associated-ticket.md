@@ -7,7 +7,7 @@ release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 breadcrumb: [Use, Universal Request, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ The following are some key highlights.
 
 -   Pass on the context of the request directly to the other department using the pop-up when creating an associated ticket.
 -   Configure the information to be copied from UR to the Associated ticket in Mappings configuration.
--   Agents work on the associated ticket even after the closure of primary ticket / UR as associated tickets are independent of the UR state flow.
+-   Closing a Universal Request closes all departmental tickets and any associated tickets.
 -   Configure the Associated ticket tab configuration to view and track the activity of associated tickets from the standard ticket page.
 
 ## Procedure
@@ -39,13 +39,13 @@ The following are some key highlights.
 
     For example, to open an incident primary ticket, navigate to **All** &gt; **Universal Request** &gt; **With Primary Ticket**.
 
-2.  Open the UR and then click the associated primary ticket.
+2.  Open the UR and then select the associated primary ticket.
 
-    For example, the Incident ticket associated is displayed as a link in the message.
+    For example, the incident ticket associated is displayed as a link in the message.
 
     The primary ticket record appears on the page.
 
-3.  Click **Create Associated Ticket**.
+3.  Select **Create Associated Ticket**.
 
 4.  In the **Create Associated Ticket** dialog box, enter the following details.
 
@@ -56,7 +56,7 @@ The following are some key highlights.
     -   **Short description**: Enter the short description for the new associated ticket.
     -   **Description**: Enter the detailed description for the new associated ticket.
     -   **Work notes**: Enter work notes details.
-5.  Click **Create**.
+5.  Select **Create**.
 
     An associated ticket is created with the descriptions provided and is associated to the existing UR of the primary ticket.
 

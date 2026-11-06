@@ -119,7 +119,7 @@ No configuration or scripting required to implement these features in Custom Cha
 
 -   **Pass the agent avatar and name if enabled in Agent Chat settings**
 
-    When the **Agent Names and Avatars** field is enabled in Agent Chat settings, the Custom Chat Integration Framework supports the display of the agent name and avatar in the chat. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+    When the **Agent Names and Avatars** field is enabled in Agent Chat settings, the Custom Chat Integration Framework supports the display of the agent name and avatar in the chat. For more information, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 -   **Pre-chat and post-chat surveys**
 

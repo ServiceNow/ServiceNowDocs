@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a Microsoft Teams campaign with content publishing, Sending notifications to employees using Microsoft Teams, Integration for Employee Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Create a Microsoft Teams campaign with content publishing, Sending notifications to employees using Microsoft Teams, Integration for Employee Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Create notification content for Microsoft Teams
@@ -35,15 +35,15 @@ Create notifications to send messages directly to your employees through campaig
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d372360e122">
+<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d373147e122">
 
 Record source
 
-</th><th align="left" id="d372360e125">
+</th><th align="left" id="d373147e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d372360e131">
+</th></tr></thead><tbody><tr><td id="d373147e131">
 
 **Existing content record**
 
@@ -51,7 +51,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d372360e140">
+</td></tr><tr><td id="d373147e140">
 
 **New content**
 

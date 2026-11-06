@@ -1,6 +1,6 @@
 ---
 title: Skip errors to continue discovering an application service
-description: If you know what configuration items \(CIs\) and connections make up your service instance, you can enable Service Mapping to continue discovery of the service instance even if there are some errors. You can skip errors to troubleshoot later so you can complete mapping most of the service instance, even if some CIs are missing.
+description: If you know what configuration items \(CIs\) and connections make up your service instance, you can enable Service Mapping to continue discovery even if there are some errors. Skip errors to troubleshoot later and complete mapping most of the service instance, even if some CIs are missing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Fix errors in individual application service maps, Application serv
 
 # Skip errors to continue discovering an application service
 
-If you know what configuration items \(CIs\) and connections make up your service instance, you can enable Service Mapping to continue discovery of the service instance even if there are some errors. You can skip errors to troubleshoot later so you can complete mapping most of the service instance, even if some CIs are missing.
+If you know what configuration items \(CIs\) and connections make up your service instance, you can enable Service Mapping to continue discovery even if there are some errors. Skip errors to troubleshoot later and complete mapping most of the service instance, even if some CIs are missing.
 
 ## Before you begin
 

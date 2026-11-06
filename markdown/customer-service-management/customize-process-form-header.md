@@ -1,6 +1,6 @@
 ---
 title: Customize the page header for a playbook page
-description: Customize the page header by defining the primary and secondary fields that are displayed in CRM Workspace.
+description: Customize the page header by defining the primary and secondary fields that are displayed in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-process-form-header.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Ser
 
 # Customize the page header for a playbook page
 
-Customize the page header by defining the primary and secondary fields that are displayed in CRM Workspace.
+Customize the page header by defining the primary and secondary fields that are displayed in CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Overview information for a record is available in the page header.
 
 3.  Select a table from the UX Form Headers list.
 
-    You can also create a UX Form Header record. For more information, see [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-header.md).
+    You can also create a UX Form Header record. For more information, see [Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-header.md).
 
 4.  Select the **Primary field** to display in the form header.
 
@@ -48,7 +48,7 @@ Overview information for a record is available in the page header.
 **Related topics**  
 
 
-[Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-header.md)
+[Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-form-header.md)
 
 [Display form ribbon and header values in side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-display-header-in-sidebar.md)
 

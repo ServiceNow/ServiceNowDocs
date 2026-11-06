@@ -1,6 +1,6 @@
 ---
 title: Agent Chat reference
-description: Reference topics provide descriptions about Agent Chat.Domain separation is supported in the Agent Chat application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Create a report that tracks the number of help requests.The Interaction related record \[interaction\_related\_record\] table tracks tasks and Knowledge Base \(KB\) articles that are created, updated, or viewed in the context of a particular interaction. The Interaction related record table references the interaction, related document, whether the relationship is to a task or KB article, and what type of operation on the related document formed the basis for the relationship.
+description: Look up reference information for Agent Chat.Agent Chat supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Create a report that tracks the number of help requests.The Interaction related record \[interaction\_related\_record\] table tracks tasks and Knowledge Base \(KB\) articles that are created, updated, or viewed in the context of a particular interaction. The Interaction related record table references the interaction, related document, whether the relationship is to a task or KB article, and what type of operation on the related document formed the basis for the relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ci-agent-chat-reference.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Agent Chat, Conversational Interfaces]
 
 # Agent Chat reference
 
-Reference topics provide descriptions about Agent Chat.
+Look up reference information for Agent Chat.
 
 ## Domain separation and Agent Chat
 
-Domain separation is supported in the Agent Chat application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Agent Chat supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ### Support level: Standard
 
@@ -33,26 +33,26 @@ For more information on support levels, see [Application support for domain sepa
 
 ### Requirements
 
-All domain support features require the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin. For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+All domain support features require the Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\). For details, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ### Configuring Agent Chat with domain separation
 
-Domain separation allows organizations to segment their data and processes based on specific criteria such as business unit, geography, or other factors.
+With domain separation, organizations can segment their data and processes based on specific criteria such as business unit, geography, or other factors.
 
 A service provider \(SP\) has one chat setting \(Agent Chat\) record in the global domain when the instance is provisioned.
 
-The admin of a subdomain can specify Agent Chat settings for that subdomain, such as work queues and assignment groups. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+The admin of a subdomain can specify Agent Chat settings for that subdomain, such as work queues and assignment groups. For details, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
-When a user logs into a subdomain, a seeded Agent Chat settings record is created.
+When a user logs in to a subdomain, the system creates a seeded Agent Chat settings record.
 
 When using domain separation in Agent Chat, keep the following points in mind:
 
--   Domain Separation applies to both the agent side and the customer side of the chat. This means that agents will only be able to access chat records and data that are in their domain, and customers will only be able to see chat records that are associated with their domain.
--   Agent Chat records are automatically tagged with the domain of the agent who handled the chat. This ensures that the chat record is associated with the correct domain, and that agents can only view chat records that are associated with their domain.
--   When an agent is assigned to a chat, the chat is automatically assigned to the domain of the agent. This ensures that the chat record is associated with the correct domain from the start.
--   If an agent needs to transfer a chat to another agent or escalate the chat to a higher level of support, the chat is transferred to an agent who is in the same domain as the original agent. This ensures that the chat record stays within the correct domain.
+-   Domain separation applies to both the agent side and the customer side of the chat. This means that agents can only access chat records and data that are in their domain, and customers can only see chat records that are associated with their domain.
+-   Agent Chat records are automatically tagged with the domain of the agent who handled the chat. As a result, the chat record is associated with the correct domain, and agents can view only chat records that are associated with their domain.
+-   When an agent is assigned to a chat, the chat is automatically assigned to the domain of the agent. As a result, the chat record is associated with the correct domain from the start.
+-   If an agent needs to transfer a chat to another agent or escalate the chat to a higher level of support, the chat is transferred to an agent who is in the same domain as the original agent. As a result, the chat record stays within the correct domain.
 
-## Building a report to track the number of help requests
+## Build a report to track the number of help requests
 
 Create a report that tracks the number of help requests.
 
@@ -66,15 +66,15 @@ Role required: admin
 
     1.  Navigate to **Interaction** &gt; **All**.
 
-    2.  Right-click the **Number** heading.
+    2.  Select and hold \(or right-click\) the **Number** heading.
 
-    3.  Click **Configure** &gt; **Business Rules**.
+    3.  Select **Configure** &gt; **Business Rules**.
 
-    4.  On the Business Rules screen under the **Name** column, click **Interaction Events**.
+    4.  On the Business Rules screen under the **Name** column, select **Interaction Events**.
 
     5.  On the Business Rules - Interaction Events screen, select the **Active** check box if it is not already selected.
 
-    6.  Click **Update**.
+    6.  Select **Update**.
 
 2.  Create a new metric definition for Interaction "help requested" on the Metric Definition - New record screen by entering `Interaction` in the **Table** field and selecting **Help Requested** from the **Field** list.
 

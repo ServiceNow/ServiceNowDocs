@@ -30,7 +30,7 @@ Schedule Optimization can run in three different modes depending on your schedul
 
     By default, intraday optimization runs every 60 minutes and can be configured to run as frequently as every 15 minutes. When a trigger condition is met, Schedule Optimization creates an intraday event. During the next scheduled run, Schedule Optimization creates an optimization job for each affected assignment group or territory and reoptimizes the tasks. Schedule-locked tasks aren’t considered for reoptimization.
 
-    Prioritized event optimization is a focused mode of intraday optimization that responds quickly to critical events. Instead of waiting for the next scheduled intraday run, this mode triggers optimization shortly after a high-priority event occurs and targets only the specific technicians and tasks affected by the event.
+    Prioritized event optimization is a focused mode of intraday optimization that responds quickly to critical events. Instead of waiting for the next scheduled intraday run, this mode triggers optimization shortly after a high-priority event occurs. It targets only the specific technicians and tasks affected by the event.
 
     Prioritized events considers:
 
@@ -69,11 +69,23 @@ Each run summary provides:
 -   Applied objectives and constraints.
 -   Run status and timing.
 -   Task states showing how each task was processed:
+
     -   Optimized: The task was sent to the optimization engine for processing.
     -   Assigned: The task was assigned to a technician.
     -   Unassigned: The task wasn’t assigned to a technician.
     -   Unchanged: The task wasn’t modified during the optimization run.
     -   Error: The task encountered an error during optimization.
+    **Note:**
+
+    When technicians don't have enough capacity, Schedule Optimization can't assign every task. The run still completes. The unassigned tasks wait for the next optimization run. What happens to a task depends on its state before the run:
+
+    -   Task was assigned before the run: Schedule Optimization unassigns the task. The run summary shows the task as Unassigned.
+    -   Task wasn't assigned before the run: The task stays in the pending dispatch queue unchanged. The run summary shows the task as Unchanged.
+    To resolve unscheduled tasks, do one of the following:
+
+    -   Assign the tasks manually.
+    -   Increase the technicians' work schedule capacity, and then run optimization on demand \(if on-demand optimization is configured\).
+    -   Wait for the next optimization run.
 -   Assignment group or territory states:
     -   Optimized: Assignment group or territory was sent to the optimization engine for processing.
     -   Error: Assignment group or territory encountered an error during optimization.
@@ -87,7 +99,7 @@ Each run summary provides:
 
 [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
 [Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
 

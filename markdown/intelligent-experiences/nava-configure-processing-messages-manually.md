@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure processing messages
@@ -27,5 +27,5 @@ Role required: admin
 3.  If you have ServiceNow Otto panel premium chat, configure sn\_aia.og\_ao.enable\_processing\_messages to enable or disable processing messages.
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
 

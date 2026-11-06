@@ -96,15 +96,15 @@ Option to enable or disable SSL for the connection. When **Enabled**, additional
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with PostgreSQL.
 
-<table id="choicetable_pg_auth"><thead><tr><th align="left" id="d220820e254">
+<table id="choicetable_pg_auth"><thead><tr><th align="left" id="d217976e254">
 
 Option
 
-</th><th align="left" id="d220820e257">
+</th><th align="left" id="d217976e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220820e263">
+</th></tr></thead><tbody><tr><td id="d217976e263">
 
 **Basic**
 
@@ -116,7 +116,7 @@ Option to use a username and password.
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d220820e284">
+</td></tr><tr><td id="d217976e284">
 
 **AWS IAM**
 
@@ -124,7 +124,7 @@ Option to use a username and password.
 
 Option to authenticate using AWS RDS IAM \(temporary STS token-based\) authentication. See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
 
-</td></tr><tr><td id="d220820e303">
+</td></tr><tr><td id="d217976e303">
 
 **GCP IAM**
 
@@ -132,7 +132,7 @@ Option to authenticate using AWS RDS IAM \(temporary STS token-based\) authentic
 
 Option to authenticate using GCP Cloud IAM token-based authentication, with either a service account or user credentials. See [PostgreSQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
 
-</td></tr><tr><td id="d220820e322">
+</td></tr><tr><td id="d217976e322">
 
 **OAuth**
 

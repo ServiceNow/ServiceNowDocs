@@ -41,7 +41,7 @@ You can run a content crawl as a one-time task or set it to recur on a scheduled
 
 2.  In the Connectors list, select the record for the connector that you want to create a content crawl for.
 
-3.  In the connector editor's Create crawls tab, select **Crawl content**.
+3.  In the connector editor's **Create crawls** tab, select **Crawl content**.
 
     The Crawl content dialog box appears.
 

@@ -46,7 +46,7 @@ Role required: itil or admin
 
         You can choose Microsoft Teams application or the Microsoft Teams web application.
 
-    4.  Click **Start Chat**.
+    4.  Select **Start Chat**.
 
         -   A chat conversation is initiated in Microsoft Teams.
         -   All automatic chats are automatically imported to the **Collaborate** panel.
@@ -54,33 +54,33 @@ Role required: itil or admin
 
 10. To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d297076e240">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d298189e240">
 
 Option
 
-</th><th align="left" id="d297076e243">
+</th><th align="left" id="d298189e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d297076e249">
+</th></tr></thead><tbody><tr><td id="d298189e249">
 
 **Import a chat from any conversation**
 
 </td><td>
 
-1.  Click the plus sign \(+\) and select **Import Microsoft Teams chat**.
+1.  Select the plus sign \(+\) and select **Import Microsoft Teams chat**.
 2.  Under the **Choose a conversation to view details** section, select a conversation that you want to import.
 3.  Select the chat and click **Import**.
 
 
-</td></tr><tr><td id="d297076e279">
+</td></tr><tr><td id="d298189e279">
 
 **Import a chat from a conversation in which you are a member**
 
 </td><td>
 
 1.  From the conversation that you are a member of, click the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) and select **View chat**.
-2.  Click the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text: filter chat messages icon\) and select the type of messages you want to view.
+2.  Select the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text: filter chat messages icon\) and select the type of messages you want to view.
 3.  Select the required messages and click **Import**.
 
 

@@ -99,5 +99,3 @@ Role required: sam\_integrator
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

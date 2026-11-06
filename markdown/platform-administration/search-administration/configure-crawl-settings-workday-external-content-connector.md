@@ -66,7 +66,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the Workday external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  In the Crawl content types section, deselect the options for any of these content types that you don't want the connector to retrieve from Workday:
 

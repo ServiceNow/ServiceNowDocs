@@ -1,6 +1,6 @@
 ---
 title: Viewing ribbon information in the contextual side panel
-description: Customer service agents can view ribbon information in the contextual side panel in CRM Workspace.
+description: Customer service agents can view ribbon information in the contextual side panel in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbooks-viewing-ribbon-info.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Page components, Workspace, Playbooks in Customer Service Managemen
 
 # Viewing ribbon information in the contextual side panel
 
-Customer service agents can view ribbon information in the contextual side panel in CRM Workspace.
+Customer service agents can view ribbon information in the contextual side panel in CSM Configurable Workspace.
 
 Click the Record information icon \(\[Omitted image "contextual-side-panel-record-info.jpg"\] Alt text: Record information icon.\) in the contextual side panel to view ribbon information.
 

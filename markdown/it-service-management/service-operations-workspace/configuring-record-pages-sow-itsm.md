@@ -1,6 +1,6 @@
 ---
 title: Configuring record pages in Service Operations Workspace for ITSM
-description: To align with your record page requirements, you can configure the data available in record pages in Service Operations Workspace for ITSM.
+description: Configure the data available in record pages in Service Operations Workspace for ITSM to align with your record page requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your e
 
 # Configuring record pages in Service Operations Workspace for ITSM
 
-To align with your record page requirements, you can configure the data available in record pages in Service Operations Workspace for ITSM.
+Configure the data available in record pages in Service Operations Workspace for ITSM to align with your record page requirements.
 
 To know about the record page configurations that are part of essential setup for implementing Service Operations Workspace for ITSM, [Record page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/record-page-configurations-sow-itsm.md).
 

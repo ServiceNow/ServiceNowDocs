@@ -26,6 +26,10 @@ The ServiceNow® Contract Management Pro solution enables you to set up contract
 -   Send contracts for signature using Adobe Sign without signing in to the electronic signature portal.
 -   Track undelivered electronic signature requests for a contract.
 
+See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-cmpro-landing-page.md), for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 **Note:** Contract Management Pro is available in the ServiceNow store. For details, see the "Activation information" section of these release notes.

@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add targets for a goal in Strategic Planning, Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d136796e61">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d140293e61">
 
 Option
 
-</th><th align="left" id="d136796e64">
+</th><th align="left" id="d140293e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d136796e70">
+</th></tr></thead><tbody><tr><td id="d140293e70">
 
 **From the Goals and targets tab**
 
@@ -57,7 +57,7 @@ The Check-in actuals window is displayed.
 
 \(For targets with no breakdowns\) In the Actual to date column, double click the cell for the target.
 
-</td></tr><tr><td id="d136796e123">
+</td></tr><tr><td id="d140293e123">
 
 **From the Target side panel**
 
@@ -70,7 +70,7 @@ The Check-in actuals window is displayed.
 
 The Target side panel opens with the **Details** tab.
 
-</td></tr><tr><td id="d136796e167">
+</td></tr><tr><td id="d140293e167">
 
 **From the Targets tab**
 

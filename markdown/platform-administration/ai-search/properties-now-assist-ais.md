@@ -19,7 +19,7 @@ System properties that you can use to modify behavior for ServiceNow® Otto for 
 
 These properties are available for ServiceNow Otto for AI Search.
 
-**Note:** To open the System Property \[sys\_properties\] table's list view, select **All**, enter `sys_properties.list` in the **Filter** field, and press **Enter**.
+**Note:** To open the System Property \[sys\_properties\] table's list view, select **All**, enter `sys_properties.list` in the navigation field, and press **Enter**.
 
 <table id="table_s4h_h2x_jdc"><thead><tr><th>
 

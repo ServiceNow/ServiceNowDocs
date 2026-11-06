@@ -24,7 +24,7 @@ Before you begin, confirm the following:
 -   SPO MCP Server must be activated and connected to your MCP client.
 -   You must have access to an MCP client such as Claude.
 
-Role required: sn\_spend\_genai\_requester
+Role required: sn\_spend\_gen\_ai.now\_assist\_requester
 
 ## About this task
 

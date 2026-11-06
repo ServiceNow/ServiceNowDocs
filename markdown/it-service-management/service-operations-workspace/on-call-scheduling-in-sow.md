@@ -65,7 +65,7 @@ Select the Experts On-call icon \(\[Omitted image "experts-on-call.png"\] Alt te
 To view the escalation details and dynamic tracking of an on-call escalation, select the on-call escalations icon \(\[Omitted image "on-call-escalation.png"\] Alt text: On-call escalations icon.\) from the Contextual side panel.
 
 -   **[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)**  
-Configure On-Call Scheduling in Service Operations Workspace \(SOW\) for their organizational needs, utilizing a suite of features to fulfill the various requirements.
+Configure On-Call Scheduling in Service Operations Workspace \(SOW\) to schedule and manage work shifts and meet your organizational needs.
 -   **[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
 View and manage schedules, shifts and time-off request.
 -   **[On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-sow.md)**  

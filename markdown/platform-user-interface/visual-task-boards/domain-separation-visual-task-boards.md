@@ -39,5 +39,5 @@ Condition-based criteria is used to filter that data. Free-form VTBs' use Privat
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -32,7 +32,7 @@ Update template mappings to pre-fill information that's placed in the contract d
 **Related topics**  
 
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts]()
+[Creating a contract template using Microsoft Word add-in]()
 
 [Publish a contract template]()
 

@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-06-03"
 reading_time_minutes: 5
-breadcrumb: [Configure signatories, Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure signatories, Add content controls, Create template using Word add-in, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add and configure participants for a contract using the Microsoft Word add-in for ServiceNow Contracts
@@ -44,15 +44,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     -   While adding signatory details, if you add value in the **User** field, the participant is considered an internal signatory.
     -   While inserting content controls for signatures or signatories, ensure the font color of the tagged text matches the document’s background color.
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d395369e214">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d396161e214">
 
 Type of signatory
 
-</th><th align="left" id="d395369e217">
+</th><th align="left" id="d396161e217">
 
 Available fields
 
-</th></tr></thead><tbody><tr><td id="d395369e223">
+</th></tr></thead><tbody><tr><td id="d396161e223">
 
 **Internal**
 
@@ -78,7 +78,7 @@ Option to specify the title when the defined participant is an external user.
     -   This field is available only when signing type is AdobeSign or DocuSign.
 
 
-</td></tr><tr><td id="d395369e320">
+</td></tr><tr><td id="d396161e320">
 
 **External**
 

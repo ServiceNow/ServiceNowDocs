@@ -65,5 +65,3 @@ An SSO integration is created using a directory integration. When you delete an 
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

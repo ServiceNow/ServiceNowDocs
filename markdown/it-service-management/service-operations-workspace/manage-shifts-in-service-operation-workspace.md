@@ -26,15 +26,15 @@ Role required: rota\_manager, rota\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operation Workspace**.
 
-2.  Click the **Schedule** icon to view all the absence requests, gaps and conflicts in a shift.
+2.  Select the **Schedule** icon to view all the absence requests, gaps and conflicts in a shift.
 
     All the absence requests are displayed in the **Required actions** section.
 
-3.  Click **Approve** or **Reject** and confirm the same when prompted.
+3.  Select **Approve** or **Reject** and confirm the same when prompted.
 
 4.  For gaps or conflicts, select the shift card and click \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon or right-click a shift card.
 
-5.  Click **Provide coverage** to replace a member of the shift.
+5.  Select **Provide coverage** to replace a member of the shift.
 
     Provide the following details and click **Provide coverage**:
 
@@ -43,11 +43,11 @@ Role required: rota\_manager, rota\_admin
     -   End
     \[Omitted image "provice\_coverage\_sow.png"\] Alt text: Provide coverage
 
-6.  Click **Schedule extra time** to work for extended hours and provide the following details:
+6.  Select **Schedule extra time** to work for extended hours and provide the following details:
 
     -   Start
     -   End
-    Click **Schedule extra time**.
+    Select **Schedule extra time**.
 
     \[Omitted image "schedule\_extra\_time\_sow.png"\] Alt text: schedule extra time
 

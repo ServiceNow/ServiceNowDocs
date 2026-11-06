@@ -42,6 +42,8 @@ Role required: agent\_client\_collector\_admin
 
 You can select up to 50 agents at a time for upgrade. To upgrade large numbers of agents, incorporate the Agent Client Collector into your software deployment tools.
 
+Selective upgrade doesn't support Agent Client Collector to MID Server communication via mTLS.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agents**.

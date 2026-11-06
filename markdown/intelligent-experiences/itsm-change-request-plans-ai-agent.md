@@ -14,6 +14,8 @@ breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents l
 
 This AI agent helps change owners and approvers by drafting high-quality, context-aware change request content.
 
+**Note:** This version of the AI agent is available on releases earlier than Zurich Patch 12 and Australia Patch 5. The autonomous version isn't available on these releases. If you're using Zurich Patch 12, Australia Patch 5, or later, see [Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md).
+
 ## Workflow
 
 The agent drafts implementation plans, backout plans, test plans, justifications, and risk &amp; impact analyses.

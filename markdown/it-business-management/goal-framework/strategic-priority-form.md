@@ -7,7 +7,7 @@ release: australia
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -88,7 +88,7 @@ Status
 
 </td><td>
 
-Status of the strategic priority. Status can be **Red**, **Yellow**, **Green**, or **None**.
+Status of the strategic priority. Status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

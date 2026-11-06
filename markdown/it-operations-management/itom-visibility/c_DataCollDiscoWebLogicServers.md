@@ -26,7 +26,7 @@ Discovery creates or updates a CMDB record when it detects an instance of an Ora
         -   `find`
         -   `cat`
         -   `dirname`
-    -   WebLogic administration server instances started via NodeManager must have the **-Dweblogic.RootDirectory=&lt;path&gt;** parameter defined and visible through the Linux ps process stat command \(for each AdminServer\) for the rest of the Linux WebLogic application server and web application information to be populated in the CMDB.
+    -   WebLogic administration server instances started via NodeManager must have the **-Dweblogic.RootDirectory=&lt;path&gt;** parameter defined and visible through the Linux ps process stat command \(for each AdminServer\). This is required for Linux WebLogic application server and web application information to be populated in the CMDB.
     -   The following configuration must be set on the sudorers file:
 
         `User ALL=(root) NOPASSWD: /bin/sh *`

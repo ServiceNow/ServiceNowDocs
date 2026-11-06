@@ -26,7 +26,7 @@ The agent supports the following operations on opportunity records and related e
 **Related topics**  
 
 
-[Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md)
+[Manage opportunity records using an AI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md)
 
 [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md)
 

@@ -23,7 +23,7 @@ The repair claims framework enables the dealer to raise a reimbursement claim re
 -   **[Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/recall-claims.md)**  
 The recall campaign framework enables you to initiate the reimbursement claim request from the OEM for the recalled products.
 -   **[Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-quality-issue-management-data-model.md)**  
-The quality issue management \(QIM\) framework enables OEMs for documenting non-conformance, evaluating their effects on assets and customers, conducting root cause analysis, and implementing corrective, containment, and other remediation actions.
+The quality issue management \(QIM\) framework enables OEMs to document non-conformance and evaluate its effects on assets and customers. It supports root cause analysis and corrective, containment, and other remediation actions.
 
 **Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 

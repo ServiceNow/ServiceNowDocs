@@ -24,7 +24,7 @@ Subflow that retrieves the Access Control List \(ACL\) details for the specified
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission

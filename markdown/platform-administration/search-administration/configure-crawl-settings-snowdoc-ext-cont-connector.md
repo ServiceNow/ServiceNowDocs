@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
-reading_time_minutes: 3
+last_updated: "2026-10-26"
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow product documentation external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,8 +24,6 @@ A connector administrator must have already created the ServiceNow® product doc
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
-
-This task is optional. By default, the ServiceNow product documentation external content connector crawls documentation for all ServiceNow products. Only perform this task if you want to exclude the documentation for some products from the connector's crawls.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -45,21 +43,13 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the ServiceNow product documentation external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
-4.  To restrict the connector's content crawl scope, select the products that you want to crawl the documentation for.
+4.  Select the documentation product categories you want the connector's content crawls to retrieve and index.
 
-    By default, all products are selected. You can use the option in the list header to select or deselect all products.
-
-5.  If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
-
-    When you select this option, the Platform Multimodal Service automatically generates descriptive captions for images, tables, charts, and other visual elements found in retrieved attachments and files. You can discover these retrieved attachments and files by searching for terms from their generated captions.
-
-    This option is only available when the Platform Multimodal Service plugin is activated on your instance.
-
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
-6.  Select **Save**.
+    -   To include only documentation for certain specific product categories in content crawls, select the options for those categories. As an example, you might select **Release Notes** and **IT Operations Management**.
+    -   To include documentation for all product categories in content crawls, select the **Product Category** option.
+5.  Select **Save**.
 
 
 ## Result

@@ -24,7 +24,7 @@ Deactivate an agentic AI asset when you want to stop it from running. Once deact
 
 You can reactivate the agentic AI asset at any time.
 
-Instead of deactivating an entire agentic AI asset, you can create a new version of the instructions and use that instead. You can change versions at any time should you want to. For more information, see [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md).
+Instead of deactivating an entire agentic AI asset, you can create a new version of the instructions and use that instead. You can change versions at any time. For more information, see [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md).
 
 ## Procedure
 
@@ -34,9 +34,9 @@ Instead of deactivating an entire agentic AI asset, you can create a new version
 
 3.  Select the agentic AI asset you want to deactivate.
 
-4.  In the node view, select the first node of the AI specialist.
+4.  In the node view, select the first node of the agentic AI asset.
 
-    The first node contains the main configuration settings for the AI specialist. The other nodes represent the individual agents that comprise the underlying architecture and aren't required to view the AI specialist's performance.
+    The first node contains the main configuration settings for the agentic AI asset.
 
 5.  Select the **Deactivate** button.
 

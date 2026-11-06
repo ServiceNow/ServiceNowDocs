@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-04-14"
+last_updated: "2026-10-15"
 reading_time_minutes: 12
 keywords: [purchase requisition states, purchase order states, sourcing request states, state transitions, procurement lifecycle, Sourcing and Procurement Operations]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
@@ -277,7 +277,7 @@ Delivered
 
 </td><td>
 
-Set when at least one purchase order line has been delivered and no lines remain in an active or in-progress state \(such as Ordered, Processing, or Pending Submission\). Lines that have already progressed beyond delivery, such as those in Payment Pending or Closed Paid, do not prevent this state from being set. The purchase order is awaiting invoice processing for the remaining delivered lines.
+Set when at least one purchase order line has been delivered and no lines remain in an active or in-progress state \(Processing, Pending Supplier Confirmation, Pending Submission, Pending Revision, Partially Delivered, or Ordered\). Lines that have already progressed beyond delivery, such as those in Payment Pending or Closed Paid, do not prevent this state from being set. The purchase order is awaiting invoice processing for the remaining delivered lines.
 
 </td><td>
 

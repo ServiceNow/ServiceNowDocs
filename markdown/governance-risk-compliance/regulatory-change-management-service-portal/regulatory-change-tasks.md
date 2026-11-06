@@ -45,7 +45,7 @@ The following types of regulatory tasks are available in Regulatory Change Manag
 -   Others-For example, establishing a new governance framework to manage cross-border data transfers in response to emerging regulatory expectations.
 -   None- Tasks that don’t fall under any specific predefined category, such as preliminary research or administrative setup tasks.
 
-## New workflow of a regulatory task
+## Workflow of a regulatory task
 
 Upgrade the following applications to get the new workflow:
 

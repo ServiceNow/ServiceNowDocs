@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Bind host CIs using CI field matching, Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-In IT environments, multiple devices like switches have many smaller components, such as ports. When something goes wrong, it's not enough to just say the switch has an issue—the system needs to pinpoint exactly which port is causing it. Binding alerts to the specific port that triggered the issue allows teams to act faster and fix the real issue without wasting time checking the entire switch or unrelated components.
+In IT environments, multiple devices like switches have many smaller components, such as ports. When something goes wrong, it's not enough to just say the switch has an issue—the system needs to pinpoint exactly which port is causing it. Binding alerts to the specific port that triggered the issue allows teams to act faster. They can fix the real issue without checking the entire switch or unrelated components.
 
 The following example procedure shows the alert binding configuration for a switch named IP-Switch-1, ensuring alerts target the correct port. The event rule setup starts by enabling the **Override default binding** option and selecting **CI field matching** as the **Binding type**. Choosing **Switchport** as the **CI type** instructs the system to bind alerts to individual ports. The Binding Device Map defines how the system links the switch \(cmdb\_ci\_ip\_switch\) to its ports \(dscy\_switchport\) using the cmdb\_ci reference field. This map guides the binding logic. Under **Configuration** &gt; **Network** &gt; **Switches**, selecting **IP-Switch-1** reveals its switchports and interface names. When an incoming event includes a matching interface name in the **Additional information** field, the system binds the alert directly to the correct port—ensuring precise and meaningful alert context.
 

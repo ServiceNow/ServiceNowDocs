@@ -1,5 +1,5 @@
 ---
-title: Assign the user criteria for Can Edit access to a site
+title: Assign user criteria for Can Edit access to a site
 description: Assign the user criteria to a site to define which users can edit the equipment model entities that belong to the selected site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/assign-user-criteria-for-can-edit-access.html
@@ -7,12 +7,12 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign or remove access for non-admins, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Manage equipment model site access for non-admins, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
-# Assign the user criteria for Can Edit access to a site
+# Assign user criteria for Can Edit access to a site
 
 Assign the user criteria to a site to define which users can edit the equipment model entities that belong to the selected site.
 
@@ -36,6 +36,8 @@ You can assign the user criteria for Can Edit access in two locations:
     |**Equipment Model Entity View Access Table**|**All** &gt; **Equipment Model - ISA** &gt; **User Criteria - Can Edit**|
     |**Can Edit Equipment Models related list**|**All** &gt; **Equipment Model - ISA** &gt; **Sites** and open a site record. Select the Can Edit Equipment Models related list.|
 
+    **Note:** User criteria configurations aren't available with the ISA Equipment Model version 4.2.0.
+
 2.  Create a record by selecting **New**.
 
 3.  In the **Site** field, select the equipment model site record that you need.
@@ -49,5 +51,5 @@ You can assign the user criteria for Can Edit access in two locations:
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md)
+**Parent Topic:**[Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md)
 

@@ -24,9 +24,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   Supported versions: Infoblox API v2.11.2
 -   Supported ServiceNow versions:
-    -   Yokohama
     -   Zurich
     -   Australia
+    -   Brazil
 
 ## Use cases
 

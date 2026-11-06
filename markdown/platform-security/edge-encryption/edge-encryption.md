@@ -22,6 +22,13 @@ Starting with the Zurich release, Edge Encryption and Edge Encryption Core are b
 
 For details, see the Deprecation Process \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] article in the Now Support knowledge base.
 
+The following materials are available to help with this migration process:
+
+-   [Edge Encryption Recommended Migration Sequence](https://mynow.servicenow.com/now/best-practices/assets/edge-encryption-migration-recommended-implementation-sequence).
+
+-   [Edge Encryption Migration Implementation Guide](https://mynow.servicenow.com/now/best-practices/assets/edge-encryption-migration-implementation-guideaustralia).
+
+
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
 [Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)

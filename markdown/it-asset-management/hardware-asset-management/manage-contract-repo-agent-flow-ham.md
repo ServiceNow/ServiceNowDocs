@@ -72,7 +72,7 @@ The following workflow explains the obligation extraction process:
 8.  The assigned user with the sn\_cm\_obligation.obligation\_user role is notified when the obligation task is created.
 9.  The assigned user works on the obligation task and submits it for review.
 
-    The state of the obligation task changes from Open to Awaiting approval. For more details, see [Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-work-on-ob-tasks.md).
+    The state of the obligation task changes from Open to Awaiting approval. For more details, see [Work on obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-work-on-ob-tasks.md).
 
 10. The user with the sn\_cm\_obligation.obligation\_fulfiller role reviews the task and approves or rejects it. For more information, see [Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-manage-ob-tasks.md).
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.

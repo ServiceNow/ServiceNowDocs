@@ -59,7 +59,7 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) rules provided wit
 
 **Note:** This feature applies only to active event rules.
 
-If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
+To send alert state changes from the ServiceNow instance to the Azure Portal, enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
 ## Severity mapping from Azure severity to ServiceNow event severity
 

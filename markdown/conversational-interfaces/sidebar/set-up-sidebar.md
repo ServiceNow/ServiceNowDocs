@@ -1,6 +1,6 @@
 ---
-title: Setting up Sidebar
-description: Enabling participant suggestions in Sidebar displays a list of knowledgeable users who can help with the issue. After you enable participant suggestions, you can configure who Sidebar decides is knowledgeable user and which groups have access. After installing Sidebar, activate and configure Sidebar so agents can collaborate with others to resolve issues.
+title: Set up Sidebar
+description: Enabling participant suggestions in Sidebar displays a list of knowledgeable users who can help with the issue. After you enable participant suggestions, you can configure who Sidebar decides is a knowledgeable user and which groups have access. After installing Sidebar, activate and configure Sidebar so agents can collaborate with others to resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/set-up-sidebar.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 4
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
-# Setting up Sidebar
+# Set up Sidebar
 
-Enabling participant suggestions in Sidebar displays a list of knowledgeable users who can help with the issue. After you enable participant suggestions, you can configure who Sidebar decides is knowledgeable user and which groups have access. After installing Sidebar, activate and configure Sidebar so agents can collaborate with others to resolve issues.
+Enabling participant suggestions in Sidebar displays a list of knowledgeable users who can help with the issue. After you enable participant suggestions, you can configure who Sidebar decides is a knowledgeable user and which groups have access. After installing Sidebar, activate and configure Sidebar so agents can collaborate with others to resolve issues.
 
 ## Before you begin
 
@@ -46,8 +46,8 @@ Role required: admin
     |-----|-----------|
     |Automatic Task and Interaction record activation|Slide the toggle switch to activate Sidebar discussions for interaction and task-based records.|
     |Custom selection|Select **View settings** to display the Sidebar Enabled Tables screen.|
-    |Requester mapping|Select **View settings** to display the [Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-requester-mapping.md). The requester is the person requesting the record and any updates about unread messages in related Sidebar discussions will be sent to the requester.|
-    |Discussion subject mapping|To change the default subject for Sidebar discussions, select **View settings** to display the Discussion subject mapping. This screen enables admins to configure which field populates the discussion title in Sidebar discussions. See [Sidebar discussion subject mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.md) for more information.|
+    |Requester mapping|Select **View settings** to display the [Configure Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-requester-mapping.md). The requester is the person requesting the record and any updates about unread messages in related Sidebar discussions is sent to the requester.|
+    |Discussion subject mapping|To change the default subject for Sidebar discussions, select **View settings** to display the Discussion subject mapping. This screen enables admins to configure which field populates the discussion title in Sidebar discussions. See [Configure Sidebar discussion subject mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.md) for more information.|
 
 <table id="table_t2c_tfd_nsb"><thead><tr><th>
 
@@ -97,7 +97,7 @@ Configure settings
 If you activate participant suggestions, the Manage drop-down list appears. Select a configuration option:
 
 -   View Configuration - displays the Participant suggestions table and related lists.
--   View Permissions - displays the Participant suggestions permissions page where you configure whether participant suggestions display for specific groups or all groups. To enable all groups to view participant suggestions, select **Allow all groups** and then **Save**. Permissions can't be configured at an individual user level, so ensure that any users you want to be included belong to a relevant group.
+-   View Permissions - displays the Participant suggestions permissions page where you configure whether participant suggestions display for specific groups or all groups. To enable all groups to view participant suggestions, select **Allow all groups** and then **Save**. Permissions can't be configured at an individual user level, so ensure that any users you need to be included belong to a relevant group.
  \[Omitted image "participant-sugg-perm-groups.png"\] Alt text: Participant suggestion permissions screen with "Allow all groups" check box.
 
  For detailed information on participant suggestions configuration settings, see [Participant suggestions in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-participant-suggestions.md).
@@ -123,7 +123,7 @@ If Sidebar isn't already integrated with Microsoft Teams, select **Set up** to c
 
 -   View configuration \(for more information, see [Enable or configure the Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/enable-teams-integration.md)\).
 -   View permissions \(for more information, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/manage-teams-permissions.md)\)
--   Remove integration - if you select this option, a warning message displays that the integration between Sidebar and Microsoft Teams will be removed. Select Cancel if you don't want to remove the integration or select Remove if you want to remove the integration.
+-   Remove integration - if you select this option, a warning message displays that the integration between Sidebar and Microsoft Teams is removed. Select Cancel if you don't want to remove the integration or select Remove if you need to remove the integration.
 
 
 </td></tr><tr><td>
@@ -137,7 +137,7 @@ If Sidebar isn't already integrated with Slack, select **Set up** to configure t
  If Sidebar has already been integrated with Slack, the Manage drop-down list appears. Select a configuration option:
 
 -   View configuration
--   Remove - if you select this option, a warning message displays that the integration between Sidebar and Slack will be removed. Select Cancel if you don't want to remove the integration or select Remove if you want to remove the integration.
+-   Remove - if you select this option, a warning message displays that the integration between Sidebar and Slack is removed. Select Cancel if you don't want to remove the integration or select Remove if you need to remove the integration.
 
 
 </td></tr></tbody>

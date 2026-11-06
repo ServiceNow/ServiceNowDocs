@@ -17,10 +17,10 @@ As a business analyst, review the task timeline for identifying task optimizatio
 
 ## Before you begin
 
--   [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-task-mining-projects.md) in Task Mining.
--   Confirm that you select **Capture screenshots to create desktop actions** option while defining the scope for the task. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/mine-data.md).
+-    in Task Mining.
+-   Confirm that you select **Capture screenshots to create desktop actions** option while defining the scope for the task. For more information, see .
 -   Enable workstation users to capture desktop activity data that includes desktop interactions and sequence of steps using the Task Mining agent.
--   Run a mining job on a Task Mining project to generate an analysis of the collected project data. For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/mine-project-data.md).
+-   Run a mining job on a Task Mining project to generate an analysis of the collected project data. For more information, see .
 -   Verify that Automation Center is installed to initiate an automation request.
 -   Verify that ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated to use the AI features in the integration.
 
@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23088e288">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23100e285">
 
 Option
 
-</th><th align="left" id="d23088e291">
+</th><th align="left" id="d23100e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23088e297">
+</th></tr></thead><tbody><tr><td id="d23100e294">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d23088e315">
+</td></tr><tr><td id="d23100e312">
 
 **Complete manually**
 

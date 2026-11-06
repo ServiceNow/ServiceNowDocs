@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [integration, mapping, automatic, log context, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Mapping logs for contextual alerts, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Mapping logs for contextual alerts, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Map logs to service instances, components, source types
@@ -100,5 +100,5 @@ AI suggests the optimal log field for mapping to service instances and component
 13. Select **Save mapping** to save your settings.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Mapping logs for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.md)
 

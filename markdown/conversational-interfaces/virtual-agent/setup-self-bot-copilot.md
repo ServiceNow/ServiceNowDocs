@@ -30,7 +30,7 @@ As of October 2025, streaming is active by default for both Teams and Copilot. C
 You can use the self-configured bot or the default version to install Microsoft Copilot integration. The default bot automatically deploys in Copilot. If you want to use a self-configured bot for Microsoft Copilot, complete the following additional setup:
 
 -   Provide the Self-configured bot a name while creating it. This name is also provided to the Custom Engine Agent \(CEA\).
--   Activate your assistant in the Conversational Interfaces configuration page. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+-   Activate your assistant in the Conversational Interfaces configuration page. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 -   Migrate any relevant topics to the Now LLM Service for ServiceNow Otto large language model \(LLM\) conversations with Copilot. To migrate your topics to LLM, you must enable LLM. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
 -   Update the following fields within the manifest file that is downloaded from Admin experience to configure the Self-configured bot. You can update your agent's description and update its prompts if it has any unique capabilities.
 

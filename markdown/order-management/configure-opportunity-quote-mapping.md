@@ -1,6 +1,6 @@
 ---
 title: Configure transaction-to-quote field mapping
-description: When you use Sales CRM capabilities such as opportunity management, advanced approvals, or PDF document generation, CPQ Microservices sync data to the ServiceNow platform. This sync is set up automatically, but custom transaction fields require you to configure the data mapping.
+description: When you use Sales CRM capabilities such as opportunity management, advanced approvals, or PDF document generation, ServiceNow CPQ Microservices sync data to the ServiceNow platform. This sync is set up automatically, but custom transaction fields require you to configure the data mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-opportunity-quote-mapping.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Configure transaction-to-quote field mapping
 
-When you use Sales CRM capabilities such as opportunity management, advanced approvals, or PDF document generation, CPQ Microservices sync data to the ServiceNow platform. This sync is set up automatically, but custom transaction fields require you to configure the data mapping.
+When you use Sales CRM capabilities such as opportunity management, advanced approvals, or PDF document generation, ServiceNow CPQ Microservices sync data to the ServiceNow platform. This sync is set up automatically, but custom transaction fields require you to configure the data mapping.
 
 ## Before you begin
 

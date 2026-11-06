@@ -1,6 +1,6 @@
 ---
 title: Learning path and course item discovery in Service Operations Workspace
-description: Browse courses or learning paths and take the ones that are of interest to you. You can also discover them using Predictive Intelligence that provides recommendations based on past activities.
+description: Browse courses and learning paths, or discover ones that interest you through Predictive Intelligence recommendations based on your past activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/discovering-learning-sow-wfo-itsm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Service Operations Workspace - Learning, Workforce Optimization for
 
 # Learning path and course item discovery in Service Operations Workspace
 
-Browse courses or learning paths and take the ones that are of interest to you. You can also discover them using Predictive Intelligence that provides recommendations based on past activities.
+Browse courses and learning paths, or discover ones that interest you through Predictive Intelligence recommendations based on your past activities.
 
 Service Operations Workspace uses Predictive Intelligence to discover and suggest all courses and learning paths that you might want to take based on the learning activities of the teams you belong to and your previous learning activities.
 

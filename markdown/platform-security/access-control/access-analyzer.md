@@ -1,6 +1,6 @@
 ---
 title: Access Analyzer
-description: ServiceNow Access Analyzer is an access diagnostic tool designed for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
+description: ServiceNow Access Analyzer is an access diagnostic tool for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/access-analyzer.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Access Management]
 
 # Access Analyzer
 
-ServiceNow® Access Analyzer is an access diagnostic tool designed for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
+ServiceNow® Access Analyzer is an access diagnostic tool for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

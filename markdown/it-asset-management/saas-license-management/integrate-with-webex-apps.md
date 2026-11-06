@@ -227,15 +227,15 @@ If you’re using Software Asset Workspace, the option to create the Webex integ
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d205532e832">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d208295e832">
 
 Interface
 
-</th><th align="left" id="d205532e835">
+</th><th align="left" id="d208295e835">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205532e841">
+</th></tr></thead><tbody><tr><td id="d208295e841">
 
 **Core UI**
 
@@ -246,7 +246,7 @@ Action
 3.  Select **Webex Integration Profile**.
 
 
-</td></tr><tr><td id="d205532e883">
+</td></tr><tr><td id="d208295e883">
 
 **Software Asset Workspace**
 
@@ -308,7 +308,7 @@ Type of integration profile. This field is automatically set to Webex Subscripti
 
         **Note:** The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Activity** isn't created.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -337,7 +337,7 @@ Type of integration profile. This field is automatically set to Webex Subscripti
 
 6.  Select the **Create New Connection &amp; Credential** related link.
 
-7.  On the form, fill in the **OAuth Client ID** and **OAuth Client Secret** that you had saved while creating the Webex Teams OAuth application.
+7.  On the Create Connection and Credential form, fill in the **OAuth Client ID** and **OAuth Client Secret** that you had saved while creating the Webex Teams OAuth application.
 
     Leave all other fields as is.
 
@@ -351,7 +351,7 @@ Type of integration profile. This field is automatically set to Webex Subscripti
 
 10. After the connection is successfully created, navigate to the Webex integration profile.
 
-11. In the **Calculate Activity Subflow** tab, select the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon\) next to the **Connection &amp; Credential** field and then select **Open Record** in the record preview.
+11. In the **Calculate Activity Subflow** tab, select the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then select **Open Record** in the record preview.
 
 12. Select the **Create New Connection &amp; Credential** related link.
 
@@ -418,7 +418,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple Cisco Webex integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-webex.md).
 

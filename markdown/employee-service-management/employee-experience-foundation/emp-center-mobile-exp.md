@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Now Mobile experience for Employee Center

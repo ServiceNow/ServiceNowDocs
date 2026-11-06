@@ -15,5 +15,5 @@ breadcrumb: [Lux Development, Building pro-code applications, Developing your ap
 
 You build a Lux app in code, starting from its pages. A page is a Lit web component that Lux registers as a route based on where you put its file.
 
-Use page collections to let more than one page module claim the same route. Topics in this chapter also cover layouts and editable regions, making a component property configurable inline, and authoring widgets. They close with components: their fundamentals, their lifecycle, and how to make one reusable across pages and apps.
+Use page variants to let more than one page module claim the same route. Topics in this chapter also cover layouts and editable regions, making a component property configurable inline, and authoring widgets. They close with components: their fundamentals, their lifecycle, and how to make one reusable across pages and apps.
 

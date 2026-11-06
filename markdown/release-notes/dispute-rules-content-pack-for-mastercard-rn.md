@@ -1,12 +1,12 @@
 ---
 title: Dispute Rules Content Pack for Mastercard release notes
-description: The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.Maintain compliance with the latest Mastercard chargeback rules. This release adds new transactional data field values for Mastercard authorization processing and refines the fraud chargeback eligibility condition for reason code \(RC\) 4871.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
+description: The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.Maintain compliance with the latest Mastercard chargeback rules. This release adds new transactional data field values for Mastercard authorization processing and refines the chargeback eligibility conditions in the decision tables for reason codes \(RCs\) 4853, 4870, and 4871.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/dispute-rules-content-pack-for-mastercard-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-06-15"
-reading_time_minutes: 7
+reading_time_minutes: 9
 keywords: [Mastercard, chargeback, dispute rules, fraud, reason codes, transaction data]
 breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -41,9 +41,9 @@ See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.co
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
-## October 2026
+## Version 5.2.2
 
-Maintain compliance with the latest Mastercard chargeback rules. This release adds new transactional data field values for Mastercard authorization processing and refines the fraud chargeback eligibility condition for reason code \(RC\) 4871.
+Maintain compliance with the latest Mastercard chargeback rules. This release adds new transactional data field values for Mastercard authorization processing and refines the chargeback eligibility conditions in the decision tables for reason codes \(RCs\) 4853, 4870, and 4871.
 
 ### What's new
 
@@ -99,12 +99,18 @@ Maintain compliance with the latest Mastercard chargeback rules. This release ad
 
 ### What's changed
 
--   **Updated Mastercard chargeback ineligibility rule for fraud**
+-   **Updated Mastercard chargeback ineligibility decision tables for fraud \(RC 4870 and RC 4871\)**
 
-    The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) correctly evaluates the fraud-report timing window. A dispute is ineligible only when it is not raised within three days of the transaction being reported lost, stolen, or never received in the fraud and loss database. The condition also requires a fraud report ID to be present. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+    The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) in the **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision table reverses the comparison for the fraud-report timing window. Before this release, a dispute was ineligible when it was raised fewer than three days after the transaction was reported lost, stolen, or never received in the fraud and loss database. A dispute is ineligible when it is raised more than three days after the report. The condition also requires a fraud report ID to be present; this requirement is unchanged. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+
+    The **Mastercard 4870 - Chip Liability Shift** and **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision tables each change the ineligibility condition for repeat fraud chargebacks on the same Mastercard card account. Before this release, a dispute was ineligible when the **Chargeback transactions count** was three or more. The count included chargebacks under RC 4837, RC 4870, or RC 4871, regardless of when they were submitted. The condition uses a new input, **Fraud CB count before auth date**, and a dispute is ineligible when the count is two or more. The new count includes only chargebacks that were submitted before the authorization date of the disputed transaction. The chargeback ineligibility reason text in both decision tables is updated to specify fraud chargebacks.
+
+-   **Updated Mastercard chargeback ineligibility decision table for Refund Not Processed \(RC 4853\)**
+
+    The **Mastercard 4853 - Credit Not Processed** decision table adds a condition to the ineligibility rule for RC 4853 \(Refund Not Processed\). Before this release, a dispute was ineligible when the transaction had one of the merchant category codes \(MCCs\) 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The MCC list is unchanged. A dispute with one of these MCCs is ineligible only when the merchant provided a voucher for future use and disclosed it in its terms and conditions. The new condition checks that the answer to the merchant voucher question in the dispute questionnaire is Yes. The chargeback ineligibility reason text is updated to describe the voucher condition.
 
 
-## July 2026
+## Version 4.2.0
 
 The ServiceNow® Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 

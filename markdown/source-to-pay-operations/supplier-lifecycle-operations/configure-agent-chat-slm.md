@@ -35,7 +35,7 @@ Role required: admin
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in the Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-quick-actions-overview.md).
+    Add or update the quick action shortcuts for live agents in the Agent Chat. For more information about configuring the toolbar controls, see [Set up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-quick-actions-overview.md).
 
 5.  Select **Save**.
 

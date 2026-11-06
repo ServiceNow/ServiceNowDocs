@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Task Mining, Platform Analytics]
 ---
@@ -72,6 +72,18 @@ Create and share Task Mining projects, and access projects that another user has
 
 -   \[canvas\_user\]
 -   \[workspace\_user\]
+
+</td></tr><tr><td>
+
+Task Mining agent installer
+
+</td><td>
+
+Access the Task Mining agent installation page.
+
+</td><td>
+
+none
 
 </td></tr></tbody>
 </table>## Tables installed

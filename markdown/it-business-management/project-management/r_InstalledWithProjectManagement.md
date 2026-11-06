@@ -195,7 +195,7 @@ Use a predefined template when generating a status reportsn\_pw.project\_status\
 
 </td><td>
 
-This property specifies the default template for generating project status reports. To change the default, update the sys ID in the value field with your preferred template's sys ID.
+The property specifies the default template used for generating project status reports. Replace default template with your desired template and set it as default by updating the sys id in value field of project status report default template property.
 
 </td></tr><tr><td>
 

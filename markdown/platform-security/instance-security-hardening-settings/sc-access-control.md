@@ -42,7 +42,7 @@ Use system properties to determine whether external users can be assigned the sn
 The **glide.sc.req\_for.roles.default** property defines a default behavior for the retrieveAddress API.
 -   **[Display recommendations for high risk UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-display-recommendations-for-high-risk-ui-pages.md)**  
 Decrease the likelihood of authorization errors, and unintended information disclosure by displaying recommendations for high risk UI pages.
--   **[Disable Adding Default Roles to Skill ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-adding-default-roles-to-skill-acls.md)**  
+-   **[Disable adding default roles to Skill ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-adding-default-roles-to-skill-acls.md)**  
 Use system properties to control what roles are automatically added to generative AI skill ACLs.
 -   **[Disable inbound emails for locked out users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-inbound-emails-locked-out-users.md)**  
 Use the **glide.pop3.process\_locked\_out** property to control inbound email actions for locked out, active users.

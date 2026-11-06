@@ -22,7 +22,9 @@ Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-You can display references of ID, key, Jira project, and the project URL on your custom table form by adding an External Identifier reference field to your custom table and then adding the table to the Populate External Identifier Reference business rule.
+You can display references of ID, key, Jira project, and the project URL on your custom table form. Add an External Identifier reference field to the table and then add the table to the **Populate External Identifier Reference** business rule.
+
+The Populate External Identifier Reference rule populates this field only for the Story, Epic, and Sprint tables. Other tables, such as `rm_scrum_task`, don't have an External Identifier field by default.
 
 ## Procedure
 

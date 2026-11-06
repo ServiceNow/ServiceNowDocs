@@ -1,30 +1,47 @@
 ---
-title: Service map creation AI specialist
-description: This AI specialist discovers service infrastructure from application service candidates using ML analysis, and then it maps and persists the full service topology in CMDB.
+title: Service map AI agent
+description: This AI agent runs automatically on a schedule and creates service maps from ML-based and tag-based candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-service-map-creation-ai-specialist-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
-# Service map creation AI specialist
+# Service map AI agent
 
-This AI specialist discovers service infrastructure from application service candidates using ML analysis, and then it maps and persists the full service topology in CMDB.
+This AI agent runs automatically on a schedule and creates service maps from ML-based and tag-based candidates.
 
 ## Workflow
 
-The agent helps users complete tasks related to service map creation.
+After you activate the agent from the Service Mapping home page, the agent runs automatically every 15 minutes. No user input is required for each candidate. On each run, the agent does the following:
 
-1.  Call the Get ML Candidate Full Data tool with the candidate number. This returns candidate sys\_id, candidate name, server list with host names, and IPs.
-2.  Call the Get Candidate Running Processes tool with the same candidate number. This returns the running process details, AFP groups, connection data, and key ports.
-3.  Perform a noise check. Skip candidates flagged as monitoring clients, security clients, or operating system processes.
-4.  Determine the suggested\_name using this priority order: Service Fingerprints \(SFPs\) if the candidate matches an Application Service Fingerprint in the Discovery Content Library; strong process evidence if no fingerprint exists; technology inference otherwise.
-5.  Check for existing service topology. If a topology already exists for this candidate, skip creation.
-6.  Create and save the service topology. Service maps are set to non-operational by default to allow administrator review before activation.
-7.  Inform the user of all changes.
+1.  Finds the machine learning \(ML\) candidates and tag-based candidates that it hasn't processed in the last 90 days.
+2.  Analyzes each candidate to determine whether it represents a business service.
+3.  Creates a service map for each candidate that represents a business service. The service maps are non-operational by default so that an administrator can review them before activation.
+4.  Records the outcome for each candidate. To see each run, open **AI Activity** in the Service Mapping list navigation.
+
+## Retries for failed candidates
+
+-   If the platform returns a temporary error, such as reaching the limit of concurrent AI agent plans, the candidate is processed at the next run.
+-   If an invocation fails for any other reason, the candidate isn't retried automatically.
+
+## Processing limit
+
+By default, the agent can process 100 candidates for each candidate type. When the agent reaches the limit for a candidate type, it stops processing that candidate type and its status is set to **Paused**. The agent stays stopped until you raise the limit.
+
+To raise the limit and reactivate the agent, first configure the following properties:
+
+1.  For ML-based candidates: **sn\_sm\_gen\_ai.agent\_invocation\_limit.ServiceMapCreationAISpecialist**
+2.  For tag-based candidates: **sn\_sm\_gen\_ai.agent\_invocation\_limit.TagBasedServiceMapCreationAISpecialist**
+
+You can change the value based on your available AI resources. After raising the limit, reactivate the agent in the Service Mapping workspace.
+
+**Note:** Raising the limit increases AI resource consumption, because the agent processes more candidates.
+
+## AI agent configuration
 
 <table><thead><tr><th>
 
@@ -64,13 +81,25 @@ Tools
 
 </td><td>
 
--   **Scripts**
+-   **Scripts for ML-based candidates**
 
 create\_service\_topology
 
 Get Candidate Running Processes
 
 Get ML Candidate Full Data
+
+Save Candidate Analysis
+
+save\_run\_record
+
+-   **Scripts for tag-based candidates**
+
+create\_service\_topology
+
+Get Tag Candidate Full Data
+
+Get Tag Candidate Running Processes
 
 Save Candidate Analysis
 

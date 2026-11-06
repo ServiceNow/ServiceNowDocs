@@ -1,6 +1,6 @@
 ---
 title: Customizing Service Operations Workspace for ITSM to align with your requirements
-description: You can align with your organization's individual requirements by customizing Service Operations Workspace.
+description: Customize Service Operations Workspace to align with your organization's requirements. Upgrades skip customized objects, so your changes aren't overwritten.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/customize-sow-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 # Customizing Service Operations Workspace for ITSM to align with your requirements
 
-You can align with your organization's individual requirements by customizing Service Operations Workspace.
+Customize Service Operations Workspace to align with your organization's requirements. Upgrades skip customized objects, so your changes aren't overwritten.
 
 **Important:** To prevent customizations from being overwritten by system upgrades, the upgrade process automatically skips changes to objects that have been customized.
 
@@ -23,7 +23,7 @@ Make visual styling changes to the sub pages in the Service Operations Workspace
 -   **[Customize Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-service-operations-workspace-landing-page.md)**  
 Modify the landing page of the Service Operations Workspace to ensure that the customers can view the page that they use regularly. To customize the data displayed in sub pages of the landing page that is available in the base system. For any visual styling changes, you need to create a copy of that landing page and edit it.
 -   **[Customize the incident record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/customize-the-incident-record-page.md)**  
-You can customize the **Overview** tab and the contextual side panel for an incident.
+Customize the **Overview** tab and the contextual side panel for an incident.
 
 **Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-landing-page.md)
 

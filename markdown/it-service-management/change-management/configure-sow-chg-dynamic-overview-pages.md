@@ -1,6 +1,6 @@
 ---
 title: Manage the workspace configuration for a Change request in Service Operations Workspace
-description: Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
+description: Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use, Change Management, IT Service Management]
 
 # Manage the workspace configuration for a Change request in Service Operations Workspace
 
-Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.
+Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.
 
 These configuration options allow users to define how the Dynamic Overview pages render throughout the change life cycle. This includes configuration options for overview pages, contextual sidebar and activity stream behavior for each state.
 

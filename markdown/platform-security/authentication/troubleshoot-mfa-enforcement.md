@@ -27,9 +27,8 @@ MFA enforcement is carried though a MFA policy that is activated by default from
 
 ## Debug MFA
 
-Use the either of the following tools or a combination to understand the debug information:
+Use any of the following tools or a combination to understand the debug information:
 
--   **Splunk** - to see the debug logs.
 -   System logs or Node logs.
 -   **HAR** logs to analyze the debug logs for the MFA.
 
@@ -69,4 +68,18 @@ The system debug logs and instance node logs are required for the debug purpose.
     -   In case of TOTP Authenticator App, if the date and time of the Authenticator MFA device and instance are not in sync \(±30 sec\), then the TOTP code is not accepted. Verify the device and instance date and time.
     -   In case of email, configure the user level notification, outbound email configuration, and user correctly in the `sys_user` table.
     -   In case of SMS, configure the Twillio or other SMS service provider integration correctly and set to active. Verify if the user's mobile number is configured correctly in the `sys_user` table.
+-   **Scenario 4: MFA is not enforced, or a policy stopped applying, after an upgrade to Zurich**
+
+    Check the following:
+
+    -   Search the system log for `fix_mfa_enforcement`.
+    -   Check **Upgrade History** for `z_fix_mfacontext_upgrade`.
+    -   Check the `default_policy` value and the policy on the Pre and Post Authentication Policy Context records.
+    -   Check the `glide.authenticate.auth.policy.enabled` and `glide.authenticate.multifactor` properties.
+    For the changes the upgrade makes, see [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+
+-   **Scenario 4: An integration account appears in the enforcement table**
+
+    Integration accounts that aren't marked as Web Service Access Only and make API calls appear in the enforcement table. In Security Center, select the account and choose **Enable Web Service** to convert it to a web service access only account, or **Mark as Interactive** if it isn't supposed to make API calls. For more information, see [Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-enforcement.md).
+
 

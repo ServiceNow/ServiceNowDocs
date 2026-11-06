@@ -19,16 +19,16 @@ Access Insights is a feature within the Access Analyzer application that provide
 Key functions include:
 
 -   Peer-level comparisons: Analyze a user's role and group entitlements in comparison to other users within the same company, department, or managed by the same person.
--   Identification of over-provisioning: By highlighting differences in access between comparable users, you can pinpoint users that may have excessive permissions.
--   Troubleshooting and compliance: Quickly identify and resolve access-related issues and ensure that access controls are consistent and compliant across similar job functions.
+-   Identification of over-provisioning: By highlighting differences in access between comparable users, you can pinpoint users who may have excessive permissions.
+-   Troubleshooting and compliance: Quickly identify and resolve access-related issues and confirm that access controls are consistent and support compliance across similar job functions.
 
-Based on the insights gained, you can decide if a user has inappropriate access \(either too much or too little\) and make the necessary adjustments to their roles and groups to ensure consistency and compliance.
+Based on the insights gained, you can decide if a user has inappropriate access \(either too much or too little\) and make the necessary adjustments to their roles and groups to maintain consistency and support compliance.
 
-**Important:** As a best practice, compare users at a peer-level \(same organization, same department, same manager\).
+**Important:** As a general guideline, compare users at a peer-level \(same organization, same department, same manager\).
 
-You enable Access Insights in **Settings**. To learn more, see [Configuring Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-insights.md).
+You enable Access Insights in **Settings**. To learn more, see [Configure Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-insights.md).
 
-You use Access Insights while comparing users' access with the **Compare user access** feature in Access Analyzer. To learn more about using Access Insights, see [Using Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/use-access-insights.md).
+You use Access Insights while comparing users' access with the **Compare user access** feature in Access Analyzer. To learn more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/use-access-insights.md).
 
 \[Omitted image "access-insights-homepage.png"\] Alt text: Access Insights
 

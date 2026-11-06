@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 breadcrumb: [Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -56,6 +56,10 @@ Role required: sn\_shop.shopping\_hub\_admin
 
     \[Omitted image "add\_delivery\_location.png"\] Alt text: Delivery location.
 
+
+## What to do next
+
+**Note:** Duplicate delivery locations are not validated. When a shopper adds a new address in Shopping Hub, the system does not check whether the same address already exists, so the same address can be saved more than once. When a shopper selects an office location, the system reuses the existing delivery location for the same office, recipient, and shopper instead of creating another one.
 
 **Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

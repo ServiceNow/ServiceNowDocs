@@ -1,20 +1,20 @@
 ---
 title: Components installed with Omnichannel Callback
-description: Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.Read/write from the \[sys\_cs\_callback\] table.
+description: Activating the Omnichannel Callback plugin installs user roles, scheduled jobs, and tables on your instance.Provides read and write access to the \[sys\_cs\_callback\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.html
 release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Omnichannel Callback reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+breadcrumb: [Reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Components installed with Omnichannel Callback
 
-Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.
+Activating the Omnichannel Callback plugin installs user roles, scheduled jobs, and tables on your instance.
 
 ## Scheduled jobs installed
 
@@ -48,7 +48,7 @@ Omnichannel Callback Close expired tasks
 
 </td><td>
 
-Marks the callback tasks as Closed Abandoned in the following scenarios.
+Marks the callback tasks as **Closed Abandoned** in the following scenarios.
 
 -   ASAP callback: If the current time is past the expiry time or the number of callback attempts exceeds the maximum retry attempts.
 -   Scheduled callback: When the callback task is not closed one hour after the scheduled end time.
@@ -93,9 +93,9 @@ To learn more about managing subscriptions, see [Managing per-user subscriptions
 
 ## Callback API role \[sn\_omni\_callback.callback\_api\]
 
-Read/write from the \[sys\_cs\_callback\] table.
+Provides read and write access to the \[sys\_cs\_callback\] table.
 
-### Contains Roles
+### Contains roles
 
 List of roles contained within the role.
 

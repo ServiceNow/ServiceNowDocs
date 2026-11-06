@@ -35,7 +35,7 @@ Confirm that the control objective is active.
 
 4.  Select the control objective that you want to update based on changes in associated citations.
 
-5.  On the control objective page, select **Update with Now Assist**.
+5.  On the control objective page, select **Update with Otto**.
 
     The Now Assist panel opens. The Now Assist panel is interactive and supports conversational input.
 

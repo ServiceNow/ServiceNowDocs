@@ -1,6 +1,6 @@
 ---
 title: Configure Facebook Messenger
-description: Configure Facebook Messenger as a consumer messaging channel within ServiceNow Customer Service Management \(CSM\). Enabling Facebook Messenger as a channel lets customers start support conversations. Those conversations route to service agents, who manage them in the CRM Workspace.
+description: Configure Facebook Messenger as a consumer messaging channel within ServiceNow Customer Service Management \(CSM\). Enabling Facebook Messenger as a channel lets customers start support conversations. Those conversations route to service agents, who manage them in the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel-consumer-messaging-facebook-messenger.html
 release: australia
@@ -13,11 +13,11 @@ breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure
 
 # Configure Facebook Messenger
 
-Configure Facebook Messenger as a consumer messaging channel within ServiceNow Customer Service Management \(CSM\). Enabling Facebook Messenger as a channel lets customers start support conversations. Those conversations route to service agents, who manage them in the CRM Workspace.
+Configure Facebook Messenger as a consumer messaging channel within ServiceNow Customer Service Management \(CSM\). Enabling Facebook Messenger as a channel lets customers start support conversations. Those conversations route to service agents, who manage them in the CSM Configurable Workspace.
 
 Here's an example of a customer service journey for Wi-Fi router troubleshooting showing Facebook Messenger integration with omnichannel.
 
-A customer contacts the router manufacturer through Facebook Messenger because a new laptop can't connect to the home Wi-Fi. CSM matches the Facebook ID to the customer account when available in the system and creates a Messaging interaction. When the user is not logged in, a live agent does a lookup and verifies in the CRM Workspace to link the customer account. Virtual Agent asks the customer to select the product, then suggests relevant knowledge articles for Wi-Fi troubleshooting. The customer follows an article and reconnects the laptop, so CSM logs the interaction as resolved and closes the chat. If the issue continues, the customer can escalate to a live agent, who receives the account history, device details, and the articles already reviewed.
+A customer contacts the router manufacturer through Facebook Messenger because a new laptop can't connect to the home Wi-Fi. CSM matches the Facebook ID to the customer account when available in the system and creates a Messaging interaction. When the user is not logged in, a live agent does a lookup and verifies in the CSM Configurable Workspace to link the customer account. Virtual Agent asks the customer to select the product, then suggests relevant knowledge articles for Wi-Fi troubleshooting. The customer follows an article and reconnects the laptop, so CSM logs the interaction as resolved and closes the chat. If the issue continues, the customer can escalate to a live agent, who receives the account history, device details, and the articles already reviewed.
 
 \[Omitted image "omnichannel-facebook-messenger-integration-MMASSET0022344.png"\] Alt text: Use case example workflow displaying customer service journey for a Wi-Fi router troubleshooting issue.
 
@@ -142,7 +142,7 @@ Admin
 
 </td><td>
 
-[Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)
+[Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)
 
 </td><td>
 

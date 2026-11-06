@@ -22,7 +22,7 @@ Role required: agent\_admin
 
 <table id="table_uh4_bsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## About this task

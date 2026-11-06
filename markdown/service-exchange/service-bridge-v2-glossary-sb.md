@@ -210,7 +210,7 @@ A category used to define entitlement to catalog items or services by grouping a
 **Related topics**  
 
 
-[User roles for providers]()
+[Personas for providers]()
 
 ### proactive case
 
@@ -287,7 +287,7 @@ A category assigned to a group or user to grant access to specific privileges in
 **Related topics**  
 
 
-[User roles for providers]()
+[Personas for providers]()
 
 ## S
 

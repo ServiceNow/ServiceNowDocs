@@ -207,7 +207,7 @@ A time card remains in the Submitted state when only one of the approvers approv
 
 -   The project manager and the user manager can view only those time cards that are routed to them for approval.
 -   If the user manager or the project manager changes while the time card is still not approved, the system automatically updates the approver of the time card.
--   If the name of the project manager or the user manager is not populated on the respective form, a user with the time\_card admin role can approve time cards.
+-   If the name of the project manager or the user manager is not populated on the respective form, any user with timecard\_admin role can approve time cards.
 
 
 </td></tr><tr><td>

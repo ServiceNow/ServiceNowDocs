@@ -50,9 +50,9 @@ Core UI record
 
 </td><td>
 
-1.  In the navigation filter, enter the type of record \(interaction or task\) for which you want to create a Sidebar discussion.
+1.  In the navigation filter, enter the type of record \(interaction or task\) for which you need to create a Sidebar discussion.
 2.  Select **All** to display all records for the type you entered.
-3.  On the Incidents or Tasks screen, select the record you want to create the Sidebar discussion for.
+3.  On the Incidents or Tasks screen, select the record you need to create the Sidebar discussion for.
 4.  On the Incident or Task screen, select **Discuss** to display the Start a Sidebar discussion window:\[Omitted image "sidebar-another-discussion-window.png"\] Alt text: Start a Sidebar discussion window.
 
 
@@ -81,7 +81,7 @@ Subject
 
 </td><td>
 
-This field is pre-populated with the record's short description. If the Subject starts with a number in parentheses, that number indicates what number this discussion is for the record. For example, if the subject line has "\(2\) Email issue," the "2" indicates the second discussion for the email issue record. You can edit or add to the Subject field.
+This field is prepopulated with the record's short description. If the Subject starts with a number in parentheses, that number indicates what number this discussion is for the record. For example, if the subject line has "\(2\) Email issue," the "2" indicates the second discussion for the email issue record. You can edit or add to the Subject field.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Add participants
 
 </td><td>
 
-Select the user or user group to include in the discussion. If an assignment group was entered for this case/interaction/incident, this field is pre-populated with its members. -   If you select individual users, only those users with access to the record can be added as participants.
+Select the user or user group to include in the discussion. If an assignment group was entered for this case/interaction/incident, this field is prepopulated with its members. -   If you select individual users, only those users with access to the record can be added as participants.
 -   If you select a user group, only those users within the group who have access to the record are added as participants.
 For more information, see [Configuring Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/configure-sidebar-member-query.md).
 
@@ -115,7 +115,7 @@ Select **Private discussion** to limit Sidebar discussion access to only the age
     -   Start private discussion - start a private Sidebar discussion.
     -   Start discussion - start a Sidebar discussion.
     -   Cancel - cancel the discussion.
-4.  Once you start a discussion, you can edit and delete messages.
+4.  After you start a discussion, you can edit and delete messages.
 
 <table id="table_b2r_3jb_p2c"><thead><tr><th>
 
@@ -165,7 +165,7 @@ Select the More options icon \[Omitted image "ci\_more\_options\_icon.png"\] Alt
     -   If the user selects the message preview card, the corresponding message displays with the exact message containing the @mention highlighted.
 6.  An email notification is sent to the user if:
 
-    -   the user doesn't read the messages within 24 hours. The email is sent as a reminder to view the messages and resume the discussion. See [Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-requester-mapping.md) for more information about requester mapping for email notifications.
+    -   the user doesn't read the messages within 24 hours. The email is sent as a reminder to view the messages and resume the discussion. See [Configure Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-requester-mapping.md) for more information about requester mapping for email notifications.
     -   if a requester is added to an existing discussion.
 7.  To close the discussion dialog \(but not exit the discussion\), select the Close icon \[Omitted image "sidebar-x-icon.png"\] Alt text: Close icon..
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-plugin-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 24
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -159,14 +159,6 @@ Change Management
 
 </td></tr><tr><td>
 
-Cloud Cost Management
-
-</td><td>
-
-ServiceNow Otto for Cloud Cost Management \(com.sn\_now\_assist\_ccm\): Enables cloud resource admins and users to use the capabilities of generative AI skills in Cloud Cost Management.
-
-</td></tr><tr><td>
-
 Code Signing
 
 </td><td>
@@ -313,6 +305,14 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td></tr><tr><td>
 
+External Content Connectors
+
+</td><td>
+
+External Content Connectors Custom Connector \(com.sn\_ext\_conn\_ccg\): Plugin for the Custom Connector Gateway external content connector. This plugin is included when you install the External Content Connectors Application Suite plugin.
+
+</td></tr><tr><td>
+
 Industrial Connected Workforce Core
 
 </td><td>
@@ -453,11 +453,11 @@ Self-service and omnichannel engagement for CSM
 
 </td></tr><tr><td>
 
-ServiceNow Cowork
+ServiceNow Arc
 
 </td><td>
 
-ServiceNow Cowork \(sn\_app\_cowork\): Provides the Cowork policy, approval, and configuration records that govern the desktop agent.
+ServiceNow Arc \(sn\_app\_cowork\): Provides the Arc policy, approval, and configuration records that govern the desktop agent.
 
 </td></tr><tr><td>
 
@@ -635,6 +635,8 @@ Details
 AI Admin Hub
 
 </td><td>
+
+AI Admin Hub, formerly Now Assist Admin Console \(sn\_nowassist\_admin\): Planned for future deprecation. This plugin's functions are relocated to [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md).
 
 Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
@@ -885,6 +887,14 @@ Data Management for CSM
 -   Outsourced service provider \(com.snc.outsourced\_service\_provider\)
 -   CSM Data Classification \(com.snc.csm\_data\_privacy\): Renamed to CRM Data Classification.
 -   Customer Service Household \(com.snc.household\): Renamed to CRM Household Entities.
+
+</td></tr><tr><td>
+
+Platform Analytics experience
+
+</td><td>
+
+ACL Assessment for Data Visualizations \(sn\_report\_acl\): Scans data visualizations and Core UI reports for attempts to view content that were blocked by report\_view or read ACL rules.
 
 </td></tr><tr><td>
 

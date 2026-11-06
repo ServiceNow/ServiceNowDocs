@@ -39,7 +39,7 @@ Major issue manager\[sn\_majorissue\_mgt.major\_issue\_manager\]
 Users with this role can:-   Create major cases
 -   Approve or reject major case candidates
 -   Add or remove child cases from major cases
--   Add or remove impacted accounts \(B2B\) or consumers \(B2C\)
+-   Add or remove impacted accounts \(B2B\), consumers \(B2C\), or business organizations
 
  The customer service manager role \[sn\_customerservice\_manager\] contains the major issue manager role.
 

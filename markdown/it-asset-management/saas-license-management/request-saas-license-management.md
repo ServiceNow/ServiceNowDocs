@@ -110,5 +110,3 @@ User roles and tables are installed with SaaS License Management. Demo data is a
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

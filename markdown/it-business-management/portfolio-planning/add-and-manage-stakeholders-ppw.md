@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 A demand can have multiple stakeholders and a stakeholder can be associated with multiple demands.
 
-To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To create, edit, or delete demand stakeholders, you can also use the **Add stakeholders** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ To create, edit, or delete demand stakeholders, you can also use the **Add stake
 
 6.  Add a stakeholder, either from the stakeholder registry or as a new record.
 
-<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d284865e147">
+<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d294395e147">
 
 Goal
 
-</th><th align="left" id="d284865e150">
+</th><th align="left" id="d294395e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d284865e156">
+</th></tr></thead><tbody><tr><td id="d294395e156">
 
 **Add an existing stakeholder from registry**
 
@@ -64,7 +64,7 @@ For information about the stakeholder registry, see [Populate the stakeholder re
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d284865e195">
+</td></tr><tr><td id="d294395e195">
 
 **Add a stakeholder to the registry**
 

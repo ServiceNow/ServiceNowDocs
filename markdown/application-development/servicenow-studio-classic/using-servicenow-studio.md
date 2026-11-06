@@ -39,7 +39,7 @@ Switch between development environments in ServiceNow Studio using the experienc
 -   **[Debug a script in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/debug-script-servicenow-studio.md)**  
 Use the Script Debugger in ServiceNow Studio to debug business rules and other synchronous server-side scripts during app development.
 -   **[App deployment in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/app-deployment-servicenow-studio.md)**  
-Deploy applications from ServiceNow Studio using several methods, including using deployment requests to move application and global file changes across instances. Deployment options depend on organizational preference and standards.
+Deploy applications from ServiceNow Studio using several methods, including deployment requests that move application and global file changes across instances. Deployment options depend on organizational preference and standards.
 
 **Parent Topic:**[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 

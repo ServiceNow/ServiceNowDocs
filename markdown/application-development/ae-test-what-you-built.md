@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ae-test-what-you-built.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-21"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, Test Agent, ATF, automated testing, work items, root cause analysis]
 breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -14,8 +14,6 @@ breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI 
 # Test what you built with Autonomous Engineer
 
 Test Agent generates test coverage for each work item that Autonomous Engineer builds, executes the tests, and performs root cause analysis \(RCA\) on failures.
-
-To enable testing, see .
 
 Autonomous Engineer runs Test Agent on each work item as part of plan execution. Build Agent provides the underlying execution layer for this testing. Tests are generated and run for each work item, and the results appear directly under the work item in the plan dashboard.
 
@@ -27,18 +25,18 @@ For complete documentation on Test Agent, see [Test Agent](https://raw.githubuse
 
 If a test fails, Test Agent performs an RCA. It then either applies safe fixes autonomously or surfaces actionable guidance in the chat panel so you can resolve the issue without leaving ServiceNow Studio.
 
-## Customer outcomes
+## Test Agent capabilities in Autonomous Engineer
 
-Test Agent delivers the following outcomes when used with Autonomous Engineer:
+When used with Autonomous Engineer, Test Agent does the following:
 
--   Build and test in one session: Test generation happens within the same plan execution, without a separate prompt or context switch.
--   Faster failure triage: Automated RCA and proposed fixes reduce the time spent reviewing logs after a test run.
--   More release confidence: Automated test execution provides verifiable evidence of code health before promotion to production instances.
+-   Generates tests within the same plan execution, without a separate prompt.
+-   Runs the tests and shows the results under each work item.
+-   Performs root cause analysis on failures and either applies safe fixes or proposes fixes in the chat panel.
 -   Generated ATF tests are stored in the sys\_atf\_tests \[sys\_atf\_tests\] table under the app scope for which they were created. You can schedule regression test runs using the generated tests.
 
 ## Test generation
 
-If automatic test generation is enabled in Build Agent settings, Autonomous Engineer will generate tests for each work item acceptance criteria.
+If automatic test generation is enabled in Build Agent settings, Autonomous Engineer generates tests for the acceptance criteria of each work item.
 
 Automatic prompting for tests reduces the chance of skipping test coverage during execution by keeping test generation part of the standard work item loop.
 

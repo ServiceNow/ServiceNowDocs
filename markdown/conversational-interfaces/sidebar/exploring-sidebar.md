@@ -19,7 +19,7 @@ Using Sidebar, agents can have real-time collaboration with others as a standalo
 
 ## Sidebar overview
 
-An agent can initiate a Sidebar discussion as a standalone conversation or from a Workspace record. Agents enter preliminary information and context and adding subject matter experts. For Sidebar discussions created from a Workspace record, the agent can create multiple discussions for a record.
+An agent can initiate a Sidebar discussion as a standalone conversation or from a Workspace record. Agents enter preliminary information and context and add subject matter experts. For Sidebar discussions created from a Workspace record, the agent can create multiple discussions for a record.
 
 ## Sidebar workspaces
 
@@ -32,7 +32,7 @@ Sidebar is supported in these workspaces:
 -   Security Incident Response Workspace
 -   Vendor Management Workspace
 
-For information on adding the **Discuss** button to a supported workspace, see [Adding the Discuss button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/add-sidebar-button.md).
+For information on adding the **Discuss** button to a supported workspace, see [Add the Discuss button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/add-sidebar-button.md).
 
 For information on adding the **Discuss** button to any workspace not listed \(such as the Service Operation Workspace\), see [KB article KB1213249](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249).
 
@@ -68,7 +68,7 @@ This is the magnifying glass. Display Sidebar discussions dialog. If a number in
 
 </td><td>
 
-Search within the Sidebar discussions. When you select the Search icon, the **Search** field appears and you can enter the text you want to locate. The search results display below the search field and are grouped by user message then file name. Select **Cancel** to clear the search field and return to the Sidebar discussion. You can filter the search results by discussions, messages, and attachments and sort by most relevant or date.
+Search within the Sidebar discussions. When you select the Search icon, the **Search** field appears and you can enter the text you need to locate. The search results display below the search field and are grouped by user message then file name. Select **Cancel** to clear the search field and return to the Sidebar discussion. You can filter the search results by discussions, messages, and attachments and sort by most relevant or date.
 
  To use the Search KB quick action, enable AI Search. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
 
@@ -86,7 +86,7 @@ Permanently pin the menu to the side of the screen.
 
 </td><td>
 
-Select what types of discussions that you want to view:-   All - all discussions.
+Select what types of discussions that you need to view:-   All - all discussions.
 -   Unread - all unread discussions.
 -   This record - all discussions related to the record that's currently open in the background. The most recent information displays and is updated when a new message is received, there’s an unread message, or a new discussion is created for the record. You can also create discussions for the record by selecting **New discussion**.
 -   Mentions - discussions that mention you with @yourusername.
@@ -140,7 +140,7 @@ Marks the Sidebar discussion as a favorite. Discussions that have been marked as
 
 </td><td>
 
-Opens the Discussion info panel that includes the About submenu, Participants submenu, and **Leave discussion** button. On the About submenu, you can view information about the discussion. On the Participants submenu, you can add and remove participants. If you want to exist the discussion, select **Leave discussion**. For a standalone discussion, select the drop-down arrow next to the About submenu and select the **Link to record** to link the discussion to a record.
+Opens the Discussion info panel that includes the About submenu, Participants submenu, and **Leave discussion** button. On the About submenu, you can view information about the discussion. On the Participants submenu, you can add and remove participants. If you need to exit the discussion, select **Leave discussion**. For a standalone discussion, select the drop-down arrow next to the About submenu and select the **Link to record** to link the discussion to a record.
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ A - \[Omitted image "sidebar-lightning-bolt-icon.png"\] Alt text: Quick actions 
 
 Access base system or custom quick actions.
 
- The agent can start a KB article search by selecting the quick actions icon and then entering `search-kb`. The agent is prompted to search for the relevant KB article. Based on the search and the term that the agent enters, the agent is able to view the KB articles that match the search term. The agent can then select the KB article and include it in the discussion. The KB article is displayed as a record card in the Sidebar discussion. The KB article search is available with the base system.
+ The agent can start a KB article search by selecting the quick actions icon and then entering `search-kb`. The agent is prompted to search for the relevant KB article. Based on the search and the term that the agent enters, the agent can view the KB articles that match the search term. The agent can then select the KB article and include it in the discussion. The KB article is displayed as a record card in the Sidebar discussion. The KB article search is available with the base system.
 
  You can summarize a discussion by entering the `/summarize` quick action.
 
@@ -256,7 +256,7 @@ Use threaded replies to keep related messages grouped within Sidebar discussions
 
 To start a threaded reply to a message:
 
-1.  Select reply arrow \(\[Omitted image "threaded-reply-arrow.png"\] Alt text: Reply arrow icon.\) next to the message you want to reply to:
+1.  Select the reply arrow \(\[Omitted image "threaded-reply-arrow.png"\] Alt text: Reply arrow icon.\) next to the message you need to reply to:
 
     \[Omitted image "sidebar-threaded-1.png"\] Alt text: Start of a threaded reply in a Sidebar discussion.
 

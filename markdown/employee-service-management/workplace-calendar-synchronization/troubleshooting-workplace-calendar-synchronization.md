@@ -110,3 +110,22 @@ The user-level connection is established per user when they interact with the Wo
 
 **Important:** Do not select **Get OAuth Token** on the Personal credential record. In Personal mode, each user’s OAuth token is generated automatically via a pop-up or in-application prompt the first time they interact with the calendar feature. Manually generating the token on this credential will interfere with per-user token management.
 
+**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Provider form]()
+
+[Third-party OAuth Provider form]()
+

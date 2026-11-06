@@ -41,7 +41,7 @@ sn\_spend\_gen\_ai.spo\_describe\_intake\_requirements
 
 Returns the required intake fields and submission instructions for a selected product or catalog item.
 
- This tool applies after the user selects an item from `spo_search_catalog_offerings`. It collects the required information, then presents a prefilled submission link for the user to review and submit.
+ This tool applies after the user selects an item from `search_catalog_offerings`. It collects the required information, then presents a prefilled submission link for the user to review and submit.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ sn\_spend\_gen\_ai.spo\_initialize\_procurement\_session
 
 Returns the user's profile, relevant knowledge base articles, suppliers, and approval requirements at the start of a procurement conversation.
 
- When the user's opening question is provided, the tool returns relevant suggestions. Without it, the tool returns profile data only. `spo_search_catalog_offerings` is the next tool to use after the user's purchase intent is clear.
+ When the user's opening question is provided, the tool returns relevant suggestions. Without it, the tool returns profile data only. `search_catalog_offerings` is the next tool to use after the user's purchase intent is clear.
 
 </td></tr><tr><td>
 

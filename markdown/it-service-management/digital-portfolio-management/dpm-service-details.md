@@ -200,7 +200,7 @@ List of the offering breakdowns for the service, including each offering's:
 
 </td><td>
 
-List of the service instances that the service offering depends on. The number of service instances is in a gray box. You can select an service instance for its details. For more information, see [View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-app-service-details.md).
+List of the service instances that the service offering depends on. The number of service instances is in a gray box. You can select a service instance for its details. For more information, see [View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-app-service-details.md).
 
 </td></tr><tr><td>
 

@@ -22,7 +22,7 @@ For information on AI inventory, see [AI asset inventory](https://raw.githubuser
 
 For information on AI asset Lifecycle, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
 
-For information on approval playbook workflow, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
+For information on approval playbook workflow, see [Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 
 For information on creating Now Assist approvals task, see [Create a ServiceNow Otto approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
 

@@ -30,6 +30,4 @@ Includes all the forms related to quality issue management.
 General forms used in MCO.
 -   **[Domain separation for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-domain-separation.md)**  
 Domain separation is supported for Manufacturing Commercial Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including the users who can see and access data.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-troubleshooting.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-troubleshooting.md)**  
-
 

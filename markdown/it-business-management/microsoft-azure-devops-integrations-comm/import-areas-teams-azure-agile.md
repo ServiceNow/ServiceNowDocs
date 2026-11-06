@@ -7,7 +7,7 @@ release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-16"
 reading_time_minutes: 1
 breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -34,6 +34,10 @@ Import areas, teams, and iterations of your Azure DevOps projects. These details
     Details of your import requests are available in the Azure DevOps Import Requests related list.
 
     You can view all the imported teams, iterations, and areas in the Azure DevOps Teams, Azure DevOps Iterations, and Azure DevOps Areas related lists of this project.
+
+    The import maps each team to the area paths that Azure DevOps lists for that team. It maps exact paths only. Each import replaces the existing area mappings of a team.
+
+    Sub-areas that a team includes through a parent area aren't mapped unless you list them for the team in Azure DevOps.
 
 
 ## What to do next

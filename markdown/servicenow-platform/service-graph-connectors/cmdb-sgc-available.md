@@ -8,7 +8,7 @@ product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -69,23 +69,23 @@ Select an application to learn about the Service Graph Connector available for i
 
 </td><td>
 
-[Tanium \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md)
+[Omnissa Workspace ONE UEM\[Omitted image "sgc-omnissa.png"\] Alt text: Omnissa Workspace ONE UEM logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-omnissa-works.md)
 
 </td><td>
 
-[Tanium Endpoints \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.md)
+[Tanium \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md)
 
 </td></tr><tr><td>
 
+[Tanium Atlas \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-tanium-atlas.md)
+
+</td><td>
+
+[Tanium Atlas Endpoints \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.md)
+
+</td><td>
+
 [VMware Workspace ONE UEM\[Omitted image "sgc-vmware-ws-one.png"\] Alt text: VMware Workspace ONE UEM logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-workspace-one.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Monitoring and observability applications
@@ -170,15 +170,27 @@ Select an application to learn about the Service Graph Connector available for i
 
 <table id="table_vyy_h2k_jxb" class="nav-card"><tbody><tr><td>
 
+[BlueCat \[Omitted image "sgc-bluecat.png"\] Alt text: BlueCat logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-bluecat.md)
+
+</td><td>
+
+[Confluent \[Omitted image "sgc-temp-icon.png"\] Alt text: logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-confluent.md)
+
+</td><td>
+
 [Infoblox \[Omitted image "sgc-infoblox.png"\] Alt text: Infoblox logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-infoblox.md)
+
+</td></tr><tr><td>
+
+[Nautobot \[Omitted image "sgc-nautobot.png"\] Alt text: Nautobot logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-nautobot.md)
+
+</td><td>
+
+[NetBrain \[Omitted image "sgc-temp-icon.png"\] Alt text: logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-netbrain.md)
 
 </td><td>
 
 [Trellix\[Omitted image "sgc-trellix.png"\] Alt text: Trellix logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-trellix.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Operational Technology \(OT\) applications

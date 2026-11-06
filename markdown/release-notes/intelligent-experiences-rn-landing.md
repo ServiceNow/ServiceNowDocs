@@ -34,8 +34,8 @@ The ServiceNow® MCP Server Console application enables secure and governed acce
 The ServiceNow® Predictive Intelligence application enables you to create and train machine learning models to help improve the performance, efficiency, and flexibility of your systems. Predictive Intelligence was enhanced and updated in the Australia release.
 -   **[ServiceNow AI Lens release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-lens-rn.md)**  
 With ServiceNow AI Lens, which is a ServiceNow® Otto application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Australia release.
--   **[ServiceNow Cowork release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-cowork-rn.md)**  
-The ServiceNow Cowork application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
+-   **[ServiceNow Arc release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-cowork-rn.md)**  
+The ServiceNow Arc application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 

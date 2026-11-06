@@ -1,19 +1,25 @@
 ---
-title: Edit a custom metric in AI Admin Center
+title: Edit a custom metric in AI Admin Center \(Lux UI\)
 description: Update a custom metric's condition logic, map AI assistants to it, and activate or deactivate it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-admin-center-edit-custom-metric.html
 release: australia
 topic_type: task
 last_updated: "2026-10-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, custom metric, deflection, AI analytics, assistants]
-breadcrumb: [Custom metrics, View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Custom metrics \(Lux UI\), View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
-# Edit a custom metric in AI Admin Center
+# Edit a custom metric in AI Admin Center \(Lux UI\)
 
 Update a custom metric's condition logic, map AI assistants to it, and activate or deactivate it.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -23,11 +29,13 @@ Role required: `ai_engmt_admin`
 
 Edit a custom metric to change its condition logic, update which AI assistants are mapped to it, or activate or deactivate it.
 
+**Note:** This topic describes the AI Admin Center feature based on the Lux user experience \(UI\). There is no Next Experience UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **Home** or **Admin** &gt; **AI Admin Center**.
 
-2.  Select **Analytics** in the side navigation bar.
+2.  Select **Analytics** \(\[Omitted image "icon-aiac-lux-nav-monitor.png"\] Alt text: Analytics icon.\) in the side navigation panel.
 
 3.  Select the **Custom Metric** tab.
 
@@ -68,5 +76,5 @@ Edit a custom metric to change its condition logic, update which AI assistants a
 
 The custom metric reflects your updated condition logic and assistant mapping. If you activated the metric, the deflection rate shown on each mapped assistant's Performance view is calculated using this metric.
 
-**Parent Topic:**[Custom metrics in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-custom-metric.md)
+**Parent Topic:**[Custom metrics in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-custom-metric.md)
 

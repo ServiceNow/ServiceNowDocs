@@ -71,7 +71,7 @@ Can view, create, and edit OT incident records.
 sn\_ot\_incident\_read
 
 </td></tr></tbody>
-</table>**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users assigned this role, you can execute a scheduled job to assign them new Operational Technology Incident Management roles. For more information, see [Assign new roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
+</table>**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users assigned this role, you can execute a scheduled job to assign them new Operational Technology Incident Management roles. For more information, see [Assign roles to your users with a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
 
 ## Tables installed
 

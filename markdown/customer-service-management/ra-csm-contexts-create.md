@@ -80,7 +80,7 @@ When selected, enables asynchronous mode of evaluating recommendations on the co
 
 </td></tr><tr><td>
 
-Exclude fields
+Excluded fields
 
 </td><td>
 

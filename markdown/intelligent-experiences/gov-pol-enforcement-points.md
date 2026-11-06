@@ -1,6 +1,6 @@
 ---
 title: Control enforcement points
-description: The systems an AI Control Tower policy can act on.
+description: The systems that AI Control Tower policies can act on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-enforcement-points.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Reference, Controlling AI asset usage, Govern AI assets, AI Control
 
 # Control enforcement points
 
-The systems an AI Control Tower policy can act on.
+The systems that AI Control Tower policies can act on.
 
 <table id="table_pol_enforcement_points"><thead><tr><th>
 

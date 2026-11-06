@@ -117,6 +117,6 @@ Manage incidents, change requests, request items, and on-call schedules with the
     For example:
 
     -   Answer structured natural language questions about ITSM data, including details on incidents, change requests, and active catalog items using `itsm_knowledge_graph`.
-    -   Approve or reject your oldest pending approval for a change or request items using `task_approval_decision`.
+    -   Approve or reject your oldest pending approval for a change request or an incident using `task_approval_decision`.
     -   Get the authenticated user's current session time zone and the current date and time in that time zone using `get_session_timezone`.
 

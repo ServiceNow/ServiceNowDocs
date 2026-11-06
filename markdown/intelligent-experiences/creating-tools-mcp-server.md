@@ -85,7 +85,9 @@ Knowledge Graph tools
 ACL enforcement happens at the node level during every graph traversal. Two users or agents with different permissions issuing the identical query can receive different results, based on what each caller is permitted to see.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md) and [Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-knowledge-graphs.md).
 
 </td></tr></tbody>
-</table>-   **[Create a tool from a Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-a-search.md)**  
+</table>-   **[Create a tool from a Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-a-playbook.md)**  
+Create a tool from a Playbook to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
+-   **[Create a tool from a Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-a-search.md)**  
 Create a tool from a Search to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
 -   **[Create a tool from a Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-subflow-tool.md)**  
 Create a tool from a Subflow to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.

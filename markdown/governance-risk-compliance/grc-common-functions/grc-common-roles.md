@@ -71,6 +71,8 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 -   View and report risk events.
 -   View indicator supporting data.
 
+ Permissions for advanced risk assessment, such as taking and approving assessments, come from the sn\_risk\_advanced.ara\_assessor and sn\_risk\_advanced.ara\_approver roles. These roles aren't contained by sn\_grc.business\_user, so assign them separately.
+
  Integration with Project Portfolio Management:
 
 -   Create a risk from a library.
@@ -92,6 +94,8 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 
 -   sn\_grc.user\_hierarchy\_reader
 -   workspace\_user
+-   sn\_grc\_workspace.user
+-   sn\_smart\_asmt.actor
 -   sn\_grc\_workspace.task\_reader
 -   canvas\_user
 
@@ -197,6 +201,7 @@ Role that provides a user with management access to the GRC suite of application
 
 </td><td>
 
+-   sn\_grc.business\_user
 -   sn\_grc.reader
 -   business\_process\_user
 -   sn\_grc\_pa.sn\_grc\_pa\_viewer
@@ -255,7 +260,7 @@ GRC Issue Workflow Admin\[sn\_grc\_issue\_mgmt.issue\_workflow\_admin\]
 
 </td><td>
 
-Full administrative access to issue workflow configuration. Users with this role can create and edit issue state models, manage the issue vertical view, configure approval workflows for issues, and perform all actions available to the issue workflow reader role.
+Full administrative access to issue workflow configuration. Users with this role can create and edit issue state models, manage the issue vertical view, and configure approval workflows for issues. This role includes all actions available to the issue workflow reader role.
 
 </td><td>
 

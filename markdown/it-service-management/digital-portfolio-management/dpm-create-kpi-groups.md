@@ -106,7 +106,7 @@ If selected, the KPI group displays in the Details section of the Enterprise Por
 </td></tr></tbody>
 </table>    4.  Select **Submit**
 
-        **Tip:** You can also create a KPI group by copying an existing KPI group. For more information, see [Copy a KPI group to create a new KPI group in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.md).
+        **Tip:** You can also create a KPI group by copying an existing KPI group. For more information, see [Copy a KPI group to create a KPI group in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.md).
 
 2.  Add indicators to a KPI group.
 

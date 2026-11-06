@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-28"
 reading_time_minutes: 4
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -25,6 +25,14 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 The conditions that you set determine when to merge the purchase requisitions.
 
 **Note:** The existing default scenarios for merging purchase requisitions and purchase lines remain valid and function as they did previously. For more information, see [Purchase requisition merging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition-merging.md).
+
+Auto merge, including the merge of purchase lines created from awarded bids, runs only when an active merge configuration that allows auto merge exists. If there is no such configuration, or if the auto merge conditions exclude the states of the existing requisitions, each line creates its own purchase requisition.
+
+In addition to the conditions that you set, a requisition is merged only when it meets all of the following:
+
+-   The requisition has no purchase order yet.
+-   The requisition has the same request type, supplier, requested by user, business owner, cost center, blanket requisition, shipping method, punchout type, and currency as the new line.
+-   The requisition does not contain a purchased bundle product.
 
 You cannot merge the PRs that are in any of the following states:
 

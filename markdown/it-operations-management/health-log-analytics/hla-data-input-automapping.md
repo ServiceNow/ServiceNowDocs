@@ -8,8 +8,8 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
-keywords: [ServiceNow, Health Log Analytics, HLA, logs, tagging, manual mapping, JavaScript function, auto-mapping, data input, source type, binding log data, CMDB]
+reading_time_minutes: 7
+keywords: [ServiceNow, Health Log Analytics, HLA, logs, tagging, parsing, manual mapping, JavaScript function, auto-mapping, data input, source type, binding log data, CMDB]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -42,7 +42,9 @@ In the example, Health Log Analytics extracts the string "online\_store". It ana
 
 AI-assisted log mapping using ServiceNow Otto for ITOM recommends optimal mapping configurations based on your log patterns. This approach reduces manual setup effort and improves accuracy without requiring custom JavaScript functions.
 
-For this capability to be enabled, the integration must be activated by selecting the Activate with AI option. This option enables AI-powered automatic mapping of log data to service instances and components for contextual alerts. When the integration is activated, ServiceNow Otto for ITOM collects and analyzes log data and suggests the best log field for mapping. You can override the suggested mapping by selecting a different log field from each list, if needed. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
+For this capability to be enabled, the integration must be activated by selecting the Activate with AI option. This option enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts. When the integration is activated, ServiceNow Otto for ITOM collects and analyzes log data and suggests the best log field for mapping. You can override the suggested mapping by selecting a different log field from each list, if needed. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
+
+**Note:** AI-assisted log mapping depends on AI-assisted log parsing. When you activate an integration with AI, mapping starts only after the AI parser has generated a parser for the log format. By default, the system waits up to 7 minutes for the parser before it stops waiting.
 
 ## Mapping data input sources manually by defining a JavaScript function
 

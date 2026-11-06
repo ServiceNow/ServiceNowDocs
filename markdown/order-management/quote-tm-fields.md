@@ -1,6 +1,6 @@
 ---
 title: Quote transaction fields
-description: ServiceNow Quote Experience supports five field types at two levels —transaction \(header\) and transaction line —enabling administrators to capture all required quote data in CPQ.
+description: ServiceNow Quote Experience supports five field types at two levels —transaction \(header\) and transaction line —enabling administrators to capture all required quote data in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-fields.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Quote transaction fields
 
-ServiceNow Quote Experience supports five field types at two levels —transaction \(header\) and transaction line —enabling administrators to capture all required quote data in CPQ.
+ServiceNow Quote Experience supports five field types at two levels —transaction \(header\) and transaction line —enabling administrators to capture all required quote data in ServiceNow CPQ.
 
 Fields in ServiceNow Quote Experience store data on a quote. Administrators create fields at the transaction level for deal-level data and at the transaction line level for product and pricing data. The level at which a field is created affects its availability in rules, which also operate at transaction or transaction line level.
 
@@ -106,13 +106,13 @@ Transaction line-level system fields cover the following categories: pricing inf
 Custom fields can be added to a blueprint through the ServiceNow Quote Experience administration interface. Fields created through the interface are automatically associated with the blueprint.
 
 -   **[Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-field.md)**  
-Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
+Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in ServiceNow CPQ.
 -   **[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-header-level-system-fields.md)**  
 Reference for the system-provided fields at the transaction \(header\) level in Quote Experience, including variable names, descriptions, who can modify each field, and default values.
 -   **[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-line-level-system-fields.md)**  
-Reference for the system-provided fields at the transaction line level in CPQ ServiceNow Quote Experience, including variable names, descriptions, who can modify each field, and default values.
+Reference for the system-provided fields at the transaction line level in ServiceNow CPQ ServiceNow Quote Experience, including variable names, descriptions, who can modify each field, and default values.
 -   **[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-date-time-field-behavior.md)**  
-Reference for how date and time fields behave in CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
+Reference for how date and time fields behave in ServiceNow CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
 
 **Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

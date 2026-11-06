@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, oracle, ebs, connection, isg, mid server]
 breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -70,5 +70,5 @@ The Oracle EBS system appears in the ERP systems list and is available when you 
 
 ## What to do next
 
-Add a WADL service to generate model entities and fields automatically from the service definition. For more information, see [WADL service support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md) and [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
+Add a WADL service to generate model entities and fields automatically from the service definition. For more information, see [WADL service support for Oracle E-Business Suite in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md) and [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
 

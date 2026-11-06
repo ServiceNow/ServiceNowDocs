@@ -210,7 +210,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-CRM Workspace Playbook – Document Verification
+CSM Configurable Workspace Playbook – Document Verification
 
 </td><td>
 

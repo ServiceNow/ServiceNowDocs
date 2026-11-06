@@ -1,6 +1,6 @@
 ---
 title: Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM
-description: Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+description: Migrate configurations and customizations for various ITSM Agent Workspace features to SOW for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Migrate from ITSM Agent Workspace to Service Operations Workspace f
 
 # Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM
 
-Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+Migrate configurations and customizations for various ITSM Agent Workspace features to SOW for ITSM.
 
 -   **[Migration of UI actions and layouts from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/ui-actions-layouts-migration-itsm-aw-sow.md)**  
 Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying the eligible UI actions and layout records for migrations, and the migration process.

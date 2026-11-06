@@ -18,7 +18,7 @@ Turn on the flow execution analysis skill to summarize flow execution details an
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: flow\_designer or admin
 
 ## Procedure

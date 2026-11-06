@@ -21,7 +21,7 @@ Confirm the system properties that control product and spend category prediction
 
 The Product category predictor and Spend category predictor skills are active.
 
-Role required: admin.
+Role required: sn\_shop.procurement\_administrator
 
 ## About this task
 

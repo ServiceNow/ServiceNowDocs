@@ -55,7 +55,7 @@ Create the connection and credential that allows Privacy Case Management to comm
 
     3.  Select **Create**.
 
-        This creates a new HTTPS connection with RadarFirst, which is used to import and map its data to the data elements and breach factors in Privacy Case Management.\[Omitted image "pcm-rf-new-connection.png"\] Alt text: The new HTTPs RadarFirst Integration Connection, which will be used to import data from RadarFirst.
+        This creates a new HTTPS connection with RadarFirst, which is used to import and map its data to the data elements and breach factors in Privacy Case Management.
 
     4.  On the Create new connection &amp; credential activity of the guided setup, select **Mark as complete**.
 

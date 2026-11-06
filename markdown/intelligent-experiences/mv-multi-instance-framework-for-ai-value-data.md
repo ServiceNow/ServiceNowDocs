@@ -1,6 +1,6 @@
 ---
 title: Multi-Instance Framework for AI value data
-description: The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, the AI Control Tower calculates value for Creator skills using data from development and testing environments.
+description: The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, AI Control Tower calculates value for Creator skills using data from development and testing environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-multi-instance-framework-for-ai-value-data.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control T
 
 # Multi-Instance Framework for AI value data
 
-The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, the AI Control Tower calculates value for Creator skills using data from development and testing environments.
+The Multi-Instance Framework \(MIF\) synchronizes AI value data from a sub-production instance to a production instance only for Creator skills. In this setup, AI Control Tower calculates value for Creator skills using data from development and testing environments.
 
 For creator skills deployed in a sub-production instance, you can evaluate how the value is determined for an AI system by running a metric within its value template. The results are synced to the production instance for the value calculation.
 

@@ -26,9 +26,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Supported ServiceNow versions:
 
--   Xanadu
--   Yokohama
 -   Zurich
+-   Australia
+-   Brazil
 
 ## Use cases
 

@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
 keywords: [Analyze conversations]
 breadcrumb: [Conversations, Using Usage Insights, Usage Insights, Platform Analytics]
@@ -27,21 +27,21 @@ Role required: none
 
     The cross-application **Overview** page opens.
 
-2.  In the left navigation, select **Conversations**.
+2.  In the navigation menu, select **Conversations**.
 
-    \[Omitted image "usage-analyze-conversations.png"\] Alt text: Analyze conversations
+    \[Omitted image "usage-analyze-conversations.png"\] Alt text: Conversations page showing metrics, trend analysis, and filter options
 
 3.  Review the conversation metrics and the trend analysis.
 
 4.  Apply the global filters at the top of the page, such as **Country**, to segment the data.
 
-    The global filters at the top of the page — **Date range**, **Channel**, **Application**, **User type**, and **Country** — apply consistently across the experience.
+    The global filters at the top of the page—**Date range**, **Channel**, **Application**, **User type**, and **Country**— apply consistently across the experience.
 
     The metrics and the trend analysis refresh to reflect the selected filters.
 
-5.  Select the chat service in **Chat provider**, for example: ServiceNow Otto.
+5.  Select the chat service in **Chat provider**, for example, ServiceNow Otto.
 
-6.  To examine a single conversation, open the conversation list and select a conversation ID.
+6.  Examine a single conversation by opening the conversation list and selecting a conversation ID.
 
     The conversation opens and shows its activity and all of its chat-related events.
 

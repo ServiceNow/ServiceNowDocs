@@ -160,3 +160,7 @@ Option to set a third-party product category mapping as default. The default map
 6.  Ensure that all product category mappings are accurate, and make any necessary updates.
 
 
+### What to do next
+
+For cXML punchout orders, the category of each order line is read from the `Extrinsic` element named `category` in the `ItemDetail` element of the line. The element name is case-sensitive, and the supplier must send it for each item. The value is matched by name to the third-party category mappings of that supplier. If no mapping matches, the default mapping is used. If there is no default mapping, the line has no category.
+

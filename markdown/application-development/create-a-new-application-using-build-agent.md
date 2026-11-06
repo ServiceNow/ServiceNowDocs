@@ -19,6 +19,8 @@ Create a custom application by describing your requirements in plain language to
 
 Install and enable Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md).
 
+You can also use Autonomous Engineer to implement complex plans. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
+
 If you prefer to access Build Agent in the ServiceNow IDE, you must first create a workspace. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
 
 **Note:** Build Agent requires the ServiceNow SDK version 4.0 at a minimum. If you’re using an older version, Build Agent prompts you to upgrade to ServiceNow SDK 4.0.
@@ -43,15 +45,15 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
 2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d276596e220">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d278027e239">
 
 Scenario
 
-</th><th align="left" id="d276596e223">
+</th><th align="left" id="d278027e242">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d276596e229">
+</th></tr></thead><tbody><tr><td id="d278027e248">
 
 **Describe the app you want to create**
 
@@ -59,7 +61,7 @@ Actions
 
 Describe the application that you want to create, and then select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:. For example, `Create a basic to-do task tracker app with a user interface. Name the application Planner.`You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d276596e247">
+</td></tr><tr><td id="d278027e266">
 
 **Select a predetermined prompt**
 

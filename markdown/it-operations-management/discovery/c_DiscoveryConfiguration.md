@@ -38,7 +38,7 @@ Use the following links to configure Discovery for your environment. You don't n
 
 </td></tr><tr><td>
 
-[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
+[Domain separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 
 </td><td>
 

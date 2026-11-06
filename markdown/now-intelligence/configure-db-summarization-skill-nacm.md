@@ -41,7 +41,7 @@ The skills you configure here are the ones that you can select when you add the 
 
 ## What to do next
 
-See [Create ServiceNow Otto context Menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-now-assist-configuration-with-guided-setup.md) for the rest of the process.
+See [Create ServiceNow Otto context menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-now-assist-configuration-with-guided-setup.md) for the rest of the process.
 
 **Parent Topic:**[Add the ServiceNow Otto context menu to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-nacm.md)
 

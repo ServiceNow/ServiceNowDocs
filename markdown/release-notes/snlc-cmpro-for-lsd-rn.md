@@ -23,6 +23,8 @@ The ServiceNow Store Contract Management Pro for Legal Service Delivery applicat
 
 See [Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/snlc-mgmt-pro-landing-page.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 -   **Activation information**

@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ You can create goal or target relationships with a custom planning item from the
 
 1.  Open the Goal/Target Relationship form using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d157425e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d161487e80">
 
 Option
 
-</th><th align="left" id="d157425e83">
+</th><th align="left" id="d161487e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d157425e89">
+</th></tr></thead><tbody><tr><td id="d161487e89">
 
 **From the Align work window**
 
@@ -65,7 +65,7 @@ You can search for the required planning items by applying filter on the Name co
 
 For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
-</td></tr><tr><td id="d157425e180">
+</td></tr><tr><td id="d161487e180">
 
 **From the Planning items or Other items tab**
 

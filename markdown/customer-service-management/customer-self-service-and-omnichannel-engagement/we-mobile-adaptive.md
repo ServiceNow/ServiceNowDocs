@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Mobile-responsive Web Embeddables

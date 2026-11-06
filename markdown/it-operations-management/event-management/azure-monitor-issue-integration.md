@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ You can integrate Azure Monitor issues using Integration Launchpad. For more inf
 
         This creates an alert, and in turn, the Alert Management rule creates an incident. If you're configuring Azure issues for the first time, first create an action group by following the steps in [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/azure-events-authentication.md).
 
-    3.  If you need related alerts and resource information for an issue in the Azure portal under the **Alerts** and **Resources** tab and for bi-directional synchronization, configure the pull connector by performing the steps as mentioned below.
+    3.  To view related alerts and resource information for an issue in the Azure portal under the **Alerts** and **Resources** tabs, or to enable bi-directional synchronization, configure the pull connector. Follow the steps in the following procedure.
 2.  In the ServiceNow AI Platform instance, configure a pull connector if you have used a push connector to send Azure issues by perform the following steps:
 
     1.  Navigate to the push connector you're using by going to **All** &gt; **Push connectors**.

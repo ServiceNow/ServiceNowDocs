@@ -166,7 +166,7 @@ Penalty for each hour of work assigned. The penalty is higher for technicians wi
 
 </td><td>
 
-Shift "A" is assigned to a technician with a work penalty of 1 per hour, and shift "B" is assigned to a technician with a work penalty of 3 per hour. Tasks "X" and "Y" each require 2 hours.**Result:** Assigning the objective prioritizes assigning tasks "X" and "Y" to shift "A" because the technician has a lower work penalty per hour.
+Example: The agent assigned to shift A has a work penalty of 1 per hour. The agent assigned to shift B has a work penalty of 3 per hour. There are two tasks that each take 2 hours. **Result:**The objective assigns both tasks to shift A because that gives the lowest total penalty.
 
 </td></tr><tr><td>
 

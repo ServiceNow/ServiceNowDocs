@@ -1,6 +1,6 @@
 ---
 title: Configure Suggested Steps Generation
-description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CRM Workspace after skill activation.Replace the default sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role with a custom role.
+description: Configure suggested steps generation to analyze clusters of similar cases and suggest next steps for case resolution for accelerated and consistent agent case troubleshooting.Learn how to enable the suggested steps generation in the CSM Configurable Workspace after skill activation.Replace the default sn\_customerservice\_agent and sn\_customerservice.consumer\_agent role with a custom role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.html
 release: australia
@@ -100,7 +100,7 @@ Assess your case data before setup:
         -   Role is present in **Define Access** step
         -   Role is toggled on in **Select Display** step
         -   Agent has sn\_gaf.data\_writer role \(required for skill access\)
-        -   Recommended Actions widget is enabled in CRM Workspace
+        -   Recommended Actions widget is enabled in CSM Configurable Workspace
         -   Clustering job completed successfully \(check logs\)
         -   Clear browser cache and refresh case form
 7.  Toggle **Display** to determine if suggested step recommendations appear in In-product desktop, displaying AI skills on forms and workspaces.
@@ -121,15 +121,15 @@ Assess your case data before setup:
 |Custom table suggestions not appearing|Widget data source not set to custom table|Verify table extends case table; check widget binding|
 |GAF access denied error|sn\_gaf.data\_writer role not in role hierarchy|Add sn\_gaf.data\_writer to custom role Contains Roles list|
 
-## Make suggested steps available on CRM Workspace
+## Make suggested steps available on CSM Configurable Workspace
 
-Learn how to enable the suggested steps generation in the CRM Workspace after skill activation.
+Learn how to enable the suggested steps generation in the CSM Configurable Workspace after skill activation.
 
 ### Before you begin
 
 Role required: admin
 
-After activating the Suggested steps generation feature in the AI Admin Hub, follow the steps outlined to make the skill available in CRM Workspace.
+After activating the Suggested steps generation feature in the AI Admin Hub, follow the steps outlined to make the skill available in CSM Configurable Workspace.
 
 ### Procedure
 
@@ -146,7 +146,7 @@ After activating the Suggested steps generation feature in the AI Admin Hub, fol
 
 ### Result
 
-Recommended Actions will be displayed in the CRM Workspace and you can see the Suggested steps generation skill under it.
+Recommended Actions will be displayed in the CSM Configurable Workspace and you can see the Suggested steps generation skill under it.
 
 ## Customize access control for suggested steps
 

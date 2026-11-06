@@ -38,7 +38,7 @@ Role required: admin
 
     In case the required CMPivot entity isn’t displayed on the list, extend the hardware inventory to add the CMPivot entity to the list. For more information, see [Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/extend-hardware-entity.md).
 
-5.  Click **Start CMPivot**.
+5.  Select **Start CMPivot**.
 
     Alternatively, you can also right-click on the device and select **Start CMPivot**.
 

@@ -53,7 +53,7 @@ For more information on Ask ServiceNow Otto suggestions in enhanced chat, see [E
 
     1.  Navigate to **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`, then press Enter.
+    2.  In the navigation field, enter `sys_properties.list`, then press Enter.
 
 4.  Search for the **glide.search.suggestions.utterance.use\_ais** system property record and perform the appropriate steps depending on whether it exists or not.
 

@@ -34,13 +34,13 @@ Automation opportunities are determined by data available on your instance. Anal
 
     You can choose between the **List** or **Gallery** view to display the opportunities. Sorting is not available in the **Gallery** view.
 
-    You can select **AI Agent Advisor** to be directed to the AI Admin Hub where you can review what tables are being monitored for automation opportunities. You can also add tables
+    You can select **AI Agent Advisor** to be directed to the AI Admin Hub where you can review what tables are being monitored for automation opportunities. You can also add tables to monitor for additional opportunities.
 
 4.  Review the automation opportunity preview.
 
     For more information about the source of the automation opportunity, select **View sample issues**. You can see a list of records, including their number, short description, description, and the analysis of the root cause. You can select a record number to open that record in a new browser tab. When you're done, select **Back** to return to the automation opportunity preview.
 
-    The steps listed in the **Resolution steps** section describe the process that can be automated. The actual prompt for the AI agent will be different than the text shown there.
+    The steps listed in the **Resolution steps** section describe the process that can be automated. The actual prompt for the AI agent will be different from the text shown there.
 
     The number of tools identified is an estimation. The necessary tools may or may not already exist on your instance.
 

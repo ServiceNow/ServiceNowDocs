@@ -73,7 +73,7 @@ The Asset Management and SPO integration flow does not support the Software Asse
 
 -   Stop the "Create a Requisition" business rule from triggering on the Asset Management Purchase Order table \(proc\_po\) when the status changes to Ordered.
 
--   Restrict the creation of new itam\_procurement\_integration\_job scheduled jobs. Retire any existing daily jobs to avoid potential conflicts.
+-   Restrict the creation of new Procurement Integration Job \(itam\_procurement\_integration\_job\) scheduled job records. Retire any existing daily jobs to avoid potential conflicts.
 
 -   Delete all business rules associated with the app-itam-procurement-integration application to prevent integration conflicts.
 -   Ensure that Purchase Requests \(PRs\), Purchase Orders \(POs\), and Receipts in SPO are properly mapped to corresponding entities in Coupa for seamless integration.

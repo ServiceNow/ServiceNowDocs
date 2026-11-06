@@ -30,9 +30,9 @@ You must fulfill the following conditions before using the ServiceNow Otto panel
 -   ServiceNow Otto panel enhanced chat must be activated before you can use it. See [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
 -   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 -   If you want to use assistants, you must activate them. See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
--   If you want to use voice input, you have to enable voice input [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+-   If you want to use voice dictation, you have to enable voice dictation [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
-    **Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
+    **Note:** voice dictation is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice dictation is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
 
 ## ServiceNow Otto panel enhanced chat overview

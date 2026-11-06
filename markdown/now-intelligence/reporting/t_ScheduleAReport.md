@@ -9,7 +9,7 @@ classification: reporting
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 11
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Schedule emails of Core UI reports
@@ -26,7 +26,7 @@ This topic refers to Reporting in the Core UI. For instances migrated to Platfor
 
 Scheduled reports can be distributed in PDF, CSV, or XLS format. Graphical reports can be distributed in PNG or PDF format. Multilevel pivot reports can only be scheduled in PDF format.
 
-This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
+This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
 
 **Note:**
 
@@ -357,7 +357,7 @@ Shows when **Page size** is set to **Custom**. For non-standard paper sizes, mul
 
 To edit a scheduled email report, open it from the Scheduled Reports list. To delete a report, delete its row from the Scheduled Reports list.
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
 
 ## Report output formats
 
@@ -417,5 +417,5 @@ If the data in the scheduled report is different than expected, the user who set
 **Related topics**  
 
 
-[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md)
+[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md)
 

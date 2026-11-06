@@ -7,7 +7,7 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -18,7 +18,12 @@ The Operational Success dashboard provides a consolidated view of the end-to-end
 
 ## Prerequisites
 
-User Roles: You can assign different roles based on specific access requirements.
+Assign the following roles to the users who need access to Success Dashboard:
+
+-   `sn_sd.success_dashboard_admin`: Configure the dashboard settings, manage KPIs, and high-level breakdowns.
+-   `sn_sd.success_dashboard_read`: View the dashboard, KPIs, and high-level breakdowns.
+
+[Success Dashboard indicators user roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/success-roles.md)For details about each role, see
 
 ## Configure
 
@@ -29,6 +34,12 @@ Tabs and dashboards: Map a KPI category such as Incident, Problem, Change, Reque
 Review and configure the data visualization available in the base system for Incident, Problem, Change, Request, Interaction, Service catalog, Major Incident, Password Reset, and Walk-up Experience.
 
 \[Omitted video\] Description: Operational Success Overview
+
+The roles are provided with the application and you don't create them. To give a user access, add the role to the user record:
+
+1.  Navigate to **All** &gt; **User** &gt; **Users**.
+2.  Open the user record.
+3.  On the **Roles** tab, select **Edit**, add the role, and select **Save**.
 
 -   **[Create an operational success dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/create-operational-success-dashboard.md)**  
 Create a KPI category and map with the operational dashboard to view the performance of the ITSM processes in your organization.

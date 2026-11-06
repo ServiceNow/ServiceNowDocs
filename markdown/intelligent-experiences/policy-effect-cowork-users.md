@@ -1,29 +1,29 @@
 ---
-title: How policy affects ServiceNow Cowork users
-description: Your administrator's policies decide what ServiceNow Cowork can do for you. You see the result as approval prompts and blocked actions, and you can narrow some permissions yourself.
+title: How policy affects ServiceNow Arc users
+description: Your administrator's policies decide what ServiceNow Arc can do for you. You see the result as approval prompts and blocked actions, and you can narrow some permissions yourself.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/policy-effect-cowork-users.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 1
-keywords: [approval prompts, Allow always, user controls, second factor]
-breadcrumb: [Policy management and governance in ServiceNow Cowork, Explore Cowork, ServiceNow Cowork, Enable AI experiences]
+keywords: [approval prompts, Always Allow, user controls, second factor]
+breadcrumb: [Policy management and governance in ServiceNow Arc, Explore, ServiceNow Arc, Enable AI experiences]
 ---
 
-# How policy affects ServiceNow Cowork users
+# How policy affects ServiceNow Arc users
 
-Your administrator's policies decide what ServiceNow Cowork can do for you. You see the result as approval prompts and blocked actions, and you can narrow some permissions yourself.
+Your administrator's policies decide what ServiceNow Arc can do for you. You see the result as approval prompts and blocked actions, and you can narrow some permissions yourself.
 
 You can't see or change policy records. What you experience is the result:
 
 -   **Approval prompts**
 
-    A card describes an action before it runs and asks you to approve or deny it. For some actions, the card also offers **Allow always**, which remembers your decision. Other actions ask every time.
+    A card describes an action before it runs and asks you to approve or deny it. For some actions, the card gives the option to **Always Allow**, which remembers your decision.
 
 -   **Blocked actions**
 
-    When a policy blocks an action or an external network call, Cowork tells you why.
+    When a policy blocks an action or an external network call, Arc tells you why.
 
 -   **Read only work**
 
@@ -36,9 +36,10 @@ These controls can only narrow what your administrator allows.
 
 |Control|Where|What it does|
 |-------|-----|------------|
-|Microsoft 365 connector scopes|**Settings** &gt; **Microsoft 365**|Turn off individual scopes your administrator enabled, for example letting Cowork read mail but not send it. You can't turn on a scope your administrator hasn't enabled.|
-|Remembered approvals|**Settings** &gt; **Approvals**|See every **Allow always** decision you've made, and revoke any of them.|
+|Microsoft 365 connector scopes|**Settings** &gt; **Connectors**|For each capability, choose **Allow**, **Ask me first**, or **Deny**. If your administrator limited a capability, it shows **Set by your organization**, and only the choices within that limit are available. For more information, see [Manage Microsoft 365 action permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-m365-permissions.md).|
+|Remembered approvals|**Settings** &gt; **Approvals**|See every **Always Allow** decision you've made, and revoke any of them.|
+|Approval mode|**Settings** &gt; **Approvals**|Choose whether new chats start in **Standard** or **Auto** mode, when your administrator makes auto mode available.|
 |Soft deletes|**Settings** &gt; **General**|Keep deleted files recoverable in a dump folder instead of removing them right away.|
 
-**Parent Topic:**[Policy management and governance in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/policy-management-cowork.md)
+**Parent Topic:**[Policy management and governance in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/policy-management-cowork.md)
 

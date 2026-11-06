@@ -137,4 +137,6 @@ Option to enable the Session Validation feature. Set this to true after activati
 Yes \| No
 
 </td></tr></tbody>
-</table>
+</table>    **Note:** An upgrade to Zurich can change **glide.authenticate.auth.policy.enabled** and the default policy of the Pre and Post Authentication Policy Contexts. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+
+

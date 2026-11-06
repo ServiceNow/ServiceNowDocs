@@ -48,7 +48,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the Aha! Roadmaps external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  In the Products section, select one of the following options:
 

@@ -53,7 +53,7 @@ James triages with clear ownership. Sophie resolves the airbag issue across 47 i
 **Related topics**  
 
 
-[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-report-an-issue.md)
+[Report an issue manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-report-an-issue.md)
 
 [mco-product-non-conformances]
 

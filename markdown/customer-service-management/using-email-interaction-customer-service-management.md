@@ -56,7 +56,7 @@ For more information on how the system evaluates and routes replies, see [Email 
 
 ## Outbound email interactions
 
-Agents can initiate outbound email interactions directly from contact or consumer records in the CRM Workspace. When an agent composes and sends an email from a contact or consumer record, the system automatically creates a Work-In-Progress \(WIP\) outbound interaction. The interaction is assigned to the agent.
+Agents can initiate outbound email interactions directly from contact or consumer records in the CSM Configurable Workspace. When an agent composes and sends an email from a contact or consumer record, the system automatically creates a Work-In-Progress \(WIP\) outbound interaction. The interaction is assigned to the agent.
 
 Outbound email interactions support the following features:
 

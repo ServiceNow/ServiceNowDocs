@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Open the ticket that you want to create a universal task for.
 
-2.  Click the UI action for creating a universal task.
+2.  Select the UI action for creating a universal task.
 
 3.  On the form, fill in the fields.
 

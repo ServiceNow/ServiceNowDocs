@@ -32,7 +32,7 @@ Apply the conditions that determine the pre-chat questionnaire to be presented t
 
 2.  Under **Pre-chat surveys** on the **General** tab, select **View all**.
 
-3.  On the Chat Surveys page, select **New** to create a new chat survey configuration or select the configuration you want to update.
+3.  On the Chat Surveys page, select **New** to create a new chat survey configuration or select the configuration need to update.
 
 4.  Under **Details**, enter or change the settings.
 

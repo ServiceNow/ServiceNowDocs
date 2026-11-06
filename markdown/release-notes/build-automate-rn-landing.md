@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/build-a
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -20,6 +20,8 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.
 -   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md)**  
 The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
+-   **[Partner Passport Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/partner-passport-portal-rn.md)**  
+Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Australia release.
 -   **[Creator Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/creator-studio-rn.md)**  
 The ServiceNow® Creator Studio application guides business process experts through creating request-based applications, removing the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Australia release.
 -   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/data-catalog-rn.md)**  
@@ -30,6 +32,10 @@ The ServiceNow® Data products application enables data stewards to create gover
 The ServiceNow® Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.
 -   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/integration-hub-rn.md)**  
 The ServiceNow® Integration Hub application extends the ServiceNow® Workflow Studio automation capabilities by enabling you to integrate your instance data with data in external systems. Integration Hub was enhanced and updated in the Australia release.
+-   **[Lux release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lux-rn.md)**  
+Lux is a Lit-based platform for building widget-based UI experiences that run on a ServiceNow instance. You create pages using widgets as Lit components. Release notes are organized by version.
+-   **[Lux Lab release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lux-lab-rn.md)**  
+Lux Lab is a desktop application for building Lux applications that run on a ServiceNow instance. You create projects, edit code, preview your work, and deploy to your instance from one tool. Release notes are organized by version.
 -   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/next-experience-components-rn.md)**  
 The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.
 -   **[Next Experience Developer \(NED\) Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/ned-tools-rn.md)**  

@@ -210,5 +210,5 @@ Smart Assessment adds the scheduled job listed in the following table.
 
 [Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-questionnaire.md)
 
-[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md)
+[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configuring-smart-assessment-questionnaire.md)
 

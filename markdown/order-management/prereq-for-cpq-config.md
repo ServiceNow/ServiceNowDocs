@@ -1,5 +1,5 @@
 ---
-title: Prerequisites for setting up CPQ
+title: Prerequisites for setting up ServiceNow CPQ
 description: Verify that you have completed the prerequisites before setting up the Configurator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/prereq-for-cpq-config.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [With guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [With guided setup, Set up ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Prerequisites for setting up CPQ
+# Prerequisites for setting up ServiceNow CPQ
 
 Verify that you have completed the prerequisites before setting up the Configurator.
 
@@ -59,13 +59,13 @@ Role required: admin
 
         **Note:** Replace `<service_instance_url>` with your ServiceNow instance in the URL mentioned above.
 
-    2.  Verify the CPQ Admin UI Application Registry exists with a **ClientID** and **Client secret**.
+    2.  Verify the ServiceNow CPQ Admin UI Application Registry exists with a **ClientID** and **Client secret**.
 
     3.  Select the lock icon of the **Client secret** field to make it visible.
 
-    4.  Copy the  **Client ID ** and **Client secret** if exists; use them to request a CPQ instance.
+    4.  Copy the  **Client ID ** and **Client secret** if exists; use them to request a ServiceNow CPQ instance.
 
-4.  Request a CPQ instance using the following the steps.
+4.  Request a ServiceNow CPQ instance using the following the steps.
 
     1.  Navigate to [Now Support](https://support.servicenow.com/now?id=ns_get_help).
 
@@ -96,11 +96,11 @@ Role required: admin
 
 ## Result
 
-You will receive an email with the CPQ details. Select the **View request** to access the support portal and set a password.
+You will receive an email with the ServiceNow CPQ details. Select the **View request** to access the support portal and set a password.
 
-**Note:** You can proceed with the guided setup only after you receive CPQ details.
+**Note:** You can proceed with the guided setup only after you receive ServiceNow CPQ details.
 
 ## What to do next
 
-[Set up CPQ using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-cpq-using-guided-setup.md)
+[Set up ServiceNow CPQ using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-cpq-using-guided-setup.md)
 

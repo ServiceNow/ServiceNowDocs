@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/domain-separation-aiw.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
+keywords: [domain separation ai specialists, domain separation autonomous workforce, domain separation ai workforce, domain support ai specialists, domain support ai workforce]
 breadcrumb: [Explore, Autonomous Workforce, Enable AI experiences]
 ---
 

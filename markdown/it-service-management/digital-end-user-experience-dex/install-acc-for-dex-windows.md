@@ -1,13 +1,13 @@
 ---
 title: Install ACC for DEX on Windows
-description: Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance.
+description: Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance. This installation supports the Microsoft Windows operating system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-14"
 reading_time_minutes: 2
 keywords: [install acc windows, agent client collector windows, acc for dex, install agent client collector, collect dex metrics]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User E
 
 # Install ACC for DEX on Windows
 
-Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance.
+Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance. This installation supports the Microsoft Windows operating system.
 
 ## Before you begin
 

@@ -8,7 +8,7 @@ product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -53,4 +53,23 @@ To fix a finding, refer to the following:
 
 -   [Microsoft Exchange Online - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/ms-exchange-reservation-synchronization.md)
 -   [Synchronization - Prerequisites and implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/synchronization-troubleshooting-and-conditions.md)
+
+**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Provider form]()
+
+[Third-party OAuth Provider form]()
+
+[Resolving connection setup issues in Workplace Calendar Synchronization]()
 

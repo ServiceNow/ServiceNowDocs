@@ -99,13 +99,13 @@ This store app has the following dependencies:
 
 -   ServiceNow Otto for Platform \(com.sn.now.platform\)
 -   Sourcing and Purchasing Automation\(sn\_pr\)
--   ServiceNow Otto for FSC Common \(sn\_fsc\_genai\)
+-   ServiceNow Otto for Finance and Procurement \(sn\_fsc\_genai\)
 
 Activate the applications in the following order:
 
 1.  ServiceNow Otto for Platform \(sn\_genai\_platform\)
 2.  Sourcing and Purchasing Automation \(sn\_pr\)
-3.  ServiceNow Otto for FSC Common \(sn\_fsc\_genai\)
+3.  ServiceNow Otto for Finance and Procurement \(sn\_fsc\_genai\)
 4.  ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
 
 For more information, see [Configure ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).

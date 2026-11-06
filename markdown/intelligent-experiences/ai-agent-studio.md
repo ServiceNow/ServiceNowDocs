@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-studio.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-10-23"
+reading_time_minutes: 5
 keywords: [agentic AI, AI agents]
 breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
@@ -27,11 +27,11 @@ In the Ready-made agentic workflows and AI agents section, you can find the temp
 
 In the Recent agentic workflows and AI agents activity section, you can find the agentic workflows or AI agents that have been created or configured most recently. On both List views, you can create, duplicate, or delete agentic workflows or AI agents. The tab also includes a link to the AI Agents Dashboard where you can review the details about AI agent usage and performance.
 
-The third section is a card to open a modal with a journey checklist that describes the steps to incorporate the AI agents into your workflows successfully and a video that provides an overview of the AI agents and workflows to get you started. Select **View steps** to open this section.
+The third section is a card with a journey checklist that describes the steps to incorporate the AI agents into your workflows successfully and a video that provides an overview of the AI agents and workflows to get you started. Select **View steps** to open this section.
 
 The following example shows the Overview page of AI Agent Studio.
 
-\[Omitted image "aia-studio-overview.png"\] Alt text: AI Agent Studio overview page.
+\[Omitted image "aia-studio-overview.png"\] Alt text: AI Agent Studio overview page with two sections: ready-made agentic workflows and AI agents and recent agentic workflows and AI agents activity.
 
 ## Managing agentic workflows and AI agents
 
@@ -39,9 +39,9 @@ From the AI Agent Studio Create and manage page, you can create, duplicate, or m
 
 The following example shows the AI Agent Studio create and manage page after several applications are installed.
 
-\[Omitted image "aia-create-manage.png"\] Alt text: AI Agent Studio create and manage page.
+\[Omitted image "aia-create-manage.png"\] Alt text: AI Agent Studio create and manage page with a list of agentic workflows.
 
-## agentic AI activity
+## Agentic AI activity
 
 The activity page contains execution logs for both agentic workflows and AI agents. The list allows you to filter based on various fields, including the version. For more information on creating multiple versions of the **List of steps** field, see [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md).
 
@@ -59,9 +59,9 @@ There are two types of manual tests you can do: **AI agent or agentic workflow**
 
 The following example shows the inputs for a Generate Resolution Plan agentic workflow testing setup of AI Agent Studio.
 
-\[Omitted image "aia-test-page-new.png"\] Alt text: AI Agent Studio testing home page
+\[Omitted image "aia-test-page-new.png"\] Alt text: AI Agent Studio testing page with options for manual testing, automated evaluation, and test result tracking
 
-\[Omitted image "aia-test-playground.png"\] Alt text: AI Agent Studio testing playground
+\[Omitted image "aia-test-playground.png"\] Alt text: AI Agent Studio testing playground with AI agent decision logs, node view, and processing messages
 
 ## AI Agent Studio settings
 
@@ -73,7 +73,7 @@ From the AI Agent Studio Settings page, you can enable AI GuardianGuardian for y
 
 The following image shows the AI Agent Studio settings.
 
-\[Omitted image "aia-studio-settings.png"\] Alt text: AI Agent Studio settings page.
+\[Omitted image "aia-studio-settings.png"\] Alt text: AI Agent Studio settings page with Now Assist Guardian offensiveness settings.
 
 ## AI Agent Analytics dashboard
 
@@ -81,5 +81,5 @@ From the AI Agent Analytics dashboard, you can review the vital statistics about
 
 The following example shows the overview page for the AI Agent Analytics dashboard.
 
-\[Omitted image "aia-analytics-dashboard.png"\] Alt text: AI Agent Analytics dashboard overview page.
+\[Omitted image "aia-analytics-dashboard.png"\] Alt text: AI Agent Analytics dashboard overview page with different agentic AI visualizations.
 

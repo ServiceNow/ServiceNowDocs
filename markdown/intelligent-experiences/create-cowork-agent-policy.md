@@ -1,6 +1,6 @@
 ---
-title: Create a ServiceNow Cowork agent policy
-description: Create a policy to define what ServiceNow Cowork can do, which actions need human approval, and which actions are blocked.
+title: Create a ServiceNow Arc agent policy
+description: Create a policy to define what ServiceNow Arc can do, which actions need human approval, and which actions are blocked.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-cowork-agent-policy.html
 release: australia
@@ -8,16 +8,16 @@ topic_type: task
 last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [policy, agent policy, user criteria, priority]
-breadcrumb: [Configure, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Create a ServiceNow Cowork agent policy
+# Create a ServiceNow Arc agent policy
 
-Create a policy to define what ServiceNow Cowork can do, which actions need human approval, and which actions are blocked.
+Create a policy to define what ServiceNow Arc can do, which actions need human approval, and which actions are blocked.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.admin
+Role required: sn\_app\_arc.admin
 
 ## About this task
 
@@ -25,7 +25,7 @@ A policy record sets which users the policy applies to and its priority. After y
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Cowork** &gt; **Policies** &gt; **Cowork Agent Policy**.
+1.  Navigate to **All** &gt; **ServiceNow Arc** &gt; **Policies** &gt; **Arc Agent Policy**.
 
 2.  Select **New**.
 
@@ -56,7 +56,7 @@ The policy is created and applies to the users that its user criteria cover.
 
 ## What to do next
 
-Add components to the policy. For more information, see [Configure a ServiceNow Cowork agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-cowork-agent-policy.md).
+Add components to the policy. For more information, see [Configure a ServiceNow Arc agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-cowork-agent-policy.md).
 
-**Parent Topic:**[Configuring ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
 

@@ -26,3 +26,22 @@ The Third-party OAuth Provider form includes OAuth provider details such as the 
 |Token URL|OAuth server token endpoint. Enter `https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/token >`.|
 |Redirect URL|OAuth callback endpoint. The URL is automatically filled as `https://<instance-name>.service-now.com/oauth_redirect.do`.|
 
+**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Provider form]()
+
+[Resolving connection setup issues in Workplace Calendar Synchronization]()
+

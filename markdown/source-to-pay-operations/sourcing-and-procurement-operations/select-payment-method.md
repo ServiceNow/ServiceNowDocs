@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-10-15"
+reading_time_minutes: 2
 breadcrumb: [Complete your checkout, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -35,6 +35,7 @@ Role required: sn\_shop.shopper.
     **Note:**
 
     -   Your preferred payment methods are displayed. These are stored in the backend in the sn\_shop\_payment\_method table with the preferred tags against these records. You can go with your default payment method, or choose to pay using another cost center, multiple cost centers, available credits, or paychecks, if need be. For more information on these, see [Payment method options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/payment-method-options.md).
+    -   Your default payment method is the payment method record that is marked as default for you. If you do not have one, it is created automatically from the cost center on your user record. If your user record has no cost center, a default payment method cannot be created. If the cost center on your user record changes, the payment method for your previous cost center is no longer your default, and a default payment method is created from your new cost center.
     -   For blanket order purchases, an information banner is displayed stating that payment methods will be determined when individual purchases are made against the blanket order.
 
 ## What to do next

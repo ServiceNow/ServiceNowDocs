@@ -14,6 +14,8 @@ breadcrumb: [App development and low-code release notes, Features and changes by
 
 The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Australia release.
 
+-   **[Decision tables release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/decision-builder-rn.md)**  
+The ServiceNow® decision tables application enable you to separate decision logic from your code by creating and managing decision rules in a structured, readable format in Workflow Studio. See the following sections for release notes by version.
 -   **[Flows, subflows, and actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/flow-designer-rn.md)**  
 The ServiceNow® Workflow Studio flows, subflows, and actions application enables process analysts to automate work without having to code and to build multiple-step flows from reusable components. Workflow Studio flows, subflows, and actions were enhanced and updated in the Australia release.
 -   **[Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/process-automation-designer-rn.md)**  

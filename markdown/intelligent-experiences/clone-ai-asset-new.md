@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 Duplicate agentic AI assets to create an identical copy of an existing agent or agentic workflow. Duplicating allows you to reuse asset configurations without affecting the original asset. The duplicated asset cannot have the same name as an existing agentic AI asset.
 
-**Note:** For AI agents, the duplicated AI agent uses the same tools as the original agent. Modifying the agent tools in the duplicated AI agent affects the agent tools in the original AI agent. To use the tools in a duplicated AI agent, you can either use the duplicated agent tools without making changes or add a new tool.
+**Note:** For AI agents, the duplicate shares its tools with the original agent. Changing a tool on the duplicate also changes it on the original. To keep the original unchanged, add a new tool to the duplicate instead of editing the shared tool.
 
 ## Procedure
 

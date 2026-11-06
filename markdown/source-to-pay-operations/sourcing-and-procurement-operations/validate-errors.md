@@ -34,11 +34,11 @@ Role required: admin
     -   Post Invoice Error
     -   Post Price Error
     -   Post Availability Error
-4.  Provide **Mid server** connection and path details.
+4.  Provide **MID server connection** and path details.
 
     The MID Server facilitates communication and the movement of data between a ServiceNow instance and external applications, data sources, and services. For more information on the MID server, see the related topics.
 
-5.  Provide **FTP server** connection and path details.
+5.  Provide **FTP server connection** and path details.
 
     For more information on connection, path, and HTTP connection, see the related topics.
 

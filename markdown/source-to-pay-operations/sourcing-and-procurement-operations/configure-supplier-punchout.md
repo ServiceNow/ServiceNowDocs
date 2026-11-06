@@ -162,6 +162,8 @@ When integrating with a punchout supplier, customers are required to provide spe
 
 -   **[Providing Order and Shipping Confirmation URLs to Punchout Suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-urls.md)**  
 When integrating with a punchout supplier, customers are required to provide specific URLs for Order Confirmation and Shipping Confirmation.
+-   **[Punchout cXML extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-cxml-extension-points.md)**  
+Use the PunchoutRequestBuilder and PunchoutResponseParser scripted extension points to customize the cXML requests that are sent to a punchout supplier and how the cXML responses from that supplier are parsed.
 -   **[Configure extension point for Product search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-ext-point-punchout.md)**  
 The sn\_spend\_intg.ThirdPartySystemApiExtension scripted extension point provides the configuration that punchout suppliers can use to ensure that all details about their product, such as product's name, brand, manufacturer, price, availability, SKU, and so on, is displayed in Shopping Hub.
 -   **[Mapping Product Categories and Units of Measure for seamless checkout in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/product-category-mapping-shoppinghub.md)**  

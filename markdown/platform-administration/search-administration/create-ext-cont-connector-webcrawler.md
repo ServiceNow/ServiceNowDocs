@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-15"
-reading_time_minutes: 6
+last_updated: "2026-10-20"
+reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Webcrawler external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-Follow this procedure to create a new Webcrawler connector to retrieve searchable content and metadata from URLs found in a predefined or custom web source.
+Follow this procedure to create a Webcrawler connector to retrieve searchable content and metadata from URLs found in a predefined or custom web source.
 
 By default, you can configure up to three Webcrawler connectors for custom web sources. If you need to retrieve items from more than three custom web sources, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the Webcrawler connector.
 
@@ -40,25 +40,76 @@ By default, you can configure up to three Webcrawler connectors for custom web s
 5.  On the Connection settings page, specify the web source that you want to retrieve searchable content from.
 
     -   To retrieve searchable content from a web source in the list of predefined web sources, select the **Predefined web source** tile, then select your desired web source from the list.
-    -   To retrieve searchable content from a public web source not included in the list, select the **Custom web source** tile. Enter a name for the connector and the URL for your selected web source, then select the legal disclaimer option.
+    -   To retrieve searchable content from a public web source not included in the list, select the **Custom web source** tile, then fill in the following fields.
 
-        **Note:** If you select this option, content crawls for the Webcrawler external content connector retrieve content and links from URLs found in the source system's sitemaps that include the specified start point URL. The connector reads matching URLs from all sitemaps referenced in the source system's `robots.txt` file and all sitemaps located in common sitemap locations.
+<table id="table_c2y_1nt_ykc"><thead><tr><th>
 
-        As an example, suppose you select the **Use sitemap** option and then specify `https://example.com/mysite` as the start point URL for a content crawl. When you run the content crawl, the Webcrawler connector retrieves content and links from sitemap URLs that include `https://example.com/mysite`. In this case, the connector retrieves content and links from sitemap URLs `https://example.com/mysite/a` and `https://example.com/mysite/b` but ignores sitemap URLs `https://example.com/othersite/c` and `https://example.com/yoursite/d` because they don't include the start point URL.
+Field
 
-6.  Save and validate your connection settings by selecting **Validate Connection**.
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name for this Webcrawler external content connector.
+
+</td></tr><tr><td>
+
+URL
+
+</td><td>
+
+Start point URL for your selected web source. As an example, you might enter `https://example.com/mysite`.
+
+</td></tr><tr><td>
+
+Max crawling depth
+
+</td><td>
+
+The maximum crawl depth for the connector, expressed in link hops from the start point URL.The start point URL page has depth 0. Pages linked directly from the start point URL have depth 1, pages linked from those depth-1 pages have depth 2, and so on. The connector follows links up to and including the configured maximum depth. A value of 0 means the connector only crawls the start point URL page.
+
+Type: Integer
+
+Supported values: 0 to 5000
+
+Default value: 10
+
+**Note:** This setting only applies when the **Use sitemap** option isn't selected. When the **Use sitemap** option is selected, the connector ignores this setting.
+
+</td></tr><tr><td>
+
+Use sitemap
+
+</td><td>
+
+Option to retrieve content and links from URLs found in the source system's sitemaps that include the specified start point URL.If you select this option, the connector reads matching URLs from all sitemaps referenced in the source system's `robots.txt` file and all sitemaps located in common sitemap locations.
+
+As an example, suppose you select the **Use sitemap** option and then specify `https://example.com/mysite` as the start point URL for a content crawl. When you run the content crawl, the Webcrawler connector retrieves content and links from sitemap URLs that include `https://example.com/mysite`. In this case, the connector retrieves content and links from sitemap URLs `https://example.com/mysite/a` and `https://example.com/mysite/b` but ignores sitemap URLs `https://example.com/othersite/c` and `https://example.com/yoursite/d` because they don't include the start point URL.
+
+**Note:** When this option is selected, the connector ignores the **Max crawling depth** setting.
+
+</td></tr></tbody>
+</table>6.  Select the **The administrator acknowledges and agrees…** legal disclaimer option.
+
+7.  Save and validate your connection settings by selecting **Validate Connection**.
 
     **Note:** If validation of your connection settings fails, the system shows an error message. Verify your connection settings to ensure they're correct. If permissions required by the connector are missing or incorrectly configured in the source system, a warning message appears showing the permissions that must be corrected. Provide the information from this message to your source system administrator.
 
-7.  On the Crawl settings page, modify any default crawl settings that you want to override for this connector, then select **Next**.
+8.  On the Crawl settings page, modify any default crawl settings that you want to override for this connector, then select **Next**.
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for an Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-cc-ext-cont-connector.md).
 
-8.  On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
+9.  On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can create and run crawls for this connector from the External Content Admin Home page. For details on creating content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-9.  On the Connect search profile page, use the **Connect to search profile** field and **Add** button to add any search profiles that you want to connect this external content connector's default search source to, then select **Save**.
+10. On the Connect search profile page, use the **Connect to search profile** field and **Add** button to add any search profiles that you want to connect this external content connector's default search source to, then select **Save**.
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can connect search sources for this connector to search profiles from the External Content Admin Home page. For details on connecting an external content connector to search profiles, see [Connect an external content connector to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/connect-external-content-connector-search-profile.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-10-13"
 reading_time_minutes: 2
 keywords: [Rubrik discovery, serverless discovery]
 breadcrumb: [Rubrik Cluster, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -21,13 +21,13 @@ Set up a dedicated discovery schedule for each Rubrik cluster \(Brik\) to identi
 
 -   Verify the MID Server is set to Active and can reach the target Rubrik cluster.
 -   Create an alias for the basic authentication credential. For more information, see [Create a basic authentication credential alias for Rubrik discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.md).
--   Obtain the IP address of one of the Rubrik nodes in the target cluster.
+-   Obtain the IP address or fully qualified domain name \(FQDN\) of one of the Rubrik nodes in the target cluster.
 
 Role required: discovery\_admin
 
 ## About this task
 
-Each Rubrik cluster \(Brik\) requires a separate serverless discovery schedule. Each schedule must include the IP address of one of the Rubrik nodes in that cluster, and the credential alias associated with the Rubrik basic authentication credential record.
+Each Rubrik cluster \(Brik\) requires a separate serverless discovery schedule. Each schedule must include the IP address or FQDN of one Rubrik node in that cluster and the credential alias for the Rubrik basic authentication credential record.
 
 ## Procedure
 
@@ -107,7 +107,7 @@ When selected, activates this schedule for discovery runs.
 
         |Parameter|Value|
         |---------|-----|
-        |**ip\_address**|IP address of one of the Rubrik nodes in the cluster.|
+        |**ip\_address**|IP address or FQDN of one of the Rubrik nodes in the cluster.|
         |**credential\_alias**|ID of the credential alias you created for the Rubrik Basic Auth credential record.|
 
     3.  Select **Submit**.

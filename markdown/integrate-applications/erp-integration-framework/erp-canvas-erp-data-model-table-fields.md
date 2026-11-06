@@ -17,7 +17,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The **Entity fields** tab for an enterprise resource planning \(ERP\) model in Zero Copy Connector for ERP displays the table fields that are included in the ERP model.
 
-For process details, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+For process details, see [Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 Zero Copy Connector for ERP automatically scans the linked ERP system to retrieve the latest entity data. However, you can select the refresh icon to update the data on demand.
 
@@ -79,7 +79,9 @@ Is queryable
 
 </td><td>
 
-Option to indicate whether you can retrieve data from the field without querying the source table.Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
+Option to indicate whether you can retrieve data from the field without querying the source table.
+
+ Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
 
 </td></tr><tr><td>
 

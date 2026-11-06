@@ -1,13 +1,13 @@
 ---
 title: Conversations
-description: The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
+description: The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users, live agent transfers, and chat-related events — from starting a conversation to rendering a chat response to selecting a chat action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/conversations.html
 release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
 keywords: [Conversations in UXA]
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
@@ -15,9 +15,9 @@ breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 
 # Conversations
 
-The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
+The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users, live agent transfers, and chat-related events — from starting a conversation to rendering a chat response to selecting a chat action.
 
-You can analyze conversation trends over time and break them down by dimensions such as, country. This lets you answer questions such as how many users are having chat conversations in a particular region.
+You can analyze conversation trends over time and break them down by dimensions such as, country. You can answer questions such as how many users are having chat conversations in a particular region.
 
 ## Who uses the conversations view
 

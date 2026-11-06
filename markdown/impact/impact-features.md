@@ -32,7 +32,7 @@ Impact Core
 
 </td><td>
 
--   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-program-features.md)
+-   
 -   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md)
 -   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-operating-model.md)
 

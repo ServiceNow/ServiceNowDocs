@@ -40,9 +40,9 @@ Australia Patch 7 includes fixes for security-related problems that affected cer
 
 -   **[Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
+    , including Moveworks Assists,
 
-
-
+    View Moveworks assists broken down by skill. Moveworks skill names are distinguished by the "MW" prefix.
 
 
 ## Notable fixes

@@ -1,6 +1,6 @@
 ---
 title: Identity Metrics for administrators
-description: View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
+description: View trends of the users, privileged users, active sessions, and integrated accounts on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/identity-center-for-admin.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Identity Center, Identity]
 
 # Identity Metrics for administrators
 
-View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
+View trends of the users, privileged users, active sessions, and integrated accounts on your ServiceNow instance.
 
 Identity Metrics for administrators has the trends for the following:
 
@@ -25,7 +25,7 @@ Identity Metrics for administrators has the trends for the following:
 -   Inactive sessions
 -   Identity types
 
-**Note:** You need the `privileged_role_config_admind` to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the **sys\_icenter\_role\_config** table.
+**Note:** You need the `privileged_role_config_admind` to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the sys\_icenter\_role\_config table.
 
 To learn more, see the [Security Center Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 

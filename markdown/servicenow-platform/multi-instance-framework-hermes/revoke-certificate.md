@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Revoke a ServiceNow® instance-signed certificate so that it can't be used in se
 
 ## Before you begin
 
-Role required: hermes\_admin or sn\_kmf.cryptographic\_manager
+Role required: hermes\_admin and sn\_kmf.cryptographic\_manager
 
 ## Procedure
 

@@ -7,8 +7,8 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+Conversion from a demand to a work item can happen at any state of the demand. To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 

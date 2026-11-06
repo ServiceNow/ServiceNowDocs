@@ -26,6 +26,8 @@ If your administrator has enabled MFA on your instance, you see a prompt for a p
 
 ServiceNow requires authenticator applications that support Time-based One-time Passwords \(TOTP\).
 
+To set up MFA in a different way, select **Try another way to set up** on the screen.
+
 ServiceNow tests MFA with the following authenticators:
 
 -   Google Authenticator

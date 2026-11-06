@@ -37,7 +37,7 @@ To enable dependent CIs management:
 
 -   Configure your environment for CMDB Data Manager. For details about how to configure the environment for CMDB Data Manager and the CMDB Data Manager own prerequisites, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 -   Ensure that the **cmdb.dependent.ci.cascade.op.enabled** system property is set to **true** \(true by default\). This property enables cascade operations and doesn't exist in the base system. Therefore, to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   To enable cascade-retirement processes, ensure that the system property **cmdb.dependent.ci.cascade.retire.enabled**, which is used to manage cascade-retirement of CIs, is set to true \(false by default\). The business rule **After BR: Track “Retired” CIs**, that checks for downstream CI dependencies, runs only if this property is set to true. This property doesn't exist in the base system and to view or modify it, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   To enable cascade-retirement processes, ensure that the system property **cmdb.dependent.ci.cascade.retire.enabled**, which is used to manage cascade-retirement of CIs, is set to true \(false by default\). The business rule **Cascade retire for custom definitions**, that checks for downstream CI dependencies, runs only if this property is set to true. This property doesn't exist in the base system and to view or modify it, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 Cascade-cleanup operations apply only from when you enable the dependent CIs management feature. To apply cascade-cleanup to orphan dependent CIs that already existed in the CMDB before enabling the feature, see [Cascade-cleanup existing orphan dependent CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
@@ -62,7 +62,7 @@ To automatically approve those tasks, use the CMDB Data Manager to clear the **N
 When a CI is set to retire, dependent CIs management data processes attempt to cascade-update all the CIs depending on that CI, also to retire.
 
 1.  CI is updated to retire as the CI’s **Life Cycle Stage** attribute is set to **End of Life** according to CSDM standards.
-2.  Business rule **After BR: Track “Retired” CIs** runs \(only if the system property **cmdb.dependent.ci.cascade.retire.enabled** is **true**\) to check if the CI belongs to a class which has any downstream dependencies.
+2.  Business rule **Cascade retire for custom definitions** runs \(only if the system property **cmdb.dependent.ci.cascade.retire.enabled** is **true**\) to check if the CI belongs to a class which has any downstream dependencies.
 
     If yes: The CI is added to the CMDB CI End Of Life Ledger \[cmdb\_ci\_end\_of\_life\_ledger\] table.
 

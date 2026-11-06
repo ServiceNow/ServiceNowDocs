@@ -1,5 +1,5 @@
 ---
-title: Using reporting
+title: Using Core UI reporting
 description: ServiceNow reports are visualizations of your data that you can share with users on dashboards and service portals, export to PDF, and email. Learn how to create, run, edit, view, and share reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_GenerateReports.html
@@ -9,10 +9,10 @@ classification: reporting
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Using reporting
+# Using Core UI reporting
 
 ServiceNow reports are visualizations of your data that you can share with users on dashboards and service portals, export to PDF, and email. Learn how to create, run, edit, view, and share reports.
 
@@ -24,25 +24,25 @@ To administer reports, reporting roles, and report sources, navigate to **Report
 
 The ServiceNow system includes a range of predefined reports that provide data on applications and features like incident management and service catalog requests. You can also create your own reports. Add reports on dashboards and landing pages to share information across your organization.
 
--   **[View a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RunAReport.md)**  
+-   **[View a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RunAReport.md)**  
 Open a report in the Report Designer to view current data in an existing report.
--   **[Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)**  
+-   **[Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)**  
 Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.
 -   **[View the Reports list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/r_ViewTheReportsList.md)**  
 View a list of reports and create reports from the Reports list.
--   **[Copy a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/copy-report.md)**  
+-   **[Copy a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/copy-report.md)**  
 Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
--   **[Delete a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/delete-report.md)**  
+-   **[Delete a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/delete-report.md)**  
 Delete Core UI reports that are no longer used.
--   **[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)**  
+-   **[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)**  
 Distribute reports to provide business information to other users.
--   **[Reports on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/service-portal-reporting-widget.md)**  
+-   **[Core UI reports on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/service-portal-reporting-widget.md)**  
 Show existing reports in a Service Portal.
 
-**Parent Topic:**[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-landing-page.md)
+**Parent Topic:**[Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-landing-page.md)
 
 **Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

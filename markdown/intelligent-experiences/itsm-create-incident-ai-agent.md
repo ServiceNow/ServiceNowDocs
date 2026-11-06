@@ -17,13 +17,13 @@ This AI agent manages the end-to-end process of formally logging IT support requ
 
 ## Workflow
 
-This agent first attempts to resolve the problem with self-service solutions. If the problem persists, it will then intelligently draft a structured IT support incident, confirm the details with the user for accuracy, and create the official record for tracking.
+This agent first attempts to resolve the problem with self-service solutions. If the problem persists, it drafts a structured IT support incident, confirms the details with the user for accuracy, and creates the official record for tracking.
 
 1.  Greet the user and gather information about the issue.
 2.  Validate and clarify the user's issue.
 3.  Based on the details gathered, create a search query.
 4.  Use the search query from as input for the Show Self-Service Options tool. This conversational tool handles the entire self-service process.
-5.  Evaluate the outcome. If the issue is solved, workflow is complete. If not, create a new incident with the conversation history.
+5.  Evaluate the outcome. If the issue is solved, workflow is complete. If not, create an incident with the conversation history.
 6.  Confirm the details with the user.
 7.  Conclude the conversation based on the outcome.
 

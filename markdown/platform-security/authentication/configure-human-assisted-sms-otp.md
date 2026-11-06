@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [configure human-assisted SMS OTP, HA SMS OTP service configuration, delivery mode, phone number resolution]
 breadcrumb: [Human-assisted SMS OTP authentication, Authentication factors, Authentication, Access Management]
@@ -191,7 +191,7 @@ Minutes before an unverified OTP expires and a new one must be requested.
 
 </td></tr><tr><td>
 
-**Retry Limit**
+**Per-Conversation User Retry Limit**
 
 </td><td>
 

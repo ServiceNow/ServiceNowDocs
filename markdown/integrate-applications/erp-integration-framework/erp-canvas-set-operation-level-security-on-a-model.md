@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-26"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, model, security, operation, model security, integration, data hub, zero, copy, connector, sap]
 breadcrumb: [ERP model operations, Using, Zero Copy Connector for ERP, Workflow Data Fabric]

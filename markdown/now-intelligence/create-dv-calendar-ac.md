@@ -17,7 +17,7 @@ Create calendar report visualizations to show and highlight date-driven events.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 For information about the use of the Calendar report visualizations on dashboards, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-calendar-connected/usage). This site gives information about Calendar report components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
@@ -33,7 +33,7 @@ Calendar report limitations:
 
     The KB article [Weekly calendar view does not display all entries](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0598360) covers scenarios in which some expected entries do not display.
 
-    To show more or fewer days, edit the **glide.report.calendar.max\_days\_back** property. See [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-properties.md).
+    To show more or fewer days, edit the **glide.report.calendar.max\_days\_back** property. See [Core UI Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-properties.md).
 
     **Note:** Performance may degrade if this value is too large.
 
@@ -231,7 +231,7 @@ Default value: Month
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the Data Visualization list.
+    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 
 
 ## What to do next

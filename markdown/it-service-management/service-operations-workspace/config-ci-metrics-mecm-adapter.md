@@ -1,6 +1,6 @@
 ---
 title: Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation
-description: Configure the display of the metrics for Microsoft Endpoint Configuration Manager for Investigation.
+description: Configure how CI metrics display for Microsoft Endpoint Configuration Manager for Investigation, including the delay between queries to the server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Setting up investigation framework using Microsoft Endpoint Configu
 
 # Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation
 
-Configure the display of the metrics for Microsoft Endpoint Configuration Manager for Investigation.
+Configure how CI metrics display for Microsoft Endpoint Configuration Manager for Investigation, including the delay between queries to the server.
 
 You must ensure the following requirements:
 

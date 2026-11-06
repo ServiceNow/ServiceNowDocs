@@ -41,7 +41,7 @@ Enable B2B customers to self-serve key processes such as order creation, order c
 
 5.  \(Optional\) [Install Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-rfq-plugin.md)
 
-    Enable B2B customers to request for quotes \(RFQ\) from the Business Portal. Installing this application also installs the Request for Quote module in the CRM Workspace, which enables sales agents to generate quotes from the RFQs.
+    Enable B2B customers to request for quotes \(RFQ\) from the Business Portal. Installing this application also installs the Request for Quote module in the CSM Configurable Workspace, which enables sales agents to generate quotes from the RFQs.
 
 6.  \(Optional\) [Install apps for self-service order case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activating-self-service-order-case-management-business-portal.md)
 

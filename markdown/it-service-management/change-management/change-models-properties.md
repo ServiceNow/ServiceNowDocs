@@ -16,7 +16,7 @@ breadcrumb: [Change model management, Explore, Change Management, IT Service Man
 
 Configure the Change Models properties to access the Change models capabilities when creating a Change request.
 
-The following properties control the Change Models features. For more information about the models these properties expose, see [Change Models properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-models-properties.md). For upgrade users, these properties are set to `true`.
+The following properties enable you to access the Change Models features. For upgrade users, these properties are set to **true**.
 
 **Important:** A wildcard search for `*change_model` in `sys_properties.list` may return additional properties depending on the installed plugins, such as `com.snc.change_management.change_model.default_read_roles`, which controls read access to change model records. Confirm the value of any role-based property before changing it. For the roles referenced, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-cm-itsm-roles.md).
 
@@ -60,7 +60,7 @@ com.snc.change\_management.change\_model.default\_read\_roles
 
 </td><td>
 
-Comma-separated roles that have read access to change model records. Use this property to restrict who can view change model definitions.
+It is a default field value that sets the roles that are automatically added to change model when it's created. Use this property to control who can view change model definitions.
 
 </td></tr></tbody>
 </table>**Note:** If type compatibility is set to false, and change type does not match with a corresponding change model, the change model is marked as Legacy.

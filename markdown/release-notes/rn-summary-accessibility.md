@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-accessibility.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 8
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -75,19 +75,6 @@ Authentication
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
-The CPQ runtime configuration experience includes the following keyboard and screen reader accessibility improvements.
-
--   Navigate and select options in single-select picklists, selectable product cards, and the product picker grid using a keyboard.
--   Shopping cart and bill of materials \(BOM\) column headers are announced as text with full, untruncated labels, and table cells reference their row and column headers for screen reader context.
--   Field labels are read across transaction runtime fields, keyboard focus returns to the date input after a calendar selection, and the field edit page provides more descriptive context for related item tiles and tooltips.
--   The CPQ and ServiceNow Quote Experience runtime interface supports 400% zoom without loss of content or functionality, meeting the WCAG 2.2 success criterion 1.4.10 \(Reflow\). Users who rely on screen magnification can navigate and interact with the quoting experience at 400% zoom on a standard viewport.
 
 </td></tr><tr><td>
 
@@ -269,6 +256,19 @@ ServiceNow AI Platform core feature
 </td><td>
 
 Format Painter plugin for TinyMCE enables you to apply consistent font styles, sizes, and table formats within the HTML editor field. This improvement helps users with cognitive disabilities and low vision by reducing confusion and supporting clear, predictable formatting throughout documents. Keyboard navigation is supported, providing added ease of use for keyboard-only users. For more information, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
+
+</td></tr><tr><td>
+
+ServiceNow CPQ
+
+</td><td>
+
+The ServiceNow CPQ runtime configuration experience includes the following keyboard and screen reader accessibility improvements.
+
+-   Navigate and select options in single-select picklists, selectable product cards, and the product picker grid using a keyboard.
+-   Shopping cart and bill of materials \(BOM\) column headers are announced as text with full, untruncated labels, and table cells reference their row and column headers for screen reader context.
+-   Field labels are read across transaction runtime fields, keyboard focus returns to the date input after a calendar selection, and the field edit page provides more descriptive context for related item tiles and tooltips.
+-   The ServiceNow CPQ and ServiceNow Quote Experience runtime interface supports 400% zoom without loss of content or functionality, meeting the WCAG 2.2 success criterion 1.4.10 \(Reflow\). Users who rely on screen magnification can navigate and interact with the quoting experience at 400% zoom on a standard viewport.
 
 </td></tr><tr><td>
 

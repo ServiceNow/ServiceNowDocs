@@ -94,7 +94,7 @@ Each Virtual Agent response includes a feedback icons panel. The user can indica
 
 If AI Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous in a Virtual Agent chat, Virtual Agent asks a clarifying question and displays a citation with an action. Citations are presented starting from the second clarifying question. Select a citation to start the request. If there are no actions relative to the request, citations aren’t shown.
 
-If you need more help, ServiceNow Otto for Virtual Agent directs you to either a live agent, resets the conversation, or creates an incident. The option is determined by the admin in the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+If you need more help, ServiceNow Otto for Virtual Agent directs you to either a live agent, resets the conversation, or creates an incident. The option is determined by the admin in the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 1.  Live agent support routes the user to an available agent when configured.
 2.  Reset the conversation restarts the conversation to the beginning to ask another question.
@@ -134,7 +134,7 @@ The answer is shown with the option to view your sources through the numbered in
 
 ## External content connections citations
 
-If external search sources are added to your information sources when [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connection:
+If external search sources are added to your information sources when [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connection:
 
 -   Microsoft SharePoint
 -   Confluence

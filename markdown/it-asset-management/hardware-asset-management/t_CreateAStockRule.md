@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -18,21 +18,30 @@ Create a stock rule to control what happens when the inventory of a particular a
 
 ## Before you begin
 
+The stockroom must have an assigned manager with an email address. The stock rule sends the restocking email to the stockroom manager and creates stock orders for that manager.
+
+To source stock orders from a Vendor stock rule with a purchase order, both of these requirements must be met:
+
+-   The model has an active vendor catalog item, or an active catalog item with a vendor specified.
+-   The vendor company record has the Vendor check box selected.
+
+If no active catalog item exists for the stock rule’s model, the system still creates the stock order request, but the **Purchase** option is unavailable when you source the request.
+
 Role required: inventory\_admin
 
 ## Procedure
 
 1.  Create a stock rule.
 
-<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d284898e57">
+<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d289215e83">
 
 Interface
 
-</th><th align="left" id="d284898e60">
+</th><th align="left" id="d289215e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d284898e66">
+</th></tr></thead><tbody><tr><td id="d289215e92">
 
 **Core UI**
 
@@ -42,15 +51,14 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d284898e102">
+</td></tr><tr><td id="d289215e128">
 
 **Hardware Asset Workspace**
 
 </td><td>
 
-1.  Navigate to **Asset operations** &gt; **** &gt; **Inventory**.
-2.  From the Inventory list, select **Stock rules**.
-3.  Select **New**.
+1.  Navigate to **Asset operations** &gt; **Inventory** &gt; **Stock rules**.
+2.  Select **New**.
 
 
 </td></tr></tbody>
@@ -78,7 +86,13 @@ Threshold
 
 </td><td>
 
-Quantity that the stock must reach to trigger restocking. For example, enter a threshold of 10 for a laptop computer that should be restocked when inventory drops below 10 in the specified stockroom.**Note:** If a stock rule is created for a hardware or software model reaches the threshold limit, a notification is sent to the stockroom manager and a stock order request is automatically created.
+Quantity that the stock must fall below to trigger restocking. Enter a value greater than 0. For example, enter 10 for a laptop computer that you want to restock when inventory in the specified stockroom drops below 10.Current stock includes Available and Reserved assets in the stockroom, plus assets on open transfer orders going to the stockroom.
+
+**Note:** If the stock falls below the threshold, the result depends on the restocking option:
+
+-   **Vendor**: The system sends an email to the stockroom manager. If Hardware Asset Management is activated, the system also creates a stock order request automatically.
+-   **Stockroom**: The system creates a transfer order. The stock rule doesn't send an email or create a stock order request.
+
 
 </td></tr><tr><td>
 
@@ -92,13 +106,20 @@ Location where additional supplies should come from. If Procurement isn’t acti
 
 **Note:** Transfer orders are created only when the parent stockroom meets the following conditions:
 
-    -   Has inventory in the Available state \(Reserved, Pending Install, and similar states don't qualify\)
-    -   Has available inventory equal to or greater than the full restocking quantity, not just the raw shortfall.
+    -   It has assets in the Available state. Assets in other states, such as Reserved or Pending Install, do not qualify.
+    -   Its number of available assets is equal to or greater than the full restocking quantity, not just the raw shortfall.
 
-The restocking quantity rounds the shortfall \(threshold minus current stock\) up to the nearest order size multiple. For example, if the shortfall is 1 unit but the order size is 5, the parent stockroom must have at least 5 units available. Having 1 to 4 units available does not trigger a transfer.
+The restocking quantity is the shortfall \(threshold minus current stock\), rounded up to the nearest multiple of the order size. For example, if the shortfall is 1 and the order size is 5, the restocking quantity is 5. The parent stockroom must have at least 5 available assets. If it has 1 to 4, the system does not create a transfer order.
 
--   **Vendor**: Sends an email to the stockroom manager to order from a vendor. In addition to the email notification, a purchase order and purchase order line item are created.
-**Important:** Once a transfer order, purchase order, or purchase order line item is created, it's important to act on it promptly. Any email notifications or reminders won't be sent for these actions.
+-   **Vendor**: Sends an email to the stockroom manager to order from a vendor. The system also creates records based on whether Hardware Asset Management is active:
+
+    -   If Hardware Asset Management is active, the system creates a Hardware Inventory Stock Order request, which you source with a purchase order. For enterprise models, it creates an enterprise stock order request.
+    -   If Hardware Asset Management is not active, the system creates a purchase order and a purchase order line item.
+**Note:**
+
+    -   To enable **Purchase** when you source the stock order request, the stock rule’s model must have an active vendor catalog item.
+    -   After a Vendor rule creates an order, the rule does not create another order while that order is open. It resumes after the order closes or after stock rises above the threshold.
+**Important:** After a transfer order, purchase order, or purchase order line item is created, it's important to act on it promptly.
 
 </td></tr><tr><td>
 
@@ -114,7 +135,15 @@ Stockroom
 
 </td><td>
 
-Current physical location of the asset.
+Stockroom that the rule applies to. This is the stockroom that is restocked when its stock falls below the threshold.
+
+</td></tr><tr><td>
+
+Parent stockroom
+
+</td><td>
+
+Stockroom from which additional supplies are transferred. Required when the restocking option is Stockroom.
 
 </td></tr><tr><td>
 
@@ -122,9 +151,11 @@ Order size
 
 </td><td>
 
-Minimum order quantity for stockroom transfers or vendor purchases. ServiceNow calculates the smallest multiple of the order size needed to restock the item above the threshold. For example, there are 3 laptops in stock with a threshold of 10 and the **Stockroom** option selected. If the order size is set to 4, the system creates a transfer order for 8 laptops to exceed the threshold and satisfy the rule \(3 in stock + 8 ordered = 11\). When restocking from a vendor, ServiceNow sends an email to the stockroom manager showing the total number of items to order, as multiples of the order size.
+Minimum order quantity for stockroom transfers or vendor purchases. The system calculates the smallest multiple of the order size that restocks the item above the threshold. Enter a value greater than 0. For example, a stockroom has 3 laptops, the threshold is 10, the restocking option is Stockroom, and the order size is 4. The system creates a transfer order for 8 laptops, which brings stock to 11 \(3 in stock + 8 ordered\).
 
-**Note:** The order size threshold applies only to automated stock rule transfers. Manual transfers don't have this restriction and can move any available quantity from the parent stockroom.
+When the restocking option is Vendor, the system emails the stockroom manager the total quantity to order, in multiples of the order size.
+
+**Note:** The order size applies only to transfers that stock rules create automatically. Manual transfers have no such restriction and can move any available quantity from the parent stockroom.
 
 </td></tr></tbody>
 </table>3.  Select **Submit** or **Save**.
@@ -135,11 +166,8 @@ Minimum order quantity for stockroom transfers or vendor purchases. ServiceNow c
 -   The stock rule that you created appears in the **Stock rules** tab.
 -   If the restocking option was set to **Vendor**, the following changes happen:
     -   The **Stock orders** tab is displayed. All the stock orders that are created using this stock rule are listed under the Stock orders tab.
-    -   A Request Item of item type Hardware Inventory Stock Order is automatically created. For more information, see [Create an inventory stock order request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-inventory-stock-order.md).
--   If the restocking option was set to **Stockroom**, the **Transfer orders** tab will be displayed. All the transfers orders created using this stock rule are listed under the **Transfer orders** tab.
-
-    **Note:** For stock orders created through the restocking by a vendor, the stock order tab shows all stock orders generated by that stock rule. But for transfer orders, the tab only displays transfer orders after the upgrade.
-
+    -   If Hardware Asset Management is active and the stock falls below the threshold, the system automatically creates a Request Item of the Hardware Inventory Stock Order item type. For more information, see [Create an inventory stock order request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-inventory-stock-order.md).
+-   After the rule creates a transfer order, the **Transfer orders** tab appears and lists the transfer orders that the rule created.
 
 **Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

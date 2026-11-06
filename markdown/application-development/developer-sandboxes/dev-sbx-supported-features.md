@@ -7,7 +7,7 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-09-04"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -45,7 +45,7 @@ Upgrading an instance automatically backs up update sets to the base instance an
 
 You can have up to 30 sandboxes per instance.
 
-Developer Sandboxes does not support self-hosted instances by default, though you can set up your own networking and routing changes to support sandboxes.
+Developer Sandboxes is supported on on-premises instances. For setup steps, see the Knowledge Base article on [Developer Sandboxes on-premises architecture](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2670540). You're responsible for networking setup, adding the required nodes to the instance, and enabling sandboxes. License management isn't supported on on-premises instances.
 
 **Note:** Developer Sandboxes are not supported on UI/Worker node instances.
 

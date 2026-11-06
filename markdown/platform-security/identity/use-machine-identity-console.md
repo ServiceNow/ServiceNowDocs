@@ -18,7 +18,7 @@ Manage your service accounts which are used for integrations with ServiceNow usi
 
 ## Before you begin
 
-Role required: admin
+Role required: mi\_admin
 
 Activate the **Machine Identity Management** `com.glide.identity.machine_identity_management` plugin. For more information, see [Activating Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/activate-machine-identity-console.md).
 

@@ -1,12 +1,12 @@
 ---
 title: Financial Services Operations Core release notes
-description: The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Australia release.The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Australia release.
+description: The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Australia release.Update processing\_code field choice values in the Financial transaction table to align with current Visa data field specifications.The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/financial-services-operations-core-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-04-06"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -30,6 +30,37 @@ See [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
+
+## Version 12.6.0
+
+Update **processing\_code** field choice values in the Financial transaction table to align with current Visa data field specifications.
+
+### What's changed
+
+-   **Processing code field values updated for Visa compliance**
+
+    The `processing_code` field choice values in the Financial transaction table have been updated to align with current Visa data field specifications. Existing choice values have been updated with refined labels and descriptions; new choice values have been added to support additional transaction types.
+
+    The updated choice values include:
+
+    -   `00` — Goods/Service Purchase - Debit
+    -   `01` — Cash Disbursement \(for example, withdrawal or cash advance\) - Debit
+    -   `02` — Adjustment - Debit
+    -   `10` — Account Funding or Card Absent Account Funding
+    -   `11` — Quasi-Cash Transaction - Debit or Internet Gambling Transaction
+    -   `19` — Fee Collection - Debit
+    -   `20` — Return of Goods - Credit, Credit Transaction, Credit Voucher
+    -   `22` — Adjustment - Credit
+    -   `26` — Original Credit
+    -   `28` — Activation and Load / Load
+    -   `29` — Funds Disbursement - Credit
+    -   `30` — Available Funds Inquiry
+    -   `39` — Eligibility Inquiry
+    -   `50` — Bill Payment \(U.S. only\)
+    -   `53` — Payment \(U.S. only\)
+    -   `72` — Activation \(POS\)
+    Dispute agents and administrators see these updated labels and descriptions in transaction UI drop-down lists and data entry forms. Existing transactions require no action. Existing choice values not listed here remain unchanged.
+
 
 ## Australia
 

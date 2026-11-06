@@ -1,6 +1,6 @@
 ---
-title: Review Cowork traces in AI Control Tower
-description: Check the quality and safety scores of Cowork sessions in AI Control Tower, then open a session or trace to see which metric scores and details.
+title: Review Arc traces in AI Control Tower
+description: Check the quality and safety scores of Arc sessions in AI Control Tower, then open a session or trace to see which metric scores and details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cowork-review-traces-aict.html
 release: australia
@@ -8,24 +8,26 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 3
 keywords: [AI Control Tower, traces, Monitor tab, sample rate]
-breadcrumb: [Trace evaluation for Cowork in AI Control Tower, Configure, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Trace evaluation for Arc in AI Control Tower, Configure, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Review Cowork traces in AI Control Tower
+# Review Arc traces in AI Control Tower
 
-Check the quality and safety scores of Cowork sessions in AI Control Tower, then open a session or trace to see which metric scores and details.
+Check the quality and safety scores of Arc sessions in AI Control Tower, then open a session or trace to see which metric scores and details.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.admin and sn\_ai\_governance.ai\_steward
+The AI Control Tower for Enterprise AI Foundation plugin \(sn\_aict\_foundation\) must be activated on the instance. You can't review Arc traces until this plugin is active.
+
+Role required: sn\_app\_arc.admin and sn\_ai\_governance.ai\_steward or sn\_app\_arc.user and sn\_ai\_observe.ai\_data\_sender
 
 ## About this task
 
-In AI Control Tower, each AI system is tracked as an asset in the Inventory Cowork appears as the ServiceNow CoworkAgent asset, which AI Control Tower creates when a user connects Cowork to the instance. The asset starts in the Unmanaged state, with limited functionality, and shows traces only after you move it to the Managed state. Nothing else needs to be configured to receive traces. For more on asset states, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-ai-managed-unmanaged.md).
+In AI Control Tower, each AI system is tracked as an asset in the Inventory. Arc appears as the ServiceNow Arc Agent asset, which AI Control Tower creates when a user connects Arc to the instance. The asset starts in the Unmanaged state, with limited functionality, and shows traces only after you move it to the Managed state. Nothing else needs to be configured to receive traces. For more on asset states, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-ai-managed-unmanaged.md).
 
-Review traces to see how users work with Cowork and to catch a drop in quality or safety scores, or a security issue in a response.
+Review traces to see how users work with Arc and to catch a drop in quality or safety scores, or a security issue in a response.
 
-For how AI Control Tower scores traces, see [Trace evaluation for Cowork in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cowork-trace-evaluation.md).
+For how AI Control Tower scores traces, see [Trace evaluation for Arc in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cowork-trace-evaluation.md).
 
 ## Procedure
 
@@ -33,9 +35,9 @@ For how AI Control Tower scores traces, see [Trace evaluation for Cowork in AI C
 
 2.  Select **Inventory**.
 
-3.  In the search field, enter `Cowork`.
+3.  In the search field, enter `Arc`.
 
-4.  Select **ServiceNow Cowork Agent**.
+4.  Select **ServiceNow Arc Agent**.
 
 5.  Select **Move to Managed** to move the asset to **Managed**.
 
@@ -78,5 +80,5 @@ For how AI Control Tower scores traces, see [Trace evaluation for Cowork in AI C
     To set the sample rate for each metric, see [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-global-metrics-external.md).
 
 
-**Parent Topic:**[Trace evaluation for Cowork in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cowork-trace-evaluation.md)
+**Parent Topic:**[Trace evaluation for Arc in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cowork-trace-evaluation.md)
 

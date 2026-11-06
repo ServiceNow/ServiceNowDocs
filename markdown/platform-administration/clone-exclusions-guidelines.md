@@ -16,7 +16,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
 -   **Workflow context data**
 
-    Excluded workflow context data includes records stored in the wf\_context table, and in related tables with names starting with a prefix of wf\_. If workflow contexts were included, this process helps to prevent the occurrence of workflow timer syncing issues. Issues can occur due to the length of the cloning process.
+    Excluded workflow context data includes records stored in the wf\_context table, and in related tables with names starting with a prefix of wf\_. If workflow contexts were included, this process helps to prevent the occurrence of workflow timer synchronizing issues. Issues can occur due to the length of the cloning process.
 
 -   **Excluding child tables of the task table**
 
@@ -34,6 +34,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
     -   sys\_user
     -   sys\_user\_role
+    -   sys\_user\_has\_role
     -   sys\_user\_group
     -   sys\_user\_grmember
     -   sys\_group\_has\_role

@@ -1,5 +1,5 @@
 ---
-title: Set up CPQ using guided setup
+title: Set up ServiceNow CPQ using guided setup
 description: The guided setup organizes the configuration activities into modules and tracks completion as each activity is completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-cpq-using-guided-setup.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-05-14"
 reading_time_minutes: 2
-breadcrumb: [With guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [With guided setup, Set up ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up CPQ using guided setup
+# Set up ServiceNow CPQ using guided setup
 
 The guided setup organizes the configuration activities into modules and tracks completion as each activity is completed.
 
@@ -18,11 +18,11 @@ The guided setup organizes the configuration activities into modules and tracks 
 
 Role required: admin
 
-Complete the prerequisites. For more information, see [Prerequisites for setting up CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/prereq-for-cpq-config.md).
+Complete the prerequisites. For more information, see [Prerequisites for setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/prereq-for-cpq-config.md).
 
 ## About this task
 
-Configure the CPQ Configurator in a logical sequence and track your progress from a single. This guided setup assists you with the basic configuration that is required to start using the Configurator.
+Configure the ServiceNow CPQ Configurator in a logical sequence and track your progress from a single. This guided setup assists you with the basic configuration that is required to start using the Configurator.
 
 **Note:**
 
@@ -42,9 +42,9 @@ Configure the CPQ Configurator in a logical sequence and track your progress fro
 
 3.  Certificate setup module tasks is configured automatically.
 
-4.  Complete the CPQ Connection Setup module.
+4.  Complete the ServiceNow CPQ Connection Setup module.
 
-    1.  Enter the CPQ tenant URL that was shared with you when your CPQ instance was provisioned.
+    1.  Enter the ServiceNow CPQ tenant URL that was shared with you when your ServiceNow CPQ instance was provisioned.
 
     2.  Generate Admin API key in CPQ Administrator, and add the key in the guided setup; the system updates the HTTPS connection record automatically.
 
@@ -64,5 +64,5 @@ Configure the CPQ Configurator in a logical sequence and track your progress fro
 **Related topics**  
 
 
-[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
+[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

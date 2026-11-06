@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [restore Recommended Actions on record page variants after upgrade, Recommended Actions tab not appearing, RA tab missing, record page variant inactive, extended case table]
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Recommended Actions tab not appearing on the CSM default record page

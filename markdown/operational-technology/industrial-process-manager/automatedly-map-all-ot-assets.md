@@ -38,8 +38,8 @@ OT devices are automatically mapped to the Equipment Model Entities listed on al
 
 **Note:** Subnet mapping also supports Discovery created configuration items \(CIs\) for ISA equipment models.
 
--   **[Create a new OT subnet mapping record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.md)**  
-Create a new OT subnet mapping to associate with an equipment model entity.
+-   **[Create an OT subnet mapping record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.md)**  
+Create an OT subnet mapping to associate with an equipment model entity.
 -   **[Map all OT devices within a subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-all-ot-assets-within-subnet.md)**  
 An OT admin can trigger automated mapping of all OT devices within a selected subnet.
 -   **[Map OT devices to equipment model entities from the Equipment Model Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-ot-devices-in-iw.md)**  

@@ -43,7 +43,7 @@ Enables fulfillers to determine the category, subcategory, and configuration ite
 
 1.  Categorize ITSM incident AI agent
 2.  Classify service and CI AI agent
-3.  Link major incident and link problem AI agent
+3.  Link major incident or problem AI Agent
 
 </td></tr><tr><td>
 

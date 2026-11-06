@@ -1,6 +1,6 @@
 ---
 title: Configuring Problem Management in Service Operations Workspace
-description: Configure the features of Problem Management to manage problems and problem tasks in Service Operations Workspace
+description: Configure the features of Problem Management to manage problems and problem tasks in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configuring-problem-management-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 
 # Configuring Problem Management in Service Operations Workspace
 
-Configure the features of Problem Management to manage problems and problem tasks in Service Operations Workspace
+Configure the features of Problem Management to manage problems and problem tasks in Service Operations Workspace.
 
 ## Configuration overview
 

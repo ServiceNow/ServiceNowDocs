@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/diff
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [What's the difference between old and new dashboards]
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -50,6 +50,14 @@ Platform Analytics dashboards also provide Proactive Insights that support more 
 
     **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**
 
+
+## Filtering by breakdown on Core UI and Platform Analytics dashboards
+
+On Core UI dashboards, you can configure the dashboard to filter all PA widgets on the dashboard by breakdown source \(see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)\). The dashboard has a dropdown list of breakdown sources, and you choose one source by which to filter.
+
+Platform Analytics dashboards do not support a configurable list of Performance Analytics breakdown sources by which to filter the dashboard. Instead, you configure a dashboard filter \(usually multi-select\) for each breakdown, with the breakdown as the filter source. For more information, see [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md)
+
+On migration to Platform Analytics, the choice of breakdown sources is replaced by a filter for each breakdown. Instead of a dropdown list, you have a pill for each filter, displayed side-by-side.
 
 **Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/ac-elements.md)
 

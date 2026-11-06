@@ -31,7 +31,7 @@ When you create an order from a quote, the quote line items, along with other re
 
 ## Procedure
 
-1.  In the CRM Workspace, select **List** \[Omitted image "list-outline-24.svg"\] Alt text: view and select **Quotes** &gt; **All**
+1.  In the CSM Configurable Workspace, select **List** \[Omitted image "list-outline-24.svg"\] Alt text: view and select **Quotes** &gt; **All**
 
 2.  Open the quote that you want to create an order from.
 

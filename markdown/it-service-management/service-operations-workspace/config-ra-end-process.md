@@ -51,7 +51,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
     \[Omitted image "mecm-end-process.png"\] Alt text: MECM End Process
 
-8.  Click **Save**.
+8.  Select **Save**.
 
 
 **Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)

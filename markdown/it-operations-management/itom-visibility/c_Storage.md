@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -23,6 +23,10 @@ Discovery finds and maps dependencies for the following types of storage:
 -   Direct-attached storage \(DAS\), network-attached storage \(NAS\), or storage area network \(SAN\).
 -   NAS or SAN storage that is discovered via a Storage Management Initiative Specification \(SMI-S\) and Common Information Model \(CIM\).
 -   Virtual storage for VMware ESX servers and Linux Kernel-based Virtual Machines \(KVM\). Discovery maps this storage to the underlying physical storage.
+
+For storage devices that don't support SMI-S/CIM and aren't covered by an existing Discovery pattern, you can use Pattern Designer to create a custom infrastructure pattern. The pattern collects device information and populates configuration items \(CIs\) in the CMDB using REST APIs or CLI commands over SSH, depending on the device's supported interfaces.
+
+For more information, see [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md). For REST-based discovery, see [Run discovery through an HTTP or HTTPS REST call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/run-http-discovery.md).
 
 Discovery of storage via a host reconciles data and creates relationships between the host's file systems and associated local storage devices. The local storage devices represent the storage available to the host, whether it's directly attached or provided by Fibre Channel or iSCSI. This reconciliation assumes that the storage server has been discovered first.
 

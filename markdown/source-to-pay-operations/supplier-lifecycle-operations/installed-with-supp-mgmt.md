@@ -7,7 +7,7 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Install Supplier Case Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -25,7 +25,7 @@ The user roles and tables, even though installed along with Supplier Case Manage
 
 ## Roles installed
 
-**Note:** Users with the Supplier Manager \[sn\_slm.manager\], Supplier Fulfiller \[sn\_slm.fulfiller\], and Supplier Owner \[sn\_slm.owner\] roles cannot access the Supplier Collaboration Portal.
+**Note:** The Supplier Collaboration Portal is designed for external supplier users. To access it, users must have the Supplier Contact \[sn\_slm.contact\] or Supplier Administrator \[sn\_slm.admin\] role. Users who have only internal roles, such as Supplier Manager \[sn\_slm.manager\], Supplier Owner \[sn\_slm.owner\], Supplier Fulfiller \[sn\_slm.fulfiller\], or Supplier Agent \[sn\_slm.agent\], can't access the portal. A user can't hold both an internal role and an external role, such as Supplier Manager plus Supplier Contact.
 
 <table id="table_u1t_gb1_wdb"><thead><tr><th>
 

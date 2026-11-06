@@ -46,7 +46,7 @@ By default, AI Search displays no borders between search result cards on the glo
 
     The system displays an informational message indicating that you are editing in the application scope.
 
-6.  On the configuration panel's Config tab, select the **Show card border** option.
+6.  On the configuration panel's **Config** tab, select the **Show card border** option.
 
 7.  Select **Save**.
 

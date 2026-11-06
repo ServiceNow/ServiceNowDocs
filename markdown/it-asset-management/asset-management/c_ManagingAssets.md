@@ -8,7 +8,7 @@ product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-06-11"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
 
@@ -187,7 +187,13 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
 -   **sn\_itam\_restrict\_asset\_read**
 
-    The **sn\_itam\_restrict\_asset\_read** system property controls read access to the Asset \(alm\_asset\) table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this system property is set to **False**.
+    The **sn\_itam\_restrict\_asset\_read** system property controls read access to the Asset \[alm\_asset\] table and its child tables for users who have only the snc\_internal role. The default value is true. This restriction is a security measure that limits asset visibility to the users who manage those assets. When the property is true, these users can read only:
+
+    -   Asset records assigned to them
+    -   Asset records where they are referenced in fields such as **Reserved for**, **Managed by**, or **Owned by**
+    Users with any additional role retain full read access.
+
+    **Warning:** Setting this property to false exposes asset records to every user. Before you change this property, identify the processes that depend on the broader access, and grant access only where needed.
 
 
 ## CMDB success advisor for HAM

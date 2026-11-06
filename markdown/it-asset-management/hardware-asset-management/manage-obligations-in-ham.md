@@ -57,7 +57,7 @@ The following workflow describes how users create and manage obligations for har
 1.  A user with the sn\_cm\_obligation.obligation\_fulfiller role creates an obligation record on a hardware contract, specifying the obligation name, category, assignee, dates, instructions, and task type.
 2.  The user with the sn\_cm\_obligation.obligation\_fulfiller role also creates one or more obligation tasks. Each task inherits fields from the parent obligation record and requires a due date that falls within the obligation start and end dates.
 3.  When an obligation task is saved, the system sends an email notification to the assigned user with the sn\_cm\_obligation.obligation\_user role.
-4.  The assigned user reviews and submits the obligation task in the Employee Center. The obligation task moves to the **Awaiting Approval** state. For more information, see [Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-work-on-ob-tasks.md).
+4.  The assigned user reviews and submits the obligation task in the Employee Center. The obligation task moves to the **Awaiting Approval** state. For more information, see [Work on obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-work-on-ob-tasks.md).
 5.  The approver with the sn\_cm\_obligation.obligation\_fulfiller role reviews and approves the task. For more information, see [Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-manage-ob-tasks.md).
 6.  After approval, the obligation task moves to the **Closed Complete** state.
 

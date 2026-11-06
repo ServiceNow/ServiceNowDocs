@@ -53,5 +53,3 @@ If you can't manually allocate user-based subscriptions despite having manually 
 
 The group is removed from the subscription. If the group still has a measured-role that requires a subscription, add the group to a different subscription or remove the measured-role from the group.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md)
-

@@ -7,9 +7,9 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Set up your ServiceNow Otto for Virtual Agent branding
@@ -18,7 +18,7 @@ Create different ServiceNow Otto for Virtual Agent branding configurations for t
 
 ## Before you begin
 
-For more information about ServiceNow Otto for Virtual Agent, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+For more information about ServiceNow Otto for Virtual Agent, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) and [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 Role required: virtual\_agent\_admin or admin
 

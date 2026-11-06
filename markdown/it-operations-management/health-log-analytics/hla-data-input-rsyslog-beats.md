@@ -59,7 +59,7 @@ Role required: evt\_mgmt\_admin
 
     **Note:** Make sure that you’re running the latest version of the agent. Earlier versions will work, but with limited functionality.
 
-6.  On the **Tagging and Binding** tab, assign logs to an service instance in the Configuration Management Database \(CMDB\) to enable the service to correlate the log data and enable the system to do root cause analysis.
+6.  On the **Tagging and Binding** tab, assign logs to a service instance in the Configuration Management Database \(CMDB\). This enables the service to correlate log data and perform root cause analysis.
 
     1.  For each source, configure the path and service instance for the logs to be streamed.
 

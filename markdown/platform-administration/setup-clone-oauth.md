@@ -84,5 +84,5 @@ The target instance is registered and authorized for clone requests.
 ## What to do next
 
 -   To submit a clone request to the new target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_StartAClone.md).
--   To reset or re-authorize OAuth for this target, see .
+-   To reset or re-authorize OAuth for this target, see [Reset OAuth for a clone target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/reauthorize-clone-target.md).
 

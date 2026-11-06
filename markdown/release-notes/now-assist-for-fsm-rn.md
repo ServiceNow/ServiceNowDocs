@@ -31,7 +31,7 @@ See  for more information.
 
 -   **Activation information**
 
-    Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   **Additional requirements**
 

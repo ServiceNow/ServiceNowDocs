@@ -1,30 +1,30 @@
 ---
 title: Review and update the equipment model details
-description: Review and update the details for an equipment model that you imported into the ServiceNow AI Platform so that you can make sure that the information is correct. You can also manually create a new equipment model entity and then add details to it.
+description: Review and update details for imported equipment models to verify accuracy. You can also manually create an equipment model entity and add details to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/equipment-model-workspace.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
 # Review and update the equipment model details
 
-Review and update the details for an equipment model that you imported into the ServiceNow AI Platform so that you can make sure that the information is correct. You can also manually create a new equipment model entity and then add details to it.
+Review and update details for imported equipment models to verify accuracy. You can also manually create an equipment model entity and add details to it.
 
 ## Before you begin
 
-Import equipment model data to the ServiceNow AI Platform. To learn more, see [Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md).
+Import equipment model data to the ServiceNow AI Platform. For more information, see [Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md).
 
 Role required: cmdb\_ot\_isa\_viewer, cmdb\_ot\_isa\_editor, cmdb\_ot\_isa\_admin.
 
 ## About this task
 
-If you have an assigned cmdb\_ot\_isa\_viewer role, you can only view equipment model entities. If you have any of the other assigned cmdb\_ot\_isa roles, you can also edit equipment model entities.
+If you have an assigned cmdb\_ot\_isa\_viewer role, you can only view equipment model entities. With the admin role, you have edit access to all sites automatically. With editor role, you have edit access to sites you have been granted edit access to. Only these two roles can edit sites and their EMEs.
 
 ## Procedure
 
@@ -36,33 +36,33 @@ If you have an assigned cmdb\_ot\_isa\_viewer role, you can only view equipment 
 
 3.  Review an existing equipment model entity, or create one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33509e113">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33484e119">
 
 Task
 
-</th><th align="left" id="d33509e116">
+</th><th align="left" id="d33484e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33509e122">
+</th></tr></thead><tbody><tr><td id="d33484e128">
 
 **Review and update an existing equipment model**
 
 </td><td>
 
 In the selector pane, do the following actions:1.  Expand the equipment model hierarchy.
-2.  Click the entity that you want to view.
+2.  Select the entity that you want to view.
 
 
-</td></tr><tr><td id="d33509e140">
+</td></tr><tr><td id="d33484e146">
 
 **Create an equipment model entity and populate the details**
 
 </td><td>
 
-1.  Click **Create new entity**.
-2.  In the Create new entity form, fill in the details. To learn more, see [Create an entity for a new equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md).
-3.  Click **Save**.
+1.  Select **Create new entity**.
+2.  In the **Create new entity** form, fill in the details. For more information, see [Create an entity for an equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md).
+3.  Select **Save**.
 4.  Use the Equipment model view details form to enter the remaining details for the new equipment model entity.
 
 
@@ -123,7 +123,7 @@ Area in an industrial site.
 
 Work center in an industrial site.
 
- Search for and select an equipment level to assign to the equipment model entity. To learn more, see [Create hierarchical sorting levels for an equipment model template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-equipment-model-template-levels.md).
+ Search for and select an equipment level to assign to the equipment model entity. To learn more, see [Create sorting levels for equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-equipment-model-template-levels.md).
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ View the equipment model hierarchy
 
 </td><td>
 
-See [View the equipment model hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/viewing-equipment-model-hierarchy.md).
+For more information, see [View the equipment model hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/viewing-equipment-model-hierarchy.md).
 
 </td></tr><tr><td>
 
@@ -280,8 +280,8 @@ Map the upstream production processes for the equipment model entity.
 
 </td><td>
 
-1.  Click **Upstream Process**.
-2.  To learn more, see [Map the upstream production processes for the selected equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-upstream-production-processes-equipment-model-entity.md).
+1.  Select **Upstream Process**.
+2.  For more information, see [Map the upstream production processes for an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-upstream-production-processes-equipment-model-entity.md).
 
 
 </td></tr><tr><td>
@@ -290,8 +290,8 @@ Map the downstream production processes for the equipment model entity.
 
 </td><td>
 
-1.  Click **Downstream Process**.
-2.  To learn more, see [Map the downstream production processes for the selected equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-downstream-production-processes-equipment-model-entity.md).
+1.  Select **Downstream Process**.
+2.  For more information, see [Map the downstream production processes for an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-downstream-production-processes-equipment-model-entity.md).
 
 
 </td></tr><tr><td>
@@ -300,8 +300,8 @@ View the child entities for the equipment model entity.
 
 </td><td>
 
-1.  Click **Child Entities**.
-2.  To learn more, see [Review the child entities for the equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-child-entities-equipment-model-entity.md).
+1.  Select **Child Entities**.
+2.  For more information, see [Review the child entities for the equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-child-entities-equipment-model-entity.md).
 
 
 </td></tr><tr><td>
@@ -310,17 +310,17 @@ View the OT devices that are associated with the current equipment model entity 
 
 </td><td>
 
-1.  Click **Mapped OT Devices**.
-2.  To learn more, see [Add OT devices that are associated with the selected equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.md).
- **Note:** By default, you cannot see OT control modules in this list.
+1.  Select **Mapped OT Devices**.
+2.  For more information, see [Add OT devices associated with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.md).
+ **Note:** By default, you can't see OT control modules in this list.
 
 </td></tr></tbody>
 </table>6.  When you finish reviewing and updating the equipment model details, do one of the following actions.
 
     |Action|Description|
     |------|-----------|
-    |**Save the updated equipment model entity**|Click **Save**.|
-    |**Delete the equipment model entity**|Click **Delete**.|
+    |**Save the updated equipment model entity**|Select **Save**.|
+    |**Delete the equipment model entity**|Select **Delete**.|
 
 
 ## What to do next
@@ -333,7 +333,7 @@ To view the roll up for OT data associated with the equipment model entity and i
 -   Vulnerable Items
 -   Remediation Tasks
 
--   **[Create an entity for a new equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md)**  
+-   **[Create an entity for an equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md)**  
 Create an entity for a new equipment model. You do this task when you want to manually create a new equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
 -   **[View the equipment model hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/viewing-equipment-model-hierarchy.md)**  
 View a graphical representation of the hierarchical structure of the selected equipment model entity, and its relationships to other entities in the production process.
@@ -341,13 +341,13 @@ View a graphical representation of the hierarchical structure of the selected eq
 View the graphical representation of the selected equipment model entity and its relationship to other Operational Technology \(OT\) devices in the production process.
 -   **[View the equipment model OT dependency map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-equipment-model-ot-dependency-map.md)**  
 View the graphical representation of the hierarchical structure of the selected equipment model entity and its relationship with other entities and devices in the production process.
--   **[Map the upstream production processes for the selected equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-upstream-production-processes-equipment-model-entity.md)**  
+-   **[Map the upstream production processes for an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-upstream-production-processes-equipment-model-entity.md)**  
 Use the upstream process to review upstream production processes for the selected equipment model entity. You can also create and map a new upstream production process for the equipment model entity.
--   **[Map the downstream production processes for the selected equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-downstream-production-processes-equipment-model-entity.md)**  
-Use the downstream process to review the downstream production processes for the selected equipment model entity. You can also create and map a new downstream production process for the equipment model entity.
+-   **[Map the downstream production processes for an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-downstream-production-processes-equipment-model-entity.md)**  
+Review, create, and map downstream production processes for the selected equipment model entity.
 -   **[Review the child entities for the equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-child-entities-equipment-model-entity.md)**  
 Review the child entities that are associated with the selected equipment model entity. You can review the relationships of the associated entities that are subordinate to a higher-level entity.
--   **[Add OT devices that are associated with the selected equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.md)**  
+-   **[Add OT devices associated with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-ot-assets-equipment-model-entity.md)**  
 Use OT devices to review the OT devices that are associated with the selected equipment model entity and its child entities. You can also select and associate other OT devices to the selected equipment model entity.
 -   **[Update the entity name or parent of an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/update-the-name-or-parent-equipment-model-entity.md)**  
 Update the entity name or parent fields in an equipment model entity record as needed to help keep your equipment model information up to date.

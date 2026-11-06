@@ -20,7 +20,7 @@ Use pre-chat survey information to determine the appropriate Virtual Agent conve
 
 -   [Configure the chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-context-variables.md) for storing user answers to specific questions in your chat surveys.
 -   As you [create your chat survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/create-chat-surveys.md), map a survey question to a new or existing chat context variable. The variable stores the user response that Virtual Agent uses to determine topic context intent and the conversation topic displayed.
--   Role required: virtual\_agent\_ admin or admin
+-   Role required: virtual\_agent\_admin or admin
 
 ## About this task
 

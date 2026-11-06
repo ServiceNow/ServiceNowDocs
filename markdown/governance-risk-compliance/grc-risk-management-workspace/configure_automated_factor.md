@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,13 +24,13 @@ Role required: sn\_risk.admin
 
 ## About this task
 
-Automated factors help automate the risk assessment process. They do not to rely on manual inputs, and they thus reduce subjectivity. All the responses to automated factors are automatically calculated during the assessment.
+Automated factors help automate the risk assessment process. They don't rely on manual inputs, which helps reduce subjectivity. Responses to all automated factors are calculated automatically during the assessment.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Administration** &gt; **Automated Factors**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -112,7 +112,7 @@ Transform qualitative score
 
 </td><td>
 
-Option to transform the overall group qualitative score based on an interval scale.For example, assume the **User response** field is set to **Percentage**. As the admin, you can transform the percentage value into a qualitative score, such that 0% to 30% is low, 30% to 60% is medium, and 60% and higher is high. In this case, the ratings 1, 2, and 3 can be assigned to low, medium, and high.
+Option to transform the overall group qualitative score based on an interval scale.For example, assume the **User response** field is set to **Percentage**. Transform the percentage value into a qualitative score: 0% to 30% is low, 30% to 60% is medium, and 60% and higher is high. In this case, the ratings 1, 2, and 3 can be assigned to low, medium, and high.
 
  This field appears only when **Qualitative** is selected from the**Factor contribution** field.
 
@@ -283,15 +283,15 @@ Next run date
 Date when the factor runs again. This field is automatically set based on the selections made on the form.
 
 </td></tr></tbody>
-</table>4.  Click the Supporting Data section.
+</table>4.  Select the Supporting Data section.
 
 5.  For the data that you want to collect, move the corresponding fields from the Available list to the Selected list.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 7.  Open the factor that you created.
 
-8.  Click **Publish**.
+8.  Select **Publish**.
 
 
 ## Result

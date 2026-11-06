@@ -39,7 +39,7 @@ The discovery and mapping process consists of the following interactions:
 
         \[Omitted image "DiscoDiscoveryFlowStage1.png"\] Alt text: Service Mapping checks the CMDB and triggers the horizontal discovery.
 
-    3.  Discovery creates the first set of probes for port discovery, referred to as Shazzam probes, and places them as a discovery request in the External Communication Channel \(ECC\) queue.
+    3.  Discovery creates the first set of probes for port discovery, referred to as Shazzam probes. It places them as a discovery request in the External Communication Channel \(ECC\) queue.
     4.  The MID Server checks the ECC queue and retrieves the discovery request assigned to it.
     5.  The MID Server runs the probes against the host and discovers open ports.
 

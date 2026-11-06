@@ -23,7 +23,7 @@ Set up an Agent Client Collector \(ACC\) by creating an agent registration key t
 -   **[Test connectivity to the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/test-connectivity-to-instance.md)**  
 Test the ServiceNow DEX instance network connectivity.
 -   **[Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md)**  
-Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance.
+Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance. This installation supports the Microsoft Windows operating system.
 -   **[Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md)**  
 Install Agent Client Collector \(ACC\) to monitor and collect data in a centralized and organized manner, provide insights into system performance, identify issues, and enable proactive maintenance.
 -   **[Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/config-sudoers-file.md)**  

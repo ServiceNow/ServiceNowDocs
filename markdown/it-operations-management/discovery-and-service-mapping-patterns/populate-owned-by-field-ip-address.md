@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [IP address discovery, cmdb\_ci\_ip\_address, owned by configuration item, AIX discovery]
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Populate the **Owned By Configuration Item** field on discovered IP address reco
 
 ## Before you begin
 
-Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: discovery\_admin
 

@@ -24,26 +24,26 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d250256e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d250801e52">
 
 Option
 
-</th><th align="left" id="d250256e55">
+</th><th align="left" id="d250801e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d250256e61">
+</th></tr></thead><tbody><tr><td id="d250801e61">
 
 **From the List menu**
 
 </td><td>
 
 1.  From the primary navigation, click the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\).
-2.  Click the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
-3.  Click **New Incident**.
+2.  Select the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
+3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d250256e100">
+</td></tr><tr><td id="d250801e100">
 
 **From an incident list**
 
@@ -58,10 +58,10 @@ Description
     -   Open
     -   Resolved
     -   All
-2.  Click **New**.
+2.  Select **New**.
 
 
-</td></tr><tr><td id="d250256e140">
+</td></tr><tr><td id="d250801e140">
 
 **From an interaction**
 
@@ -279,7 +279,7 @@ Caused by Change
 Associated change request that prompted the creation of the incident.
 
 </td></tr></tbody>
-</table>3.  Click **Save**.
+</table>3.  Select **Save**.
 
 
 **Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/incident-sow.md)

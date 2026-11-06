@@ -30,15 +30,15 @@ If you have the admin role, you can install the ServiceNow Otto for RPA Hub appl
 
 1.  Perform any of the following tasks to install the ServiceNow Otto for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d105703e123">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d105244e123">
 
 Option
 
-</th><th align="left" id="d105703e126">
+</th><th align="left" id="d105244e126">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d105703e132">
+</th></tr></thead><tbody><tr><td id="d105244e132">
 
 **From AI Admin Hub**
 
@@ -51,7 +51,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d105703e196">
+</td></tr><tr><td id="d105244e196">
 
 **From System Applications**
 

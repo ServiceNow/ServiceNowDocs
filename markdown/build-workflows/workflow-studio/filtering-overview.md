@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Filter decision tables
@@ -30,4 +30,6 @@ The default filtering operator is "is", when no other filtering is applied.
 The following image shows a table interface that includes filtering functionality.
 
 \[Omitted image "filtering-decision-table.png"\] Alt text: Decision Table Filter
+
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

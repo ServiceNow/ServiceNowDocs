@@ -8,8 +8,8 @@ product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # Now Mobile app
@@ -66,5 +66,5 @@ Access the demo in your Now Mobile app to learn how the app can help you work fr
 -   **[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)**  
 Configure options for the Now Mobile app. For example, you can link the app with a service catalog and knowledge base, personalize the greeting for the home page, and specify which records appear under **My Requests** in the **For Me** tab.
 
-**Parent Topic:**[Unified Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
+**Parent Topic:**[EmployeeWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 

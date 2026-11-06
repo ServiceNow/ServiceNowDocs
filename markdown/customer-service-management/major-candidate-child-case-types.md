@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/major-candidate-child-case-types.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-10-28"
 reading_time_minutes: 4
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
@@ -49,9 +49,9 @@ If a major case candidate is rejected, the system reverts it to a regular case.
 
 ## Child cases
 
-Child cases are linked to a major case. The system creates one child case for each account \(B2B\) or consumer \(B2C\) that is affected by the major case issue. Child cases are created from the recipients list on the major case, and a major issue manager can also add them manually.
+Child cases are linked to a major case. The system creates one child case for each account \(B2B\), consumer \(B2C\), or business organization that is affected by the major case issue. Child cases are created from the recipients list on the major case, and a major issue manager can also add them manually.
 
-When the system creates child cases, it copies the short description from the major case to each child case. The system does not create duplicate child cases. If a child case already exists for an account or consumer, the system does not create another one.
+When the system creates child cases, it copies the short description from the major case to each child case. The system does not create duplicate child cases. If a child case already exists for an account, consumer, or business organization, the system does not create another one.
 
 When you create child cases, you can enter text in a pop-up window. This text is added to the **Work notes** field on the child case form. These comments are added only to the newly created child cases. The major case and any existing child cases are not updated.
 

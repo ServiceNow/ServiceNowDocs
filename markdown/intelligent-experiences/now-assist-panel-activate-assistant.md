@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-09-29"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Activate ServiceNow Otto panel assistants
@@ -29,5 +29,5 @@ Role required: admin
 3.  In the more actions icon, select **Active**.
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
 

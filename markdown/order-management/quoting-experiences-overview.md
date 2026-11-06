@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Quote Experience
-description: CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. An integrated pricing service prices quotes manually or automatically, and consistent workflows and governance apply wherever your sales teams operate.
+description: ServiceNow CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. An integrated pricing service prices quotes manually or automatically, and consistent workflows and governance apply wherever your sales teams operate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quoting-experiences-overview.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship 
 
 # ServiceNow Quote Experience
 
-CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. An integrated pricing service prices quotes manually or automatically, and consistent workflows and governance apply wherever your sales teams operate.
+ServiceNow CPQ provides a unified Quote Experience for creating, pricing, approving, and completing quotes. An integrated pricing service prices quotes manually or automatically, and consistent workflows and governance apply wherever your sales teams operate.
 
 ## Quote Experience
 
@@ -42,7 +42,7 @@ The product configurator lets users select and configure products directly withi
 
 ## Implementation considerations
 
-CPQ supports a range of deployment models and regulatory requirements:
+ServiceNow CPQ supports a range of deployment models and regulatory requirements:
 
 -   Deploy cloud-first implementations for modern, composable quoting experiences.
 -   Support tailored implementations for on-premises or federally regulated environments.
@@ -67,7 +67,7 @@ The Quote Experience prices quotes through an integrated pricing service. When p
 
 For a conceptual overview of how the pricing service integrates with the Quote Experience, including pricing states and repricing, see [Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-in-quote-experience.md). Administrators configure the pricing connection and repricing behavior as part of setting up the quoting experience. For more information, see [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md).
 
-## Supported use cases for the CPQ
+## Supported use cases for the ServiceNow CPQ
 
 Use the Quote Experience when you need a scalable, configurable quote solution that:
 

@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-28"
 reading_time_minutes: 7
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -189,7 +189,7 @@ Discount percentage
 
 </td><td>
 
-Discount provided if the minimum spend requirement is met.This field isn’t displayed for a blanket order type.
+Discount provided if the minimum spend requirement is met. The value is copied to the purchase order when it is created, and the application does not recalculate it.This field isn’t displayed for a blanket order type.
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ Minimum spend
 
 </td><td>
 
-Minimum amount that must be spent to avail a discount.This field isn’t displayed for a blanket order type.
+Minimum amount that must be spent to avail a discount. The value is copied to the purchase order when it is created, and the application does not recalculate it.This field isn’t displayed for a blanket order type.
 
 </td></tr><tr><td>
 

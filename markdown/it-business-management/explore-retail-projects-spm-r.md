@@ -30,7 +30,7 @@ Retail companies run hundreds of store projects every year. A large grocery chai
 
     For example: If the IT team doesn't get notified that construction is complete, POS installation sits idle for weeks.
 
--   No visibility at the portfolio level: executives need to know how all store projects are progressing against timeline, budget, and completion targets. Without a common data model \(shared fields, shared milestones, shared project types\), rolling up status, comparing progress, or spotting risks across the portfolio is difficult.
+-   No visibility at the portfolio level: executives need how all store projects are progressing against timeline, budget, and completion targets. Without a common data model \(shared fields, shared milestones, shared project types\), rolling up status, comparing progress, or spotting risks across the portfolio is difficult.
 
 ## Common project structure for every store scenario
 
@@ -42,7 +42,7 @@ For example, a New Store Opening template comes preloaded with tasks organized a
 
 Some of the work in a store life cycle project is completed by the store itself rather than by a headquarters team. Set the **Visible to customer** field on a project task to let the assigned store team see that task and act on it in Retail. A project task without this field set remains visible only to headquarters.
 
-Store personas see only the project tasks for the retail organization that they belong to, so a task that is tagged to one store isn't visible to the staff of another store. For information about how store teams work these tasks, see .
+Store personas see only the project tasks for the retail organization that they belong to. A task that is tagged to one store isn't visible to the another staff. For information about how store teams work these tasks, see .
 
 ## Retail-specific project fields that enable structured tracking
 

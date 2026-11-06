@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-10-16"
 reading_time_minutes: 7
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -89,6 +89,12 @@ If you need to track work items at a single level \(for example, stories for you
 -   **Personalized column display**
 
     Customize which columns appear in the hierarchy grid and adjust column widths to match your workflow. Your preferences persist across sessions, so you see your configured view each time you return. For more information, see [Personalize column layout of Hierarchy in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/personalize-column-layout-of-hierarchy-in-eap.md).
+
+-   **Progress rollup**
+
+    The **Percent complete by estimate** column shows progress for epics, capabilities, and features. The value is the story points of completed stories as a percentage of the total story points under the item.
+
+    The system calculates the rollup fields automatically, and you can't edit them. The **Percent complete** field isn't updated by the rollups, so use **Percent complete by estimate** or **Percent complete by count** for reporting.
 
 -   **Direct record access**
 

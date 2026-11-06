@@ -1,6 +1,6 @@
 ---
-title: CPQ Quote header fields
-description: Descriptions of the fields available in the quote header in CPQ.
+title: ServiceNow CPQ Quote header fields
+description: Descriptions of the fields available in the quote header in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-header-fields.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# CPQ Quote header fields
+# ServiceNow CPQ Quote header fields
 
-Descriptions of the fields available in the quote header in CPQ.
+Descriptions of the fields available in the quote header in ServiceNow CPQ.
 
 The following table describes the fields available in the quote header. The fields visible on your quote depend on the layout configured by your administrator. Fields marked as reference fields look up values from ServiceNow tables.
 

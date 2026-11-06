@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-developme
 release: australia
 topic_type: concept
 last_updated: "2026-09-22"
-reading_time_minutes: 9
+reading_time_minutes: 10
 keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: developer
 breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -52,7 +52,13 @@ You can upload supported file types, such as images, code, and documents, to pro
 
 While creating and updating applications is the primary use case for Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
 
+Build Agent is aware of your instance and its data model, so it can analyze existing applications, including custom scoped applications. For more information, see [Build Agent use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/additional-build-agent-use-cases.md).
+
 To use Build Agent as part of an end-to-end development practice that includes Git, the ServiceNow SDK, ReleaseOps, and CI/CD pipelines, see the [SDLC on ServiceNow guide](https://servicenow.github.io/sdk/guides/sdlc-guide) in the ServiceNow SDK documentation.
+
+## Autonomous Engineer
+
+For large or complex implementations, you can use Autonomous Engineer to go from requirements to a working implementation without building each artifact manually. Autonomous Engineer conducts an interview, generates a plan with work items, and builds all work items in parallel in the background. For more information, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer.md).
 
 ## Playbook Designer support
 

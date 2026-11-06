@@ -77,9 +77,9 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For nested loops, each loop has its own maximum number of iterations.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md).
+    -   For bulk imports, consider concurrent imports.
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
+    -   QuickAPI executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**
@@ -154,7 +154,7 @@ Reasons to use a subflow instead of a flow include the following:
     -   To configure parallel subflows, launch each subflow without a wait and then use wait for condition to wait for each subflow to be terminal \(complete, error, canceled\)
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
 
 -   **Avoid the 10-item limit in the error-handling-process**
 
@@ -251,7 +251,7 @@ Follow these general guidelines when creating flows or subflows with stages.
 
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
 
 -   **Ensure dynamically called subflow inputs match template flow inputs**
 
@@ -330,7 +330,7 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Consider dynamic inputs for third-party integrations**
 
-    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
 
 -   **Be aware of the time required to retrieve large amounts of data**
 
@@ -355,7 +355,7 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Use dynamic outputs for third-party integrations**
 
-    Use dynamic outputs to introspect and fetch data from external systems during the flow design. For example, you can specify service endpoints or call actions that interact with specific endpoint APIs. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+    Use dynamic outputs to introspect and fetch data from external systems during the flow design. For example, you can specify service endpoints or call actions that interact with specific endpoint APIs. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
 
 -   **Note the time that is required to retrieve large amounts of data**
 

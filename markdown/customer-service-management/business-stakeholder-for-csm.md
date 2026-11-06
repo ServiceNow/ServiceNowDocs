@@ -497,5 +497,7 @@ Internal
 
 [Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/business-stakeholder-role-ppm.md)
 
+[bundle-appportman.business-stakeholder-role-apm]
+
 [Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-business-stakeholder.md)
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-25"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, edit]
-breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Edit an Explicit Block policy
@@ -52,7 +52,7 @@ The policy takes effect with your changes at every enforcement point it applies 
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
 To try a variant of a policy without changing what's already published, clone it instead of editing it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-clone-policy.md).
 

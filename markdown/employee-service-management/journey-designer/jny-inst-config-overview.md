@@ -18,10 +18,12 @@ The Journey designer app has multiple versions that have different installation 
 
 -   **[Install Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-install-version-3.md)**  
 Install the Journey designer version 3 \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
+-   **[Install Employee Journeys for EmployeeWorks and Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/ejm-install-employeework.md)**  
+Install the Employee Journeys for EmployeeWorks and Employee Slate version 1 application to enable employees and managers to view, navigate, and complete journeys in EmployeeWorks.
 -   **[Add or repair demo data for applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-install-repair-app-plugin.md)**  
 If the demo data wasn’t added during the initial installation, administrators can add demo data to a plugin using **Repair** install.
 -   **[Fix Restricted Caller Access \(RCA\) approval requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-manual-rca-fix.md)**  
-After you install or upgrade to the latest Journey designer application from ServiceNow Store, you might encounter RCA approval messages requesting for an update in the access request.
+After you install or upgrade to the latest Journey designer application or Employee Journeys for EmployeeWorks and Employee Slate plugin from ServiceNow Store, you might encounter RCA approval messages requesting for an update in the access request.
 -   **[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-configuration.md)**  
 Administrators configure Journey designer for the needs of their organization.
 -   **[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)**  

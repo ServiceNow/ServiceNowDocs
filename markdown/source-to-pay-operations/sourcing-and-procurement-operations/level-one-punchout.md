@@ -37,6 +37,10 @@ The cart checkout flow involves the following:
 -   After SPO receives the PunchOutOrderMessage payload, it processes the information and creates the corresponding SPO cart lines.
 -   The user then reviews the cart in SPO and proceeds to checkout. Upon successful checkout, a purchase requisition \(PR\) is created.
 
+The supplier part number and supplier part auxiliary ID on the purchase line are copied from the `SupplierPartID` and `SupplierPartAuxiliaryID` elements of each item in the PunchOutOrderMessage. Punchout products are not stored in the instance, so these values come only from the message. If the supplier does not send these elements, the fields stay blank on the purchase line.
+
+**Note:** Make sure the punchout supplier includes `SupplierPartAuxiliaryID` in the items it returns. The auxiliary ID is also used to set the line number when the purchase order is sent back to the supplier.
+
 The following figure illustrates this flow:
 
 \[Omitted image "punchout-cart-checkout.png"\] Alt text: Cart checkout from punchout system.

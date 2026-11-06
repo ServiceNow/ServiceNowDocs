@@ -63,7 +63,7 @@ Both single and mass upgrade attempts, progress through the following stages. Ea
 
 For details on the required properties for agent overview, see [Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-agent-upgrade-properties.md).
 
-High-volume upgrade does not support Agent Client Collector to MID Server communication via mTLS.
+Selective upgrade doesn't support Agent Client Collector to MID Server communication via mTLS.
 
 When performing high-volume upgrade, all agents that aren't using the most up-to-date version are upgraded. No upgrade is performed on agents already using the upgraded version.
 

@@ -24,7 +24,7 @@ As an administrator, you can extend from existing base case types that are provi
 
 Creating a new case type can include creating a new table that is an extension of an existing case, or creating an entirely new case type. Typically this involves creating new roles, modules, workspaces, and other required entities. For additional information on case types, see [Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)
 
-All Public Sector Digital Services applications have a base case type table. Use the base case type table when adding a new case type for that application. For example, if you need a new case type in License and Permit Playbook, extend the License and Permit Base Case table, which is itself an extension of the Government Service base case table and was created to capture more specific information related only to a License and Permit case. However, if there is need for a new case type for which there is no base application in PSDS that works, extend the base PSDS case \[sn\_govservice\_case\] table.For more information on the base tables installed with each Public Sector Digital Services application, see [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/public-sector-digital-services-data-model.md).
+All Public Sector Digital Services applications have a base case type table. Use the base case type table when adding a new case type for that application. For example, if you need a new case type in License and Permit Administration, extend the License and Permit Base Case table, which is itself an extension of the Government Service base case table and was created to capture more specific information related only to a License and Permit case. However, if there is need for a new case type for which there is no base application in PSDS that works, extend the base PSDS case \[sn\_govservice\_case\] table.For more information on the base tables installed with each Public Sector Digital Services application, see [Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/public-sector-digital-services-data-model.md).
 
 You can use both case types and service definitions to define the data and processes that are needed to resolve a government service request. For more information on service definitions in Public Sector Digital Services, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-service-definitions.md)
 
@@ -100,7 +100,7 @@ Provides an end-to-end workflow for handling applications for one or more social
 
 </td></tr><tr><td>
 
-License and Permit Playbook\(sn\_gsm\_license\_permit\)
+License and Permit Administration\(sn\_gsm\_license\_permit\)
 
 </td><td>
 
@@ -116,7 +116,7 @@ Playbook that provides step-by-step guidance through the life cycle of an inform
 
 </td></tr><tr><td>
 
-Service Request Playbook \(sn\_gsm\_srvc\_req\)
+Service Request Administration \(sn\_gsm\_srvc\_req\)
 
 </td><td>
 

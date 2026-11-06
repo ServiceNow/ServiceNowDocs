@@ -40,13 +40,13 @@ Follow this procedure to start a Sidebar discussion:
 
     |Field|Description|
     |-----|-----------|
-    |Link a record|Select **Link a record** if you want to connect this Sidebar discussion to a record. \(If you link to a record, the discussion will no longer be a standalone discussion.\) A new discussion dialog appears and you can enter the record number of the record you want to link to. Any participants who do not have access to the record are automatically removed from the discussion.|
+    |Link a record|Select **Link a record** if you need to connect this Sidebar discussion to a record. \(If you link to a record, the discussion is no longer a standalone discussion.\) A new discussion dialog appears and you can enter the record number of the record you need to link to. Any participants who do not have access to the record are automatically removed from the discussion.|
     |Subject|Enter a brief description for the conversation.|
     |Add participants|Select the user\(s\) or user group\(s\) to include in the discussion.|
     |Include a brief message for participants|Enter a short message for the participants of the Sidebar discussion.|
     |Private discussion|Standalone discussions are always private and access is limited to only the user and other discussion participants. These discussions are marked "private" and can't be converted to not private. Private discussions are not visible to non-participants in search results.|
 
-5.  Once you start a discussion, you can edit and delete messages.
+5.  After you start a discussion, you can edit and delete messages.
 
 <table id="table_b2r_3jb_p2c"><thead><tr><th>
 

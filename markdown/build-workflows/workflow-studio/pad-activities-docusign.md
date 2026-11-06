@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -18,7 +18,7 @@ Enable agents and fulfillers to collect electronic signatures during a playbook 
 
 ## Roles and availability
 
--   These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+-   Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 -   You must have access to Workflow Data Fabric's Docusign spoke.
 
 ## Inputs

@@ -44,6 +44,10 @@ The Employee details updater AI agent enables you to update personal information
 
 The View paychecks AI agent enables you to view paycheck summaries for the selected period.
 
+## View compensation details AI agent
+
+The View Compensation Details AI agent answers questions about your compensation details and those of your employees.
+
 **Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  

@@ -7,7 +7,7 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 breadcrumb: [Administering, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -68,7 +68,7 @@ Sandbox alias
 
 </td><td>
 
-Name that's used in the unique URL for the sandbox.
+Name that's used in the unique URL for the sandbox. The name must be 1 to 20 characters long and can contain lowercase letters, numbers, and hyphens. The name must include at least one letter and can't start or end with a hyphen.
 
 </td></tr></tbody>
 </table>    \[Omitted image "dev-sbx-allocate-modal.png"\] Alt text: Fill in the Allocate Sandbox form
@@ -86,5 +86,5 @@ Developer Sandboxes starts the process of provisioning the sandbox.
 
 Once allocated, developers can access their sandbox by pre-pending the **Sandbox alias** value to the instance name followed by `devsandboxes`. For example, `https://samsbox.[instance].devsandboxes.servicenow.com`.
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes using the same credentials. For information on enabling SSO, see [Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-sso.md).
 

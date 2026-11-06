@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-ass
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Legal Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -20,6 +20,8 @@ The ServiceNow Otto for Legal Service Delivery \(LSD\) application leverages gen
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Legal Service Delivery \(LSD\). Check your entitlements to determine your access to specific features.
 -   Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms.
 -   Legal Request and Matter summarization now considers data from extended practice area tables when summarizing.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Activation and other requirements
 

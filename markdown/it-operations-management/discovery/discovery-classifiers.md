@@ -7,8 +7,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-11-01"
+reading_time_minutes: 6
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -18,7 +18,7 @@ A classifier tells Discovery which probes to trigger for the identification and 
 
 The classifier essentially starts the identification stage. Discovery uses it after the classification probe returns important parameters to the instance that tell Discovery what to do next.
 
-In most cases, you do not need to create a classifier or modify a classifier. But if you are having trouble with horizontal discovery, you might want to check the conditions that determine when a classifier runs based on the parameters the classification probe returns to the instance. Or if you want to discover a new type of CI that Discovery does not already find, you can create your own classifier.
+In most cases, you do not need to create or modify a classifier. If you are having trouble with horizontal discovery, check the conditions that determine when a classifier runs. These conditions are based on the parameters the classification probe returns to the instance. To discover a new CI type that Discovery does not already find, create your own classifier.
 
 ## Device, process, and IP address classification
 
@@ -53,7 +53,7 @@ Discovery classification can be broken down into three types: device classificat
 
 -   **IP address \(IP scan\) classification**
 
-    IP address discovery is credential-less, meaning that it attempts to identify devices and software based on just the open ports and banners it finds without requiring you to create credentials. If the classification criteria are met for a device in the IP Scan mode, Discovery automatically updates the CI in the CMDB. After a device is properly classified, Discovery launches the exploration probes configured for that class of device and begins gathering detailed information about the CI.
+    IP address discovery is credential-less. It identifies devices and software using only the open ports and banners it finds, without requiring credentials. If the classification criteria are met for a device in the IP Scan mode, Discovery automatically updates the CI in the CMDB. After a device is properly classified, Discovery launches the exploration probes configured for that class of device and begins gathering detailed information about the CI.
 
     In the default Discovery system, the Linux classifier triggers eleven exploration probes that return information such as disk size, memory, and the number of current connections. The data from these probes returns at different times and is stored in the ECC Queue until processing is complete.
 
@@ -104,5 +104,5 @@ Enables debugging information for process classification. -   **Type**: true \| 
     Before you modify any classifiers, [review the parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/classification-parameters.md) that are available for each type of classifier.
 
 -   If Windows machines are on your network, you can use the WinRM protocol, rather than WMI, for more efficient lightweight data transfer and remote command execution. By default, Discovery uses WMI. For instructions on the classifier modifications you can make to use WinRM, see [Use Windows Remote Management for classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_EnableDeviceClassWinRemoteMgmt.md).
--   If you have Windows computers that are acting as servers and you want them to be classified by their function rather than by the operating system, you can make changes to the criteria of the Windows classifier. See [Reclassify a Windows Workstation machine as a server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ReClassWinWorkstnAsSvr.md) for instructions.
+-   To classify Windows computers that act as servers by function rather than by operating system, update the criteria of the Windows classifier. See [Reclassify a Windows Workstation machine as a server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ReClassWinWorkstnAsSvr.md) for instructions.
 

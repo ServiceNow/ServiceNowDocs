@@ -35,7 +35,7 @@ As a search administrator, you can customize the actions available for NLQ Geniu
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `ais_nlq_navigation.list`.
+    2.  In the navigation field, enter `ais_nlq_navigation.list`.
 
     3.  Press Enter.
 

@@ -29,7 +29,7 @@ To access User Trails, navigate to **All** &gt; **System Security** &gt; **Ident
 |User Name|Name of the user.|
 |User Sys id|The User sys\_id for the audited record.|
 |Source Table|Details about the Source Table where the audit was performed.|
-|Action|Describes the audit action.|
+|Action|Audit action.|
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|
 

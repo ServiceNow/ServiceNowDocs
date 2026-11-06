@@ -48,7 +48,7 @@ Considerations while calculating TCO:
 
 ## TCO benchmark and threshold
 
-After you specify a TCO benchmark cost, the TCO benchmark threshold is automatically calculated by multiplying the TCO Benchmark by the TCO benchmark threshold percentage. You can manually override the TCO benchmark threshold by changing the percentage in the **asset\_tco\_benchmark\_threshold\_percentage** system property.
+After you specify a TCO benchmark cost, the TCO benchmark threshold is automatically calculated by multiplying the TCO Benchmark by the TCO benchmark threshold percentage. You can manually override the TCO benchmark threshold by changing the percentage in the **sn\_itam\_common.asset\_tco\_benchmark\_threshold\_percentage** system property.
 
 You can manually override the TCO benchmark threshold by changing the value on the **TCO benchmark threshold** field in the Financial section of a model form.
 

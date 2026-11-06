@@ -26,6 +26,8 @@ Use the  **View agents table ** button to see detailed agent lists and attri
 
 Use the **Device overview** button in the End user device overview banner to open the DEX Dashboard in a new tab. The Devices page stays open in the original tab. For more information, see [Landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-workspace-dashboard-tab.md).
 
+**Note:** Users with the `sn_dex.service_desk_user` role can't access dashboards, so the end-user device overview banner on the Device list page doesn't appear.
+
 For more details on each field, see [Devices list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/devices-form.md).
 
 **Note:** Select a device to view the device details page. Similarly, select a device on the user details page to view specific information about the device. For more details on a user's device, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.md) and related subtopics.

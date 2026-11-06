@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/plugins-activated-with-csm.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-14"
 reading_time_minutes: 3
 breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -183,4 +183,5 @@ Virtual Agent Service Portal Widgets\[com.glide.va.sp\_widgets\]
 Activates the Service Portal for use as a Virtual Agent web client.
 
 </td></tr></tbody>
-</table>
+</table>**Note:** Demo and sample data plugins aren't included in the family-to-store migration. The Special Handling Notes Demo Data plugin has no store application and remains installed as a family plugin after you upgrade to Australia. Its demo data is now delivered with Special Handling Instruction \(com.snc.app\_shn\).
+

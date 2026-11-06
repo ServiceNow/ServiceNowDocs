@@ -6,18 +6,13 @@ canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-squad.h
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Exploring Impact, Impact]
 ---
 
 # Work with experts
 
 Your Impact Squad is a team of on-demand experts who work with you to take on your team's unique transformation challenges.
-
-**Note:**
-
--   If you're a Guided customer, you will have a Customer Success Manager.
--   If you're a Total customer or a Guided customer with Add-ons, you will have an Impact Squad, which includes a Customer Success Manager, Customer Success Executive, Platform Architect, and Support Account Manager. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-packages1.md) for information about available Add-ons.
 
 <table id="table_qys_dgm_25b"><thead><tr><th>
 
@@ -94,8 +89,6 @@ The Customer Impact Plan \(CIP\) is the mutually agreed strategic roadmap that f
 
 It outlines the customer journey to achieving your goals with the ServiceNow platform and is part of the Impact deliverable for Guided, Advanced, and Total customers.
 
-Your Customer Success Manager \(CSM\) actively maintains the CIP throughout the ServiceNow journey, which evolves according to your unique customer needs.
-
 The CIP contains information related to the following:
 
 -   Objectives and Outcomes
@@ -104,7 +97,7 @@ The CIP contains information related to the following:
 -   Training
 -   Platform Health
 
-The CIP serves as a roadmap to help you achieve your goals, track progress, set expectations, and adapt strategies. It involves stakeholders, such as executive sponsors, platform owners, architects, product owners, and service owners, alongside the CSM.
+The CIP serves as a roadmap to help you achieve your goals, track progress, set expectations, and adapt strategies. It involves stakeholders, such as executive sponsors, platform owners, architects, product owners, and service owners, .
 
 ## Impact Steady State
 

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -29,9 +29,9 @@ If a stage or activity is not configured to be restartable, you will not see all
 ## Procedure
 
 1.  Restart playbook
-2.  **Note:** Playbooks in a **Complete**, **Error**, or **Cancelled** state cannot be restarted.
+2.  Open your playbook.
 
-    Open your playbook.
+    **Note:** Playbooks in a **Complete**, **Error**, or **Cancelled** state can't be restarted.
 
 3.  To restart the whole playbook:
 

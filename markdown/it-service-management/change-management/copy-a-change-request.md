@@ -42,6 +42,8 @@ New change tasks can be created when a change is copied. If your change record h
 
 3.  In the change request form header, select the Additional Actions menu icon. \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change** to copy change request details.
 
+    The Additional Actions menu icon is at the top of the change request form header. Select the icon to open the menu, and then select **Copy Change**. The option does not appear when you select the change in a list check box and it is hidden when the administrator sets the **Enable Copy Change** feature \(`com.snc.change_request.enable_copy)` property to `false`.
+
     A preview of the new change record appears with values from the original source change record.
 
 4.  Edit values on the newly created change record, as appropriate.

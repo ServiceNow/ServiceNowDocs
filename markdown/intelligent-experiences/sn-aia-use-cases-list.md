@@ -263,7 +263,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/now-assist-for-MCO.md)
+ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)
 
 </td><td>
 

@@ -92,7 +92,7 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
     You can optimize discovery by limiting it to only AWS datacenters with resources.
 
-    -   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.0\).
+    -   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.1\).
 
         |IAM permission|Coverage|
         |--------------|--------|
@@ -102,7 +102,7 @@ The following diagram illustrates the tables and relationships that the AI Agent
         For more information, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Getting started with Resource Explorer" article.
 
     -   Discover only datacenters with resources by setting the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to **false**. For more information, see [Limit AWS discovery to datacenters with resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/limit-aws-discovery-active-datacenter.md).
-    -   To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.0\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
+    -   To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.1\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
     **Note:** Discovery and Service Mapping Patterns versions 1.29.0 through 1.32.0 used the AWS Config service instead of the Resource Explorer API to determine datacenter activity. For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
 
     For more information, see the **AWS resources discovery by datacenters** section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).

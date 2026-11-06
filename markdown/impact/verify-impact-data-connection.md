@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/verify-impact-data-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
@@ -59,9 +59,7 @@ Inbound status
 
 
 </td></tr></tbody>
-</table>    **Warning:** If either status does not update to Active Replication, contact your Impact Customer Success Manager for further assistance. In some cases, you may be instructed to continue with the manual registration process. See [Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiate-the-connection-impact-delivery-instance.md) for manual registration.
-
-
+</table>
 ## What to do next
 
 [Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiate-migration-idi.md)

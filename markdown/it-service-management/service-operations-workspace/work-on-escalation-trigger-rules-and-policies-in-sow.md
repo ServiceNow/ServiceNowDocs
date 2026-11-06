@@ -175,7 +175,7 @@ List of fields for a specific table which when changed causes the trigger rule t
 
 
 -   **[Create escalation trigger rules and policy from team record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.md)**  
-Navigate to team record to create new policy and trigger rules
+Create a new escalation policy and trigger rules from a team record if you have the rota\_manager or rota\_admin role.
 
 **Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

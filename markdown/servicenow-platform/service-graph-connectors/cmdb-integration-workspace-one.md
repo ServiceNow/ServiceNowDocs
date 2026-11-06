@@ -28,9 +28,9 @@ The integration imports different hardware assets into the ServiceNow® Configur
     -   VMware Workspace ONE UEM version 25.6.961.16 \(2506\)
     -   Application Discovery Manager \(ADM\) API version 2
 -   Supported ServiceNow versions:
-    -   Yokohama
     -   Zurich
     -   Australia
+    -   Brazil
 
 ## Use cases
 

@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Add content controls, Create template using Word add-in, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map clauses and clause variations
@@ -56,15 +56,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     \[Omitted image "cmpro-waddin-use-clause.png"\] Alt text: Map clauses in ServiceNow Contracts add-in
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147872e241">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d148357e241">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d147872e244">
+</th><th align="left" id="d148357e244">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147872e250">
+</th></tr></thead><tbody><tr><td id="d148357e250">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -72,7 +72,7 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d147872e270">
+</td></tr><tr><td id="d148357e270">
 
 **Create a clause and do not create any clause variation**
 
@@ -95,7 +95,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d147872e343">
+</td></tr><tr><td id="d148357e343">
 
 **Create a clause variation for an existing clause**
 

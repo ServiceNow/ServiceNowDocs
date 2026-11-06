@@ -7,7 +7,7 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Set up self-service, Configure, Customer Service Management]
 ---
@@ -25,7 +25,7 @@ Configurable Portal widgets offer the following benefits:
 -   Configurable behavior: Configure widget instance options to achieve behavioral variations tailored to your business environment.
 -   Reusability: The ability to update instance options enables you to reconfigure widgets having to create new widgets from scratch.
 -   Visual experience: Improve the usability and aesthetics of widgets and their conformance to your organization's look and feel by configuring visual aspects including colors, alignment, and styles.
--   Content modification: Control the data sources or content that you want to display on the portal by mapping the widgets to data sets and configuring filters or parameters to control the information presented.
+-   Content modification: Map widgets to data sets to control the data sources or content displayed on the portal. Configure filters or parameters to refine the information presented.
 -   No code or low code configuration: Update the data, behavior, and presentation of the widgets with minimal code or by updating the instance options.
 
 For more information on using configurable widgets in your customer portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
@@ -157,8 +157,4 @@ Display key information of a record from the tables available on ServiceNow® ta
 Displays topics as cards on your portal page enabling your users to access knowledge articles and catalog items related to a topic displayed on your portal in a Portal Browse Taxonomy widget.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md)
-
+</table>

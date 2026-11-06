@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-27"
 reading_time_minutes: 1
 keywords: [TOTP, authenticator app, security, action approvals]
-breadcrumb: [Use, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Use, ServiceNow Arc, Enable AI experiences]
 ---
 
 # Set up TOTP authorization for sensitive actions
@@ -19,7 +19,7 @@ Set up TOTP authorization to add another layer of security check before performi
 
 Install and set up an authenticator app on your mobile device.
 
-Role required: sn\_app\_cowork.user
+Role required: sn\_app\_arc.user
 
 ## Procedure
 
@@ -29,7 +29,7 @@ Role required: sn\_app\_cowork.user
 
     A QR code and a secret code appear.
 
-3.  Add Cowork to your authenticator app.
+3.  Add Arc to your authenticator app.
 
     -   To use the QR code, scan it with your authenticator app.
     -   To enter the secret code manually, copy the value in the **Secret** field and enter it in your authenticator app.
@@ -42,7 +42,7 @@ Role required: sn\_app\_cowork.user
 
 ## Result
 
-Cowork prompts you for a code from your authenticator app before approving sensitive actions.
+Arc prompts you for a code from your authenticator app before approving sensitive actions.
 
-**Parent Topic:**[Using ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-using.md)
+**Parent Topic:**[Using ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-using.md)
 

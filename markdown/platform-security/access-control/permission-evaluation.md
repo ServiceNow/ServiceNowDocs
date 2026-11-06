@@ -22,7 +22,7 @@ Permission for the selected user, group, or role is evaluated in the following h
 
 -   Business rule: A business rule is a server-side script that runs when a record is displayed, inserted, updated, deleted, or when a table is queried.
 -   Access Handler: An internal system check using hidden source code on the platform.
--   Data Filtration: Data filters are a form of access control designed to work with existing Access Control rules \(ACLs\) on your instance. Data filters support only read operations.
+-   Data Filtration: Data filters are a form of access control that works with existing Access Control rules \(ACLs\) on your instance. Data filters support only read operations.
 -   Access control list \(ACL\): Rules for access control lists \(ACLs\) restrict access to specified data by requiring users to pass a set of requirements before they can interact with it. Within an ACL, the following hierarchy is evaluated:
     -   Role
     -   Security Attribute
@@ -34,9 +34,9 @@ You can analyze access and permissions for the selected user, role, or group usi
 -   **Table Level Evaluation**: Role and security attribute ACLs are used for Table level evaluation.
 -   **Record or Field level Evaluation**: Role, security attribute, condition, and script level ACLs are used for Record or Field level evaluation.
 -   **UI page**: Supports only read operations. Only read level ACLs are evaluated.
--   **REST Endpoint**: Support only execute operation. Only execute level ACL are evaluated.
+-   **REST Endpoint**: Supports only execute operations. Only execute level ACLs are evaluated.
 
-The **Access results** table includes:
+The Access results table includes:
 
 -   Presence of a script \(alert icon\)
 -   Access result legend
@@ -47,7 +47,7 @@ The **Access results** table includes:
 
 ## Presence of a script
 
-An Alert Icon next to any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access. To know more about how these controls are evaluated and review the logic used to determine access, see [Access Analyzer Debug logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer-logs.md).
+An alert icon next to any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access. To learn more about how these controls are evaluated and review the logic used to determine access, see [Access Analyzer debug logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer-logs.md).
 
 ## Status in Access Analyzer
 
@@ -60,10 +60,10 @@ When analyzing access and permissions, Access Analyzer shows the evaluation's re
 
 ## Evaluation process
 
-The evaluation process is carried out by impersonating a user and by determining the access control list \(ACL\) permissions on the resource. Permission rules enable access to the specified resource if the following checks are evaluated to true:
+The evaluation process impersonates a user and determines the access control list \(ACL\) permissions on the resource. Permission rules enable access to the specified resource if the following checks are evaluated to true:
 
--   IAccessHandlers must evaluate to “Passed”, or is empty or undefined
--   Data filters must evaluate to “Passed”, or is empty or undefined
+-   IAccessHandlers must evaluate to “Passed”, or be empty or undefined
+-   Data filters must evaluate to “Passed”, or be empty or undefined
 -   Access control rules \(ACLs\) evaluate to “Passed”
 
 ## IAccessHandlers
@@ -74,7 +74,7 @@ You can’t change the IAccessHandler checks. For example, an IAccessHandler imp
 
 ## Data filters
 
-Data filters are a form of access control designed to work along with the existing Access Control rules \(ACLs\) on your instance.
+Data filters are a form of access control that works along with the existing Access Control rules \(ACLs\) on your instance.
 
 ## Access control list rules
 

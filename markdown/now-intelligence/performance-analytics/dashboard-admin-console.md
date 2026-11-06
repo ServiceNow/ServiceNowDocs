@@ -1,6 +1,6 @@
 ---
-title: Admin Console for Dashboards
-description: The Performance Analytics Admin Console contains several features for dashboard management.
+title: Admin Console for Core UI Dashboards
+description: The Performance Analytics Admin Console contains several features for responsive dashboard management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/dashboard-admin-console.html
 release: australia
@@ -9,14 +9,16 @@ classification: performance-analytics
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Admin Console for Dashboards
+# Admin Console for Core UI Dashboards
 
-The Performance Analytics Admin Console contains several features for dashboard management.
+The Performance Analytics Admin Console contains several features for responsive dashboard management.
 
 ## Explore and Manage
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 Navigate to **Performance Analytics** &gt; **Admin Console**.
 

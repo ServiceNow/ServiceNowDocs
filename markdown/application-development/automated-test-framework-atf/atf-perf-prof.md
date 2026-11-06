@@ -69,17 +69,17 @@ Role required: admin
 
 5.  Select the required performance number to view the results of all the test runs within the selected performance test.
 
-    The Performance Run form shows up. You can also directly navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Test** &gt; **Performance Profiling** &gt; **Performance Runs** to see the Performance Run form. Add a screenshot
+    The Performance Run form shows up. You can also directly navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Test** &gt; **Performance Profiling** &gt; **Performance Runs** to see the Performance Run form.
 
     **Note:** You can view the test name, status of the test runs, and the duration of the test run. If the **Is warmup** value is true, its the first test run that is done to warmup the cache values. The rest of the test runs will have **Is warmup** value set to false. The warmup test is not counted as one of the 10 test runs for each test or suite.
 
 6.  Navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Test** &gt; **Performance Profiling** &gt; **Performance Comparisons**.
 
-    The Performance Comparisons form shows up. &lt;add a screenshot of the form&gt;
+    The Performance Comparisons form shows up.
 
 7.  Select the first and second run to view a comparison result.
 
-    Add the complete screenshot. You can view information like performance means and the delta mean values.
+    You can view information like performance means and the delta mean values.
 
     **Note:** You can compare only 2 test runs at one point of time. In the next comparison, you can consider one of the previous test run as the baseline to compare with the next test run.
 

@@ -16,11 +16,11 @@ breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 
 Sidebar's integration with Slack enables Sidebar users and Slack users to communicate with each other from their respective platforms.
 
-The base system Sidebar-Slack integration requires at least one participant is an external only user \(a user that doesn't have a corresponding sys\_user record\).
+The base system Sidebar-Slack integration requires at least one participant to be an external only user \(a user that doesn't have a corresponding sys\_user record\).
 
 ## Authenticating Sidebar users in Slack
 
-A Sidebar user must already have a Slack account to communicate with a Slack user. Slack authenticates each Sidebar user to confirm that they have a Slack account. This authentication verifies that Slack can create a private channel chat that includes the Sidebar user's Slack account. If the Sidebar user has a Slack account but isn’t signed in, they’re prompted to sign in.
+A Sidebar user must already have a Slack account to communicate with a Slack user. Slack authenticates each Sidebar user to confirm that they have a Slack account. This authentication verifies that Slack can create a private channel chat that includes the Sidebar user's Slack account. If the Sidebar user has a Slack account but isn’t logged in, they’re prompted to log in.
 
 ## Differentiating between Sidebar and Slack users
 
@@ -35,7 +35,7 @@ To differentiate Sidebar users from Slack users, a Slack icon \(\[Omitted image 
 
 ## Adding users to a discussion
 
-Sidebar users can enter the partial or full name of a user that they want to add to the discussion. If the user exists in the system, the user's name appears and can be selected to be added to the discussion. Users who have access to Slack but not ServiceNow can be identified by the Slack logo in their avatar image. Slack users can add participants to the discussion by adding them to the group chat on Slack. Doing this automatically adds those users to the discussion in Sidebar.
+Sidebar users can enter the partial or full name of a user that they need to add to the discussion. If the user exists in the system, the user's name appears and can be selected to be added to the discussion. Users who have access to Slack but not ServiceNow can be identified by the Slack logo in their avatar image. Slack users can add participants to the discussion by adding them to the group chat on Slack. Doing this automatically adds those users to the discussion in Sidebar.
 
 **Note:** A maximum of 250 users can be added to a Slack private channel.
 
@@ -66,7 +66,7 @@ Sidebar users can remove a Slack user from a Sidebar discussion. When a Slack us
 
 ## Message history
 
-If the admin enables Slack group chats for a user, the message history of any Sidebar discussions that the user is already participating in aren't preloaded in the Slack group chat. In the Slack group chat, the user will only receive messages that are sent after the admin enables them to receive Slack group chats.
+If the admin enables Slack group chats for a user, the message history of any Sidebar discussions that the user is already participating in aren't preloaded in the Slack group chat. In the Slack group chat, the user receives only messages that are sent after the admin enables them to receive Slack group chats.
 
 ## ServiceNow's access to Slack messages
 
@@ -80,5 +80,5 @@ The discussion participants aren’t synchronized if the integration between Sid
 
 ## Domain separation with Sidebar and Slack integration
 
-If Sidebar is integrated with Slack, domain separation is not supported on the Slack instance. As a result, the **Set up** button for Slack is inactive on the Settings page. For example, if you’ve configured two domains on ServiceNow but use only one Microsoft Teams instance, you can't partition the Microsoft Teams instance to have part of it point to one domain and the other part to another domain.
+If Sidebar is integrated with Slack, domain separation is not supported on the Slack instance. The **Set up** button for Slack is inactive on the Settings page. For example, if you’ve configured two domains on ServiceNow but use only one Microsoft Teams instance, you can't partition the Microsoft Teams instance to have part of it point to one domain and the other part to another domain.
 

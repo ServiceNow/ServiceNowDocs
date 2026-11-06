@@ -1,6 +1,6 @@
 ---
 title: View sequence tasks
-description: View sequence tasks assigned to you from the CRM Workspace.
+description: View sequence tasks assigned to you from the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-sequence-tasks.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Cu
 
 # View sequence tasks
 
-View sequence tasks assigned to you from the CRM Workspace.
+View sequence tasks assigned to you from the CSM Configurable Workspace.
 
 ## Before you begin
 

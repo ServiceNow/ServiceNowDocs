@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
 
 4.  Verify that the columns you want to export are personalized.
 
-    **Note:** If the filters are applied on the view, the filtered data is exported. Also, to differentiate between goal and target record in the exported file, select **Record type** in the personalized side panel.
+    **Note:** If the filters are applied on the view, the filtered data is exported. Also, to differentiate between goal and target record in the exported filePersonalize, select **Record type** in the personalized side panel.
 
 5.  Use the Personalize side panel to export the data of your goals and targets.
 

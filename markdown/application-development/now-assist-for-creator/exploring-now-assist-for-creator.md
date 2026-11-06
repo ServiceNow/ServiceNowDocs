@@ -8,7 +8,7 @@ product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-07-28"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation, ServiceNow Otto for Creator, ServiceNow Otto]
 breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---

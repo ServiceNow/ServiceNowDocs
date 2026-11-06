@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, version, variant, history]
 breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -25,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-As you work with model records on a development instance, at certain intervals you’re likely to export the model, and then import the model to your production instance. Each time you export a model, the version number increases by one on the development instance. The version number appears in the model list and on individual model records. By checking the model list on your development and production instances, you can easily determine if the most recent version of a model is in use on your production instance.
+As you work with model records on a development instance, at certain intervals you’re likely to export the model, and then import the model to your production instance. Each time you export a model, the version number increases by one on the development instance. The version number appears in the model list and on individual model records. By checking the model list on your development and production instances, you can determine if the most recent version of a model is used on your production instance.
 
 ## Procedure
 

@@ -30,7 +30,7 @@ Role required: sn\_shift\_planning.agent
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Service Portal Home**.
 
-2.  Click the chat icon.
+2.  Select the chat icon.
 
 3.  In the chat window, do one of the following to create the request:
 
@@ -48,7 +48,7 @@ Role required: sn\_shift\_planning.agent
 
     The "Would you like to enter the reason for your time off?" message appears.
 
-7.  Click **Yes** and enter the reason for taking time off and click **Enter**.
+7.  Select **Yes** and enter the reason for taking time off and click **Enter**.
 
     The message, "Your time-off request has been submitted and is in your manager's approval queue," appears.
 

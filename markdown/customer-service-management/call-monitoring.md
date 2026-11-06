@@ -14,7 +14,7 @@ breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configur
 
 Call monitoring is a feature in the Contact Center as a Service \(CCaaS\) solution that enables supervisors and managers to observe, monitor, and analyze customer interactions.
 
-Contact centers integrating with ServiceNow’s native voice call capability via Interaction Controls Component \(ICC\) and OpenFrame have the option to enable the call monitoring feature, embedded in their CRM Workspace.
+Contact centers integrating with ServiceNow’s native voice call capability via Interaction Controls Component \(ICC\) and OpenFrame have the option to enable the call monitoring feature, embedded in their CSM Configurable Workspace.
 
 See [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspaces-configure.md)
 

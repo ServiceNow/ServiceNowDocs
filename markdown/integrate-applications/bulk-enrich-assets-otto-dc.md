@@ -17,13 +17,19 @@ Ask ServiceNow Otto to bulk-enrich a batch of Data Catalog assets from anywhere 
 
 ## Before you begin
 
-Role required: df\_data\_steward
+Role required: df\_data\_steward, now\_assist\_panel\_user, and wdf\_operator
 
 ## Procedure
 
 1.  In the Workflow Data Fabric header, select the ServiceNow Otto icon.
 
     You can access this from any Workflow Data Fabric page, including Data Catalog.
+
+    If the ServiceNow Otto icon does not appear in the Workflow Data Fabric header, Otto for Workflow Data Fabric \(sn\_nowassist\_wdf\) may not be installed.
+
+    If the icon is visible but nothing happens when you select it, verify that your account has the **now\_assist\_panel\_user** role. Contact your administrator to request access.
+
+    For configuration details, see [Metadata enrichment prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ai-enrichment-prerequisites-dc.md).
 
 2.  In the panel that opens, select the bulk-enrich promoted topic, or type a request such as `bulk enrich assets`.
 

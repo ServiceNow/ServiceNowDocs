@@ -16,7 +16,9 @@ Record the consumption or usages made out of the total characteristic quantities
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager, sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
+Role required: sn\_customerservice\_manager, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, or sn\_bus\_loc.svc\_location\_support\_agent
+
+**Note:** Location support agent can access Customer contracts and Entitlements lists only in the seismic UI. For details on which entitlements, a user with sn\_bus\_loc.svc\_location\_support\_agent role can edit entitlement usage, see [Location Support Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md#entry-lsa-role).
 
 ## About this task
 
@@ -24,17 +26,17 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 ## Procedure
 
-1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
+1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d179736e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d180004e72">
 
 Interface
 
-</th><th align="left" id="d179736e66">
+</th><th align="left" id="d180004e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d179736e72">
+</th></tr></thead><tbody><tr><td id="d180004e81">
 
 **Platform interface**
 
@@ -42,9 +44,9 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-</td></tr><tr><td id="d179736e96">
+</td></tr><tr><td id="d180004e105">
 
-**CRM Workspace**
+**CSM Configurable Workspace**
 
 </td><td>
 
@@ -55,15 +57,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d179736e148">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d180004e158">
 
 From
 
-</th><th align="left" id="d179736e151">
+</th><th align="left" id="d180004e161">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d179736e157">
+</th></tr></thead><tbody><tr><td id="d180004e167">
 
 **Customer Contracts**
 
@@ -75,7 +77,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d179736e181">
+</td></tr><tr><td id="d180004e191">
 
 **Entitlements**
 

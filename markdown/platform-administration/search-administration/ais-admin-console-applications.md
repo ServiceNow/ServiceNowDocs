@@ -88,7 +88,7 @@ Frequently asked questions related to AI Search.
 
 When you select an application's card in the Applications page, the application's configuration data appears. In the Configuration view, you can turn AI Search on and off for the application, choose and test search profiles and application configurations before publishing, and publish profiles. Select **Search Profile** or **Search Application Configuration** to view profile summaries. You can also select an individual option from the sidebar or its matching card on the main view to display it in detail.
 
-**Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+**Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
 <table id="table_szg_w5q_1cc"><thead><tr><th>
 

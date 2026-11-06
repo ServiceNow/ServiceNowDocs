@@ -26,7 +26,7 @@ For information on probe-based network switch and router discovery, see [Network
 
 ## Cisco Nexus Virtual Routing and Forwarding \(VRF\) data model
 
-The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.0.
+The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.1.
 
 |CI class|Extends from|
 |--------|------------|
@@ -104,7 +104,7 @@ For more information, see [Turn off next-hop route data collection for BGP route
 
     Verify the following requirements:
 
-    -   Discovery and Service Mapping Patterns starting from version 1.35.0.
+    -   Discovery and Service Mapping Patterns starting from version 1.35.1.
     -   Read permissions for the following commands on the Cisco Nexus device:
         -   `sh vrf`
         -   `sh hsrp br`

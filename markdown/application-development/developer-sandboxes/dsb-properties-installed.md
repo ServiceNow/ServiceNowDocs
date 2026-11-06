@@ -7,9 +7,9 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-19"
 reading_time_minutes: 3
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Properties installed with Developer Sandboxes
@@ -34,7 +34,7 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-glide.dev\_sandbox.num.controller
+`glide.dev_sandbox.num.controller`
 
 </td><td>
 
@@ -50,7 +50,7 @@ Number of nodes that run as a controller.-   Type: number
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.node.healthy\_time\_min
+`glide.dev_sandbox.node.healthy_time_min`
 
 </td><td>
 
@@ -67,7 +67,7 @@ Time in minutes that a node is considered healthy. An unhealthy node that's assi
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.node.poll\_interval\_seconds
+`glide.dev_sandbox.node.poll_interval_seconds`
 
 </td><td>
 
@@ -83,7 +83,7 @@ Number of seconds between status checks for a node expected to go offline in the
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.node.poll\_timeout\_min
+`glide.dev_sandbox.node.poll_timeout_min`
 
 </td><td>
 
@@ -99,7 +99,7 @@ Number of minutes to wait for a node to shutdown, and have a **Status** of Offli
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.default\_table\_config
+`glide.dev_sandbox.default_table_config`
 
 </td><td>
 
@@ -117,7 +117,7 @@ Default table config in Developer Sandboxes.-   Type: string
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.dsb\_db\_copier\_threads
+`glide.dev_sandbox.dsb_db_copier_threads`
 
 </td><td>
 
@@ -133,7 +133,7 @@ Number of concurrent table creations in a sandbox.-   Type: number
 
 </td></tr><tr><td>
 
-glide.db.dsb.data\_copy\_processor.threads 
+`glide.db.dsb.data_copy_processor.threads `
 
 </td><td>
 
@@ -150,7 +150,7 @@ Number of data copy plans to run concurrently during sandbox creation.-   Type: 
 
 </td></tr><tr><td>
 
-glide.db.dsb.data\_copy\_processor.chunk\_copy.threads
+`glide.db.dsb.data_copy_processor.chunk_copy.threads`
 
 </td><td>
 
@@ -165,7 +165,7 @@ Number of data copiers running at a time for each table.-   Type: number
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.cleanup\_retries
+`glide.dev_sandbox.cleanup_retries`
 
 </td><td>
 
@@ -178,7 +178,7 @@ Number of retries the Developer Sandboxes destroy code attempts to do clean up a
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.backup\_tables
+`glide.dev_sandbox.backup_tables`
 
 </td><td>
 
@@ -193,7 +193,7 @@ Comma-delimited list of tables to preserve. If a table has is referenced here, i
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.export.poll\_interval\_seconds
+`glide.dev_sandbox.export.poll_interval_seconds`
 
 </td><td>
 
@@ -208,11 +208,11 @@ Decreasing the value may help the upgrade go faster but at the cost of extra che
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.export.poll\_timeout\_min
+`glide.dev_sandbox.export.poll_timeout_min`
 
 </td><td>
 
-How long the controller node waits for a sandbox to export its altered update sets before an instance upgrade.If the timeout limit is hit, the upgrade continues regardless of export state.
+How long the controller node waits for a sandbox to export its altered update sets before an instance upgrade.If the timeout limit is reached, the upgrade continues regardless of export state.
 
 -   Type: number
 -   Default value: 10
@@ -224,20 +224,7 @@ How long the controller node waits for a sandbox to export its altered update se
 
 </td></tr><tr><td>
 
-glide.dev\_sandbox.node.healthy\_time\_min
-
-</td><td>
-
-Time window in which a node must report to sys\_cluster\_state to be considered healthy and included in sandbox capacity calculations.-   Type: number
--   Default value: 10
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-glide.dev\_sandbox.lifecycle.max\_concurrent\_events
+`glide.dev_sandbox.lifecycle.max_concurrent_events`
 
 </td><td>
 

@@ -234,7 +234,7 @@ Date/Time
 
 </td><td>
 
-User who created a pipeline project from the opportunity. Populated when the opportunity status moves to **Actioned**.
+User who created a pipeline project from the opportunity. Populated when the opportunity status moves to **Closed**.
 
 </td><td>
 

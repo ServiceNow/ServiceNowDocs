@@ -18,7 +18,9 @@ Manage live chat support, including the chat support interface used when a Virtu
 
 **Note:** The Glide Virtual Agent plugin \(com.glide.cs.chatbot\) automatically activates the Glide Conversation Server plugin \(com.glide.cs\) for chat support.
 
-Conversations in Virtual Agent are transferred to a live agent in several ways. This transfer happens automatically when an unrecoverable error occurs, but it can also be triggered by a script in a topic, when a user manually selects that option, or when a user inputs the request during an LLM conversation.
+Conversations in Virtual Agent are transferred to a live agent.
+
+The transfer happens automatically when an unrecoverable error occurs. It can also be triggered by a script in a topic, when a user manually selects that option, or when a user asks for a live agent during a conversation.
 
 -   **Automatic transfer to a live agent when an error occurs**
 
@@ -26,11 +28,11 @@ Conversations in Virtual Agent are transferred to a live agent in several ways. 
 
     \[Omitted image "va-error-transfer.png"\] Alt text: Virtual Agent chat window displaying, "An unrecoverable error has occurred. Please stand by while I connect you to a live agent."
 
-    **Note:** If you don't plan to use Agent Chat, be sure to deactivate it in the Agent Chat settings. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+    **Note:** If you don't plan to use Agent Chat, be sure to deactivate it in the Agent Chat settings. For more information, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 -   **Automatic transfer to a live agent that is triggered by a script in a topic**
 
-    In situations where you want a support agent to handle the conversation, you can create a script in your topic that uses the vaSystem.connectToAgent\(\) method. This method triggers a transfer to a live agent. This option can be useful for conversations involving negative customer sentiment, high priority requests, or requests outside the scope of your topic process. For example:
+    In situations where you need a support agent to handle the conversation, you can create a script in your topic that uses the vaSystem.connectToAgent\(\) method. This method triggers a transfer to a live agent. This option can be useful for conversations involving negative customer sentiment, high-priority requests, or requests outside the scope of your topic process. For example:
 
     ```
     (function execute() {
@@ -55,18 +57,18 @@ Conversations in Virtual Agent are transferred to a live agent in several ways. 
 
     \[Omitted image "va-manual-transfer.png"\] Alt text: Virtual Agent chat window and contact support options.
 
--   **Manual transfer to a live agent in LLM conversations**
+-   **Transfer to a live agent in LLM conversations**
 
-    In a Virtual Agent conversation using LLM topics, you can enter a statement such as `I need to talk to a live agent`, `transfer me to a live agent`, or other similar statements. The LLM then turns your chat over to an available live agent.
+    In a Virtual Agent conversation, you can enter a statement such as `I need to talk to a live agent` or `transfer me to a live agent`. By default, assistants are fully agentic, so the Live Agent topic is invoked directly, without a synthesized response, and the conversation is transferred to an available live agent.
 
 
 ## How Virtual Agent conversation transfers work
 
-For a user engaged in a Virtual Agent conversation, the switch to a live agent is a seamless transfer. When a transfer is triggered, either automatically or by a user manually, the conversation is automatically routed to the appropriate chat support interface, based on your [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md). In Agent Chat settings, admins also define the general messages that users see during live agent transfers.
+For a user engaged in a Virtual Agent conversation, the conversation continues with the live agent in the same interface. When a transfer is triggered, either automatically or by a user manually, the conversation is automatically routed to the appropriate chat support interface, based on your [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md). In Agent Chat settings, admins also define the general messages that users see during live agent transfers.
 
 If you're using Agent Workspace, the conversation is automatically routed and assigned to an available live agent. If you're using Connect Support, the conversation is routed to the chat support queue that you specify.
 
-**Note:** At least one live agent must be available when transferring from Virtual Agent, otherwise the end user is presented with a `no agents available` message and their conversation isn’t transferred.
+**Note:** At least one live agent must be available when transferring from Virtual Agent; otherwise, the end user is presented with a `no agents available` message and their conversation isn’t transferred.
 
 -   **Transfer to a live agent in Agent Workspace**
 
@@ -76,9 +78,9 @@ If you're using Agent Workspace, the conversation is automatically routed and as
 
 -   **Transfer to a live agent in Connect Support**
 
-    If you're using Connect Support, the virtual agent conversation is routed to the appropriate chat support queue. For the user, the conversation with the agent continues in the Virtual Agent client interface. In Connect Support, the agent accepts the queue with the transferred user to join the conversation and interact with the user.
+    If you're using Connect Support, the Virtual Agent conversation is routed to the appropriate chat support queue. For the user, the conversation with the agent continues in the Virtual Agent client interface. In Connect Support, the agent accepts the queue with the transferred user to join the conversation and interact with the user.
 
-    In earlier releases, admins used the Chat Setup form to assign the default chat queues for Customer Service Management, HR Service Delivery, and IT Service Management or a global queue to which Virtual Agent conversations were automatically routed if default queues weren’t assigned. These queues, which admins defined in Connect Support, are stored in the Chat Queues \[chat\_queue\] table. If you're using Connect Support as the fulfiller interface and must change chat settings, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for details.
+    In earlier releases, admins used the Chat Setup form to assign the default chat queues for Customer Service Management, HR Service Delivery, and IT Service Management or a global queue to which Virtual Agent conversations were automatically routed if default queues weren’t assigned. These queues, which admins defined in Connect Support, are stored in the Chat Queues \[chat\_queue\] table. If you're using Connect Support as the fulfiller interface and must change chat settings, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for details.
 
 
 ## User sentiment

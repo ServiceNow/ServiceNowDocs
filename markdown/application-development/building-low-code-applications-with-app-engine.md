@@ -26,7 +26,7 @@ Create and manage custom applications in a simple, low-code environment.
 
     Use Creator Studio to quickly create a request/fulfill app based on Service Catalog using helpful templates.
 
--   **[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining-overview.md)**
+-   ****
 
     Use Zero Copy Connector for ERP to connect to an ERP \(Enterprise Resource Planning\) system, create an ERP model, and extract data from the ERP system, such as sales orders, data records, and purchase documents. You can then use the ERP data when building low-code apps on the ServiceNow AI Platform.
 
@@ -104,7 +104,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 </td></tr></tbody>
 </table>## Related applications and features
 
--   **[Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)**
+-   **[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)**
 
     Use Decision Builder to create and manage decision tables. Embed business logic into a series of if-then decision rules.
 
@@ -122,7 +122,7 @@ Develop applications in source code with ServiceNow Fluent, create JavaScript mo
 
 -   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/ui-builder-overview.md)**
 
-    Use UI Builder to build web user interfaces for CRM Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
+    Use UI Builder to build web user interfaces for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
 -   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md)**
 

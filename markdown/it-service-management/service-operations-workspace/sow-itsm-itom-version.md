@@ -42,11 +42,11 @@ Ensure that the following applications have compatible upgraded versions:
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
-
 [Additional roles for SOW admin]()
 
 [Service Operations Workspace for ITSM data model]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
+
+[Service Operations Workspace for ITSM glossary]()
 

@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Outlook reference, ServiceNow for Microsoft Outlook, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow for Microsoft Outlook reference, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # Properties installed with ServiceNow for Microsoft Outlook

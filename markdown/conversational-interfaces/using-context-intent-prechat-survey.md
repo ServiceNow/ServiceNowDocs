@@ -22,7 +22,7 @@ A good example of this is the CSP Anonymous Pre-Chat Survey, which is included w
 
 \[Omitted image "csp-anonymous-prechat-survey.png"\] Alt text: Settings for the Please briefly describe your issue question in Survey Designer.
 
-The user response can be passed to Virtual Agent for use in topic discovery. In order to do this, you must create a record for it in General Chat Settings.
+The user response can be passed to Virtual Agent for use in topic discovery. To do this, you must create a record for it in General Chat Settings.
 
 \[Omitted image "ci-topic-context-intent-card.png"\] Alt text: General Chat settings Channels and routing tab, with View All button highlighted in Topic context intent card.
 

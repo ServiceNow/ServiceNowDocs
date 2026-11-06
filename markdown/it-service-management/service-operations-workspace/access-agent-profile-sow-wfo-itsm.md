@@ -36,50 +36,50 @@ Access your profile to analyze information such as:
 
     When you click the home icon \(\[Omitted image "home-icon.png"\] Alt text: Home icon\), you can view the status of your work, organizational performance, current status of incidents, and unassigned incidents in the [Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-ui-landing-page.md).
 
-2.  Click the lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\).
+2.  Select the lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\).
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d442699e126">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d444075e126">
 
 To
 
-</th><th align="left" id="d442699e129">
+</th><th align="left" id="d444075e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d442699e135">
+</th></tr></thead><tbody><tr><td id="d444075e135">
 
 **Access your profile from an incident record**
 
 </td><td>
 
-1.  Click **Incidents** and select **Assigned to me**.
+1.  Select **Incidents** and select **Assigned to me**.
 2.  In the Assigned column, select your name.
 The profile page appears. In that page, you can access all the information that is related to your profile.
 
-</td></tr><tr><td id="d442699e159">
+</td></tr><tr><td id="d444075e159">
 
 **Create your profile for centralized access**
 
 </td><td>
 
 1.  Select the **My Lists** tab.
-2.  Click **New List**.
+2.  Select **New List**.
 3.  In the **New List** screen, click **Create your own**.
 4.  In the **List Name** field, enter a name for the list; for example, My Profile.
 5.  In the **Select Source** field, select **User** \(sys\_user\).
 6.  In the **Add Filters** condition builder, select **\[Name\] \[is\] \[&lt;your name&gt;\]**.
-7.  Click **Create**.
+7.  Select **Create**.
  The workspace adds your profile to the **My Lists** tab.
 
 For information on creating a list, see Create My Lists in Workspace.
 
-</td></tr><tr><td id="d442699e233">
+</td></tr><tr><td id="d444075e233">
 
 **Analyze Performance Analytics targets**
 
 </td><td>
 
-1.  Click **Incidents** and select **Assigned to me**.
+1.  Select **Incidents** and select **Assigned to me**.
 2.  In the Assigned column, select your name.
 You can view your targets for a KPI for a given date range if your manager has set the target for that KPI.
 

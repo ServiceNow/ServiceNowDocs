@@ -24,9 +24,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   New Relic version: Last tested on July 01, 2025
 -   Supported ServiceNow versions:
-    -   Xanadu
-    -   Yokohama
     -   Zurich
+    -   Australia
+    -   Brazil
 
 ## Configuring a connection for the connector
 

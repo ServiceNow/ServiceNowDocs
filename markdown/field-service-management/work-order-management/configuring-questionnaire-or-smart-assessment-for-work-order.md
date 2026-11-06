@@ -18,7 +18,7 @@ As part of completing some work orders and tasks, Field Service agents fill out 
 
 Questionnaires gathers different types of information from Field Service agents, such as verifying their compliance with the generic Field Service process while working on the task.
 
-Administrators can create questionnaire records and associate those records with work orders or work order tasks. For example, an agent might need to complete a safety check list before starting work on a task or fill out an inspection questionnaire before completing a work order. The administrator can also make filling out the questionnaire mandatory before an agent closes a task.
+Administrators can create questionnaire records and associate those records with work orders or work order tasks. For example, an agent might need to complete a safety check list before starting work on a task. An agent might also fill out an inspection questionnaire before completing a work order. The administrator can also make filling out the questionnaire mandatory before an agent closes a task.
 
 Questionnaire records include some configuration information, such as the condition or event that triggers the questionnaire, as well as the list of questions included in the questionnaire.
 
@@ -36,7 +36,7 @@ For more information, see [Configuring survey-based work order questionnaires](h
 
 A Smart Assessment questionnaire for Now Mobile uses **Template designer** in the Smart Assessment Engine application.
 
-For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md).
+For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configuring-smart-assessment-questionnaire.md).
 
 **Note:**
 

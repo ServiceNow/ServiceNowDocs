@@ -169,15 +169,13 @@ An extension instance is a registered instance of a scripted extension point tha
 
 **Note:** Ensure that the application scope is set to Shopping Hub.
 
-### About this task
-
 ### Procedure
 
-1.  Select All and in the search filter, enter **sys\_extension\_instance.LIST**, and then press enter or return on your keyboard.
+1.  Select All and in the search filter, enter `sys_extension_instance.LIST`, and then press enter or return on your keyboard.
 
 2.  Select **New**.
 
-3.  In the **Point** field, enter **sn\_spend\_intg.ThirdPartySystemApiExtension**.
+3.  In the **Point** field, enter `sn_spend_intg.ThirdPartySystemApiExtension`.
 
 4.  In the **Class** field, select the script include that you created.
 

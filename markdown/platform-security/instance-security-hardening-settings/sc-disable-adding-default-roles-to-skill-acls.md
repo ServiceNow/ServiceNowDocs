@@ -1,5 +1,5 @@
 ---
-title: Disable Adding Default Roles to Skill ACLs
+title: Disable adding default roles to Skill ACLs
 description: Use system properties to control what roles are automatically added to generative AI skill ACLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-disable-adding-default-roles-to-skill-acls.html
@@ -12,11 +12,11 @@ reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Disable Adding Default Roles to Skill ACLs
+# Disable adding default roles to Skill ACLs
 
 Use system properties to control what roles are automatically added to generative AI skill ACLs.
 
-Use the **com.glide.one\_extend.include\_default\_roles\_for\_skill\_acl** system property to control whether roles are automatically added to generative AI skill ACLs when they’re created or updated via the global.GenAiSkilSecurityUtils API. This property is used by the Now Assist Skill Kit \(NASK\) to enforce consistent security policies across all AI skills.
+Use the **com.glide.one\_extend.include\_default\_roles\_for\_skill\_acl** system property to control whether roles are automatically added to generative AI skill ACLs when they’re created or updated via the global.GenAiSkilSecurityUtils API. This property is used to enforce consistent security policies across all AI skills.
 
 When a skill ACL is inserted or updated, the default roles defined in the **com.glide.one\_extend.default\_roles\_for\_skill\_acl** system property are automatically included. This addition ensures that certain privileged roles always have access to execute the skills. The **com.glide.one\_extend.default\_roles\_for\_skill\_acl** property may contain a comma-separated list of roles.
 

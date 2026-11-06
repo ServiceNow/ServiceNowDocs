@@ -9,7 +9,7 @@ classification: reporting
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # View the Reports list
@@ -46,7 +46,7 @@ If you have the report\_admin or admin roles, you also see these columns on the 
 |Scheduled|Indicates that the report is scheduled to run in the future. You can schedule regular emailing of reports.|
 |Published|If the report is published, this column shows a check mark \(\[Omitted image "True.png"\] Alt text: True\).|
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 ## Viewing favorite reports
 

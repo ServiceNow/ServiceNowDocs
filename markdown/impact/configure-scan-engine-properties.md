@@ -1,5 +1,5 @@
 ---
-title: Configure Scan Engine parameters
+title: Configure Scan Engine properties
 description: Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-scan-engine-properties.html
@@ -11,7 +11,7 @@ keywords: [impact scan engine, scan properties, scheduled scans]
 breadcrumb: [Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Configure Scan Engine parameters
+# Configure Scan Engine properties
 
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 

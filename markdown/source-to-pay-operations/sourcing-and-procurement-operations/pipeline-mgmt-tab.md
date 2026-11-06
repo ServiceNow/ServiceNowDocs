@@ -16,7 +16,7 @@ breadcrumb: [Sourcing Pipeline Management, Explore, Sourcing and Procurement Ope
 
 The Pipeline management tab enables you to get insights into savings and pipeline projects, improving visibility, tracking, and collaboration across teams.
 
-To view the Pipeline management tab in the Source-to-Pay Worksapce, you must have the sn\_spend\_pipeline.sourcing\_pipeline\_user role and have the following applications installed:
+To view the Pipeline management tab in the Source-to-Pay Workspace, you must have the sn\_spend\_pipeline.sourcing\_pipeline\_user role and have the following applications installed:
 
 -   Spend and Savings Management \(sn\_spend\_mgmt\)
 -   Sourcing Pipeline Management \(sn\_spend\_pipeline\)
@@ -55,7 +55,7 @@ Displays the projects that are new this week and assigned to the logged-in user.
 
 </td></tr><tr><td>
 
-Pipeline projects starting withing 30 days
+Pipeline projects starting within 30 days
 
 </td><td>
 

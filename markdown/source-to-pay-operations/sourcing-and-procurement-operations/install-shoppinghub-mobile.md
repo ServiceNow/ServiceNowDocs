@@ -24,9 +24,11 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the application using the filter criteria and search bar.
+2.  Find the Shopping Hub Mobile \(sn\_shop\_mobile\) application using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow store.
+
+    This application requires the Sourcing and Purchasing Automation \(sn\_pr\) plugin.
 
 3.  Select **Install**.
 

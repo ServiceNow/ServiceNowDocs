@@ -21,9 +21,9 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-Evaluations use test scenarios, or saved objectives that you can reuse for a single test or select for an evaluation. Scenarios carry the objective text, but they don't carry live record identifiers, like a record name or number. Scenarios that refer to a record need one that is actually on the instance at run time.
+Evaluations use test scenarios, which are saved objectives you can reuse for a single test or select for an evaluation. Scenarios store the objective text, but they don't store live record identifiers, like a record name or number. A scenario that refers to a record needs that record to exist on the instance at run time.
 
-Scenarios have to exist before an evaluation can be configured against them, and they can also be created from the test scenario selection in a single test. Where the evaluation configuration screen offers no way to create one, create it in the library first and then return.
+Scenarios have to exist before you can configure an evaluation with them. You can also create them from the test scenario selection in a single test. If the evaluation configuration screen doesn't let you create a scenario, create it in the **Test scenarios** section of the guided setup first, then return to this task.
 
 ## Procedure
 
@@ -53,7 +53,7 @@ Scenarios have to exist before an evaluation can be configured against them, and
 
 6.  Select whether you want to automatically generate insights and optimization suggestions.
 
-    Evaluation run results includes detailed information about the performance of the agentic AI asset across all selected metrics. Selecting this option gives you additional analysis of identified issues and offers suggested prompt changes to address them. Insight generation and optimization suggestions add to the time required for an evaluation to complete.
+    Evaluation run results include detailed information about the performance of the agentic AI asset across all selected metrics. Selecting this option gives you additional analysis of identified issues and offers suggested prompt changes to address them. Insight generation and optimization suggestions add to the time required for an evaluation to complete.
 
     You can also trigger this process from the evaluation run's results page later.
 

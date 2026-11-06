@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-10-20"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [GitLab external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -50,7 +50,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the GitLab external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  Select one of the following **Group filtering** options:
 
@@ -87,8 +87,8 @@ If one of your connectors reaches the content indexing limit, you can update its
     |Content type|Searchable content indexed|
     |------------|--------------------------|
     |Issues|Issue description|
-    |Wikis|MarkDown content converted to HTML \(without attachments\)|
-    |Merge requests|Merge request description \(MarkDown\) and discussions|
+    |Wikis|Markdown content converted to HTML \(without attachments\)|
+    |Merge requests|Merge request description \(Markdown\) and discussions|
     |Tags|Tag message|
     |Branches|Commit message of head commit|
     |Commits|Commit message|

@@ -18,7 +18,7 @@ Enable conversations between Sidebar and Slack users by integrating Sidebar with
 
 Follow these steps to integrate Sidebar and Slack.
 
-**Note:** Some resources below require you to log in to sites like ServiceNow University, Now Create, or the ServiceNow Community. If the expected resource does not load, please log in and try to access the resource again.
+**Note:** Some resources below require you to log in to sites like ServiceNow University, Now Create, or the ServiceNow Community. If the expected resource does not load, log in and try to access the resource again.
 
 1.  [Set up the Slack account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/setup-slack-account.md).
 2.  [Add Slack users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/add-slack-users.md).

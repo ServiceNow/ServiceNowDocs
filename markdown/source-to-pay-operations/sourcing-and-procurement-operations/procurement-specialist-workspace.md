@@ -68,7 +68,10 @@ Admin role for Canvas Core Application: View and make configuration changes to t
 canvas\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+</table>-   **[Form action layouts for workspace record forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/workspace-form-action-layouts.md)**  
+The actions that appear on a record form in the Source-to-Pay Workspace are controlled by a form action layout for the table. An action that is not part of the layout does not appear.
+
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 

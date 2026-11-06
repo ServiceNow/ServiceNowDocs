@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-11-03"
 reading_time_minutes: 5
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Discovery identifies and classifies information about Windows computers that use
 
 For IPv4 discovery:
 
--   Windows Workstation 7, 8, 10
+-   Windows Workstation 7, 8, 10, 11
 -   Windows Server versions:
     -   2008
     -   2008R2
@@ -40,6 +40,7 @@ For IPv6 discovery:
 -   Windows Server 2016
 -   Windows Desktop 10
 -   Windows 2019 Datacenter
+-   Windows 11
 
 **Note:** For fiber channel discovery on a Windows 2008 host, the Microsoft Fibre Channel Information Tool \(`fcinfo.exe`\) must be installed on that machine. The `fcinfo` executable should be available on the environment path. The Microsoft Fibre Channel Information Tool tool is available for download at [http://www.microsoft.com](http://www.microsoft.com).
 
@@ -75,7 +76,7 @@ The following device types haven’t been verified for IPv6 discovery:
 
 -   **Set the preferred IP address version for network adapter discovery**
 
-    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+    Starting with Visibility Content version 6.32.0, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table when adapters support both IPv4 and IPv6. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 
 ## Classifiers, probes, and patterns

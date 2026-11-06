@@ -120,7 +120,13 @@ Table that the configuration is applicable to. You must create a new Var Set for
 </td></tr></tbody>
 </table>## Accessing the Identify escalation signals agentic workflow
 
-To access the agentic workflow:
+To access the agentic workflow in AI Agent Studio:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+2.  Select the **Agentic workflows** tab.
+3.  Select **Identify escalation signals**.
+
+To access the agentic workflow in the legacy AI Agent Studio:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Identify escalation signals**.

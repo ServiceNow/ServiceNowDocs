@@ -72,7 +72,7 @@ Service and service offering
 **Note:** For information about CSDM life-cycle field names, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
 -   The performance snapshot metrics for availability, open incidents, incidents not updated for 5 days, and new requests.
--   The Needs attention cards for critical incidents,outages, and changes.
+-   The Needs attention cards for critical incidents, outages, and changes.
 -   The **More menu** icon \(\[Omitted image "menu-icon.png"\] Alt text: More menu icon\) enables you to:
     -   Add the service or service offering to a personal portfolio. For more information, see [Create a personal portfolio in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-create-personal-portfolios.md).
     -   Add the service to your DPM homepage. For more information, see [Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-explore-landing.md).
@@ -109,7 +109,7 @@ Enterprise taxonomy node
     -   Managed by name.
     -   Total subscribers
 -   The portfolio success metrics for availability, incidents with a breached service level agreement \(SLA\), incidents caused by changes, and successful changes.
--   Needs attention cards for critical incidents, outages, changes,alerts, risks, and audits.
+-   Needs attention cards for critical incidents, outages, changes, alerts, risks, and audits.
 -   The **View details** link provides the following information about the enterprise taxonomy node.
     -   Header with the Owned by name and the Managed by name.
     -   **Overview** tab with portfolio success metrics and the breakdown of business applications in the enterprise taxonomy node.

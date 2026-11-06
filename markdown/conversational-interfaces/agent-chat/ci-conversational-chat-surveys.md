@@ -31,7 +31,7 @@ After creating the surveys, administrators configure the surveys to run as conve
 
 ## Activating and deactivating pre-chat surveys in Now Assist
 
-By default, you can manage pre-chat surveys by navigating to **All** &gt; **Conversational interfaces** &gt; **Settings** and and opening **Pre-chat surveys** in the **General** tab. Now Assist honors these settings in both Virtual Agent and Self-service.
+By default, you can manage pre-chat surveys by navigating to **All** &gt; **Conversational interfaces** &gt; **Settings** and opening **Pre-chat surveys** in the **General** tab. Now Assist honors these settings in both Virtual Agent and Self-service.
 
 You can also turn pre-chat surveys on and off specifically for Now Assist Self Service. Navigate to **All** &gt; **sys\_properties.list**, and under **com.glide.cs.nass.prechat.enabled** set the value to `True` or `False`.
 

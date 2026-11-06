@@ -146,7 +146,7 @@ The Sys ID of the business service that you copied.
 
 ## What to do next
 
-You can create a condition or multiple conditions that must be met before the system sets the default value for the business service. For example, you might want to change the default value of business service to Workday Enterprise Services only when the group that the user belongs to is the Workday Admins group.
+You can create a condition or multiple conditions that must be met before the system sets the default value for the business service. For example, you might want to set the default to Workday Enterprise Services only for users in the Workday Admins group.
 
 **Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

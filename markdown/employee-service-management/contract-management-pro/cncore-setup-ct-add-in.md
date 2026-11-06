@@ -1,5 +1,5 @@
 ---
-title: Creating a contract template using Microsoft Word add-in for ServiceNow Contracts
+title: Creating a contract template using Microsoft Word add-in
 description: Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Creating a contract template using Microsoft Word add-in for ServiceNow Contracts
+# Creating a contract template using Microsoft Word add-in
 
 Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
 

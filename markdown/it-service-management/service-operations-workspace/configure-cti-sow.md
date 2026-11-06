@@ -1,6 +1,6 @@
 ---
 title: Computer Telephony Integration in Service Operations Workspace
-description: Service Operations Workspace provides an agent \(with the sn\_openframe\_user role\) to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
+description: Agents with the required role can receive inbound calls and place outbound calls in Service Operations Workspace using Computer Telephony Integration \(CTI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configure-cti-sow.html
 release: australia
@@ -8,13 +8,13 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Computer Telephony Integration in Service Operations Workspace
 
-Service Operations Workspace provides an agent \(with the sn\_openframe\_user role\) to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
+Agents with the required role can receive inbound calls and place outbound calls in Service Operations Workspace using Computer Telephony Integration \(CTI\).
 
 The OpenFrame window is available to agents with the following roles.
 

@@ -31,7 +31,7 @@ A red due date badge is displayed for a purchase if:
 
 Similarly, a yellow due date badge is displayed for a purchase if any of the above conditions have a due date approaching in three days. A green due date badge indicates that everything is on schedule.
 
-A procurement administrator can use the sn\_shop.spend.sla.due.days purchasing property to configure the number of days for displaying the yellow highlight. By default, this is set to three days of the task due date.
+A procurement administrator can use the `sn_shop.spend.sla.due.days` purchasing property to configure the number of days for displaying the yellow highlight. By default, this is set to three days of the task due date.
 
 **Note:** The total line amount that you see for each purchase includes the updated shipping and tax estimates.
 

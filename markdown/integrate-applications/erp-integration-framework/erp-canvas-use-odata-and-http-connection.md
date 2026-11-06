@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, connection]
-breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Connecting Zero Copy Connector for ERP to ERP using OData
@@ -65,7 +65,13 @@ string
 
 </td><td>
 
-After the hostname and port, this path is used to connect with any SAP catalog service. The default is: /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. After you create the property and set it to true, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP. **Note:** To update the table catalog information, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
+After the hostname and port, this path is used to connect with the SAP catalog service on every ERP system in the instance. The default is `/sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection`.
+
+ The value must be the address of the OData Service Catalog. This property applies to all ERP systems in the instance. You can't set a different catalog service path for each system. If an ERP system exposes its catalog service at a different path, its services aren't retrieved. To use those services, add them manually. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
+
+ After creating the property and setting its value to the catalog service path, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP.
+
+ **Note:** To update the table catalog information after the catalog service changes, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
 
 </td><td>
 
@@ -105,7 +111,7 @@ string
 
 </td><td>
 
-After the hostname and port, this path is used to connect with any SAP OData service. Add a URL in **Value** to specify the OData service. The default is: /sap/opu/odata/sap.
+After the hostname and port, this path is used to connect with any SAP OData service. Add a URL in **Value** to specify the OData service. The value is a single path, not a list of paths. The default is `/sap/opu/odata/sap`.
 
 </td><td>
 

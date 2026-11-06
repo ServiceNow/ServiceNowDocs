@@ -1,5 +1,5 @@
 ---
-title: Sending missed chat activity emails
+title: Send missed chat activity emails
 description: Send email to users with summaries of chat messages sent to them while they were offline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-missed-activity-emails.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
-# Sending missed chat activity emails
+# Send missed chat activity emails
 
 Send email to users with summaries of chat messages sent to them while they were offline.
 

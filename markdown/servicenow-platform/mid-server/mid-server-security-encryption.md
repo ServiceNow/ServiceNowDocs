@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -36,6 +36,8 @@ MID Server uses four kinds of security checks to secure external traffic. The se
 The value of any MID Server parameter in the `config.xml` file can be encrypted. The attributes for all encrypted values are managed from within the configuration file, including the security attribute of the login password.
 -   **[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-encrypter-api.md)**  
 Sensitive MID Server configuration data can be protected using several different schemes, including internal and external data encryption and external data storage.
+-   **[MID Server authentication methods comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-authentication-comparison.md)**  
+The MID Server can authenticate to your instance using basic authentication, mTLS, or IPKI methods. The methods differ in what the MID Server presents, who issues and manages the certificate, and how access is revoked.
 -   **[MID Server authentication credentials and SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-authentication-soap-requests.md)**  
 Set basic authentication credentials to update the web service invocation data. For added security, you can enforce basic authentication on each incoming SOAP request to the MID Server.
 -   **[MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-unified-keystore.md)**  
@@ -43,9 +45,9 @@ The MID Server unified key store allows all products on the MID Server to use co
 -   **[Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md)**  
 Configure the MID Server to use a client certificate for authenticating to the instance. This avoids the need to create a basic authentication credentials in the Key Store for the MID Server's configuration.
 -   **[MID Server Azure Key Vault integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-azure-key-vault-integration.md)**  
-The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.
+The MID Server supports three authentication methods to retrieve credentials from Azure Key Vault without storing secrets on the instance.
 -   **[MID Server command audit log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-audit-log.md)**  
-The command audit log records the commands run by the MID Server for the Discovery application. Review the commands to check for anomalies or errors.
+The command audit log records the commands run by the MID Server for the Discovery application. Review the commands to verify there are no anomalies or errors.
 -   **[Rekey a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_RekeyAMIDServer.md)**  
 Rekey a MID Server to generate a new private key. Private keys are used to decrypt automation credentials, so that MID Servers can transmit information securely. Key pairs are initially generated when a MID Server is validated, and MID Servers should be rekeyed periodically to meet security requirements.
 -   **[Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/add-ssl-certificates.md)**  
@@ -60,6 +62,8 @@ You can attach a script file to synchronize to a connected MID Server.
 The MID Server supports the National Security Cloud \(NSC\) IL-5 environment, which requires all utilized cryptography to be FIPS validated. The MID server can be run in FIPS Enforced Mode, where only cryptographic algorithms which are FIPS validated are utilized.
 -   **[MID Server Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-timeout.md)**  
 Improve MID Server security by setting an automatic timeout to invalidate and shut down inactive MID Servers. You can enable this feature and set the inactivity timeout period globally and for each MID Server.
+-   **[MID Server IPKI authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-ipki-authentication.md)**  
+Instance PKI \(IPKI\) lets a MID Server authenticate to its instance using a JSON Web Token \(JWT\) signed by an instance-issued certificate. Use IPKI when you want to authenticate MID Servers with certificates that the instance issues.
 
 **Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/manage-data-sources.md)
 

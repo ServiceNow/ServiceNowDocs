@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-28"
+reading_time_minutes: 3
 breadcrumb: [Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -105,6 +105,17 @@ Define conditions to identify products that must not be visible to the employees
 
     -   Users created after the last scheduled job run time.
     -   Supplier products created after the last scheduled job run time
+    **Note:** A shopping control applies only to the supplier products that meet the conditions that you define. If a condition uses the **ERP source** field, supplier products with an empty or different ERP source value are not affected by the control.
+
+    **Note:**
+
+    How shopping controls are applied:
+
+    -   A scheduled job, **\[PSM\] Execute Shopping Controls**, runs once a day. It applies active controls to users and to supplier products, and it updates the cart lines of shoppers whose products are now restricted. To apply a control right away, select **Implement control**.
+    -   A shopper's controls are loaded when their session starts. A change to a control reaches a shopper who is already signed in after they start a new session.
+    -   A shopper can be covered by more than one control. A product is hidden from the shopper when any one of those controls applies to it.
+    -   Shopping controls apply to every product list that a shopper sees in Shopping Hub, such as categories, suppliers, product pages, and pricing. They do not apply to search results only.
+    -   A product that a control restricts is flagged in the shopper's cart as no longer accessible, unless the shopper has an applicable credit.
 4.  Select **Submit**.
 
 

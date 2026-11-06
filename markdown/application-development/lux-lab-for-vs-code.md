@@ -21,15 +21,81 @@ For the desktop app, see [Lux Lab](https://raw.githubusercontent.com/ServiceNow/
 
 ## Requirements
 
-|Requirement|Minimum version|
-|-----------|---------------|
-|Visual Studio Code|1.97|
-|Node.js|24|
-|pnpm|10|
-|now-sdk|4.12|
-|Target instance|Zurich Patch 12 or later, or Australia Patch 5 or later|
+<table id="table_imf_rfb_dkc"><thead><tr><th>
 
-The **Lux: Show Environment Check** command displays the required and detected versions for Node.js, pnpm, and ServiceNow SDK. After fixing a failure, run **Lux: Re-check Environment**.
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Visual Studio Code
+
+</td><td>
+
+1.97 or later
+
+</td><td>
+
+[Visual Studio Code updates](https://code.visualstudio.com/updates/v1_132)
+
+</td></tr><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.14 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+</td><td>
+
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+
+</td></tr></tbody>
+</table>The **Lux: Show Environment Check** command displays the required and detected versions for Node.js, pnpm, and ServiceNow SDK. After fixing a failure, run **Lux: Re-check Environment**.
 
 **Warning:** The Environment Check page offers **Skip checks and proceed anyway**. Skipping leaves the extension's features enabled while the checks are unmet, and commands may fail. The check must pass before you can create a project.
 

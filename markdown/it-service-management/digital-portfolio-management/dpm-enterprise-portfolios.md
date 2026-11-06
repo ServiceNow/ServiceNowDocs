@@ -34,7 +34,7 @@ You can create, view, and search across three different types of enterprise port
 -   Business application portfolios
 -   Service instance portfolios
 
-Each enterprise portfolio type is clearly marked when you search for an enterprise portfolio. For information about for each type, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
+Each enterprise portfolio type is clearly marked when you search for an enterprise portfolio. For information about each type, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
 **Note:** Even though service portfolios are visible in DPM, they’re still created using Service Portfolio Management tables. Use the enterprise portfolio tables to create business application portfolios and service instance portfolios.
 

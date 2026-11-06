@@ -21,7 +21,7 @@ Role required: sn\_query\_gen.admin or higher
 
 ## About this task
 
-The Query Generation semantic layer uses natural-language descriptions to help AI understand what each table represents. By default, descriptions are auto-derived from the Field Label \[sys\_documentation\] table, but you can override these descriptions with custom descriptions that better explain the business purpose of your tables. When you clear a custom description, the system falls back to the Field Label value.
+The Query Generation semantic layer uses natural-language descriptions to help AI understand what each table represents. By default, descriptions are auto-derived from the Field Label \[sys\_documentation\] table. However, you can override these descriptions with custom descriptions that better explain the business purpose of your tables. When you clear a custom description, the system falls back to the Field Label value.
 
 This procedure uses the Semantic Table Configuration table. Customizations made this way can be transferred between instances via update sets and override descriptions set directly in the Entity table. For simpler, single-instance testing, you can edit the Semantic Description field directly in the Entity \[sn\_query\_gen\_entity\] table instead.
 
@@ -46,7 +46,7 @@ This procedure uses the Semantic Table Configuration table. Customizations made 
 
 ## Result
 
-The custom entity description is active and will be used by Query Generation when processing queries for this table. Because this customization is stored in the Semantic Table Configuration table, it can be included in an update set and transferred to other instances. For more information, see .
+The custom entity description is active and will be used by Query Generation when processing queries for this table. Because this customization is stored in the Semantic Table Configuration table, it can be included in an update set and transferred to other instances. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
 ## Entity descriptions
 

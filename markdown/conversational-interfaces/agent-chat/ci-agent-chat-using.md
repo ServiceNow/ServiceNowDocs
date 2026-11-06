@@ -1,6 +1,6 @@
 ---
 title: Using Agent Chat
-description: Agent Chat enables live agents to have conversations with requesters and for managers to help agents and monitor them.Use shortcuts, known as quick actions, for common activities that are performed frequently.Agents can use Conversation Autopilot to display Virtual Agent topics during Agent Chat conversations. While the requester interacts with the Virtual Agent topics, agents can multitask and work on other items. Conversation Autopilot is not available for HR Service Delivery \(HRSD\).Use emojis in Agent Chat conversations to convey emotions to requesters. This helps requesters feel like they're having a conversation with a friend and builds customer brand loyalty.Use Dynamic Translation for Agent Chat \(DTAC\) to have a chat conversation with a requester who uses a different language.Send a message to a requester even when the requester isn't online while working on issues in Workspace. A long-running conversation between an an agent and a requester who are not online concurrently is called an asynchronous, or async, chat.Use the action bar in chat interaction records to access a range of actions that help manage and respond to records efficiently.
+description: Use Agent Chat to chat live with requesters. Managers can also help and monitor agents.Use shortcuts, known as quick actions, for common activities that are performed frequently.Agents can use Conversation Autopilot to display Virtual Agent topics during Agent Chat conversations. While the requester interacts with the Virtual Agent topics, agents can multitask and work on other items. Conversation Autopilot is not available for HR Service Delivery \(HRSD\).Use emojis in Agent Chat conversations to convey emotions to requesters. This helps requesters feel like they're having a conversation with a friend and builds customer brand loyalty.Use Dynamic Translation for Agent Chat \(DTAC\) to have a chat conversation with a requester who uses a different language.Send a message to a requester even when the requester isn't online while working on issues in Workspace. A long-running conversation between an an agent and a requester who are not online concurrently is called an asynchronous, or async, chat.Use the action bar in chat interaction records to end chats, start discussions, create cases and requests, and save changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ci-agent-chat-using.html
 release: australia
@@ -15,15 +15,15 @@ breadcrumb: [Agent Chat, Conversational Interfaces]
 
 # Using Agent Chat
 
-Agent Chat enables live agents to have conversations with requesters and for managers to help agents and monitor them.
+Use Agent Chat to chat live with requesters. Managers can also help and monitor agents.
 
-Workspace displays a chat inbox icon \[Omitted image "inbox-icon-pol.png"\] Alt text: that agents use to enter chats. Agents set their status to **Available** or **Away** to open or close their inbox for chat requests. The icon displays numbers when chats are waiting to be answered.
+The workspace displays a chat inbox icon \[Omitted image "inbox-icon-pol.png"\] Alt text: that agents use to enter chats. Agents set their status to **Available** or **Away** to open or close their inbox for chat requests. The icon shows the number of chats waiting for an answer.
 
-The chat interface is integrated into the workspace so agents can chat while working onscreen with other features provided by the workspace.
+The chat interface is built into the workspace, so agents can chat while they use other workspace features.
 
 \[Omitted image "chat-screen-pol.png"\] Alt text: Chat with agent
 
-The following sections explain how to use Agent Chat.
+The following topics explain how to use Agent Chat.
 
 ## Using quick actions in Agent Chat
 
@@ -71,11 +71,11 @@ Agents can use Conversation Autopilot to display Virtual Agent topics during Age
 
 While talking to a requester in an Agent Chat conversation, agents can start Conversation Autopilot by using autopilot quick actions to invoke Virtual Agent topics. Depending on the information entered by the requester, agents can search for a specific Virtual Agent topic and display it with parameters. The requester views the topic and responds as needed and Virtual Agent captures the requester’s input.
 
-**Note:** For the best experience, enable the Agent Chat setting that turns on system messages during autopilot. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+**Note:** For the best experience, enable the Agent Chat setting that turns on system messages during autopilot. For details, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 ### Configuring Autopilot
 
-You must have the Glide Virtual Agent plugin and the Agent Chat plugin installed to view and access the quick action for Autopilot. Admins can setup which Virtual Agent topics are available to agents in Agent Chat.
+You must have the Glide Virtual Agent plugin and the Agent Chat plugin installed to view and access the quick action for Autopilot. Admins can set up which Virtual Agent topics are available to agents in Agent Chat.
 
 **Note:** Admins must be able to configure a quick action based on their organization's business need and set it up for agents to use as required.
 
@@ -83,7 +83,7 @@ For information on using quick actions in Agent Chat, see [Using quick actions i
 
 ### Using Autopilot
 
-The agent is able to use quick actions to search for and invoke an Autopilot topic of their choice during their conversation with a requester. The agent can only select Autopilot topics that are relevant to the channel. For example, only topics optimized for SMS are selectable when conversing with a requester who is using SMS.
+The agent can use quick actions to search for and invoke an Autopilot topic of their choice during their conversation with a requester. The agent can only select Autopilot topics that are relevant to the channel. For example, only topics optimized for SMS are selectable when conversing with a requester who is using SMS.
 
 \[Omitted image "autopilot-quick-action-start.png"\] Alt text: Starting autopilot using the quick action
 
@@ -97,7 +97,7 @@ While Autopilot is on, the requester can use the rich controls for text but agen
 
 \[Omitted image "autopilot-no-rich-controls.png"\] Alt text: Rich controls are read-only during autopilot.
 
-When Autopilot is in use, public chat with the requester is disabled, but agents can contact other agents and supervisors for help. If Agent Whisper is on, the **Private Chat** tab in Agent Whisper functions normally during Autopilot. While Autopilot is in use, the agent's capacity is not freed up and messaging actions configured by customers are disabled.
+When Autopilot is in use, public chat with the requester is turned off, but agents can contact other agents and supervisors for help. If Agent Whisper is on, the **Private Chat** tab in Agent Whisper functions normally during Autopilot. While Autopilot is in use, the agent's capacity is not freed up and messaging actions configured by customers are turned off.
 
 ### When Autopilot is ended
 
@@ -105,13 +105,13 @@ The agent receives a desktop notification in the **Notifications** tab in Worksp
 
 \[Omitted image "autopilot-end-autopilot.png"\] Alt text: Autopilot ended.
 
-## Conveying emotions using emojis
+## Convey emotions using emojis
 
 Use emojis in Agent Chat conversations to convey emotions to requesters. This helps requesters feel like they're having a conversation with a friend and builds customer brand loyalty.
 
 ### Before you begin
 
-Emojis must be enabled before agents can use them in Agent Chat. See [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for instructions on enabling emojis.
+Emojis must be enabled before agents can use them in Agent Chat. See [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for instructions on enabling emojis.
 
 Role required: admin
 
@@ -125,7 +125,7 @@ Role required: admin
     -   Enter a colon followed by the first few characters of the emoji name. When the pop-up menu of emojis displays, select one.
     \[Omitted image "emoji-enter-name.png"\] Alt text: Short name list of emojis.
 
-    -   Enter a special character combination or short name which is automatically converted into an emoji after entering a space or enter.
+    -   Enter a special character combination or short name which is automatically converted into an emoji after entering a space or the Enter key.
     \[Omitted image "emoji-enter-short-name.png"\] Alt text: Enter emoji short name.
 
 2.  Display the short name of an emoji as a tooltip by positioning the cursor over the emoji.
@@ -145,7 +145,7 @@ When DTAC is enabled, both the agent and the requester will see a banner at the 
 
 ### Dynamic translations control for bilingual agents
 
-When a bilingual agent accepts a chat conversation to which they’re fluent in the requester’s language, DTAC is not necessary. With the Dynamic translations chat session control, agents can turn of DTAC for individual chat sessions.
+When a bilingual agent accepts a chat conversation to which they’re fluent in the requester’s language, DTAC is not necessary. With the Dynamic translations chat session control, agents can turn off DTAC for individual chat sessions.
 
 Agents can select the ellipsis \(\[Omitted image "Ellipses.png"\] Alt text: Translation-indicator icon\) at the bottom of the chat window then select the **Dynamic translations control** to the off position.
 
@@ -157,7 +157,7 @@ The translation capability is switched off for both the requester and the agent,
 
 ### Troubleshoot translated messages
 
-Translation services do not understand idioms or jargon and it is possible that some user messages are lost in translation. You can use the translation-indicator icon to view the requester’s original message and look up its meaning as needed.
+Translation services do not interpret idioms or jargon and it is possible that some user messages are lost in translation. You can use the translation-indicator icon to view the requester’s original message and look up its meaning as needed.
 
 You can navigate to the individual chat message and select the translation-indicator icon \(\[Omitted image "Globe.png"\] Alt text: Translation-indicator icon, displayed as a globe grid.\) to see the requester’s original, untranslated message.
 
@@ -169,7 +169,7 @@ Two chat transcripts are generated at the end of each DTAC chat session. One for
 
 ### Chat transferred from Virtual Agent
 
-Once you accept a chat from a requester, you can see the chat history between the Virtual Agent and requester in their preferred language for more context.
+When you accept a chat from a requester, you can see the chat history between the Virtual Agent and requester in their preferred language for more context.
 
 \[Omitted image "transfer-va-live-agent.png"\] Alt text: Transferring from virtual agent to live agent
 
@@ -213,21 +213,21 @@ Role required: admin
 
 ## Using the action bar in chat interaction records
 
-Use the action bar in chat interaction records to access a range of actions that help manage and respond to records efficiently.
+Use the action bar in chat interaction records to end chats, start discussions, create cases and requests, and save changes.
 
 The action bar includes the following actions:
 
--   End Chat: Enables an agent to end the chat conversation.
+-   **End Chat**: Ends the chat conversation.
 
-    **Note:** In contact-center-as-a-service \(CCaaS\) powered chats, End Chat is replaced with Leave Chat, which enables an agent to leave the chat conversation without ending it for other agents.
+    **Note:** In chats powered by contact center as a service \(CCaaS\), **Leave Chat** replaces **End Chat**. **Leave Chat** lets an agent leave the chat conversation without ending it for other agents.
 
--   Discuss: Opens a pop-up window to start a Sidebar discussion.
--   Create Case: Creates a new case record.
--   Save: Saves changes to the interaction record.
--   More Actions: Perform additional actions such as creating a request or associating a record.
-    -   Create Consumer: Creates a new Consumer record in a subtab.
-    -   Create Request: Creates a new Request record in a subtab and adds the record to the Related Tasks related list.
-    -   Associate Record: Opens a new record in a subtab that the agent can use to link a record to the current interaction. This new record is displayed in the Related Tasks related list.
+-   **Discuss**: Opens a pop-up window to start a Sidebar discussion.
+-   **Create Case**: Creates a new case record.
+-   **Save**: Saves changes to the interaction record.
+-   **More Actions**: Opens a menu of additional actions, such as creating a request or associating a record.
+    -   **Create Consumer**: Creates a new consumer record in a subtab.
+    -   **Create Request**: Creates a new request record in a subtab and adds the record to the Related Tasks related list.
+    -   **Associate Record**: Opens a new record in a subtab that the agent can use to link a record to the current interaction. The record appears in the Related Tasks related list.
 
-**Note:** The specific actions available are determined by factors such as the user role and other attributes.
+**Note:** The actions available depend on factors such as the user’s role and other attributes.
 

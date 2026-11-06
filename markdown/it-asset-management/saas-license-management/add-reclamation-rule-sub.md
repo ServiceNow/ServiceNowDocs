@@ -139,8 +139,6 @@ View the reclamation candidates that are identified by your reclamation rule and
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-
 [Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-profile.md)
 
 [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/reclamation-rules.md)

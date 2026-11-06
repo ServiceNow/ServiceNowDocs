@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generate-work-plan.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-28"
-reading_time_minutes: 9
+last_updated: "2026-10-29"
+reading_time_minutes: 8
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
@@ -44,7 +44,7 @@ Now LLM is not a supported LLM provider for the Generate my work plan agentic wo
 
 ## Role filtering
 
-Required role: sn\_uxc\_gen\_ai.platform\_ai\_work\_planner.
+Required role: sn\_uxc\_gen\_ai.platform\_ai\_work\_planner
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
@@ -54,212 +54,55 @@ In the data access settings, add the necessary roles to enable reading of the ta
 
 Change different settings related to the agentic workflow by changing values for the Now Assist Skill Config Var Set. To access the variable set and make changes, do the following while in the Platform AI Agents and Skills scope:
 
--   Go to the Now Assist Skill Config \[sn\_nowassist\_skill\_config\] table.
--   Open the record named **Generate my work plan config**.
--   In the Now Assist Skill Config Var Set related list, select **New**.
--   Enter a name for your Config Var Set.
--   Set Config Type to be either `User schedule` or `Generate my work plan`.
--   Save the Var Set record.
--   Set the variables for the config type.
--   Save the Var Set.
+1.  Go to the Now Assist Skill Config \[sn\_nowassist\_skill\_config\] table.
+2.  Open the record named **Generate my work plan config**.
+3.  In the Now Assist Skill Config Var Set related list, select **New**.
+4.  Enter a name for your Config Var Set.
+5.  Set Config Type to be either `User schedule` or `Generate my work plan`.
+6.  Save the Var Set record.
+7.  Set the variables for the config type.
+8.  Save the Var Set.
 
 The work plan config var set includes general variables for running the agentic workflow.
 
-<table><thead><tr><th>
-
-Config field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Schedule job
-
-</td><td>
-
-Creates a scheduled job that automatically runs, allowing users to see updated prioritization suggestions after making progress in their work. Default: Unselected.
-
-</td></tr><tr><td>
-
-Schedule job frequency
-
-</td><td>
-
-How long after a record in the original work plan is updated for the agentic workflow to run again. Default: 30 minutes
-
-</td></tr><tr><td>
-
-Predict estimates
-
-</td><td>
-
-Predict estimated time to complete work per record.
-
-</td></tr><tr><td>
-
-Exclude task table
-
-</td><td>
-
-By default, certain fields are used for prioritizing work on the Task table. You can configure what fields to use on individual tables, such as the Incident table. Enable this to only plan for tables configured and not other records which are task or extension of task tables.
-
-</td></tr><tr><td>
-
-Max tasks
-
-</td><td>
-
-The maximum number of tasks that can be recommended to a user for their work plan. Default: 30 tasks
-
-</td></tr></tbody>
-</table>The Incident config var set includes the following variables. Configure either the AIS fields or the GAF field for determining how the agentic workflow gathers what work the user has. If you configure GAF, it takes priority when running the agentic workflow. For more information about GAF, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/group-action-framework.md).
-
-Use this config var set as a template to change any values for other tables, such as the Case or HR Case tables.
-
-**Note:** If you select **Exclude task table** in the work plan config var set, only the tables that have these var sets configured are included for work in the suggested work plan.
-
-<table><thead><tr><th>
-
-Config field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Table
-
-</td><td>
-
-Table for record types that someone can work on
-
-</td></tr><tr><td>
-
-Conditions
-
-</td><td>
-
-Filter criteria for determining eligible tasks
-
-</td></tr><tr><td>
-
-Record fields
-
-</td><td>
-
-Fields passed to the workflow for analysis
-
-</td></tr><tr><td>
-
-Time worked
-
-</td><td>
-
-Custom or edited field for specifying time worked. By default, the agentic workflow uses the **Time worked** field.
-
-</td></tr><tr><td>
-
-AIS Search Profile
-
-</td><td>
-
-Specific AI Search profile
-
-</td></tr><tr><td>
-
-AIS Search Fields
-
-</td><td>
-
-Fields AI Search looks at for determining similarity
-
-</td></tr><tr><td>
-
-AIS Return Fields
-
-</td><td>
-
-Fields returned by AI Search to the agentic workflow to base decisions on
-
-</td></tr><tr><td>
-
-GAF Config
-
-</td><td>
-
-Group Action Framework grouping configuration record, which is a collection of groups of records to make searching easier.
-
-</td></tr><tr><td>
-
-Assigned to field
-
-</td><td>
-
-The field for the user who works on the record. By default, the agentic workflow uses the **assigned\_to** field.
-
-</td></tr><tr><td>
-
-Order by
-
-</td><td>
-
-JSON object array containing the ordering information for how work records are prioritized.
-
- Default is as follows. Any direction other than “DESC” is considered ascending in order.
-
- ```
-[
-{ column: 'priority', direction: ''},
-{ column: 'due_date', direction: ''},
-{ column: 'escalation', direction: 'DESC' },
-{ column: 'sys_created', direction: 'DESC' }
-]
-```
-
-</td></tr></tbody>
-</table>By default, the Generate my work plan agentic workflow relies on the User \[sys\_user\] record's Schedule field. If there is no schedule defined on the User record, the workflow consults the Schedule \[chm\_schedule\] table for the user. If neither are present, the assumed schedule is a weekday schedule from 8:00 a.m. to 5:00 p.m.
-
-Change what tables and fields to look for schedule information with the **User schedule** config type.
-
-<table><thead><tr><th>
-
-Config field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Table
-
-</td><td>
-
-Table where user schedule information is stored
-
-</td></tr><tr><td>
-
-Conditions
-
-</td><td>
-
-\(Optional\) Conditions to determine what user schedule to associate with the user.
-
-</td></tr><tr><td>
-
-Schedule column
-
-</td><td>
-
-Field where specific schedule information is stored
-
-</td></tr></tbody>
-</table>## Accessing the Generate my work plan agentic workflow
-
-To access the agentic workflow:
+|Field|Default|Description|
+|-----|-------|-----------|
+|Max tasks shown|10|Number of tasks the user will see in their list output.|
+|Next actions limit|—|Show how many tasks include AI-generated next actions. Tasks beyond this limit receive effort bucket estimates only.|
+|Include time estimates|true|Show estimated duration and suggested times for each task using the user's work schedule.|
+|Include next action|false|Shows AI-generated next steps for users to take for each task. Produces potential next workflows the user can execute.|
+|Exclude task table|false|Excludes the default task table from prioritizing. Use only when all records are in explicitly configured child tables.|
+
+The following is the default Work plan Table Config var set for the Task table. You can duplicate this var set and configure the duplicate for other tables.
+
+|Field|Description|
+|-----|-----------|
+|Table|Required. The table name for the tasks to prioritize \(for example, incident or sc\_req\_item\).|
+|Conditions|Conditions that determine which tasks will get prioritized in the work plan \(encoded query, applied before the assigned-to filter\).|
+|Assigned to field|The field assigned to the current user, used to filter records specific to the logged-in user. Default: assigned\_to.|
+|Record fields|Values passed as inputs to the workflow to generate the work plan \(CSV of extra GR fields sent in the AI prompt\).|
+|Time worked|Time taken to finish a task end-to-end, used to estimate the effort. Must be a timer-type field. Default: time\_worked.|
+|Order by|Lets you choose how tasks are arranged before the LLM prioritizes them. JSON array: \[\{"column":"priority","direction":"ASC"\}\].|
+|GAF Config|Optional GAF configuration ID used to identify similar records when prioritizing. Preferred over AIS when present.|
+|AIS Search Profile|The search profile to be considered during AI search. Used when GAF Config is not set.|
+|AIS Search Fields|Fields to be considered during the AI search.|
+|AIS Return Fields|The fields from the table that AIS should return alongside similar records.|
+
+|Field|Description|
+|-----|-----------|
+|Table|Required. The schedule table, which stores the user's schedule records.|
+|Conditions|Conditions applied to the schedule table to determine the user's schedule.|
+|Schedule column|Required. The user's schedule is fetched from this field. The value must be a reference field pointing to cmn\_schedule.|
+
+## Accessing the Generate my work plan agentic workflow
+
+To access the agentic workflow in AI Agent Studio:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+2.  Select the **Agentic workflows** tab.
+3.  Select **Generate my work plan**.
+
+To access the agentic workflow in the legacy AI Agent Studio:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Generate my work plan**.
@@ -295,6 +138,8 @@ The following table lists the agents used in the Generate my work plan agentic w
 |AI agent name|AI agent description|Role required|
 |-------------|--------------------|-------------|
 |Prioritize work AI Agent​|Dynamically orders tasks based on parameters like urgency, priority, SLAs, sentiment, and impact.|sn\_uxc\_gen\_ai.platform\_ai\_work\_planner|
+|Suggested Actions AI Agent| |sn\_uxc\_gen\_ai.platform\_ai\_suggested\_actions|
+|Update work plan AI Agent| |itil and sn\_uxc\_gen\_ai.platform\_ai\_work\_planner|
 
 ## Other Platform agentic workflows
 

@@ -20,13 +20,15 @@ The External Communication Channel \(ECC\) Queue is a connection point between y
 
 The ECC queue contains records that are created during all stages of discovery. Each record is a message from the instance to system your are targeting for discovery, classified as **output**, or a message from that system to the instance, classified as **input**.
 
-ECC queue records provide you with a connected flow of probe and sensor activity along with the XML payload sent to or from an instance and the assets you're targeting.
+ECC queue records show the connected flow of probe and sensor activity. They include the XML payload sent to or from an instance and the assets you're targeting.
 
 ## Automatic deletion of ECC queue records
 
 As your IT Asset Discovery runs, the size of the ECC queue can grow to several gigabytes. Most of the “completed tasks” records are unnecessary, but some might be important for issue resolution.
 
-For example, if Discovery is not properly capturing the disk drives on a particular Windows server, you can look in the ECC Queue at the data returned by the Windows - System Information probe. For this reason, you should retain ECC Queue data from Discovery for at least a month.
+For example, if Discovery is not capturing disk drives on a Windows server, check the ECC Queue for data from the Windows - System Information probe.
+
+Retain ECC Queue data for at least a month.
 
 By default, records in the ECC Queue older than 7 days are deleted automatically. You can set the deletion schedule by updating the ECC queue \(as we will explain in the next section\) and the table rotation schedule. The table rotation names are:
 

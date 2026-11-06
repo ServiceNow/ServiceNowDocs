@@ -56,5 +56,3 @@ Applications for external data can't function without Process Mining. Before act
 
 [Process Mining for Workday and Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/pm-workday.md)
 
-[pm-salesforce]
-

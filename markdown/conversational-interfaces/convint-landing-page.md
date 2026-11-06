@@ -23,7 +23,7 @@ Select a tile to get started with one of Conversational Interfaces products.
 
 </td><td>
 
-[Virtual Agent\[Omitted image "bus-chat.svg"\] Alt text:Empower your employees and customers to serve themselves using a friendly messaging interface, featuring pre-built conversations powered by artificial intelligence.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
+[Virtual Agent\[Omitted image "bus-chat.svg"\] Alt text:Empower your employees and customers to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 
 </td><td>
 

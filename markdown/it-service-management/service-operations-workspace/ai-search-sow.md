@@ -1,6 +1,6 @@
 ---
 title: Setting up AI Search in Service Operations Workspace for ITSM
-description: Intelligent query features enable you to quickly find the answers that you require. The Next Experience Unified Navigation search field enables you to search multiple record types and switch between global search results and results from the workspace applications that you can access.
+description: Search multiple record types from the Next Experience Unified Navigation search field and switch between global and workspace application results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/ai-search-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Setting up integrations in Service Operations Workspace for ITSM, C
 
 # Setting up AI Search in Service Operations Workspace for ITSM
 
-Intelligent query features enable you to quickly find the answers that you require. The Next Experience Unified Navigation search field enables you to search multiple record types and switch between global search results and results from the workspace applications that you can access.
+Search multiple record types from the Next Experience Unified Navigation search field and switch between global and workspace application results.
 
 For information about AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
 

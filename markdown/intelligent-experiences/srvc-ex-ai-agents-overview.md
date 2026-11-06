@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Service Exchange AI agents

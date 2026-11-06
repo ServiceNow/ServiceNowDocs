@@ -1,6 +1,6 @@
 ---
 title: Regulatory assessment for a regulatory alert
-description: Utilize the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level, streamlining processes through a unified core assessment framework, and assigning analysis to multiple stakeholders for improved collaboration and efficiency.
+description: Use the Smart Assessment Engine to perform smart assessments on regulatory alerts. Impact assessments run directly at the regulatory alert level through a unified core assessment framework. Analysis can be assigned to multiple stakeholders for improved collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-assessment-in-rcm.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Regulatory process flow and tasks, Explore, Regulatory Change Manag
 
 # Regulatory assessment for a regulatory alert
 
-Utilize the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level, streamlining processes through a unified core assessment framework, and assigning analysis to multiple stakeholders for improved collaboration and efficiency.
+Use the Smart Assessment Engine to perform smart assessments on regulatory alerts. Impact assessments run directly at the regulatory alert level through a unified core assessment framework. Analysis can be assigned to multiple stakeholders for improved collaboration.
 
-When you initiate an assessment to assess the impact of a regulatory alert, you get an option select either to start a regulatory assessment or the classic risk assessment. Regulatory assessment utilizes the Smart Assessment Engine application and when it is initiated, a new related list called **Regulatory assessments** is available on a regulatory alert that displays the list of uniquely generated regulatory assessments. The assessor can access the assessment from the unified **Tasks** page on the Employee Center. The unified **Tasks** page provides you a consolidated view of all your tasks, including all assessments, enabling you to access and complete them efficiently. For more information on how to perform a regulatory assessment, refer to [Respond to a regulatory assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/respond-to-a-regulatory-assessment.md).
+When you initiate an assessment to evaluate the impact of a regulatory alert, you can choose to start a regulatory assessment or the classic risk assessment. Regulatory assessments use the Smart Assessment Engine application. After an assessment is initiated, a new related list called **Regulatory assessments** is available on the regulatory alert, displaying all uniquely generated regulatory assessments. You can access the assessment from the unified **Tasks** page on the Employee Center, which provides a consolidated view of all tasks, including assessments. For more information, see [Respond to a regulatory assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/respond-to-a-regulatory-assessment.md).
 
 To understand the benefits of using the Smart Assessment Engine, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Time-based one-time password, TOTP, authenticator apps, ServiceNow, user authentication, authentication factor, Okta Verify]
 breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -21,7 +21,7 @@ TOTP authenticator apps like **Okta Verify** generate temporary numeric codes on
 
 ## Use case
 
-TOTP authenticator apps are suitable for users who require stronger protection than standard multi-factor authentication \(MFA\) methods.
+TOTP authenticator apps are suitable for users who require stronger protection than standard multi-factor authentication \(MFA\) methods.TOTP factor can also be used for step-up authentication. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/step-up-authentication.md).
 
 ## Key strengths
 

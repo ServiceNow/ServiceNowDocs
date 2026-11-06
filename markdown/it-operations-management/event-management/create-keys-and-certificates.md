@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-11-02"
+reading_time_minutes: 4
 breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -109,6 +109,16 @@ Role required: agent\_client\_collector\_admin
         cat labmid/rsa-labmidkey.pem labmid/mid.crt > labmid/mid.pem;
         ```
 
+        If an intermediate certificate authority \(CA\) signs your MID Web Server certificate, include the complete certificate chain in the `mid.pem` file. Combine the private key, signed MID Web Server certificate, intermediate CA certificates, and root CA certificate, in that order. If the chain contains multiple intermediate certificates, arrange them from the issuing CA toward the root CA.
+
+        To combine the files when using an intermediate CA, run the following command:
+
+        ```
+        cat labmid/rsa-labmidkey.pem labmid/mid.crt labmid/intermediate-ca.pem labmid/root-ca.pem > labmid/mid.pem;
+        ```
+
+        Replace the example certificate filenames and paths with those of your actual certificate chain.
+
 2.  In a Windows environment:
 
     1.  Create subdirectories for your certificates in your root directory.
@@ -195,6 +205,16 @@ Role required: agent\_client\_collector\_admin
         ```
         copy /b labmid\rsa-labmidkey.pem+labmid\mid.crt labmid\mid.pem
         ```
+
+        If an intermediate certificate authority \(CA\) signs your MID Web Server certificate, include the complete certificate chain in the `mid.pem` file. Combine the private key, signed MID Web Server certificate, intermediate CA certificates, and root CA certificate, in that order. If the chain contains multiple intermediate certificates, arrange them from the issuing CA toward the root CA.
+
+        To combine the files when using an intermediate CA, run the following command:
+
+        ```
+        copy /b labmid\rsa-labmidkey.pem+labmid\mid.crt+labmid\intermediate-ca.pem+labmid\root-ca.pem labmid\mid.pem
+        ```
+
+        Replace the example certificate filenames and paths with those of your actual certificate chain.
 
 
 ## What to do next

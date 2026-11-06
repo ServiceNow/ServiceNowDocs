@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Employee Slate, EmployeeWorks, browse experience, taxonomy configuration, topic navigation]
-breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure browse experience

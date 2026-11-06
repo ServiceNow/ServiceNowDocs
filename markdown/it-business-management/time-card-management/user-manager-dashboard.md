@@ -34,9 +34,9 @@ It displays the total count of entries in **Time sheet exceptions** report.
 
 ## Time sheet exceptions report
 
-The Time sheet exceptions report lists the users who did not submit/create their time sheets, and the time sheets which are not yet approved for the selected user, and time range. The report displays the following data:
+The Time sheet exceptions report lists the users who did not submit/create their time sheets, and the time sheets which aren't yet approved for the selected user, and time range. The report displays the following data:
 
--   **User**: The time card user whose manager in User profile is the current user. If there are more than one time sheets for a user in a given date range which are not submitted or require approval, then multiple entries are listed for the user.
+-   **User**: The time card user whose manager in User profile is the current user. If there are more than one time sheets for a user in a given date range which aren't submitted or require approval, then multiple entries are listed for the user.
 -   **Week starts on**: Starting date of the time sheet week in the selected time range.
 -   **State**: State of the time card. Time sheet entries with state as **Not Submitted** are also listed if a time sheet is not created for the week.
 

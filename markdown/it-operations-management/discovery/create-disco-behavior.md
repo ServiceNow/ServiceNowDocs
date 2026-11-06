@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-27"
+last_updated: "2026-10-20"
 reading_time_minutes: 3
 breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -115,7 +115,7 @@ Name
 
 The name in the criteria is the variable that passes the following information:-   `mid_server`: MID Server that processes the results from the Shazzam probe. Enter the actual name of the MID Server in the Value field.
 -   `win_domain`: Windows domain of the target device. Enter the actual name of the Windows domain in the Value field.
--   `mid_win_domain` Windows domain of the MID Server that is processing the Shazaam results. Enter the actual domain name in the Value field.
+-   `mid_win_domain`: Windows domain of the MID Server that is processing the Shazzam results. Enter the actual domain name in the Value field.
 
 
 </td></tr><tr><td>
@@ -132,7 +132,7 @@ Value
 
 </td><td>
 
-Enter the actual name of the MID Server \(`mid_server`\) or domain \(`win_domain`\) to pass to Discovery for this criteria. This field can also have a value of `mid_domain`, which defines the Windows domain of the MID Server that is processing the Shazzam results.
+Enter the actual name of the MID Server \(`mid_server`\), target domain \(`win_domain`\), or MID domain \(`mid_win_domain`\) to pass to Discovery for this criteria.
 
 </td></tr></tbody>
 </table>    The following graphic shows an example of functionality criteria. \[Omitted image "DiscoveryFunctionalityCriteria.png"\] Alt text: Discovery functionality criteria

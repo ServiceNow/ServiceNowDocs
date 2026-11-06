@@ -9,7 +9,7 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Move a Core UI dashboard with an update set, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Move a Core UI dashboard with an update set, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Validate that tabs are moved to a target dashboard
@@ -28,7 +28,7 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
 1.  In the target instance, navigate to the dashboard you have just moved.
 
-2.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Dashboard Properties**.
+2.  Select the context menu icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text:\) and select **Dashboard Properties**.
 
 3.  For each tab in the tab form, verify that the required field **Page** \(sys\_portal\_page reference\) is there.
 
@@ -36,7 +36,7 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
 4.  If the portal page in the target instance is missing in any of the tab forms, perform these steps:
 
-    1.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) in the Tab form and select **Copy sys\_id**.
+    1.  Select the context menu icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text:\) in the Tab form and select **Copy sys\_id**.
 
     2.  In the filter navigator of the source instance, enter `pa_tabs.list`.
 
@@ -46,7 +46,7 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     5.  Select the information icon \(\[Omitted image "IconInformation.png"\] Alt text:\) of the Page value for that tab.
 
-    6.  On the **Portal Page**, select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Copy sys\_id**.
+    6.  On the **Portal Page**, select the context menu icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text:\) and select **Copy sys\_id**.
 
         Paste this value into the text editor.\[Omitted image "copy-sys-id.png"\] Alt text: Copy sys\_id
 
@@ -74,6 +74,6 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     5.  Move the update set to another instance using standard update set functionality.
 
-        For more information, see Retrieve an update set.
+        For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
 

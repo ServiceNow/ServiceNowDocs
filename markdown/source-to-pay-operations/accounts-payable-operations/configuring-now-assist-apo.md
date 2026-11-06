@@ -23,7 +23,7 @@ Configure ServiceNow Otto for Accounts Payable Operations so that AP fulfillers 
 
     Use the AI Admin Hub console to configure APO. This console contains everything that you need to install the plugin \[sn\_ap\_gen\_ai\] and configure the generative AI skills.
 
--   See the [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md) topic.
+-   See the [Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md) topic.
 
     Use the AI Admin Hub console to activate the various ServiceNow Otto applications and skills that you’re entitled to.
 

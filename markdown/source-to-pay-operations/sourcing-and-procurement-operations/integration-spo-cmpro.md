@@ -34,9 +34,9 @@ Using this integration, procurement specialists can create contract requests for
 
 The following roles are required to initiate, view, and manage contract execution:
 
--   **Sourcing and purchasing viewer**: This is a new role provided within the **Contract specialist** assignment group. This role can be assigned to the contracting and procurement professionals to have read-only access into the purchase lines, sourcing requests, negotiations, and purchase requisitions.
+-   **Sourcing and purchasing viewer**: This is a new role provided within the **Contract Specialists** group. This role can be assigned to the contracting and procurement professionals to have read-only access into the purchase lines, sourcing requests, negotiations, and purchase requisitions.
 -   **Contract fulfiller**: This is a licensed role for CM Pro. This role has to be explicitly assigned to the contracting and procurement professionals if they have to work on contract requests. Once assigned, they can work on the contract requests, leveraging all capabilities from CM Pro – obtaining contract signatures, authoring contracts, tracking revisions, and creating the contract documents to be stored in the contract repository.​
--   **Contract user**: This role is also provided within the **Contract specialist** assignment group and is required to initiate and track contract execution.
+-   **Contract user**: This role is also provided within the **Contract Specialists** group and is required to initiate and track contract execution.
 
 You can assign your procurement and contracting professionals to these roles as required.
 

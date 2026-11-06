@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-08-18"
+last_updated: "2026-10-15"
 reading_time_minutes: 5
 keywords: [purchase order, state model, progress tracker, PO states]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
@@ -61,7 +61,7 @@ Deviation branches for cases where a PO does not follow the happy path. Unlike t
 |**Pending Submission**|The PO is created and awaits submission to the supplier.|
 |**Ordered**|The PO is submitted to the supplier.|
 |**Partially Delivered**|Some line items are delivered.|
-|**Delivered**|All line items are delivered.|
+|**Delivered**|At least one line item is delivered, and no line item is still in the Processing, Pending Supplier Confirmation, Pending Submission, Pending Revision, Partially Delivered, or Ordered state. Line items in later states, such as Payment Pending or Closed Paid, do not prevent this state.|
 |**Payment Pending**|Delivery is complete and the PO awaits payment processing.|
 |**Closed Paid**|Payment is complete and the PO is closed. The happy-path terminal.|
 |**Processing**|Punchout POs only. Precedes **Pending Supplier Confirmation** in the punchout variant happy path.|

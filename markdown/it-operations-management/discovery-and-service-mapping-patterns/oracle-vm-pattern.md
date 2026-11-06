@@ -7,8 +7,8 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-07-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Oracle OCI Virtual Machine, Oracle discovery, Oracle patterns, virtual machine pattern]
 breadcrumb: [OCI discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -18,6 +18,10 @@ breadcrumb: [OCI discovery, Available cloud discovery patterns, Discovery patter
 Discovery and Service Mapping Patterns finds OCI virtual machines \(VMs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
+
+-   **Verify the REST API permissions**
+
+    Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
 -   **Verify the OCI discovery prerequisites**
 
@@ -152,7 +156,7 @@ The Oracle OCI - Virtual Machine \(LP\) pattern creates the following relationsh
 |---|-----|-------------|
 |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
 
-## OCI Tag discovery
+## OCI tag discovery
 
 The Oracle OCI - Virtual Machine \(LP\) pattern collects tags and populates them in the Key Value \[cmdb\_key\_value\] table.
 
@@ -164,7 +168,7 @@ The Oracle OCI - Virtual Machine \(LP\) pattern collects tags and populates them
 
 ## OCI BYOL discovery
 
-Starting with Discovery and Service Mapping Patterns version 1.35.0, the pattern extension section discovers the following license types for Windows VMs:
+Starting with Discovery and Service Mapping Patterns version 1.35.1, the pattern extension section discovers the following license types for Windows VMs:
 
 -   Bring Your Own License \(BYOL\)
 -   License included

@@ -193,7 +193,7 @@ Any additional information that you may want to add.
 
 7.  In the **What project is this request for?** field, select the project for which this request is being raised.
 
-    **Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
+    **Note:** This field is available only when you have the Project Costing for Sourcing and Procurement Operations \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
 8.  Provide the reason behind making the purchase.
 

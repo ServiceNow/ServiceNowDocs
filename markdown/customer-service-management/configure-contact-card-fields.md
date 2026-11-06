@@ -1,6 +1,6 @@
 ---
 title: Configure fields on the Contact Card in the Customer Information view
-description: Change the fields that display on the Contact Card in the Customer Information view of the CRM Workspace. Edit the Contact Card - Fields Generator client script to add fields beyond the out-of-the-box defaults.
+description: Change the fields that display on the Contact Card in the Customer Information view of the CSM Configurable Workspace. Edit the Contact Card - Fields Generator client script to add fields beyond the out-of-the-box defaults.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-contact-card-fields.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, 
 
 # Configure fields on the Contact Card in the Customer Information view
 
-Change the fields that display on the Contact Card in the Customer Information view of the CRM Workspace. Edit the Contact Card - Fields Generator client script to add fields beyond the out-of-the-box defaults.
+Change the fields that display on the Contact Card in the Customer Information view of the CSM Configurable Workspace. Edit the Contact Card - Fields Generator client script to add fields beyond the out-of-the-box defaults.
 
 ## Before you begin
 

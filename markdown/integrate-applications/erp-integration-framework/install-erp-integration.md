@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, install, store]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-Before you can configure ERP systems, build models, or work with ERP data on the ServiceNow AI Platform, you must install Zero Copy Connector for ERP from the ServiceNow Store and confirm entitlements for the product and its dependent applications.
+Before you can configure ERP systems, build models, or work with ERP data on the ServiceNow AI Platform, you must install Zero Copy Connector for ERP from the ServiceNow Store. Than, confirm entitlements for the product and its dependent applications.
 
 ## Procedure
 

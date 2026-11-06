@@ -1,6 +1,6 @@
 ---
 title: AI Admin Hub roles
-description: Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.Can create and update the AI Admin Hub experience by editing and configuring skills.Can access AI Admin Hub to view skills and their configurations, but can't make modifications.Users who have access to the Now Assist panel.
+description: Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.Can create and update the AI Admin Hub experience by editing and configuring skills.Can access AI Admin Hub to view skills and their configurations, but can't make modifications.Users who have access to the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/roles-installed-with-now-assist-admin.html
 release: australia
@@ -65,7 +65,7 @@ For detailed comparison of roles, see .
 
 ## ServiceNow Otto panel user \[now\_assist\_panel\_user\]
 
-Users who have access to the Now Assist panel.
+Users who have access to the ServiceNow Otto panel.
 
 ### Contains Roles
 
@@ -81,5 +81,5 @@ None.
 
 ### Special considerations
 
-None.
+This role is part of the following application scope: now\_assist\_core.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-major-case-candidate.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Users with the customer service agent role can create a major case candidate.
 
 ## Before you begin
 
-Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_customerservice\_manager, sn\_majorissue\_mgt.major\_issue\_manager
+Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_customerservice\_manager, sn\_majorissue\_mgt.major\_issue\_manager, sn\_esm\_agent
 
 ## About this task
 

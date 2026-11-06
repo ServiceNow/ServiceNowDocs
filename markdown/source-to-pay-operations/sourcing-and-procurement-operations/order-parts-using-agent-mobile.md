@@ -52,7 +52,7 @@ Role required: wm\_agent, wm\_dispatcher, fsm\_agent, or sn\_shop.shopper
 
     A confirmation message stating that your purchase is successfully routed for approval, is displayed, along with the purchase requisition line number.
 
-    **Note:** As an FSM agent, if you're unable to check out products in the PSM and FSM mobile experience Agent app, install the fix script after installing the fms-psm-mobile and spend-uib-portal applications. The fix script updates the quick checkout link to the correct MESP page.
+    **Note:** As an FSM agent, if you're unable to check out products in the PSM and FSM mobile experience Agent app, install the fix script after installing the fsm-psm-mobile and spend-uib-portal applications. The fix script updates the quick checkout link to the correct Mobile Employee Service Portal \(MESP\) page.
 
 
 ## What to do next

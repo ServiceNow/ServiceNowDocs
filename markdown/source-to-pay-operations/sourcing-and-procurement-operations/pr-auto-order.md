@@ -17,6 +17,8 @@ breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procureme
 
 Auto-order automates the creation of a purchase order \(PO\) from an approved purchase requisition \(PR\) without requiring manual buyer intervention. Two system properties control whether the feature is active and the maximum PR value that qualifies for automatic processing.
 
+Role required: sn\_shop.procurement\_administrator or sn\_shop.shopping\_hub\_admin
+
 When a PR reaches the state where all activities are complete, the Requisition State Handler flow evaluates the auto-order configuration. If the conditions are met, the flow creates a PO and links it back to the PR automatically. If the conditions are not met, the PR waits for a buyer to create the PO manually.
 
 ## How auto-order works

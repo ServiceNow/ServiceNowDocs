@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-ai-workforce.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
-keywords: [use]
+keywords: [use ai specialist]
 breadcrumb: [Autonomous Workforce, Enable AI experiences]
 ---
 

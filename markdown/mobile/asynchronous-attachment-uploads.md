@@ -128,3 +128,5 @@ Specifies the number of automatic retry attempts for an asynchronous attachment 
 
 **Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
 
+**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/update-branded-app.md)
+

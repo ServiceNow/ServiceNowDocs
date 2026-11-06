@@ -24,7 +24,7 @@ Role required: admin
 
 In the conversational actions settings, you can use generative AI to generate descriptions for skills, inputs, and outputs of a conversational action. You can select a default LLM to generate these descriptions out of any of the following preconfigured LLMs:
 
--   Anthropic Claude on AWS
+-   Anthropic Claude
 -   Azure OpenAI
 -   Google Gemini
 -   Now LLM

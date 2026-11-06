@@ -16,7 +16,7 @@ breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]
 Reference information for MCP for Enterprise Architecture, including tools, user roles, and components installed with the application.
 
 -   **[Components installed with MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/installed-with-mcp-for-ea.md)**  
-The MCP for Enterprise Architecture plugin installs tools, scripted REST APIs, and access controls.
+When you install the MCP for Enterprise Architecture plugin, these tools, scripted REST APIs, and access controls are added to your instance.
 -   **[MCP for Enterprise Architecture tool parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-tool-parameters.md)**  
 Parameters that each MCP for Enterprise Architecture tool accepts, and how to phrase prompts that return the data you need.
 

@@ -286,7 +286,7 @@ report\_view
 
 </td><td>
 
-User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md).
+User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md).
 
 </td></tr><tr><td>
 

@@ -42,7 +42,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 ## Procedure
 
-1.  To configure the ServiceNow Otto for Virtual Agent application that installs the ServiceNow Otto in Conversational Catalog Request application, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+1.  To configure the ServiceNow Otto for Virtual Agent application that installs the ServiceNow Otto in Conversational Catalog Request application, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     With this configuration, the **sn\_now\_assist\_cr.llm.conversational.request.question.limit** system property value is set to 500 by default if that property wasn't edited earlier.
 
@@ -76,15 +76,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d565926e321">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d573920e321">
 
 Option
 
-</th><th align="left" id="d565926e324">
+</th><th align="left" id="d573920e324">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d565926e330">
+</th></tr></thead><tbody><tr><td id="d573920e330">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,7 +96,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d565926e369">
+</td></tr><tr><td id="d573920e369">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 

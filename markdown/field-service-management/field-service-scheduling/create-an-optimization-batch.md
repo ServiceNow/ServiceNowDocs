@@ -1,6 +1,6 @@
 ---
 title: Create a batch for Schedule Optimization
-description: Create an optimization batch to determine the interval at which optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.Add scopes to optimization batches or remove a scope from a batch if the number of scopes in a batch becomes too large to manage.
+description: Create an optimization batch to determine the interval at which optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/create-an-optimization-batch.html
 release: australia
@@ -9,7 +9,7 @@ classification: field-service-scheduling
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Batches and scopes, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create a batch for Schedule Optimization
@@ -17,6 +17,8 @@ breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method
 Create an optimization batch to determine the interval at which optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.
 
 ## Before you begin
+
+[Configure the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md) and [Scheduling attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
 
 Role required: wm\_admin
 
@@ -73,30 +75,5 @@ At each defined interval, the batch triggers the Schedule Optimization process. 
 
 **Note:** Schedule Optimization doesn’t detect changes you make to agents or tasks during an optimization run. The system considers changes to agents and tasks during the next optimization run.
 
-You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt.
-
-## Add or remove scopes from an optimization batch
-
-Add scopes to optimization batches or remove a scope from a batch if the number of scopes in a batch becomes too large to manage.
-
-### Before you begin
-
-Role required: wm\_admin
-
-### Procedure
-
-1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Batches**.
-
-2.  Select the optimization batch that you want to add or remove a scope from.
-
-3.  Select **Edit**.
-
-4.  Select the scope.
-
-5.  Either add the scope to or remove the scope from the optimization batch.
-
-    -   To add the scope, select **Add**.
-    -   To remove the scope, select **Remove**.
-6.  Select **Save**.
-
+You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt. To understand how tasks were processed and assigned during Schedule Optimization runs, see [Schedule Optimization run summaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
 

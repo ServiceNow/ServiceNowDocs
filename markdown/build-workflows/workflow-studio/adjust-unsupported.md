@@ -8,8 +8,8 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-07-22"
-reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+reading_time_minutes: 2
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify decision tables in the classic UI
@@ -45,5 +45,5 @@ If a condition column has an unsupported data type, you can still change the lab
 -   In an unsupported condition column, cells without values are inactive. Use decision rule view to enter a value.
 -   When a value is entered for an unsupported condition column, the resulting decision row is an unsupported decision.
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

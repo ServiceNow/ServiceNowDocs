@@ -18,9 +18,14 @@ Learn which AI models and versions Autonomous Engineer supports and how to chang
 
 Autonomous Engineer currently supports the following models:
 
--   Azure OpenAI 5.4
--   Azure OpenAI 5.5
+-   Azure OpenAI GPT 5.4
+-   Azure OpenAI GPT 5.5
+
+    **Note:** GPT 5.5 support is not available in the APAC region.
+
 -   Azure OpenAI GPT 5.6 Sol 
+-   Azure OpenAI GPT 6.1å Sol 
+-   Google Gemini 3.8 Flash
 -   Google Gemini 3.7 Flash
 -   Google Gemini 3.5 Flash
 -   Gemini 2.5 Pro

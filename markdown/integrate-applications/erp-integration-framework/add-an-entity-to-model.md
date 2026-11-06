@@ -1,19 +1,19 @@
 ---
-title: Adding an entity to a model
-description: Specify the operation entity that Zero Copy Connector for ERP \(Enterprise Resource Planning\) uses for read, update, or create operations.
+title: Adding an entity to a Zero Copy Connector for ERP model
+description: Add an entity to a model operation to specify the ERP data that Zero Copy Connector for ERP reads, creates, or updates when the model runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
-keywords: [erp, integration, canvas, data hub, zero, copy, connector, sap, model, entity]
+keywords: [zero copy connector for erp, add entity to model, model entity, operation entity, model operation, read create update operation]
 breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Adding an entity to a model
+# Adding an entity to a Zero Copy Connector for ERP model
 
-Specify the operation entity that Zero Copy Connector for ERP \(Enterprise Resource Planning\) uses for read, update, or create operations.
+Add an entity to a model operation to specify the ERP data that Zero Copy Connector for ERP reads, creates, or updates when the model runs.
 

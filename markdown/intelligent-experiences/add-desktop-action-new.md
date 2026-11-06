@@ -36,49 +36,51 @@ For more information about executing desktop actions, see [Examples of executing
 
 2.  Choose one of the following options.
 
-<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d197597e137">
+<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d207205e137">
 
 Option
 
-</th><th align="left" id="d197597e140">
+</th><th align="left" id="d207205e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d197597e146">
+</th></tr></thead><tbody><tr><td id="d207205e146">
 
 **An existing one**
 
 </td><td>
 
-Option to add a previously created defined desktop action.Defined desktop actions are categorized into on-screen tasks and background tasks.
+Option to add a previously created defined desktop action.
+
+Defined desktop actions are categorized into on-screen tasks and background tasks.
 
 -   **On-screen tasks**: These actions help you simulate humans interacting with UI elements on your thick client applications, legacy systems, or SaaS applications without APIs. These actions include clicking buttons, typing into text boxes, selecting from drop-down menus, and more. They encapsulate repeatable UI interactions, such as screens, anchors, and steps. You can create, manage, and test your desktop actions in AI Desktop Actions.
 
 When you add an on-screen task desktop action, additional fields require configuration. For more information, see [Parameter mapping for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-desktop-action-new.md).
 
--   **Background tasks**: These actions include prebuilt connectors that enable your AI agents to interact with applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area and provides a collection of related methods. You can't create background tasks actions.
+-   **Background tasks**: These actions include prebuilt connectors that enable your AI agents to interact with applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area and provides a collection of related methods. You can't create background task actions.
 
 
-</td></tr><tr><td id="d197597e187">
+</td></tr><tr><td id="d207205e188">
 
 **A new desktop action**
 
 </td><td>
 
-Option to create a defined or adaptive desktop actions. For more information, see the next step.
+Option to create a defined or adaptive desktop action. For more information, see the next step.
 
 </td></tr></tbody>
 </table>3.  If creating a new desktop action, select how you want to create it.
 
-<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d197597e207">
+<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d207205e206">
 
 Option
 
-</th><th align="left" id="d197597e210">
+</th><th align="left" id="d207205e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d197597e216">
+</th></tr></thead><tbody><tr><td id="d207205e215">
 
 **Let AI determine the steps dynamically**
 
@@ -96,7 +98,7 @@ For more information, see [Adaptive desktop actions for desktop and web-based ta
 
 For more information, see [Adaptive desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/web-agents-overview.md).
 
-</td></tr><tr><td id="d197597e271">
+</td></tr><tr><td id="d207205e270">
 
 **Record a fixed sequence of steps**
 
@@ -148,7 +150,7 @@ Option to configure defined desktop actions that are a fixed sequence of steps t
         -   **Custom**: Output data is changed into a format you specify \(consider data loss and performance issues\).
     2.  Write processing messages for users under **Write processing messages for users**.
 
-        Describe the action that happens while the tool is running in the **In-progress message** field and the final action when the tool completes in the **Completion message** field. For example, users can see "Requesting a service" when the tool is in progress and "Requested a service" when the tool is done.
+        Describe the action that happens while the tool is running in the **In-progress message** field and the final action when the tool completes in the **Completion message** field. For example, users can see "Running desktop action" when the tool is in progress and "Desktop action complete" when the tool is done.
 
 
 ## Result

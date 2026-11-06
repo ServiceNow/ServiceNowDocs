@@ -1,5 +1,5 @@
 ---
-title: Delete a report
+title: Delete a Core UI report
 description: Delete Core UI reports that are no longer used.Delete multiple Core UI reports that are no longer used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/delete-report.html
@@ -9,10 +9,10 @@ classification: reporting
 topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 1
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Delete a report
+# Delete a Core UI report
 
 Delete Core UI reports that are no longer used.
 
@@ -41,12 +41,12 @@ This topic refers to Reporting in the Core UI. For instances migrated to Platfor
 
 The selected report is removed, and is no longer available to share, publish, or view.
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Delete multiple reports
 
@@ -76,5 +76,5 @@ The selected reports are removed, and are no longer available to share, publish,
 **Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

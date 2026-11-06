@@ -39,5 +39,3 @@ If you haven't manually allocated user-based subscriptions before, allocations a
 
 Continue to monitor subscription renewal dates to ensure that your allocations are accurate throughout each renewal.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md)
-

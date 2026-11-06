@@ -26,7 +26,9 @@ Role required: discovery\_admin \(granted automatically with 2026 Packaging SKU\
 
 ## About this task
 
-In large environments, container instances can generate a high volume of CIs. The **sn\_itom\_pattern.bring\_discovery\_container** system property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs, or only Docker image CIs. By default, the property is set to true and both Docker Container \[cmdb\_ci\_docker\_container\] and Docker Image \[cmdb\_ci\_docker\_image\] are populated. When set to false, only Docker Image \[cmdb\_ci\_docker\_image\] is populated.
+In large environments, container instances can generate a high volume of CIs. The **sn\_itom\_pattern.bring\_discovery\_container** system property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs, or only Docker image CIs.
+
+By default, the property is set to true and both Docker Container \[cmdb\_ci\_docker\_container\] and Docker Image \[cmdb\_ci\_docker\_image\] are populated. When set to false, only Docker Image \[cmdb\_ci\_docker\_image\] is populated.
 
 ## Procedure
 

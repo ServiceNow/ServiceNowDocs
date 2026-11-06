@@ -1,18 +1,18 @@
 ---
-title: Set up a form header in CRM Workspace
-description: You can create a form header for use in CRM Workspace.
+title: Set up a form header in CSM Configurable Workspace
+description: You can create a form header for use in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-config-ws-form-header.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-10-07"
+reading_time_minutes: 2
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Set up a form header in CRM Workspace
+# Set up a form header in CSM Configurable Workspace
 
-You can create a form header for use in CRM Workspace.
+You can create a form header for use in CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a form header, you must link it to a form header configuration if you want it to appear in CRM Workspace.
+Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information. They include a primary value and several secondary values. You can configure the information that appears in the form header for the Case, Account, and Contact forms. You can also configure the placement of the secondary values.
 
-**Note:** You can also use form headers from CSM Agent Workspace in CRM Workspace if you link the setting to the form header configuration.
+After creating a form header, you must link it to a form header configuration if you want it to appear in CSM Configurable Workspace.
 
-One form header configuration **CSM/FSM Configurable Workspace Header Config**, is included with CRM Workspace. You can use this configuration out of the box without completing any additional configuration steps.
+One form header configuration, CSM Configurable Workspace Header Config, is included with CSM Configurable Workspace. You can use this configuration without completing any additional configuration steps.
 
 ## Procedure
 
@@ -124,6 +124,20 @@ Workspace that is associated with this form header.
     4.  Move the desired form header from the left column to the right column to add it to the header configuration.
 
     5.  Select **Save**.
+
+3.  Configure the placement of the secondary values in the form header.
+
+    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences** &gt; **CRM Workspace.**.
+
+    2.  In the UX Page Properties list, select the form header property.
+
+        For example, select **configHeaderId** to display the page property form. The **Value** field determines the placement of the secondary values.
+
+    3.  Enter the location of the secondary values in the **Value** field.
+
+        -   **sidebar**: The secondary values appear in the contextual side panel.
+        -   **header**: The secondary values appear in the header along with the primary value.
+    4.  Select **Save**.
 
 
 **Related topics**  

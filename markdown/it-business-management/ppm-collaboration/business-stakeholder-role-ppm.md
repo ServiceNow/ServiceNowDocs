@@ -28,7 +28,7 @@ The Read only roles for PPM Standard plugin \(com.snc.pmo\_read\_roles\) install
 
 ## PPM tables accessible to users with the business stakeholder role
 
-Users with the business stakeholder role for PPM can access the following tables that store the data to load the widgets in the Portfolio dashboard, Program dashboard, and Time Sheet dashboard, and Resource reports:
+Users with the business stakeholder role for PPM can access the following tables. These tables store data to load the widgets in the Portfolio dashboard, Program dashboard, and Time Sheet dashboard, and Resource reports:
 
 |Label|Table name|
 |-----|----------|

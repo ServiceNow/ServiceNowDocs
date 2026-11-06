@@ -41,7 +41,7 @@ For more information about translatable custom content in the Message table, see
 
 \[Omitted image "TranslatedMessage.png"\] Alt text: The message that "The following mandatory fields are not filled: Name", translated into Spanish.
 
-**Warning:** Do not modify or remove the default AI disclaimer. If you modify or remove the default AI disclaimer, you are responsible for communicating to end users that they are interacting with an AI system and any associated risks. ServiceNow is not responsible for the effects of any changes made.
+**Warning:** Do not modify or remove the default AI disclaimer. If you modify or remove the default AI disclaimer, you're responsible for communicating to end users that they are interacting with an AI system and any associated risks. ServiceNow is not responsible for the effects of any changes made.
 
 **Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/r_TranslationTables.md)
 

@@ -38,7 +38,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 4.  Install the ServiceNow Otto for CMDB plugin.
 
-    For instructions on the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For instructions on the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 5.  Confirm that ServiceNow Otto for CMDB is installed.
 

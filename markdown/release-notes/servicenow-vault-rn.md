@@ -39,6 +39,8 @@ The ServiceNow® Vault application provides a set of data security tools that pr
 
 See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 **Important:** ServiceNow Vault is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

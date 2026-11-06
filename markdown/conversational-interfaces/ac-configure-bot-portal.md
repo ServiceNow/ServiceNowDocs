@@ -29,7 +29,7 @@ Role required: admin
 
 2.  Under **Add your bot to a portal**, select **Add to portal** to configure the base system portal.
 
-    For example, to configure the portal used for Agent Chat and Virtual Agent, select Service Portal Agent Chat Config.
+    For example, to configure the portal used for Agent Chat and Virtual Agent, select **Service Portal Agent Chat Config**.
 
 3.  On the form, update the portal configuration.
 

@@ -28,7 +28,7 @@ The clock-in event is generated when you either login or set your status as **Av
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Click the Inbox icon \(\[Omitted image "inbox-icon.jpg"\] Alt text: Inbox icon\).
+2.  Select the Inbox icon \(\[Omitted image "inbox-icon.jpg"\] Alt text: Inbox icon\).
 
     -   To clock-in your shift, set your status to **Available**.
     -   To clock-out from your shift, set your status to **Offline** or **Break**.

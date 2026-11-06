@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 14
+reading_time_minutes: 13
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d195700e96">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d196691e96">
 
 **From the Change application**
 
@@ -57,7 +57,7 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d195700e192">
+</td></tr><tr><td id="d196691e192">
 
 **From an incident or a problem**
 
@@ -67,7 +67,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d195700e219">
+</td></tr><tr><td id="d196691e219">
 
 **From an existing change record**
 
@@ -136,7 +136,7 @@ Configuration item
 
 Select **Add** to add a CI for the change. You can add a CI for a change in **New** state only.
 
-**Important:** You can set or change the primary configuration item \(CI\) only while the change request is in the **New** state. After the change moves past **New**, manage additional CIs through the Affected CIs related list. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+**Important:** You can set or change the primary configuration item \(CI\) only while the change request is in the **New** state. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 CI that the change applies to. Change requests can be associated with any type of CI, including service offerings, providing detailed access to SLA and availability requirements.When you select a dynamic CI group, all the configuration items related to the selected dynamic group will be populated in the Affected CIs related list. In the Affected CIs related list, you can also manually add and delete the dynamic CI groups. When you add a dynamic CI group, all the related CIs are added, and when you remove a dynamic CI group, the related CIs are removed.
 
@@ -252,22 +252,6 @@ Detailed description of the change.
 
 </td></tr><tr><td>
 
-Risk and compliance category
-
-</td><td>
-
-Dynamic category that groups the risk and compliance attributes relevant to the change.Categories are hierarchical. A category can have a parent category, so that a specific category nests under a broader one. For example, a category for changes that affect financial or payment systems can nest under a broader compliance category.
-
-The base system includes example categories, such as Risk and Compliance, Financial Risk and Compliance, and SaaS/Cloud Security Compliance. You can deactivate these categories or add your own to match your organization's compliance requirements
-
-**Note:**
-
--   For more information about dynamic categories, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
--   To configure the Risk and compliance category, see .
-
-
-</td></tr><tr><td>
-
 Risk and compliance attributes
 
 </td><td>
@@ -331,7 +315,7 @@ Affected CIs
 
 </td><td>
 
-List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change, including after the change has moved past the **New** state, when the primary configuration item can no longer be edited directly. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) and [Add affected CIs using a BSM map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) and [Add affected CIs using a BSM map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 </td></tr><tr><td>
 

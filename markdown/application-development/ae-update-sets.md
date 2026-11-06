@@ -7,6 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [Autonomous Engineer, update sets, checkpoints, batch update set, deployment]
 breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 

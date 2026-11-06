@@ -1,5 +1,5 @@
 ---
-title: User roles for providers
+title: Personas for providers
 description: Learn about the roles, skills, and tasks for the different users in the Service Exchange for Providers application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-personas.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# User roles for providers
+# Personas for providers
 
 Learn about the roles, skills, and tasks for the different users in the Service Exchange for Providers application.
 
@@ -100,22 +100,6 @@ Has agent skills
 -   \*incident\_read​
 -   \*problem\_read​
 -   \*change\_read
-
-</td></tr><tr><td>
-
-Consumer Requestor
-
-</td><td>
-
-End user
-
-</td><td>
-
-Makes requests from the Remote Catalog
-
-</td><td>
-
-sn\_sb.requestor
 
 </td></tr></tbody>
 </table>**Note:** Beginning with Service Exchange version 2.3. 18, some of the granular roles have changed. For more information, see the [Now Support KB article \(KB3065259\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3065259).

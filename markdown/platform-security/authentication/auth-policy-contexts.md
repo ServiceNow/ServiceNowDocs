@@ -46,3 +46,5 @@ The Session Validation context can be used with the Adaptive authentication poli
 
 Within the policy context, you can define a default policy in the **Default Policy** field. This default defines how your instance responds to the result of your policy. The available default policy options are determined by which context you are using. Detail on these options can be found in the docs describing these individual contexts.
 
+Allow Policy denies access to all users by default. Deny Policy allows access to all users by default. An upgrade to Zurich can change the default policy of a Pre or Post Authentication Policy Context. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+

@@ -27,7 +27,7 @@ The tools differ in how much of the ServiceNow SDK CLI they wrap in a UI, and wh
 
 Lux Lab and ServiceNow Lux Lab for VS Code are separate products that ship side by side. Pick whichever fits your workflow. Neither is a track you graduate from.
 
-Both wrap the ServiceNow SDK rather than replacing it. Lux Lab runs `now-sdk` commands on your behalf when you build and deploy. The VS Code extension requires ServiceNow SDK 4.12 or later to be installed.
+Both wrap the ServiceNow SDK rather than replacing it. Lux Lab runs `now-sdk` commands on your behalf when you build and deploy. The VS Code extension requires ServiceNow SDK 4.14 or later to be installed.
 
 ## Next steps
 

@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d794717e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d796420e83">
 
 Method
 
-</th><th align="left" id="d794717e86">
+</th><th align="left" id="d796420e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d794717e92">
+</th></tr></thead><tbody><tr><td id="d796420e92">
 
 **Employee Center**
 
@@ -47,7 +47,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d794717e140">
+</td></tr><tr><td id="d796420e140">
 
 **Using Legal Service Portal**
 

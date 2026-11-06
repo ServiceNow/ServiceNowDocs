@@ -38,7 +38,7 @@ From the Account page, you can review the licensing information to verify which 
 
 ## What to do next
 
-Turn on the skills that you want for your Now Assist workflow applications so that you can use generative AI capabilities across the ServiceNow AI Platform. For more information, see [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md).
+Turn on the skills that you want for your Now Assist workflow applications so that you can use generative AI capabilities across the ServiceNow AI Platform. For more information, see [Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md).
 
 **Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-now-assist-admin-settings.md)
 

@@ -34,7 +34,7 @@ To learn more about creating and publishing knowledge blocks for reference in yo
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

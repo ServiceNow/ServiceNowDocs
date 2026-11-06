@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-itomvisibility-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 19
+last_updated: "2026-11-06"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -466,6 +466,34 @@ Zurich
 
 ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&family=zurich&ft:locale=en-US) and [Request Service Mapping](https://www.servicenow.com/docs/access?context=t_ActivateServiceMappingPlugin&family=zurich&ft:locale=en-US). For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store. For cumulative release note information for all released apps, see the ServiceNow Store version-history release notes.
 
+
+-   **Important information before upgrading to Zurich**
+
+The Zurich release introduces a deny-unless-authenticated security model that affects Discovery, MID Server, CMDB, and Pattern Designer access controls.
+
+**Warning:** The new security model sets `admin_overrides=false` on critical tables. System administrators must hold the required roles explicitly — the admin role alone does not grant access to these tables.
+
+**New and changed Discovery roles**
+
+    -   New **discovery\_operator** role: Required for range queries on the ecc\_queue \[ecc\_queue\] table and related Discovery tables \(approximately 100 ACLs\).
+    -   Updated **discovery\_admin** role: Now requires execute access to the NGDiscoveryCredentials processor and report\_view access on the ecc\_queue \[ecc\_queue\] table. Can't run range queries on ecc\_queue \[ecc\_queue\] without the **discovery\_operator** role.
+    -   System administrators must also hold the **discovery\_operator** role to access these tables \(`admin_overrides=false`\).
+**CMDB access impact**
+
+The Zurich release adds 481 deny ACLs to CMDB tables, including the cmdb\_ci \[cmdb\_ci\] and cmdb\_rel\_\* tables. Because `admin_overrides=false` is set, system administrators must hold the **discovery\_admin** role to access these tables.
+
+**MID Server access impact**
+
+253 deny ACLs restrict access to the ecc\_agent \[ecc\_agent\], ecc\_queue \[ecc\_queue\], MID Server profile, and deployment tables. Users managing MID Servers must hold the **discovery\_admin** role or have explicit role grants on agent tables.
+
+**Before upgrading**
+
+    -   Test all custom Discovery scripts, CI creation tools, and MID Server automation in a sandbox instance against the new deny ACLs.
+    -   Ensure service accounts hold the required **discovery\_admin** and **discovery\_operator** roles before upgrade.
+**After upgrading**
+
+    -   Monitor logs for access denied errors on CMDB, Discovery, or MID Server tables.
+    -   If integrations fail, verify the service account holds the required role.
 
 **Important:** Discovery and Service Mapping Patterns, Cloud Service Graph Connectors, and Kubernetes Visibility Agent \(KVA\) are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 

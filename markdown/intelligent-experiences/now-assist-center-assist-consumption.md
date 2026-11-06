@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-assist-consumption.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-01"
+last_updated: "2026-10-02"
 reading_time_minutes: 2
-keywords: [AI Admin Center, AI, AI setup, assist consumption]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, assist consumption]
 breadcrumb: [View your assist consumption \(Lux UI\), Managing assist consumption \(Lux UI\), Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
@@ -19,9 +19,7 @@ Use the Assist Consumption page in AI Admin Center to monitor assist consumption
 
 The Assist Consumption page is accessible from the side navigation bar in AI Admin Center. Use the page to track total assist consumption and identify usage patterns across AI assets, departments, and users.
 
-Use the date range filter at the top of the Overview tab to scope the data. The filter applies to the trend chart, the top assets table, and the top departments table. The default period is the previous three months.
-
-The consumption band chart uses a fixed trailing 90-day window and does not respond to the date range filter.
+The Overview tab displays a **Last 3 months** label at the top of the page. This label indicates the fixed period for all data on the tab. This includes the trend chart, the top assets table, the top departments table, and the consumption band chart.
 
 
 
@@ -31,15 +29,15 @@ The Overview tab of the Assist Consumption page contains the following component
 
 -   **Total Assist Consumption**
 
-    This area of the page displays a bar chart with a legend summarizing assist consumption for the selected period, broken down by asset type. Use this area to assess overall consumption and compare spend across asset types.
+    This area of the page displays a bar chart with a legend summarizing assist consumption for the Last 3 months period, broken down by asset type. Use this area to assess overall consumption and compare spend across asset types.
 
 -   **Assists by asset type**
 
-    This area of the page displays a trend chart showing assist consumption over time for the selected period. Each filled area in the chart represents an asset type: Skills, Agents, Agentic Workflows, or Others. The Others series represents assists not attributed to the other asset types. Select Day or Week to set the granularity of the chart, and select a series in the legend to show or hide it.
+    This area of the page displays a trend chart showing assist consumption over time for the Last 3 months period. Each filled area in the chart represents an asset type: Skills, Agents, Agentic Workflows, or Others. The Others series represents assists not attributed to the other asset types. Select Day or Week to set the granularity of the chart, and select a series in the legend to show or hide it.
 
 -   **Top assets by assist usage**
 
-    This area of the page displays a table ranking AI assets by assist consumption in descending order for the selected period.
+    This area of the page displays a table ranking AI assets by assist consumption in descending order for the Last 3 months period.
 
     -   **Asset name**
 
@@ -51,21 +49,21 @@ The Overview tab of the Assist Consumption page contains the following component
 
     -   **Total executions**
 
-        The total number of executions for the asset in the selected period.
+        The total number of executions for the asset in the Last 3 months period.
 
     -   **Assists used**
 
-        The total number of assists consumed by the asset in the selected period.
+        The total number of assists consumed by the asset in the Last 3 months period.
 
-    For agentic workflow rows, select the expand icon next to the asset name to view the individual tools within the workflow and their assist consumption.
+    For agentic workflow rows, select the expand icon next to the asset name to view the list of individual tools within the workflow.
 
 -   **Users by Assist Consumption Band**
 
-    This area of the page displays a chart showing the distribution of users across consumption bands over the trailing 90 days. A consumption band represents a range of assists consumed by a user per month: fewer than 10, 10 to 100, 100 to 1,000, or more than 1,000. Use this chart to identify the concentration of high-consumption users and track how usage patterns shift over time.
+    This area of the page displays a chart showing the distribution of users across consumption bands for the Last 3 months period. A consumption band represents a range of assists consumed by a user per month: fewer than 10, 10 to 100, 100 to 1,000, or more than 1,000. Use this chart to identify the concentration of high-consumption users and track how usage patterns shift over time.
 
 -   **Top 10 departments by assist consumption**
 
-    This area of the page displays a table listing the departments with the highest assist consumption for the selected period, with assists consumed broken down by day.
+    This area of the page displays a table listing the departments with the highest assist consumption for the Last 3 months period. Assists consumed are broken down by day in the table.
 
     -   **Department**
 
@@ -73,12 +71,12 @@ The Overview tab of the Assist Consumption page contains the following component
 
     -   **Assists**
 
-        The total number of assists consumed by the department for the selected period.
+        The total number of assists consumed by the department for the Last 3 months period.
 
     -   **Avg / day**
 
-        The average number of assists consumed per day by the department for the selected period.
+        The average number of assists consumed per day by the department for the Last 3 months period.
 
-    A column for each day in the selected period shows the number of assists the department consumed on that day. A Total row summarizes the values for all listed departments.
+    A column for each day in the Last 3 months period shows the number of assists the department consumed on that day. A Total row summarizes the values for all listed departments.
 
 

@@ -38,7 +38,7 @@ Select **Browse all** to view all the above subtopics across categories. These i
 
 From **Purchase Requests** in particular, you can do a bunch of things that include editing, canceling, or returning a purchase, buying something, requesting for a product or service, submitting a quote, requesting a copy of a contract, asking any queries to the procurement team, understanding what a sourcing request or purchase order is, and so on.
 
-From **Quick links**, you can directly go to the list of third-party supplier sites, or visit ShoppingHub.
+From **Quick links**, you can directly go to the list of third-party supplier sites, or visit Shopping Hub.
 
 ## My tasks
 
@@ -76,7 +76,7 @@ As a shopper, you can view specific items from the widgets under the **My active
 -   **Purchases**: Number of purchases made by you.
 -   **Requests**: Number of requests raised by you.
 
-Others include surveys, invoices, purchase orders, risk assessments, issues, shipments, and so on. Selecting these takes you to their details page on ShoppingHub, where you can work with them as required.
+Others include surveys, invoices, purchase orders, risk assessments, issues, shipments, and so on. Selecting these takes you to their details page on Shopping Hub, where you can work with them as required.
 
 **Note:** Admins can also configure these active items widgets in Employee Center. For more information, see [My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/my-activity-config.md).
 

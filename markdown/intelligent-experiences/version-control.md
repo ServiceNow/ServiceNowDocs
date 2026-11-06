@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/version-control.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-23"
 reading_time_minutes: 3
 breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
@@ -30,7 +30,7 @@ For more information about writing effective descriptions and instructions, see 
 
 When creating a new version, you also have the option to use ServiceNow Otto to refine your current **List of steps**. You must already have an active version for this option to be available. Selecting **View versions** &gt; **Refine version** brings up the modal where ServiceNow Otto generates and displays a new **List of steps** for you to review. You can change any of the generated text, or you can use it as it was generated. Select **Create** to use the new, refined version.
 
-\[Omitted image "version-create.png"\] Alt text: Create a new version modal
+\[Omitted image "version-create.png"\] Alt text: Create a new version modal with version number, name, list of steps, created by, and created on. The set as active option is toggled on.
 
 ## Changing between versions
 
@@ -52,5 +52,5 @@ The AI Agent Studio **Activity** page enables you to track AI agent and agentic 
 
 When viewing the **Activity** tab at any time, you can choose to filter by version. The more specific your version names, the easier it is to identify those changes in the list.
 
-\[Omitted image "ais-activity-versions.png"\] Alt text: Activity page of AI Agent Studio with the versions column highlighted
+\[Omitted image "ais-activity-versions.png"\] Alt text: Activity page of AI Agent Studio with the versions column highlighted, showing the version that the execution ran with
 

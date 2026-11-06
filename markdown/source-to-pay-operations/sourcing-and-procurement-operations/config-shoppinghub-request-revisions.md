@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 breadcrumb: [ShoppingHub configuration, Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -58,6 +58,10 @@ Use the same steps to modify the following user action configurations:
 -   Cancel purchase request line
 
 You may add additional configurations to suit your business requirements.
+
+**Note:** When a user shops on behalf of another user, the actions on the purchase cards, such as cancel and edit, are shown only if the `sn_spend_uib.purchased_behalf.enable.card_actions` property is set to true, or if the purchase belongs to the user that they are shopping as. If an action is missing for a user who shops on behalf of others, check this property.
+
+**Note:** The actions on the purchase cards are read from the ShoppingHub Configuration records. Only users with the `sn_shop.shopper` or `sn_shop.shopping_hub_admin` role can read these records. A user without one of these roles does not see the configured actions, such as Cancel purchase order.
 
 **Parent Topic:**[ShoppingHub configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
 

@@ -7,8 +7,8 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-10-15"
+reading_time_minutes: 5
 keywords: [Patterns, AWS, Cloud, Discovery, Visibility, CMDB, Service Graph Connector, Configuration Item]
 breadcrumb: [Reference, AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -69,6 +69,9 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::Athena::Workgroup|Yes|No|cmdb\_aws\_athena\_workgroup|
 |AWS::Backup::BackupPlan|Yes|No|cmdb\_aws\_backup\_backup\_plan|
 |AWS::Backup::BackupVault|Yes|No|cmdb\_aws\_backup\_backup\_vault|
+|AWS::Bedrock::Agent|Yes|No|cmdb\_ci\_function\_ai|
+|AWS::Bedrock::Foundation Model|Yes|No|cmdb\_ci\_ai\_model\_deployment|
+|AWS::Cassandra::Table|Yes|No|cmdb\_ci\_cloud\_database|
 |AWS::CloudFront::Distribution|Yes|N/A|cmdb\_aws\_cloudfront\_distribution|
 |AWS::CloudFront::Distribution|N/A|Yes|cmdb\_ci\_cmp\_resource|
 |AWS::CloudWatch::Log|Yes|No|cmdb\_aws\_cloudwatch\_log|
@@ -76,6 +79,10 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::CodePipeline::Pipeline|Yes|N/A|cmdb\_aws\_codepipeline\_pipeline|
 |AWS::CodePipeline::Pipeline|N/A|Yes|cmdb\_ci\_cmp\_resource|
 |AWS::DMS::Endpoint|Yes|No|cmdb\_aws\_dms\_endpoint|
+|AWS::EC2::Instance|Yes|N/A|cmdb\_ci\_vm\_instance|
+|AWS::EC2::Instance|N/A|Yes|cmdb\_ci\_server|
+|AWS::EC2::Instance|Yes|Yes|cmdb\_ci\_linux\_server\*|
+|AWS::EC2::Instance|Yes|Yes|cmdb\_ci\_win\_server\*|
 |AWS::ElasticBeanstalk::Application|Yes|N/A|cmdb\_aws\_elastic\_beanstalk\_application|
 |AWS::ElasticBeanstalk::Application|N/A|Yes|cmdb\_ci\_cmp\_resource|
 |AWS::EMR::Cluster|Yes|No|cmdb\_aws\_emr\_cluster|
@@ -90,6 +97,9 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::IAM::User|Yes|N/A|cmdb\_aws\_iam\_user|
 |AWS::IAM::User|N/A|Yes|cmdb\_ci\_cmp\_resource|
 |AWS::KMS::Key|Yes|No|cmdb\_aws\_kms\_key|
+|AWS::OpenSearchService::Domain|Yes|No|cmdb\_ci\_cloud\_database|
+|AWS Marketplace Agreement Service|Yes|No|cmdb\_ci\_deployed\_marketplace\_product|
+|AWS::MemoryDB::Cluster|Yes|No|cmdb\_ci\_cloud\_db\_cluster|
 |AWS::MQ::Broker|Yes|No|cmdb\_aws\_mq\_broker|
 |AWS::MQ::Configuration|Yes|No|cmdb\_aws\_mq\_configuration|
 |AWS::S3::GlacierVault|Yes|No|cmdb\_aws\_s3\_glacier\_vault|
@@ -115,6 +125,7 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::Redshift::Cluster|N/A|Yes|cmdb\_ci\_cmp\_resource|
 |AWS::CertificateManager::Certificate|Yes|No|cmdb\_ci\_certificate|
 |AWS::Cognito::UserPool|Yes|No|cmdb\_ci\_cloud\_authentication|
+|AWS::RDS::DBCluster|Yes|No|cmdb\_ci\_cloud\_db\_cluster|
 |AWS::RDS::DBInstance|Yes|Yes|cmdb\_ci\_cloud\_database|
 |AWS::ECS::Cluster|Yes|No|cmdb\_ci\_cloud\_ecs\_cluster|
 |AWS::ECS::Service|Yes|No|cmdb\_ci\_cloud\_ecs\_service|
@@ -124,6 +135,7 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |ec2:DescribeInstanceTypes|Yes|Yes|cmdb\_ci\_cloud\_hardware\_type|
 |AWS::EC2::Host|Yes|No|cmdb\_ci\_cloud\_host|
 |AWS::EC2::KeyPair|Yes|No|cmdb\_ci\_cloud\_key\_pair|
+|AWS::ElasticLoadBalancing::LoadBalancer|Yes|Yes|cmdb\_ci\_cloud\_load\_balancer|
 |AWS::ElasticLoadBalancingV2::LoadBalancer|Yes|Yes|cmdb\_ci\_cloud\_load\_balancer|
 |Amazon::S3::Bucket|Yes|Yes|cmdb\_ci\_cloud\_object\_storage|
 |Organizations|Yes|Yes|cmdb\_ci\_cloud\_org or cmdb\_ci\_cloud\_service\_account|
@@ -166,6 +178,7 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::EC2::SecurityGroup|Yes|Yes|cmdb\_ci\_compute\_security\_group|
 |ec2:DescribeInstanceTypes|Yes|Yes|cmdb\_ci\_compute\_template|
 |AWS::ECR::Repository|Yes|No|cmdb\_ci\_container\_repository|
+|Container Repository Entry|Yes|No|cmdb\_ci\_container\_repository\_entry|
 |AWS::EC2::CustomerGateway|Yes|No|cmdb\_ci\_customer\_gateway|
 |Docker container|Yes|Yes|cmdb\_ci\_docker\_container|
 |ecr:DescribeImages|Yes|No|cmdb\_ci\_docker\_image|
@@ -174,7 +187,7 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::AutoScaling::AutoScalingGroup|N/A|Yes|cmdb\_ci\_cmp\_resource|
 |AWS::EC2::InternetGateway|Yes|No|cmdb\_ci\_internet\_gateway|
 |AWS::EKS::Cluster|Yes|Yes|cmdb\_ci\_kubernetes\_cluster|
-|WS::ElasticLoadBalancingV2::TargetGroup|Yes|No|cmdb\_ci\_lb\_pool|
+|AWS::ElasticLoadBalancingV2::TargetGroup|Yes|No|cmdb\_ci\_lb\_pool|
 |AWS::ElasticLoadBalancingV2::TargetGroup TargetDescription|Yes|No|cmdb\_ci\_lb\_pool\_member|
 |AWS::ElasticLoadBalancingV2::Listener|Yes|No|cmdb\_ci\_lb\_service|
 |AWS::EC2::NatGateway|Yes|No|cmdb\_ci\_nat\_gateway|
@@ -207,18 +220,23 @@ The CI class, in most cases, is applicable to both solutions. If it's not applic
 |AWS::Redshift Serverless::Namespace|Yes|No|cmdb\_aws\_redshift\_serverless\_namespace|
 |AWS::Redshift Serverless::Workgroup|Yes|No|cmdb\_aws\_redshift\_serverless\_workgroup|
 |AWS::Redshift Serverless::Snapshot|Yes|No|cmdb\_aws\_redshift\_serverless\_snapshot|
+|AWS::ElastiCache::CacheCluster|Yes|No|cmdb\_ci\_cloud\_database|
+|AWS::ElastiCache::ReplicationGroup|Yes|No|cmdb\_ci\_cloud\_db\_cluster|
 |AWS::ElastiCache::Snapshot|Yes|No|cmdb\_aws\_elasticache\_snapshot|
 |AWS::CloudTrail::Trail|Yes|No|cmdb\_aws\_cloudtrail\_trail|
 |AWS::Batch::ComputeEnvironment|Yes|No|cmdb\_aws\_batch\_compute\_environment|
 |AWS::StorageGateway::FileShare|Yes|No|cmdb\_aws\_storage\_gateway\_file\_share|
 |AWS::DataSync::Task|Yes|No|cmdb\_aws\_datasync\_task|
 |AWS::API Gateway::Domain Name|Yes|No|cmdb\_aws\_api\_gateway\_domain\_name|
-|AWS DynamoDB Cluster|Yes|No|cmdb\_ci\_cluster\_node|
+|DynamoDB Cluster \(DAX\)|Yes|No|cmdb\_ci\_cloud\_db\_cluster|
+|AWS DynamoDB Cluster Node|Yes|No|cmdb\_ci\_cluster\_node|
 |AWS::GlobalAccelerator::Accelerator|Yes|No|cmdb\_aws\_global\_accelerator\_accelerator|
 |AWS::Timestream::InfluxDBInstance|Yes|No|cmdb\_aws\_timestream\_for\_influxdb\_database\_instance|
 |AWS::CloudHSM::HSM|Yes|No|cmdb\_aws\_cloudhsm\_hsm|
 |AWS::MWAA::Environment|Yes|No|cmdb\_aws\_managed\_workflows\_for\_apache\_airflow\_environment|
 |AWS::NetworkFirewall::Firewall|Yes|No|cmdb\_aws\_network\_firewall\_firewall|
+
+\* Requires AWS Systems Manager \(SSM\) to be enabled on the instance. Service Graph Connectors populates these classes instead of cmdb\_ci\_server when SSM is enabled.
 
 **Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

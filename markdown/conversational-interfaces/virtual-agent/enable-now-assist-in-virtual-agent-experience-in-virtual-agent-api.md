@@ -18,7 +18,7 @@ Enable ServiceNow Otto experience in Virtual Agent API to support generative AI 
 
 ## Before you begin
 
-Set up ServiceNow Otto for Virtual Agent. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for more information.
+Set up ServiceNow Otto for Virtual Agent. See [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for more information.
 
 Role required: admin
 

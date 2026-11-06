@@ -33,11 +33,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Conversational Interfaces Diagnostic Tool workflow
 
-After you've described the issue you want to solve, the Conversational Interfaces Diagnostic Tool workflow begins using the relevant diagnostic topics and topic blocks. These topics and topic blocks are used for identifying, diagnosing, solving, and collecting data for the issue described.
+After you've described the issue you need to solve, the Conversational Interfaces Diagnostic Tool workflow begins using the relevant diagnostic topics and topic blocks. These topics and topic blocks are used for identifying, diagnosing, solving, and collecting data for the issue described.
 
 For example, the diagnostic workflow does the following:
 
--   Prompts you for the required data, based on the issue you want to solve.
+-   Prompts you for the required data, based on the issue you need to solve.
 -   Includes a list of Knowledge Base \(KB\) articles where you can find more information, as applicable. If you aren't finding the information you need, you can also search for additional KB articles.
 -   Gives you the option of downloading diagnostic support information.
 -   Lets you select another issue to solve.

@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Add content controls, Create template using Word add-in, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map contract tables using the Microsoft Word add-in for ServiceNow Contracts
@@ -68,15 +68,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  In the **Table display configuration** section, set the display properties to define how the data appears within the table in the contract document and then select **Next**.
 
-<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d541188e325">
+<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d542465e325">
 
 Field
 
-</th><th align="left" id="d541188e328">
+</th><th align="left" id="d542465e328">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d541188e334">
+</th></tr></thead><tbody><tr><td id="d542465e334">
 
 **Sort by**
 
@@ -84,7 +84,7 @@ Description
 
 The criteria by which to sort the data.
 
-</td></tr><tr><td id="d541188e343">
+</td></tr><tr><td id="d542465e343">
 
 **Sorting order**
 
@@ -92,7 +92,7 @@ The criteria by which to sort the data.
 
 Sorts the data either in ascending or descending order.
 
-</td></tr><tr><td id="d541188e352">
+</td></tr><tr><td id="d542465e352">
 
 **Enable hierarchy**
 
@@ -100,7 +100,7 @@ Sorts the data either in ascending or descending order.
 
 Option to group the data based on parent-child relationships.
 
-</td></tr><tr><td id="d541188e361">
+</td></tr><tr><td id="d542465e361">
 
 **Parent field**
 
@@ -108,7 +108,7 @@ Option to group the data based on parent-child relationships.
 
 The parent field for the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d541188e376">
+</td></tr><tr><td id="d542465e376">
 
 **Hierarchy column\(s\)**
 
@@ -116,7 +116,7 @@ The parent field for the hierarchy view.This field appears only when **Enable hi
 
 The columns for which data should be displayed in the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d541188e390">
+</td></tr><tr><td id="d542465e390">
 
 **Row indentation**
 

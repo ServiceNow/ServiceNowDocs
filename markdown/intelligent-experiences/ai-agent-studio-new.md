@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-10-05"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Agentic AI, AI agents, Agentic workflows]
 breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
@@ -53,7 +53,7 @@ From the node map, you can select the edit icon on any node to configure that ag
 
 ## Activity tracking
 
-From the Activity section in AI Agent Studio, you can view execution logs for both AI agents and agentic workflows. On the activity page, you can track trends in how your agentic AI assets perform. You can filter executions and automated evaluations by various fields to analyze performance patterns. For comprehensive insights into AI agent and agentic workflow usage and performance, access the AI Agent Analytics dashboard.
+From the Activity section in AI Agent Studio, you can view execution logs for both AI agents and agentic workflows. On the activity page, you can track trends in how your agentic AI assets perform. You can filter executions and automated evaluations by various fields to analyze performance patterns. For comprehensive insights into AI agent and agentic workflow usage and performance, access the [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-dashboard.md).
 
 Runs that are still in progress, including queued test runs, appear here with their current status. Use this section to check which runs are still in progress.
 
@@ -67,8 +67,8 @@ An automated evaluation runs the asset against test scenarios you select and ret
 
 From the Settings section in AI Agent Studio, you can configure AI Guardian and manage AI agent capabilities. The following settings are available:
 
--   Offensiveness detection and Prompt injection protection
--   [Long-term memory for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/long-term-memory-aia.md)
+-   [Offensiveness detection and Prompt injection protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-guardian-new.md)
+-   [Long-term memory for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/long-term-memory-aia-new.md)
 -   User facts and preferences for knowledge retention
 -   External AI agent settings for discoverability and communication
 -   Model provider configuration for large language model \(LLM\) selection

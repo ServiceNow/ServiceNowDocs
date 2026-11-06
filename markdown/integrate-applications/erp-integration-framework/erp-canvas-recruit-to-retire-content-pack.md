@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, content, pack, content pack, hire to retire, hire, retire, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Available content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+keywords: [hire to retire, hire, retire, employee lifecycle, content pack, process extensions, erp canvas]
+breadcrumb: [Available SAP content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Hire to Retire content pack

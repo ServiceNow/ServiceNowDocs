@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-28"
 reading_time_minutes: 2
 breadcrumb: [Purchase lines, Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -113,6 +113,8 @@ Percentage of the cost allocated.This field is visible only if the allocation ty
 
 -   From the ShoppingHub catalog, the cost allocation is created from the payment method that the employee selects during checkout. The employee can define the cost center to allocate to, and can split the allocation amongst multiple cost centers, as required. Employee credits and paycheck payments also result in the creation of a cost allocation.
 -   When an employee submits an off-catalog request from the I need to submit a quote flow, and selects a cost center that is not their default cost center, the selected cost center gets populated in the Cost Allocation table associated to the purchase requisition line. The employee can define the cost center to allocate to, but the allocation is 100% to that cost center, and can't be split.
+
+**Note:** When a purchase line has no payment method selections, the cost allocation uses the cost center of the line\\'s business owner. If that cost center is empty, the cost allocation cannot be created and the error "Cost allocation cannot be created as cost center is empty" is raised. Make sure the user record of each business owner has a cost center.
 
 **Parent Topic:**[Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md)
 

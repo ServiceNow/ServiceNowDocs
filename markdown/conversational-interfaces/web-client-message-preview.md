@@ -38,13 +38,13 @@ Role required: admin
 
 When message preview is activated, and the chat window is minimized, the end user sees a message preview badge icon \[Omitted image "message-preview-icon-web-client.png"\] Alt text: Message preview badge icon. in the minimized chat window. The message preview badge icon lets the user know that there are new or unread messages, and how many. In this example, the end user has one new or unread message.
 
-A message preview pane shows the first new or unread message next to the badge icon. The message is based the conversation. For example, if the user needed help with using the laptop, the message preview pane could be similar to the following image.
+A message preview pane shows the first new or unread message next to the badge icon. The message is based on the conversation. For example, if the user needed help with using the laptop, the message preview pane could be similar to the following image.
 
 \[Omitted image "message-preview-icon-text.png"\] Alt text: Message preview pane with number of unread messages displaying next to preview badge icon.
 
 The end user can either:
 
--   Click the message preview pane to continue the conversation in the chat, or
+-   Select the message preview pane to continue the conversation in the chat, or
 -   Close the message preview pane.
 
 The badge icon appears only when there are new or unread messages. The badge icon is updated every 10 seconds, and displays the first new or unread message.

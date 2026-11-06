@@ -27,7 +27,7 @@ Follow these steps to copy a process extension \(subflow\) and edit the copy to 
 
 Before completing the procedure, it may be helpful to review the following pages:
 
--   [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)
+-   [Available Zero Copy Connector for ERP content packs for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)
 -   [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md)
 
 ## Procedure

@@ -167,4 +167,22 @@ Type
 Displays the type of records.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Provider form]()
+
+[Third-party OAuth Provider form]()
+
+[Resolving connection setup issues in Workplace Calendar Synchronization]()
+

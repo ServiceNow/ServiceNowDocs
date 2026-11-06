@@ -82,7 +82,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-inventory\_user, 8c5ce94b77ac4210fa3fca22fe5a994b
+inventory\_user, sn\_eam.asset\_technician
 
 </td></tr><tr><td>
 

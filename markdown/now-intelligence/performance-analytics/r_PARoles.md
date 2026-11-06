@@ -41,7 +41,7 @@ No role
 -   View Performance Analytics visuals on the Service Portal.
 -   View dashboards that have been shared with this user.
 
-Some dashboards require a subject matter related role for viewing, such as sn\_hr\_core\_basic for the HR Agent dashboard. Dashboard owners and administrators can also restrict dashboard access by role. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).
+Some dashboards require a subject matter related role for viewing, such as sn\_hr\_core\_basic for the HR Agent dashboard. Dashboard owners and administrators can also restrict dashboard access by role. For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 
 </td><td>
@@ -452,7 +452,7 @@ Read a dashboard that has been shared with you
 
 </td><td>
 
-No role by default, but dashboards can require roles to view their data. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).
+No role by default, but dashboards can require roles to view their data. For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 </td></tr><tr><td>
 
@@ -772,7 +772,7 @@ pa\_power\_user
 **Related topics**  
 
 
-[Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md)
+[Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md)
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

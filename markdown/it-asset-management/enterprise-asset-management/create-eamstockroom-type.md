@@ -18,7 +18,7 @@ If the base system stockroom types don't meet your needs, you can create a custo
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 

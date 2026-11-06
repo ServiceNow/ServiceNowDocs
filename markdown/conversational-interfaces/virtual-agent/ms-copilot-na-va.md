@@ -35,10 +35,10 @@ The default Conversational Integration with Microsoft Teams plugin \(sn\_va\_tea
     -   Before the integration, make sure that Copilot is enabled on your Microsoft Teams tenant.
     -   No configuration changes are required on your ServiceNow instance to integrate with Microsoft Copilot.
     -   There are no additional configurations required for Copilot.
--   The ServiceNow Otto license and verify that ServiceNow Otto in Virtual Agent is configured. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+-   The ServiceNow Otto license and verify that ServiceNow Otto in Virtual Agent is configured. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 -   Enable the teams bot \(the Now Virtual Agent bot or the Self-configured bot, which you would like to use for Copilot integration\) for the ServiceNow Otto Conversations in the **All** &gt; **Conversational Interfaces** &gt; **Assistants** &gt; **Display experience** &gt; **Channels** section.
 
-    For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+    For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 
 ## Integrate Microsoft Copilot with Now Virtual Agent bot

@@ -1,6 +1,6 @@
 ---
-title: Dashboard URL parameters
-description: Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of dashboards used in application pages.Use the sysparm\_group parameter to select the default value of the dashboard group on the Dashboards overview page.
+title: Core UI dashboard URL parameters
+description: Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of responsive dashboards used in application pages.Use the sysparm\_group parameter to select the default value of the dashboard group on the Dashboards overview page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/dashboard-url-parameters.html
 release: australia
@@ -9,14 +9,16 @@ classification: performance-analytics
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Dashboard URL parameters
+# Core UI dashboard URL parameters
 
-Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of dashboards used in application pages.
+Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of responsive dashboards used in application pages.
 
 ## Dashboard header
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 This sysparm\_header URL system parameter controls the visibility of the header of the dashboard. It has the following values:
 

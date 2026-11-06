@@ -9,14 +9,14 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 4
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify decision table rules in Workflow Studio
 
 Modify the rows, default result values, or content of a decision table in Workflow Studio to keep pace with changing business logic.
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 
 ## Define default result values
 
@@ -57,7 +57,7 @@ Modify conditions and results to update decision rules in a decision table in Wo
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -118,7 +118,7 @@ Determine or change the sequence in which your decision rules are evaluated by r
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -130,7 +130,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d170790e566">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d171084e569">
 
 **Reorder by changing the Rank number**
 
@@ -142,7 +142,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d170790e599">
+</td></tr><tr><td id="d171084e602">
 
 **Reorder by dragging and dropping a row**
 

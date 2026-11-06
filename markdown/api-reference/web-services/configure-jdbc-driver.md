@@ -53,7 +53,7 @@ Role required: admin
 
 4.  Select an authentication method and configure the driver properties.
 
-<table id="choicetable_cry_fmy_hkc"><tbody><tr><td id="d650928e205">
+<table id="choicetable_cry_fmy_hkc"><tbody><tr><td id="d650977e205">
 
 **Method**
 
@@ -61,7 +61,7 @@ Role required: admin
 
 Properties
 
-</td></tr><tr><td id="d650928e214">
+</td></tr><tr><td id="d650977e214">
 
 **Basic Authentication**
 
@@ -69,7 +69,7 @@ Properties
 
 Set **user** to the user ID with the **sn\_jdbc\_rest\_access** role and **password** to the user password. For personal user accounts using basic authentication, the **snc\_basic\_auth\_api\_access** role must also be assigned.
 
-</td></tr><tr><td id="d650928e235">
+</td></tr><tr><td id="d650977e235">
 
 **OAuth**
 

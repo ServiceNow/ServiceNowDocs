@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-11-01"
 reading_time_minutes: 2
 breadcrumb: [Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ The following probes are triggered after classification:
 |Probe|Description|Commands|
 |-----|-----------|--------|
 |HAProxy – Version|The sensor of this probe populates the HAProxy version in the HAProxy Load Balancers \[cmdb\_ci\_lb\_haproxy\] table.|haproxy|
-|HAProxy – Get Configuration|The sensor of this probe populates additional information in the HAProxy Load Balancers \[cmdb\_ci\_lb\_haproxy\] table. The probe also populates information in the Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\], Load Balancer Interface \[cmdb\_ci\_lb\_interface\], and Load Balancer Application \[cmdb\_ci\_lb\_appl\] tables.|echo, sed, cut, grep, egrep \(within the Borne shell script\)|
+|HAProxy – Get Configuration|The probe sensor populates additional information in the HAProxy Load Balancers \[cmdb\_ci\_lb\_haproxy\] table. It also populates the following tables: Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\], Load Balancer Interface \[cmdb\_ci\_lb\_interface\], and Load Balancer Application \[cmdb\_ci\_lb\_appl\].|echo, sed, cut, grep, egrep \(within the Borne shell script\)|
 
 In addition to populating the data, the following relationships records are created in CI Relationships \[cmdb\_rel\_ci\] table:
 

@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 2
-breadcrumb: [View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
+breadcrumb: [View assistants, Configure assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a chat assistant

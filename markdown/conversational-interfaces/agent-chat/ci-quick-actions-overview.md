@@ -19,7 +19,7 @@ Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more 
 
 ## Activate quick actions
 
-To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
+To enable your agents to use quick actions, you must activate the [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
 
 ## Default quick actions
 
@@ -99,7 +99,7 @@ search-kb
 
 </td><td>
 
-Starts a KB article search. The agent is prompted to search for the relevant KB article. Based on the search term the agent enters, the agent is able to view the KB articles that match the search term. The agent can then select the KB article.
+Starts a KB article search. The agent is prompted to search for the relevant KB article. Based on the search term the agent enters, the agent can view the KB articles that match the search term. The agent can then select the KB article.
 
 </td><td>
 
@@ -469,7 +469,7 @@ The toolbar of the Workspace chat window contains three buttons. Selecting the l
     -   To update an existing record, select **Update**.
     -   To create a new record, select **Save**.
 
-## Setting up quick action toolbar controls
+## Set up quick action toolbar controls
 
 Customize the quick actions that appear on the chat toolbar.
 
@@ -486,7 +486,7 @@ Role required: admin
 3.  Do one of the following:
 
     -   To create a quick action workspace action, select **New**.
-    -   To modify a quick action workspace action, select the quick action workspace action record you want to update.
+    -   To modify a quick action workspace action, select the quick action workspace action record you need to update.
 4.  On the screen, fill in the fields.
 
 <table id="table_m12_pyk_t2b"><thead><tr><th>
@@ -601,7 +601,7 @@ Option for making the quick action available to all user groups.
 </table>5.  Select **Submit** or **Update**.
 
 
-## Activating chat context quick actions
+## Activate chat context quick actions
 
 Activate context quick actions to enable agents to view context relevant to a chat interaction. When launched in a chat, display cards show: sysparm\_portal, sysparm\_page, table, sys\_id, or sysparm\_language.
 

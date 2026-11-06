@@ -36,7 +36,7 @@ Use **System messages** in Chat Settings to change the properties that control s
 
 2.  Under **System messages**, select **View All**.
 
-3.  In the System Messages list, select the property record for the message you want to change.
+3.  In the System Messages list, select the property record for the message you need to change.
 
 4.  In the **Value** field, enter the new message text and select **Save**.
 

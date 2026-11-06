@@ -68,7 +68,7 @@ Role required: admin
     	}
     ```
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)

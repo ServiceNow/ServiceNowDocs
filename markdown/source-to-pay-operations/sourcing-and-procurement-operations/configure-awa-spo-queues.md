@@ -28,7 +28,7 @@ Role required: admin
 
     -   General Ledger Accounting Queue
     -   Legal Review for Procurement Queue
-    -   Strategy Sourcing Queue
+    -   Strategic Sourcing Queue
     -   Service Desk &amp; Others Queue
 3.  In the Assignment Eligibility related list, select **New**.
 

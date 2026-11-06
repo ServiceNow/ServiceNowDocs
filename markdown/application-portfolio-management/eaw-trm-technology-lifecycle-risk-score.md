@@ -92,7 +92,7 @@ The maximum possible score from the formula is 80 \(base score 20 × multiplier 
 
 Scores are stored per fiscal period in the TLM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table.
 
-**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
 
 ## Technology lifecycle risk score example
 

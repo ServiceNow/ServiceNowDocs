@@ -17,7 +17,7 @@ Use the ServiceNow Otto panel to perform AI administration and setup tasks throu
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -25,7 +25,7 @@ The ServiceNow Otto panel is enabled by default, and is accessible from every pa
 
 For more information on the general capabilities of ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md).
 
-\[Omitted image "ai-admin-center-lux-otto-panel.png"\] Alt text: ServiceNow Otto panel in the AI Admin Center \(Next Experience UI\).
+\[Omitted image "ai-admin-center-lux-otto-panel.png"\] Alt text: ServiceNow Otto panel in AI Admin Center.
 
 ## AI companion capabilities
 
@@ -33,11 +33,11 @@ Use the ServiceNow Otto panel to perform the following types of actions in AI Ad
 
 -   **Setup and configuration**
 
-    Start guided setup workflows for generative AI skills, AI Guardian settings, model configurations, multilingual service, data sharing and processing, integrations, and account details. The AI companion executes setup steps on your behalf and asks for your confirmation before any change takes effect.
+    Start guided setup workflows for generative AI skills, AI Guardian settings, model configurations, multilingual service, data sharing and processing, integrations, and account details. The AI companion executes setup steps on your behalf and requires your confirmation before any change takes effect.
 
 -   **Skill activation and deactivation**
 
-    Activate or deactivate generative AI skills through conversation. The panel presents skill details and current state before requesting confirmation.
+    Activate or deactivate generative AI skills through conversation. The panel presents skill details and current state before confirmation is required.
 
 -   **Instance and product details**
 
@@ -56,7 +56,7 @@ After you enter your request in the chat, your AI companion generates a plan to 
 
 ## Self-service conversational troubleshooting
 
-Depending on your chat request, the self-service conversational troubleshooting AI agents may be engaged to diagnose common AI administration issues.
+Depending on your chat request, the self-service conversational troubleshooting AI agents may be engaged to diagnoseand resolve common AI administration issues.
 
 Self-service conversational troubleshooting can help with issues such as:
 
@@ -82,7 +82,7 @@ Based on your chat request, the AI Analytics Q and A AI agent may be engaged to 
 
 The AI Analytics Q and A AI agent can address topics such as:
 
--   KPI definitions in AI analytics dashboards, such as CSAT, deflection rate, and so on.
+-   Key performance indicator \(KPI\) definitions in AI analytics dashboards, such as CSAT and deflection rate.
 -   How a dashboard widget or metric is calculated
 -   Data flows and processing context for AI analytics
 -   Deflection log states and common deflection scenarios
@@ -92,7 +92,7 @@ For more information, see [AI Analytics Q and A agent](https://raw.githubusercon
 
 ## Intent management
 
-Based on your request, an AI agent may be engaged to helps create and update Natural Language Understanding \(NLU\) intents. Intent management can help you to:
+Based on your request, an AI agent may be engaged to help create and update Natural Language Understanding \(NLU\) intents. Intent management can help you:
 
 -   Create an intent.
 -   Update an existing intent identified by a specific intent name or sys\_id.

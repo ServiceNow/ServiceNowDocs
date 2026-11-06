@@ -1,6 +1,6 @@
 ---
 title: Industrial Process Manager release notes
-description: The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.
+description: The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.Use a new system property to change the limit on how many search results appear when you search for an equipment model entity.The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/industrial-process-manager-rn.html
 release: australia
@@ -33,6 +33,17 @@ See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/Se
 
 
 **Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/operational-technology-rn-landing.md)
+
+## November 2026
+
+Use a new system property to change the limit on how many search results appear when you search for an equipment model entity.
+
+### What's new
+
+-   **[Max search results system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/isa-equipment-model-system-properties.md)**
+
+    When you search for an equipment model entity in the Industrial Workspace, the search results show up to 200 matching entities. When there are more, a message asks you to refine your search. Using the sn\_otsm.equipment\_model.max\_search\_results system property, you can change the search result limit to up to 1000.
+
 
 ## Australia
 

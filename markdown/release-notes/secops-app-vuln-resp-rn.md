@@ -91,7 +91,7 @@ The ServiceNow® Application Vulnerability Response application brings security 
 
 ### What's new
 
--   **[Wiz Application Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/wiz-exploring-avr-sca-secrets.md)**
+-   **[Application Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/wiz-exploring-avr-sca-secrets.md)**
 
     Import application, Software Composition Analysis \(SCA\), findings, Secrets \(passwords, tokens and keys\) data with the following Wiz Vulnerability integrations:
 

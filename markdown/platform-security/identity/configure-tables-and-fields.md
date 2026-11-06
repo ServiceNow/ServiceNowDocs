@@ -1,5 +1,5 @@
 ---
-title: Configuring Tables and Fields
+title: Configure tables and fields
 description: Configure tables and fields for Identity and Access Audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/configure-tables-and-fields.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Security Auditable Fields, Identity and Access Audit, Identity]
 ---
 
-# Configuring Tables and Fields
+# Configure tables and fields
 
 Configure tables and fields for Identity and Access Audit.
 
@@ -34,7 +34,7 @@ The following tables can be configured for auditing​:
 -   Contained Role \[sys\_user\_role\_contains\]​
 -   Group Member \[sys\_user\_grmember\]​
 
-**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity Access and Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/allowed-fields-for-audit.md).
+**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity and Access Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/allowed-fields-for-audit.md).
 
 ## Procedure
 
@@ -56,7 +56,7 @@ The following tables can be configured for auditing​:
 
     -   Adding more fields from the available field list for audit.
     -   Enabling additional operations such as create, update, or delete.
-4.  Click **Update**.
+4.  Select **Update**.
 
     Any changes to the password field add a new record to the Security Table Audits. In this example, the audit shows a changed password field for the user **Abel Tuter**.
 

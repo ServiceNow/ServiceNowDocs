@@ -1,6 +1,6 @@
 ---
-title: View journey details in Employee Works
-description: View the stages and tasks of a journey or lifecycle event on the Journey Details page Overview tab in Employee Works.
+title: View journey stages and details in EmployeeWorks Web App
+description: Use the Overview tab on the Journey Details page in EmployeeWorks Web App to view journey stages, track progress, and access tasks associated with each stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/view-journey-details-ew.html
 release: australia
@@ -8,43 +8,63 @@ product: Journey Designer
 classification: journey-designer
 topic_type: task
 last_updated: "2026-09-18"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [journey details, Overview tab, Employee Works]
-breadcrumb: [Journeys in EmployeeWorks Web App, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Journey details in EmployeeWorks Web App, Journeys in EmployeeWorks Web App, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# View journey details in Employee Works
+# View journey stages and details in EmployeeWorks Web App
 
-View the stages and tasks of a journey or lifecycle event on the Journey Details page Overview tab in Employee Works.
+Use the **Overview** tab on the Journey Details page in EmployeeWorks Web App to view journey stages, track progress, and access tasks associated with each stage.
 
 ## Before you begin
 
 Role required: sn\_jny.manager
 
+You must have permission to access the associated journey or lifecycle event.
+
 ## About this task
 
-The Journey Details page Overview tab organizes a journey into stages, showing the tasks associated with each stage and how many of them are complete.
+The **Overview** tab displays journey stages in their configured order, along with the tasks associated with each stage.
+
+Each stage displays a visual indicator of its completion status. The first active stage is selected by default, and the selected stage is highlighted. Inactive stages are greyed out and can't be selected. Draft journeys, stages, and tasks aren't displayed in Employee Works.
+
+Employees can view only the tasks assigned to them, while managers can view all tasks assigned to everyone associated with the journey \(based on access permissions\).
 
 ## Procedure
 
-1.  Open a journey or standalone lifecycle event case from the journey list or the Journeys widget on the Employee Works home page.
+1.  Open a journey or standalone lifecycle event case from the journey list or the Journeys widget on the EmployeeWorks Web App home page.
 
 2.  Select the **Overview** tab.
 
-    The complete journey is organized into stages. All stages display using the existing journey stage order, with a visual indicator of each stage's completion status. The first active stage is selected by default, and the currently selected stage is visually highlighted.
+3.  Review the journey stages and their completion status.
 
-3.  Select a different stage to update the task list to show the tasks associated with that stage.
+4.  Select an available stage to view its associated tasks.
 
-    Inactive stages are greyed out and can't be selected. Draft journeys, draft stages, and draft tasks aren't surfaced in Employee Works.
+5.  Use the available filters to narrow down the tasks displayed for the selected stage.
 
-4.  Review the tasks displayed for the selected stage.
+    For employees and managers, filter tasks by overdue, due soon, or mandatory. For managers, you can filter tasks by the assignees as well.
 
-    Each task card shows the task name, a short description \(when available\), a required/optional indicator, and the task status \(for example, Completed, In Progress, Due Soon, or Overdue\). The number of completed tasks for the selected stage is shown above the task list, in the format `x/y tasks done`.
+6.  Review the tasks displayed for the selected stage.
 
-5.  Select a task to open the task record page.
+    Each task card displays:
+
+    -   Task name and description, when available.
+    -   Required or optional indicator.
+    -   Task status, such as Completed, In Progress, Due Soon, or Overdue.
+7.  Select a **Task** card to complete the task from the task details page.
 
 
-## Result
+**Parent Topic:**[Journey details in EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/ejm-jnydetails-page-empworks.md)
 
-Task status, stage status, and progress counts refresh automatically when journey-related updates or task completions occur.
+**Related topics**  
+
+
+[Journey Details page header in EmployeeWorks Web App]()
+
+[View upcoming tasks on the Journey Details page in EmployeeWorks Web App]()
+
+[View journey activity and add comments in EmployeeWorks Web App]()
+
+[Add and view attachments on a journey in EmployeeWorks Web App]()
 

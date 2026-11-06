@@ -61,13 +61,13 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
     \[Omitted image "edit-cpu-config.png"\] Alt text: Edit running processes CPU
 
-8.  Click **Save**.
+8.  Select **Save**.
 
 9.  From the list of configurations, select and edit **Running processes - MEM**.
 
 10. In the **Action input** field, add the script GUID.
 
-11. Click **Save**.
+11. Select **Save**.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [clone, Demand Summarization, Now Assist for Strategic Portfolio Management]
 breadcrumb: [Configure the demand AI skills, Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -47,15 +47,15 @@ The demand summarization skill generates a summary of a demand record from a set
 
 7.  Add or remove an input field.
 
-<table id="choicetable_zn4_5qk_fkc"><thead><tr><th align="left" id="d199385e157">
+<table id="choicetable_zn4_5qk_fkc"><thead><tr><th align="left" id="d205701e157">
 
 Goal
 
-</th><th align="left" id="d199385e160">
+</th><th align="left" id="d205701e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d199385e166">
+</th></tr></thead><tbody><tr><td id="d205701e166">
 
 **Add a field**
 
@@ -66,7 +66,7 @@ Action
 3.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d199385e190">
+</td></tr><tr><td id="d205701e190">
 
 **Remove a field**
 
@@ -81,15 +81,15 @@ Select the cross icon next to an input field.
 
 9.  Add or remove a field from a related table, add or remove a related table, or add rule conditions for each related table.
 
-<table id="choicetable_wzc_j5k_fkc"><thead><tr><th align="left" id="d199385e227">
+<table id="choicetable_wzc_j5k_fkc"><thead><tr><th align="left" id="d205701e227">
 
 Goal
 
-</th><th align="left" id="d199385e230">
+</th><th align="left" id="d205701e230">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d199385e236">
+</th></tr></thead><tbody><tr><td id="d205701e236">
 
 **Add a field from a related table**
 
@@ -100,7 +100,7 @@ Action
 3.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d199385e260">
+</td></tr><tr><td id="d205701e260">
 
 **Remove a field from a related table**
 
@@ -108,7 +108,7 @@ Action
 
 Select the cross icon next to a related table field.
 
-</td></tr><tr><td id="d199385e269">
+</td></tr><tr><td id="d205701e269">
 
 **Add a related table**
 
@@ -120,7 +120,7 @@ Select the cross icon next to a related table field.
 4.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d199385e296">
+</td></tr><tr><td id="d205701e296">
 
 **Remove a related table**
 
@@ -128,7 +128,7 @@ Select the cross icon next to a related table field.
 
 Select the cross icon next to a related table.
 
-</td></tr><tr><td id="d199385e306">
+</td></tr><tr><td id="d205701e306">
 
 **Add rule conditions for a related table**
 

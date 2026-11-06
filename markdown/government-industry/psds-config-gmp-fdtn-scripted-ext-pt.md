@@ -61,5 +61,5 @@ The publishing extension point is implemented. Grant programs and authorized rep
 
 **Previous topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Next topic:**[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
+**Next topic:**[Configure the related party extension point in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-rpmanagement-ext-pt.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Manage opportunity records using an MCP client
-description: Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
+title: Manage opportunity records using an AI interface
+description: Retrieve, create, and update opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-opportunity-records.html
 release: australia
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
-# Manage opportunity records using an MCP client
+# Manage opportunity records using an AI interface
 
-Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
+Retrieve, create, and update opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: admin
 
 ## About this task
 
-All changes go through the same server-side business rules, validation scripts, and access controls that apply on the standard form. Every create, update, or delete action requires explicit confirmation before the agent commits.
+All changes go through the same server-side business rules, validation scripts, and access controls that apply on the standard form. Every create or update action requires explicit confirmation before the agent commits.
 
 ## Procedure
 
-1.  Connect through your MCP client.
+1.  Use ServiceNow Otto or connect through your MCP client.
 
     For information on how to connect to an MCP server from an MCP client, refer [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
@@ -220,26 +220,6 @@ Examples by record type:
 
 "Create a contact: John Doe, VP Sales at &lt;company name&gt;, john@abcd.com."
 
-</td></tr><tr><td>
-
-Delete
-
-</td><td>
-
-Supported operations:
-
- -   **Opportunity lines**
-
-"Remove the Basic Support package from the &lt;company name&gt; opportunity."
-
--   **Opportunity competitor**
-
-"Remove Salesforce from the &lt;company name&gt; competitor list" or "Delete Oracle as a competitor on OPTY100001."
-
--   **Opportunity associated contact**
-
-"Deactivate Jane Smith from the &lt;company name&gt; opportunity" or "Disassociate John Doe from OPTY100001."
-
 </td></tr></tbody>
 </table>3.  Provide any additional information the agent asks for.
 
@@ -248,11 +228,11 @@ Supported operations:
     -   For create operations, the agent asks for missing mandatory fields one at a time.
     -   For update operations, it resolves ambiguous record references by asking you to select from a list.
     -   Field-type validations run before any change is committed; if a value is invalid, the agent returns an error and suggests a correction.
-4.  For create, update, and delete operations: review the confirmation card and confirm to commit.
+4.  For create and update operations: review the confirmation card and confirm to commit.
 
-    **Note:** The confirmation card shows what will change before anything is saved or deleted. For update operations, it shows the old and new value for each field. Retrieve operations return results directly without a confirmation step.
+    **Note:** The confirmation card shows what will change before anything is saved. For update operations, it shows the old and new value for each field. Retrieve operations return results directly without a confirmation step.
 
-    The agent performs the operation and returns the result. For create operations, it returns the record name and a link. For delete operations, it confirms the record was removed. If you don't have the required access, the agent returns a permission denied message.
+    The agent performs the operation and returns the result. For create operations, it returns the record name and a link. If you don't have the required access, the agent returns a permission denied message.
 
 
 **Related topics**  

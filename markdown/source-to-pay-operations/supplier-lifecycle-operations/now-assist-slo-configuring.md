@@ -41,7 +41,7 @@ The following table lists the feature and skill that you can access from the AI 
 1.  Install the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab of the AI Admin Hub.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Supplier Lifecycle Operations**.
@@ -83,15 +83,15 @@ Supplier case summarization
 
 10. Select **Define Availability** and select one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d129089e399">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d129351e399">
 
 Option
 
-</th><th align="left" id="d129089e402">
+</th><th align="left" id="d129351e402">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d129089e408">
+</th></tr></thead><tbody><tr><td id="d129351e408">
 
 **Skill is always available**
 
@@ -99,7 +99,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d129089e417">
+</td></tr><tr><td id="d129351e417">
 
 **Customize skill availability**
 
@@ -112,15 +112,15 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d129089e453">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d129351e453">
 
 Option
 
-</th><th align="left" id="d129089e456">
+</th><th align="left" id="d129351e456">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d129089e462">
+</th></tr></thead><tbody><tr><td id="d129351e462">
 
 **In-product desktop**
 
@@ -128,7 +128,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d129089e471">
+</td></tr><tr><td id="d129351e471">
 
 **ServiceNow Otto panel**
 

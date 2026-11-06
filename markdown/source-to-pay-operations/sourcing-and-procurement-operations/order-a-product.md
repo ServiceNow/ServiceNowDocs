@@ -128,7 +128,7 @@ Yes
 
 </td><td>
 
-Purchase is for an existing project. Enter the project details as required.**Note:** You must have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
+Purchase is for an existing project. Enter the project details as required.**Note:** You must have the Project Costing for Sourcing and Procurement Operations \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
 </td></tr></tbody>
 </table>    6.  In the **Purchase reason** field, provide your reason for making the purchase.
@@ -137,7 +137,7 @@ Purchase is for an existing project. Enter the project details as required.**Not
 
     7.  In the **Watchlist** field, select one or more users to be added to the watchlist of the purchase request.
 
-        The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated. By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
+        The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated. By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the `sn_shop.watchlist.user.limit` system property. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
 
         **Note:** This limit for the number of users on the watchlist is applicable only while making the purchase request. You can add more users to the watchlist after the purchase request is created. However, you can add more users only at the purchase requisitions page.
 

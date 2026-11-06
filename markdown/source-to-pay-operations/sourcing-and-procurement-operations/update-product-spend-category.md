@@ -18,7 +18,7 @@ Use the ServiceNow Otto panel to update the product category or spend category f
 
 ## Before you begin
 
-Role required: sn\_shop\_procurement\_specialist
+Role required: sn\_shop.procurement\_specialist
 
 ## Procedure
 

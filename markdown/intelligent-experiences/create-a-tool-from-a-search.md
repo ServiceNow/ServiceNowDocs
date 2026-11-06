@@ -47,7 +47,7 @@ Search
 
 </td><td>
 
-Select a search type from the list.
+Select the relevant search profile from the list.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Label
 
 </td><td>
 
-An internal name for the tool.
+Add an internal name for the tool.
 
 </td></tr><tr><td>
 

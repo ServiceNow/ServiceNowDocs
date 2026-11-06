@@ -41,7 +41,7 @@ On the Content lookup portal, you can view the information based on the applicat
     -   Hardware Products
     -   Hardware Models
     -   Hardware Lifecycles
--   If both Software Asset Management Professional and Hardware Asset Management applications are installed and you have both asset and sam\_user roles, you can view both hardware and software content tabs. For more information about the Software Asset Management Content library portal, see the [Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/content-search-portal.md).
+-   If both Software Asset Management Professional and Hardware Asset Management applications are installed and you have both asset and sam\_user roles, you can view both hardware and software content tabs. For more information about the Software Asset Management Content library portal, see the [Content Library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/content-search-portal.md).
 
 The Content lookup portal uses the AI search functionality and helps you to search for a specific hardware manufacturer, product, and model number. After you enter your search criteria in the search bar, the search results are listed with the most relevant matches at the top. Using the Filters section, you can further narrow down the result.
 

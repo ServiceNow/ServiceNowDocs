@@ -17,7 +17,7 @@ breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data 
 
 After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP data into the ServiceNow AI Platform.
 
-For information on using the Use ERP Data action to retrieve ERP data, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md).
+For information on using the Use ERP Data action to retrieve ERP data, see [Building flows with the Zero Copy Connector for ERP Use ERP Data action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md).
 
 ## Roles and availability
 
@@ -42,7 +42,7 @@ Provide a value for each input that your action requires. To add dynamic values,
 
     Data type: **Dynamic Choice**
 
-    Whether to **Read** or **Update** the ERP system. The read or update entity must already be defined in Zero Copy Connector for ERP. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    Whether to **Read** or **Update** the ERP system. The read or update entity must already be defined in Zero Copy Connector for ERP. For more information, see [Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 -   **Required Fields**
 

@@ -1,6 +1,6 @@
 ---
-title: Create obligations using AI
-description: Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations manually or use AI to automatically extract obligations from contract documents.Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents. Approved obligations are added as obligations records in the Obligations tab of the contract repository.Create obligation records for signed contracts in Obligation Management to fulfill the responsibilities specified in the contract through obligation tasks. Recurring obligation tasks are automatically created from the record. You can also add ad hoc obligation tasks that are performed only once or at irregular intervals.Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
+title: Create obligation tasks
+description: Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations by using AI to automatically extract obligations from contract or manually create them.Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents. Approved obligations are added as obligations records in the Obligations tab of the contract repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.html
 release: australia
@@ -8,14 +8,14 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-08-13"
-reading_time_minutes: 6
-keywords: [Create obligations, Obligation extraction, AI obligations, Recurring obligation task, Recurring schedule]
+reading_time_minutes: 4
+keywords: [Create obligations, Obligation extraction, AI obligations]
 breadcrumb: [Obligation Management, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Create obligations using AI
+# Create obligation tasks
 
-Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations manually or use AI to automatically extract obligations from contract documents.
+Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations by using AI to automatically extract obligations from contract or manually create them.
 
 You can create obligation records using one of the following methods:
 
@@ -39,15 +39,15 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d561371e140">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d562562e140">
 
 Method
 
-</th><th align="left" id="d561371e143">
+</th><th align="left" id="d562562e143">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d561371e149">
+</th></tr></thead><tbody><tr><td id="d562562e149">
 
 **Contract Workspace**
 
@@ -60,7 +60,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d561371e196">
+</td></tr><tr><td id="d562562e196">
 
 **Workspace used by your application**
 
@@ -72,7 +72,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d561371e223">
+</td></tr><tr><td id="d562562e223">
 
 **Email notification**
 
@@ -113,7 +113,7 @@ Select **Review contract** in the email notification that you receive after the 
     -   Select **Approve** to approve the extracted obligation and add it as a record in contract repository.
     -   Select **Reject** to reject the extracted obligation.
 
-        Once an obligation is rejected, it’s deactivated and can’t be reactivated again. If you need to add the obligation later, you must create an obligation record manually. For more information, see [Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
+        Once an obligation is rejected, it’s deactivated and can’t be reactivated again. If you need to add the obligation later, you must create an obligation record manually. For more information, see [Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations.md).
 
 7.  Repeat step 6 for all the extracted obligations.
 
@@ -128,7 +128,7 @@ Approved obligations are available as records in the **Obligations** tab of the 
 
 If the schedule of the obligation is recurring, the obligation tasks are automatically created based on the interval specified in the **Repeats** field.
 
-If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information see, [Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
+If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information see, [Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-adhoc-ob-task.md).
 
 \[Omitted image "cmpro-na-ob-added.png"\] Alt text: Obligations tab displaying the list of obligations added in the contract repository record.
 
@@ -139,145 +139,11 @@ If the schedule of the obligation is adhoc, you must create obligation tasks man
 
 [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-obligation-form.md)
 
-[Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)
+[Work on obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)
 
 [Cancel an obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cancel-ob-task.md)
 
 [Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-ob-tasks.md)
 
 [Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.md)
-
-## Create obligation records manually
-
-Create obligation records for signed contracts in Obligation Management to fulfill the responsibilities specified in the contract through obligation tasks. Recurring obligation tasks are automatically created from the record. You can also add ad hoc obligation tasks that are performed only once or at irregular intervals.
-
-### About this task
-
-**Note:** For more information about adding obligation tasks that are performed only once or at irregular intervals, see [Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
-
-### Before you begin
-
-The contract record must be in Active state.
-
-The group managers of the Legal Contract Owners and Obligation Fulfillers groups must also be a member of the respective group.
-
-Role required: sn\_cm\_obligation.obligation\_fulfiller
-
-### Procedure
-
-1.  Open an executed contract from the your workspace.
-
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d561371e603">
-
-Method
-
-</th><th align="left" id="d561371e606">
-
-Steps
-
-</th></tr></thead><tbody><tr><td id="d561371e612">
-
-**Contract Workspace**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
-3.  Select **Executed Contracts**.
-4.  Select **All**.
-5.  Select an active contract repository record.
-
-
-</td></tr><tr><td id="d561371e660">
-
-**Workspace used by your application**
-
-</td><td>
-
-1.  Navigate to your workspace.
-2.  Open a contract request that is in Closed complete or Contract signed state.
-3.  Select the **Contract repository** tab.
-4.  Select an active contract repository record.
-
-
-</td></tr></tbody>
-</table>2.  Select the **Obligations** tab.
-
-3.  Select **New**.
-
-    **Note:** If the **New** button is not available, verify that the selected contract is active.
-
-4.  On the form, fill in the fields.
-
-    For more information, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-obligation-form.md).
-
-5.  Select **Save**.
-
-
-## Create an ad hoc obligation task
-
-Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
-
-### Before you begin
-
-The obligation and contract must be in Active state.
-
-The schedule type in the obligation record must be **Adhoc**.
-
-Role required: sn\_cm\_obligation.obligation\_fulfiller
-
-### Procedure
-
-1.  Open an obligation from the workspace that you are using.
-
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d561371e806">
-
-Method
-
-</th><th align="left" id="d561371e809">
-
-Steps
-
-</th></tr></thead><tbody><tr><td id="d561371e815">
-
-**Contract Workspace**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
-3.  Select **Obligations**.
-4.  Select **All obligations**.
-5.  Select an active obligation record.
-
-
-</td></tr><tr><td id="d561371e863">
-
-**Workspace used by your application**
-
-</td><td>
-
-1.  Navigate to your workspace.
-2.  Open a contract request that is in Closed complete or Contract signed state.
-3.  Select the **Contract repository** tab.
-4.  Open an active contract record.
-5.  Select the **Obligations** tab.
-6.  Select an active obligation record.
-
-
-</td></tr></tbody>
-</table>2.  Select the **Obligation tasks** tab.
-
-3.  Select **New**.
-
-4.  On the New obligation task page, in the **Assigned to** field, update the assigned user.
-
-5.  In the **Due date** field, select the due date for the obligation task.
-
-6.  Select **Save**.
-
-
-### Result
-
-The obligation task is created and the assigned user is notified through email.
 

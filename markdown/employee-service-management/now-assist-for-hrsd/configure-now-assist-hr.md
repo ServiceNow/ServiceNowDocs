@@ -41,7 +41,7 @@ The following list contains skills that you can access from the AI Admin Hub con
 
 1.  Install the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 3.  Activate and configure the skills for the ServiceNow Otto for HR Service Delivery \(HRSD\) features.
     -   These features are grouped under the **Employee** workflow group. Each feature has its associated skills.

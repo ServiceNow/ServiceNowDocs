@@ -1,6 +1,6 @@
 ---
 title: Proactive Engagement life-cycle management
-description: The Proactive Engagement application enables you to work in the life-cycle model to manage solutions that you own and to view solutions that may have an impact on services or products that you care about.
+description: The Proactive Engagement application supports life-cycle management of solutions. Use it to manage solutions you own and to view solutions that affect your services or products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/proactive-engagement/proactive-engagement-lcm.html
 release: australia
@@ -14,20 +14,20 @@ breadcrumb: [Use DEX Proactive Engagement, Proactive Engagement, Digital End-Use
 
 # Proactive Engagement life-cycle management
 
-The Proactive Engagement application enables you to work in the life-cycle model to manage solutions that you own and to view solutions that may have an impact on services or products that you care about.
+The Proactive Engagement application supports life-cycle management of solutions. Use it to manage solutions you own and to view solutions that affect your services or products.
 
-You can access the Proactive Engagement workbench by navigating to **All** &gt; **SOW** &gt; **Proactive Engagement workbench**.
+You can access the Proactive Engagement workbench by navigating to **All** &gt; **Service Operations Workspace** &gt; **DEX Administration** &gt; **Proactive Engagement workbench**.
 
 The Proactive Engagement Workbench provides an overview of all the Proactive Engagement solutions available on an instance. It displays the details of all the solutions available, deployed, and not deployed.
 
 Deployed solutions, where the engagement settings are configured and are used within the organization. Proactive Engagement resolutions created through the metric rules are deployed by default. For more information, see the [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/configuring-metric-rule.md). Deployed solutions can be deployed as custom or original. Solutions created by using the metric rules are original. You can customize the resolution by selecting the deployed record and choosing a custom resolution. Engagement settings for the not deployed solutions are not configured.
 
-## Review solutions for the available updates
+## Available solution updates
 
-For each custom solution where an update is available, the updates can be reviewed by either selecting **Review update** available on the card or when you click on the record to open and access the record. **Review update** provides a comparison between the updated and customized solutions for users to make an informed decision on the next steps. The following actions can be performed:
+For each custom solution where an update is available, you can review the updates by selecting **Review update** on the card or by opening the record. **Review update** provides a comparison between the updated and customized solutions for users to make an informed decision on the next steps. The following actions can be performed:
 
 -   Auto update Removes reference to the custom resolution and will be up to date with the provider solution. The update status is changed to Up to date.
--   Manual update Users go back and manually make any changes required for the solution. The solution update status updates to Manual update pending. Once the changes are done select Solution updated option either on the card or on the Review update page to move the solution update status to Up to date.
+-   **Manual update**: Users manually make any changes required for the solution. The solution update status changes to Manual update pending. After the changes are done, select the **Solution updated** option either on the card or on the Review update page to move the solution update status to Up to date.
 -   Ignore update - The update will be ignored, and the solution update status will move to Up to date.
 
 Proactive Engagement will be triggered only for the deployed solutions. There are different **State** in the deployed solutions.

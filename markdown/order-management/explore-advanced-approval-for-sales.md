@@ -59,7 +59,7 @@ Approvers\(For example, members of Sales, Finance, and Legal teams\)
 
 </td><td>
 
-Reviews, approves or rejects, and delegates approval requests. Can act on requests using different notification channels, such as email, CRM Workspace, and approval centers.
+Reviews, approves or rejects, and delegates approval requests. Can act on requests using different notification channels, such as email, CSM Configurable Workspace, and approval centers.
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Setting up the Zoom spoke for Zoom extension for Omnichannel Callback
-description: Enable the Zoom spoke to perform various actions such as creating meetings, rescheduling meetings, deleting a meeting, or fetching the participant details from your Zoom account by integrating your Zoom account with your ServiceNow instance.Create a connected app in your Zoom account to enable OAuth 2.0 authentication with the Zoom spoke.Use the information generated during Zoom account configuration to register the Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
+description: Enable the Zoom spoke to perform various actions such as creating meetings, rescheduling meetings, deleting meetings, or fetching participant details from your Zoom account by integrating your Zoom account with your ServiceNow instance.Create a connected app in your Zoom account to enable OAuth 2.0 authentication with the Zoom spoke.Use the client ID and client secret from your Zoom connected app to register the Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/callback-over-zoom/setup-zoom-spoke-omni.html
 release: australia
 product: Callback over Zoom
 classification: callback-over-zoom
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Zoom extension for Omnichannel Callback, Zoom extension for Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Setting up the Zoom spoke for Zoom extension for Omnichannel Callback
 
-Enable the Zoom spoke to perform various actions such as creating meetings, rescheduling meetings, deleting a meeting, or fetching the participant details from your Zoom account by integrating your Zoom account with your ServiceNow instance.
+Enable the Zoom spoke to perform various actions such as creating meetings, rescheduling meetings, deleting meetings, or fetching participant details from your Zoom account by integrating your Zoom account with your ServiceNow instance.
 
 ## Create a connected app in Zoom
 
@@ -22,9 +22,9 @@ Create a connected app in your Zoom account to enable OAuth 2.0 authentication w
 
 ### Before you begin
 
--   Ensure that you have an Integration Hub subscription.
--   Ensure that Omnichannel Callback is installed on your instance.
--   Ensure that the Zoom spoke is activated. For more information, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md)
+-   An Integration Hub subscription is required.
+-   Omnichannel Callback must be installed on your instance.
+-   The Zoom spoke must be activated. For activation steps, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md).
 
 Role required: Zoom admin
 
@@ -34,17 +34,17 @@ Role required: Zoom admin
 
 2.  In the **Develop** drop-down list, select **Build App**.
 
-3.  Choose the **OAuth** card from the available cards.
+3.  Select the **OAuth** card.
 
-4.  Disable the **Would you like to publish this app on Zoom App Marketplace?** option.
+4.  Turn off the **Would you like to publish this app on Zoom App Marketplace?** option.
 
-5.  Select **Create.**
+5.  Select **Create**.
 
-6.  Provide a name for the app in the **Name** field.
+6.  In the **Name** field, enter a name for the app.
 
 7.  Set the app type to **Account-level app**.
 
-    **Note:** Account-level apps must be installed by a Zoom admin, who manage the app for all account users in the account.
+    **Note:** Account-level apps must be installed by a Zoom admin, who manages the app for all users in the account.
 
 8.  Configure the redirect URLs for authentication.
 
@@ -56,7 +56,7 @@ Role required: Zoom admin
 
         `https://<instance name>.com/oauth_redirect.do`
 
-    3.  Record the values of the **Client ID** and **Client Secret** fields to use them for the application registry.
+    3.  Record the **Client ID** and **Client Secret** values to use when you configure the connection on your instance.
 
 9.  In the left panel, select **Scopes**.
 
@@ -68,14 +68,14 @@ Role required: Zoom admin
 
 13. Select the following scopes:
 
-    -   View all user meetings
-    -   View and manage all user meetings
+    -   **View all user meetings**
+    -   **View and manage all user meetings**
 14. Select the **Recording** scope type.
 
 15. Select the following scopes:
 
-    -   View all user recordings
-    -   View and manage all user recordings
+    -   **View all user recordings**
+    -   **View and manage all user recordings**
 16. Select the **User** scope type.
 
 17. Select the **View all user information** scope.
@@ -87,9 +87,9 @@ Role required: Zoom admin
 
 The actions under the selected scopes become available to the Zoom spoke.
 
-## Configure a Zoom connection in ServiceNow instance
+## Configure a Zoom connection on your ServiceNow instance
 
-Use the information generated during Zoom account configuration to register the Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
+Use the client ID and client secret from your Zoom connected app to register the Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
 
 ### Before you begin
 
@@ -99,7 +99,7 @@ Role required: admin
 
 1.  From your ServiceNow instance, navigate to **Process Automation** &gt; **Flow Designer**.
 
-2.  In the Flow Designer, select the **Connections** tab.
+2.  In Flow Designer, select the **Integrations** tab, and then select **Connections**.
 
 3.  Search for the Zoom connection and select **View Details**.
 
@@ -110,14 +110,14 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Connection Name|Name to identify the connection record.|
-    |Connection URL|Base URL to connect to your Zoom instance: `https://api.zoom.us`.|
+    |Connection URL|Base URL of the Zoom API: `https://api.zoom.us`.|
     |OAuth Entity Name|Name to identify the application registry record.|
-    |OAuth Client ID|Client ID created during application registration.|
-    |OAuth Client Secret|Client secret created during application registration.|
+    |OAuth Client ID|Client ID of the connected app that you created in Zoom.|
+    |OAuth Client Secret|Client secret of the connected app that you created in Zoom.|
     |OAuth Redirect URL|OAuth callback endpoint: `https://instance name.service-now.com/oauth_redirect.do`.|
 
 6.  Select **Edit and Get OAuth Token**.
 
-    A confirmation message is displayed that the token is available.
+    A message confirms that the token is available.
 
 

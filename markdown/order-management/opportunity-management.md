@@ -182,7 +182,7 @@ To learn more about pricing, see [Pricing Management](https://raw.githubusercont
 
 -   **CRM conversational query**
 
-    Ask questions and issue commands to work on an opportunity in plain language using an MCP client such as Claude Desktop. For more information, see [CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/crm-conversational-query.md) and [Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md).
+    Ask questions and issue commands to work on an opportunity in plain language using an MCP client such as Claude Desktop. For more information, see [CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/crm-conversational-query.md) and [Manage opportunity records using an AI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md).
 
 
 ## What to explore next

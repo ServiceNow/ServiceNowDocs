@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 2
-breadcrumb: [Configure exception reason properties, Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure exception reason properties, Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure exception approval behavior

@@ -32,7 +32,6 @@ If you have purchased an Impact offering, the applicable Impact Package descript
 
 -   **Guided**
     -   Entry-level offerings including the Premium digital experience, enhanced technical support, and curated content.
-    -   Impact Squad: Customer Success Manager
 -   **Total**
     -   The complete solution with a designated expert team, personalized recommendations, preventative tools, and much more.
     -   Impact Squad Team: Customer Success Executive, Platform Architect, Customer Success Manager, and Support Account Manager
@@ -68,7 +67,7 @@ Guided
 
 </td><td>
 
-Entry-level offerings including the Premium digital experience, enhanced technical support, Impact Squad Customer Service Manager \(CSM\), and curated content
+Entry-level offerings including the Premium digital experience, enhanced technical support, Impact Squad , and curated content
 
 </td><td>
 
@@ -123,7 +122,6 @@ Strategic Value
 
 -   Upgraded Value IDI
 -   Two additional Strategy Accelerator catalog concurrencies
--   Additional CSM coverage
 
 </td></tr><tr><td>
 
@@ -133,7 +131,6 @@ Platform Governance
 
 -   Upgraded Health IDI
 -   Two additional Architecture Accelerator catalog concurrencies
--   Additional CSM coverage
 
 </td></tr><tr><td>
 
@@ -193,7 +190,6 @@ Platform Health
 </table>**Note:**
 
 -   IDI = Impact Delivery Instance
--   CSM = Customer Support Manager
 -   SAM = Support Account Manager
 
 **Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)

@@ -1,6 +1,6 @@
 ---
 title: Autonomous Engineer plan and work item states
-description: Plan and work item states appear during planning and execution. Identify where a plan or work item is in the execution process and what action is required.
+description: Plan and work item states appear during planning and execution. Use this reference to identify where a plan or work item is in the execution process and what action is required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-spec-mode-work-item-states.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Autonomous Engineer, Agentic development on the ServiceN
 
 # Autonomous Engineer plan and work item states
 
-Plan and work item states appear during planning and execution. Identify where a plan or work item is in the execution process and what action is required.
+Plan and work item states appear during planning and execution. Use this reference to identify where a plan or work item is in the execution process and what action is required.
 
 ## Plan states
 
@@ -34,11 +34,11 @@ The Autonomous Engineer dashboard displays the current state of the plan.
 
 -   **Completed**
 
-    The plan has been reviewed and completed and is ready for deployment.
+    The plan is complete and ready for deployment.
 
 -   **Cancelled**
 
-    The plan was cancelled and will not be executed.
+    The plan is cancelled and does not execute.
 
 
 ## Work item states
@@ -47,11 +47,11 @@ Each work item moves through states during plan execution. The plan dashboard di
 
 -   **Draft**
 
-    The work item was generated during planning and has not yet been queued for execution.
+    The work item is generated during planning and is not yet queued for execution.
 
 -   **Ready**
 
-    The work item has been reviewed and approved and is waiting for its dependencies to complete before it can be queued.
+    The work item is reviewed and approved, and is waiting for its dependencies to complete before it is queued.
 
 -   **Queued**
 
@@ -83,11 +83,11 @@ Each work item moves through states during plan execution. The plan dashboard di
 
 -   **Stopped**
 
-    The background agent encountered an error and stopped execution. Autonomous Engineer retries the work item automatically before surfacing it for manual intervention. If the work item can't be resolved after the automatic retry limit is reached, it appears in the plan dashboard and the chat panel for your review.
+    The background agent encountered an error and stopped execution. Autonomous Engineer retries the work item automatically before displaying it for manual intervention. If the work item can't be resolved after the automatic retry limit is reached, it appears in the plan dashboard and the chat panel for your review.
 
 -   **Cancelled**
 
-    The work item was cancelled and will not be executed. Cancelled work items aren't included in the plan update set.
+    The work item is cancelled and does not execute. Cancelled work items aren't included in the plan update set.
 
 
 **Parent Topic:**[Autonomous Engineer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer-reference-landing.md)

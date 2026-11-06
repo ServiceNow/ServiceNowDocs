@@ -1,27 +1,27 @@
 ---
-title: WADL service support for Oracle E-Business Suite
-description: Oracle E-Business Suite \(EBS\) exposes custom PL/SQL integration services that are described by WADL documents rather than OpenAPI specifications. Zero Copy Connector for ERP discovers, parses, and models these services.
+title: WADL service support for Oracle E-Business Suite in Zero Copy Connector for ERP
+description: Zero Copy Connector for ERP discovers, parses, and models the custom PL/SQL integration services that Oracle E-Business Suite \(EBS\) describes with WADL documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, integration, zero, copy, connector, oracle, ebs, wadl, isg, xsd]
+keywords: [oracle, ebs, wadl, isg, xsd, zero copy connector for erp, oracle e-business suite, oracle ebs wadl, wadl service, wadl service discovery, integrated soa gateway, isg alias, pl/sql integration service]
 breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# WADL service support for Oracle E-Business Suite
+# WADL service support for Oracle E-Business Suite in Zero Copy Connector for ERP
 
-Oracle E-Business Suite \(EBS\) exposes custom PL/SQL integration services that are described by WADL documents rather than OpenAPI specifications. Zero Copy Connector for ERP discovers, parses, and models these services.
+Zero Copy Connector for ERP discovers, parses, and models the custom PL/SQL integration services that Oracle E-Business Suite \(EBS\) describes with WADL documents.
 
 ## Services described by WADL
 
 Oracle EBS publishes custom PL/SQL packages as REST services through the Integrated SOA Gateway \(ISG\). ISG describes each service with a Web Application Description Language \(WADL\) document plus a set of referenced XML Schema Definition \(XSD\) grammar files. ISG does not use an OpenAPI or Swagger specification.
 
-Because of this, Oracle EBS services follow a separate path through Zero Copy Connector for ERP from the OpenAPI-based REST services described in [Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md). Both paths end at the same place: model entities and fields you map in Model Manager.
+Because of this, Oracle EBS services follow a separate path through Zero Copy Connector for ERP \(Enterprise Resource Planning\) from the OpenAPI-based REST services described in [Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md). Both paths end at the same place: model entities and fields you map in Model Manager.
 
 ## Service discovery and caching
 
@@ -37,5 +37,5 @@ After fields are generated, a validation strategy is set on the operation based 
 
 ## Related tasks and reference
 
-To add a WADL service manually when discovery does not find it, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
+To add a WADL service, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
 

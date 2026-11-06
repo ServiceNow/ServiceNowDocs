@@ -34,15 +34,15 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 6.  Edit or delete the event.
 
-<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d50655e104">
+<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d50631e104">
 
 Selection
 
-</th><th align="left" id="d50655e107">
+</th><th align="left" id="d50631e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d50655e113">
+</th></tr></thead><tbody><tr><td id="d50631e113">
 
 **Delete**
 
@@ -53,7 +53,7 @@ Action
 
 **Note:** If this is a recurring event, select the occurrence the change applies to. Choose **Delete this event** to delete only this occurrence, or **Delete this and future events** to delete this occurrence and all future occurrences.
 
-</td></tr><tr><td id="d50655e147">
+</td></tr><tr><td id="d50631e147">
 
 **Edit**
 

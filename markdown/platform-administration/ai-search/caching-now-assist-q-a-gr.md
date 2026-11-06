@@ -127,7 +127,7 @@ To learn more about the second-level Knowledge base articles Genius Result answe
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sn_ais_assist_semantic_cache.list`.
+    2.  In the navigation field, enter `sn_ais_assist_semantic_cache.list`.
 
     3.  Press **Enter**.
 

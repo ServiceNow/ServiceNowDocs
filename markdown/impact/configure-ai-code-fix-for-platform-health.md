@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-15"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure real-time code resolution with AI
@@ -67,5 +67,5 @@ The following are minimum prerequisites:
 14. Assign the `sn_impact_gen_ai_.ai_fix_user` role to relevant users or groups.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

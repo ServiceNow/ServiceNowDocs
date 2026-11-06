@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-external-aia.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
 breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [AI Agent Studio, Enable AI experiences]
 
 Integrate external AI agents in AI Agent Studio to connect the ServiceNow AI Platform with third-party agentic AI providers as primary agents.
 
-## What are External Agents
+## External agents overview
 
 External agents are the AI agents deployed on other platforms or ServiceNow instances that support A2A protocol. A2A is the only protocol we support for this functionality.
 
@@ -22,7 +22,7 @@ External agents operate independently and aren't managed directly by the Service
 
 ## Discover External AI agents
 
-You can enable external AI agents on the AI Agent Studio via the Settings page. Navigate to **AI Agent Studio** &gt; **Settings** &gt; **External Agents** &gt; **Discoverability**.\[Omitted image "aia-a2a-discoverability-new.png"\] Alt text: Discover External AI agents to accessed by ServiceNow and third-parties.
+You can enable external AI agents on the AI Agent Studio via the Settings page. Navigate to **AI Agent Studio** &gt; **Settings** &gt; **External Agents** &gt; **Discoverability**.\[Omitted image "aia-a2a-discoverability-new.png"\] Alt text: External AI Agent settings including discoverability for ServiceNow and third-party access
 
 -   **Allow ServiceNow to access external AI agents**: The external AI agents can integrate with the ServiceNow agentic AI system using the A2A protocol, with the **Allow** radio button selected by default.
 
@@ -45,13 +45,13 @@ You can enable external AI agents on the AI Agent Studio via the Settings page. 
 
 When creating a new external AI agent in AI Agent Studio, you can connect your agent to the ServiceNow agentic AI system using the Agent2Agent \(A2A\) protocol integration. To do this, you must have a Connection &amp; Credential alias record that connects to your agentic AI provider.
 
-After connecting to the external AI agent, you can add details about its role and instructions to provide context for the AI Agent Orchestrator. Additional context helps differentiate your AI agent from other AI agents so that the AI Agent Orchestrator can decide about which agent to use.
+After connecting to the external AI agent, you can add details about its role and instructions to provide context for the AI Agent Orchestrator. Additional context helps differentiate your AI agent from other AI agents so that the AI Agent Orchestrator can decide which agent to use.
 
 ## Contextual data access for External AI agents
 
-You can enable contextual data access for external AI agents to improve AI agent response during execution on the AI Agent Studio via the Settings page. Navigate to **AI Agent Studio** &gt; **Settings** &gt; **External Agents** &gt; **Discoverability**.\[Omitted image "aia-a2a-contextual-data.png"\] Alt text: Enable contextual data access for External AI agents.
+You can enable contextual data access for external AI agents to improve AI agent response during execution on the AI Agent Studio via the Settings page. Navigate to **AI Agent Studio** &gt; **Settings** &gt; **External Agents** &gt; **Discoverability**.\[Omitted image "aia-a2a-contextual-data.png"\] Alt text: Settings page with contextual data access for external AI agents toggled on
 
--   **Short-term memory**: Turn on the toggle to enable external AI agents remember your preferences or facts from the current interaction only. The toggle is turned on by default.
--   **Long-term memory**: Turn on the toggle to enable external AI agents remember your preferences or facts from previous interaction. The toggle is turned on by default.
+-   **Short-term memory**: Turn on the toggle to enable external AI agents to remember your preferences or facts from the current interaction only. The toggle is turned on by default.
+-   **Long-term memory**: Turn on the toggle to enable external AI agents to remember your preferences or facts from previous interactions. The toggle is turned on by default.
 -   **Knowledge graph for external AI agent interactions**: Turn on the toggle to enable external AI agents to use structured and unstructured data from different records across the ServiceNow AI Platform. The toggle is turned off by default.
 

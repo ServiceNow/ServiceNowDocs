@@ -94,7 +94,7 @@ Product example
 
 </td><td>
 
-Reference URL that the shopper provides. For a non-catalog purchase, this information is obtained from the **Do you have an example of what you're looking for?** field on ShoppingHub.
+Reference URL that the shopper provides. For a non-catalog purchase, this information is obtained from the **Do you have an example of what you're looking for?** field on Shopping Hub.
 
 This field isn’t displayed if the product type is handling fees.
 
@@ -130,7 +130,7 @@ Non-catalog purchase?
 
 </td><td>
 
-Indicates if a non-catalog intake workflow is initiated. The value is true when a shopper uses the **Don't see what you need?** option on ShoppingHub.
+Indicates if a non-catalog intake workflow is initiated. The value is true when a shopper uses the **Don't see what you need?** option on Shopping Hub.
 
 This field isn’t displayed if the product type is handling fees.
 
@@ -188,7 +188,7 @@ Short description
 
 </td><td>
 
-Brief description that is visible to the shopper on ShoppingHub.This field isn’t displayed if the product type is handling fees.
+Brief description that is visible to the shopper on Shopping Hub.This field isn’t displayed if the product type is handling fees.
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ Purchase reason
 
 </td><td>
 
-Reason for the purchase that the shopper provides before checkout.For a non-catalog purchase, this information is obtained from the **Why do you need this?** field on ShoppingHub.
+Reason for the purchase that the shopper provides before checkout.For a non-catalog purchase, this information is obtained from the **Why do you need this?** field on Shopping Hub.
 
 This field isn’t displayed if the product type is handling fees.
 
@@ -214,7 +214,7 @@ Specific requirements
 
 </td><td>
 
-Requirements that the shopper specifies. For a non-catalog purchase, this information is given in the **Any specific requirements** field on ShoppingHub.
+Requirements that the shopper specifies. For a non-catalog purchase, this information is given in the **Any specific requirements** field on Shopping Hub.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

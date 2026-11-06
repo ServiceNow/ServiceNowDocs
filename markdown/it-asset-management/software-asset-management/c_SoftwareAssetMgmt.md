@@ -64,7 +64,7 @@ Use the Software Asset Workspace, the intuitive and streamlined user interface o
 -   **[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)**  
 Use the Software Asset Management Core UI framework to manage your licenses, compliance, and optimization.
 -   **[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-subscription.md)**  
-The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management applications- ServiceNow Software Asset Management.
+ServiceNow Software Asset Management \(SAM\), part of the IT Asset Management suite, uses a subscription-based licensing model that charges your organization based on the IT resources it manages.
 -   **[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-publisher-packs.md)**  
 With Software Asset Management, there are several publisher packs that can be used to extend functionality between the ServiceNow AI Platform and your third-party software applications.
 -   **[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/concurrent-licenses.md)**  

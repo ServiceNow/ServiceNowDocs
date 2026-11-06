@@ -23,7 +23,7 @@ Make sure that Next Experience is enabled in the instance. For more information,
 
 Make sure that [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md) and ServiceNow Otto panel are enabled in the instance.
 
-Role required: sn\_spend\_gen\_ai.servicenow\_otto\_fulfiller
+Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
 ## About this task
 
@@ -46,15 +46,15 @@ For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel
     -   Sourcing event summarization for fulfillers
 4.  After you request the generative AI capabilities, you can summarize procurement-related records.
 
-<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d63675e200">
+<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d63816e200">
 
 Option
 
-</th><th align="left" id="d63675e203">
+</th><th align="left" id="d63816e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63675e209">
+</th></tr></thead><tbody><tr><td id="d63816e209">
 
 **Summarize a record**
 

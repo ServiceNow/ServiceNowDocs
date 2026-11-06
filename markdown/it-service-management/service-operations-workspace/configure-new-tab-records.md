@@ -80,7 +80,7 @@ You can customize the JSON value to provide a variety of options. For example, u
     }, 
     ```
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)

@@ -1,6 +1,6 @@
 ---
 title: Quote transaction views
-description: Views control how users with specific personas can view and modify fields and events at each stage of a quote in CPQ.
+description: Views control how users with specific personas can view and modify fields and events at each stage of a quote in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-views.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Quote transaction views
 
-Views control how users with specific personas can view and modify fields and events at each stage of a quote in CPQ.
+Views control how users with specific personas can view and modify fields and events at each stage of a quote in ServiceNow CPQ.
 
 Views allow ServiceNow Quote Experience administrators to control how users with various personas can view and modify fields and events at various stages of a transaction. A persona can be assigned to only one view. The Views list page in the administration interface shows all configured views. Selecting a view's name displays its defined access privileges.
 
@@ -52,7 +52,7 @@ Views are created and modified using three files included in the `blueprints.zip
 
 
 -   **[Create a transaction view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-configure-view.md)**  
-Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in CPQ.
+Create or modify a ServiceNow Quote Experience view by editing the fields CSV, events CSV, and views YAML files and importing them through the blueprint ZIP in ServiceNow CPQ.
 
 **Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

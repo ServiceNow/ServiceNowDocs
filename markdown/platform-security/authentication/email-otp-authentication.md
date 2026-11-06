@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email One-time Passcode, OTP, authentication, ServiceNow, secondary factor, identity verification, medium-risk scenarios, phishing, email account compromise, delivery delays, email service availability]
 breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -26,6 +26,8 @@ Email OTP is a medium-assurance factor and is not suitable as the only authentic
 ## How Email OTP works
 
 During an AI voice agent session, the platform generates a one-time numeric code and sends it to the caller's email address. The caller retrieves the code from their email and provides it to the agent. The platform validates the code and returns the result to the orchestrator. Email OTP supports both **Text** and **Voice** input.
+
+**Note:** Email OTP factor isn’t supported for step-up authentication.
 
 ## Email source configuration
 

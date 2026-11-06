@@ -28,7 +28,7 @@ You must ensure that the following requirements are met:
 -   **[Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/install-mecm-adapter.md)**  
 You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 -   **[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)**  
-Configure the display of the metrics for Microsoft Endpoint Configuration Manager for Investigation.
+Configure how CI metrics display for Microsoft Endpoint Configuration Manager for Investigation, including the delay between queries to the server.
 
 **Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/set-up-investigate.md)
 

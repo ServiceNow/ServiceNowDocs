@@ -139,7 +139,7 @@ Impact
 
 </td><td>
 
-Impact is a measure of the effect of an incident, problem, or change on business processes.
+Impact is a measure of the effect of an incident on business processes.
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Urgency
 
 </td><td>
 
-Urgency is a measure of how long the resolution can be delayed until an incident, problem, or change has a significant business impact.
+Urgency is a measure of how long the resolution can be delayed until an incident has a significant business impact.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Priority
 
 </td><td>
 
-Priority is based on impact and urgency, and it identifies how quickly the service desk should address the task.
+Priority is based on impact and urgency, and it identifies how quickly the service desk should address the task. This field is read-only and is calculated based on the selected values in the **Impact** and **Urgency** field.**Note:** When you initially create and save an incident, the **Work notes** field is not mandatory. If you change the priority of the incident by selecting different **Impact** or **Urgency** values on a incident form that was saved, the **Work notes** field becomes mandatory.
 
 </td></tr><tr><td>
 
@@ -231,11 +231,11 @@ Users who receive notifications about this incident when work notes are added. C
 
 </td></tr><tr><td>
 
-Additional comments
+Additional comments \(Customer visible\)
 
 </td><td>
 
-More information about the issue as needed. All users who can view incidents see additional comments.
+More information about the issue as needed. All users including the customer who can view incidents, can see additional comments.
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ Work notes
 
 </td><td>
 
-Information about how to resolve the incident, or steps taken to resolve it, if applicable.
+Information about how to resolve the incident, or steps taken to resolve it, if applicable.**Note:** Only the internal users who are involved and responsible for working and resolving the incidents can view the worknotes.
 
 </td></tr><tr><td>
 

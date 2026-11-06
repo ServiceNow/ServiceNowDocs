@@ -18,7 +18,7 @@ Use the procurement playbook to approve or reject replacement requests.
 
 ## Before you begin
 
-Role required: sn\_spend\_psd.psd\_admin, agents, fulfillers
+Role required: sn\_spend\_psd.psd\_admin, sn\_spend\_psd.agent
 
 ## About this task
 

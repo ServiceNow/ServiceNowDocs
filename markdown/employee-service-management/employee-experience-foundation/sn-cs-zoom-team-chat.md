@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Collaboration services for Zoom, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Exploring Collaboration services for Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Collaboration services for Zoom Team Chat

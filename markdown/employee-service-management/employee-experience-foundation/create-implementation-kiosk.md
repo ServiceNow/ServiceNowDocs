@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Schedule in Employee Center Pro Kiosk, Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Schedule in Employee Center Pro Kiosk, Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Customize data display in Kiosks

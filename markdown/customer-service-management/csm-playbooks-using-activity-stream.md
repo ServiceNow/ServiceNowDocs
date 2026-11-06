@@ -1,6 +1,6 @@
 ---
 title: Using the activity stream in the contextual side panel
-description: Customer service agents can access the activity stream in the contextual side panel in CRM Workspace.
+description: Customer service agents can access the activity stream in the contextual side panel in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbooks-using-activity-stream.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Page components, Workspace, Playbooks in Customer Service Managemen
 
 # Using the activity stream in the contextual side panel
 
-Customer service agents can access the activity stream in the contextual side panel in CRM Workspace.
+Customer service agents can access the activity stream in the contextual side panel in CSM Configurable Workspace.
 
 The activity stream enables agents to communicate with requesters and make internal notes about the work done on a record. The activity stream updates when the current activity in the playbook is updated.
 

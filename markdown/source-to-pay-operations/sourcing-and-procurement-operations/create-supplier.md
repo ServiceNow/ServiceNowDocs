@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 4
 breadcrumb: [Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -56,7 +56,7 @@ Legal name
 
 </td><td>
 
-Legal name of the supplier that corresponds to its operating location.
+Legal name of the supplier that corresponds to its operating location. Enter only the legal name of the supplier in this field. Supplier search uses this value, so entering address or other combined data can return unrelated search results. Shopping Hub also groups suppliers under a letter by the first character of this value, so a supplier without a legal name is not listed under a letter.
 
 </td></tr><tr><td>
 

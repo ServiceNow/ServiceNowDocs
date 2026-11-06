@@ -18,16 +18,9 @@ The ServiceNow® Authentication application supports many authentication mechani
 
 [Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
 
--   **Step-up authentication for AI voice agents**
+-   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/step-up-authentication.md)**
 
     Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
-
-
-[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
-
--   **[Human-assisted SMS OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/human-assisted-sms-otp.md)**
-
-    Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
 
 
 [Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
@@ -70,6 +63,8 @@ See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 -   **Activation information**
 
     Authentication is a ServiceNow AI Platform product that is active by default.
+
+    Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See .
 
 
 ## Accessibility and localization

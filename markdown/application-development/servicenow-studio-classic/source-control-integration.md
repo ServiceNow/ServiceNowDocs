@@ -79,7 +79,7 @@ For more information about roles and collaborators, see [Application collaborati
 -   **[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)**  
 Use metadata source control in ServiceNow Studio to manage app versions, commit changes, and collaborate with other developers through a linked Git repository.
 -   **[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)**  
-Integrate with remote Git repositories to manage Fluent applications in source control ServiceNow Studio.
+Connect to remote Git repositories to track and manage Fluent applications in ServiceNow Studio.
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

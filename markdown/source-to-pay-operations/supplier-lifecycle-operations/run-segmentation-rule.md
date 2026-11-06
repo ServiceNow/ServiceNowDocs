@@ -7,7 +7,7 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [segmentation rule, Supplier Lifecycle Operations, Source to Pay Workspace, Segmentation rules, Performance management, KPI templates, collection tasks, KPI collection tasks]
 breadcrumb: [Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
@@ -25,9 +25,9 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Relationship management** &gt; **Segmentation rules**.
 
-3.  In the Name column, select the link to the segmentation rule.
+3.  In the Name column, select the segmentation rule.
 
 4.  Select **Execute**.\[Omitted image "run-segmentation-rule.png"\] Alt text: Selected Execute button for running a segmentation rule.
 
@@ -39,7 +39,7 @@ Running the segmentation rule does the following:
 -   Generates KPIs and KPI collection tasks from the KPI templates in the segment if they were never generated before for the newly added suppliers.
 -   Sets the KPIs linked to this segment's KPI templates to active and creates new collection tasks for these KPIs.
 -   Assigns the new collection tasks to suppliers in this segment.
--   KPI scores will not appear in the performance dashboard until those collection tasks are completed.
+-   KPI scores doesn't appear in the performance dashboard until those collection tasks are completed.
 
 **Note:** If the number of suppliers to be processed in the segmentation rule is too large, it may lead to a risk of a timeout.
 

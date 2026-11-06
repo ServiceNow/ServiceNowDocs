@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Explore, Customer Service Management]
 ---
 

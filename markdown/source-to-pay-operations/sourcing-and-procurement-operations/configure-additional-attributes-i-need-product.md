@@ -28,11 +28,11 @@ Role required: admin
 
     **Note:** If any of the fields aren’t mapped, then mapping logic must be added.
 
-3.  Go to the script include: NonCataloglntakeService, function: createSourcingRequest.
+3.  Go to the script include: NonCatalogIntakeService, function: createSourcingRequest.
 
     This function creates and appends the information passed from the record producer to the sourcing request record. Ensure that the sourcing request has the appropriate field in its table.
 
-4.  To save the information on the purchase request line, go to the script include: NonCataloglntakeService.
+4.  To save the information on the purchase request line, go to the script include: NonCatalogIntakeService.
 
     This creates an import set record in the non-catalog import set table, sn\_shop\_non\_catalog\_intake.
 

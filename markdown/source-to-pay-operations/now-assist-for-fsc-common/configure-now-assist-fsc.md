@@ -39,7 +39,7 @@ The following table lists the ServiceNow Otto for Finance and Procurement and sk
 1.  Install the ServiceNow Otto for Finance and Procurement \(sn\_fsc\_genai\) plugin.
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Finance and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 3.  Select the **AI Skills** tab.
@@ -65,15 +65,15 @@ The following table lists the ServiceNow Otto for Finance and Procurement and sk
 
 11. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d183199e370">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d183523e370">
 
 Option
 
-</th><th align="left" id="d183199e373">
+</th><th align="left" id="d183523e373">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d183199e379">
+</th></tr></thead><tbody><tr><td id="d183523e379">
 
 **Skill is always available**
 
@@ -81,7 +81,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d183199e388">
+</td></tr><tr><td id="d183523e388">
 
 **Customize skill availability**
 
@@ -94,15 +94,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 13. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d183199e424">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d183523e424">
 
 Option
 
-</th><th align="left" id="d183199e427">
+</th><th align="left" id="d183523e427">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d183199e433">
+</th></tr></thead><tbody><tr><td id="d183523e433">
 
 **In-product desktop**
 
@@ -110,7 +110,7 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d183199e454">
+</td></tr><tr><td id="d183523e454">
 
 **ServiceNow Otto panel**
 

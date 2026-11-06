@@ -1,70 +1,104 @@
 ---
-title: Unified Employee Experience
-description: The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and EmployeeWorks Web App, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
+title: EmployeeWorks
+description: The Unified Employee Experience bundle brings employee search, requests, tasks, knowledge, and communications into one AI-first destination. Employees describe what they need in plain language and finish the work in the same panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
-topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+topic_type: concept
+last_updated: "2026-10-29"
+reading_time_minutes: 6
+keywords: [Employee Experience, EmployeeWorks Web App, Employee Slate, Employee Center Pro, Moveworks, AI assistant]
 breadcrumb: [Employee Service Management]
 ---
 
-# Unified Employee Experience
+# EmployeeWorks
 
-The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and EmployeeWorks Web App, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
+The Unified Employee Experience bundle brings employee search, requests, tasks, knowledge, and communications into one AI-first destination. Employees describe what they need in plain language and finish the work in the same panel.
 
-<table id="table_mtz_sfy_sdc" class="nav-card presentation"><tbody><tr><td>
+## Give every employee one AI front door
 
-[Employee Center\[Omitted image "bus-manager.svg"\] Alt text:Employee Center provides a modern self-service experience for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+ServiceNow EmployeeWorks Web App is the AI-first experience in this bundle. Employees ask for what they need in plain language. The AI assistant reads the intent, runs the action, and returns the answer in the same panel. Search, requests, tasks, knowledge, and communications sit in one destination, so employees stop moving between tools to finish one piece of work.
 
-</td><td>
+EmployeeWorks Web App Extended adds the communications layer on top. Communicators target announcements by location, department, or role. They draft conversationally with Now Assist, publish to the portal and mobile, then track impressions and click-through rates. EmployeeWorks Web App Extended is an add-on application. It requires either EmployeeWorks Web App or Employee Slate \(built for Now Assist\).
 
-[Employee Center Pro\[Omitted image "bus-manage.svg"\] Alt text:Employee Center Pro expands the portal experience beyond service delivery with employee communication and engagement tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
+<table id="table-benefits"><tbody><tr><td>
 
-</td></tr><tr><td colspan="2">
-
-[EmployeeWorks Web App\[Omitted image "bus-service-aware.svg"\] Alt text:EmployeeWorks Web App delivers an AI-first experience that unifies search, requests, tasks, knowledge, and communications for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
-
-</td></tr></tbody>
-</table>## Employee Center versus Employee Center Pro
-
-Employee Center is one portal that is packaged as two separate store applications:
-
--   Employee Center: Multi-department service delivery that enables employees to report issues, request items or services, find service-related answers, and complete to-dos. This application and its capabilities are available to all customers by default.
--   Employee Center Pro: Subscription-based application that extends the standard Employee Center capabilities including content creation capabilities, multi-stage and multi-channel content delivery, and portal analytics. This application requires additional licensing.
--   EmployeeWorks Web App: AI-first employee experience application that unifies search, requests, tasks, knowledge, and communications in one destination. This application requires additional licensing.
-
-
-
-## Omnichannel experiences
-
-The omnichannel experiences provide different information and communication channels with a unified experience.
-
-<table id="table_vdp_gjy_f2c" class="nav-card presentation"><tbody><tr><td>
-
-[Now Mobile\[Omitted image "bus-mobile-phone.svg"\] Alt text:Now Mobile capabilities enable employees to stay connected on the move.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-center-mobile-exp.md)
+\[Omitted image "bus-chat.svg"\] Alt text: chat icon
 
 </td><td>
 
-[Employee Center Pro Kiosk\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Employee Center Pro Kiosk enables the deskless workers with in-context information for operational efficiency.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
+-   **Start any request from one chat bar**
+
+EmployeeWorks Web App puts a conversational assistant at the center of the portal. The chat follows employees across pages and keeps the conversation context.
+
 
 </td></tr><tr><td>
 
-[ServiceNow Add-ins for Microsoft 365\[Omitted image "bus-service-aware.svg"\] Alt text:Microsoft 365 add-ins help customize the office controls for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn-addin-for-ms365.md)
+\[Omitted image "bus-ai-otto.svg"\] Alt text: ServiceNow Otto icon
 
 </td><td>
 
-[ServiceNow for Zoom\[Omitted image "bus-integration-and-apis.svg"\] Alt text:ServiceNow for Zoom helps create a connected experience for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md)
+-   **Act across connected systems with Moveworks**
+
+Moveworks capabilities reason over your systems of record and run multi-step work. Employees update records, search enterprise content, and get answers in one conversation.
+
+
+</td></tr><tr><td>
+
+\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI sparkle icon
+
+</td><td>
+
+-   **Run the AI experience on Now Assist**
+
+Employee Slate \(built for Now Assist\) delivers the conversation-first experience where EmployeeWorks Web App isn't available. Employees request, search, and author from the same chat bar.
+
+
+</td></tr><tr><td>
+
+\[Omitted image "bus-explore-careers.svg"\] Alt text: icon signifying employee engagement
+
+</td><td>
+
+-   **Engage employees with Employee Center Pro**
+
+Employee Center Pro extends the portal beyond service delivery. Content publishing, campaigns, and employee communities keep your workforce informed.
+
 
 </td></tr></tbody>
-</table>## Additional resources
+</table>## Start any request from one chat bar
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+The home page leads with an AI-powered chat and search bar. When an employee starts typing, the bar expands into a full-page conversation. The assistant stays available on the Home, the Inbox, the Canvas, and the Org Chart, and keeps the active conversation across pages. A split view opens catalog forms, knowledge articles, tasks, and canvas pages next to the chat, so employees review and act without leaving the conversation. Full-page search ranks results from the catalog, knowledge, people, and connected tools in one list. The home page layout adapts to each employee's role, department, and usage, and EmployeeWorks Web App serves everyday employees, content managers, and administrators from the same experience.
+
+## Act across connected systems with Moveworks
+
+When your organization runs EmployeeWorks Web App with Moveworks, the AI assistant plans the work and carries it out. It builds an ordered set of steps, runs each one against the right system of record, evaluates the result, and adjusts the plan when something changes. For any change to sensitive data, the assistant summarizes the intended change and waits for confirmation. Enterprise Search covers content in SharePoint, OneDrive, Google Drive, Slack, and Outlook, with up to 100 million documents per system. World Knowledge pairs AI reasoning with web search for questions that sit outside your knowledge base. Specialized assistants appear in the left panel with ready prompts and connected tools for a type of work. For more information, see [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/empworks-moveworks-capabilities.md).
+
+## Run the AI experience on Now Assist
+
+Employee Slate \(built for Now Assist\) is the option when EmployeeWorks Web App isn't available to you. It combines the AI assistant with the conversation-first home page, the conversational catalog, the AI widget builder, and conversational authoring for announcements. Employees find a catalog item by describing a need, ask policy questions and get answers with citations, and view the organization chart and employee profiles from the same conversation. Intelligent recommendations run across knowledge, catalog, and tasks. Automated form completion, predictive text, and smart replies cut data entry. Proactive notifications group updates in the bell tray, and employees continue the same conversation on a mobile browser. For more information, see [Employee Slate \(built for Now Assist\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md).
+
+## Engage employees with Employee Center Pro
+
+Employee Center Pro is the subscription application that extends the standard Employee Center portal beyond service delivery. It adds content creation, multi-stage and multi-channel content delivery, campaigns, employee communities, enterprise search, and portal analytics. Communicators author and schedule content, then measure engagement and refine the next message. Employee Center Pro requires additional licensing.
+
+You can bring an AI assistant to this portal before you set up EmployeeWorks Web App. ServiceNow Otto Chat Integration, built on Moveworks and formerly known as Moveworks for Employee Center, embeds a conversational assistant in Employee Center and Employee Center Pro. Employees ask questions in their own words, get answers from your knowledge base and catalogs, and complete actions such as checking a ticket status or updating a request. For more information, see [Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md).
+
+## Get started
+
+-   Review the AI-first experience and what employees can do with it. See [ServiceNow EmployeeWorks Web App overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-overview.md).
+-   Check the prerequisites, licensing, and plugins for each tier before you deploy. See [Before you start with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-prereqs-useful-info.md).
+-   Set up the portal and the features for the subscription tier. See [Configuring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configuring-employee-center-pro.md).
+-   Map the former Employee Slate product names to the current ServiceNow EmployeeWorks names. See [Employee Slate product family rebranding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eworks-rebranding.md).
+
+## Products
+
+-   [ServiceNow EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
+-   [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
+-   [Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
+-   [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
+-   [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/itsm-ec-landing.md)
+-   [Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/integrate-ec.md)
 

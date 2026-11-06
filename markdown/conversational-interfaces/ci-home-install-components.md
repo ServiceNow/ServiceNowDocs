@@ -1,6 +1,6 @@
 ---
 title: Installing Conversational Interfaces components
-description: Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. Once installed, select a card to customize your bot or set up Agent Chat.
+description: Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. After you install, select a card to customize your bot or set up Agent Chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ci-home-install-components.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Conversational Interfaces Console, Conversational Interfaces]
 
 # Installing Conversational Interfaces components
 
-Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. Once installed, select a card to customize your bot or set up Agent Chat.
+Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. After you install, select a card to customize your bot or set up Agent Chat.
 
 If you've never installed Virtual Agent, the Conversational Interfaces console prompts you to do so first. The layout of the **Home** page may vary, depending on which features you have installed and configured.
 
@@ -24,9 +24,9 @@ If you've never installed Virtual Agent, the Conversational Interfaces console p
 
     \[Omitted image "ci-home-no-va.png"\] Alt text: Install Virtual Agent from the CI console.
 
--   **Get pre-built bot topics**
+-   **Get prebuilt bot topics**
 
-    Activate plugins that provide the pre-built topic conversations you want to use to handle common user requests. For example, IT-related support issues, such as resetting a password or HR-related issues such as requesting a leave of absence. For more information, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
+    Activate plugins that provide the prebuilt topic conversations you want to use to handle common user requests. For example, IT-related support issues, such as resetting a password or HR-related issues such as requesting a leave of absence. For more information, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
 
     \[Omitted image "ci-home-plugins.png"\] Alt text: After you install Virtual Agent, you can choose pre-built topic plugins to handle your user requests. Options include IT Service Management, Customer Service Management, and HR Service Delivery plugins.
 

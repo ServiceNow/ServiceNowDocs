@@ -17,7 +17,7 @@ Use AI Guardian features in the AI Admin Center workspace to detect offensive co
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -60,15 +60,15 @@ For more information on AI Guardian, see .
 
     AI Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d357690e296">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d371421e296">
 
 Guardrail
 
-</th><th align="left" id="d357690e299">
+</th><th align="left" id="d371421e299">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d357690e305">
+</th></tr></thead><tbody><tr><td id="d371421e305">
 
 **Prompt injection detection**
 
@@ -80,7 +80,7 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d357690e330">
+</td></tr><tr><td id="d371421e330">
 
 **Offensiveness detection**
 
@@ -92,7 +92,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d357690e355">
+</td></tr><tr><td id="d371421e355">
 
 **Sensitive topic filters**
 

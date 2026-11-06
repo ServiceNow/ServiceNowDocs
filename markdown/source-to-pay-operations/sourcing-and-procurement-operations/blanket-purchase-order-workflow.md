@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-15"
+reading_time_minutes: 3
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -34,7 +34,9 @@ A standard purchase order release is created when the following conditions are s
 
 The standard purchase order release has a reference to the blanket purchase order and will be displayed under the Purchase Order Releases related list on the blanket purchase order.
 
-On the blanket purchase order, the sum of the total amount of all released purchase orders is updated in the **Released amount** field of the Summary Details section. When the value of the **Released amount** field matches with the value of the **Total amount** field, the status of the blanket purchase order changes to **Closed Complete**.
+On the blanket purchase order, the sum of the total amount of all released purchase orders is updated in the **Released amount** field of the Summary Details section. When the value of the **Released amount** field matches with the value of the **Total amount** field, the status of the blanket purchase order changes to **Closed Released**.
+
+**Note:** The **Released amount** field is updated only for standard purchase order releases that are created through the purchasing flow. If you add a release to the blanket purchase order manually, the **Released amount** field does not update.
 
 If a purchase order release amount results in the blanket purchase order amount being exceeded, an approval is triggered for the delta amount to the business owner of the applicable standard purchase order release.
 

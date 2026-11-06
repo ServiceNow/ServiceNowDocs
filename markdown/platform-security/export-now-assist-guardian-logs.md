@@ -33,15 +33,15 @@ See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 3.  Export logs for the guardrail.
 
-<table><thead><tr><th align="left" id="d232022e136">
+<table><thead><tr><th align="left" id="d233217e136">
 
 Option
 
-</th><th align="left" id="d232022e139">
+</th><th align="left" id="d233217e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d232022e145">
+</th></tr></thead><tbody><tr><td id="d233217e145">
 
 **Export offensive content detection logs**
 
@@ -51,7 +51,7 @@ Description
 2.  In the **Active** tab, select the workflow you want to export logs for, and then select **Export**.
 
 
-</td></tr><tr><td id="d232022e178">
+</td></tr><tr><td id="d233217e178">
 
 **Export Prompt injection logs**
 

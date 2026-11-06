@@ -6,7 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-developme
 release: australia
 topic_type: concept
 last_updated: "2026-09-16"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [Autonomous Engineer, supported tools, semantic search, run script, UI validation]
 breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 

@@ -119,8 +119,6 @@ When you activate all the Hardware Asset Management solutions along with the OT 
 
 [Hardware Asset Management licensing]()
 
-[Hardware Asset Management license exclusion]()
-
 [Hardware Asset Management integration with Zero Touch Mobility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-for-ztm.md)
 
 [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/integration-with-hardware-asset-management.md)

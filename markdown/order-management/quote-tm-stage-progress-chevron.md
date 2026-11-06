@@ -1,6 +1,6 @@
 ---
 title: Stage progress chevron
-description: Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
+description: Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-stage-progress-chevron.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Layouts, ServiceNow Quote Experience, Configure, price, quote apps,
 
 # Stage progress chevron
 
-Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
+Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in ServiceNow CPQ.
 
 ## Purpose
 

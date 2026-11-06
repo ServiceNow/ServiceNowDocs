@@ -47,7 +47,7 @@ Alert field value
 
 </td><td>
 
-Value that will be set in the alert field:-   If you select **Same as** in the Map field column, the alert field value that you want to appear in the incident field also appears in the Incident field name column.
+Value that will be set in the alert field:-   If you select **Same as** in the Map field column, the alert field value appears in the Incident field name column.
 -   If you select **To** in the Map field column, enter the alert field value that you want to appear in the specified incident field.
 
 </td></tr></tbody>

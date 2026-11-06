@@ -37,7 +37,7 @@ Immediately after you complete the Service Mapping setup, Service Mapping automa
 3.  Service Mapping checks that potential entry points created from Netflow and VPC logs are unique and not in use by any existing application services to avoid duplication.
 4.  Service Mapping creates a service instance candidate for each entry point.
 
-    Not all candidate service instances correlate to actual service instances. Service Mapping filters out unlikely candidates by applying an algorithm that takes into account such parameters as empty IP addresses, port numbers, and the load balancer VIP hit counts less than 1000. Service Mapping stores candidates in the Candidate Entry Point \[sa\_cand\_entry\_point\] table in the CMDB.
+    Not all candidate service instances correlate to actual service instances. Service Mapping filters out unlikely candidates using an algorithm. The algorithm considers parameters such as empty IP addresses, port numbers, and load balancer VIP hit counts below 1000. Service Mapping stores candidates in the Candidate Entry Point \[sa\_cand\_entry\_point\] table in the CMDB.
 
 
 During the discovery and mapping process, Service Mapping creates a service instance from each candidate and assigns it the entry point retrieved from the candidate. While mapping in bulk is an effective and fast way to create numerous service instances, the result of the bulk mapping is not precise. There may be some false or duplicate service instances created by mistake because the data from the load balancer is raw. During the review and approval process, you review all mapped service instances and get rid of the ones that were erroneously created.

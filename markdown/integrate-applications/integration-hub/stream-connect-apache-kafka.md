@@ -93,11 +93,11 @@ For more information about using the guided setup interface, see [Using guided s
 
 Build flows that produce and consume Kafka events with Stream Connect and Workflow Studio. Stream Connect has a flow trigger for consuming Kafka events and an action step for producing them.
 
-Use the Kafka Message trigger to create flows that process Kafka events. You can build a flow that consumes data from Kafka and inserts it into a table, or uses spokes to communicate the data to third-party environments.
+Use the [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md) to create flows that process Kafka events. You can build a flow that consumes data from Kafka and inserts it into a table, or uses spokes to communicate the data to third-party environments.
 
 The trigger is enabled when the flow is activated. After it's activated, the trigger starts the flow whenever there's a message in the specified Kafka topic. When you use the Kafka Message trigger, you don't need to create a Kafka stream or subscription record. The system automatically creates both when the flow is activated. Messages are read from the topic as long as the flow is active.
 
-Use the Kafka Producer step to create actions that publish events to a topic in your Kafka environment. For example, you can use the step to create a message about an update on an incident in ServiceNow, then push the message to a topic in your Kafka environment.
+Use the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/kafka-producer-action-designer.md) to create actions that publish events to a topic in your Kafka environment. For example, you can use the step to create a message about an update on an incident in ServiceNow, then push the message to a topic in your Kafka environment.
 
 ## Direct Kafka
 
@@ -138,7 +138,7 @@ When you [Configure an Extract Transform Load \(ETL\) consumer](https://raw.gith
 
 ## ProducerV2 API
 
-Publish events to a Kafka topic with the ProducerV2 API.
+Publish events to a Kafka topic with the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
 
 ## Stream Connect Message Replication
 
@@ -238,7 +238,7 @@ Use a script to import and process data from your Kafka environment.
 -   **[Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/create-kafka-stream.md)**  
 Define a data stream for an Extract Transform Load \(ETL\), Transform Map, or Script consumer. A Kafka stream defines the stream of data to your consumer.
 -   **[Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/kafka-subscriptions-statistics.md)**  
-View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 -   **[Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/producer-statistics.md)**  
 View detailed information about a Stream Connect producer and its performance, including the producer type and ID, and the total number of bytes and messages produced to a topic.
 

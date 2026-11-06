@@ -22,6 +22,8 @@ Journey designer enables managers, mentors, and employees to create and manage p
 Journey plan configuration template management is a collaborative effort that includes ServiceNow admins, journey template owners, and team experts.
 -   **[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-working-with-journeys.md)**  
 Managers, employees, and mentors access journeys from the Employee Center \(EC\).
+-   **[Journeys in EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/journey-experience-ew.md)**  
+Employee Journeys in EmployeeWorks Web App brings journeys and lifecycle events together in one unified experience powered by ServiceNow's AI-native employee experience platform.
 -   **[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-report-dashboards.md)**  
 Dashboards are configurable graphic displays of key metrics, reports, and other widgets on a single screen.
 -   **[Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jd-va-topic.md)**  

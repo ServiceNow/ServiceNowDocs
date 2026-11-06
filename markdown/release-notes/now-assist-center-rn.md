@@ -115,6 +115,13 @@ The ServiceNow® AI Admin Center application is a single control hub that brings
     The Lux experience provides a fresh look and feel for AI Admin Center, featuring revised pages and navigation to enhance your user experience.
 
 
+### What's deprecated or removed
+
+-   **[AI Admin Center Next Experience workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)**
+
+    The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
+
 ## September 2026
 
 The ServiceNow® AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage AI solutions from a unified experience. AI Admin Center is a new application in the Australia release.

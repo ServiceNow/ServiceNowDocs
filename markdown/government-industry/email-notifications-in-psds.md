@@ -1,6 +1,6 @@
 ---
 title: Email notifications for the Service Request Case Type
-description: Email notifications are automatically triggered by both the Government Service Portal and Service Request Playbook in Public Sector Digital Services. Notifications can result from an agent action, a response needed from an agent, constituent, or business contact, or from an update on a case status.
+description: Email notifications are automatically triggered by both the Government Service Portal and Service Request Administration in Public Sector Digital Services. Notifications can result from an agent action, a response needed from an agent, constituent, or business contact, or from an update on a case status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/email-notifications-in-psds.html
 release: australia
@@ -12,9 +12,9 @@ breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Serv
 
 # Email notifications for the Service Request Case Type
 
-Email notifications are automatically triggered by both the Government Service Portal and Service Request Playbook in Public Sector Digital Services. Notifications can result from an agent action, a response needed from an agent, constituent, or business contact, or from an update on a case status.
+Email notifications are automatically triggered by both the Government Service Portal and Service Request Administration in Public Sector Digital Services. Notifications can result from an agent action, a response needed from an agent, constituent, or business contact, or from an update on a case status.
 
-Email notifications in the Service Request Playbook are automatically sent to the constituent, business, agency, or contributor watchlist, when an agent performs one of the following case activities:
+Email notifications in the Service Request Administration are automatically sent to the constituent, business, agency, or contributor watchlist, when an agent performs one of the following case activities:
 
 -   Opens a case for a constituent
 -   Comments on a constituent's case
@@ -36,5 +36,5 @@ Email notifications are automatically sent to the assigned agent when:
 
 Business contacts, contributors, other agents, and other constituents that are added to the case watchlist should receive all email notifications that are also received by the constituent who submitted the request.
 
-For agents, email notifications in the Government Service Portal or Service Request Playbook can also be triggered by certain SLAs. For more information on SLAs for agents, see [Service level agreements for government service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/slas-for-government-service-cases.md).
+For agents, email notifications in the Government Service Portal or Service Request Administration can also be triggered by certain SLAs. For more information on SLAs for agents, see [Service level agreements for government service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/slas-for-government-service-cases.md).
 

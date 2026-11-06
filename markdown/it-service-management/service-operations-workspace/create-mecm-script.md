@@ -38,9 +38,9 @@ Role required: admin
 
     \[Omitted image "add-script-block.png"\] Alt text: Add script block
 
-6.  Click **Next**.
+6.  Select **Next**.
 
-7.  Click **Next &amp; Close**.
+7.  Select **Next &amp; Close**.
 
     A script record is created with **Approval State** as **Waiting for Approval**.
 

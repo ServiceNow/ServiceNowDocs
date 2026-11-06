@@ -1,20 +1,20 @@
 ---
-title: Decision tables
-description: Create, modify, test, and update decision tables in Workflow Studio for use in workflows and applications. You can also modify decision tables in Excel.
+title: Using decision tables
+description: Using decision tables in Workflow Studio, you can create, modify, test, and update decision tables for use in your workflows and applications. You can also create decision tables in Workflow Studio and then modify them in Excel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/using-decision-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-10-20"
 reading_time_minutes: 2
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
-# Decision tables
+# Using decision tables
 
-Create, modify, test, and update decision tables in Workflow Studio for use in workflows and applications. You can also modify decision tables in Excel.
+Using decision tables in Workflow Studio, you can create, modify, test, and update decision tables for use in your workflows and applications. You can also create decision tables in Workflow Studio and then modify them in Excel.
 
 -   **[Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md)**  
 Create decision tables in Workflow Studio to embed business logic into a series of if-then decision rules. Use decision tables when business logic is complex or may be reused in multiple places.
@@ -46,6 +46,8 @@ Filter the conditions in the decision table to focus on the necessary data.
 View and manage records when referring to other records in the current Decision Tables, without switching to another screen.
 -   **[Set rows active or inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/set-active-inactive-rows.md)**  
 Set rows in a Decision Tables as active or inactive to include or exclude their conditions and rules during execution without deleting them.
+-   **[Filter decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/filtering-overview.md)**  
+Apply filters to condition and result columns in the Decision Tables in Workflow Studio to view, modify, and reorder a subset of rows without exporting the table to Excel.
 
 **Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
 

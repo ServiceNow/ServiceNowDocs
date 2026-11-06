@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 3
-breadcrumb: [Test AI voice agents, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI voice agent testing, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Test a voice assistant from Assistant Designer

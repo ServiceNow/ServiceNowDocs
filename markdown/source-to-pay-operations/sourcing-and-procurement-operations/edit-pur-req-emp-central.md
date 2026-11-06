@@ -116,7 +116,7 @@ Current end date
 
 **Important:** This field is applicable only for services.
 
-Displays the current start date of the service.The current start date can be viewed but not edited.
+Displays the current end date of the service.The current end date can be viewed but not edited.
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Current end date
 
 **Important:** This field is applicable only for services.
 
-Displays the current start date of the service.The current start date can be viewed but not edited.
+Displays the current end date of the service.The current end date can be viewed but not edited.
 
 </td></tr><tr><td>
 

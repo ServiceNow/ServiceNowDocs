@@ -23,13 +23,13 @@ The WhatsApp Direct Integration channel must be configured and active in your Cu
 
 ## About this task
 
-When a customer sends a text message through WhatsApp, the NextWave off-Glide pipeline receives the message and creates an interaction record in Customer Service Management. The message appears in the agent's CRM Workspace with the full conversation thread.
+When a customer sends a text message through WhatsApp, the NextWave off-Glide pipeline receives the message and creates an interaction record in Customer Service Management. The message appears in the agent's CSM Configurable Workspace with the full conversation thread.
 
 Agents respond directly from the workspace. Outbound messages are delivered to the customer's WhatsApp app through the NextWave pipeline, maintaining the same conversation thread.
 
 ## Procedure
 
-1.  Open the CRM Workspace and locate the WhatsApp interaction in your queue.
+1.  Open the CSM Configurable Workspace and locate the WhatsApp interaction in your queue.
 
     Inbound WhatsApp messages arrive as interactions with type **Messaging** and subtype **WhatsApp**.
 

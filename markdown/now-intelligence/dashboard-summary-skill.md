@@ -38,7 +38,7 @@ The ServiceNow Otto context menu has two forms and each form uses AI skills diff
 
 1.  If you want to limit the roles that can use this skill, change application scopes to AI Dashboard Insights.
 
-2.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Skills**.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 3.  In the product area pane, select **Data and Analytics** &gt; **Analytics**.
 

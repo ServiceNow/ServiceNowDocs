@@ -27,7 +27,7 @@ See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceN
 
 ## Activation and other requirements
 
-**Important:** The Partner Relationship Management app for CRM Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** The Partner Relationship Management app for CSM Configurable Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 

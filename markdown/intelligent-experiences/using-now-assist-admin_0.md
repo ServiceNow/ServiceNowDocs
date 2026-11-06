@@ -1,18 +1,18 @@
 ---
 title: Using AI Admin Hub
-description: Use AI Admin Hub to explore the various Now Assist plugins, skills, and associated Generative AI application features you are entitled to.
+description: Use AI Admin Hub to explore the AI plugins and skills available to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-now-assist-admin\_0.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-23"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
 breadcrumb: [AI Admin Hub, Enable AI experiences]
 ---
 
 # Using AI Admin Hub
 
-Use AI Admin Hub to explore the various Now Assist plugins, skills, and associated Generative AI application features you are entitled to.
+Use AI Admin Hub to explore the AI plugins and skills available to you.
 
 -   **[AI skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-details.md)**  
 Explore details of AI skills, security and usage data.

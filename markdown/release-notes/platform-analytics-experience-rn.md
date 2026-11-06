@@ -1,12 +1,12 @@
 ---
 title: Platform Analytics experience release notes
-description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
+description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.Support returns for ACL Assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/platform-analytics-experience-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -78,6 +78,10 @@ The ServiceNow® Platform Analytics experience provides a single center for cons
     -   The Analytics Overview page and all library pages now contain their own Platform Analytics navigation tree.
     -   The navigation path **Self-Service** &gt; **Dashboards** redirects to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
     -   The navigation path **Reports** &gt; **View / Run** redirects to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-view-acl-dashboard.md)**
+
+    The ACL Assessment for Reports, removed in Australia Patch 4, comes back in Patch 8 with support for Platform Analytics data visualizations. The condition builder for the data source is now also evaluated.
+
 -   **[Sort library records by column values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/find-dashboard-library.md)**
 
     Select the header of any column in a library page to sort the library by that column.
@@ -157,5 +161,23 @@ The ServiceNow® Platform Analytics experience provides a single center for cons
 -   **[Public reports are unpublished](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-permission-issues.md)**
 
     On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
+
+
+## Australia Patch 8 Platform Analytics release notes
+
+Support returns for ACL Assessments.
+
+### What's changed
+
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-view-acl-dashboard.md)**
+
+    The ACL Assessment for Reports that was removed in Australia Patch 4 is back with support for Platform Analytics data visualizations. It also scans data source conditions for restricted fields.
+
+
+### Plugin information
+
+-   **Renamed or changed plugins**
+
+    ACL Assessment for Data Visualizations \(sn\_report\_acl\): Scans data visualizations and Core UI reports for attempts to view content that were blocked by report\_view or read ACL rules.
 
 

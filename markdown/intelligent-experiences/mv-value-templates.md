@@ -1,18 +1,18 @@
 ---
 title: Value templates
-description: Value templates define how the AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
+description: Value templates define how AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-value-templates.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
 
 # Value templates
 
-Value templates define how the AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
+Value templates define how AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
 
 ## Value template overview
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-security-implementation.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-01"
-reading_time_minutes: 9
+last_updated: "2026-10-23"
+reading_time_minutes: 10
 keywords: [agentic AI Security, ACLs in AI agents]
 breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
@@ -26,7 +26,7 @@ The access control lists \(ACLs\) in AI agents determine which role\(s\) a user 
 ACLs configured in the AI Agent Studio for are role-based and of the Allow If type:
 
 -   **Allow-If**: Grants access to data or resources when any of the specified conditions in the ACL are met. Allow If ACLs don't prevent other ACLs from granting access to the same resource even if it that specific ACL itself doesn't grant access.
--   **Deny-Unless**: Grants access only when the invoking user identity meets all the specified conditions. No other ACLs can override or grant access to that resource once a Deny Unless ACL is in place. This is available when configuring ACLS in the ACL \[sys\_security\_acl\] table and not in the AI Agent Studio.
+-   **Deny-Unless**: Grants access only when the invoking user identity meets all the specified conditions. No other ACLs can override or grant access to that resource after a Deny Unless ACL is in place. This is available when configuring ACLS in the ACL \[sys\_security\_acl\] table and not in the AI Agent Studio.
 
 There are three possible options for ACLs created in AI Agent Studio:
 
@@ -42,7 +42,7 @@ There are three possible options for ACLs created in AI Agent Studio:
 
 **Note:**
 
--   ACLs configured in AI Agent Studio only determine the roles required for users to invoke an agentic workflow or an AI agent. They don't determine the access that the agentic workflow or an AI agent has once it’s invoked.
+-   ACLs configured in AI Agent Studio only determine the roles required for users to invoke an agentic workflow or an AI agent. They don't determine the access that the agentic workflow or an AI agent has after it’s invoked.
 -   For an agentic workflow or AI agent to successfully execute, the invoking user \(or relevant AI user\) must meet the criteria of all of the ACLs of any downstream components which have their own ACLs and are assigned to the agentic workflow or AI agent \(even if the specific execution might not need to invoke all of those AI agents or tools\). Therefore:
     -   If there are conflicting security requirements between agentic workflows, AI agents, and AI agent tools, your agentic AI fails to execute.
     -   The same occurs if the invoking user meets the criteria for some ACLs but not others. This includes components assigned to the agentic AI that might not be required for the specific execution.
@@ -93,13 +93,13 @@ To inform users about security checks on the agentic system, the platform provid
 
 -   AI Agent guided setup: The AI agent guided setup page displays a warning banner when that agent doesn't have the required ACLs configured.
 
-    \[Omitted image "acl-warning-aia.png"\] Alt text: An AI agent guided setup page displaying a warning banner when no ACLs are configured.
+    \[Omitted image "acl-warning-aia.png"\] Alt text: An AI agent guided setup page displaying a warning banner: "No Access Control List \(ACL\) configured. Configure an ACL for this AI agent to ensure secure and uninterrupted operation."
 
     **Note:** To configure access control lists for an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
 
 -   Agentic workflow guided setup: The agentic workflow agent guided setup page displays a warning banner when that agentic workflow doesn't have the required ACLs configured.
 
-    \[Omitted image "acl-warning-aw.png"\] Alt text: An agentic workflow guided setup page displaying a warning banner when no ACLs are configured.
+    \[Omitted image "acl-warning-aw.png"\] Alt text: An agentic workflow guided setup page displaying a warning banner: "No Access Control List \(ACL\) configured. Configure an ACL for this AI agent to ensure secure and uninterrupted operation."
 
     **Note:** To configure access control lists for an agentic workflow, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 

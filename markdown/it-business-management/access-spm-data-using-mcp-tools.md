@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/access-spm-data-using-mcp-tools.html
 release: australia
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCP tools, Strategic Portfolio Management, portfolio insights, project insights]
 breadcrumb: [Use, MCP for Strategic Portfolio Management, Strategic Portfolio Management]
@@ -17,7 +17,7 @@ Use MCP tools to query live Strategic Portfolio Management data — including at
 
 ## Before you begin
 
-Role required: sn\_align\_core.ap\_read\_only, or sn\_gf.goal\_user\_read, or it\_project\_manager
+Role required: sn\_align\_core.ap\_read\_only, sn\_gf.goal\_user\_read, sn\_apw\_advanced.spw\_goal\_user\_read, or project\_manager, depending on the tool. For the role that each tool requires, see [Exploring MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/exploring-spm-mcp-server.md).
 
 ## About this task
 

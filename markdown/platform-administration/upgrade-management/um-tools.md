@@ -39,8 +39,3 @@ Accelerate your upgrades using the Upgrade Plan that automates the installation 
 
 **Parent Topic:**[Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-using.md)
 
-**Related topics**  
-
-
-[Auto-upgrade]()
-

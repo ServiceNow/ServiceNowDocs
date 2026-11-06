@@ -23,7 +23,6 @@ Role required: admin
 -   You must be using one of the following ServiceNow patches:
     -   Brazil Patch 1 and later
     -   Australia Patch 7 and later
-    -   Zurich Patch 13 and later
 
 ## About this task
 

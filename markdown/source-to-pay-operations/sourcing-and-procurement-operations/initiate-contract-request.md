@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 breadcrumb: [Source-to-Pay Operations and Contract Management Pro integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -38,6 +38,8 @@ You can initiate contract requests from the related work section, the Dynamic Re
     -   From DRR: Contract requests can be initiated for all types of entities, except purchase lines. For more information on how to initiate a contract request from the DRR, see [Initiate a contract request from Dynamic Related Records \(DRR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-drr.md).
     -   From Playbook: Contract requests can be initiated only for sourcing events and sourcing requests. For more information on how to initiate a contract request from the playbook, see [Initiate a contract request from the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-playbook.md).
     **Note:** You can manually create a contract request for a given supplier throughout the S2P workflow, so that a signed contract can be created with that supplier.
+
+    **Note:** You can initiate a contract request only while the purchase requisition, sourcing request, negotiation, or sourcing event is active. The option is available only when Source-to-Pay Operations with Contract Management Pro is installed.
 
 
 -   **[Initiate a contract request from the related work section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-from-related-work.md)**  

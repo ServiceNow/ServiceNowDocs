@@ -69,6 +69,14 @@ Enable/disable execution of subflows**glide.awa.enable\_routing\_subflow**
 Enables/disables the execution of subflows defined on the AWA queues when work items are routed.-   **Type**: true \| false
 -   Default value: false
 
+</td></tr><tr><td>
+
+Display inbox chat windows of closed chat interactions**inactive.interaction.conversation.history.panel.enabled**
+
+</td><td>
+
+If enabled, the inbox chat window of closed chat interactions appears by default.
+
 </td></tr></tbody>
 </table>For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

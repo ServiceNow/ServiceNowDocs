@@ -24,7 +24,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 Detect and mask sensitive data using the Sensitive Data Handler so it is not viewed by the agent or requester. For more information, see:
 
 -   [Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-sensitive-data-overview.md)
--   [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-sensitive-data-handling.md)
+-   [Configure Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-sensitive-data-handling.md)
 
 ## About this task
 
@@ -64,7 +64,7 @@ Although the following catalog item question types are supported in the conversa
 
 2.  Set up Otto for Virtual Agent.
 
-    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     **Note:**
 

@@ -26,15 +26,16 @@ Role required: admin
 
     \[Omitted image "settings-export-connections.png"\] Alt text: Export connections
 
-    **Note:** For more information, see .
-
 3.  Select and export data into JSON files.
 
     The available data includes the following.
 
     -   Assets
     -   Sites
-    -   Connections[^1]
+    -   Connections
+
+        There are two version of Connections API. They provide the same information in two different formats.
+
     -   Softwares
     -   Sensors
     -   Network Zones
@@ -54,4 +55,3 @@ Role required: admin
 
 **Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/settings-page-console.md)
 
-[^1]: There are two version of Connections API. They provide the same information in two different formats.

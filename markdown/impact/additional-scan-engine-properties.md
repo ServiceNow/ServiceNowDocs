@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-03"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Manage definition properties
@@ -66,5 +66,5 @@ Entitlement hashing integrity
 </td></tr></tbody>
 </table>**Note:** Deactivating a definition does not remove it from the system. It only changes the active status. If you need to completely remove a definition, contact your system administrator.
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

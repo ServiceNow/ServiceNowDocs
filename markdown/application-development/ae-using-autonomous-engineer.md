@@ -55,8 +55,6 @@ Monitor Autonomous Engineer work items as they build. You can review generated a
 When Autonomous Engineer completes a turn, it updates the change log.
 -   **[Update sets and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-update-sets.md)**  
 When you work with Autonomous Engineer, your changes are automatically tracked in update sets so you can review, revert, and deploy them without leaving ServiceNow Studio.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-source-control.md)**  
-
 -   **[Test what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-test-what-you-built.md)**  
 Test Agent generates test coverage for each work item that Autonomous Engineer builds, executes the tests, and performs root cause analysis \(RCA\) on failures.
 -   **[Deploying what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-deployment.md)**  

@@ -26,9 +26,9 @@ Role required: admin
 
 2.  Select **Invite People**.
 
-3.  Add the email addresses of the users you want to add.
+3.  Add the email addresses of the users you need to add.
 
-    Emails will be sent to the invited users.
+    Emails are sent to the invited users.
 
 4.  Log in to the user email and accept the invitation.
 

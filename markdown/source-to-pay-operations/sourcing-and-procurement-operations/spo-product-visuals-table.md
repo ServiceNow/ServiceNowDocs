@@ -21,6 +21,7 @@ This table contains the following fields.
 |Field|Data type|Description|
 |-----|---------|-----------|
 |Name|String|Name of the product visual artifact.|
+|Supplier product|Reference|Supplier product that this artifact belongs to.|
 |Product model|Reference|Product model associated with this artifact.|
 |Image|Image|Image file for the product artifact.|
 |Type|Choice|Type of artifact. The options are Image, Video, or PDF.|

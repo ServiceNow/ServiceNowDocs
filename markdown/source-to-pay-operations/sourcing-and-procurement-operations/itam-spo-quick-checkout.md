@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 breadcrumb: [Create SR or PR from Asset Management Workspace, Sourcing and Procurement Operations and Asset Management integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -53,6 +53,8 @@ This task describes the options you need to select and the information you need 
     -   **Use another cost center**
     -   **Pay with multiple cost centers**
     \[Omitted image "itam-spo-qco-payment.png"\] Alt text: Payment method page.
+
+    **Note:** If the requester has a default payment method, which is the payment method record with the default cost center, that payment method is selected automatically and the payment options are disabled. The options are available only when the requester has no default payment method.
 
 10. Select **Continue to purchase reason**.
 

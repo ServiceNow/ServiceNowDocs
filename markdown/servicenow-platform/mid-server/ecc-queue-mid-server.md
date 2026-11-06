@@ -19,7 +19,7 @@ The External Communication Channel \(ECC\) Queue is a connection point between a
 
 <table id="table_sf2_dsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## Asynchronous Message Bus

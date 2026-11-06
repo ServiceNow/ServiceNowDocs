@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -24,6 +24,10 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 You need the sn\_skill\_builder.admin role to customize the prompt in the AI Skill Kit.
 
 ## About this task
+
+Before customizing, verify the agent access and role masking configuration record for the Incident Summarization skill. For more information on role masking, see the Role masking for ServiceNow Otto for ITSM agentic workflows, AI agents, and skills section in [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+
+**Important:** For agent access role configuration, verify that you are using the default sys\_id of the itil role available in the base system. If the sys\_id of that role is different, contact ServiceNow® Customer Support to get it resolved.
 
 ## Procedure
 
@@ -173,15 +177,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d466115e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d467688e591">
 
 To
 
-</th><th align="left" id="d466115e571">
+</th><th align="left" id="d467688e594">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d466115e577">
+</th></tr></thead><tbody><tr><td id="d467688e600">
 
 **Evaluate a prompt for each input template**
 
@@ -195,7 +199,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d466115e616">
+</td></tr><tr><td id="d467688e639">
 
 **Edit the prompt in the AI Skill Kit and test the prompt**
 
@@ -251,4 +255,19 @@ The prompt displays in the Test prompt screen where you can run the test.
 
     You can now select **Summarize** in an incident and generate the custom incident summary.
 
+
+**Troubleshooting:** Summarize button not visible
+
+After activation, if the **Summarize** button does not appear in Service Operations Workspace or Core UI, verify the following:
+
+-   **UI Builder page variant**: If your workspace uses a custom UI Builder page variant, confirm that the **Otto AI summary card** component is present on the page. Variants created before the ServiceNow Otto for IT Service Management \(ITSM\) plugin was installed may not have this component.
+
+    For information on page variants, see:
+
+    -   [Add the component manually to your variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
+    -   [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md)
+-   **Display setting**: In the **AI Admin Hub**, confirm that the skill displays as **In-product**.
+-   **Domain separation**: If your instance uses domain separation, verify that the skill is activated in the user's assigned domain.
+-   **Plugin installation**: Verify that the sn\_itsm\_gen\_ai plugin is installed successfully.
+-   **Browser cache**: If the button appears sporadically, clear your browser cache and refresh the page.
 

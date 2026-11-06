@@ -52,7 +52,7 @@ Order a secure Linux virtual machine, assign security groups. Select as many you
 
 </td><td>
 
-This catalog item form allows capability to assign one or more security groups \(firewall-port rules\) to the compute instance so that the network access to the VM is restricted. Security groups are listed for the selected VPC and subnets.
+This catalog item form assigns one or more security groups \(firewall-port rules\) to the compute instance, restricting network access to the VM. Security groups are listed for the selected VPC and subnets.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
-title: Configure a ServiceNow Cowork agent policy
-description: Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Cowork can do for the users the policy applies to.
+title: Configure a ServiceNow Arc agent policy
+description: Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Arc can do for the users the policy applies to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-cowork-agent-policy.html
 release: australia
@@ -8,30 +8,32 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [policy, tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, file type rules]
-breadcrumb: [Configure, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Configure a ServiceNow Cowork agent policy
+# Configure a ServiceNow Arc agent policy
 
-Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Cowork can do for the users the policy applies to.
+Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Arc can do for the users the policy applies to.
 
 ## Before you begin
 
-Create the policy. For more information, see [Create a ServiceNow Cowork agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-cowork-agent-policy.md).
+Create the policy. For more information, see [Create a ServiceNow Arc agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-cowork-agent-policy.md).
 
-Role required: sn\_app\_cowork.admin
+Role required: sn\_app\_arc.admin
 
 ## About this task
 
 Each tab on a policy record links existing rule records to the policy. Add only the components you need. The number on each tab shows how many records are linked to the policy.
 
-You can't edit or remove the predefined rules in the **Default Policy**, but you can add new ones.
+You can't edit or delete the **Default Policy**, or add rules to it. To change its behavior, create a policy with a lower priority number.
 
 When you use a policy to override the **Default Policy**, add only the rules you want to change. Anything you don't add keeps coming from the **Default Policy**.
 
+You can also manage policies and their rules in AI Control Tower. For more information, see [Manage Arc agent policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-arc-policies-aict.md).
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Cowork** &gt; **Policies** &gt; **Cowork Agent Policy**.
+1.  Navigate to **All** &gt; **ServiceNow Arc** &gt; **Policies** &gt; **Arc Agent Policy**.
 
 2.  Open the policy you want to configure.
 
@@ -101,9 +103,11 @@ When you use a policy to override the **Default Policy**, add only the rules you
 
         The **Active** check box is cleared by default. If you don't select it, the connector scope doesn't take effect.
 
-    4.  In the **Domain** field, select the domain.
+    4.  Select **Approval gate** to require user approval before each action that uses the scope.
 
-    5.  Select **Submit**.
+    5.  In the **Domain** field, select the domain.
+
+    6.  Select **Submit**.
 
 9.  Add a file type rule.
 
@@ -120,7 +124,7 @@ When you use a policy to override the **Default Policy**, add only the rules you
 
 ## Result
 
-The policy includes the components you added, and Cowork enforces them for every user that the policy's user criteria covers.
+The policy includes the components you added, and Arc enforces them for every user that the policy's user criteria covers.
 
-**Parent Topic:**[Configuring ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
 

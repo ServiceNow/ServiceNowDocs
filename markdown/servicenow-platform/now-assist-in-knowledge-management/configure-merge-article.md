@@ -18,6 +18,8 @@ To merge the duplicate knowledge articles, activate AI skills for merging the du
 
 ## Before you begin
 
+A data set of at least 2000 articles is necessary for the AI duplicate feature to work reliably.
+
 Role required: admin
 
 ## Procedure

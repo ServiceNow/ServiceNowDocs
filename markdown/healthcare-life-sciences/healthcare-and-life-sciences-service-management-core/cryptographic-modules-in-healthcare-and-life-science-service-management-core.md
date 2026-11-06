@@ -16,6 +16,8 @@ breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, He
 
 Healthcare and Life Sciences Service Management Core contains the following cryptographic modules.
 
+This requires Field Encryption activated in your instance. For more information, see [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md).
+
 ## sn\_hcls.clinical\_data
 
 Crypto module: clinical\_data AES-256.

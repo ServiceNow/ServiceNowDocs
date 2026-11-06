@@ -1,6 +1,6 @@
 ---
-title: View journey activity and add comments in Employee Works
-description: View the chronological activity history for a journey or lifecycle event case, and add comments, from the Activities tab on the Journey Details page in Employee Works.
+title: View journey activity and add comments in EmployeeWorks Web App
+description: View the chronological activity history for a journey or lifecycle event case, and add comments, from the Activities tab on the Journey Details page in EmployeeWorks Web App.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/journey-activities-ew.html
 release: australia
@@ -10,16 +10,18 @@ topic_type: task
 last_updated: "2026-09-18"
 reading_time_minutes: 1
 keywords: [Activities tab, journey comments, Employee Works]
-breadcrumb: [Journeys in EmployeeWorks Web App, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Journey details in EmployeeWorks Web App, Journeys in EmployeeWorks Web App, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# View journey activity and add comments in Employee Works
+# View journey activity and add comments in EmployeeWorks Web App
 
-View the chronological activity history for a journey or lifecycle event case, and add comments, from the Activities tab on the Journey Details page in Employee Works.
+View the chronological activity history for a journey or lifecycle event case, and add comments, from the Activities tab on the Journey Details page in EmployeeWorks Web App.
 
 ## Before you begin
 
 Role required: sn\_jny.manager
+
+You must have permission to access the associated journey or lifecycle event.
 
 ## About this task
 
@@ -37,4 +39,17 @@ The Journey Details page includes an Activities tab, shown for both journey reco
 ## Result
 
 The activity timeline updates after relevant journey or lifecycle event actions. When no activities are available, an empty state is shown.
+
+**Parent Topic:**[Journey details in EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/ejm-jnydetails-page-empworks.md)
+
+**Related topics**  
+
+
+[Journey Details page header in EmployeeWorks Web App]()
+
+[View upcoming tasks on the Journey Details page in EmployeeWorks Web App]()
+
+[View journey stages and details in EmployeeWorks Web App]()
+
+[Add and view attachments on a journey in EmployeeWorks Web App]()
 

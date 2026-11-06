@@ -26,9 +26,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Microsoft Defender for Endpoint Plan 1
     -   Microsoft Defender for Endpoint Plan 2
 -   Supported ServiceNow versions:
-    -   Washington DC
-    -   Xanadu
-    -   Yokohama
+    -   Zurich
+    -   Australia
+    -   Brazil
 
 ## Use cases
 

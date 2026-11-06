@@ -24,7 +24,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 1.  Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\).
 
-    For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the plugin installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 

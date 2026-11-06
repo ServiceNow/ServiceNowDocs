@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-addtl-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 7
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -165,6 +165,82 @@ Live Connect
 </td><td>
 
 You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the Live Connect queries. You can download the ODBC and JDBC drivers from ServiceNow Store.
+
+</td></tr><tr><td>
+
+Lux Lab
+
+</td><td>
+
+-   ****
+
+Lux Lab requires the following:
+
+<table id="table_lux_lab_reqs"><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.12.1 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-prepare-landing-page.md)
+
+</td></tr></tbody>
+</table>
+
 
 </td></tr><tr><td>
 
@@ -338,7 +414,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 

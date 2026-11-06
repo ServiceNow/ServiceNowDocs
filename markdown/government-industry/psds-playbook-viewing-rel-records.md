@@ -1,6 +1,6 @@
 ---
-title: Viewing the dynamic related records in Service Request Playbook
-description: You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
+title: Viewing the dynamic related records in Service Request Administration
+description: You can view the dynamic related records in the playbook contextual side panel in Public Sector Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-playbook-viewing-rel-records.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 3
 breadcrumb: [Using the contextual side panel, Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Viewing the dynamic related records in Service Request Playbook
+# Viewing the dynamic related records in Service Request Administration
 
-You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
+You can view the dynamic related records in the playbook contextual side panel in Public Sector Workspace. These records dynamically change based on the current record or playbook activity.
 
-## Using related records in Service Request Playbook
+## Using related records in Service Request Administration
 
 You can view, search, and sort the records in the **Related Records** tab in the contextual side panel after you create a service request record. For details on how to create a record, see [Create a service request record using playbooks in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-playbook-create-record.md).
 
@@ -157,7 +157,7 @@ Select the type of related record to view
 
 </td><td>
 
-Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-playbook-customizing-rel-records-view.md).
+Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Search the related records list
 
 </td><td>
 
-Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-playbook-customizing-rel-records-view.md).
+Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 

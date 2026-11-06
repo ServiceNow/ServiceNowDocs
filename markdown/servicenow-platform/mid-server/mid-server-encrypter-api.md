@@ -52,6 +52,8 @@ Use the methods in this interface to create a custom external encrypter for the 
 
 [Encrypt or decrypt MID Server configuration file values]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -75,4 +77,6 @@ Use the methods in this interface to create a custom external encrypter for the 
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 

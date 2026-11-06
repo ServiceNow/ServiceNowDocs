@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Control Framework, block]
-breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Create an Explicit Block policy
@@ -41,15 +41,15 @@ An Explicit Block policy stops a user, a department, or everyone in your organiz
 
 6.  In the Block section, define what they're blocked from using.
 
-<table><thead><tr><th align="left" id="d383663e169">
+<table><thead><tr><th align="left" id="d398853e169">
 
 Option
 
-</th><th align="left" id="d383663e172">
+</th><th align="left" id="d398853e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d383663e178">
+</th></tr></thead><tbody><tr><td id="d398853e178">
 
 **AI agent**
 
@@ -60,7 +60,7 @@ Description
 3.  Combine multiple conditions with **and** or **or**, or select **Add group** for another set of conditions.
 
 
-</td></tr><tr><td id="d383663e220">
+</td></tr><tr><td id="d398853e220">
 
 **Model**
 
@@ -70,7 +70,7 @@ Description
 2.  Enter one or more models in a comma-separated list.
 
 
-</td></tr><tr><td id="d383663e241">
+</td></tr><tr><td id="d398853e241">
 
 **Domain**
 
@@ -100,7 +100,7 @@ The policy takes effect at every enforcement point it applies to. If enforcement
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
 To change who or what a published policy blocks, edit it. For details, see [Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-edit-explicit-block-policy.md). Alternatively, clone the policy to try a variant without changing the original, then delete the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-clone-policy.md).
 

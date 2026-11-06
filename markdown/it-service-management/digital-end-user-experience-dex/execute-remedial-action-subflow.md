@@ -1,5 +1,5 @@
 ---
-title: Execute a remedial action subflow
+title: Execute remedial action subflow
 description: Use the Execute remedial action subflow to run a DEX remedial action on a device, and test it in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-end-user-experience-dex/execute-remedial-action-subflow.html
@@ -13,7 +13,7 @@ keywords: [remedial action, subflow, Workflow Studio, device remediation]
 breadcrumb: [Trigger remedial actions from flows, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
-# Execute a remedial action subflow
+# Execute remedial action subflow
 
 Use the Execute remedial action subflow to run a DEX remedial action on a device, and test it in Workflow Studio.
 
@@ -28,9 +28,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Remedial Actions Framework** &gt; **Administration** &gt; **Remedial actions**.
 
-2.  Select the sys ID of the remedial action.
+2.  Select a remedial action and copy its sys ID.
 
-3.  In the Remedial Action parameters related list on the remedial action record, record the column name of each required parameter.
+3.  In the Remedial Action parameters related list on the remedial action record, note the column name of each required parameter.
 
 4.  Navigate to **All** &gt; **Configuration** &gt; **Computers**.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 7.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-8.  Open the list of subflows and filter it by the application - DEX Application and Device Health and the Name **Execute remedial action**.
+8.  Open the list of subflows and filter it by application = DEX Application and Device Health = Name **Execute remedial action**.
 
 9.  Open the **Execute Remedial Action** subflow.
 

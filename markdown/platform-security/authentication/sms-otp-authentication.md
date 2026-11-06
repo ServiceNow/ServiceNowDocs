@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SMS One-time Passcode, OTP, authentication, ServiceNow, secondary factor, identity verification, medium-risk scenarios, SIM-swapping, interception, delays, mobile network availability]
 breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -21,6 +21,8 @@ SMS one-time password \(OTP\) authentication is a method used to verify user ide
 
 -   Serves as a secondary authentication factor, particularly for users without authenticator apps.
 -   Recommended for medium-risk scenarios, such as verifying changes to profile information and approving login attempts.
+
+SMS OTP factor can also be used for step-up authentication. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/step-up-authentication.md).
 
 ## Key strengths
 

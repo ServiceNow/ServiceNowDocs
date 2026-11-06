@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-rules-and-templates.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
@@ -33,7 +33,9 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **AI skills**
 
-    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/inventory-intelligence-agent.md)
+    Enable the **AI-generated enrichment** toggle to run LLM-based enrichments with the AI Inventory Intelligence Agent. For more information, see [AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/inventory-intelligence-agent.md).
+
+    Enable the **Intelligent Asset Deduplication** toggle to detect duplicate AI systems with LLM-powered detection. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-duplicates.md).
 
 -   **Cost**
 

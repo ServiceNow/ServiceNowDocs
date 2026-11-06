@@ -273,7 +273,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/quick-start-tests-dashboards.md)
+[Quick start tests for Core UI Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/quick-start-tests-dashboards.md)
 
 </td><td>
 

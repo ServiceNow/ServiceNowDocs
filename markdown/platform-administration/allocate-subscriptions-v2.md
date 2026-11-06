@@ -49,5 +49,3 @@ All group members are allocated subscriptions, giving each member entitlement to
 
 If you can't manually allocate user-based subscriptions despite having manually allocated them in the past, see [Missing subscribed groups and users tabs in subscription management \[KB2974856\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2974856)
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/managing-user-subscriptions-v2.md)
-

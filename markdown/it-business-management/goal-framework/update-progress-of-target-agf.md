@@ -7,7 +7,7 @@ release: australia
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create targets for a goal, Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_gf.goal\_user or sn\_gf.goal\_admin
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d340290e66">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d350851e66">
 
 Option
 
-</th><th align="left" id="d340290e69">
+</th><th align="left" id="d350851e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340290e75">
+</th></tr></thead><tbody><tr><td id="d350851e75">
 
 **From the Targets related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  From the Quantitative Targets or Qualitative Targets related list, open the required target record.
 
 
-</td></tr><tr><td id="d340290e105">
+</td></tr><tr><td id="d350851e105">
 
 **From the Targets module**
 

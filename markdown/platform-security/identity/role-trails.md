@@ -27,7 +27,7 @@ To access Role Trails, navigate to **All** &gt; **System Security** &gt; **Ident
 |---|---|
 |Role Name|Name of the role.|
 |Role Sys id|Details about the Role sys\_id for the audited record.|
-|Source Table|Details about the Source Table where the audit performed.|
+|Source Table|Details about the Source Table where the audit is performed.|
 |Action|Describes the audit action.|
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|

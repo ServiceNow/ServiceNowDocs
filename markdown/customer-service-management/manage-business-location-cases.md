@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: task
 last_updated: "2026-10-04"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Business Organizations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -22,6 +22,7 @@ Role required: Any one of the following roles:
 -   sn\_customerservice.svc\_location\_agent
 -   sn\_customerservice.svc\_location\_consumer\_agent
 -   sn\_customerservice.svc\_location\_manager
+-   sn\_bus\_loc.svc\_location\_support\_agent
 
 ## About this task
 
@@ -30,7 +31,7 @@ Staff members with the location agent or location consumer agent role can do the
 -   View information for the customers at their location.
 -   Create cases for:
     -   the accounts, and contacts at their location \(location agent\).
-    -   the households, and consumers at their location \(or location consumer agent\).
+    -   the households, and consumers at their location \(location consumer agent\).
 -   Create consumers.
 -   Update cases created at their location.
 
@@ -41,6 +42,8 @@ If the location agent, location consumer agent or manager belongs to multiple lo
 The **Requestor Organization** and **Provider Organization** can be set manually for a new case or changed for an existing case. Changing the organization doesn’t change the assigned agent.
 
 Location agents, location consumer agents and managers can create cases for business organizations without adding an account, contact, or consumer. The location agent, location consumer agent or manager who creates the case is added to the **Opened by** field.
+
+As a Location Support Agent \[sn\_bus\_loc.svc\_location\_support\_agent\], you can fulfil cases requested by the organizations that your business organization serves. You can view the Contracts and Entitlements by navigating to **All** &gt; **Contracts and Entitlements** &gt; **Customer contracts/Entitlements**.
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 

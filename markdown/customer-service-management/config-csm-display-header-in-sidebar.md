@@ -1,18 +1,18 @@
 ---
 title: Display form ribbon and header values in side panel
-description: Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CRM Workspace.
+description: Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-display-header-in-sidebar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 2
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Display form ribbon and header values in side panel
 
-Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CRM Workspace.
+Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-**Note:** This task applies to CRM Workspace.
+**Note:** This task applies to CSM Configurable Workspace.
 
 The form ribbon includes components that provide agents with an overview of case details, such as a customer summary and a case timeline.
 
@@ -47,15 +47,15 @@ These properties can operate independently. For example, you can display the for
 
 3.  In the **Value** field for the selected property, enter one of the following values.
 
-<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d57655e168">
+<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d58021e168">
 
 Value
 
-</th><th align="left" id="d57655e171">
+</th><th align="left" id="d58021e171">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d57655e177">
+</th></tr></thead><tbody><tr><td id="d58021e177">
 
 **header**
 
@@ -65,7 +65,7 @@ Displays the selected component in the following location: -   Ribbon: at the to
 -   Secondary values: at the top of the record, in the form header below the primary value.
 
 
-</td></tr><tr><td id="d57655e194">
+</td></tr><tr><td id="d58021e194">
 
 **sidebar**
 

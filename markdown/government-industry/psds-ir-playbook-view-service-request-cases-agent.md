@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 

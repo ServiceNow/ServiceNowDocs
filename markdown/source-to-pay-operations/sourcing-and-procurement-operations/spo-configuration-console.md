@@ -34,7 +34,7 @@ Each configuration item in the console navigation panel carries indicators that 
 -   A lock icon and prerequisite list when a dependency step has not yet been marked **Configured**.
 -   **New** or **Updated** labels for steps that are new or modified in the current product version.
 
-Each module requires the **sn\_spend\_psd.admin** role to view or configure its steps.
+Each module requires the **sn\_spend\_psd.psd\_admin** role to view or configure its steps.
 
 ## Setup status
 

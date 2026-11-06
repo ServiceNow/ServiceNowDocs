@@ -31,15 +31,15 @@ Third-party paper contracts are created by uploading a document provided by the 
 
 1.  Navigate to the contract request form.
 
-<table><thead><tr><th align="left" id="d638824e87">
+<table><thead><tr><th align="left" id="d640160e87">
 
 Entry point
 
-</th><th align="left" id="d638824e90">
+</th><th align="left" id="d640160e90">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d638824e96">
+</th></tr></thead><tbody><tr><td id="d640160e96">
 
 **Employee Center \(sn\_cm\_core.contract\_user\)**
 
@@ -50,7 +50,7 @@ Navigation
 3.  Select **Contract request**.
 
 
-</td></tr><tr><td id="d638824e132">
+</td></tr><tr><td id="d640160e132">
 
 **Contract Workspace \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -93,15 +93,15 @@ Navigation
 
     Adding at least one contract document is mandatory for third-party paper requests. You must classify the attached document as either a supporting document or the contract type selected.
 
-<table><thead><tr><th align="left" id="d638824e278">
+<table><thead><tr><th align="left" id="d640160e278">
 
 Method
 
-</th><th align="left" id="d638824e281">
+</th><th align="left" id="d640160e281">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d638824e287">
+</th></tr></thead><tbody><tr><td id="d640160e287">
 
 **Choose a file**
 
@@ -111,7 +111,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d638824e311">
+</td></tr><tr><td id="d640160e311">
 
 **Drag and drop**
 

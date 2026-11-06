@@ -599,5 +599,5 @@ Notify users who are assigned a Task \[task\] record.
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

@@ -114,6 +114,8 @@ The Copy Assessments API provides an endpoint to create a copy of an assessment 
 The CSM Attachment API provides endpoints that allow both internal and external users to upload, download, and remove attachments associated with a table and to retrieve attachment metadata.
 -   **[CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cti-api.md)**  
 The CTI API provides endpoints that enable Computer Telephony Integration \(CTI\) providers to interact with the Cloud Call Center framework.
+-   **[Custom Connector Gateway API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/custom-connector-gateway-api.md)**  
+The Custom Connector Gateway \(XCC\) API provides an asynchronous ingest endpoint.
 -   **[Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cust_central-api.md)**  
 The Customer Central API provides endpoints to access customer information and configuration details.
 -   **[Data Classification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/data-classification-api.md)**  

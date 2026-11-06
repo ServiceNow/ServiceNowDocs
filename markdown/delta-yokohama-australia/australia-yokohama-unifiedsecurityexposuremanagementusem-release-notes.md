@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-unifiedsecurityexposuremanagementusem-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 28
+last_updated: "2026-11-06"
+reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
 
@@ -240,12 +240,6 @@ USEM was enhanced and updated in the Australia release to support the new AI nat
 
     -   Links to Records: Select the counts and findings in the Security Exposure 360 output to link you directly to the underlying vulnerable item \(VITs\) and records in your instance.
     -   Suggested follow-up questions: Follow-up questions are provided that help you drill down.
--   **[Fix Intelligence for Security Exposure Management](https://www.servicenow.com/docs/access?context=fix-intel-for-usem-landing&family=australia&ft:locale=en-US)**
-
-Fix Intelligence for Security Exposure Management is a new application that enriches your host findings with normalized fix information from Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\). Detections are de-duplicated into Fix records that are linked to the findings and assets each fix resolves, with a rolled-up risk score per fix. Your team can remediate by fix instead of one finding at a time.
-
-Prioritize fixes from the **Fix Intelligence** tab, the **Findings View**, and the **Remediation View**, and group the findings that share a fix into a single remediation task. In this release, fixes are identified for host vulnerabilities from Qualys, Rapid7, Tenable.io, Wiz, and Microsoft Defender Vulnerability Management.
-
 -   **[Enhancements to the Vulnerability Response Integration with Wiz Test Results Integration](https://www.servicenow.com/docs/access?context=wiz-test-result-tab-filters&family=australia&ft:locale=en-US)**
 
 Enhancements to the Wiz integration that imports cloud configuration findings as Test Results in Configuration Compliance. Configuration issues related to AI assets, such as AI models and agents are routed into AI security exposure management tables \(AI posture findings\).

@@ -1,6 +1,6 @@
 ---
 title: Map KBA questions to answers
-description: Create knowledge-based questions and answer mapping to confirm the user's identity.
+description: Map knowledge-based questions to their answers so the answers can be used to confirm a caller's identity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-kba-answer-mappings.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentica
 
 # Map KBA questions to answers
 
-Create knowledge-based questions and answer mapping to confirm the user's identity.
+Map knowledge-based questions to their answers so the answers can be used to confirm a caller's identity.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 1
-breadcrumb: [Module access policies for inbound email attachment encryption, Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
+breadcrumb: [Module access policies for inbound email attachments, Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
 
 # Create a user module access policy
@@ -57,5 +57,5 @@ The hash field stores a SHA-256 fingerprint of an attachment's content. Even tho
 
 Because of this, duplicate detection doesn't work for encrypted attachments, since ServiceNow uses the hash field to prevent identical attachments from being added to a record.
 
-**Parent Topic:**[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md)
+**Parent Topic:**[Module access policies for inbound email attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md)
 

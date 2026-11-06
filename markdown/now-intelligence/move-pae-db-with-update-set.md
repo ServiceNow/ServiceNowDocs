@@ -38,7 +38,7 @@ Additional steps may be necessary if you are moving a dashboard in a scoped appl
 
 3.  Select the dashboard that you want to unload to an update set.
 
-4.  Select the Additional actions icon \(\[Omitted image "icon-context-p.png"\] Alt text: Additional actions icon\) and select **Unload Dashboard**.
+4.  Select the Additional actions icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text: Additional actions icon\) and select **Unload Dashboard**.
 
     Only perform this step after the dashboard is ready to unload, meaning that you’ve added all content to the tabs.
 
@@ -48,7 +48,7 @@ Additional steps may be necessary if you are moving a dashboard in a scoped appl
 
 6.  On the target instance, move the update using standard update set functionality.
 
-    For more information, see Retrieve an update set.
+    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
     On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**.
 

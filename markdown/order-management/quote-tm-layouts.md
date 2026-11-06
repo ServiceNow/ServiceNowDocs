@@ -1,6 +1,6 @@
 ---
 title: Quote transaction layouts
-description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
+description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-layouts.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Quote transaction layouts
 
-Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
+Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
 
 Layouts in ServiceNow Quote Experience retain much of the look and feel of the configuration experience. Layouts can be managed in the administration interface using the visual layout editor or directly in YAML. The visual layout editor is selected by default. The option to edit layouts in JSON is retired in favor of the visual editor.
 
@@ -112,13 +112,13 @@ Three options are available for displaying line numbers in the quote lines grid.
 
     Displays hierarchical line numbering for all lines — for example, 1, 1.1, 2, 2.1, 2.2, 2.2.1. Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
 
 -   **`txn.line.number` system field**
 
     Displays sequential line numbering for all lines \(1, 2, 3\). Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
 
 
 ## Line-level button icons
@@ -355,11 +355,11 @@ productList:
 ```
 
 -   **[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-layout.md)**  
-Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in CPQ.
+Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in ServiceNow CPQ.
 -   **[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-ui-effects.md)**  
-Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
+Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in ServiceNow CPQ.
 -   **[Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stage-progress-chevron.md)**  
-Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
+Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in ServiceNow CPQ.
 
 **Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

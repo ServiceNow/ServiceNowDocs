@@ -222,11 +222,11 @@ Provides access to configurations related to Change Management in SOW Admin Cent
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
-
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
 [Service Operations Workspace for ITSM data model]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
+
+[Service Operations Workspace for ITSM glossary]()
 

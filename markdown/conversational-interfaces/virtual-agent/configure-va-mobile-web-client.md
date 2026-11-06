@@ -90,7 +90,7 @@ The topics you create in Assistant Designer can be used in both the web and mobi
 
 ## What to do next
 
-To enable ServiceNow Otto for Virtual Agent in native Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+To enable ServiceNow Otto for Virtual Agent in native Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 -   **[Now Mobile notification of unread chat and Virtual Agent messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-mobile-unread-messages.md)**  
 When Now® Mobile app users navigate away from the app after starting an active conversation, they can automatically receive Virtual Agent mobile push notifications informing them of new, unread chat messages and  Virtual Agent notifications that have arrived.

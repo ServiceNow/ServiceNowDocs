@@ -1,12 +1,13 @@
 ---
 title: AI Search release notes
-description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.
+description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The Australia Patch 7 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The Australia Early Availability release adds hybrid search, the ability to configure AI Search as the source for Ask ServiceNow Otto suggestions, support for Summary Genius Results in global and workspace search, a granular admin role change for Search Suggestions, and a refreshed and updated Search Preview UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ai-search-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-09-03"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [AI Search]
 breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -44,7 +45,22 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
-## September 2026
+## Australia Patch 7
+
+The Australia Patch 7 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs.
+
+### What's new
+
+-   **[Display search suggestion links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/display-search-suggestion-links-standard.md-anchors.md)**
+
+    Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/display-search-result-links-standard.md-anchors.md)**
+
+    Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
+## Australia Patch 6
 
 The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
 
@@ -63,7 +79,7 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
     AI Search capabilities are now available through the Model Context Protocol \(MCP\) Search tool category.
 
 
-## August 2026
+## Australia Patch 5
 
 The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
 
@@ -74,7 +90,7 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
     AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
 
 
-## June 2026
+## Australia Patch 3
 
 The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
 
@@ -94,9 +110,9 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
     Platform Multimodal Service \(com.glide.platform\_mm\_service\): Integrates with the multimodal service backend to provide automatic generation of searchable descriptive captions for images, tables, charts, and other visual elements in attachment files indexed for search. This plugin is available beginning with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md) release.
 
 
-## April 2026
+## Australia Early Availability
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
+The Australia Early Availability release adds hybrid search, the ability to configure AI Search as the source for Ask ServiceNow Otto® suggestions, support for Summary Genius Results in global and workspace search, a granular admin role change for Search Suggestions, and a refreshed and updated Search Preview UI.
 
 ### What's new
 
@@ -104,16 +120,16 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
 
     Beginning with Now Assist in AI Search 15.0, administrators on instances with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
 
--   **[Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md)**
+-   **[Configure AI Search as the source for Ask ServiceNow Otto® suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md)**
 
-    Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
+    Admins can configure the system to use AI Search as the source for Ask ServiceNow Otto® suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask ServiceNow Otto® and provides improvements such as wildcard searching and lemmatization for suggestions.
 
 
 ### What's changed
 
 -   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
 
-    If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
+    If you have ServiceNow Otto for AI Search installed, ServiceNow Otto® Summary Genius Results are supported in global and workspace search. Activating ServiceNow Otto® Summary Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Summary Genius Results. Virtual Agent topic citations from ServiceNow Otto® Summary Genius Result answers in global or workspace search open the selected topic in the ServiceNow Otto® panel so the user can continue their conversation on that topic.
 
 -   **[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions-overview.md)**
 

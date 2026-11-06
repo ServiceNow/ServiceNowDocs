@@ -1,6 +1,6 @@
 ---
-title: Use the Journeys widget on the Employee Works home page
-description: View your active journeys and lifecycle events, and your team's journeys if you're a manager, from the Journeys widget on the Employee Works home page.
+title: Use the Journeys widget on the EmployeeWorks Web App home page
+description: View your top three active journeys \(as an employee\) and your teams journey \(as a manager\), from the Journeys widget on the EmployeeWorks Web App home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/use-journey-home-widget-ew.html
 release: australia
@@ -10,35 +10,50 @@ topic_type: task
 last_updated: "2026-09-18"
 reading_time_minutes: 1
 keywords: [Journeys widget, home page, Employee Works]
-breadcrumb: [Journeys in EmployeeWorks Web App, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Journeys in EmployeeWorks Web App, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Use the Journeys widget on the Employee Works home page
+# Use the Journeys widget on the EmployeeWorks Web App home page
 
-View your active journeys and lifecycle events, and your team's journeys if you're a manager, from the Journeys widget on the Employee Works home page.
+View your top three active journeys \(as an employee\) and your teams journey \(as a manager\), from the Journeys widget on the EmployeeWorks Web App home page.
 
 ## Before you begin
 
 Role required: sn\_jny.manager
 
+You must have permission to access the associated journey or lifecycle event.
+
 ## About this task
 
-The Journeys widget renders on the Employee Works home page when you have one or more active journeys or lifecycle event cases. If you have none, the widget doesn't render.
+The Journeys widget renders on the EmployeeWorks Web App home page when you have one or more active journeys or lifecycle event cases that you're associated to.
 
 ## Procedure
 
-1.  Open Employee Works and go to the home page.
+1.  Open EmployeeWorks Web App and go to the home page.
 
-2.  If you're a manager, select a tab to switch between **Your Journeys** and **Team Journeys**.
+2.  On the Journey widget
 
-    **Your Journeys** is selected by default when you have your own active journeys; otherwise **Team Journeys** is selected by default and **Your Journeys** shows an empty state. If you're both the subject person and the Opened For/manager on a journey, the employee \(subject person\) view takes precedence.
+    |Role|Action|
+    |----|------|
+    |**Employee**|View your top three active journeys.|
+    |**Manager**|Select a tab to switch between **Your Journeys** and **Team Journeys** to view the top three active journeys.|
 
-3.  Review each journey or lifecycle event card.
+3.  Review each journey card.
 
-    Each card shows a status pill \(Overdue or On Track, based on your own assigned tasks\), the journey title, your remaining task count, and a progress bar showing your task completion. The widget fits up to three journey or lifecycle event cards; if you have fewer than three, the widget resizes to fit. If you have more than three, a scroll bar appears so you can scroll through your remaining journeys, up to 30 at a time.
+    |Role|Action|
+    |----|------|
+    |**Employee**|Each card shows employee-specific task completion status and journey progress.|
+    |**Manager**|Each card in team's journey tasks shows overall journey related task completion status and journey progress.|
 
-4.  Select a journey or lifecycle event card to open the corresponding Journey Details page.
+4.  Select a journey card to open the corresponding **Journeys details** page.
 
-5.  Select the **Open Journeys** navigation icon to open the Journey List page.
+5.  Select the **Open Journeys** navigation icon to open the **Journeys list** page.
 
+
+-   **[Persona-based journey status and progress in EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/persona-based-journey-status-ew.md)**  
+In EmployeeWorks Web App, a journey's status and progress are calculated separately for each participant, based only on the tasks assigned to that participant.
+-   **[Persona precedence in EmployeeWorks Web App journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/persona-precedence-ew.md)**  
+When a user is both the subject person \(employee\) and the opened-for user \(Journey owner\) on a journey or lifecycle event case, employee view takes precedence.
+
+**Parent Topic:**[Journeys in EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/journey-experience-ew.md)
 

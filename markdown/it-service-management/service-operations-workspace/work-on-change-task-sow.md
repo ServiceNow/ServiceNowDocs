@@ -32,7 +32,7 @@ Role required: itil or admin
 
     2.  Search for a resource and perform the required action.
 
-4.  To delete the change task, Click the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Delete**.
+4.  To delete the change task, Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Delete**.
 
 
 **Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/change-sow.md)

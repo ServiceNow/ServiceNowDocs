@@ -1,6 +1,6 @@
 ---
 title: Viewing dynamic related records in the contextual side panel
-description: Customer service agents can view dynamic related records in the contextual side panel in CRM Workspace. This feature displays related records that dynamically change based on the context of the current record or playbook activity.
+description: Customer service agents can view dynamic related records in the contextual side panel in CSM Configurable Workspace. This feature displays related records that dynamically change based on the context of the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbooks-viewing-rel-records.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Page components, Workspace, Playbooks in Customer Service Managemen
 
 # Viewing dynamic related records in the contextual side panel
 
-Customer service agents can view dynamic related records in the contextual side panel in CRM Workspace. This feature displays related records that dynamically change based on the context of the current record or playbook activity.
+Customer service agents can view dynamic related records in the contextual side panel in CSM Configurable Workspace. This feature displays related records that dynamically change based on the context of the current record or playbook activity.
 
 Agents can view, search, and sort the records in the Related Records tab in the contextual side panel. These records appear in the Related Records tab as read-only cards.
 

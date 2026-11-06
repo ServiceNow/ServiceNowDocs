@@ -37,8 +37,6 @@ You also need Node.js v24 or later, pnpm v10 or later, Git v2.30 or later, and a
 
 ## Installation
 
-Download the Lux Lab app using the following link. [Lux Lab installation files](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/Lux-Lab-official-release.zip).
-
 For more information on installing Lux Lab, see [Install Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/installing-lux-lab.md).
 
 -   macOS ships as a `.dmg` you drag into `/Applications`

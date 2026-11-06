@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 Create demand tasks to plan work for demands rather than for a target work entity such as a project, change, defect, or enhancement. Resources assigned to a demand task can submit time spent on the task using a time card. For more information, see [Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-tasks.md).
 
-To create, edit, or delete demand tasks, you can also use the **Add demand tasks** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+To create, edit, or delete demand tasks, you can also use the **Add demand tasks** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 **Note:** If you're creating a demand task with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, additional fields are available. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/multicurrency-in-dw-reference.md).
 

@@ -93,7 +93,7 @@ The following roles can access the Deal Registration AI agent:
 
 To register a deal, use the Now Assist panel to start the Deal Registration workflow.
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace**.
 2.  Launch the ServiceNow Otto chat panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:.
 3.  Type your query in natural language, for example, `Create a deal`.
 

@@ -199,7 +199,7 @@ Decision table
 
 Decision tables decouple decision logic from your code by creating and maintaining decision rules. Decision tables provide a single point where you can create, view, and modify decisions.
 
- For more information, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
+ For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
 
 </td><td>
 
@@ -1703,7 +1703,7 @@ Report
 
 Reports display data visually to provide insights, track performance, and support data-driven decisions. For example, create and distribute reports that show the current state of instance data, such as the number of open incidents of each priority.
 
- For more information, see [Exploring reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-reporting.md).
+ For more information, see [Exploring Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-reporting.md).
 
 </td><td>
 

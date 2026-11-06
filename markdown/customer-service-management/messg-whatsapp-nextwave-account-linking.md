@@ -31,7 +31,7 @@ Account linking connects a WhatsApp customer to an existing contact or consumer 
     When auto account linking is active, the system automatically matches incoming WhatsApp customers to existing contact or consumer records based on the customer's phone number or other configured identifiers. No manual intervention is required.
 
 3.  Manual account linking
-4.  Open the unlinked WhatsApp interaction in the CRM Workspace.
+4.  Open the unlinked WhatsApp interaction in the CSM Configurable Workspace.
 
 5.  Use the lookup and verify action to search for and select the contact or consumer record that matches the customer.
 

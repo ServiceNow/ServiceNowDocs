@@ -32,7 +32,7 @@ Search administrators can expand the recall of Knowledge article searches for a 
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `ais_country_to_search_language.list`.
+    2.  In the navigation field, enter `ais_country_to_search_language.list`.
 
     3.  Press Enter.
 

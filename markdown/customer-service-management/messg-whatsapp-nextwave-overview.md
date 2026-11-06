@@ -38,7 +38,7 @@ The following personas interact with WhatsApp Direct Integration on NextWave:
 |Persona|Role|Primary need|
 |-------|----|------------|
 |Customer|Sends and receives WhatsApp messages, including rich media and audio notes|Conversations feel native to WhatsApp with no missing features or broken media|
-|Agent|Views and responds to WhatsApp conversations in the CRM Workspace|Full context \(attachments, location\) visible in the interaction record without switching tools|
+|Agent|Views and responds to WhatsApp conversations in the CSM Configurable Workspace|Full context \(attachments, location\) visible in the interaction record without switching tools|
 |Administrator|Configures the WhatsApp Direct Integration channel|Existing configurations continue to work without manual re-setup after the off-Glide build goes live|
 
 **Related topics**  

@@ -43,7 +43,7 @@ The following AI skills for fulfillers are activated by default:
 
 If the AI skills are turned off, you can reactivate them or configure them using the AI Admin Hub. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the AI Admin Hub.
 
@@ -77,7 +77,7 @@ The following table lists the features and skills that you can access from the A
 1.  Install the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** and select the **AI Skills** tab in the AI Admin Hub.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Sourcing and Procurement Operations**.
@@ -141,15 +141,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d232128e688">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d232590e688">
 
 Option
 
-</th><th align="left" id="d232128e691">
+</th><th align="left" id="d232590e691">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d232128e697">
+</th></tr></thead><tbody><tr><td id="d232590e697">
 
 **Skill is always available**
 
@@ -157,7 +157,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d232128e706">
+</td></tr><tr><td id="d232590e706">
 
 **Customize skill availability**
 
@@ -170,15 +170,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d232128e742">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d232590e742">
 
 Option
 
-</th><th align="left" id="d232128e745">
+</th><th align="left" id="d232590e745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d232128e751">
+</th></tr></thead><tbody><tr><td id="d232590e751">
 
 **In-product desktop**
 
@@ -186,7 +186,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d232128e760">
+</td></tr><tr><td id="d232590e760">
 
 **ServiceNow Otto panel**
 

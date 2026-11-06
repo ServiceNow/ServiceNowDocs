@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2025-02-26"
-reading_time_minutes: 4
+last_updated: "2026-10-15"
+reading_time_minutes: 5
 keywords: [SpendInt API, inbound REST API, procurement integration, Source-to-Pay Integration Framework, catalog ingestion, price updates, order acknowledgements, shipment updates, invoice ingestion, sn\_spend\_intg]
 breadcrumb: [Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -58,6 +58,23 @@ During catalog ingestion, the framework determines a supplier product's model th
     -   SAM Pro uses that definition to find or create the canonical software model.
     -   The imported manufacturer is not used in this path.
     -   The canonical model is assigned to the supplier product.
+
+## Access and processing
+
+The SpendInt API receives data that external systems send. It does not pull catalogs from external systems. All SpendInt endpoints accept POST requests, and callers must have the `sn_spend_intg.procurement_integrator` role.
+
+By default, each request is processed asynchronously. To process a request immediately, add the `mode=sync` query parameter.
+
+The structure of the payload, not the endpoint, determines how the request is processed. The system identifies the payload type from its top-level key.
+
+-   `products`: catalog payload. Price and availability updates are also sent in the catalog payload format.
+-   `sales_order_lines`: order acknowledgement payload.
+-   `shipment_lines`: shipment payload.
+-   `invoice_lines`: invoice payload.
+
+A catalog payload must include the `customer_id`, `catalog_id`, `supplier_id`, and `products` attributes. A successful request returns a 200 response with `{"response": "success"}`. If the request is not valid, the response is a 400 error with a list of messages.
+
+Punchout suppliers use separate endpoints under `/api/sn_spend_intg/punchout/{supplier sys_id}` for the order message, order confirmation, and shipping confirmation.
 
 **Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 

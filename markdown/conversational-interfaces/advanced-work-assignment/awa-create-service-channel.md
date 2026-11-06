@@ -1,6 +1,6 @@
 ---
 title: Create or configure a service channel
-description: Create or configure a service channel that is used in Advanced Work Assignment \(AWA\).
+description: Create or configure a service channel to define which work items Advanced Work Assignment \(AWA\) routes to agents and how much agent capacity those items use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conver
 
 # Create or configure a service channel
 
-Create or configure a service channel that is used in Advanced Work Assignment \(AWA\).
+Create or configure a service channel to define which work items Advanced Work Assignment \(AWA\) routes to agents and how much agent capacity those items use.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: awa\_admin or admin
 
 ## About this task
 
-You can specify additional conditions to filter the work items that are handled in the channel, change the agent capacity \(workload\) for the channel, set the inbox layouts that your agents use in Workspace, and view associated work item queues.
+You can specify additional conditions to filter the work items that are handled in the channel and change the agent capacity \(workload\) for the channel. You can also set the inbox layouts that your agents use in Workspace and view associated work item queues.
 
 If you activate the corresponding plugins or install the corresponding store applications, AWA provides base system channels for these services:
 
@@ -35,11 +35,11 @@ If you activate the corresponding plugins or install the corresponding store app
 -   Walk-up interactions plugin \(com.snc.walkup\)
 -   Conversational Integration with WhatsApp \(powered by Twilio\) application \(sn\_va\_whatsapp\_twi\)
 
-For each channel, you can change certain default settings, such as the default capacity \(workload\) for agents. You can also use the related lists to review associated queues, define the associated inbox layouts \(work item cards\) that are displayed in Workspace, and override the agent capacity value.
+For each channel, you can change certain default settings, such as the default capacity \(workload\) for agents. Use the related lists to review associated queues, define the associated inbox layouts \(work item cards\) that are displayed in Workspace, and override the agent capacity value.
 
 You can also create a service channel record from the Service Channel module, but you must [create a queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-create-queue.md), [assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md), and [eligible assignment pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) to route work through the service channel. For more information, see [Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md).
 
-In addition to task-based and interaction-based tables, AWA now supports routing of non-task and non-interaction tables such as Lead, Opportunity, Quote, and Order. Before configuring a service channel for one of these tables, ensure that the table has a corresponding record in the Document Type \[awa\_document\_type\] table.
+AWA supports routing of task-based and interaction-based tables, and of non-task and non-interaction tables such as Lead, Opportunity, Quote, and Order. Before configuring a service channel for one of these tables, ensure that the table has a corresponding record in the Document Type \[awa\_document\_type\] table.
 
 ## Procedure
 
@@ -62,7 +62,7 @@ Field
 
 </th><th>
 
-Definition
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -140,7 +140,7 @@ Table
 
 </td><td>
 
-Table that stores the service channel records. In addition to task-based and interaction-based tables, AWA supports the following non-task and non-interaction tables: Lead, Opportunity, Quote, and Order \(including extensions of these tables\). To route a non-task or non-interaction table, the table must have a corresponding record in the Document Type \[awa\_document\_type\] table.
+Table that stores the service channel records. AWA supports task-based and interaction-based tables, and these non-task and non-interaction tables: Lead, Opportunity, Quote, and Order \(including extensions of these tables\). To route a non-task or non-interaction table, the table must have a corresponding record in the Document Type \[awa\_document\_type\] table.
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Advanced condition
 
 </td><td>
 
-If enabled, the advanced conditions that apply to the channel. For example:
+Additional conditions that filter the work items handled in the channel, when this option is turned on. For example:
 
 -   Chat: **\[Type\] \[is\] \[Chat\]**
 -   Chat - Asynchronous: **\[Subtype\] \[is\] \[mweb\]**, **\[Type\] \[is\] \[Messaging\]**
@@ -164,7 +164,7 @@ Assign to field
 
 </td><td>
 
-Field that references the user assigned to the item. In both Case and Interaction \(and most other tables\), this field is the **Assigned to** \(assigned\_to\) field. For non-task and non-interaction tables, verify that this field is correctly mapped to the field that stores the assigned user on that table."
+Field that references the user assigned to the item. In both Case and Interaction \(and most other tables\), this field is the **Assigned to** \(assigned\_to\) field. For non-task and non-interaction tables, verify that this field is correctly mapped to the field that stores the assigned user on that table.
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ Amount of information recorded when AWA events are logged.
 -   None: No information is logged.
 -   Basic: Only basic information is logged.
 -   Verbose: Detailed information, including record details and event details, is logged.
- This field appears if **Enable logging** is enabled.
+ This field appears if **Enable logging** is selected.
 
 </td></tr><tr><td>
 
@@ -239,7 +239,7 @@ Number of items automatically assigned to agents \(pending overrides\).
 
 -   Case: The default is 2.
 -   Chat: The default is 4.
--   Chat: Asynchronous: The default is 4.
+-   Chat - Asynchronous: The default is 4.
 -   Facebook Messenger: The default is 4.
 -   Incident: The default is 2.
 -   Line: The default is 4.
@@ -253,15 +253,15 @@ Utilization condition
 
 </td><td>
 
-Condition that determines what constitutes an active item that counts toward agent workload/capacity. For example, the record state is New, Open, or Awaiting Info.
+Condition that determines what constitutes an active item that counts toward agent workload or capacity. For example, the record state is New, Open, or Awaiting Info.
 
--   For chat: The state is not Closed Complete or Closed Abandoned
+-   For Chat: The state is not Closed Complete or Closed Abandoned
 -   For Chat - Asynchronous: The state is Closed Complete or Closed Abandoned
--   For case: The state is New or Open
+-   For Case: The state is New or Open
 -   For Facebook Messenger: The state is New or Work in Progress
--   For incident: The state is New, In Progress, or On Hold
+-   For Incident: The state is New, In Progress, or On Hold
 -   For Line: The state is New or Work in Progress
--   For walk-up: The state is not On Hold, Closed Complete, or Closed Abandoned
+-   For Walk-up: The state is not On Hold, Closed Complete, or Closed Abandoned
 -   For WhatsApp: The state is New or Work in Progress
  For non-task and non-interaction tables, define a utilization condition appropriate for the record states used by that table.
 
@@ -275,7 +275,7 @@ Enable logging
 
 </td><td>
 
-Option to record information in the syslog\_awa table when AWA events are logged. Specify the level of detail to be recorded in the **Log level** field on this screen.
+Option to record information in the syslog\_awa table when AWA events are logged. Specify the level of detail to be recorded in the **Log level** field.
 
 </td></tr><tr><td>
 
@@ -283,7 +283,7 @@ Stop logging at
 
 </td><td>
 
-Date and time that logging should stop. This field appears if **Enable logging** is enabled.
+Date and time that logging should stop. This field appears if **Enable logging** is selected.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.
@@ -293,7 +293,7 @@ Date and time that logging should stop. This field appears if **Enable logging**
 
 ## What to do next
 
-For service channels that use history-based affinity routing, AWA reads the assigned-to field from the service channel configuration to determine prior agent assignments. If no assigned-to field is configured on the service channel, AWA defaults to the assigned\_to field. This applies to all table types, including non-task and non-interaction tables.
+For service channels that use history-based affinity routing, AWA reads the **Assign to field** value from the service channel configuration to determine prior agent assignments. If the **Assign to field** value isn't configured on the service channel, AWA defaults to the assigned\_to field. This applies to all table types, including non-task and non-interaction tables.
 
 -   [Override the agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md) for selected agents or groups.
 -   [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md) for the service channel.

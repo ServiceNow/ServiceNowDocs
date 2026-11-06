@@ -1,6 +1,6 @@
 ---
 title: Configure templates and pages
-description: Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
+description: Use playbook pages in CSM Configurable Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-pages.html
 release: australia
@@ -12,11 +12,11 @@ breadcrumb: [Workspace, Playbooks in Customer Service Management, Agent tools, O
 
 # Configure templates and pages
 
-Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
+Use playbook pages in CSM Configurable Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 
 ## Pages, page templates, and page variants
 
-Pages provide the base structure for how record information is displayed in CRM Workspace. Pages are created and customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md), a web user interface builder. Pages and page variants can also include playbooks, which are created in Workflow Studio and provide step-by-step guidance for resolving a specific type of case.
+Pages provide the base structure for how record information is displayed in CSM Configurable Workspace. Pages are created and customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md), a web user interface builder. Pages and page variants can also include playbooks, which are created in Workflow Studio and provide step-by-step guidance for resolving a specific type of case.
 
 A page template is a pre-defined page configuration. When a page is created in UI Builder, a page template can be selected as a starting point. A page can also be created from scratch or by copying and then customizing an existing page.
 
@@ -35,7 +35,7 @@ Considerations for using these page templates include the number of stages that 
 
 **Note:** By default, the playbook page templates aren’t active. To activate a page template, see [Activate a playbook page or page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-process-based-page.md).
 
-Additional CSM playbook applications provide playbook pages that you can activate and use with case types in CRM Workspace.
+Additional CSM playbook applications provide playbook pages that you can activate and use with case types in CSM Configurable Workspace.
 
 |Application|Page variant|Description|
 |-----------|------------|-----------|

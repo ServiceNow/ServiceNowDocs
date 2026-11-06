@@ -1,13 +1,13 @@
 ---
 title: Add suppliers to a segmentation rule
-description: You can add a new supplier to a segmentation rule if the existing suppliers don’t meet your needs.
+description: Add suppliers to a segmentation rule so that KPIs are generated for them when the rule runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-segmentation-rule.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Supplier Lifecycle Operations, SLO, Source-to-Pay Workspace, segmentation rule, supplier, KPI collection tasks, Performance management]
 breadcrumb: [Create segmentation rule, Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
@@ -15,7 +15,7 @@ breadcrumb: [Create segmentation rule, Configure Supplier Relationship and Perfo
 
 # Add suppliers to a segmentation rule
 
-You can add a new supplier to a segmentation rule if the existing suppliers don’t meet your needs.
+Add suppliers to a segmentation rule so that KPIs are generated for them when the rule runs.
 
 ## Before you begin
 
@@ -23,31 +23,31 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 ## About this task
 
-The **Supplier** related tab displays the list of suppliers that fall under this segmentation rule. The **Supplier** related tab shows the following information:
+The **Supplier** related tab displays the list of suppliers in the segmentation rule. It includes:
 
--   Automatically displays suppliers that match this segmentation rule or other set condition after you run the segmentation rule by selecting **Execute**.
--   Displays suppliers that you add manually by selecting **New**.
+-   Suppliers that match the conditions on the segmentation rule. These suppliers are added automatically.
+-   Suppliers that you add manually.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Relationship management** &gt; **Segmentation rules**.
 
-3.  In the Name column, select the link to the segmentation rule.
+3.  In the Name column, select the segmentation rule.
 
 4.  Select the **Suppliers** tab and select **Add**.\[Omitted image "add-supplier-to-kpi.png"\] Alt text: Selected option to add a new supplier.
 
-    The Add supplier dialog box is displayed.
+    The Add supplier dialog box opens.
 
 5.  From the list of suppliers, select one or more suppliers and then select **Add**.
 
-    The newly added supplier is shown in the **Suppliers** related tab for the segmentation rule.
+    The new supplier appears in the **Suppliers** related tab for the segmentation rule.
 
 
 ## Result
 
-The KPI collection tasks will be generated for the added supplier on next run.
+The KPI collection tasks are generated for the added supplier on the next run.
 
 ## What to do next
 

@@ -322,7 +322,7 @@ Case contributor viewer\[sn\_customerservice.case\_contributor\_viewer\]
 This role provides read-only access to all of the tables associated with a case.With this role, a user can view the information in the related lists for a case if:
 
  -   The user has been added to the **Contributor User** field or the **Contributor Group** field on the Case form.
--   The user has read-only access to cases through another role, such as the case viewer role \(sn\_customerservice.case\_viewer\) or the case task agent role \(sn\_customerservice.case\_task\_agent\).
+-   The user has read-only access to cases through another role, such as the case viewer role \(sn\_customerservice.case\_viewer\).
 
  With this role, a user can access the following modules in CSM Agent Workspace:**All tasks I participate in**
 

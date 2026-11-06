@@ -35,7 +35,7 @@ To learn more about KQL property restriction queries and the operators they supp
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

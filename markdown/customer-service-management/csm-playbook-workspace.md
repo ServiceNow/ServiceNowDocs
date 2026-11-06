@@ -1,6 +1,6 @@
 ---
 title: Workspace
-description: In CRM Workspace, a playbook appears on a record page that is built from components. These components can be customized to fit how agents work through and resolve cases.
+description: In CSM Configurable Workspace, a playbook appears on a record page that is built from components. These components can be customized to fit how agents work through and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-workspace.html
 release: australia
@@ -12,9 +12,9 @@ breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize age
 
 # Workspace
 
-In CRM Workspace, a playbook appears on a record page that is built from components. These components can be customized to fit how agents work through and resolve cases.
+In CSM Configurable Workspace, a playbook appears on a record page that is built from components. These components can be customized to fit how agents work through and resolve cases.
 
-The playbook components and configuration options work together within CRM Workspace to shape the agent's experience:
+The playbook components and configuration options work together within CSM Configurable Workspace to shape the agent's experience:
 
 -   The components provide the parts an agent uses to resolve a case, such as the stage picker, activity viewer, and contextual side panel.
 -   Customization controls which of those components appear, how they are arranged, and how they behave, so a page can be tailored to a specific case type or team.

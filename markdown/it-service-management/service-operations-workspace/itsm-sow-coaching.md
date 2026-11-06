@@ -85,7 +85,7 @@ Use the **My learning** tab to:
 [Take a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/take-survey-sow-wfo-itsm.md) or [review skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/review-skills-wfo-itsm.md) to add to your skill set. You can receive surveys available for any group to which you belong. You can make a copy of the survey and work on it to complete them.
 
 -   **[Learning path and course item discovery in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/discovering-learning-sow-wfo-itsm.md)**  
-Browse courses or learning paths and take the ones that are of interest to you. You can also discover them using Predictive Intelligence that provides recommendations based on past activities.
+Browse courses and learning paths, or discover ones that interest you through Predictive Intelligence recommendations based on your past activities.
 
 **Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
 

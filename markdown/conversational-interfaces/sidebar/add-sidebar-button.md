@@ -1,5 +1,5 @@
 ---
-title: Adding the Discuss button
+title: Add the Discuss button
 description: To use Sidebar, you must add the Discuss button to assets that do not have it automatically installed and to custom workspaces where you must enable Sidebar on an asset. After you add the Discuss button, you can create Sidebar discussions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/add-sidebar-button.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
-# Adding the Discuss button
+# Add the Discuss button
 
 To use Sidebar, you must add the **Discuss** button to assets that do not have it automatically installed and to custom workspaces where you must enable Sidebar on an asset. After you add the **Discuss** button, you can create Sidebar discussions.
 
@@ -36,13 +36,13 @@ You don’t need to add the **Discuss** button to these workspaces because it’
 
 ## Procedure
 
-1.  Identify the table that you want to configure the Discuss button for.
+1.  Identify the table that you need to configure the Discuss button for.
 
 2.  Determine whether the table extends the task.
 
     If the table extends the task, then continue. If the table does not extend the task, then see the KB article.
 
-3.  From the home screen, select the workspace you want to use.
+3.  From the home screen, select the workspace you need to use.
 
     \[Omitted image "add-discuss-workspace-select.png"\] Alt text:
 
@@ -65,7 +65,7 @@ You don’t need to add the **Discuss** button to these workspaces because it’
     -   Application - this defaults to the workspace you selected.
     -   Table - from the drop-down list, select **Task**.
     -   Action Config - select the workspace.
-    -   Active - this checkbox should be selected.
+    -   Active - this check box should be selected.
     \[Omitted image "add-discuss-new-action-layouts-filled.png"\] Alt text: UX Forms Actions Layout New record screen.
 
 8.  Select **Submit**.
@@ -91,7 +91,7 @@ You don’t need to add the **Discuss** button to these workspaces because it’
 
 ## What to do next
 
-If you want to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Adding the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
+If you need to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Add the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
 
 After you add the **Discuss** button, you must configure the activity stream. For more information, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 

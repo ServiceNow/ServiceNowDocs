@@ -1,6 +1,6 @@
 ---
 title: Post upgrade tasks for APO
-description: Review and complete required post-upgrade tasks after upgrading Accounts Payable Operations.Complete post-upgrade tasks after upgrading Accounts Payable Operations, including upgrading copied use cases to the latest Document Intelligence model.The invoice and invoice line tables are restructured in the Xanadu release.When updating from Washington DC to Australia release, manually run the glide fix to update the invoice and invoice line tables to their respective base tables.Run the fix script after upgrading to the Australia to recalculate amounts and quantities for in-process invoices with Insufficient Goods Receipt and amount line and header variance conditions.Run a scheduled job to copy cost allocations from invoice line to purchase order line when upgrading Accounts Payable Operations from lower to higher version.
+description: Review and complete required post-upgrade tasks after upgrading Accounts Payable Operations.Complete post-upgrade tasks after upgrading Accounts Payable Operations, including upgrading copied use cases to the latest Document Intelligence model.The invoice and invoice line tables are restructured in the Xanadu release.When you upgrade the instance from Washington DC to Australia release, you must manually run the glide fix to update the invoice and invoice line tables to their respective base tables.Run the fix script after upgrading to the Australia to recalculate amounts and quantities for in-process invoices with Insufficient Goods Receipt and amount line and header variance conditions.Run a scheduled job to copy cost allocations from invoice line to purchase order line when upgrading Accounts Payable Operations from lower to higher version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.html
 release: australia
@@ -8,8 +8,8 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-keywords: [APO, Accounts Payable Operations, post-upgrade tasks, Accounts Payable management, upgrade checklist, APO, Accounts Payable Operations, DocIntel, Document Intelligence, AP case, Document Data Extraction, APO, Accounts Payable Operations, data migration, invoice line, invoice table, AP automation, Now Support Portal, APO, Accounts Payable Operations, invoice management, migrate existing data, invoice line table, Fix script, APO, Accounts Payable Operations, invoice exception, invoice processing, upgrade, migration, APO, Accounts Payable Operations, invoice management, purchase order, PO, cost allocation, admin]
+reading_time_minutes: 5
+keywords: [APO, Accounts Payable Operations, post-upgrade tasks, Accounts Payable management, upgrade checklist, APO, Accounts Payable Operations, DocIntel, Document Intelligence, AP case, Document Data Extraction, APO, Accounts Payable Operations, data migration, invoice line, invoice table, AP automation, Now Support Portal, APO, Accounts Payable Operations, invoice exception, invoice processing, upgrade, migration, APO, Accounts Payable Operations, invoice management, purchase order, PO, cost allocation, admin]
 breadcrumb: [Upgrade Accounts Payable Operations, Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -61,13 +61,19 @@ Before Washington DC release, invoice and invoice line tables were standalone ta
 
 After you upgrade from Washington DC to Australia release, verify that your existing invoice and invoice line data has been migrated correctly. If you notice that your invoice and invoice line tables didn’t migrate properly, use the [Now Support Portal](https://support.servicenow.com/now) to raise a case with the Technical Support team.
 
-## Run a glide fix script to migrate existing data
+## Run glide fix script to migrate existing data
 
-When updating from Washington DC to Australia release, manually run the glide fix to update the invoice and invoice line tables to their respective base tables.
+When you upgrade the instance from Washington DC to Australia release, you must manually run the glide fix to update the invoice and invoice line tables to their respective base tables.
 
 ### Before you begin
 
-Role required: maint
+**Note:** Run this fix script only if you upgraded from the Washington DC release or earlier. If your instance was provisioned on Xanadu or later, the invoice and invoice line tables already extend their base tables and no action is required. The script detects this and exits without making changes, writing `No reparenting required` to the system log. This result is expected and does not indicate a failure.
+
+Role required: admin
+
+### About this task
+
+The base invoice and base invoice line tables were introduced in Xanadu. This one-time migration brings invoice data created before the upgrade into line with the current table structure. For more information, see [Restructured Invoice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.md).
 
 ### Procedure
 
@@ -139,8 +145,19 @@ Role required: maint
 
 10. Select **Run Fix Script**.
 
-    The parent invoice and invoice line tables are changed to respective base tables.
+11. Verify that the re-parenting succeeded. Navigate to **All** &gt; **System Definition** &gt; **Tables**, open `sn_shop_invoice`, and confirm that **Extends table** shows `sn_fin_base_invoice`. Repeat for `sn_shop_invoice_line`, which must extend `sn_fin_base_invoice_line`.
 
+    If either table still shows no parent table, check the system log for warnings from this fix script. For guidance on unmigrated invoice data, see [Restructured Invoice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/post-upgrade-tasks-for-apo.md).
+
+
+### Result
+
+The parent invoice and invoice line tables are changed to respective base tables.
+
+**Related topics**  
+
+
+[Run the fix script for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/run-fix-script-for-apo.md)
 
 ## Run fix script for exceptions
 

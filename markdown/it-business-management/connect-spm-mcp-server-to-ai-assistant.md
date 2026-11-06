@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/connect-spm-mcp-server-to-ai-assistant.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCP server, AI assistant, SPM MCP, connect MCP]
 breadcrumb: [Configure, MCP for Strategic Portfolio Management, Strategic Portfolio Management]

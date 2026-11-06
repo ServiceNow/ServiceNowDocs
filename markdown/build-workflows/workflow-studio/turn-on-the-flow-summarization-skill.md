@@ -18,7 +18,7 @@ Turn on the flow summarization skill to generate a summary of what a flow or sub
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: flow\_designer or admin
 
 ## About this task

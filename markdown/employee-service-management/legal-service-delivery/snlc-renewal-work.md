@@ -67,15 +67,15 @@ Identify the legal and contract requests created for renewal using the following
 
 3.  Modify the legal request.
 
-<table id="choicetable_renewal-modify"><thead><tr><th align="left" id="d656900e226">
+<table id="choicetable_renewal-modify"><thead><tr><th align="left" id="d658272e226">
 
 Options
 
-</th><th align="left" id="d656900e229">
+</th><th align="left" id="d658272e229">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d656900e235">
+</th></tr></thead><tbody><tr><td id="d658272e235">
 
 **Add collaborators**
 
@@ -83,7 +83,7 @@ Steps
 
 Add collaborators in the **Collaborators** field to get help from other fulfillers. Collaborators are notified by email.**Note:** Users with the sn\_lg\_contracts.contracts\_fulfiller role are listed in the **Collaborators** field.
 
-</td></tr><tr><td id="d656900e252">
+</td></tr><tr><td id="d658272e252">
 
 **Update watch list and requested for**
 

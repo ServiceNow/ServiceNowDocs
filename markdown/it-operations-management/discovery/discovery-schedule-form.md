@@ -1,20 +1,20 @@
 ---
 title: Discovery Schedule form reference
-description: The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
+description: The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for the discovery run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/discovery-schedule-form.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 11
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Schedule form reference
 
-The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
+The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for the discovery run.
 
 For instructions on this procedure, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 

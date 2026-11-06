@@ -33,7 +33,7 @@ Use e-signatures to add an additional layer of verification and compliance to ch
 -   **[Change Advisory Board \(CAB\) workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/cab-workbench.md)**  
 The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
 -   **[Upgrade Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/migrate-change-mgmt-pre-geneva.md)**  
-Follow these instructions to upgrade your Change Management system.
+Activate Change Management core and update your change types and customizations when you upgrade an instance that used Change Management before the Geneva release.
 
 **Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md)
 

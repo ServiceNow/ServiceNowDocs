@@ -25,6 +25,8 @@ Shoppers who are part of the punchout group can view punchout or external third-
 
 For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.md).
 
+Punchout supplier cards are listed only for suppliers whose cXML configuration has a punchout group that the shopper belongs to directly. Membership is read from the user's group membership records, so a group that the shopper belongs to only through another group does not count, and roles such as Procurement Specialist do not affect which supplier cards appear. The list is loaded when the shopper's session starts and refreshed when the shopper switches to shopping on behalf of another user.
+
 For more information on punchout groups and how to configure them as an admin, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
 ## External suppliers on Employee Center

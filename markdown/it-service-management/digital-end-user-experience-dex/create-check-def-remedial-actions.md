@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-11"
+last_updated: "2026-11-03"
 reading_time_minutes: 1
 breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -38,7 +38,7 @@ Role required: admin
 
     1.  In the **Check type** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: to navigate to the Check Types page.
 
-    2.  Select the check type from the list.
+    2.  Always select the `DexContentActions` check type from the list.
 
 5.  In the **Command** field, enter the name of the `.rb` script included in the ACC plugin package.
 
@@ -58,11 +58,18 @@ Role required: admin
 
     3.  Select the Lock Plugins icon \[Omitted image "icon-lock-visible-fields.png"\] Alt text:.
 
-8.  On the form, fill in the remaining fields.
+8.  Add a timeout script for the remedial action check definition.
+
+    ```
+    var util = new sn_dex.DEXRemedialActionsUtils();
+    util.handleRemedialActionTimeout(request);
+    ```
+
+9.  On the form, fill in the remaining fields.
 
     For a description of the field values, see [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/check-definition-form.md).
 
-9.  Select **Submit**.
+10. Select **Submit**.
 
 
 **Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)

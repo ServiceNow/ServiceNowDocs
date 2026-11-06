@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -79,7 +79,8 @@ Verify that you have the required Zscaler permissions and have configured [acces
 
 -   You must have the admin credentials for Zscaler Internet Access.
 -   You must have a valid cloud service API subscription. Zscaler Support must provide your key.
--   You must have Zscaler Internet Access admin credentials \(user name and password\). API authentication is based on a combination of the API key and Zscaler Internet Access admin credentials.
+-   If you use Basic Auth, you must have Zscaler Internet Access admin credentials \(user name and password\). API authentication is based on a combination of the API key and Zscaler Internet Access admin credentials.
+-   If you use OAuth 2.0, you must have a client ID, a client secret, and your tenant's vanity domain. For example, `acme.zslogin.net`.
 
  **Note:** For more information on managing the Zscaler Internet Access API keys, see the [Zscaler documentation](https://help.zscaler.com/zia/api-getting-started#CreateSession).
 

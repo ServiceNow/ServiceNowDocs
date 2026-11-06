@@ -24,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
-2.  Under **URL navigation,** select **View All**.
+2.  Under **URL navigation** select **View All**.
 
 3.  On the URL Navigation page, do one of the following:
 
     -   To create a new custom mapping, select **New**.
     -   To change a default or custom mapping, select the record to be updated.
-    -   If you have multiple mapping records to be updated, click the box to the left of the mapping record to be updated and select **Edit**. The preview pane opens and shows the URL Navigation fields that you can change in the selected records.
+    -   If you have multiple mapping records to be updated, select the box to the left of the mapping record to be updated and select **Edit**. The preview pane opens and shows the URL Navigation fields that you can change in the selected records.
 4.  Complete or update the URL Navigation fields.
 
 <table id="table_xbp_wkm_spb"><thead><tr><th>

@@ -71,7 +71,7 @@ When open centerline tasks are associated with a standard, the standard shows an
 
 ## Centerline standard lifecycle
 
-Centerline standards follow the Industrial Standards life cycle. Publishing, approvals, versioning, retiring, scheduling, and task generation work the same way as for other standards. For more information, see [Exploring Industrial Standards](https://www.servicenow.com/docs/access?context=industrial-standards-landing-page).
+Centerline standards follow the Industrial Standards life cycle. Publishing, approvals, versioning, retiring, scheduling, and task generation work the same way as for other standards. For more information, see [Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md).
 
 -   **[Create a centerline standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-centerline-standard.md)**  
 Create a centerline standard to define which equipment settings operators confirm, and for which equipment and materials.

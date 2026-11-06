@@ -23,13 +23,13 @@ The Sidebar-Microsoft Teams integration is available as a standard ServiceNow fe
 
 -   The rate charge applies each time the Microsoft Teams API is called. Charges apply for messages sent from your ServiceNow instance to Microsoft Teams and vice versa.
 -   The rate charge doesn’t apply to "means to an end" actions such as searching for or adding users to a Microsoft Teams group chat, user presence, or reactions.
--   To minimize the number of API calls to Microsoft Teams, the base system Sidebar-Microsoft Teams integration requires at least one participant is an external only user \(a user that doesn't have a corresponding sys\_user record\). If you want to modify this base system behavior, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/manage-teams-permissions.md) for information on how to add the internal user or group that the internal user is part of.
+-   To minimize the number of API calls to Microsoft Teams, the base system Sidebar-Microsoft Teams integration requires at least one participant to be an external only user \(a user that doesn't have a corresponding sys\_user record\). If you need to modify this base system behavior, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/manage-teams-permissions.md) for information on how to add the internal user or group that the internal user is part of.
 
 Microsoft bills ServiceNow customers directly via their Microsoft Azure account. For more information, see [Licensing and payment requirements for the Microsoft Teams API](https://learn.microsoft.com/en-us/graph/teams-licenses).
 
 ## Authenticating Sidebar users in Microsoft Teams
 
-A Sidebar user must already have a Microsoft Teams account to communicate with a Microsoft Teams user. Microsoft Teams authenticates each Sidebar user to confirm that they have a Microsoft Teams account. This authentication ensures that Microsoft Teams can create a group chat that includes the Sidebar user's Microsoft Teams account. If the Sidebar user has a Microsoft Teams account but isn’t signed in, they’re prompted to sign in.
+A Sidebar user must already have a Microsoft Teams account to communicate with a Microsoft Teams user. Microsoft Teams authenticates each Sidebar user to confirm that they have a Microsoft Teams account. This authentication ensures that Microsoft Teams can create a group chat that includes the Sidebar user's Microsoft Teams account. If the Sidebar user has a Microsoft Teams account but isn’t logged in, they’re prompted to log in.
 
 ## Differentiating between Sidebar and Microsoft Teams users
 
@@ -44,7 +44,7 @@ To differentiate Sidebar users from Microsoft Teams users, a Microsoft Teams ico
 
 ## Adding users to a discussion
 
-Sidebar users can enter the partial or full name of a user that they want to add to the discussion. If the user exists in the system, the user's name appears and can be selected to be added to the discussion. Users who have access to Microsoft Teams but not ServiceNow can be identified by the Microsoft Teams logo in their avatar image. Microsoft Teams users can add participants to the discussion by adding them to the group chat on Microsoft Teams. Doing this automatically adds those users to the discussion in Sidebar.
+Sidebar users can enter the partial or full name of a user that they need to add to the discussion. If the user exists in the system, the user's name appears and can be selected to be added to the discussion. Users who have access to Microsoft Teams but not ServiceNow can be identified by the Microsoft Teams logo in their avatar image. Microsoft Teams users can add participants to the discussion by adding them to the group chat on Microsoft Teams. Doing this automatically adds those users to the discussion in Sidebar.
 
 **Note:** A maximum of 250 users can be added to a Microsoft Teams group chat.
 
@@ -59,7 +59,7 @@ After Sidebar and Microsoft Teams are integrated, you can send these types of me
 
 Actions performed in the Sidebar discussion are reflected in Microsoft Teams and actions performed in Microsoft Teams are reflected in Sidebar. If you reply to a message in a Microsoft Teams group chat, the message displays in Sidebar however, it doesn't display as a reply to the original message.
 
-Errors messages appear in these situations:
+Error messages appear:
 
 -   If Sidebar is unable to deliver a message to a Microsoft Teams user, the message "Not delivered in Teams" displays. Depending on how error message notifications in Sidebar are configured, the message displays to just the Sidebar user who sent the message or to all Sidebar users in the discussion.
 
@@ -82,7 +82,7 @@ Sidebar users can remove a Microsoft Teams user from a Sidebar discussion. When 
 
 ## Message history
 
-If the admin enables Microsoft Teams group chats for a user, the message history of any Sidebar discussions that the user is already participating in aren't preloaded in the Microsoft Teams group chat. In the Microsoft Teams group chat, the user will only receive messages that are sent after the admin enables them to receive Microsoft Teams group chats.
+If the admin enables Microsoft Teams group chats for a user, the message history of any Sidebar discussions that the user is already participating in aren't preloaded in the Microsoft Teams group chat. In the Microsoft Teams group chat, the user receives only messages that are sent after the admin enables them to receive Microsoft Teams group chats.
 
 ## ServiceNow's access to Microsoft Teams messages
 
@@ -101,5 +101,5 @@ Synchronizing example:
 
 ## Domain separation with Sidebar-Microsoft Teams integration
 
-If Sidebar is integrated with Microsoft Teams, domain separation is not supported on the Microsoft Teams instance. As a result, the **Set up** button for Microsoft Teams is disabled on the Settings page. For example, if you’ve configured two domains on ServiceNow but use only one Microsoft Teams instance, you can't partition the Microsoft Teams instance to have part of it point to one domain and the other part to another domain.
+If Sidebar is integrated with Microsoft Teams, domain separation is not supported on the Microsoft Teams instance. The **Set up** button for Microsoft Teams is inactive on the Settings page. For example, if you’ve configured two domains on ServiceNow but use only one Microsoft Teams instance, you can't partition the Microsoft Teams instance to have part of it point to one domain and the other part to another domain.
 

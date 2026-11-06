@@ -36,7 +36,7 @@ The sourcing request playbook, also known as the sourcing intake playbook, enabl
 
     For more information on how to perform these actions on the sourcing intake playbook, see [Select a sourcing approach in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/select-sourcing-approach.md).
 
-    **Note:** If you have skipped negotiations at this stage, you have the option to work on negotiations after the qualification is complete. You can add the sourcing request to an exiting sourcing event or create a new sourcing event as required, before working with the sourcing event.
+    **Note:** If you have skipped negotiations at this stage, you have the option to work on negotiations after the qualification is complete. You can add the sourcing request to an existing sourcing event or create a new sourcing event as required, before working with the sourcing event.
 
 
 ## Negotiation setup playbook

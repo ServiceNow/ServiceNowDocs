@@ -1,6 +1,6 @@
 ---
 title: Quality issue management data model
-description: The quality issue management \(QIM\) framework enables OEMs for documenting non-conformance, evaluating their effects on assets and customers, conducting root cause analysis, and implementing corrective, containment, and other remediation actions.
+description: The quality issue management \(QIM\) framework enables OEMs to document non-conformance and evaluate its effects on assets and customers. It supports root cause analysis and corrective, containment, and other remediation actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-quality-issue-management-data-model.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 
 # Quality issue management data model
 
-The quality issue management \(QIM\) framework enables OEMs for documenting non-conformance, evaluating their effects on assets and customers, conducting root cause analysis, and implementing corrective, containment, and other remediation actions.
+The quality issue management \(QIM\) framework enables OEMs to document non-conformance and evaluate its effects on assets and customers. It supports root cause analysis and corrective, containment, and other remediation actions.
 
 The QIM brings together quality data, workflows, and stakeholders into a single system of record. This approach boosts transparency, speeds up resolutions, increases accountability, and supports continuous improvement efforts.
 

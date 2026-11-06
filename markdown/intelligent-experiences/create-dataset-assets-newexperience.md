@@ -26,7 +26,7 @@ A dataset is a collection of data used for training, fine-tuning, or evaluating 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory****Assets**.
+1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory****Assets**.
 
 2.  On the Inventory page, select **Add AI asset**.
 

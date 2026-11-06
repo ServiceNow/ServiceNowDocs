@@ -1,5 +1,5 @@
 ---
-title: Configuring Profanity Filter
+title: Configure Profanity Filter
 description: Configure the Profanity Filter for Agent Chat to detect flagged words in the manner that best suits your company's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-configure-profanity-settings.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
-# Configuring Profanity Filter
+# Configure Profanity Filter
 
 Configure the Profanity Filter for Agent Chat to detect flagged words in the manner that best suits your company's needs.
 
@@ -79,7 +79,7 @@ Time threshold \(in hours\)
 Number of hours during which the number of messages with flagged words is tracked.
 
 </td></tr></tbody>
-</table>5.  On the Flagged Words tab, specify words that the Profanity Filter should flag:
+</table>5.  On the **Flagged Words** tab, specify words that the Profanity Filter should flag:
 
     \[Omitted image "ci-flagged-words.png"\] Alt text: Flagged words tab with sample words.
 
@@ -109,8 +109,8 @@ Allowed
 
 </td><td>
 
--   **Forbidden** - the word is considered profane and will be flagged.
--   **Allowed** - the word is not considered profane and will not be flagged.
+-   **Forbidden** - the word is considered profane and is flagged.
+-   **Allowed** - the word is not considered profane and is not flagged.
 
 
 </td></tr><tr><td>
@@ -127,8 +127,8 @@ Status
 
 </td><td>
 
--   **Active** - if the Profanity Filter detects this word, it will determine whether it is forbidden or allowed.
--   **Inactive** - if the Profanity Filter detects this word, it will not do anything.
+-   **Active** - if the Profanity Filter detects this word, it determines whether it is forbidden or allowed.
+-   **Inactive** - if the Profanity Filter detects this word, it does not do anything.
 
 
 </td></tr></tbody>

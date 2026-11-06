@@ -7,7 +7,7 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-10-26"
 reading_time_minutes: 5
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
 breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
@@ -68,7 +68,7 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 |Sandbox managers|Sandbox managers can administer the lifecycle of all sandboxes without full admin privileges.|
 |Sandbox users|Sandbox users can request and view Developer Sandboxes.|
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes using the same credentials. For information on enabling SSO, see [Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-sso.md).
 
 **Note:** Instances with vanity URLs support SSO.
 
@@ -168,5 +168,5 @@ Enables you to allocate a sandbox to yourself, or for an admin to allocate a san
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about installing and configuring Developer Sandboxes, refer to [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+To learn more about installing and configuring Developer Sandboxes, refer to [Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-configuring-landing.md).
 

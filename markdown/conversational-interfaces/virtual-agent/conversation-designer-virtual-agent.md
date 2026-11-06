@@ -201,7 +201,7 @@ View and manage conversational actions through Assistant Designer.
 -   **[Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-custom-skills.md)**  
 View custom skills through Assistant Designer Asset library.
 -   **[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)**  
-View AI agents created in AI Agent Studio through Assistant Designer.
+AI agents created in AI Agent Studio appear in Assistant Designer, where you can view their status and visibility.
 
 **Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

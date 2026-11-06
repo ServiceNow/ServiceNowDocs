@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-27"
 reading_time_minutes: 3
 keywords: [generative AI for Employee Center, generative AI for UEX, configuration]
-breadcrumb: [Explore, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Explore, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Activate ServiceNow Otto for Employee Experience skills
@@ -86,5 +86,5 @@ On successful configuration, approval users can see summarization for approvals.
 
 [Supporting information for ServiceNow Otto for Employee Experience]()
 
-[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

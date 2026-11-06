@@ -108,7 +108,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
     \[Omitted image "mecm-msinfo32-edit.png"\] Alt text: System overview - msinfo32
 
-12. Click **Update**.
+12. Select **Update**.
 
 
 **Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)

@@ -27,7 +27,7 @@ This page displays cards with information on metrics related to authentication. 
 -   X509 certificates expiring in 30 days
 -   Biometric scanner/hardware key users
 -   REST API's Without Access Policy
--   Integration Accounts without Web Service Access Only Flag enabled
+-   Integration Accounts without Web Service Access Only Flag enabled. To clear entries from the enforcement table, see [Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-enforcement.md).
 
 Select the cards to view the individual metrics page with additional details.
 

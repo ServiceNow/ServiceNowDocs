@@ -32,6 +32,8 @@ Description
 
 Enable Multi-factor Authentication.**Note:** To enforce MFA for API authentication, set the `glide.authenticate.multifactor.for_integrations` system property to `true`. MFA is enforced only for users who have already enrolled in MFA. Users who have not enrolled are not affected.
 
+**Note:** An upgrade to Zurich can set this property to `true` automatically. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+
 </td></tr><tr><td>
 
 **glide.authenticate.multifactor.setup.bypass.count**

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/sharepoint-search-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
 breadcrumb: [Employee Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Employee Service Management]
 
 The ServiceNow SharePoint Online Search Connector offers a consumer-grade search configuration to manage your information resources.
 
-**Important:** Starting with the Yokohama release, SharePoint Online Search Connector is being prepared for future deprecation. It is hidden and no longer activated on new instances but continue to be supported. For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** SharePoint Online Search Connector is being prepared for **deprecation**. Starting with the Yokohama release, it is hidden and no longer activated on new instances. Existing instances in the Australia release remain supported. For deprecation details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 As search is the key to productivity, SharePoint Online Search Connector \(SPOC\) helps your employees to search and discover content from the ServiceNow employee experience. You can index content from multiple sites, enabling employees to find the relevant information through Employee Service Center, Service Portal, Now Mobile app, and Virtual Agent.
 

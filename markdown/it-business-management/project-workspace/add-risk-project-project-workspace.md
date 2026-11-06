@@ -34,6 +34,8 @@ For information about RIDAC records for project management, see [Adding RIDAC re
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
+    The filter icon in the side panel shows the filters applied to the RIDAC records, and its pane stays empty until you apply one. To apply a filter, select the filter icon in a column header, select the check boxes for the values that you want to show, and select **Apply**.
+
 3.  From the More actions menu, select the type of RIDAC record that you want to create.
 
     |Option|Description|

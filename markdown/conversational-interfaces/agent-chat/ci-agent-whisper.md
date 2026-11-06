@@ -16,21 +16,21 @@ breadcrumb: [Explore, Agent Chat, Conversational Interfaces]
 
 Agent Whisper lets agents and chat managers have a conversation without the requester knowing.
 
-During a chat between a requester and an agent, the agent may want to privately ask a chat manager for assistance or a chat manager and an agent may want to converse without the requester knowing. Using Agent Whisper, the agent can request help and the chat manager and agent can send messages to each other without the requester knowing.
+During a chat between a requester and an agent, the agent may need to privately ask a chat manager for assistance or a chat manager and an agent may need to converse without the requester knowing. Using Agent Whisper, the agent can request help and the chat manager and agent can send messages to each other without the requester knowing.
 
 For example, if an agent is newly hired, still in training, or unsure about how to proceed with a requester's request, the agent can ask a chat manager to join the conversation to help walk the agent through the steps of the procedure privately.
 
-Another scenario is if an agent needs to escalate a customer conversation to a chat manager. Agents can request help and chat managers can join the chat conversations publicly to communicate directly with the customer to help deescalate the situation.
+Another scenario is if an agent needs to escalate a customer conversation to a chat manager. Agents can request help and chat managers can join the chat conversations publicly to communicate directly with the customer to help de-escalate the situation.
 
-You activate Agent Whisper in Agent Chat settings. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+You activate Agent Whisper in Agent Chat settings. For details, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 ## Using the Help quick action
 
-Agents can ask chat managers to join chat conversations with requesters by raising the help flag. Agents can open the Quick Action menu or enter `/help` to request for help. When using the help quick action, agents can also type a brief private message explaining what they need help with. This way, when a chat manager enters the conversation, they already know what the agent needs.
+Agents can ask chat managers to join chat conversations with requesters by raising the help flag. Agents can open the Quick Action menu or enter `/help` to request help. When using the help quick action, agents can also type a brief private message explaining what they need help with. This way, when a chat manager enters the conversation, they already know what the agent needs.
 
 Chat managers can view the conversations with help requested from different views: interactions list view, manager dashboard, and lists.
 
--   Interactions list view: Agents can navigate to the interactions list view and add in the help requested column to see which conversations agents have requested help in. From here, managers can click directly into the interaction record and join the conversation with the agent and requester.
+-   Interactions list view: Agents can navigate to the interactions list view and add in the help requested column to see which conversations agents have requested help in. From here, managers can select directly into the interaction record and join the conversation with the agent and requester.
 -   Manager dashboard: With the Workforce Optimization for Customer Service \(com.snc.wfo.csm\) plugin installed, managers can see that the Help requested tile on the manager dashboard homepage.
 -   Lists: From Conversation Monitoring &gt; Help Requested, managers can view a list of chat interactions in which agents have requested help.
 
@@ -41,7 +41,7 @@ To learn more about Workforce Optimization for CSM, see [Workforce Optimization 
 
 ## Sending and receiving messages in Private Chat
 
-The agent and chat manager can converse without the requester knowing that they are having a conversation. Messages that only seen by the agent and chat manager are private messages. The requester does not see private messages. The agent and chat manager can toggle between the public and private messages using the **Public Chat** and **Private Chat** tabs. The **Private Chat** tab has a yellow background with "Message only visible internally" and private messages appear on the yellow background. When someone types in the **Private Chat** tab, the typing event indicator does not display. For example, when the chat manager types in the **Private Chat** tab, the agent's and requester's screen do not display the typing event indicator.
+The agent and chat manager can converse without the requester knowing that they are having a conversation. Messages that only the agent and chat manager see are private messages. The requester does not see private messages. The agent and chat manager can toggle between the public and private messages using the **Public Chat** and **Private Chat** tabs. The **Private Chat** tab has a yellow background with "Message only visible internally" and private messages appear on the yellow background. When someone types in the **Private Chat** tab, the typing event indicator does not display. For example, when the chat manager types in the **Private Chat** tab, the agent's and requester's screen do not display the typing event indicator.
 
 The tab that the agent types on and sends the message from determines whether a message is posted privately or publicly. If an agent starts typing a message on the **Public Chat** tab and then switches to the **Private Chat** tab, the **Private Chat** tab does not display the message. If the agent then goes back to the **Public Chat** tab, the message is still there. However, agents can see private messages regardless of whether they are on the **Private Chat** tab or the **Public Chat** tab.
 
@@ -76,7 +76,7 @@ If agents send an attachment while on the **Private Chat** tab, the attachment i
 
 ## Private messages stored in internal chat transcripts
 
-Once the conversation ends, one external transcript and one internal chat transcript are generated.
+After the conversation ends, one external transcript and one internal chat transcript are generated.
 
 The public chat transcript does not include private messages and is accessible for the requester to download if the Download Transcript capability has been enabled.
 

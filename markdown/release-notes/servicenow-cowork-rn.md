@@ -1,59 +1,60 @@
 ---
-title: ServiceNow Cowork release notes
-description: The ServiceNow Cowork application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.ServiceNow Cowork is now available, with a choice of AI models, connectors, MCP servers, skill and sub-agents all governed by policies, tiered approvals and Auto Mode, and usage insights and analytics.
+title: ServiceNow Arc release notes
+description: The ServiceNow Arc application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.ServiceNow Arc is now available, with a choice of AI models, connectors, MCP servers, skill and sub-agents all governed by policies, tiered approvals and Auto Mode, and usage insights and analytics.ServiceNow Arc now runs on Windows, builds ServiceNow apps with Fluent, and brings policy authoring into AI Control Tower. This release also adds notifications for approvals and reminders and MCP servers managed by administrators, and improves auto mode, schedules, Microsoft 365 connector permissions, approvals, and error messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/servicenow-cowork-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-09-27"
-reading_time_minutes: 6
-keywords: [ServiceNow Cowork release notes, Cowork release notes]
+reading_time_minutes: 9
+keywords: [ServiceNow Cowork release notes, Cowork release notes, ServiceNow Arc release notes, Arc release notes]
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
-# ServiceNow Cowork release notes
+# ServiceNow Arc release notes
 
-The ServiceNow Cowork application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
+The ServiceNow Arc application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
 
-## About ServiceNow Cowork
+## About ServiceNow Arc
 
 -   Delegate multistep work to an AI agent on your desktop that works alongside the applications you already use.
 -   Control agent autonomy with tiered approval gates, priority based policies, and administrator governance of MCP servers.
 -   Choose from Anthropic Claude, OpenAI GPT, and Google Gemini models through Generative AI Controller.
 -   Extend the agent with skills, and track adoption and policy activity in Usage Insights.
+-   Schedule recurring tasks and reminders from chat or the Schedules view, starting from ready made blueprints.
 
-See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+See [ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
 
 ## Activation and other requirements
 
-**Note:** ServiceNow Cowork is available in the ServiceNow Store. For details, see the activation information below.
+**Note:** ServiceNow Arc is available in the ServiceNow Store. For details, see the activation information below.
 
 -   **Activation information**
 
-    Install ServiceNow Cowork by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **Additional requirements**
 
-    The desktop app runs on macOS computers with Apple silicon or Intel processors.
+    The desktop app runs on macOS computers with Apple silicon or Intel processors, and on Windows computers.
 
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/intelligent-experiences-rn-landing.md)
 
 ## Version 1.0.0
 
-ServiceNow Cowork is now available, with a choice of AI models, connectors, MCP servers, skill and sub-agents all governed by policies, tiered approvals and Auto Mode, and usage insights and analytics.
+ServiceNow Arc is now available, with a choice of AI models, connectors, MCP servers, skill and sub-agents all governed by policies, tiered approvals and Auto Mode, and usage insights and analytics.
 
 ### What's new
 
 -   **[Microsoft 365 and GitHub connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connectors-in-cowork.md)**
 
-    Connect ServiceNow Cowork to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
+    Connect ServiceNow Arc to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
 
--   **[Sandboxed execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cowork-architecture.md)**
+-   **[Sandboxed execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cowork-architecture-arc.md)**
 
     The agent runs scripts and commands in an isolated virtual machine sandbox on the Mac, with access to the files you share. The sandbox image comes from your connected instance, so updates to it apply the next time you launch, sign in, or switch instances.
 
--   **[Policy management and governance in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/policy-management-cowork.md)**
+-   **[Policy management and governance in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/policy-management-cowork.md)**
 
     Control what the agent can reach and change with network allowlists, sandbox rules, file type rules, and connector scopes, alongside tool gates and approval patterns. Target each policy to specific users and groups with user criteria. The Default Policy applies to everyone, and clients keep enforcing their last policy if the instance is unreachable. Override the Default Policy by creating a policy with a higher priority. The policy with the lowest priority number wins, and when priorities tie, the most restrictive rule wins. The same resolution applies to tool gates, connector scopes, and capability overrides. Tool gates offer an auto approval option alongside Allow, Deny, and require approval.
 
@@ -79,21 +80,21 @@ ServiceNow Cowork is now available, with a choice of AI models, connectors, MCP 
 
 -   **[Bundled skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/extending-cowork.md)**
 
-    ServiceNow Cowork ships with a focused set of default skills, including separate skills for ServiceNow, Microsoft 365, planning and meeting skills.
+    ServiceNow Arc ships with a focused set of default skills, including separate skills for ServiceNow, Microsoft 365, planning and meeting skills.
 
 -   **[Usage Insights analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cowork-trace-evaluation.md)**
 
-    View ServiceNow Cowork as an application in Usage Insights, with active users, monthly and daily active users, and sessions. Report on conversations by how they start, success and error rates, user interventions, and the model used, along with connector, MCP, and policy block events.
+    View ServiceNow Arc as an application in Usage Insights, with active users, monthly and daily active users, and sessions. Report on conversations by how they start, success and error rates, user interventions, and the model used, along with connector, MCP, and policy block events.
 
     Build funnels, cohorts, and retention reports, and drill down from aggregate charts to individual users and tasks. Data is scoped to your instance only, and user IDs are hashed.
 
 -   **[Observability in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cowork-trace-evaluation.md)**
 
-    Register ServiceNow Cowork as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
+    Register ServiceNow Arc as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
 
--   **[Kill switch and heartbeat monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cowork-architecture.md)**
+-   **[Kill switch and heartbeat monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cowork-architecture-arc.md)**
 
-    Monitor and control ServiceNow Cowork across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Cowork and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
+    Monitor and control ServiceNow Arc across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
 
 -   **[Predictable retry behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-agent-limits-safeguards.md)**
 
@@ -109,13 +110,79 @@ ServiceNow Cowork is now available, with a choice of AI models, connectors, MCP 
 
 -   **Assist metering and entitlements**
 
-    User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Cowork Execution. Check your entitlements to determine whether you have access to ServiceNow Cowork.
+    User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Arc Execution. Check your entitlements to determine whether you have access to ServiceNow Arc.
 
 
 ### Plugin information
 
 -   **New plugins**
 
-    ServiceNow Cowork \(sn\_app\_cowork\): Provides the Cowork policy, approval, and configuration records that govern the desktop agent.
+    ServiceNow Arc \(sn\_app\_cowork\): Provides the Arc policy, approval, and configuration records that govern the desktop agent.
+
+
+## Version 1.1.2
+
+ServiceNow Arc now runs on Windows, builds ServiceNow apps with Fluent, and brings policy authoring into AI Control Tower. This release also adds notifications for approvals and reminders and MCP servers managed by administrators, and improves auto mode, schedules, Microsoft 365 connector permissions, approvals, and error messages.
+
+### What's new
+
+-   **[Windows support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-arc-windows.md)**
+
+    ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
+
+-   **[Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-arc-policies-aict.md)**
+
+    Administrators author and manage ServiceNow Arc agent policies in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
+
+-   **[MCP servers managed by administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-mcp-server-arc.md)**
+
+    MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
+
+    When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
+
+-   **[Notifications for approvals and reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/notifications-arc.md)**
+
+    ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
+
+    For more information, see [Turn notifications on or off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-notification-settings.md).
+
+-   **[Fluent app development for MacOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/app-development-arc.md)**
+
+    Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
+
+    App development isn't supported on Windows.
+
+-   **[File preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/preview-files-arc.md)**
+
+    Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
+
+
+### What's changed
+
+-   **[Auto mode for each chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-auto-mode-chat.md)**
+
+    Users choose **Standard** or **Auto** approval for each chat in ServiceNow Arc from the message box, and set a default approval mode in **Settings** &gt; **Approvals** for new chats and background runs, such as scheduled tasks.
+
+    To make auto mode available, administrators turn on the Auto Mode capability \(**auto\_approval**\), which is off by default, and set tool gates to **Auto Approval** for the tools that auto mode can cover.
+
+-   **[Microsoft 365 connector permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-m365-permissions.md)**
+
+    Users set each Microsoft 365 connector capability to **Allow**, **Ask me first**, or **Deny**. With **Ask me first**, an approval card asks the user to allow or deny the action every time it runs, and auto mode never skips it.
+
+    Administrators set the upper limit with the **Approval gate** field on each connector scope in a policy. Users can choose only a stricter setting, and capabilities the policy limits show **Set by your organization**. Microsoft 365 scopes turned off on the instance now appear in the list. Existing policies keep their behavior, and the audit log records policy changes and Microsoft 365 write actions.
+
+-   **[Clearer approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-approval-flow-cowork.md)**
+
+    Approval cards in ServiceNow Arc now name the action and describe what's at stake, such as what the action changes or sends and whether it can be undone. For a command under a hard gate, the card names the command that triggered it.
+
+    **Allow always** is renamed **Always Allow**, and standing approvals in **Settings** &gt; **Approvals** describe the whole group of actions they cover.
+
+    Accessing a folder outside the workspace asks for approval with a soft gate that offers **Always Allow**, unless an approval pattern in the policy applies a hard gate to that call.
+
+-   **[Schedules management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-scheduled-tasks.md)**
+
+    Users create scheduled tasks from **Schedules** in the ServiceNow Arc sidebar or through chat. They can start from a blueprint or a custom reminder, and select **Reminder only** to get a notification instead of running a task.
+
+    The list shows every schedule, whether created in chat or in **Schedules**. Users can search the list, run, duplicate, edit, pause, or delete any schedule, and see when it last ran and when it runs next.
 
 

@@ -21,14 +21,14 @@ Role required: **sn\_customerservice\_agent**
 
 ## About this task
 
-Customers can record and send audio messages through WhatsApp, and agents can play them back in the CRM Workspace on NextWave. Agents can also record and send voice messages to customers where the channel supports it.
+Customers can record and send audio messages through WhatsApp, and agents can play them back in the CSM Configurable Workspace on NextWave. Agents can also record and send voice messages to customers where the channel supports it.
 
 Audio file format, size, and duration constraints are governed by the WhatsApp Cloud API specifications.
 
 ## Procedure
 
 1.  Play back a customer voice message
-2.  Open the WhatsApp interaction in the CRM Workspace.
+2.  Open the WhatsApp interaction in the CSM Configurable Workspace.
 
 3.  Locate the audio message in the conversation thread and use the playback controls \(play, pause, seek\) to listen.
 

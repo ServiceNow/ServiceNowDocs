@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -41,15 +41,15 @@ To create financial baselines, you can also use:
 
 5.  Create or compare financial baselines.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d255030e123">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d263796e123">
 
 Option
 
-</th><th align="left" id="d255030e126">
+</th><th align="left" id="d263796e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d255030e132">
+</th></tr></thead><tbody><tr><td id="d263796e132">
 
 **Create a baseline**
 
@@ -65,7 +65,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 3.  Select **Save**.
  A baseline is created capturing the planned costs.
 
-</td></tr><tr><td id="d255030e170">
+</td></tr><tr><td id="d263796e170">
 
 **Compare baselines**
 

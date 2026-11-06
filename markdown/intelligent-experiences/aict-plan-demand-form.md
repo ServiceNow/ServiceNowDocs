@@ -500,7 +500,7 @@ Demand Actual Cost
 Total cost incurred while working on a demand and demand tasks. Demand actual cost is calculated after the assignee of the demand task creates and submits a time card. When the time card is approved, the resource rate, which is derived from the rate card, labor rate, or system properties, is used to populate this field.
 
 </td></tr></tbody>
-</table>**Note:** If you're creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see .
+</table>**Note:** If you're creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-tables-with-demand-currency-fields.md).
 
 <table id="table_yqw_vj3_fdc"><thead><tr><th>
 

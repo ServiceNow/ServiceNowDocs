@@ -35,7 +35,7 @@ Modify a connector's crawl settings to alter the set of source system locations 
 
 2.  In the Connectors list, select the record for the external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, choose which settings you want to modify:
+3.  In the connector editor's **Settings** tab, choose which settings you want to modify:
 
     -   To modify connection settings for the external content connector, select **Connection settings**.
     -   To modify crawl settings for the external content connector, select **Crawl settings**.

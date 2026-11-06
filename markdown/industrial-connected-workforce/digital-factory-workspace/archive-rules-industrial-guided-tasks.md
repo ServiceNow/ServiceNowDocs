@@ -1,6 +1,6 @@
 ---
 title: Archive rules in Industrial Guided Tasks
-description: Archive rules in the Industrial Guided Tasks are designed to manage and organize records, so that you can focus on current and relevant data.
+description: Archive rules in the Industrial Guided Tasks manage and organize records, so that you can focus on current and relevant data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/archive-rules-industrial-guided-tasks.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Industrial Guided Tasks, Configure, Digital Factory Workspace, Indu
 
 # Archive rules in Industrial Guided Tasks
 
-Archive rules in the Industrial Guided Tasks are designed to manage and organize records, so that you can focus on current and relevant data.
+Archive rules in the Industrial Guided Tasks manage and organize records, so that you can focus on current and relevant data.
 
 The system automatically archives guided tasks that are inactive and that haven’t been updated in two years. The name of the rule that applies to guided tasks is "Archive inactive Guided Tasks after 2 years".
 

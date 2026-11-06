@@ -50,7 +50,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     To set up ServiceNow Otto for Virtual Agent, you configure an assistant.
 
-    See: [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+    See: [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
 -   **2. Review your Virtual Agent topic inventory**
 

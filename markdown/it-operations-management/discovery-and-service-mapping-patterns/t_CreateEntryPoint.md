@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-07"
 reading_time_minutes: 3
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -31,8 +31,14 @@ Entry points are modeled in the ServiceNow CMDB as CIs of endpoint type. Entry p
 Like any other CI type, an entry point contains several important definitions that apply to all CIs belonging to it:
 
 -   CI attributes are added as fields to the CMDB tables.
--   Identifiers help Service Mapping and Discovery to differentiate between new and existing CIs. For example, if there is an endpoint CI type for Active Directory Forest in the CMDB 360, and Service Mapping discovers an Active Directory Forest CI. Service Mapping processes this CI using identifiers and recognizes it as an updated version of the Active Directory Forest CI that exists in the system, not a new Active Directory Forest CI.
+-   Identifiers help Service Mapping and Discovery to differentiate between new and existing CIs. For example, if there is an endpoint CI type for Active Directory Forest in the CMDB 360, and Service Mapping discovers an Active Directory Forest CI. Service Mapping processes this CI using identifiers. It recognizes the CI as an updated version of the Active Directory Forest CI that exists in the system, not a new Active Directory Forest CI.
 -   CI type hierarchy. CMDB stores CI class in the form of a hierarchy where some CI classes are parents to other CI classes, who automatically derive their parent's attributes in addition to attributes you configure specifically for child CI classes. CI class hierarchy is used widely for configuring CI behavior, relationships, and display. Create standard entry points as child CIs for the endpoint CI type, which creates an extension for the cmdb\_ci\_endpoint table. For entry points of inclusion type create child CIs for the inclusion endpoint CI type extending the cmdb\_ci\_endpoint\_inclusion table. In an inclusion, a server hosts applications that are treated as independent objects.
+
+Create a standard entry point type when the application exposes a client-facing access point. Create an inclusion type entry point when no existing entry point type matches the application. Create one when the application runs inside, or is hosted by, another CI as an independent object.
+
+The CI discovered through an inclusion type entry point does not receive the default Runs on relationship to its host CI. Service Mapping creates a Contains relationship between the host CI and the included CI instead.
+
+When you create a connection to an inclusion type entry point in Pattern Designer, the attribute list excludes the host, hostname, and ip fields. An included CI is not independently reachable by host name or IP address.
 
 ## Procedure
 

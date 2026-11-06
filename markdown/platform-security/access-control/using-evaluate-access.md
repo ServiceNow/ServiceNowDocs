@@ -1,5 +1,5 @@
 ---
-title: Using Evaluate access
+title: Evaluate access
 description: Analyze identities on the ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/using-evaluate-access.html
@@ -9,10 +9,10 @@ classification: access-control
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
-# Using Evaluate access
+# Evaluate access
 
 Analyze identities on the ServiceNow AI Platform instance.
 
@@ -48,7 +48,7 @@ Analyze by \*
 
 </td><td>
 
-Analyze access for a user, a role, or a group
+Access analysis for a user, a role, or a group
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Select user \*
 
 </td><td>
 
-Specify a user name to select from the list.
+Name of the user to select from the list.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Rule type \*
 
 </td><td>
 
-Analyze access for the following:-   Table
+Access analysis for the following:-   Table
 -   UI page
 -   REST Endpoint
 -   Client callable script include
@@ -78,7 +78,7 @@ Select table \*
 
 </td><td>
 
-Specify a table name to select from the list.
+Name of the table to select from the list.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Select record
 
 </td><td>
 
-Specify a record name to select from the list.
+Name of the record to select from the list.
 
 </td></tr><tr><td>
 
@@ -94,17 +94,17 @@ Select field
 
 </td><td>
 
-Specify a field name to select from the list.
+Name of the field to select from the list.
 
 </td></tr></tbody>
 </table>4.  Specify the description in the **Description** field.
 
 5.  Select **Analyze permissions**.
 
-    The access results for the user are displayed. Similarly you can analyze the permissions of a Group or Role for the following rule types:
+    The access results for the user are displayed. Similarly, you can analyze the permissions of a group or role for the following rule types:
 
     -   Table \(record\)
-    -   Client callable scripts include
+    -   Client callable script include
     -   REST endpoints
     The access results are displayed.
 
@@ -162,7 +162,7 @@ Data filtration
 
 </td><td>
 
-A data filter is a form of access control designed to work along with the existing Access Control rules \(ACLs\) on your instance.
+A data filter is a form of access control that works along with the existing Access Control rules \(ACLs\) on your instance.
 
 </td></tr><tr><td>
 

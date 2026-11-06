@@ -42,7 +42,7 @@ Before activating a document intelligence skill in Now Assist, the following app
 
 -   Now Assist
 
-    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 -   Document Intelligence
 
@@ -50,7 +50,7 @@ Before activating a document intelligence skill in Now Assist, the following app
 
 -   Now Assist in Document Intelligence
 
-    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 Role required: admin

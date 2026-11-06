@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Defining equipment model templates, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Defining equipment model templates, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Create equipment model level types
@@ -37,18 +37,18 @@ You can create types that represent the different types of locations, areas, or 
 
 3.  In the Template Levels related list, select an equipment model template level.
 
-4.  In the Template Types related list, click **New**.
+4.  In the Template Types related list, select **New**.
 
 5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Level type name|Name of the level type that you are assigning to the selected equipment model template level. For example, you assign Production Cell to create a Production Cell type for a Work Center level.|
+    |Level type name|Name of the level type that you're assigning to the selected equipment model template level. For example, you assign Production Cell to create a Production Cell type for a Work Center level.|
     |Level name|Name of the selected equipment model template level.|
     |Application|Selected application scope. Global appears if this scope is the global application scope.|
     |Template|Name of the selected equipment model template.|
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 **Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)

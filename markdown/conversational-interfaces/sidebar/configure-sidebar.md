@@ -18,7 +18,7 @@ Install and configure Sidebar so agents can have real-time collaboration with ot
 
 ## Configuration overview
 
-Configuring Sidebar involves installing Sidebar, adding the Discuss button, configuring the Sidebar member query, and configuring participant finder. There are also additional steps if you want to integrate Sidebar with Microsoft Teams.
+Configuring Sidebar involves installing Sidebar, adding the Discuss button, configuring the Sidebar member query, and configuring participant finder. There are also additional steps if you need to integrate Sidebar with Microsoft Teams.
 
 1.  [Install Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/install-sidebar.md).
 
@@ -34,7 +34,7 @@ Configuring Sidebar involves installing Sidebar, adding the Discuss button, conf
 
 4.  [Configure the Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/configure-sidebar-member-query.md).
 
-    Configuring the Sidebar member query causes the participants list on the Start a Sidebar discussion screen to be pre-populated.
+    Configuring the Sidebar member query causes the participants list on the Start a Sidebar discussion screen to be prepopulated.
 
 5.  Enable Sidebar and Microsoft Teams users to communicate with each other by integrating the applications:
     1.  [Sidebar and Teams integration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/sidebar/sidebar-teams-overview.md).

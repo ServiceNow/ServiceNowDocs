@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 4
 keywords: [AI insights skill, Bring Your Own Skill, task configuration, ServiceNow Otto skill, Employee Works, custom script, Applies to, Employee Center]
-breadcrumb: [Task configuration, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Task configuration, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure a custom AI insights skill for a task type

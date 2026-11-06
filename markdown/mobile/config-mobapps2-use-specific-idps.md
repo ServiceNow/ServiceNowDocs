@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-mobapps
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -55,6 +55,10 @@ Admins can define the login experience for mobile users by associating app-speci
         \[Omitted image "mob-auth-servicenow-sso-login.png"\] Alt text: ServiceNow SSO login page on a mobile app screen.
 
     You can also enter the login URL for a custom login page.
+
+    To use identifier-first login \(IFL\) for the mobile app, enter `ifl_login.do` as the Login URL. IFL is opt-in, so mobile app logins use IFL only when this Login URL is set in the corresponding OAuth entity record. After the user enters an identifier, the instance routes the user to an authentication method based on the active IFL policies. For more information, see .
+
+    **Note:** If **Force local login** is enabled for the mobile app, IFL behavior at login isn't effective in mobile authentication. For more information about force local login, see [KB1560809](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1560809).
 
     **Important:**
 

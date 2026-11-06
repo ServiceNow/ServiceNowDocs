@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 16
+reading_time_minutes: 15
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -68,7 +68,7 @@ Financial records and widgets will display the costs based on the currency selec
 
 ## Display modes
 
-On the financials page for a planning item in Strategic Planning Workspace, you have Display Mode drop-down switch between different modes to view different formats of financial information of your planning items. These views provide the relevant and focused information that helps project managers and funding users to work on the financial planning.
+On the financials page for a planning item in Strategic Planning Workspace, you have Display Mode drop-down to switch between different modes and view different formats of financial information of your planning items. These views provide the relevant and focused information that helps project managers and funding users to work on the financial planning.
 
 -   Forecast
 -   Budget vs forecast
@@ -245,7 +245,7 @@ For more information on how to allocate, approve, and handle budget for planning
 
 Choose the cost type as the attribute to allocate and approve the budget for individual cost types such as labor, non-labor.
 
-Project managers can view the approved budget at the required time scale using the Budget vs forecast option from the display modes. As the work progresses and the actuals are captured, you can compare the budget and actual costs using the Budget vs forecast mode. You can also reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
+Project managers can view the approved budget at the required time scale using the Budget vs forecast option from the display modes. As the work progresses and the actuals are captured, you can compare the budget and actual costs using the Budget vs forecast mode. Reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
 
 Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
 
@@ -287,7 +287,7 @@ Budget allocation logic is divided into three focus areas: past fiscal periods, 
 
 Monetary benefit plans capture potential benefits accrued while executing a planning item. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a planning item. You can create and manage [monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md) and [non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.md) to capture the potential benefits of your planning items.
 
-Instead of switching between the financials record page and benefit plan tabs, you can now manage cost and benefit plans from the Cost and benefits view. You can also leverage the new financials experience with the side panel and grids for quick forecasting and tracking of monetary benefit plans.
+You can manage all cost plans and benefit plans from the Cost and benefits view. The side panel and grids provide quick forecasting and tracking of monetary benefit plans.
 
 ## Simple financials
 

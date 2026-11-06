@@ -95,7 +95,7 @@ The token identifies and authenticates the client application directly. Instead 
 |--------------------|-------------|
 |Highly trusted internal client applications in controlled environments where the app collects the user’s credentials directly.|The client application collects the user’s user name and password, and redirects them to the ServiceNow instance to obtain an access token. The workflow bypasses redirection and consent screens, but exposes user credentials to the client application. ServiceNow recommends that you implement the Resource owner password credentials grant only in legacy or controlled environments.|
 
-For more information about Resource owner password credentials grant workflow and configuration, see .
+For more information about Resource owner password credentials grant workflow and configuration, see [Resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/resource-owner-password-grant.md).
 
 ## Implicit Grants
 

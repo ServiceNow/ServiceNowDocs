@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-changes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 184
+last_updated: "2026-11-04"
+reading_time_minutes: 193
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -174,6 +174,19 @@ After an automated evaluation of an agentic AI asset, you can receive a list of 
 AI Control Tower
 
 </td><td>
+
+-   **[Security settings usability improvements and AI usage consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)**
+
+Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
+
+-   **[Agent containment list filter and rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
+
+Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
+
+-   **[Post-runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
+
 
 -   **[View input and output in trace details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-session-details.md)**
 
@@ -382,7 +395,7 @@ AI Search
 
 -   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
 
-If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
+If you have ServiceNow Otto for AI Search installed, ServiceNow Otto® Summary Genius Results are supported in global and workspace search. Activating ServiceNow Otto® Summary Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Summary Genius Results. Virtual Agent topic citations from ServiceNow Otto® Summary Genius Result answers in global or workspace search open the selected topic in the ServiceNow Otto® panel so the user can continue their conversation on that topic.
 
 -   **[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions-overview.md)**
 
@@ -493,9 +506,9 @@ Enables agents to edit the short description of a record directly from the heade
     -   Front-line case page
     -   CSM Interaction record page
     -   CSM default record page
--   **[Collaborate component in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
+-   **[Collaborate component in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md)**
 
-Use the Collaborate component in the contextual side panel in CRM Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
+Use the Collaborate component in the contextual side panel in CSM Configurable Workspace to communicate and collaborate with stakeholders in real time to resolve cases.
 
 -   **[SLA component on the Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)**
 
@@ -523,11 +536,11 @@ Reduce visual clutter through auto-dismissible alerts, which are enabled by defa
 
 -   **[Maximum number of active tabs in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-interface.md)**
 
-Agents can open up to 20 active tabs \(previously 10\) in CRM Workspace to handle multiple tasks simultaneously without losing context.
+Agents can open up to 20 active tabs \(previously 10\) in CSM Configurable Workspace to handle multiple tasks simultaneously without losing context.
 
 -   **[Open multiple lists in separate primary tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-list-views.md)**
 
-Agents can now open multiple lists in different CRM Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
+Agents can now open multiple lists in different CSM Configurable Workspace primary tabs, enabling seamless context switching between lists without losing their current workspace view.
 
 -   **[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)**
 
@@ -1291,7 +1304,7 @@ Enable customers to request quantity changes and shipping location updates for e
 
 -   **[Voice assistant intake for order exception requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)**
 
-Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the CRM Workspace.
+Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the CSM Configurable Workspace.
 
 -   **[Scripted extension points for order exception checks and quote thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-atp-api-call.md)**
 
@@ -1394,6 +1407,21 @@ Data products
 -   **[Edit a published data interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-data-interface-wdf.md)**
 
 Modify a published data interface to add columns, swap source tables, change the combination method, update column mappings, or adjust join conditions. Existing consumers continue to use the interface and must reconnect to pick up structural changes.
+
+
+</td></tr><tr><td>
+
+Decision tables
+
+</td><td>
+
+-   **[Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/manage-decision-tables-ms-excel.md)**
+
+Decision table exports now apply the access control lists \(ACLs\) to the data that's exported. Access is determined by the ACLs on the referenced table. This issue is related to PRB2067404.
+
+-   **[Decision tables roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-permissions.md)**
+
+Delegated developers can now create, read, edit, and delete decision tables that belong to an application they have delegated developer access to. This issue is related to PRB2065210.
 
 
 </td></tr><tr><td>
@@ -1529,9 +1557,15 @@ Dispute Rules Content Pack for Mastercard
 
 </td><td>
 
--   **Updated Mastercard chargeback ineligibility rule for fraud**
+-   **Updated Mastercard chargeback ineligibility decision tables for fraud \(RC 4870 and RC 4871\)**
 
-The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) correctly evaluates the fraud-report timing window. A dispute is ineligible only when it is not raised within three days of the transaction being reported lost, stolen, or never received in the fraud and loss database. The condition also requires a fraud report ID to be present. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) in the **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision table reverses the comparison for the fraud-report timing window. Before this release, a dispute was ineligible when it was raised fewer than three days after the transaction was reported lost, stolen, or never received in the fraud and loss database. A dispute is ineligible when it is raised more than three days after the report. The condition also requires a fraud report ID to be present; this requirement is unchanged. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+
+The **Mastercard 4870 - Chip Liability Shift** and **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision tables each change the ineligibility condition for repeat fraud chargebacks on the same Mastercard card account. Before this release, a dispute was ineligible when the **Chargeback transactions count** was three or more. The count included chargebacks under RC 4837, RC 4870, or RC 4871, regardless of when they were submitted. The condition uses a new input, **Fraud CB count before auth date**, and a dispute is ineligible when the count is two or more. The new count includes only chargebacks that were submitted before the authorization date of the disputed transaction. The chargeback ineligibility reason text in both decision tables is updated to specify fraud chargebacks.
+
+-   **Updated Mastercard chargeback ineligibility decision table for Refund Not Processed \(RC 4853\)**
+
+The **Mastercard 4853 - Credit Not Processed** decision table adds a condition to the ineligibility rule for RC 4853 \(Refund Not Processed\). Before this release, a dispute was ineligible when the transaction had one of the merchant category codes \(MCCs\) 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The MCC list is unchanged. A dispute with one of these MCCs is ineligible only when the merchant provided a voucher for future use and disclosed it in its terms and conditions. The new condition checks that the answer to the merchant voucher question in the dispute questionnaire is Yes. The chargeback ineligibility reason text is updated to describe the voucher condition.
 
 
 -   **[July Store Release: Build and update Mastercard chargeback ineligibility rules — Processing Errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
@@ -1800,6 +1834,15 @@ External Content Connectors
 
 </td><td>
 
+-   **[Secure search for the Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/amazon-s3-external-content-connector.md)**
+
+The Amazon S3 external content connector adds support for secure search. The **Settings** tab for this connector includes a new **User mapping settings** screen. On this screen, you can select one of three permission modes for the connector and optionally configure user mappings. You can also configure user permission crawls for the connector if using a permission mode that requires them.
+
+-   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/analytics-external-content-connectors.md)**
+
+The **Quota usage** metric has been renamed **Connector limit** for clarity.
+
+
 -   **[Crawl schedules tab renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-content-crawl-external-content-connector.md)**
 
 In the external content connector editor, the **Crawl schedules** tab has been renamed to **Manage crawls**.
@@ -1836,6 +1879,11 @@ Map source system user and group permissions assigned via RBAC roles to users in
 Financial Services Card Operations
 
 </td><td>
+
+-   **UI policy update for the merchant voucher question on Refund Not Processed disputes**
+
+The Mastercard-specific merchant voucher question in the dispute questionnaire displays for Refund Not Processed disputes when the transaction has one of the following merchant category codes \(MCCs\): 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The UI policy **Field: TransactionMerchantVoucherFutureUseInd - Show/Hide/Mandatory \(Consumer\)** controls this display. Before this release, the UI policy displayed the question for Goods or Services Not Provided disputes and for Travel and Entertainment disputes where the merchant issued a voucher. The question and the MCC list are unchanged. Dispute agents answer whether the merchant provided a voucher for future use and disclosed it in its terms and conditions. When Dispute Rules Content Pack for Mastercard is installed, the answer determines whether a chargeback for reason code \(RC\) 4853 is eligible.
+
 
 -   **Price-discrepancy question for Visa consumer disputes**
 
@@ -1893,6 +1941,31 @@ Financial Services Operations Core
 
 </td><td>
 
+-   **Processing code field values updated for Visa compliance**
+
+The `processing_code` field choice values in the Financial transaction table have been updated to align with current Visa data field specifications. Existing choice values have been updated with refined labels and descriptions; new choice values have been added to support additional transaction types.
+
+The updated choice values include:
+
+    -   `00` — Goods/Service Purchase - Debit
+    -   `01` — Cash Disbursement \(for example, withdrawal or cash advance\) - Debit
+    -   `02` — Adjustment - Debit
+    -   `10` — Account Funding or Card Absent Account Funding
+    -   `11` — Quasi-Cash Transaction - Debit or Internet Gambling Transaction
+    -   `19` — Fee Collection - Debit
+    -   `20` — Return of Goods - Credit, Credit Transaction, Credit Voucher
+    -   `22` — Adjustment - Credit
+    -   `26` — Original Credit
+    -   `28` — Activation and Load / Load
+    -   `29` — Funds Disbursement - Credit
+    -   `30` — Available Funds Inquiry
+    -   `39` — Eligibility Inquiry
+    -   `50` — Bill Payment \(U.S. only\)
+    -   `53` — Payment \(U.S. only\)
+    -   `72` — Activation \(POS\)
+Dispute agents and administrators see these updated labels and descriptions in transaction UI drop-down lists and data entry forms. Existing transactions require no action. Existing choice values not listed here remain unchanged.
+
+
 -   **[Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md)**
 
 Filter service definitions using the case type selector in FSO with the predefined CSM implementation. For upgraded instances, existing agent criteria and customer condition data is automatically migrated from the deprecated FSO tables to the CSM tables during upgrade. No manual migration is required.
@@ -1928,30 +2001,6 @@ Renamed the question "Explain why credit presented does not apply" to "Provide t
 -   **Updated Spoke action wiring for new questionnaire fields**
 
 Added the **Date facilities were withdrawn** and **Date cardholder checked out from hotel** fields to the **Submit Dispute Questionnaire** and **Look up Dispute Details Response Parser** spoke actions, and added **CE Transaction Details** as a read-back field on **Look up Dispute Details Response Parser**. See [Financial Services Card Operations 2026 September Monthly release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-card-operations-rn.md) for the corresponding questionnaire questions.
-
--   **Processing code field values updated for Visa compliance**
-
-The `processing_code` field choice values in the Financial transaction table have been updated to align with current Visa data field specifications. Existing choice values have been updated with refined labels and descriptions; new choice values have been added to support additional transaction types.
-
-The updated choice values include:
-
-    -   `00` — Goods/Service Purchase - Debit
-    -   `01` — Cash Disbursement \(for example, withdrawal or cash advance\) - Debit
-    -   `02` — Adjustment - Debit
-    -   `10` — Account Funding or Card Absent Account Funding
-    -   `11` — Quasi-Cash Transaction - Debit or Internet Gambling Transaction
-    -   `19` — Fee Collection - Debit
-    -   `20` — Return of Goods - Credit, Credit Transaction, Credit Voucher
-    -   `22` — Adjustment - Credit
-    -   `26` — Original Credit
-    -   `28` — Activation and Load / Load
-    -   `29` — Funds Disbursement - Credit
-    -   `30` — Available Funds Inquiry
-    -   `39` — Eligibility Inquiry
-    -   `50` — Bill Payment \(U.S. only\)
-    -   `53` — Payment \(U.S. only\)
-    -   `72` — Activation \(POS\)
-Dispute agents and administrators see these updated labels and descriptions in transaction UI drop-down lists and data entry forms. Existing transactions require no action. Existing choice values not listed here remain unchanged.
 
 
 -   **[Updated subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)**
@@ -2241,6 +2290,17 @@ The new option to add AI instructions at node, property, and edge level when cre
 
 </td></tr><tr><td>
 
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   **[Catalog variable collection and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/catalog-variable-collection-slot-fill-l1-sd-ai-spec.md)**
+
+The L1 IT Service Desk AI Specialist now fills catalog item variables from the incident and the caller's details and shows requesters what it already captured, so requesters answer fewer questions. It also now uses dynamic response authoring for L1 IT Service Desk AI Specialist Catalog submission responses. Default instructions are provided so the agent composes each message fresh instead of relying on a fixed template.
+
+
+</td></tr><tr><td>
+
 Live Connect
 
 </td><td>
@@ -2386,6 +2446,10 @@ Next Experience
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
 
 
 -   **[Updated Coral theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)**
@@ -3144,6 +3208,10 @@ When you are moved to Next Experience navigation:
     -   The Analytics Overview page and all library pages now contain their own Platform Analytics navigation tree.
     -   The navigation path **Self-Service** &gt; **Dashboards** redirects to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
     -   The navigation path **Reports** &gt; **View / Run** redirects to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-view-acl-dashboard.md)**
+
+The ACL Assessment for Reports, removed in Australia Patch 4, comes back in Patch 8 with support for Platform Analytics data visualizations. The condition builder for the data source is now also evaluated.
+
 -   **[Sort library records by column values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/find-dashboard-library.md)**
 
 Select the header of any column in a library page to sort the library by that column.
@@ -3223,6 +3291,11 @@ When scheduling the email of dashboards or data visualizations, limit recipients
 -   **[Public reports are unpublished](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-permission-issues.md)**
 
 On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
+
+
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-view-acl-dashboard.md)**
+
+The ACL Assessment for Reports that was removed in Australia Patch 4 is back with support for Platform Analytics data visualizations. It also scans data source conditions for restricted fields.
 
 
 </td></tr><tr><td>
@@ -3534,6 +3607,23 @@ Public Sector Digital Services
 
 </td><td>
 
+-   **[Enhancements to Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-inv-case-management.md)**
+    -   Render all entities, evidence, tasks, and related cases as an interactive knowledge graph with Case Link Analysis Data Visualization, and set any node as the home node to re-map relationships. Add ​control and transparency to entity updates with Master Index Versioning, creating an immutable, time-stamped snapshot of that entity that cannot be altered, and a complete audit trail – who changed it, when they changed it, what changed. Update entities across all cases or create a case-specific version for an investigation for a unified, searchable record of every entity across your cases \(Persons, Vehicles, Organizations, Locations, Property, Firearms\).
+
+    -   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the `Create Work Order` button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace and context-switching between systems.
+
+    -   Added lead management capabilities for lead submission, intake, triage, assignment, tracking, and investigation workflows, including portal experiences for submitting and monitoring leads.
+
+-   **Use Page Patterns with GOV.UK Developer Toolkit**
+    -   The GOV.UK Developer Toolkit has been updated to include three page patterns that confirm to GOV.UK Design System guidelines:
+
+        -   Question pages: forms experience where the questions are surfaced one by one on the UI
+        -   Step by step navigation: Where a user can view all the steps required to complete a task in one view
+        -   Confirmation page: Where a user sees a confirmation page after submitting their answer to the last question
+-   ****
+    -   The Identity Provider Integration plugin \(sn\_idp\_integ\) allows provides ServiceNow developers with the data model foundation to develop OpenID Connect \(OIDC\) integrations that authenticate and verify constituent identities through approved government OpenID Connect \(OIDC\) providers — ID.me \(US\), myID \(Australia\), GOV.UK One Login \(UK\) — replacing email-only identification. It standardizes and enhances the identity verification process, delivering a provider-neutral OIDC framework for capturing and storing key identity provider data, including identity provider issuer, identity provider ID, and assurance level from OIDC providers on top of the existing Multi-Provider SSO \(MPSSO\) plugin.
+
+
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
@@ -3579,7 +3669,7 @@ Applicants can select a specific document type from a pre-configured, category-s
 
 -   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -3761,7 +3851,7 @@ WhatsApp direct integration gives agents richer conversational tools and gives c
 
 -   **[Call Wrap-Up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-during-active-call.md)**
 
-Manage wrap-up during active calls using new UI components in the Active Call window in the CRM Workspace:
+Manage wrap-up during active calls using new UI components in the Active Call window in the CSM Configurable Workspace:
 
     -   An **Open Wrap-Up** button to initiate the wrap-up process during an active call.
     -   **Minimize** and **Expand** controls on the wrap-up modal to manage screen space while remaining on the call.
@@ -3781,7 +3871,7 @@ Adds a Dynamic portal object instance option to the Portal Object widget \(turne
 
 -   **[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)**
 
-The following UI components are available in the Active Call window, enabled via ICC in the CRM Workspace:
+The following UI components are available in the Active Call window, enabled via ICC in the CSM Configurable Workspace:
 
     -   A **Help Request** button to seek supervisor assistance during an active call.
     -   A **Cancel Help Request** or **End Help Request** button to cancel and end a submitted help request at any time during the active call.
@@ -3988,6 +4078,39 @@ Manage REST GraphQL security with path-based ACLs that are enforced without need
 
 </td></tr><tr><td>
 
+ServiceNow Arc
+
+</td><td>
+
+-   **[Auto mode for each chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-auto-mode-chat.md)**
+
+Users choose **Standard** or **Auto** approval for each chat in ServiceNow Arc from the message box, and set a default approval mode in **Settings** &gt; **Approvals** for new chats and background runs, such as scheduled tasks.
+
+To make auto mode available, administrators turn on the Auto Mode capability \(**auto\_approval**\), which is off by default, and set tool gates to **Auto Approval** for the tools that auto mode can cover.
+
+-   **[Microsoft 365 connector permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-m365-permissions.md)**
+
+Users set each Microsoft 365 connector capability to **Allow**, **Ask me first**, or **Deny**. With **Ask me first**, an approval card asks the user to allow or deny the action every time it runs, and auto mode never skips it.
+
+Administrators set the upper limit with the **Approval gate** field on each connector scope in a policy. Users can choose only a stricter setting, and capabilities the policy limits show **Set by your organization**. Microsoft 365 scopes turned off on the instance now appear in the list. Existing policies keep their behavior, and the audit log records policy changes and Microsoft 365 write actions.
+
+-   **[Clearer approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-approval-flow-cowork.md)**
+
+Approval cards in ServiceNow Arc now name the action and describe what's at stake, such as what the action changes or sends and whether it can be undone. For a command under a hard gate, the card names the command that triggered it.
+
+**Allow always** is renamed **Always Allow**, and standing approvals in **Settings** &gt; **Approvals** describe the whole group of actions they cover.
+
+Accessing a folder outside the workspace asks for approval with a soft gate that offers **Always Allow**, unless an approval pattern in the policy applies a hard gate to that call.
+
+-   **[Schedules management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-scheduled-tasks.md)**
+
+Users create scheduled tasks from **Schedules** in the ServiceNow Arc sidebar or through chat. They can start from a blueprint or a custom reminder, and select **Reminder only** to get a notification instead of running a task.
+
+The list shows every schedule, whether created in chat or in **Schedules**. Users can search the list, run, duplicate, edit, pause, or delete any schedule, and see when it last ran and when it runs next.
+
+
+</td></tr><tr><td>
+
 ServiceNow IDE
 
 </td><td>
@@ -4002,6 +4125,11 @@ The Activity Bar includes additional views for bookmarks and recent activity, an
 ServiceNow Lux Lab for VS Code
 
 </td><td>
+
+-   **[Page collections renamed page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page-variant-servicenow-ai-experience-lab-for-vs-code.md)**
+
+Page collections are now called page variants. The **Lux: Create page variant** command and its prompts and messages use the new name. When you create a page variant in a new project, the extension saves it in the `_variants` folder. In projects that already have a `_collections` folder, the extension continues to create page variants in `_collections`.
+
 
 -   **ServiceNow Lux Lab for VS Code**
 
@@ -4273,6 +4401,11 @@ The **Generate resolution notes** UI action was added to OT incident records in 
 ServiceNow Otto for Software Asset Management \(SAM\)
 
 </td><td>
+
+-   **[Software Spend Detection Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/spend-detection-sam-workspace.md)**
+
+The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
+
 
 -   **[Troubleshoot button alongside the error message on the Integration profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)**
 
@@ -5098,9 +5231,9 @@ Zero Copy Connector for ERP
 
 </td><td>
 
--   ****
+-   **[Building flows with the Zero Copy Connector for ERP Use ERP Data action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-build-flow-operation.md)**
 
-[Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-build-flow-operation.md)Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
+Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
 
 
 -   **[Simplified process for adding a REST entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-a-rest-entity-to-a-model-operation.md)**

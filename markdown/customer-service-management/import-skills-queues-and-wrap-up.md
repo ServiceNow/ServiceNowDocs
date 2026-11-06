@@ -1,18 +1,20 @@
 ---
-title: Importing skills, queues, and wrap-up codes
-description: Import the skills, queues, and wrap-up codes that you have configured in your contact center provider to your ServiceNow instance.
+title: Import skills, queues, and wrap-up codes
+description: Import the skills, queues, and wrap-up codes that you configured in your contact center provider to your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/import-skills-queues-and-wrap-up.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---
 
-# Importing skills, queues, and wrap-up codes
+# Import skills, queues, and wrap-up codes
 
-Import the skills, queues, and wrap-up codes that you have configured in your contact center provider to your ServiceNow® instance.
+Import the skills, queues, and wrap-up codes that you configured in your contact center provider to your ServiceNow® instance.
+
+Contact centers can use the OpenFrame and Interaction Controls Component \(ICC\) framework that is available from the ServiceNow® platform. The contact centers must enable this capability to use the ICC features.
 
 ## Routing
 
@@ -44,4 +46,12 @@ Wrap-up codes are labels or categories that agents use to classify the outcome o
 For example, wrap-up codes can indicate whether a call was for technical support, billing inquiries, or a product return. Accurately assigning wrap-up codes helps data get correctly captured for future reference and analysis.
 
 To import wrap-up codes from your contact center to your ServiceNow® instance, refer to [Import wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/import-wrap-up.md).
+
+**Warning:** Importing many queues, skills, or wrap-up codes can cause the import transaction to time out. The following base system transaction quota rules limit how long the transaction can run:
+
+-   REST Batch API request timeout
+-   REST Batch API request timeout multipart
+-   REST and JSON Catch All
+
+Administrators can customize these rules as required.
 

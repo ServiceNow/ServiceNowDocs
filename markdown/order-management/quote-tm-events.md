@@ -1,6 +1,6 @@
 ---
 title: Transaction events
-description: Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
+description: Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-events.html
 release: australia
@@ -12,13 +12,13 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Transaction events
 
-Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
+Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in ServiceNow CPQ.
 
 Events are activated by buttons on the quote layout or by API calls, and typically help users transition quotes from one stage to another. When an event fires, it can run rule groupings, call integrations, and trigger stage transitions.
 
 ## Header-level system events
 
-System events are standard behaviors provided by default. When the ServiceNow Quote Experience is embedded in CPQ, the user sees buttons on the quote interface corresponding to transaction-level events.
+System events are standard behaviors provided by default. When the ServiceNow Quote Experience is embedded in ServiceNow CPQ, the user sees buttons on the quote interface corresponding to transaction-level events.
 
 Transaction-level system events:
 
@@ -64,7 +64,7 @@ Transaction line-level system events are represented as buttons on the quote lin
 
 ## Repricing events
 
-When Pricing is enabled, the **Reprice** action drives both manual and automatic repricing. To enable Pricing, see [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-external-connection-logik.md)
+When Pricing is enabled, the **Reprice** action drives both manual and automatic repricing. To enable Pricing, see [Set up an external connection in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-external-connection-logik.md)
 
 -   Manual reprice — Attach the **Reprice** action to a button on the quote layout so users can recalculate pricing on demand.
 -   Automatic reprice — Default special-event triggers, such as **upsertLines** when a configuration is added, ship with the **Reprice** action attached, so pricing runs without the user selecting **Reprice**. You can disable these default triggers per event if you don't want automatic repricing for a given event.
@@ -85,7 +85,7 @@ The setting includes a validity period that excludes products validated within a
 Two line-level system fields support this function: **txn.line.configuration.status** \(Boolean\) and **txn.line.configuration.validatedAt** \(date\).
 
 -   **[Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-custom-event.md)**  
-Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in CPQ.
+Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in ServiceNow CPQ.
 
 **Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

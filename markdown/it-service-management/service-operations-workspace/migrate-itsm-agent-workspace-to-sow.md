@@ -79,7 +79,7 @@ Complete the post-migration tasks for each configuration or customization that y
 -   [Perform post-migration tasks for field decorators form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/verify-migration-status-field-declarative-actions-aw-sow.md)
 
 -   **[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
-Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+Migrate configurations and customizations for various ITSM Agent Workspace features to SOW for ITSM.
 
 **Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)
 

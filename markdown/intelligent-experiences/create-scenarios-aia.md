@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-scenarios-aia.html
 release: australia
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 keywords: [agentic evaluation, automated evaluation, automatic evaluation, batch testing, test scenarios, test objectives]
 breadcrumb: [AI Agent Studio, Enable AI experiences]
@@ -29,21 +29,21 @@ Role required: sn\_aia.admin
 
     After selecting an agentic AI asset, you're directed to the node map view that shows the components, such as AI agents or tools.
 
-3.  Select the pencil icon \[Omitted image "pencil-outline-24.svg"\] to open the guided setup for the agentic AI asset.
+3.  Select the pencil icon \[Omitted image "pencil-outline-24.svg"\] Alt text: to open the guided setup for the agentic AI asset.
 
 4.  Scroll to the **Test scenarios** section, then select **Add scenarios**.
 
 5.  Select an input method.
 
-<table><thead><tr><th align="left" id="d220561e129">
+<table><thead><tr><th align="left" id="d229924e130">
 
 Input method
 
-</th><th align="left" id="d220561e132">
+</th><th align="left" id="d229924e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220561e138">
+</th></tr></thead><tbody><tr><td id="d229924e139">
 
 **__Table records__**
 
@@ -51,7 +51,7 @@ Description
 
 Select records from an existing table to test against. You can use table fields as variables when you craft your test objective. Continue to the next step.
 
-</td></tr><tr><td id="d220561e148">
+</td></tr><tr><td id="d229924e149">
 
 **__Manual entry__**
 
@@ -66,7 +66,7 @@ Write your own test objectives without using table records. You won't be able to
 
     For the most thorough and effective testing, you should choose many records that cover a wide range of scenarios your agentic AI asset can encounter.
 
-    You can search for specific records by selecting the magnifying glass icon \[Omitted image "magnifying-glass-fill-24.svg"\] or select **Filter** to narrow down the types of records on the table to those that fulfill certain criteria.
+    You can search for specific records by selecting the magnifying glass icon \[Omitted image "magnifying-glass-fill-24.svg"\] Alt text: or select **Filter** to narrow down the types of records on the table to those that fulfill certain criteria.
 
 8.  Select the maximum number of records to include.
 
@@ -76,7 +76,7 @@ Write your own test objectives without using table records. You won't be able to
 
     The test objective is a starting phrase or user utterance for triggering the agentic AI asset.
 
-    If you're using table records, you can select **Insert related columns** to include table fields as variables. You can use variables to use the same test objective on multiple records.
+    If you're using table records, you can select **Insert related columns** to include table fields as variables. Variables let you reuse the same test objective across multiple records.
 
     If you're creating scenarios manually, each scenario will need its own test objective.
 
@@ -91,5 +91,5 @@ Your agentic AI asset has test scenarios that can be used for automated evaluati
 
 ## What to do next
 
-Add new scenarios to your agentic AI asset, such as ones on different tables, select **Run test** then **Evaluation** to use the scenarios in an automated evaluation. See [Launch an automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md) for the full process details.
+To use scenarios in an automated evaluation, select **Run test**, then **Evaluation**. You can add scenarios from different tables first. See [Launch an automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md) for the full process details.
 

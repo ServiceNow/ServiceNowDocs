@@ -1,6 +1,6 @@
 ---
 title: Exploring Integration Hub
-description: ServiceNow Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can request Integration Hub to call external systems using integration APIs from the Action Designer Script step, run the Script step on the ServiceNow MID Server, and activate protocol steps like REST, SOAP, and PowerShell.
+description: ServiceNow Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can call external systems using integration APIs from the Action Designer Script step or run the Script step on the ServiceNow MID Server. You can also activate protocol steps such as REST, SOAP, and PowerShell.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/exploring-integration-hub.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Integration Hub, Workflow Data Fabric]
 
 # Exploring Integration Hub
 
-ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can request Integration Hub to call external systems using integration APIs from the Action Designer Script step, run the Script step on the ServiceNow® MID Server, and activate protocol steps like REST, SOAP, and PowerShell.
+ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can call external systems using integration APIs from the Action Designer Script step or run the Script step on the ServiceNow® MID Server. You can also activate protocol steps such as REST, SOAP, and PowerShell.
 
 ## Inbound and outbound integration
 
@@ -30,7 +30,7 @@ Build reusable integrations with third-party systems and call them from anywhere
 
 -   **Create spokes**
 
-    Build spokes using Spoke Generator to automate integration tasks by creating a sequence of reusable actions to develop custom integrations. For more information, see .
+    Build spokes using Spoke Generator to automate integration tasks by creating a sequence of reusable actions to develop custom integrations. For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md).
 
 -   **Use spokes for base system integrations**
 
@@ -80,7 +80,7 @@ Integration Hub provides process owners and developers these benefits.
 
 ## Development process
 
-When developing a custom integration, develop all actions for the integration within a scoped application. When deployed to a target instance, these actions are grouped as a spoke in Workflow Studio. Brand the spoke by adding a custom icon to the application record. To learn more about application development, see Build applications.
+When developing a custom integration, develop all actions for the integration within a scoped application. When deployed to a target instance, these actions are grouped as a spoke in Workflow Studio. Brand the spoke by adding a custom icon to the application record. To learn more about application development, see [Build applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md).
 
 When developing spokes, flow and action designers typically perform these application development tasks.
 
@@ -93,7 +93,7 @@ When developing spokes, flow and action designers typically perform these applic
     -   Publish to the ServiceNow Store as an application that customers can request for their environments.
     -   Publish to ServiceNow Share to provide content to other customers in the ServiceNow community.
 
-Review Workflow Studio design considerations in the Architecture Overview.
+Review Workflow Studio design considerations in the [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-arch-overview.md).
 
 **Parent Topic:**[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub.md)
 

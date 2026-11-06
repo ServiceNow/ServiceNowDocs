@@ -19,8 +19,6 @@ Configure access rules in AI Agent Studio for AI agents, agentic workflows, Mode
 
 Role required: sn\_aia.admin
 
-## About this task
-
 ## Procedure
 
 1.  Configure security controls for an AI Agent.
@@ -29,7 +27,7 @@ Role required: sn\_aia.admin
 
 2.  Configure security controls for an agentic workflow.
 
-    To configure access rules controls for an agentic workflow, see [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aw-new.md).
+    To configure access rules for an agentic workflow, see [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aw-new.md).
 
 3.  Configure security controls in Model Context Protocol Servers.
 

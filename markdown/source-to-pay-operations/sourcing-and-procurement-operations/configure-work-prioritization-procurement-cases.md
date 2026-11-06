@@ -22,7 +22,7 @@ Configure the **Priority defaulting for procurement cases** decision table to au
 Before configuring work prioritization for procurement cases, confirm the following:
 
 -   The Procurement Case Management application \(`sn_spend_psd`\) is installed and active on the instance.
--   The Shopping Hub application \(`sn_shop`\) is installed and active — it provides shared priority utilities used by all three record types.
+-   The Shopping Hub application \(`sn_shop`\) is installed and active — it provides the shared utilities that the procurement case priority calculation calls.
 -   The following priority levels exist and are active in the instance's priority choice list: Critical, High, Moderate, Low, and Planning.
 -   Your organization has agreed on the business criteria for prioritizing procurement cases before you open the decision table. The table ships with no rules — all conditions must be defined from scratch.
 

@@ -40,7 +40,7 @@ Remove yourself or your groups from the  **Assigned to ** and  **Assignmen
 -   **[Request bulk exception in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-bulk-edit-request-exception.md)**  
 Request an exception for multiple findings concurrently using the bulk edit feature instead of manually selecting each record.
 -   **[Bulk edit risk modification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/bulk-edit-risk-reduction.md)**  
-Use bulk edit risk reduction to request an adjusted risk rating, and optionally apply compensating controls, across multiple vulnerable items that share a single vulnerability.
+Use bulk edit risk modification to request an adjusted risk rating, and optionally apply compensating controls, across multiple vulnerable items that share a single vulnerability.
 -   **[Bulk edit risk modification restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/bulk-edit-risk-restrictions.md)**  
 Risk modification in the Bulk Edit dialog is restricted in specific scenarios based on the vulnerabilities mapped to the selected items and the vulnerability configuration.
 -   **[Request risk modification for findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/reduce-risk-bulk-edit.md)**  

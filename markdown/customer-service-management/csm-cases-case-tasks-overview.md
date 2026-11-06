@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -221,6 +221,8 @@ This user can work on case tasks that they’ve created and that are assigned to
 -   Update the status of case tasks.
 -   Perform additional actions from case tasks such as sending email.
 
+**Note:** This is a fulfiller role.
+
 </td></tr><tr><td>
 
 Relationship agent\[sn\_customerservice.relationship\_agent\]
@@ -277,7 +279,7 @@ Can view the **Account**, **Contact** and **Consumer** fields for the case tasks
 
 **Note:** Available with the Customer Data Models for B2B2C plugin \(com.sn\_csm\_b2b\_consumers\).
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td class="sub-head" id="case-task-contributor-roles" colspan="2">
 
 Contributor roles
 
@@ -287,17 +289,17 @@ Account contributor\[sn\_customerservice.account\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases of the accounts they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
 
 </td></tr><tr><td>
 
-Consumer contributor\[sn\_customerservice.consumer\_contributor\]
+Consumer contributor \[sn\_customerservice.consumer\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases of consumers that they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
 
 </td></tr><tr><td>
 
@@ -305,8 +307,8 @@ Service organization contributor\[sn\_customerservice.service\_organization\_con
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td>
 
@@ -314,8 +316,17 @@ Self contributor\[sn\_customerservice.self\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
+
+</td></tr><tr><td>
+
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases that they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in BLSP.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -340,7 +351,9 @@ This user can:-   View and update case tasks and the fields that they have acces
 -   View the **Parent case**, **Account**, **Contact** and **Consumer** fields.
 
 </td></tr></tbody>
-</table>## Case tasks and external user roles
+</table>For details on the contributor user roles included with various plugins, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md), and for the overview of contributor user roles [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-contributor-users.md).
+
+## Case tasks and external user roles
 
 End users and requesters can access case tasks from the Customer and Consumer Service Portals by selecting **My Lists** &gt; **My Case Tasks**.
 
@@ -370,4 +383,9 @@ To run this scheduled job:
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 2.  Select **Update case task fields** in the **Name** field.
 3.  Select **Execute Now**.
+
+**Related topics**  
+
+
+[Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md)
 

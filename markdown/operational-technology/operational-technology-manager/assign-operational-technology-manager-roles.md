@@ -24,7 +24,7 @@ Role required: admin
 
 Users with the roles that are listed in the following table can use the Operational Technology Manager application.
 
-If you want to configure site users, you can create and assign user criteria for equipment model entity site users. For more information, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
+If you want to configure site users, you can create and assign user criteria for equipment model entity site users. For more information, see [Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 <table id="table_q55_vpq_4nb"><thead><tr><th>
 

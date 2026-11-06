@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d205940e151">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d206389e151">
 
 Method
 
-</th><th align="left" id="d205940e154">
+</th><th align="left" id="d206389e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d205940e160">
+</th></tr></thead><tbody><tr><td id="d206389e160">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d205940e211">
+</td></tr><tr><td id="d206389e211">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d205940e268">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d206389e268">
 
 Email message window
 
-</th><th align="left" id="d205940e271">
+</th><th align="left" id="d206389e271">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d205940e280">
+</th></tr></thead><tbody><tr><td id="d206389e280">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d205940e297">
+</td></tr><tr><td id="d206389e297">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d205940e306">
+</td></tr><tr><td id="d206389e306">
 
 **Use template**
 

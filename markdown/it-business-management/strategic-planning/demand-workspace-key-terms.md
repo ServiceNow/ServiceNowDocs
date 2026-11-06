@@ -104,7 +104,7 @@ Demand experience
 
 </td><td>
 
-A configuration record that defines a governance process, such as Marketing or IT. It controls the form view, modules, and dynamic attributes that appear on a demand using that experience. For more information,see [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-experiences-dw.md).
+A configuration record that defines a governance process, such as Marketing or IT. It controls the form view, modules, and dynamic attributes that appear on a demand using that experience. For more information, see [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-experiences-dw.md).
 
 </td></tr><tr><td>
 

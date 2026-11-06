@@ -44,15 +44,15 @@ The assign logic provides you with the flexibility and control for users when as
 
 4.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d294045e157">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d303954e157">
 
 Assign work choices
 
-</th><th align="left" id="d294045e160">
+</th><th align="left" id="d303954e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d294045e166">
+</th></tr></thead><tbody><tr><td id="d303954e166">
 
 **Manual Assign**
 
@@ -64,7 +64,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d294045e197">
+</td></tr><tr><td id="d303954e197">
 
 **Auto Assign**
 
@@ -85,7 +85,7 @@ The system automatically identifies all resources based on the selected primary 
 
 8.  Double-click in the Resource status column and select **Approve** to confirm the assigned work so the resource can start working.
 
-    While assigning the work, you can easily identify if a resource is available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), even for the future periods, using the iconography.
+    The resource status icons indicate availability: available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), including future periods.
 
 9.  You can change the status of any assigned assignments using one of the following options.
 

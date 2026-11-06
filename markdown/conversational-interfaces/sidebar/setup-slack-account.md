@@ -22,18 +22,18 @@ Role required: none
 
 ## Procedure
 
-1.  From the Slack [developer program](https://api.slack.com/developer-program), sign in to your Slack developer account.
+1.  From the Slack [developer program](https://api.slack.com/developer-program), log in to your Slack developer account.
 
 2.  On the Slack dashboard, select **Your apps** from the upper right-hand corner of the screen.
 
-3.  From the Your Apps screen, select **Create an App.**
+3.  From the Your Apps screen, select **Create an App**
 
 4.  On the Create an app dialog, select **From scratch**.
 
 5.  On the Name app &amp; choose workspace dialog, fill out the fields:
 
     -   App Name - name for the application you are going to create. Make a note of the app name because you will need it in the remaining procedures.
-    -   Pick a workspace to develop your app in - from the drop-down list, select the workspace where your app will reside. Make a note of the app name because you will need it in the remaining procedures.
+    -   Pick a workspace to develop your app in - from the drop-down list, select the workspace where your app will reside. Make a note of the workspace name because you will need it in the remaining procedures.
 6.  Select **Create App**.
 
 7.  In a browser window, enter `https://api.slack.com/apps` and select the app you created in step 5.

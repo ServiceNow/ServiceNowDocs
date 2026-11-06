@@ -1,6 +1,6 @@
 ---
 title: Create and edit shift in Service Operations Workspace
-description: Shift manager can create a new shift using the Schedule menu or Teams menu in Service Operations Workspace
+description: Create or edit a shift in Service Operations Workspace from the Schedule or Teams menu if you have the rota\_manager or rota\_admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-a-schedule-in-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-
 
 # Create and edit shift in Service Operations Workspace
 
-Shift manager can create a new shift using the **Schedule** menu or **Teams** menu in Service Operations Workspace
+Create or edit a shift in Service Operations Workspace from the **Schedule** or **Teams** menu if you have the rota\_manager or rota\_admin role.
 
 ## About this task
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowailens-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
@@ -215,7 +215,7 @@ View captured images that are automatically attached to an auto-filled record us
 
  -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
-Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 
  -   **[Set your default launch preference for AI Lens](https://www.servicenow.com/docs/access?context=download-sn-lens-msi&family=zurich&ft:locale=en-US)**
@@ -867,7 +867,7 @@ Zurich
 -   Configure Lens actions to launch ServiceNow AI Lens from any part of the ServiceNow AI Platform, such as a workspace form or a portal.
 -   Trigger ServiceNow AI Lens from a Virtual Agent conversation on a mobile device or in a portal.
 -   View captured images that are attached to an auto-filled record using ServiceNow AI Lens.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
  See [ServiceNow Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-landing-page&family=zurich&ft:locale=en-US) for more information.
 

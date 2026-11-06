@@ -1,5 +1,5 @@
 ---
-title: Adding the Discuss button for non-task tables
+title: Add the Discuss button for non-task tables
 description: To use Sidebar in non-task tables, follow this procedure to add the Discuss button to the layout.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/add-sidebar-button-advanced.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
-# Adding the Discuss button for non-task tables
+# Add the Discuss button for non-task tables
 
 To use Sidebar in non-task tables, follow this procedure to add the Discuss button to the layout.
 
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Filter the Action Label values that contain Open create collab chat modal.
 
-3.  Select the record result that you want to edit.
+3.  Select the record result that you need to edit.
 
 4.  From the Open create collab chat modal Action Assignment, scroll down to Related Links and select the UX Add-on Event Mappings tab.
 
@@ -38,6 +38,6 @@ Role required: admin
 
 8.  Select **Save**.
 
-9.  If you’re unsure of UX Macroponent being used within your Configurable Workspace, you can look up the Definition Record by navigating to UI Builder, selecting Menu &gt; Developer &gt; Open page definition.
+9.  If you’re unsure of UX Macroponent being used within your Configurable Workspace, you can look up the Definition Record by navigating to UI Builder, selecting **Menu** &gt; **Developer** &gt; **Open page definition**.
 
 

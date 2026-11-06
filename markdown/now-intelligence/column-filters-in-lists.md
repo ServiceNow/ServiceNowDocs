@@ -18,7 +18,7 @@ If column filtering is turned on for a List component, viewers of the list see a
 
 \[Omitted image "show-list-column-filters.gif"\] Alt text: Showing and hiding column filters on a list.
 
-**Note:** To turn on column filtering, a permitted user must activate **Show column filtering** in the List configuration panel. For more information, see [Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md).
+**Note:** To turn on column filtering, a permitted user must activate **Show column filtering** in the List configuration panel. For more information, see [Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md).
 
 Column filters differ from the filters you can select when you select the data source for a List in two important ways:
 
@@ -60,12 +60,12 @@ The available filters fall into several types:
     \[Omitted image "column-filter-panel.png"\] Alt text: Panel opened for the Work notes list field, showing conditions for the Work notes list and Description fields.
 
 
-**Parent Topic:**[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md)
+**Parent Topic:**[Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md)
 
 **Related topics**  
 
 
-[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md)
+[Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md)
 
 [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
 

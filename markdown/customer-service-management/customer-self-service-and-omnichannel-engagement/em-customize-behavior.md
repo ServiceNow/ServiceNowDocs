@@ -36,7 +36,7 @@ Role required: sn\_csm\_ec.ec\_admin
 
 5.  In the **Behavior** tab, configure the **Recommendations** and **Proactive** settings to define the Engagement Messenger functions.
 
-    For more information, see [Proactive Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-behav-recom.md).
+    For more information, see [Proactive and Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-behav-recom.md).
 
     **Note:** For information about how to customize the Notification behavior, see [Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-engagement-messenger-module.md).
 

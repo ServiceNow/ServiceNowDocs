@@ -196,8 +196,12 @@ Location support agent\[sn\_bus\_loc.svc\_location\_support\_agent\]
 
 A location support agent is a organization member \(formerly service organization member\) who acts as a fulfiller and can perform the following tasks:-   View all CSM entities.
 -   Create and resolve cases.
--   Access the CRM Workspace.
+-   Access the CSM Configurable Workspace.
 -   Use business location 360 to view details of internal and external organizations \(formerly internal and external business locations\) that they support, sold products, location members, install base items, and available services.
+-   View customer contract records \(Business Organization as a customer\) and their associated entitlements, and edit entitlement usage when either of the following is true:
+
+    -   The channel partner is one of their organizations, and a buyer organization is specified.
+    -   The buyer organization is one of the organizations that they manage.
 
 **Note:** The role of location support agent isn’t supported for external organizations since case fulfillment isn't enabled for these locations.
 
@@ -205,6 +209,7 @@ A location support agent is a organization member \(formerly service organizatio
 
 -   sn\_esm\_location\_agent
 -   sn\_csm\_case\_types.service\_definition\_viewer
+-   sn\_pss\_core.service\_contract\_viewer
 
 </td></tr></tbody>
 </table>**Note:** If contributor users, like relationship contributors, account contributors, or consumer contributors associated with business organizations, have a location contributor \(sn\_customerservice.service\_organization\_contributor\) role, they can access the business organizations.

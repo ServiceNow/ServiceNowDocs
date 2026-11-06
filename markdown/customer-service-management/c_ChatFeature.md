@@ -1,11 +1,11 @@
 ---
 title: Configure chat channel
-description: Configure chat as a real-time messaging channel within ServiceNow Customer Service Management. Customers can start live conversations from your web portal. Conversations route to available agents and are managed through the CRM Workspace alongside email, messaging, and phone.
+description: Configure chat as a real-time messaging channel within ServiceNow Customer Service Management. Customers can start live conversations from your web portal. Conversations route to available agents and are managed through the CSM Configurable Workspace alongside email, messaging, and phone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_ChatFeature.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [chat, omnichannel, configure]
 breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
@@ -13,11 +13,11 @@ breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
 
 # Configure chat channel
 
-Configure chat as a real-time messaging channel within ServiceNow Customer Service Management. Customers can start live conversations from your web portal. Conversations route to available agents and are managed through the CRM Workspace alongside email, messaging, and phone.
+Configure chat as a real-time messaging channel within ServiceNow Customer Service Management. Customers can start live conversations from your web portal. Conversations route to available agents and are managed through the CSM Configurable Workspace alongside email, messaging, and phone.
 
 Here's an example of a customer service journey combining chat support with omnichannel.
 
-Rajesh is a customer service manager at a financial services company struggling with chat request delays and poor routing. The team uses multiple tools to manage different channels, and chat requests often get missed or assigned to agents without the right skills. After setting up ServiceNow omnichannel with the chat channel, the team can now handle chat conversations directly in the CRM Workspace alongside email and phone interactions.
+Rajesh is a customer service manager at a financial services company struggling with chat request delays and poor routing. The team uses multiple tools to manage different channels, and chat requests often get missed or assigned to agents without the right skills. After setting up ServiceNow omnichannel with the chat channel, the team can now handle chat conversations directly in the CSM Configurable Workspace alongside email and phone interactions.
 
 With chat configured, the team benefits from skill-based routing, unified queue management, and Virtual Agent escalation.
 
@@ -39,7 +39,7 @@ Every omnichannel channel \(chat, email, WhatsApp\) requires the following found
 |2|[Create a queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md)|Create a queue under each service channel in Omnichannel &gt; Administration &gt; Queues. The queue holds interactions waiting for an available agent. Each queue has a name, description, and optional schedule for availability windows.|CSM Admin|
 |3|[Configure AWA routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-assignment-rule.md)|Create an assignment rule in Advanced Work Assignment that determines how interactions are routed to agents. Examples: Most Capacity \(assigns to agent with most free time\), Least Busy, Round Robin. Create an assignment group with agents who have the required roles \(**sn\_customerservice\_agent**, **sn\_customerservice.consumer\_agent, awa\_agent**\). Link the rules and group to the queue.|CSM Admin|
 |4|[Set agent presence state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md)|Add the channel to the Available presence state, so agents are eligible to receive interactions from that channel. Without this step, the queue has no target agents.|CSM Admin|
-|5|[Activate channel in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)|Verify the channel appears in the CRM Workspace. Agents must see the channel in their workspace interface to receive and manage interactions.|CSM Admin|
+|5|[Activate channel in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)|Verify the channel appears in the CSM Configurable Workspace. Agents must see the channel in their workspace interface to receive and manage interactions.|CSM Admin|
 |6|[Configure wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-wrap-up-codes-email-interactions.md)|Navigate to Interaction &gt; Wrap Up Codes to create categorization codes for interactions. Then navigate to Interaction &gt; Wrap-up configuration to assign these codes so agents can categorize interactions for reporting.|CSM Admin|
 
 ## Chat-specific configuration steps

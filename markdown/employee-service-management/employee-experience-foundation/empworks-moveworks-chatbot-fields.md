@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [Moveworks chatbot fields, chatbot record, internal setup, trusted issuer]
-breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Moveworks chatbot configuration fields

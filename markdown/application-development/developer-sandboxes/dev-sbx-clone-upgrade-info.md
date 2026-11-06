@@ -7,9 +7,9 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-10-20"
 reading_time_minutes: 2
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Cloning and upgrading considerations for Developer Sandboxes
@@ -43,7 +43,7 @@ Review the update sets, then preview and commit them in each sandbox as needed.
 
 **Note:** Sandboxes are not automatically recreated after a clone. You should save your work from a sandbox before the clone so you can recreate it.
 
-Install the Dev Sandboxes CC \(com.glide.dsb.cc\) plugin on the production instance to enable clone preservers that protect Developer Sandboxes feature enablement on your target instance. For more information on clone preservers, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md). For details on the plugin, see [Plugin information for all Australia features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-summary-plugin-info.md).
+Install the Dev Sandboxes CC \(com.glide.dsb.cc\) plugin on the source instance to enable clone preservers that protect Developer Sandboxes feature enablement on your target instance. For more information on clone preservers, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md). For details on the plugin, see [Plugin information for all Australia features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-summary-plugin-info.md).
 
 If you have a custom clone profile, these records should be linked so that cloning over a sandbox instance maintains sandbox functionality:
 

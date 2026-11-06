@@ -14,11 +14,11 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the configure, price, quote applications to streamline complex product, pricing, and quote-to-contract workflows.
 
-Set up tools that enable accurate product configuration, pricing, and quoting. This process typically includes configuring the CPQ or the configurator, enabling quote management, and establishing contract and entitlements and sales agreement workflows to streamline complex sales cycles and improve quoting efficiency.
+Set up tools that enable accurate product configuration, pricing, and quoting. This process typically includes configuring the ServiceNow CPQ or the configurator, enabling quote management, and establishing contract and entitlements and sales agreement workflows to streamline complex sales cycles and improve quoting efficiency.
 
-1.  [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setup-cpq-integrator.md)
+1.  [Setting up ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setup-cpq-integrator.md)
 
-    Plan and configure the implementation of the advanced configurator in CPQ. The advanced configurator runs in the CRM Workspace and the Business Portal for customers placing orders.
+    Plan and configure the implementation of the advanced configurator in ServiceNow CPQ. The advanced configurator runs in the CSM Configurable Workspace and the Business Portal for customers placing orders.
 
 2.  \(Optional\) [Setting up the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/confguring-product-configurator.md)
 

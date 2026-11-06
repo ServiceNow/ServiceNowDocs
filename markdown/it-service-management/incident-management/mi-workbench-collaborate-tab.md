@@ -42,6 +42,8 @@ For information on process flow for slack communication, see [Process flow for S
 
 For information on how to add a collaborative communication task, see [Add a collaborative communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/collaboration-services/add-collaborate-task.md).
 
+For the **Collaborate** tab to appear on the Major Incident Workbench, the Notify plugin \(com.snc.notify\) must be installed. For more information, see [Collaborate tab is not visible in Major Incident Workbench \[KB0754834\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0754834).
+
 **Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  

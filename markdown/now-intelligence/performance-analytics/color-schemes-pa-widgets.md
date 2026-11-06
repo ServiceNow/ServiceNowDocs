@@ -36,7 +36,7 @@ The default color schemes use color definitions with the Qualitative themeable c
 
 [Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/colors-reports.md)
 
-[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md)
+[Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a color scheme
 

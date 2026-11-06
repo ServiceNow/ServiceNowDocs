@@ -72,7 +72,7 @@ Integrating AI exposure remediation with Employee Center provides several advant
 -   Streamlines the remediation process through a simplified task interface that does not require specialized security expertise
 
 -   **[Resolve tasks for AI assets in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-management-employee-task.md)**  
-Resolve the finding or request an exception from Employee Center AI posture findings.
+Resolve the finding or request an exception from Employee Center AI posture findings \(configuration issues\) directly through lightweight tasks.
 
 **Parent Topic:**[Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-ai-security-exposure.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Review KB article metrics
-description: Use the KB articles tab on the LEAP value dashboard to review the volume of knowledge base articles that LEAP created and identify which automation opportunities are generating the most knowledge content.
+description: Use the KB articles tab on the LEAP value dashboard to review the volume of knowledge base articles that LEAP created. Identify which automation opportunities are generating the most knowledge content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-kb-article-metrics.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Monitor dashboard, Use, Learning Enhanced Automation Platform \(LEA
 
 # Review KB article metrics
 
-Use the **KB articles** tab on the LEAP value dashboard to review the volume of knowledge base articles that LEAP created and identify which automation opportunities are generating the most knowledge content.
+Use the **KB articles** tab on the LEAP value dashboard to review the volume of knowledge base articles that LEAP created. Identify which automation opportunities are generating the most knowledge content.
 
 ## Before you begin
 

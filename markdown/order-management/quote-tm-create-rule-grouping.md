@@ -1,6 +1,6 @@
 ---
 title: Create a transaction rule grouping
-description: Create a rule grouping to bundle rules together for assignment to stages and events in CPQ.
+description: Create a rule grouping to bundle rules together for assignment to stages and events in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-rule-grouping.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Rules and rule groupings, ServiceNow Quote Experience, Configure, p
 
 # Create a transaction rule grouping
 
-Create a rule grouping to bundle rules together for assignment to stages and events in CPQ.
+Create a rule grouping to bundle rules together for assignment to stages and events in ServiceNow CPQ.
 
 ## Before you begin
 

@@ -17,7 +17,11 @@ The detailed view helps you identify which services or categories need the most 
 
 ## AI-handled incidents by service
 
-The AI-handled incidents by service view shows percentages for how incidents handled by the AI specialist ended up \(resolved, in progress, reassigned, or reopened\), broken down by service. This view includes the following metrics:
+The AI-handled incidents by service view shows percentages for how incidents handled by the AI specialist ended up \(resolved, in progress, reassigned, or reopened\), broken down by service.
+
+Select a visualization to open a filtered list of the records behind it. The list applies the Assignment group, AI Specialist, and Date filters from the dashboard. In Service Operations Workspace, the list opens in the workspace. Otherwise, the classic list opens in a new browser tab.
+
+This view includes the following metrics:
 
 -   Incident outcomes by service: Shows the total number of incidents handled by the AI specialist in each service. Expand a service to see outcomes.
 -   Reassignment reasons for unresolved incidents by service: Shows why unresolved incidents were reassigned \(low confidence, failed execution, or time-out\) for each service.

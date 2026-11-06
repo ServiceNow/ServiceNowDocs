@@ -1,11 +1,11 @@
 ---
 title: Configure voice channel
-description: Configure voice as an omnichannel communication channel in ServiceNow Customer Service Management so customers can reach agents by phone from your web portal or contact center. Calls route to live and AI agents, and live agent calls appear in the CRM Workspace with chat, email, messaging, and cases.
+description: Configure voice as an omnichannel communication channel in ServiceNow Customer Service Management so customers can reach agents by phone from your web portal or contact center. Calls route to live and AI agents, and live agent calls appear in the CSM Configurable Workspace with chat, email, messaging, and cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_PhoneCommunication.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
 keywords: [voice, phone, omnichannel, configure, CTI, OpenFrame, ICC]
 breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
@@ -13,7 +13,7 @@ breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
 
 # Configure voice channel
 
-Configure voice as an omnichannel communication channel in ServiceNow Customer Service Management so customers can reach agents by phone from your web portal or contact center. Calls route to live and AI agents, and live agent calls appear in the CRM Workspace with chat, email, messaging, and cases.
+Configure voice as an omnichannel communication channel in ServiceNow Customer Service Management so customers can reach agents by phone from your web portal or contact center. Calls route to live and AI agents, and live agent calls appear in the CSM Configurable Workspace with chat, email, messaging, and cases.
 
 ## Voice channel integration options
 
@@ -21,7 +21,7 @@ Voice channel integration in ServiceNow supports two implementation options:
 
 -   Integrations with third-party contact center as a service \(CCaaS\) platforms through computer telephony integration \(CTI\)
 
-    ServiceNow supports voice integration through OpenFrame and Interaction Controls Component \(ICC\) for organizations using third-party CCaaS platforms such as Amazon Connect, Genesys, Five9, 3CLogic, and others. OpenFrame embeds the CTI softphone in the CRM Workspace so agents can access call controls and presence information without leaving ServiceNow.
+    ServiceNow supports voice integration through OpenFrame and Interaction Controls Component \(ICC\) for organizations using third-party CCaaS platforms such as Amazon Connect, Genesys, Five9, 3CLogic, and others. OpenFrame embeds the CTI softphone in the CSM Configurable Workspace so agents can access call controls and presence information without leaving ServiceNow.
 
 -   Browser-based calling through Web Real-Time Communication \(WebRTC\). See [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/portal-phone-widget.md) to get an overview of how WebRTC voice call works.
 
@@ -29,7 +29,7 @@ The following example shows a customer service journey combining voice support w
 
 Marcus is a customer service manager at a shipping company where voice is the primary support channel. His team handles calls in a separate telephony system, disconnected from chat, email, and casework. Agents switch between tools, customers repeat information, and calls aren't visible in unified routing.
 
-After integrating the contact center with ServiceNow Voice, agents handle calls in the CRM Workspace alongside email, chat, and cases. Advanced Work Assignment routes each call to an agent with the right skills, and the call opens an interaction record with the customer's account history, open cases, and recent interactions.
+After integrating the contact center with ServiceNow Voice, agents handle calls in the CSM Configurable Workspace alongside email, chat, and cases. Advanced Work Assignment routes each call to an agent with the right skills, and the call opens an interaction record with the customer's account history, open cases, and recent interactions.
 
 Real-time transcription and automated summaries reduce after-call work, and Marcus manages routing, presence states, wrap-up codes, and reporting for voice and digital channels in one place.
 
@@ -71,7 +71,7 @@ Role
 
 Complete the base integration with your CCaaS provider by following the Contact Center Integration Framework guide. You need a user account to download the Contact Center Integration Framework \(CCIF\) - Implementation Guide.
 
- Verify that your CCaaS platform supports integration with ServiceNow. The integration connects your contact center platform to your instance and supports screen pop, select-to-dial, presence synchronization, and call controls in the CRM Workspace. Agents who use the integrated voice features need the OpenFrame user \(sn\_openframe\_user\) role.
+ Verify that your CCaaS platform supports integration with ServiceNow. The integration connects your contact center platform to your instance and supports screen pop, select-to-dial, presence synchronization, and call controls in the CSM Configurable Workspace. Agents who use the integrated voice features need the OpenFrame user \(sn\_openframe\_user\) role.
 
 </td><td>
 
@@ -87,7 +87,7 @@ CSM admin
 
 </td><td>
 
-Create an OpenFrame configuration to embed your contact center's softphone in the CRM Workspace. The configuration specifies the OpenFrame window settings, the URL that opens in OpenFrame, and the user groups that can access it. With OpenFrame, agents can manage incoming calls, outbound dialing, holds, transfers, and conference calls without leaving ServiceNow.
+Create an OpenFrame configuration to embed your contact center's softphone in the CSM Configurable Workspace. The configuration specifies the OpenFrame window settings, the URL that opens in OpenFrame, and the user groups that can access it. With OpenFrame, agents can manage incoming calls, outbound dialing, holds, transfers, and conference calls without leaving ServiceNow.
 
 </td><td>
 

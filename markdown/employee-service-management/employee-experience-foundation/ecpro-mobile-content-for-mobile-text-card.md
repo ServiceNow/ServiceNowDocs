@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure mobile content, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure mobile content, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # For mobile text card

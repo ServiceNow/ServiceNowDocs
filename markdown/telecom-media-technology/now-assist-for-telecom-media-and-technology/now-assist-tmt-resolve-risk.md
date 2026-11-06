@@ -46,7 +46,7 @@ Before you use the agentic workflow, do the following:
     -   Rank: The order in which the conditions are evaluated.
     -   Category: The category of the risk signal, from the Risk Signal and Issues table.
     -   Customer Success Definition: The Customer Success definition to use for the risk category. Each Customer Success definition specifies the subflow to execute when the solution option is selected. See [Create a customer success definition record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-ale-defn.md) for details. You can map multiple definitions to the same category.\[Omitted image "risk-decision-table.jpg"\] Alt text: Engagement risk definition table
-    See [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md) for details on configuring the decision table.
+    See [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md) for details on configuring the decision table.
 
 -   The solution subflow must contain the following input:
 

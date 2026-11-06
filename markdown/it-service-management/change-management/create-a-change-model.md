@@ -224,7 +224,7 @@ Create predefined transition conditions to reuse the conditions for your Change 
 -   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/attach-process-change-model.md)**  
 You can attach a process with defined conditions to the Change model states to enable state transitions.
 -   **[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md)**  
-Create, customize, and then propose for publication a change template aligned to a change model to make change creation faster, and promote data quality and consistency.
+Create, customize, and then propose a change template for any change model to standardize common change requests so that users don't have to create them manually.
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-management.md)
 

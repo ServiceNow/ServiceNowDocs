@@ -9,7 +9,7 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Dashboard permissions, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI dashboard permissions, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Solving permissions issues on a responsive dashboard
@@ -52,7 +52,7 @@ Role required: dashboard\_admin, pa\_admin
 
 [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
-[Organize dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_GroupDashboards.md)
+[Organize Core UI dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_GroupDashboards.md)
 
 [How dashboard and dashboard group permissions interact on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_GroupDashboards.md)
 
@@ -105,7 +105,7 @@ A dashboard is shared with a user with edit permissions. On some tabs, the user 
 
 1.  Navigate to the affected dashboard.
 
-2.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text:, select **Dashboard Properties**.
+2.  From the context menu \[Omitted image "icon\_menu3lines.png"\] Alt text:, select **Dashboard Properties**.
 
 3.  Select Launch Dependency Assessment.
 
@@ -113,7 +113,7 @@ A dashboard is shared with a user with edit permissions. On some tabs, the user 
 
 4.  Select the affected tab.
 
-5.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text:, choose **Show Used By**.
+5.  From the context menu \[Omitted image "icon\_menu3lines.png"\] Alt text:, choose **Show Used By**.
 
     The result shows the dashboards where the tab appears.
 

@@ -83,7 +83,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-Not defined.
+sn\_itom\_leap.leap\_ansible\_agent\_worker
 
 </td></tr><tr><td>
 

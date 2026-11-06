@@ -1,44 +1,48 @@
 ---
-title: Managed IT Resource types
-description: There are five IT Resource categories in ServiceNow Software Asset Management - Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage.
+title: Software Asset Management licensing
+description: Software Asset Management \(SAM\) licensing is based on five categories of managed IT resources: Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage. Each category is counted toward your subscription at a different ratio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/managed-it-resource-types.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Managed IT Resource types
+# Software Asset Management licensing
 
-There are five IT Resource categories in ServiceNow Software Asset Management - Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage.
+Software Asset Management \(SAM\) licensing is based on five categories of managed IT resources: Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage. Each category is counted toward your subscription at a different ratio.
 
--   Server is any physical or virtual server that is represented as a configuration item \(CI\) in the CMDB tables listed in the following license resource categories and managed by the Software Asset Management application.
--   End User Computing Device is any physical or virtual non-server CI in the CMDB tables listed in the following license resource categories and managed by the Software Asset Management application.
--   SaaS Subscription User is any unique User Principal name in the SaaS Subscription User table listed in the following license resource categories and managed by the Software Asset Management application.
--   PaaS Resources are cloud-based platform services that are represented as a CI in the CMDB tables listed in the following license resource categories and managed by the Software Asset Management application.
--   IaaS Storage is any cloud-based infrastructure service represented as a CI in a CMDB table listed in the following license resource categories and managed by the Software Asset Management application.
+Each managed IT resource category is represented as a configuration item \(CI\) or table record in Software Asset Management. The subscription ratio differs by category, since the management effort required varies by resource type.
 
-Servers and End User Computing Devices are managed by the Software Asset Management application when the installed software on the Managed IT Resources is represented in the Software Installation \[cmdb\_sam\_sw\_install\] table.
+## Managed IT resource categories
 
-<table id="table_qfg_twd_4qb"><thead><tr><th>
+<table><thead><tr><th>
 
-Resource category
+Resource type
 
 </th><th>
 
-Subscription unit ratio
+Description
 
 </th><th>
 
-Model category
+Ratio
+
+</th><th>
+
+CMDB classes
 
 </th></tr></thead><tbody><tr><td>
 
 Server
+
+</td><td>
+
+Physical or virtual server that is represented as a configuration item \(CI\) in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
 
 </td><td>
 
@@ -55,11 +59,15 @@ Server
 -   cmdb\_ci\_hyper\_v\_server
 -   cmdb\_ci\_hpux\_server
 
- Any CMDB classes derived from the above listed classes or cmdb\_ci\_hardware and not defined as another Managed IT Resource type.
+ **Note:** Any CMDB classes derived from the above listed classes or cmdb\_ci\_hardware and not defined as another Managed IT Resource type.
 
 </td></tr><tr><td>
 
-End user computing device
+End User Computing Device
+
+</td><td>
+
+Physical or virtual non-server CI in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
 
 </td><td>
 
@@ -75,7 +83,11 @@ End user computing device
 
 </td></tr><tr><td>
 
-SaaS subscription user
+SaaS Subscription User
+
+</td><td>
+
+Unique User Principal name in the SaaS Subscription User table listed in the following license resource categories and managed by Software Asset Management.
 
 </td><td>
 
@@ -87,7 +99,11 @@ samp\_sw\_subscription
 
 </td></tr><tr><td>
 
-PaaS resources
+PaaS Resources
+
+</td><td>
+
+Cloud-based platform services that are represented as a CI in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
 
 </td><td>
 
@@ -102,7 +118,11 @@ PaaS resources
 
 </td></tr><tr><td>
 
-IaaS storage
+IaaS Storage
+
+</td><td>
+
+Cloud-based infrastructure service represented as a CI in a CMDB table listed in the following license resource categories and managed by Software Asset Management.
 
 </td><td>
 
@@ -113,5 +133,9 @@ IaaS storage
 cmdb\_ci\_storage\_volumeAny child classes of the above listed classes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-subscription.md)
+</table>**Important:**
+
+Software Asset Management manages servers and end user computing devices only when their installed software on the Managed IT Resources is represented in the Software Installation \[cmdb\_sam\_sw\_install\] table.
+
+**Parent Topic:**[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-subscription.md)
 

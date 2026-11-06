@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
@@ -23,7 +23,7 @@ Lens in Portfolio Planning indicate a perspective by which you can prioritize an
 
 ## Pre-defined lenses and their structure
 
-Portfolio Planning provides two pre-defined lenses to get you started with building your portfolio plans - Organization and Project Portfolio.
+Portfolio Planning provides three pre-defined lenses to get you started with building your portfolio plans - Organization, Project Portfolio, Project Program.
 
 Planning managers can use these lenses based on their role at the company. Each lens includes multiple levels, that the personas can plan at, and together these levels form the structure for that lens.
 

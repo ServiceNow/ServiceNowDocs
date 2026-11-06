@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Extend experience, ServiceNow AI Experience Framework, ServiceNow AI Experience Lab for VS Code]
 breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
@@ -39,7 +39,7 @@ Visual Studio Code
 
 </td><td>
 
-1.97 later
+1.97 or later
 
 </td><td>
 
@@ -75,7 +75,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 

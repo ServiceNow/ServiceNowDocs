@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -57,6 +57,8 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -78,6 +80,8 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 [Attach a script file to a file synchronized MID Server]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## Enable MID Server FIPS Enforced Mode
 

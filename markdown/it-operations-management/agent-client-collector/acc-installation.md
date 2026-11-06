@@ -1,6 +1,6 @@
 ---
 title: Agent Client Collector Installation
-description: You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
+description: You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously. A single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-installation.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent
 
 # Agent Client Collector Installation
 
-You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
+You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously. A single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 
 When an agent's IP address changes, it selects a MID Server to connect to based on the agent's MID Server list.
 

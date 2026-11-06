@@ -37,7 +37,7 @@ The response action communicates to the Cloud Provisioning and Governance applic
 
 1.  Navigate to **All** &gt; **Flow Designer** &gt; **Actions** tab, select **New Action**.
 
-    For more information, see [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-action.md).
+    For more information, see Create an action.
 
 2.  Fill in the Action Properties.
 

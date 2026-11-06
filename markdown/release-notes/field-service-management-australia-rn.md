@@ -36,6 +36,10 @@ Field Service Management enhancements and new features in the Australia release.
 
     Create and manage recurring personal events for agents from Manager Mobile.
 
+-   **[Notes in Dispatcher Workspace v10.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/operational-notes-overview.md)**
+
+    Dispatchers can add day-specific notes for technicians, crews, equipment, and work order tasks, and see a note icon on task cards and calendar events, with the note text shown on hover. Only dispatchers and administrators can see these notes, and technicians can’t.
+
 
 **Parent Topic:**[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/field-service-management-rn.md)
 

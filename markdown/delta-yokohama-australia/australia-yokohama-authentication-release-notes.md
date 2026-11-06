@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-authentication-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -317,6 +317,8 @@ Zurich
 
 Authentication is a ServiceNow AI Platform product that is active by default.
 
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -327,6 +329,8 @@ Australia
 -   **Activation information**
 
 Authentication is a ServiceNow AI Platform product that is active by default.
+
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=australia&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -611,13 +615,6 @@ Australia
 -   **[Step-up authentication for AI voice agents](https://www.servicenow.com/docs/access?context=step-up-authentication&family=australia&ft:locale=en-US)**
 
 Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
-
-
- [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
-
--   **[Human-assisted SMS OTP](https://www.servicenow.com/docs/access?context=human-assisted-sms-otp&family=australia&ft:locale=en-US)**
-
-Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
 
 
  [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)

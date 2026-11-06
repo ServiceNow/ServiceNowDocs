@@ -30,7 +30,7 @@ Use the AI Admin Hub to configure ServiceNow Otto for SLO. This console contains
 1.  Install the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
 3.  From the list of existing LLM Virtual Agents, select **Now Assist in Virtual Agent - Supplier**.

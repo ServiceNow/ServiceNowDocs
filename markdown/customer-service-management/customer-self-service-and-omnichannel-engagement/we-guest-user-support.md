@@ -8,8 +8,8 @@ product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Web Embeddables, Set up self-service, Configure, Customer Service Management]
+reading_time_minutes: 2
+breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Guest user access for Web Embeddables

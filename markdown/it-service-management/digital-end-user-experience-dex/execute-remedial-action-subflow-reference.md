@@ -15,11 +15,11 @@ breadcrumb: [Trigger remedial actions from flows, DEX remedial actions, Configur
 
 # Execute remedial action subflow inputs and outputs
 
-The Execute Remedial Action subflow runs a DEX remedial action on a device. This topic describes its inputs, outputs, the conditions that prevent a run, and its messages.
+The **Execute Remedial Action** subflow runs a DEX remedial action on a device. This topic describes its inputs, outputs, the conditions that prevent a run, and its messages.
 
 ## Inputs
 
-The following table describes the inputs that you provide to the Execute Remedial Action subflow. For the procedure, see [Execute a remedial action subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/execute-remedial-action-subflow.md).
+The following table describes the inputs that you provide to the **Execute Remedial Action** subflow. For the procedure, see [Execute remedial action subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/execute-remedial-action-subflow.md).
 
 |Input|Required|Description|
 |-----|--------|-----------|

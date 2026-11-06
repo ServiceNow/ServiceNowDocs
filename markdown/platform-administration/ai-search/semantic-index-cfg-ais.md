@@ -59,8 +59,8 @@ You can verify whether semantic index configuration is activated by navigating t
 
 -   **[Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-semantic-indexing-ais.md)**  
 Specify the semantic indexing configuration settings you want to apply when AI Search indexes records from your indexed sources.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ais-rag.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ais-rag.md)**  
-
+-   **[AI Search RAG \(Retrieval-Augmented Generation\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ais-rag.md)**  
+The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by using relevant indexed data to provide context for the LLM.
 
 **Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-sources-ais.md)
 

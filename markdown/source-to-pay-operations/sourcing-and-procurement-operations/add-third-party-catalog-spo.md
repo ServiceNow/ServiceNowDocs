@@ -24,7 +24,7 @@ Role required: sn\_shop.procurement\_administrator
 
 1.  Select **All**.
 
-2.  In the navigation filter, enter **sn\_spend\_intg\_third\_party\_catalog\_list.do.**.
+2.  In the navigation filter, enter `sn_spend_intg_third_party_catalog_list.do`.
 
 3.  Right-click any column heading and select **Export** &gt; **.xlsx**.
 

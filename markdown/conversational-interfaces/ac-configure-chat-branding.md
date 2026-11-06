@@ -149,7 +149,7 @@ Select this option to display notifications for new messages below or above your
 
     \[Omitted image "chat-branding-colors-tab.png"\] Alt text: Chat branding colors tab showing chat window and chat messages colors.
 
-    Select an item and specify the Hex or red blue green alpha \(RGBA\) colors you want to use for that item. When you do so, the example chat window shows a preview of your changes.
+    Select an item and specify the Hex or red, green, blue, alpha \(RGBA\) colors you need to use for that item. When you do so, the example chat window shows a preview of your changes.
 
     |Label|Description|
     |-----|-----------|
@@ -207,13 +207,13 @@ Select this option to display notifications for new messages below or above your
 
     To change the font type, choose one of the following methods:
 
-    1.  Select the fonts you want to use.
+    1.  Select the fonts you need to use.
 
-        From the **chat header text** drop-down list, select the font you want to use for the header.
+        From the **chat header text** drop-down list, select the font you need to use for the header.
 
         Do the same for the **chat body text.**
 
-        You will see an example of the new font.
+        You see an example of the new font.
 
     2.  Download the fonts from a URL.
 

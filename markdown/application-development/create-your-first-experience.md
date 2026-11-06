@@ -17,7 +17,7 @@ Install the ServiceNow SDK toolchain, scaffold a new Lux application, and deploy
 
 ## About this task
 
-If you'd rather use Lux Lab or the VS Code extension, which wrap these same steps in a UI, see [Development tooling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/development-tooling.md).
+If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, which wrap these same steps in a UI, see [Development tooling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/development-tooling.md).
 
 ## Before you begin
 
@@ -64,7 +64,7 @@ If you'd rather use Lux Lab or the VS Code extension, which wrap these same step
 
 3.  Scaffold the application
 
-    Run the following command to create a local directory for your first experience and initialize a new ServiceNow application project. This scaffolds the project for Lux development with a boilerplate structure including configuration files, build scripts, and server-side logic.
+    Run the following commands to create a local directory for your first experience and initialize a new ServiceNow application project. This scaffolds the project for Lux development with a boilerplate structure including configuration files, build scripts, and server-side logic.
 
     ```
     mkdir my-app && cd my-app
@@ -77,16 +77,18 @@ If you'd rather use Lux Lab or the VS Code extension, which wrap these same step
     npx @servicenow/sdk@latest init --template javascript.aiux --appName my-app --scopeName x_aix_myapp --packageName my-app
     ```
 
-    The scope name must start with your vendor prefix and be 18 characters or fewer. Don't change it after the first install. Changing it without uninstalling the old scope from the instance creates a duplicate.
+    The scope name must start with your vendor prefix and be 18 characters or fewer, including the prefix. Don't change it after the first install. Changing it without uninstalling the old scope from the instance creates a duplicate.
 
-    **Note:** For more information about application scope naming, refer to: [application scope naming documentation](https://www.servicenow.com/docs/r/application-development/c_NamespaceIdentifier.html).
+    **Note:** For more information about application scope naming, refer to: [Namespace identifier](https://www.servicenow.com/docs/r/application-development/c_NamespaceIdentifier.html).
+
+    You can use the following options with `init`:
 
     |Flag|Purpose|
     |----|-------|
-    |`--instance=<url>`|ServiceNow instance URL|
-    |`--scope=<scope>`|App scope for scoped applications|
-    |`--template=<name>`|Starter template \(default: default\)|
-    |`--env`|Create .env file interactively|
+    |`--appName`|Name of the application project|
+    |`--packageName`|Package name for the project. Must follow npm naming conventions.|
+    |`--scopeName`|Application scope name. Must start with your vendor prefix, be 18 characters or fewer including the prefix, and be unique on the instance.|
+    |`--template`|Starter template for the project. Use `javascript.aiux` for a Lux application.|
 
     The scaffold generates the following project structure.
 
@@ -110,13 +112,12 @@ If you'd rather use Lux Lab or the VS Code extension, which wrap these same step
     │   └── aiux-hello-world/
     │       ├── index.js
     │       └── server-script.js
-    ├── utils/                 # Shared utility modules
     ├── scripts/               # Postinstall helpers
     ├── dist/                  # Build output (generated — do not commit)
     └── dist-metadata/         # Build metadata (generated — do not commit)
     ```
 
-    Add `dist/` and `dist-metadata/` to your `.gitignore`. The build generates both.
+    The scaffold's `.gitignore` already excludes `dist/` and `dist-metadata/`, because the build generates both.
 
 4.  Install dependencies
 
@@ -128,7 +129,7 @@ If you'd rather use Lux Lab or the VS Code extension, which wrap these same step
 
 5.  Run the example locally
 
-    Use the following command to start at local dev server.
+    Use the following command to start a local dev server.
 
     ```
     pnpm run dev
@@ -136,7 +137,7 @@ If you'd rather use Lux Lab or the VS Code extension, which wrap these same step
 
     This spins up the full request pipeline on your machine with hot reload, so you can build against a real instance locally.
 
-    To see your experience, Open `http://localhost/aiux/<basename>/<route>` in your browser.
+    To see your experience, open `http://localhost/aiux/<basename>/<route>` in your browser.
 
     Example: if your app's `basename` is `my-app` and you want to access the `/home` route: `http://localhost/aiux/my-app/home`
 
@@ -156,9 +157,11 @@ If you'd rather use Lux Lab or the VS Code extension, which wrap these same step
 
     This compiles your pages and widgets into an installable package, written to `dist/`. It also confirms that the toolchain and dependencies are in place.
 
-    A clean build means that Node, pnpm, and the @servicenow/karuna package all resolved correctly.
+    A clean build means that Node, pnpm, and the project dependencies all resolved correctly.
 
 7.  Deploy
+
+    Make sure you've run the build before you deploy.
 
     ```
     pnpm run deploy
@@ -175,5 +178,5 @@ The starter app ships two routes \(Home and Incidents\), an example component, a
 
 -   [Lux architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/lux-architecture.md) for how these pieces fit together
 -   [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-a-page.md) to add more routes
--   [Lux Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/widgets.md) to build the widget the scaffold generated
+-   [Lux widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/widgets.md) to build the widget the scaffold generated
 

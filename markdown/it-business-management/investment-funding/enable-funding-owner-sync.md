@@ -7,7 +7,7 @@ release: australia
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-19"
 reading_time_minutes: 1
 breadcrumb: [Create an investment entity, Investment Funding administration, Investment Funding, Strategic Portfolio Management]
 ---
@@ -26,14 +26,14 @@ Role required: sn\_invst\_pln\_v2.investment\_admin
 
 2.  Open an entity for which you want to enable synchronization of owners.
 
-3.  On the form, click the **Create Funding Artifacts** related link.
+3.  On the form, select the **Create Funding Artifacts** related link.
 
-4.  In the dialog box, select the **Create business rule to sync investment owner with investment entity owner** option, and click **OK**.
+4.  In the dialog box, select the **Create business rule to sync investment owner with investment entity owner** option, and select **OK**.
 
 
 ## Result
 
-A business rule is created for the investment entity that synchronizes the owner of the investment with the associated investment entity owner when you update the investment entity owner.
+A business rule is created for the investment entity that synchronizes the owner of the investment with the updated investment entity owner.
 
 **Parent Topic:**[Create an investment entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/investment-funding/create-funding-entity.md)
 

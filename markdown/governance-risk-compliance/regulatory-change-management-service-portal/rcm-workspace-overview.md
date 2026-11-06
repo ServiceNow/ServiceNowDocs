@@ -63,7 +63,7 @@ The Regulatory Change Management application in Compliance Workspace contains th
 **Related topics**  
 
 
-[Differences between regulatory event alert and source document alert]()
+[Regulatory event alerts vs. source document alerts]()
 
 [Regulatory process flow and tasks]()
 

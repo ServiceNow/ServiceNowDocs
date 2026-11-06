@@ -18,11 +18,11 @@ Define characteristics for a product, service, or resource specification.
 
 [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-product-config-add-characteristics.md) that can be selected for a specification.
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: sn\_prd\_pm.product\_catalog\_admin
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** and select the specification for which characteristics are to be defined.
 

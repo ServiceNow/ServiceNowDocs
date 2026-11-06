@@ -31,7 +31,7 @@ Role required: admin
 
     For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
-4.  For detailed information about configuring ServiceNow Otto for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+4.  For detailed information about configuring ServiceNow Otto for Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 ## Procedure
 

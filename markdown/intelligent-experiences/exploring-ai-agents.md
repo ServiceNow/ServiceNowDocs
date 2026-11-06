@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-ai-agents.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-10-23"
 reading_time_minutes: 4
 keywords: [AI Agents, agentic AI]
 breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
@@ -33,7 +33,7 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
 3.  A third agent conducts a security check.
 4.  A fourth agent resets the password and notifies you.
 
-## agentic AI framework
+## Agentic AI framework
 
 -   **[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-studio.md)**
 
@@ -89,7 +89,7 @@ Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview** &gt; **Get an ove
 
 \[Omitted image "now-assist-ai-agents-workflow.png"\] Alt text: Workflow describing the configuration of AI agents and how they work to execute an agentic workflow.
 
-agentic AI has two components: AI agents and agentic workflows. By using the guided setup in AI Agent Studio, you create AI agents and workflows, add tools or define triggers, and define the availability or display location. After they're created, you can duplicate, modify, and test them in AI Agent Studio.
+Agentic AI has two components: AI agents and agentic workflows. By using the guided setup in AI Agent Studio, you create AI agents and workflows, add tools or define triggers, and define the availability or display location. After they're created, you can duplicate, modify, and test them in AI Agent Studio.
 
-In run time, triggers in the primary and secondary interfaces cause agentic workflow execution, where one or more AI agents execute the plan with the help of the AI agent Orchestrator to accomplish the task. After agentic workflow execution, the output appears in the ServiceNow Otto panel. To learn more about an AI agent Orchestrator is, see the [Understand AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/understand-na-aia.md).
+During run time, triggers in the primary and secondary interfaces cause agentic workflow execution, where one or more AI agents execute the plan with the help of the AI agent Orchestrator to accomplish the task. After agentic workflow execution, the output appears in the ServiceNow Otto panel. To learn more about an AI agent Orchestrator is, see the [Understand AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/understand-na-aia.md).
 

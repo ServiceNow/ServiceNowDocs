@@ -24,7 +24,7 @@ The configurator displays active allocation types in the left pane. Each type sh
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the Allocations tab.
 

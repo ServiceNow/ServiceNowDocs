@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 4
 keywords: [employee communications, announcements, content library, employee slate, chat promotion, quick start, setup flow, home page configuration, organization chart, employee profile, notifications, conversational catalog, AI widget builder, role-based home page cards, analytics and reporting]
-breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Get started with EmployeeWorks Web App

@@ -1,13 +1,13 @@
 ---
 title: Add an operation to a model in Zero Copy Connector for ERP
-description: Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+description: Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, operation, create, update, read, crud]
 breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 # Add an operation to a model in Zero Copy Connector for ERP
 
-Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 
 ## Before you begin
 
@@ -69,7 +69,7 @@ The foundation of the operation is created.
 
 ## What to do next
 
-Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+Next, you must add the read or update entity to the operation. For more information, see [Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\]\) on the operation's card to remove any operations you don't need, or to start over.
 

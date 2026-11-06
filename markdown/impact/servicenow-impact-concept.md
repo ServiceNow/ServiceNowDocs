@@ -156,7 +156,7 @@ Fixed-scope expert engagements for achieving specific outcomes
 </td></tr></tbody>
 </table>## Impact Digest
 
-Impact Digest is auto-generated periodically and offers a personalized Impact consumption snapshot with curated content from Customer Support Managers \(CSMs\) on ServiceNow products, and Impact content.
+Impact Digest is auto-generated periodically and offers a personalized Impact consumption snapshot with curated content on ServiceNow products, and Impact content.
 
 With manual curation of content by a CSM Newsletter team, based on Impact Squad’s opted topics and insightful consumption statistics, access your goals and improve platform health, product adoption, and value-realization.
 

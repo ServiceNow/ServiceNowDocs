@@ -25,7 +25,7 @@ Role required: admin
 1.  Install the ServiceNow Otto for POM plugin \(sn\_poem\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supporting-information-na-pom.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Review the define PO exception mitigation strategy agentic workflow in AI Agentic Studio.
 
 

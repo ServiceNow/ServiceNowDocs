@@ -55,3 +55,10 @@ For more information, see [Installed with Hardware Asset Management](https://raw
 6.  Select **Install**.
 
 
+**Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/installing-ham-app.md)
+
+**Related topics**  
+
+
+[Hardware Asset Management on Product Hub]()
+

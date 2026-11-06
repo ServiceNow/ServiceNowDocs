@@ -46,7 +46,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     1.  Select **Edit** to create a copy that you use for automation without affecting the original.
 
-        \[Omitted image "tm-io-2.png"\] Alt text: Screenshot showing the edit task steps dialog.
+        \[Omitted image "tm-io-2.png"\] Alt text: The edit task steps dialog.
 
     2.  Enter a descriptive name in the **Task name** field.
 
@@ -70,7 +70,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select **Request automation**.
 
-    \[Omitted image "tm-io-3.png"\] Alt text: Screenshot showing the editable task steps view.
+    \[Omitted image "tm-io-3.png"\] Alt text: The editable task steps view.
 
 8.  Select the task improvement action that you want to take, and select **Continue**.
 
@@ -86,7 +86,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
         **Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
-        \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the AI generation UI.
+        \[Omitted image "tm-io-generate-ai.png"\] Alt text: The AI generation UI.
 
 9.  Select **Regenerate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
@@ -96,7 +96,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     **Note:** The generate details option is available only if ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated.
 
-    \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the New Automation Request form.
+    \[Omitted image "tm-automation-request-done.png"\] Alt text: The New Automation Request form.
 
 10. Add a value in the **Frequency** field to specify in minutes how often the process should be executed.
 
@@ -109,7 +109,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 ## What to do next
 
-Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention. For more information, see .
+Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention. For more information, see [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md).
 
 **Related topics**  
 

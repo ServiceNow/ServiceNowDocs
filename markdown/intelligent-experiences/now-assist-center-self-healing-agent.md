@@ -1,11 +1,11 @@
 ---
 title: Self-service conversational troubleshooting
-description: Use the AI Admin Center conversational experience to diagnose common AI administration issues.
+description: Use the AI Admin Center conversational experience to diagnose and resolve common AI administration issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-self-healing-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-28"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
@@ -13,11 +13,11 @@ breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin
 
 # Self-service conversational troubleshooting
 
-Use the AI Admin Center conversational experience to diagnose common AI administration issues.
-
-## Self-service conversational troubleshooting overview
+Use the AI Admin Center conversational experience to diagnoseand resolve common AI administration issues.
 
 Self-service conversational troubleshooting is a diagnostic assistant in the AI Admin Center conversational experience. It interprets your issue description and classifies it against a library of known AI admin failure patterns. The AI agent presents a root cause hypothesis with a confidence level, enabling you to make informed decisions about how to resolve the issue.
+
+For issues with AI Admin Hub, such as skill visibility, skill activation, LLM providers, guardrails, global settings, roles, and governance, the AI agent can also resolve the issue for you. It converts the recommended fix into a plan, shows you the plan and, with your approval, runs each action and verifies the result. For other issues, such as AI Agent Advisor issues, the AI agent gives you the next steps to resolve the issue yourself.
 
 Self-service conversational troubleshooting may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-ai-agents.md).
 

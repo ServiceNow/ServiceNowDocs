@@ -1,6 +1,6 @@
 ---
 title: Access Insights
-description: Access Insights helps you analyze or troubleshoot Role and Group entitlements through peer-level comparisons.
+description: Access Insights helps you analyze or troubleshoot role and group entitlements through peer-level comparisons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/access-insights.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Access Analyzer, Access Management]
 
 # Access Insights
 
-Access Insights helps you analyze or troubleshoot Role and Group entitlements through peer-level comparisons.
+Access Insights helps you analyze or troubleshoot role and group entitlements through peer-level comparisons.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

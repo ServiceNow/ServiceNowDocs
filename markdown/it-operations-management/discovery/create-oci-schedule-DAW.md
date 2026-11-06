@@ -23,7 +23,7 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured an OCI user in the Oracle Cloud console with an API signing key and the required Identity and Access Management \(IAM\) policies so that the MID Server can access the cloud resources you plan to discover.
+-   An OCI user in the Oracle Cloud console is configured with an API signing key and the required Identity and Access Management \(IAM\) policies. The MID Server can access the cloud resources to discover.
 -   You have created a suitable OCI API credentials in the ServiceNow AI Platform to connect with the OCI user you want to use for discovery. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-oracle-api-credentials.md).
 -   You're using Discovery Admin Workspace v1.13.0.
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d652787e323">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d661224e323">
 
 Option
 
-</th><th align="left" id="d652787e326">
+</th><th align="left" id="d661224e326">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d652787e332">
+</th></tr></thead><tbody><tr><td id="d661224e332">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Account ID** fields auto-populate.
 
-</td></tr><tr><td id="d652787e347">
+</td></tr><tr><td id="d661224e347">
 
 **New cloud account**
 

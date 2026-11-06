@@ -153,7 +153,7 @@ Logging level verbosity to use for the application.Default: Info
 
 ## What to do next
 
-The next setup step is to[Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/setup-scheduled-jobs.md).
+The next setup step is to [Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/setup-scheduled-jobs.md).
 
 **Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery.md)
 

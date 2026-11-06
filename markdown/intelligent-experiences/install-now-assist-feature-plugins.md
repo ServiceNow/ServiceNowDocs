@@ -1,46 +1,38 @@
 ---
-title: Install plugins for ServiceNow Otto
-description: Install plugins for ServiceNow Otto to enable generative AI on your instance.
+title: Install AI plugins in AI Admin Hub
+description: Install plugins in AI Admin Hub to enable AI applications on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-now-assist-feature-plugins.html
 release: australia
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-10-16"
 reading_time_minutes: 4
 keywords: [Install, ServiceNow Otto, plugins, Admin, console, Journey Checklist]
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Install plugins for ServiceNow Otto
+# Install AI plugins in AI Admin Hub
 
-Install plugins for ServiceNow Otto to enable generative AI on your instance.
+Install plugins in AI Admin Hub to enable AI applications on your instance.
 
 ## Before you begin
 
-Role required: sn\_nowassist\_admin.nsa\_admin
-
-Follow these instructions to get started with AI Admin Hub:
-
-1.  To get started with ServiceNow Otto, you must install at least one generative AI application on your instance.
-2.  License any ServiceNow generative AI software from the ServiceNow Store and install it through the Application Manager to access AI Admin Hub.
-3.  The AI Admin Hub console guides your implementation, starting with installation.
-4.  Check out the [ServiceNow Otto Journey Checklist for more information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist.md)
+-   To use AI Admin Hub, you must install at least one AI application on your instance. License any ServiceNow generative AI software from the ServiceNow Store and install it through the Application Manager. For more information, see the [ServiceNow Otto Journey Checklist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-now-assist.md)
+-   Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-Deactivate switch in AI Admin Hub
+Installing plugins may automatically activate some skills contained in the plugins. You can control this skill activation behavior by using the toggle switch **Default activation of out-of-box skills** on the Plugins tab.
 
-Note, that certain out-of-box skills are automatically enabled by default with plugin activation. You can turn off the toggle switch before installing the plugin to disable the default 'on' setting. With this feature you can prevent skills configured for default activation from auto-activating when installed or updated.
+-   The default setting for the toggle switch is on. This setting means that some skills may be automatically activated when their plugins are installed.
+-   If you turn off this toggle switch, no skills are automatically activated when plugins are installed. \(You can choose to activate skills later\).
+-   Select the **View default-active skills** option to open a modal window that lists automatically activated skills. On this modal window you can review and activate \(or deactivate\) individual skills. Hidden skills are displayed and accessible within the Additional Details section.
 
-Explore 'View default-active skills' to find the list of skills currently activated by default. You can review them, activate or deactivate them individually. Hidden skills are displayed and accessible within the Additional Details section.
+To activate a skill separately, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
-\[Omitted image "activate-plugin-toggle.png"\] Alt text: Deactivate auto activation of skills with product plugins installation
+\[Omitted image "activate-plugin-toggle.png"\] Alt text: The Plugins page of the Settings tab of AI Admin Hub. The toggle switch titled "Default activation of out-of-box skills" is set to on. Two example plugin cards are displayed.
 
-Generative AI applications often function interdependently. ServiceNow Otto Suites help reduce runtime errors and update issues by bundling compatible versions of generative AI applications together during installation and updates.
-
-For more information about how ServiceNow Otto Suites work, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md).
-
-For details about available ServiceNow Otto Suites and their compatibility with ServiceNow AI Platform versions, see [Now Assist Suite release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
+**Note:** AI applications often function interdependently. AI Suites help reduce runtime errors and update issues by bundling compatible versions of AI applications together during installation and updates. For more information, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md) and [AI Suites release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
 
 ## Procedure
 
@@ -48,11 +40,11 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
     If you’re already in AI Admin Hub, select the **Settings** tab.
 
-2.  On the **Settings** page, select **Plugins**.
+2.  On the **Settings** tab, select **Plugins** on the navigation panel.
 
-    Plugins appear as cards. Review all ServiceNow Otto plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
+    Plugins appear as cards. Review all AI plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
 
-    \[Omitted image "config-now-assist-plugin-card.png"\] Alt text: Example plugin card reads "ServiceNow Otto for Creator: Helping creators build with the power of generative AI." Select Get plugins on the card to install it.
+    \[Omitted image "config-now-assist-plugin-card.png"\] Alt text: Example plugin card reads "ServiceNow Otto for Creator: Helping creators build with the power of Generative AI."
 
 3.  If you don't already have a license for the plugin, request a license from the ServiceNow® Store.
 
@@ -66,23 +58,23 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 4.  Navigate to **Admin** &gt; **Application Manager** &gt; **Available for you**.
 
-5.  Find and select the ServiceNow Otto application you want to install.
+5.  Find and select the AI application you want to install.
 
 6.  Select **Install**.
 
-7.  In the **Select suite version** drop-down menu, select a ServiceNow Otto Suite version.
+7.  In the **Select suite version** drop-down menu, select an AI Suite version.
 
-    The available suite versions are compatible with your instance. If you have other generative AI applications already installed on your instance, they might require update for suite compatibility. For more information about ServiceNow Otto Suite compatibility, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md).
+    The available AI Suites versions are compatible with your instance. If you have other AI applications already installed on your instance, they might require update for suite compatibility. For more information about AI Suites compatibility, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md).
 
-    If you haven't installed a ServiceNow Otto Suite version yet, you have the option to choose **none** in the version selector. This option enables you to begin using ServiceNow Otto Suites at a time that works best for your organization.
+    If you haven't installed an AI Suites version yet, you have the option to choose **none** in the version selector. This option enables you to begin using AI Suites at a time that works best for your organization.
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
     Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-customizations-store-apps.md).
 
-9.  Include demo data if it's desired and available.
+9.  Include demo data if desired and available.
 
-    1.  Select the option to install demo data next to each ServiceNow Otto application you want demo data for.
+    1.  Select the option to install demo data next to each application you want demo data for.
 
         The option to install demo data isn't available for all applications.
 
@@ -90,19 +82,19 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 10. Select **Continue** to review the installation details.
 
-    If any applications display "Installation blocked," it means that application version isn't licensed yet. Either uninstall the application or license the required version.
+    Any applications displaying **Installation blocked** aren't licensed yet. Either uninstall the application or license the required version.
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d151932e455">
+<table><thead><tr><th align="left" id="d159062e431">
 
 Installation option
 
-</th><th align="left" id="d151932e458">
+</th><th align="left" id="d159062e434">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d151932e464">
+</th></tr></thead><tbody><tr><td id="d159062e440">
 
 **Install now**
 
@@ -112,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d151932e488">
+</td></tr><tr><td id="d159062e464">
 
 **Install later**
 
@@ -135,7 +127,7 @@ Procedure
 
 Your plugin is successfully installed.
 
-If you encounter issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
+If you encounter issues installing or updating applications, see this [knowledge article \(KB1637452\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Alternatively, you can submit a Support case.
 
 ## What to do next
 

@@ -34,7 +34,7 @@ The following similarity solutions support spend category prediction:
 
 ## Procedure
 
-1.  Open the machine learning solutions list by navigating to **All** &gt; **Predictive Intelligence** &gt; **Solutions**.
+1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solution Definitions**.
 
 2.  Locate **Spend Category by PRL**.
 

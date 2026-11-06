@@ -52,7 +52,7 @@ Your instance processes a playbook during runtime by evaluating trigger conditio
 
 Playbooks protects against cross-site scripting and code injection by evaluating all string data for HTML markup. The system only preserves HTML markup that is present in its inclusion list. All other HTML markup is removed from string data.
 
-The inclusion list supports these HTML elements and attributes, which cannot be modified.
+The inclusion list supports these HTML elements and attributes, which can't be modified.
 
 |HTML element|Included Attributes|
 |------------|-------------------|

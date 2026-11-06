@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-20"
 reading_time_minutes: 2
 keywords: [zero, copy, connector, erp, canvas, data hub, integration, rest, api, openapi, swagger, postman]
 breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -17,11 +17,11 @@ breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for E
 
 Use the REST API connector to connect to any RESTful API with standardized API specification formats.
 
-## Overview
+## Overview of REST API connector
 
 You can use REST APIs to access business data from ERP \(Enterprise Resource Planning\) systems. Integrating these APIs requires manual processes. The REST API connector solves this by providing a reusable, low-code integration layer.
 
-For API details, see .
+For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 ## REST service connection configuration
 

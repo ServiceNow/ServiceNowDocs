@@ -75,5 +75,5 @@ Rather than omitting watermarks, it is possible to hide watermarks for global ap
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

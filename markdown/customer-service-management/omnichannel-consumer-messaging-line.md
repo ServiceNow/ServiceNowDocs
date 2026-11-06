@@ -1,6 +1,6 @@
 ---
 title: Configure LINE
-description: Configure LINE integration with CSM omnichannel so customers can contact support from LINE and agents can manage those interactions in the CRM Workspace.
+description: Configure LINE integration with CSM omnichannel so customers can contact support from LINE and agents can manage those interactions in the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel-consumer-messaging-line.html
 release: australia
@@ -13,11 +13,11 @@ breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure
 
 # Configure LINE
 
-Configure LINE integration with CSM omnichannel so customers can contact support from LINE and agents can manage those interactions in the CRM Workspace.
+Configure LINE integration with CSM omnichannel so customers can contact support from LINE and agents can manage those interactions in the CSM Configurable Workspace.
 
 Here's an example of routing customer inquiries from the LINE messaging application to CSM agents.
 
-A restaurant group uses LINE with CSM omnichannel so customers can contact support from LINE for reservations, order issues, and general questions. In the example workflow, the administrator configures the LINE channel, connects it to CSM, defines how customer messages create interactions or cases, and sets routing rules. The administrator also prepares CRM Workspace so agents can review the customer context, respond to the inquiry, and send updates back through LINE.
+A restaurant group uses LINE with CSM omnichannel so customers can contact support from LINE for reservations, order issues, and general questions. In the example workflow, the administrator configures the LINE channel, connects it to CSM, defines how customer messages create interactions or cases, and sets routing rules. The administrator also prepares CSM Configurable Workspace so agents can review the customer context, respond to the inquiry, and send updates back through LINE.
 
 \[Omitted image "omnichannel-line-integration-MMASSET0022373.png"\] Alt text: Use case example workflow displaying routing LINE customer inquiries to CSM agents.
 
@@ -175,7 +175,7 @@ Admin
 
 </td><td>
 
-[Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)
+[Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)
 
 </td><td>
 

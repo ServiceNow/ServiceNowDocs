@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-10-20"
 reading_time_minutes: 3
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -88,7 +88,7 @@ Short Description
 
 </td><td>
 
-Type of service. Available values are: **Business Service**, **Technical Service**, and **Application Service**.
+Short description of the service.
 
 </td></tr><tr><td>
 

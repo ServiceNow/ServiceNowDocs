@@ -23,7 +23,7 @@ Role required: model\_manager or asset
 
 ## About this task
 
-After you normalize hardware and consumable models, the lifecycle phases on the model lifecycle records are marked as inactive, including the current phase that is active. The system corrects this status only after the HAM - Hardware Normalization scheduled job runs, which can take up to 24 hours. Use the **Calculate Lifecycle Phase** option to refresh the lifecycle phase status immediately.
+After you normalize hardware and consumable models, the lifecycle phases on the model lifecycle records are marked as inactive, including the current phase that is active. The system updates this status only after the HAM - Hardware Normalization scheduled job runs, which can take up to 24 hours. Use the **Calculate Lifecycle Phase** option to refresh the lifecycle phase status immediately.
 
 ## Procedure
 
@@ -31,8 +31,8 @@ After you normalize hardware and consumable models, the lifecycle phases on the 
 
 2.  Select the model tab.
 
-    -   Select **Hardware models** for hardware model records
-    -   Select **Consumable models** for consumable model records
+    -   Select the **Hardware models** tab for hardware model records.
+    -   Select the **Consumable models** tab for consumable model records.
 3.  Select the model record.
 
 4.  Select the appropriate lifecycle tab.
@@ -44,7 +44,7 @@ After you normalize hardware and consumable models, the lifecycle phases on the 
 
 ## Result
 
-The system recalculates and identifies the correct active lifecycle phase, updating the current\_lifecycle\_phase flag to true for that phase while marking all other phases as inactive.
+The system recalculates and identifies the correct active lifecycle phase, updating the current\_lifecycle\_phase flag to **true** for that phase while marking all other phases as inactive.
 
 **Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 

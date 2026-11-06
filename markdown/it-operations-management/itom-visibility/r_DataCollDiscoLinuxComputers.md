@@ -149,7 +149,7 @@ Before running a discovery, you must verify that all the required configurations
 
 -   **Set the preferred IP address version for network adapter discovery**
 
-    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+    Starting with Visibility Content version 6.32.0, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table when adapters support both IPv4 and IPv6. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 -   **Configure the serial number type**
 

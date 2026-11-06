@@ -32,7 +32,7 @@ Role required: admin
 
     When activation is complete, the status indicates that AI Search is ready.
 
-    For more information about the AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
+    For more information about the AI Search, see .
 
 
 **Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)

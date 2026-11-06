@@ -39,7 +39,7 @@ You can create obligations using one of the following methods:
 
 -   **Create obligations manually**
 
-    Contract manager manually reviews the contract and creates obligation records for key obligations.
+    Create obligation records for signed contracts in Obligation Management to fulfill the responsibilities specified in the contract through obligation tasks. Recurring obligation tasks are automatically created from the record. You can also add ad hoc obligation tasks that are performed only once or at irregular intervals.
 
 
 ## AI-powered obligation extraction workflow
@@ -74,7 +74,7 @@ The manual Obligation Management workflow starts after the signed contract is ad
 1.  A contract manager reviews the contract in the contract repository and creates obligation records for key obligations.
 2.  The contract manager provides the obligation details, including an obligation task schedule, in the obligation record.
 
-    For more information, see [Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
+    For more information, see [Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations.md).
 
 3.  Obligation tasks are created.
     -   For an ad hoc schedule, the contract manager creates an obligation task from the **Obligation tasks** tab.
@@ -88,9 +88,11 @@ The manual Obligation Management workflow starts after the signed contract is ad
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
--   **[Create obligations using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md)**  
-Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations manually or use AI to automatically extract obligations from contract documents.
--   **[Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)**  
+-   **[Create obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md)**  
+Create obligation records for signed contracts to fulfill the responsibilities specified in the contract. You can create obligations by using AI to automatically extract obligations from contract or manually create them.
+-   **[Create obligation records manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-obligations.md)**  
+Create obligation records for signed contracts in Obligation Management to fulfill the responsibilities specified in the contract through obligation tasks. Recurring obligation tasks are automatically created from the record. You can also add ad hoc obligation tasks that are performed only once or at irregular intervals.
+-   **[Work on obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)**  
 As an obligation user, work on obligation tasks to fulfill the obligation specified in the contract, and submit them for review.
 -   **[Cancel an obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cancel-ob-task.md)**  
 Cancel an open obligation task in Obligation Management that is no longer required.

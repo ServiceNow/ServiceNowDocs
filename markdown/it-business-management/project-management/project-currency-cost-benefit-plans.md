@@ -27,7 +27,7 @@ Similarly, the **Entered Currency** field of the benefit plan defaults to the pr
 
 [Enable project currency view in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/enable-project-currency-view.md)
 
-[Updates in cost plan and recalculation of cost in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-cost-calculated-project-currency.md)
+[Update cost plan and recalculate costs in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-cost-calculated-project-currency.md)
 
 [Multicurrency in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/multicurrency-pps.md)
 

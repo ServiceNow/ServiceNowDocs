@@ -20,7 +20,7 @@ Upload Software Bill of Materials \(SBOM\) files manually.
 
 Starting with version 4.0, SBOM Core supports:
 
--   XML and JSON in versions 1.0 - 1.6 of CycloneDX.
+-   XML and JSON in versions 1.5 - 1.6 of CycloneDX.
 -   JSON in versions 2.2 - 2.3 of SPDX.
 
 Role required: sn\_sbom\_core.sbom\_ingest
@@ -31,15 +31,15 @@ Role required: sn\_sbom\_core.sbom\_ingest
 
     The method you use to upload your files depends on whether you have the SBOM Core or SBOM Response applications installed.
 
-<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d145314e86">
+<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d145107e86">
 
 Option
 
-</th><th align="left" id="d145314e89">
+</th><th align="left" id="d145107e89">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145314e95">
+</th></tr></thead><tbody><tr><td id="d145107e95">
 
 **If you have installed SBOM Core**
 
@@ -58,7 +58,7 @@ The file name is displayed on the Choose an attachment file page.
 5.  Select **OK**.
 
 
-</td></tr><tr><td id="d145314e153">
+</td></tr><tr><td id="d145107e153">
 
 **If you have installed SBOM Response starting with v4.0**
 

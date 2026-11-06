@@ -18,6 +18,8 @@ Activate the KCS Integration for Incident Management plugin \(com.snc.incident.k
 
 ## Before you begin
 
+Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+
 Role required: admin
 
 ## About this task

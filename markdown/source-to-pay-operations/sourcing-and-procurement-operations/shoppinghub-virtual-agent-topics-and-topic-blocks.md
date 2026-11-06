@@ -22,7 +22,7 @@ As part of the Sourcing and Procurement Operations product, the following Virtua
 
 -   Request to purchase from a vendor
     -   ShoppingHub: Product Search
-    -   ShoppingHub: Checkout - Delivery Location
+    -   ShoppingHub:Checkout - Delivery Location
     -   ShoppingHub: Checkout - Quantity
     -   ShoppingHub: Checkout - Shipping Method
     -   ShoppingHub: Checkout - Delivery Date
@@ -30,7 +30,7 @@ As part of the Sourcing and Procurement Operations product, the following Virtua
     -   ShoppingHub: Checkout - Payment Method
 -   See my purchases
     -   View PR or PO
-    -   View Purchase Details
+    -   View purchase line or order line
 -   See my procurement tasks
     -   More Info
     -   PSM Select Supplier Task

@@ -1,6 +1,6 @@
 ---
-title: Sidebar discussion subject mapping
-description: Create a requester mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
+title: Configure Sidebar discussion subject mapping
+description: Create a subject mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.html
 release: australia
@@ -9,12 +9,12 @@ classification: sidebar
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Sidebar, Configuring Sidebar, Sidebar, Conversational Interfaces]
+breadcrumb: [Set up Sidebar, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
-# Sidebar discussion subject mapping
+# Configure Sidebar discussion subject mapping
 
-Create a requester mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
+Create a subject mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
 
 ## Before you begin
 
@@ -70,7 +70,7 @@ Order
 
 Order of the configuration.
 
- You can deﬁne multiple requester mapping conﬁgurations for a single table. The system executes the query in the descending order.
+ You can deﬁne multiple subject mapping conﬁgurations for a single table. The system executes the query in the descending order.
 
 </td></tr><tr><td>
 

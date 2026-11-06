@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Schedules can be set for when a stack should be started, stopped, and/or deprovi
 
 The administrator can create schedule profiles in the **Cloud Admin Portal**. See [Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md).
 
-While provisioning a stack in the Cloud User Portal, use the **Schedule Profile** list to select a profile that has already been created by the administrator. Select a time zone in the **Schedule Time Zone** list which defaults to your system's time zone and indicates the time zone in which the schedule’s business hour time frames are enforced.
+While provisioning a stack in the Cloud User Portal, use the **Schedule Profile** list to select a profile that has already been created by the administrator. Select a time zone in the **Schedule Time Zone** list. The list defaults to your system's time zone and indicates the time zone in which the schedule’s business hour time frames are enforced.
 
 You can also define the lease end dates for a stack during provision. The lease end date for a stack can be modified at any time. See [Modify the lease for a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/cloudmgmt-extend-stack-lease.md).
 

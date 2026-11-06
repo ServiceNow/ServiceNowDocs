@@ -19,7 +19,7 @@ Procurement Case Management provides 13 base system case types that classify pro
 
 ## Purchase modification cases
 
-Purchase modification cases are initiated by a requestor or shopper from within ShoppingHub.
+Purchase modification cases are initiated by a requestor or shopper from within Shopping Hub.
 
 <table><thead><tr><th>
 
@@ -43,7 +43,7 @@ Modify an existing purchase requisition or purchase order — for example, to ch
 
 </td><td>
 
-Requestor selects the edit action in ShoppingHub. The system creates a purchase modification record and the `create_procurement_case` subflow creates the case.
+Requestor selects the edit action in Shopping Hub. The system creates a purchase modification record and the `create_procurement_case` subflow creates the case.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Return received goods to the supplier.
 
 </td><td>
 
-Requestor selects the return action in ShoppingHub. The system creates a purchase modification record and the `create_procurement_case` subflow creates the case.
+Requestor selects the return action in Shopping Hub. The system creates a purchase modification record and the `create_procurement_case` subflow creates the case.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Replace damaged, incorrect, or defective goods.
 
 </td><td>
 
-Requestor selects the replace action in ShoppingHub. The system creates a purchase modification record and the `create_procurement_case` subflow creates the case.
+Requestor selects the replace action in Shopping Hub. The system creates a purchase modification record and the `create_procurement_case` subflow creates the case.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Correct a receiving record after goods have been received — for example, to ad
 
 </td><td>
 
-Requestor selects the edit receipt action in ShoppingHub. The case is handled end-to-end by the Edit a Receipt playbook.
+Requestor selects the edit receipt action in Shopping Hub. The case is handled end-to-end by the Edit a Receipt playbook.
 
 </td></tr></tbody>
 </table>## Compliance review cases
@@ -156,7 +156,7 @@ Verify and approve the delivery address on a purchase before the order proceeds.
 
 </td><td>
 
-Automatic — created by the system when a purchase requisition is submitted and the delivery address on a line item requires review. Requires the Purchase Modification Content Pack \(`sn_spend_cp`\).
+Automatic — created by the system when a purchase requisition is submitted and the delivery address on a line item requires review. Requires the Playbooks for Sourcing and Procurement Operations \(`sn_spend_cp`\).
 
 </td></tr><tr><td>
 

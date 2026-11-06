@@ -40,7 +40,7 @@ The WhatsApp Cloud API supports rich messaging controls that go beyond basic tex
 5.  Typing Indicator
 6.  The Typing Indicator displays automatically in the customer's WhatsApp app when an agent is typing a response.
 
-    No manual configuration is required for the Typing Indicator. When an agent types in the CRM Workspace, the indicator appears on the customer side through the NextWave off-Glide pipeline.
+    No manual configuration is required for the Typing Indicator. When an agent types in the CSM Configurable Workspace, the indicator appears on the customer side through the NextWave off-Glide pipeline.
 
 
 ## Result

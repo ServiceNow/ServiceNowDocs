@@ -52,7 +52,6 @@ Some ServiceNow resources that can provide you with helpful information are:
     [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/home](https://store.servicenow.com/sn_appstore_store.do#!/store/home)
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
-
-
-
+    -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
+    -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 

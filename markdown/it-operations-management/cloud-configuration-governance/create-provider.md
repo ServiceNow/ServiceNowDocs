@@ -110,7 +110,7 @@ Dependency Sequence
 
 </td><td>
 
-The order in which resource type is provisioned or discovered. Specify the order based on inter-dependencies of resources. For example, if you have a network and a subnet that you want to discover or create, specify a higher order for network than subnet, so that discovery or creation of resources is performed logically and sequentially.
+The order in which resource type is provisioned or discovered. Specify the order based on inter-dependencies of resources. For example, if you have a network and a subnet that you want to discover or create, specify a higher order for network than subnet. This ensures that discovery or creation of resources is performed logically and sequentially.
 
 </td></tr></tbody>
 </table>    \[Omitted image "capi-resource-type.png"\] Alt text: A new resource type

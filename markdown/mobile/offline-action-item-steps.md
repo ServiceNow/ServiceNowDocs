@@ -24,7 +24,7 @@ Examples of writeback actions:
 
     Save or submit the form by creating or updating a record, add a work note or comment, or attach a photo or file.
 
--   **From a recprd screen**
+-   **From a record screen**
 
     Accept a work order task, assign or reassign a record, or record the start or end of a shift.
 

@@ -100,7 +100,7 @@ If one spend category is mapped, it is auto-selected without further ML or RAG i
 
 When a new sourcing request \(SR\) or purchase request \(PR\) is created using the **I need a product**, **I need a service**, or **I need to submit a quote** record producers, the Spend categorization agent is automatically triggered. The Spend categorization agent predicts and updates the product category and spend category on the purchase request lines \(PRLs\).
 
-If the AI-predicted category differs from the category selected by the requester, the **Product category** and **Spend category** fields are updated only when the prediction confidence score exceeds 80%.
+If the AI-predicted category differs from the category selected by the requester, the **Product category** and **Spend category** fields are updated only when the prediction confidence score exceeds the confidence score threshold \(default 80\).
 
 Visual indicators appear next to the **Product category** and **Spend category** fields in the Playbook view and the Purchase Line related lists, indicating that the fields were updated using AI predictions. In such cases, a corresponding comment is added to the activity stream, for example, "AI-suggested Spend category updated from X to Y."
 

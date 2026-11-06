@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-browser-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -183,6 +183,14 @@ Predictive AI for CSM
 </td><td>
 
 ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
+
+</td></tr><tr><td>
+
+Predictive intelligence for Legal Service Delivery
+
+</td><td>
+
+To see the list of supported browsers for ServiceNow Otto for Legal Service Delivery \(LSD\), see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 

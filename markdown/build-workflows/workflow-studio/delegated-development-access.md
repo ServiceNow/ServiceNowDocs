@@ -18,7 +18,7 @@ Delegated development scopes playbook access to edit Playbook content within a s
 
 Delegated development grants playbook access within one application rather than across the instance. Create an application, assign users as developers on it, and grant them Playbooks permission. Delegated development controls whether playbook authors reach features that are otherwise restricted to admin users.
 
-For general information about delegated development, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md) and [Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-permissions.md).
+For general information about delegated development, see  and .
 
 ## Roles granted
 

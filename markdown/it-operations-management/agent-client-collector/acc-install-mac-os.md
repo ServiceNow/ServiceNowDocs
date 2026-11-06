@@ -1,6 +1,6 @@
 ---
 title: Agent Client Collector installation on a macOS system
-description: Install Agent Client Collector on a system that uses macOS. You can either use a single-line command script or follow a manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
+description: Install Agent Client Collector on a system that uses macOS. Use a single-line command script, or follow a manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-install-mac-os.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Age
 
 # Agent Client Collector installation on a macOS system
 
-Install Agent Client Collector on a system that uses macOS. You can either use a single-line command script or follow a manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
+Install Agent Client Collector on a system that uses macOS. Use a single-line command script, or follow a manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
 
 To enable privileged access to information on the macOS system, add the **\_servcienow** user account to the admin group \(or equivalent\).
 

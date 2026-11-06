@@ -1,6 +1,6 @@
 ---
 title: Pipeline project creation rule for high-value sourcing requests
-description: By default, the Pipeline project creation rule decision table is used to create pipeline projects automtatically in Sourcing Pipeline Management.
+description: By default, the Pipeline project creation rule decision table is used to create pipeline projects automatically in Sourcing Pipeline Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-project-creation-rule.html
 release: australia
@@ -14,15 +14,15 @@ breadcrumb: [Sourcing Pipeline Management, Explore, Sourcing and Procurement Ope
 
 # Pipeline project creation rule for high-value sourcing requests
 
-By default, the Pipeline project creation rule decision table is used to create pipeline projects automtatically in Sourcing Pipeline Management.
+By default, the Pipeline project creation rule decision table is used to create pipeline projects automatically in Sourcing Pipeline Management.
 
 **Note:** You must have the `sn_spend_pipeline.pipeline_management_admin` role to update the Pipeline project creation rule decision table configuration.
 
-The `sn_spend_pipeline.pipeline_management_admin` role contains the `decision_table_admin` role, which enables you to create, read, edit, and delete decision table inputs, columns, and values. For more information about configuring decision tables, see [Configure decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configuring-decision-builder.md).
+The `sn_spend_pipeline.pipeline_management_admin` role contains the `decision_table_admin` role, which enables you to create, read, edit, and delete decision table inputs, columns, and values. For more information about configuring decision tables, see [Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configuring-decision-builder.md).
 
 \[Omitted image "pipeline-decision-table.png"\] Alt text: Pipeline project creation rule.
 
-When a shopper requests pricing for items exceeding $250,000 through ShoppingHub, the following decision inputs are automatically evaluated to apply the rule conditions:
+When a shopper requests pricing for items exceeding $250,000 through Shopping Hub, the following decision inputs are automatically evaluated to apply the rule conditions:
 
 -   Sourcing request \[sn\_shop\_sourcing\_activity\]
 -   Purchase line \[sn\_shop\_purchase\_line\]

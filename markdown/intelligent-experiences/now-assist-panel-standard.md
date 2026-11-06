@@ -94,11 +94,11 @@ Enter actions.
 
 Voice Input
 
- \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: Voice input microphone on ServiceNow Otto panel.
+ \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: voice dictation microphone on ServiceNow Otto panel.
 
 </td><td>
 
-If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the ServiceNow Otto panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the ServiceNow Otto menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
+If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the ServiceNow Otto panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice dictation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the ServiceNow Otto menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
 
 </td></tr><tr><td>
 

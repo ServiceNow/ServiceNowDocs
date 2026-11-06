@@ -18,7 +18,7 @@ Activate the **Machine Identity Management** `com.glide.identity.machine_identit
 
 ## Before you begin
 
-Role required: admin
+Role required: mi\_admin
 
 ## Procedure
 

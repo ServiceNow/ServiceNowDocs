@@ -158,7 +158,7 @@ Breakdown
 
 List of breakdowns to choose from for grouping indicator scores.**Important:**
 
--   Scripted breakdowns are not supported in dashboard filters.
+-   Scripted breakdowns aren't supported in dashboard filters.
 -   Only two levels of breakdown are supported in total, including data visualization and dashboard filters.
 
  Each breakdown element is shown separately in the visualization. If a multiple select filter for that breakdown is also applied to the visualization, only the selected elements are shown. If you do not specify a breakdown in this field and apply a multiple select filter, the aggregate score of all selected breakdown elements is shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).

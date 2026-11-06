@@ -1,6 +1,6 @@
 ---
 title: Collaboration in Service Operations Workspace
-description: Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
+description: Communicate and collaborate in real time to resolve incidents by starting a chat or making conference calls with stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/collaboration-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 # Collaboration in Service Operations Workspace
 
-Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
+Communicate and collaborate in real time to resolve incidents by starting a chat or making conference calls with stakeholders.
 
 To start a Microsoft Teams chat, refer [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
 

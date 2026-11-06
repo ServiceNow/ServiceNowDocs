@@ -30,7 +30,7 @@ Each data category is imported on its own schedule and surfaced in a different p
 -   Red teaming scans, attacks, and compliance mappings are stored in dedicated tables and summarized as teaser metrics on the AI Security Operations and Model Validation dashboards.
 -   With this AI service graph connector, AI stewards can see the security metrics related to vulnerabilities and validation results in AI control tower. However, to be able to view individual security finding records for further investigation or workflow management, AI security exposure management and the [Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/prisma-airs-integration.md) must be installed and configured.
 
--   **[Install the AI Service Graph Connector for Palo Alto Prisma AIRS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-ai-sgc-install-configure.md)**  
+-   **[Install the AI Service Graph Connector for Prisma AIRS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-ai-sgc-install-configure.md)**  
 Configure the AI Service Graph Connector to integrate ServiceNow with Palo Alto Networks Prisma AIRS and import AI model inventory and security findings.
 -   **[Palo Alto Prisma AIRS to ServiceNow data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-ai-sgc-mapping.md)**  
 Prisma AIRS API fields map to ServiceNow fields for AI models, vulnerability scans, red teaming scans, and compliance data.

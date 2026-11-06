@@ -9,7 +9,7 @@ classification: reporting
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Restrict report creation with an ACL rule
@@ -28,7 +28,7 @@ Role required: security\_admin.
 
 2.  Add an access control record with the following information.
 
-<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d181281e110">
+<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d181429e110">
 
 **_Type_**
 
@@ -36,7 +36,7 @@ Role required: security\_admin.
 
 `record`
 
-</td></tr><tr><td id="d181281e125">
+</td></tr><tr><td id="d181429e125">
 
 **_Operation_**
 
@@ -44,7 +44,7 @@ Role required: security\_admin.
 
 ``report_on``
 
-</td></tr><tr><td id="d181281e143">
+</td></tr><tr><td id="d181429e143">
 
 **_Name_ \(table\)**
 
@@ -64,7 +64,7 @@ Role required: security\_admin.
     -   The ACL `report_on` operation grants the right to report on the target table.
     -   [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) have their own ACLs. If a user has `report_on` rights to all the tables in a database view, they still require report\_on rights on the database view to create reports on it. See [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md).
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 

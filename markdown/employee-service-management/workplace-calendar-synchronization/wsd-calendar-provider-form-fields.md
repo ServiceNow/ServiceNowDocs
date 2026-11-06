@@ -8,7 +8,7 @@ product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -97,4 +97,22 @@ Delegated user email
 Delegated user email address that is used to create reservations and to receive updates on room calendars as notifications.**Note:** If multiple delegated users manage multiple rooms, a separate calendar provider record must be created for each user to manage their respective rooms. This process requires retrieving individual tokens for each user, creating separate connections and credential aliases, and mapping them to the respective calendar provider.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Third-party OAuth Provider form]()
+
+[Resolving connection setup issues in Workplace Calendar Synchronization]()
+

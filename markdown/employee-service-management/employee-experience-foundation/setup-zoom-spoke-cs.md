@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Collaboration services for Zoom, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Collaboration services for Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Set up Zoom spoke

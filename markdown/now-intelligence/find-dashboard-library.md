@@ -14,7 +14,7 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
 
-## Dashboards overview
+## Dashboard overview
 
 On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 

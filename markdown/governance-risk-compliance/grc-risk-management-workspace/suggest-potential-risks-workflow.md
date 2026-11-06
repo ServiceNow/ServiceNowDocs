@@ -39,7 +39,7 @@ The benefits are as follows:
 -   Improves efficiency by automatically pulling entity context and preparing a ready-to-triage risk list in one place.
 -   Simplifies user experience through an intuitive conversational assistant embedded in the ServiceNow Otto panel.
 
-**Note:** This use case is optimized for large-scale model providers that support advanced multi-step reasoning, strong instruction adherence, and reliable structured data handling. For best results, use a supported model provider such as Azure OpenAI \(default\), Google Gemini, or Anthropic Claude on AWS. Now LLM is currently not recommended for this use case. For more information, see [KB2804715](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2804715)
+**Note:** This use case is optimized for large-scale model providers that support advanced multi-step reasoning, strong instruction adherence, and reliable structured data handling. For best results, use a supported model provider such as Azure OpenAI \(default\), Google Gemini, or Anthropic Claude. Now LLM is currently not recommended for this use case. For more information, see [KB2804715](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2804715)
 
 **Related topics**  
 

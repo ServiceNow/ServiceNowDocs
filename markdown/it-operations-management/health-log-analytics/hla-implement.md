@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [data input connectors]
 breadcrumb: [Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -44,6 +44,10 @@ Set up your Health Log Analytics data inputs for Health Log Analytics manually. 
 Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 -   **[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-automapping.md)**  
 By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
+-   **[Mapping logs for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.md)**  
+Map your incoming log data to service instances, components, and source types so that Health Log Analytics can generate alerts in context.
+-   **[Parse log data automatically and review parsing suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-ai-parsing.md)**  
+Parse log data automatically in Health Log Analytics using AI-assisted log parsing. ServiceNow Otto for ITOM generates a parser for each detected log format and displays suggested classifications and labels for the parsed properties.
 -   **[Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)**  
 Health Log Analytics \(HLA\) enables you to reclassify auto-classified log properties and change auto-mapped labels. These adjustments help HLA machine learning analyze your data accurately.
 -   **[Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md)**  

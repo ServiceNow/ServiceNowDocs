@@ -1,6 +1,6 @@
 ---
 title: Turn off local MCP servers
-description: Turn off local MCP servers for users or user groups so that Cowork can't run MCP server actions directly on user devices.
+description: Turn off local MCP servers for users or user groups so that Arc can't run MCP server actions directly on user devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/turn-off-local-mcp-servers.html
 release: australia
@@ -8,26 +8,26 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 1
 keywords: [local MCP servers, MCP servers, capability overrides]
-breadcrumb: [Reference, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Reference, ServiceNow Arc, Enable AI experiences]
 ---
 
 # Turn off local MCP servers
 
-Turn off local MCP servers for users or user groups so that Cowork can't run MCP server actions directly on user devices.
+Turn off local MCP servers for users or user groups so that Arc can't run MCP server actions directly on user devices.
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.admin
+Role required: sn\_app\_arc.admin
 
 ## About this task
 
-Users can connect local MCP servers that run on their own device rather than through a remote server URL. A local MCP server runs outside the Cowork sandbox. After a user connects one, performs actions on the device without requiring approval for each one, and its configuration persists when Cowork restarts.
+Users can connect local MCP servers that run on their own device rather than through a remote server URL. A local MCP server runs outside the Arc sandbox. After a user connects one, it performs actions on the device without requiring approval for each one, and its configuration persists when Arc restarts.
 
 Administrators control whether users can connect local MCP servers.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Cowork** &gt; **Policies** &gt; **Cowork Agent Policy**.
+1.  Navigate to **All** &gt; **ServiceNow Arc** &gt; **Policies** &gt; **Arc Agent Policy**.
 
 2.  Open the policy assigned to the users or user groups you want to restrict.
 
@@ -52,5 +52,5 @@ Administrators control whether users can connect local MCP servers.
 
 Users covered by the policy can't connect local MCP servers.
 
-**Parent Topic:**[ServiceNow Cowork reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-reference.md)
+**Parent Topic:**[ServiceNow Arc reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-reference.md)
 

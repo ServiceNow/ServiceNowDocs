@@ -32,7 +32,7 @@ The oneExtend LLM skill is included in ServiceNow Otto for WDF.
 
 2.  Find the ServiceNow Otto for WDF plugin \(sn\_nowassist\_wdf\) using the filter criteria and search bar and install the plugin \(sn\_nowassist\_wdf\).
 
-    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 3.  Select the ServiceNow Otto for WDF plugin tile, select **Install**, and confirm.
 
@@ -64,5 +64,5 @@ The oneExtend LLM skill is included in ServiceNow Otto for WDF.
 
 [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

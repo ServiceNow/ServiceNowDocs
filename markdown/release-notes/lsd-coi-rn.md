@@ -16,9 +16,14 @@ The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure
 
 ## About Legal Conflict of Interest
 
-Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
+-   Submit COI request using natural language from the conversational interface of ServiceNow Otto in Virtual Agent or Employee Center.
+-   Risk assessment with configurable risk factors and score to automate approval workflow
+-   Risk assessment reports with detailed scoring and analysis enable legal fulfillers to make faster, informed approval decisions.
+-   Configurable approval flows in accordance with the organization's Conflict of Interest \(COI\) policy.
 
 See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Activation and other requirements
 

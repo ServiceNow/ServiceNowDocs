@@ -1,5 +1,5 @@
 ---
-title: Edit a data visualization in the Visualization Designer
+title: Edit a data visualization in the library
 description: After you create a data visualization, you can return to it and edit the data visualization's appearance and other aspects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/edit-dv-ac-center.html
@@ -11,7 +11,7 @@ keywords: [Edit a data visualization]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Edit a data visualization in the Visualization Designer
+# Edit a data visualization in the library
 
 After you create a data visualization, you can return to it and edit the data visualization's appearance and other aspects.
 

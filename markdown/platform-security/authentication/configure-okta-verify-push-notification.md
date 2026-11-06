@@ -41,6 +41,8 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
     For example, `O0EYJEm|b34aYViOYaav3KnqxsItV_mPI9_p2N46Cc`.
 
+    **Note:** Create the token from a dedicated service account that has only the permissions push needs. A token has the same privileges as the admin who creates it, expires after 30 days without use, and stops working if that admin account is deactivated. If push goes unused for 30 days, create a new token.
+
 5.  On the instance, open the **Connection &amp; Credential Alias** record.
 
     For example, `<instance_url>/sys_alias.do?sys_id=692e16a0ffb72210d487ffffffffff1b`.

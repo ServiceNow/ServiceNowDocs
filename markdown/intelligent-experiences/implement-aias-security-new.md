@@ -1,6 +1,6 @@
 ---
 title: Implement access control in AI Agent Studio
-description: Implement security in AI Agent Studio through access control lists \(ACLs\), user identities, and role filtering with the access control-based security measures in the agentic system.
+description: Implement security in AI Agent Studio through access control lists \(ACLs\), user identities, and role filtering.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/implement-aias-security-new.html
 release: australia
@@ -13,20 +13,20 @@ breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 
 # Implement access control in AI Agent Studio
 
-Implement security in AI Agent Studio through access control lists \(ACLs\), user identities, and role filtering with the access control-based security measures in the agentic system.
+Implement security in AI Agent Studio through access control lists \(ACLs\), user identities, and role filtering.
 
 ## Security for AI agents
 
-Access controls for agentic AI on the ServiceNow AI Platform comprises the major aspects: determining which users can access agentic AI resources and what access each of those resources has once invoked. These aspects are controlled through three main components: access control lists \(ACLs\), user identities and role filtering. The interaction between these components at the agentic workflow, AI agent, and tool levels within AI Agent Studio influences their overall security and functionality.
+Access controls for agentic AI on the ServiceNow AI Platform comprise two major aspects: determining which users can access agentic AI resources and what access each of those resources has once invoked. These aspects are controlled through three main components: access control lists \(ACLs\), user identities and role filtering. The interaction between these components at the agentic workflow, AI agent, and tool levels within AI Agent Studio influences their overall security and functionality.
 
 ## Access Control Lists \(ACLs\)
 
 The access control lists \(ACLs\) in AI agents determine which role\(s\) a user must have to be allowed to invoke an agentic workflow or an AI agent. ACLs must be configured individually for each agentic workflow, AI agent, external AI agent, and certain AI agent tools such as generative AI Skills, Flows, and Flow Actions.
 
-ACLs configured in the AI Agent Studio for are role-based and of the Allow If type:
+ACLs configured in AI Agent Studio are role-based and of the Allow If type:
 
--   **Allow-If**: Grants access to data or resources when any of the specified conditions in the ACL are met. Allow If ACLs don't prevent other ACLs from granting access to the same resource even if it that specific ACL itself doesn't grant access.
--   **Deny-Unless**: Grants access only when the invoking user identity meets all the specified conditions. No other ACLs can override or grant access to that resource once a Deny Unless ACL is in place. This is available when configuring ACLS in the ACL \[sys\_security\_acl\] table and not in the AI Agent Studio.
+-   **Allow-If**: Grants access to data or resources when any of the specified conditions in the ACL are met. Allow If ACLs don't prevent other ACLs from granting access to the same resource even if that specific ACL itself doesn't grant access.
+-   **Deny-Unless**: Grants access only when the invoking user identity meets all the specified conditions. No other ACLs can override or grant access to that resource once a Deny Unless ACL is in place. This is available when configuring ACLs in the ACL \[sys\_security\_acl\] table and not in AI Agent Studio.
 
 There are three possible options for ACLs created in AI Agent Studio:
 
@@ -37,7 +37,7 @@ There are three possible options for ACLs created in AI Agent Studio:
 
 -   **Public**: Grants access to all users, including guests who aren’t signed in.
 
-    **Note:** Understand that this configuration should be used sparingly and only when needed.
+    **Note:** Use this configuration sparingly, and only when needed.
 
 
 **Note:**
@@ -46,13 +46,11 @@ There are three possible options for ACLs created in AI Agent Studio:
 -   For an agentic workflow or AI agent to successfully execute, the invoking user \(or relevant AI user\) must meet the criteria of all of the ACLs of any downstream components which have their own ACLs and are assigned to the agentic workflow or AI agent \(even if the specific execution might not need to invoke all of those AI agents or tools\). Therefore:
     -   If there are conflicting security requirements between agentic workflows, AI agents, and AI agent tools, your agentic AI fails to execute.
     -   The same occurs if the invoking user meets the criteria for some ACLs but not others. This includes components assigned to the agentic AI that might not be required for the specific execution.
--   When configuring these security settings, consider all aspects of the agentic system- including the agentic workflow, AI agents, and tools.
+-   When configuring these security settings, consider all aspects of the agentic system, including the agentic workflow, AI agents, and tools.
 
 ## User identities
 
-After configuring the access control lists \(ACLs\), you must configure the User identity \(also called as **Run as**\) which the AI agent or agentic workflow will run as during execution.
-
-After configuring the access control lists \(ACLs\), you must also configure the user identity \(also called as Run as\) which the AI agent or agentic workflow will run as during execution.
+After configuring the access control lists \(ACLs\), you must also configure the user identity \(also called Run as\) which the AI agent or agentic workflow will run as during execution.
 
 The user identity determines which user the AI agent or an agentic workflow operates as during execution, and therefore the data it can access and the actions it can take, depending on the roles assigned to the user identity.
 
@@ -77,9 +75,9 @@ Role filtering only applies when the agent runs as a dynamic user — because th
 
 ## Deny by Default
 
-The ServiceNow AI Platform enforces a deny-by-default ACL \(Access Control Lists\) configuration certain types of agentic components on newly activated instances. In earlier releases, these record types defaulted to allow access unless an ACL was configured for a specific record. In Australia release, newly activated instances start from a deny-by-default posture instead, so access has to be configured explicitly by creating an ACL for the specific record, rather than inherited through permissive defaults. This applies to any AI agents and agentic workflows that don't have an individual ACL configured, reducing unauthorized access risks.
+The ServiceNow AI Platform enforces a deny-by-default ACL \(Access Control Lists\) configuration for certain types of agentic components on newly activated instances. In earlier releases, these record types defaulted to allow access unless an ACL was configured for a specific record. In Australia release, newly activated instances start from a deny-by-default posture instead, so access has to be configured explicitly by creating an ACL for the specific record, rather than inherited through permissive defaults. This applies to any AI agents and agentic workflows that don't have an individual ACL configured, reducing unauthorized access risks.
 
-The deny-by-default enforcement works as follows: The **Security Attribute** field value for AI Agent and agentic workflow on the Access Controls table \[sys\_security\_acl\] is set to **Never**, enforcing the deny behavior and leaving the **Decision Type** field value as is, that is, **Allow If**. This configuration verifies that if an AI component already has a primary ACL in place, access continues to be governed by that ACL. The backup \(wild card\) ACLs deny access only when no primary ACL is present. The old wildcard ACLs allow users with agents that predate the availability of access controls in agentic products to continue to run their agents, but that general guidelines is to implement deny by default in all instances. The replacement means that the AI agents and agentic workflows must have explicit ACL entries to operate. Without explicit ACLs, access is denied by default.
+The deny-by-default enforcement works as follows: The **Security Attribute** field value for AI Agent and agentic workflow on the Access Controls table \[sys\_security\_acl\] is set to **Never**, enforcing the deny behavior and leaving the **Decision Type** field value as is, that is, **Allow If**. This configuration ensures that if an AI component already has a primary ACL in place, access continues to be governed by that ACL. The backup \(wild card\) ACLs deny access only when no primary ACL is present. The old wildcard ACLs allow users with agents that predate the availability of access controls in agentic products to continue to run their agents, but the general guideline is to implement deny by default in all instances. The replacement means that the AI agents and agentic workflows must have explicit ACL entries to operate. Without explicit ACLs, access is denied by default.
 
 **Note:** The enforcement applies only to the newly activated instances. Any instances that are upgraded to Australia release from previous releases aren't automatically affected by this configuration change and the adoption of the deny-by-default ACL configuration will require admins to proactively opt in.
 
@@ -106,9 +104,9 @@ Using ACLs, user identities, and role filtering together provides layered securi
 
 -   ACLs prevent unauthorized users from reaching and invoking the agent.
 -   User identities verify the agent operates under the correct privilege scope at runtime, preventing escalation beyond what the assigned dynamic user permits.
--   Role filtering verifies that agents can't take actions that exceed defined boundaries even when invoking use has that access.
+-   Role filtering verifies that agents can't take actions that exceed defined boundaries even when the invoking user has that access.
 
-A common source of confusion is assuming that ACLs define agent actions. They don't! ACLs determine who can invoke the agent. The scope of permissible agent actions are determined by the user identity and role filtering. Use the following summary to distinguish the mechanisms:
+A common source of confusion is assuming that ACLs define agent actions. They don't. ACLs determine who can invoke the agent. The scope of permissible agent actions is determined by the user identity and role filtering. Use the following summary to distinguish the mechanisms:
 
 |Feature|ACLs|User identities|Role filtering|
 |-------|----|---------------|--------------|
@@ -123,7 +121,7 @@ A common source of confusion is assuming that ACLs define agent actions. They do
 |Roles used|Fixed to the AI user's assigned roles|Scoped down by role filtering|
 |Identity source|Configured statically|Determined dynamically at runtime|
 
-**Note:** Configuring only one of these mechanisms leaves a gap in the agent's security posture. Therefore, it is necessary to configure the security mechanisms across the AI Agent Studio and other AI components such as generative AI Sills, Flows, and Flow Actions.
+**Note:** Configuring only one of these mechanisms leaves a gap in the agent's security posture. Therefore, it is necessary to configure the security mechanisms across the AI Agent Studio and other AI components such as generative AI Skills, Flows, and Flow Actions.
 
 For more information, see [Configure access controls across AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-aias-acls.md).
 

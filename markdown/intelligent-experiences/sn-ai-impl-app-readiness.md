@@ -34,7 +34,7 @@ After ensuring that your AI policy, your data, and your applications are ready, 
 
 3.  Install ServiceNow Otto products from the AI Admin Hub console.
 
-    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 ## Customization and AI

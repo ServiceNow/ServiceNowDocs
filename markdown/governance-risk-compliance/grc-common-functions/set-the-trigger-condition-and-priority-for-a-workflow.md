@@ -32,15 +32,15 @@ If multiple active workflows on the same table match an issue, the workflow with
 
 1.  Define how the workflow's trigger condition is evaluated.
 
-<table><thead><tr><th align="left" id="d343834e69">
+<table><thead><tr><th align="left" id="d344025e69">
 
 Option
 
-</th><th align="left" id="d343834e72">
+</th><th align="left" id="d344025e72">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d343834e78">
+</th></tr></thead><tbody><tr><td id="d344025e78">
 
 **No condition**
 
@@ -48,7 +48,7 @@ Action
 
 No action is required. The workflow applies to any issue on the selected table.
 
-</td></tr><tr><td id="d343834e88">
+</td></tr><tr><td id="d344025e88">
 
 **__Field-based condition__**
 
@@ -56,7 +56,7 @@ No action is required. The workflow applies to any issue on the selected table.
 
 Leave **Scripted condition** cleared. Select **Edit conditions**, define the condition criteria, and then select **Set**.
 
-</td></tr><tr><td id="d343834e108">
+</td></tr><tr><td id="d344025e108">
 
 **__Scripted condition__**
 

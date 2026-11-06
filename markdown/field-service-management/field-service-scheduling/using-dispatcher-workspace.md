@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-23"
 reading_time_minutes: 4
 breadcrumb: [Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -48,6 +48,7 @@ The following table provides an overview of the dispatcher's tasks in the Dispat
 |[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/appointment-booking/managing-appointments.md)|Manage customer appointments from work order task forms|
 |[Manage crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-crew-scheduling.md)|Create and manage crews, assign crews to work order tasks, and adding ad hoc agents to a crew|
 |[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/fsm-task-recommendation.md)|Improve agent utilization through intelligent task recommendations|
+|[Operational notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/operational-notes-overview.md)|Learn how operational notes work, who can see them, and how note indicators appear on the Gantt and calendar.|
 
 **Related topics**  
 

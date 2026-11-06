@@ -28,9 +28,9 @@ The following procedure describes how a ServiceNow® administrator can reset the
 
 2.  Search for the user that you want to unblock.
 
-3.  Set the Validate to **false**.
+3.  Set the Validated to **false**.
 
-4.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **Web Authentication** &gt; **User Public Credentials \(sys\_user\_public\_credential**.
+4.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **Web Authentication** &gt; **User Public Credentials \(sys\_user\_public\_credential\)**.
 
 5.  Search for the user that you want to unblock.
 
@@ -46,4 +46,8 @@ The following procedure describes how a ServiceNow® administrator can reset the
 ## Result
 
 When the unblocked user enters the credentials and logs in, the **Enable multi-factor authentication \(MFA\)** page is displayed. The user can follow the steps on the page to re-register MFA.
+
+## What to do next
+
+If a Zurich upgrade cleared the MFA enrollment of your users, they must enroll again. See [MFA reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/faq-reset-mfa.md).
 

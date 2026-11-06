@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow AI Experience Lab for VS Code, Create page, ServiceNow AI Experience Framework]
 breadcrumb: [Create a new experience, Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
@@ -45,7 +45,7 @@ Visual Studio Code
 
 </td><td>
 
-1.97 later
+1.97 or later
 
 </td><td>
 
@@ -81,7 +81,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 
@@ -116,7 +116,7 @@ ServiceNow instance
         4.  In the new folder, select the create file icon \[Omitted image "create-file-icon.png"\] Alt text:or right click in the folder and select **New file**.
     -   Create a page using the command palette.
         1.  Access the command palette by pressing Ctrl+Shift+P on Windows or Command+Shift+P on macOS, or by navigating to **View** &gt; **Command Palette**.
-        2.  Select **AIUX: Create page**.
+        2.  Select **Lux: Create page**.
     -   Create a page conversationally using Claude Code or your preferred AI tool.
         1.  Open the panel for your preferred AI tool.
         2.  Enter a prompt describing the page that you want to create.

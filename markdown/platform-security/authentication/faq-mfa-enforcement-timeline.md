@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
 
@@ -56,5 +56,9 @@ FAQ related to MFA enforcement timelines and why it’s important.
 6.  There's already an MFA policy defined using adaptive authentication based on the security needs of my organization in the instance. Is the policy impacted by the mandate?
 
     No, if the instance already has an active Adaptive authentication—MFA context policy, the new default secure MFA policy isn’t enforced. If the instance had MFA property enabled \(`glide.authenticate.multifactor`\) but the MFA policy wasn’t active, then the default secure MFA policy for enforcing MFA for all internal users \(users who don’t have `snc_external` role\) performing user name and password-based local or LDAP login is enabled.
+
+7.  Does upgrading to Zurich change existing MFA enrollments?
+
+    Yes, under the conditions in [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md). If `glide.authenticate.auth.policy.enabled` was `false` before the upgrade and a Pre or Post Authentication Policy Context was configured, the upgrade deletes existing MFA enrollment data. Users must enroll in MFA again.
 
 

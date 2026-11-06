@@ -50,14 +50,3 @@ Roles that require a subscription are considered measured roles. Measured roles 
 
 When possible, simplify role administration by assigning measured roles to groups instead of assigning roles directly to individual users.
 
--   **[Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-subscription-auto-assignment.md)**  
-If your organization has never manually allocated user-based subscriptions before, entitlements are automatically assigned based on user roles and ACL access. Reviewing how roles are evaluated for automatic subscription assignment can help you make decisions about which roles users should have.
--   **[Allocate subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/allocate-subscriptions-v2.md)**  
-Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
--   **[Remove a group from a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/remove-group-from-subscription-v2.md)**  
-Fix an over-allocated subscription and free up entitlements by removing a group from a product subscription in Subscription Management.
--   **[Maintain per-user subscription allocations in Subscription Management at renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/maintain-allocations-renewal.md)**  
-Ensure subscription allocations remain consistent throughout the renewal process.
-
-**Parent Topic:**[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/subscription-management-landing-page-v2.md)
-

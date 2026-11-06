@@ -24,6 +24,8 @@ Whether your instance displays TPM or TLM also depends on your application versi
 
 In TRM view, the lifecycles aren’t aggregated to application services or business applications.
 
+Grouping rows, such as an application service or the **Hardware models** and **Software products** headings, don’t display timeline bars. Only the rows of individual hardware models and software product versions display timeline bars.
+
 It displays the following TRM related information:
 
 -   **TRM Phase**

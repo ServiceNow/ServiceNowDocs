@@ -29,7 +29,7 @@ Reports on IGT question results use the Industrial Guided Task Result \[sn\_icw\
 
 1.  Create a report.
 
-    For more information about creating reports, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-types-creation-details-rd.md).
+    For more information about creating reports, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-types-creation-details-rd.md).
 
 2.  On the **Data** tab, enter a name for the report.
 

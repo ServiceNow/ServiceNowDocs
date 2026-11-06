@@ -7,8 +7,8 @@ release: australia
 product: Common Service Delivery
 classification: common-service-delivery
 topic_type: reference
-last_updated: "2026-08-06"
-reading_time_minutes: 5
+last_updated: "2026-10-28"
+reading_time_minutes: 6
 breadcrumb: [Learn about FSC common applications, Common applications, Finance and Supply Chain applications, Finance and Supply Chain]
 ---
 
@@ -402,4 +402,9 @@ Third-Party Unit Mapping\[sn\_spend\_intg\_third\_party\_uom\_map\]
 References the Supplier Product and Third-Party Unit tables and maps a supplier product to its corresponding third-party unit of measure.
 
 </td></tr></tbody>
-</table>
+</table>## Consolidated product data for Shopping Hub
+
+When the Source-to-Pay Integration Framework and Shopping Hub are both installed, the Shopping Hub Categories and Suppliers pages read their products from the Consolidated product \[sn\_spend\_intg\_consolidated\_product\] table. If this table is empty, the Categories and Suppliers pages and their dropdowns show no suppliers or categories. A category appears on the Categories page only when at least one product belongs to it. Shopping controls are not required for categories to appear.
+
+The system creates a consolidated product record when a supplier product or a third-party catalog product is created. If you have products that were created before both applications were installed, populate the table by running the **PopulateConsolidatedSupplierProductData** fix script. The script processes all supplier products and third-party catalog products in batches of 10,000. Also run it if you created supplier products in bulk, for example through an import, and they are missing from the Consolidated product table.
+

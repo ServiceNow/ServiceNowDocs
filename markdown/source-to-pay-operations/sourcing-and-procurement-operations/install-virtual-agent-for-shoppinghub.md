@@ -28,6 +28,7 @@ Activate the following plugins:
 |----|-----------|
 |Glide Virtual Agent \(com.glide.cs.chatbot\)|Activates the Virtual Agent framework and other necessary plugins. This is a prerequisite for the Shopping Virtual Agent plugin to work.|
 |Virtual Agent Experience Pack for Sourcing and Procurement Operations \(sn\_shop\_va\)|Activates a conversational bot platform for providing user assistance through conversations for Sourcing and Procurement Operations.|
+|Natural Language Understanding Models for Sourcing and Procurement Operations \(sn\_spend\_nlu\)|Provides the Natural Language Understanding \(NLU\) models that the Virtual Agent uses to detect the intent of user utterances. Required to set up NLU for the Shopping Hub virtual agent.|
 
 ## Procedure
 

@@ -53,7 +53,7 @@ The dynamic operator, **is \(dynamic\)**, lists predefined dynamic filter option
 
 [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_DotWalking.md)
 
-[bundle-platadm.r_FieldTypes]
+[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md)
 
 [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_OpAvailableFiltersQueries.md)
 

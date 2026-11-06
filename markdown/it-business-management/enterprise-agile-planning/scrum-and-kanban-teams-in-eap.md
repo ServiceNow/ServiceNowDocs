@@ -7,9 +7,9 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-10-02"
+last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Scrum and Kanban teams in an ART in EAP
@@ -26,16 +26,16 @@ An ART can include teams that work in different ways. Each Agile Team follows on
 
 -   **Kanban**
 
-    The team works from a continuous backlog. It has no Sprints, and it doesn't use the shared calendar of its ART.
+    The team works from a continuous backlog. Kanban teams have no Sprints and don't use the shared calendar of their ART.
 
 
 ## Kanban team differences
 
-Because a Kanban team doesn't use Sprints, you see the following differences:
+Because a Kanban team doesn't use Sprints, the following differences apply:
 
 -   **Backlog**
 
-    The **Create next Sprint** button isn't available on the team Backlog.
+    The **Create Sprint** button isn't available on the team Backlog.
 
 -   **Sprint creation**
 

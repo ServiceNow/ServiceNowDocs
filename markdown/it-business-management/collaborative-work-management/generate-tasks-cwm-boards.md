@@ -21,7 +21,7 @@ Generate tasks or stories for a Board by describing the work in a natural langua
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
--   Verify that ServiceNow Otto for CWM is active on your instance.
+-   Verify that ServiceNow Otto for Collaborative Work Management \(CWM\), including its prerequisites, is configured on your instance. See [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md).
 -   A reference file in one of these formats: .pdf, .docx, .txt, .pptx, .png, or .jpg. Maximum file size: 50 MB.
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user

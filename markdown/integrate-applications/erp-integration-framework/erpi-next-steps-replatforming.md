@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extract, replatform, source, app]
-breadcrumb: [Building with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Building applications and flows with ERP data from Zero Copy Connector for ERP, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Next steps after extracting data from your ERP system using Zero Copy Connector for ERP
@@ -33,12 +33,12 @@ After ERP data is available on tables in the ServiceNow AI Platform, you can use
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   
--   
--   
--   
--   
--   
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md)
+-   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
+-   [Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder-landing.md)
 
 ## Using Glide to query ERP data
 

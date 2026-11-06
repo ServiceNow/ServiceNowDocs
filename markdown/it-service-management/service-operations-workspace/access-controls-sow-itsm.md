@@ -1,6 +1,6 @@
 ---
 title: Access controls in Service Operations Workspace for ITSM
-description: You can determine which users can access Service Operations Workspace for ITSM after logging in to the ServiceNow instance or access the Service Operations Workspace for ITSM landing page.
+description: Control which users can access Service Operations Workspace for ITSM by assigning the sn\_sow.sow\_user role and enabling login redirection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/access-controls-sow-itsm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 
 # Access controls in Service Operations Workspace for ITSM
 
-You can determine which users can access Service Operations Workspace for ITSM after logging in to the ServiceNow instance or access the Service Operations Workspace for ITSM landing page.
+Control which users can access Service Operations Workspace for ITSM by assigning the sn\_sow.sow\_user role and enabling login redirection.
 
 For a user, access to Service Operations Workspace for ITSM is based on the following criteria:
 

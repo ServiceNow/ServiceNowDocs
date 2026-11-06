@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-04"
+last_updated: "2026-10-28"
 reading_time_minutes: 12
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -142,11 +142,23 @@ DBA\_ADVISOR\_TASKS
 
 </td><td>
 
-DBA\_USERS
+DMSYS.DM$OBJECT
 
 </td><td>
 
-SYS.MODEL$
+SYSMAN.MGMT\_ADMIN\_LICENSES
+
+</td></tr><tr><td>
+
+dba\_aws
+
+</td><td>
+
+DMSYS.DM$P\_MODEL
+
+</td><td>
+
+SYSMAN.MGMT\_FU\_LICENSE\_MAP
 
 </td></tr><tr><td>
 
@@ -154,11 +166,23 @@ DBA\_CPU\_USAGE\_STATISTICS
 
 </td><td>
 
-DMSYS.DM$MODEL
+DVSYS.DBA\_DV\_REALM
 
 </td><td>
 
-SYS.REGISTRY$HISTORY
+SYSMAN.MGMT\_FU\_REGISTRATIONS
+
+</td></tr><tr><td>
+
+DBA\_CUBES
+
+</td><td>
+
+GV$IM\_SEGMENTS
+
+</td><td>
+
+SYSMAN.MGMT\_FU\_STATISTICS
 
 </td></tr><tr><td>
 
@@ -166,7 +190,7 @@ DBA\_ENCRYPTED\_COLUMNS
 
 </td><td>
 
-DMSYS.DM$OBJECT
+GV$INSTANCE
 
 </td><td>
 
@@ -178,7 +202,19 @@ DBA\_FEATURE\_USAGE\_STATISTICS
 
 </td><td>
 
-DMSYS.DM$P\_MODEL
+GV$PARAMETER
+
+</td><td>
+
+SYSMAN.MGMT\_LICENSED\_TARGETS
+
+</td></tr><tr><td>
+
+DBA\_FLASHBACK\_ARCHIVE
+
+</td><td>
+
+LBACSYS.LBAC$POLT
 
 </td><td>
 
@@ -190,7 +226,19 @@ DBA\_FLASHBACK\_ARCHIVE\_TABLES
 
 </td><td>
 
-DVSYS.DBA\_DV\_REALM
+LBACSYS.OLS$POLT
+
+</td><td>
+
+SYSMAN.MGMT\_LICENSE\_CONFIRMATION
+
+</td></tr><tr><td>
+
+DBA\_FLASHBACK\_ARCHIVE\_TS
+
+</td><td>
+
+MDSYS.SDO\_FEATURE\_USAGE
 
 </td><td>
 
@@ -202,7 +250,7 @@ DBA\_INDEXES
 
 </td><td>
 
-GV$IM\_SEGMENTS
+MDSYS.SDO\_GEOM\_METADATA\_TABLE
 
 </td><td>
 
@@ -214,7 +262,7 @@ DBA\_LOBS
 
 </td><td>
 
-GV$INSTANCE
+MGMT$TARGET
 
 </td><td>
 
@@ -226,11 +274,11 @@ DBA\_LOB\_PARTITIONS
 
 </td><td>
 
-GV$PARAMETER
+ODM.ODM\_MINING\_MODEL
 
 </td><td>
 
-V$ARCHIVE\_DEST\_STATUS
+SYSTEM.AQ$\_QUEUES
 
 </td></tr><tr><td>
 
@@ -238,11 +286,11 @@ DBA\_LOB\_SUBPARTITIONS
 
 </td><td>
 
-MDSYS.SDO\_FEATURE\_USAGE
+ODM\_DOCUMENT
 
 </td><td>
 
-V$BLOCK\_CHANGE\_TRACKING
+SYSTEM.AQ$\_QUEUE\_TABLES
 
 </td></tr><tr><td>
 
@@ -250,11 +298,23 @@ DBA\_OBJECTS
 
 </td><td>
 
-MDSYS.SDO\_GEOM\_METADATA\_TABLE
+ODM\_RECORD
 
 </td><td>
 
-V$CONTAINERS
+SYSTEM.FND\_ORACLE\_USERID
+
+</td></tr><tr><td>
+
+DBA\_OBJECT\_TABLES
+
+</td><td>
+
+OLAPSYS.DBA$OLAP\_CUBES
+
+</td><td>
+
+V$ARCHIVE\_DEST\_STATUS
 
 </td></tr><tr><td>
 
@@ -262,11 +322,11 @@ DBA\_RECYCLEBIN
 
 </td><td>
 
-MGMT$TARGET
+RC\_DATABASE
 
 </td><td>
 
-V$DATABASE
+V$BLOCK\_CHANGE\_TRACKING
 
 </td></tr><tr><td>
 
@@ -274,11 +334,11 @@ DBA\_REGISTRY
 
 </td><td>
 
-ODM.ODM\_MINING\_MODEL
+REDACTION\_POLICIES
 
 </td><td>
 
-V$DATAGUARD\_CONFIG
+V$CONTAINERS
 
 </td></tr><tr><td>
 
@@ -286,11 +346,11 @@ DBA\_SQLSET
 
 </td><td>
 
-ODM\_DOCUMENT
+SCHEMA\_VERSION\_REGISTRY
 
 </td><td>
 
-V$LICENSE
+V$DATABASE
 
 </td></tr><tr><td>
 
@@ -298,11 +358,11 @@ DBA\_SQLSET\_REFERENCES
 
 </td><td>
 
-ODM\_RECORD
+SYS.CDC\_CHANGE\_SETS$
 
 </td><td>
 
-V$OPTION
+V$DATAGUARD\_CONFIG
 
 </td></tr><tr><td>
 
@@ -310,11 +370,11 @@ DBA\_SQL\_PROFILES
 
 </td><td>
 
-REDACTION\_POLICIES
+SYS.CDC\_CHANGE\_TABLES$
 
 </td><td>
 
-V$PARAMETER
+V$INSTANCE
 
 </td></tr><tr><td>
 
@@ -322,11 +382,11 @@ DBA\_TABLES
 
 </td><td>
 
-SCHEMA\_VERSION\_REGISTRY
+SYS.DBA\_AUDIT\_SESSION
 
 </td><td>
 
-V$SESSION
+V$LICENSE
 
 </td></tr><tr><td>
 
@@ -334,11 +394,11 @@ DBA\_TABLESPACES
 
 </td><td>
 
-SYS.CDC\_CHANGE\_SETS$
+SYS.DBA\_MINING\_MODELS
 
 </td><td>
 
-V$VERSION
+V$OPTION
 
 </td></tr><tr><td>
 
@@ -346,11 +406,11 @@ DBA\_TAB\_PARTITIONS
 
 </td><td>
 
-SYS.CDC\_CHANGE\_TABLES$
+SYS.MODEL$
 
 </td><td>
 
-dba\_aws
+V$PARAMETER
 
 </td></tr><tr><td>
 
@@ -358,7 +418,31 @@ DBA\_TAB\_SUBPARTITIONS
 
 </td><td>
 
-SYS.DBA\_MINING\_MODELS
+SYS.OBJ$
+
+</td><td>
+
+V$SESSION
+
+</td></tr><tr><td>
+
+DBA\_USERS
+
+</td><td>
+
+SYS.REGISTRY$HISTORY
+
+</td><td>
+
+V$VERSION
+
+</td></tr><tr><td>
+
+DMSYS.DM$MODEL
+
+</td><td>
+
+ 
 
 </td><td>
 
@@ -595,7 +679,7 @@ For information about privileged user access, see [KB1705845](https://support.se
 
 For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
-For more information about Agent Client Collector with file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
+For more information about Agent Client Collector with file-based discovery, see [Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
 -   **Data collected**
 

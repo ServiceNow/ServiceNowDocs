@@ -1,5 +1,5 @@
 ---
-title: Copy a report
+title: Copy a Core UI report
 description: Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/copy-report.html
@@ -9,10 +9,10 @@ classification: reporting
 topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 2
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Copy a report
+# Copy a Core UI report
 
 Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 
@@ -53,14 +53,14 @@ This topic refers to Reporting in the Core UI. If your instance is a new Austral
 
 6.  Modify the report.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 7.  Change the report visibility.
 
     In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text:\) and select **Share**.
 
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 

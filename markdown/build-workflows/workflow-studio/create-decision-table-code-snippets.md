@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Create decision table code snippets
@@ -20,7 +20,7 @@ Create code snippets of published decision tables in Workflow Studio to execute 
 
 If you have draft authoring enabled, you must publish your decision table to copy a code snippet of the table. If draft authoring is not enabled, save your decision table to access this feature.
 
-Copying code snippets for a decision table lets you quickly insert the table into your script without authoring the code manually. For more information about the Decision table API, see [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
+Copying code snippets for a decision table lets you quickly insert the table into your script without authoring the code manually. For more information about the Decision table API, see .
 
 Role required: none
 
@@ -45,5 +45,5 @@ Role required: none
 8.  Insert the code snippet into your script where you want to call the decision table and define the data to use for each input variable.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

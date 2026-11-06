@@ -47,15 +47,15 @@ You can do these actions by using the ServiceNow Otto icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d410533e186">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d411324e186">
 
 Chat message window
 
-</th><th align="left" id="d410533e189">
+</th><th align="left" id="d411324e189">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d410533e197">
+</th></tr></thead><tbody><tr><td id="d411324e197">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d410533e217">
+</td></tr><tr><td id="d411324e217">
 
 **Left blank**
 

@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, join, table, read, operation]
 breadcrumb: [ERP model operations, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -32,9 +32,9 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or NULLS.
+Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or null values.
 
-Join fields defines the common attribute or key used to connect records in a child table with their corresponding parent records.
+Join fields define the common attribute or key used to connect records in a child table with their corresponding parent records.
 
 ## Procedure
 
@@ -50,7 +50,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 6.  Add the tables to join as **Table read** operation entities if they haven't yet been added to the model.
 
-    For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    For more information, see [Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
     \[Omitted image "erpc-tables-with-joins-ys2.png"\] Alt text: Multiple tables are joined.
 
@@ -80,7 +80,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
         The value in the child table **Mapped value** field updates automatically with the joined field name.
 
-        For example, in the SAP Material Stock model, you can specify **Material** as the parent field in the **Field name** field, and join it to the material ID by entering `mard_material_matnr` in the parent **Mapped value** field.
+        For example, in the SAP Material Stock model, you can specify **Material** as the parent field in the **Field name** field and join it to the material ID. Enter `mard_material_matnr` in the parent **Mapped value** field.
 
     5.  Select **Save**.
 
@@ -98,5 +98,5 @@ Join fields defines the common attribute or key used to connect records in a chi
 After you're done creating table joins, you can specify where the returned ERP data goes, and build flows that retrieve and output the data. For more information, see the following topics:
 
 -   [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-call-response-data.md)
--   [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md)
+-   [Building flows with the Zero Copy Connector for ERP Use ERP Data action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md)
 

@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -77,6 +77,8 @@ If there are overlapping active contracts in a blanket or release scenario, any 
 If the overlapping contracts have a price break structure, use the minimum price to determine which contract to use during the overlapping period.
 
 A reference to the pricing record is added on the purchase line to allow procurement specialists to select a different pricing record, if required. If the pricing reference is updated, the starting unit cost and negotiated unit cost are updated on the purchase line, and so is the requisition to contract association.
+
+**Note:** A supplier product must have a pricing reference for its price to populate in the cart. If the pricing reference is missing, for example when you check out from a sourcing request, the cart price is blank.
 
 **Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

@@ -42,4 +42,8 @@ FAQ related to MFA reset and why it’s important.
 
     In case no one including the admin can access the instance. The admin can perform a self-service MFA reset using a catalog item available at [Now support](https://support.servicenow.com/now).
 
+3.  Do users have to enroll in MFA again after upgrading to Zurich?
+
+    Yes, if the upgrade met the conditions in [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md). The upgrade deletes existing MFA enrollment data. Users must enroll again, and they don't need an MFA reset to do so.
+
 

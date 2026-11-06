@@ -46,7 +46,7 @@ As a contract configurator, add metadata to pre-fill information that will be pl
 **Related topics**  
 
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts]()
+[Creating a contract template using Microsoft Word add-in]()
 
 [Create contract template by manually adding content controls]()
 

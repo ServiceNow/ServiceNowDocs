@@ -21,7 +21,7 @@ Conversation channels provide your end users and agents with different options f
 
 ## Chat channels
 
-Chat channels support two-way conversations in real time. These conversations may involve a user and a live agent or a user and a virtual agent. This mode of conversation is synchronous, and the user is guaranteed a response. Supported chat channels let your end users and agents interact based on the chat applications \(clients\) that they’re using and when they’re available to connect.
+Chat channels support two-way conversations in real time. These conversations may involve a user and a live agent or a user and a virtual agent. This mode of conversation is synchronous, and the user receives a response. Supported chat channels let your end users and agents interact based on the chat applications \(clients\) that they’re using and when they’re available to connect.
 
 The following channels are supported for synchronous chat:
 
@@ -39,7 +39,7 @@ The following channels are supported for synchronous chat:
 
 Messaging channels let end users and agents communicate over longer periods of time, especially when one party isn’t online. This mode of chat is asynchronous and happens at the parties' convenience.
 
-When your end users and agents must communicate over longer periods without being online concurrently, pre-built messaging channels let them chat asynchronously, at their convenience.
+When your end users and agents must communicate over longer periods without being online concurrently, prebuilt messaging channels let them chat asynchronously, at their convenience.
 
 The following channels are available for asynchronous chat:
 
@@ -55,7 +55,7 @@ Messaging channels are defined in the Messaging Channels table \[sys\_cs\_channe
 
 ## Live Agent support by channel
 
-Not all channels may be suitable for Live Agent support. For example, you may want to disable support for the Bot-to-Bot and voice channels. Live Agent support is enabled by default, but admins can change this setting in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Disable live agent support for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/disable-live-agent-support-channel.md).
+Not all channels may be suitable for Live Agent support. For example, you may need to disable support for the Bot-to-Bot and voice channels. Live Agent support is enabled by default, but admins can change this setting in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Disable live agent support for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/disable-live-agent-support-channel.md).
 
 ## Chat and messaging features
 

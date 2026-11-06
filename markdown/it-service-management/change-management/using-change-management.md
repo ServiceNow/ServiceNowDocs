@@ -29,7 +29,7 @@ Manage your change tasks from anywhere using the Mobile Agent mobile application
 -   **[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-content-pack.md)**  
 Platform Analytics Solutions and in-form analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 -   **[Manage the workspace configuration for a Change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md)**  
-Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.
+Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.
 
 **Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md)
 

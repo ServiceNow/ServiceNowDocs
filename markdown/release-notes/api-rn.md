@@ -894,6 +894,20 @@ POST /now/helprequest/action/create\_or\_update
 -   POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice
 -   DELETE /api/sn\_csm\_pricing/pricingengine/pricing\_context/\{pricing\_context\_id\}
 
+</td></tr><tr><td>
+
+[Custom Connector Gateway API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/custom-connector-gateway-api.md)
+
+</td><td>
+
+-   POST /xcc-ingest \(ADDDOCUMENT\)
+-   POST /xcc-ingest \(ADDPRINCIPAL\)
+-   POST /xcc-ingest \(DELETEALLDOCUMENTS\)
+-   POST /xcc-ingest \(DELETEALLPRINCIPALS\)
+-   POST /xcc-ingest \(DELETEBYQUERY\)
+-   POST /xcc-ingest \(DELETEDOCUMENT\)
+-   POST /xcc-ingest \(DELETEPRINCIPAL\)
+
 </td></tr></tbody>
 </table>|API|Operations|
 |---|----------|
@@ -1058,6 +1072,14 @@ API
 Endpoints
 
 </th></tr></thead><tbody><tr><td>
+
+[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md)
+
+</td><td>
+
+POST /now/attachment/file now returns `403 Forbidden` instead of `401 Unauthorized` when access is denied at the ACL layer. To authenticate with this API, use OAuth 2.0 or enable preemptive authentication on the REST client. For more information, see [KB3054410](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3054410).
+
+</td></tr><tr><td>
 
 [Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf-party-management-open-api.md)
 

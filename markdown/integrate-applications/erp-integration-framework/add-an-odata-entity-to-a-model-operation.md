@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-08-07"
-reading_time_minutes: 1
+last_updated: "2026-10-26"
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, entity, model, operation]
-breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData entity to a model operation
@@ -42,6 +42,8 @@ Role required: sn\_erp\_integration.erp\_admin
 7.  In **Select type**, select **OData**.
 
 8.  In **Select service**, specify the OData service to use.
+
+    The list shows the services retrieved from the SAP catalog service of the model's ERP system. The catalog service path is set by the sn\_erp\_integration.catalog\_service\_path system property, which applies to all ERP systems in the instance. If the ERP system exposes its catalog service at a different path, its services aren't listed. For more information, see [Zero Copy Connector for ERP system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-system-properties.md).
 
     If you don't see the service you need, add the service by selecting **+ Add service manually**. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
 

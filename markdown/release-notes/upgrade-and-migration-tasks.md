@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrade-and-migration-tasks.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 118
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---
@@ -44,9 +44,9 @@ AI Admin Hub
 
 -   **Upgrade information**
 
-If you customized actions on the user interface or other items that are associated with ServiceNow Otto skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
+If you customized actions on the user interface or other items that are associated with AI skills, confirm that your customized code is updated with the new skill releases. Otherwise, certain functions might not work as expected.
 
-If you run into issues when you're upgrading a ServiceNow Otto product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
+If you run into issues when you're upgrading an AI product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
 
 The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
 
@@ -497,7 +497,7 @@ Hardware Asset Management
         -   asset\_licensing\_admin: Provides access to the ITAM licensing module.
         -   asset\_recommendation\_admin: Provides access to recommendation actions.
     -   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
-    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Australia Patch 5, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
+    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Australia Patch 5, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. By default, this property is set to **true**. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access.
 
 </td><td>
 
@@ -1144,7 +1144,7 @@ AI Desktop Actions
 
 -   **Upgrade information**
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download installer](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=brazil&ft:locale=en-US).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [\[Placeholder link text to key bundle-platai.download-agentic-desktop-installer\]](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=brazil&ft:locale=en-US).
 
 
 </td><td>
@@ -1159,9 +1159,9 @@ AI Risk and Compliance
 
 -   **Upgrade information**
 
-If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+If you're upgrading from an earlier release, upgrade sequentially through each release. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
 
-**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
+**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Installation and upgrade considerations](https://servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
 
 
 </td><td>
@@ -1194,6 +1194,8 @@ Change Management
 The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
 
 To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
+The Change Management - Collision Detector plugin \(com.snc.change.collision\) is now activated automatically when you upgrade to the Brazil release.
 
 
 </td><td>
@@ -3513,7 +3515,7 @@ Hardware Asset Management
         -   sn\_hamp.enable\_shipping\_carrier\_validation\_asn
         -   sn\_hamp.model\_lifecycle\_phase\_order
         -   sn\_hamp.update\_assets\_norm\_model\_name
-    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
+    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. By default, this property is set to **true**. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access.
 
 </td><td>
 

@@ -92,7 +92,7 @@ This task is part of configuring the display settings of some data visualization
 
 1.  Open the data visualization for editing, either in the dashboard in-line editor or the Visualization Designer.
 
-    For more information, see [Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/editing-dv-in-line-db.md) or [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md).
+    For more information, see [Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/editing-dv-in-line-db.md) or [Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md).
 
 2.  In the **Presentation** area of the configuration panel, open the **Colors** section.
 

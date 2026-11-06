@@ -103,7 +103,7 @@ The ServiceNow Otto for Order Management includes the following applications tha
 
 ## Business Portal and sales agents
 
-Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CRM Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
+Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CSM Configurable Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
 
 ## What to explore next
 

@@ -165,7 +165,7 @@ Create a working page that renders at a URL in your app, optionally fetching dat
 
 ## What to do next
 
--   [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md): serving different page implementations from the same route
+-   [Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md): serving different page implementations from the same route
 -   : wiring a page into the app's shell and navigation
 -   : the full loader contract and `ctx` shape
 

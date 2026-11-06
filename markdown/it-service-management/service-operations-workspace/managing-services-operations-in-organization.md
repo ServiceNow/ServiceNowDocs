@@ -44,9 +44,9 @@ You can access the service level agreement \(SLA\) information for an incident o
 -   **[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/walkup-sow.md)**  
 Manage your Walk-up interactions and queues in Service Operations Workspace.
 -   **[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaboration-sow.md)**  
-Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
+Communicate and collaborate in real time to resolve incidents by starting a chat or making conference calls with stakeholders.
 -   **[Computer Telephony Integration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-cti-sow.md)**  
-Service Operations Workspace provides an agent \(with the sn\_openframe\_user role\) to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
+Agents with the required role can receive inbound calls and place outbound calls in Service Operations Workspace using Computer Telephony Integration \(CTI\).
 -   **[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ur-sow.md)**  
 The Universal Request is a task that a requester creates from any of the sources that include: Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
 -   **[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ut-sow.md)**  

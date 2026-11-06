@@ -22,7 +22,7 @@ For existing users, you can access the Conversational Interfaces console applica
 
 ## Conversational Interfaces console advantages
 
-Implement Conversational Interfaces to support your users with virtual and live agents through the chat channels they prefer. Increase the productivity of your IT organization by deflecting the more common, easier to resolve user issues, to a 24/7-available Virtual Agent bot. The Conversational Interfaces console makes it easy for you to quickly get started and work towards achieving positive outcomes with your implementation.
+Implement Conversational Interfaces to support your users with virtual and live agents through the chat channels they prefer. Increase the productivity of your IT organization by deflecting the more common, easier to resolve user issues, to a 24/7-available Virtual Agent bot. The Conversational Interfaces console helps you get started quickly and work toward your implementation goals.
 
 Navigate through an intelligent experience that is uniquely tailored to where you are as a Conversational Interfaces user. The Conversational Interfaces console is ideal for first-time users who have never installed or configured Conversational Interfaces, to the most experienced user looking to expand full capabilities and maintain existing implementations.
 

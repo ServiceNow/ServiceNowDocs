@@ -9,7 +9,7 @@ classification: reporting
 topic_type: concept
 last_updated: "2026-08-17"
 reading_time_minutes: 1
-breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Configuring function fields

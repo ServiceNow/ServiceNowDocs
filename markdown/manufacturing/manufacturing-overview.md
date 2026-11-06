@@ -43,7 +43,7 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 </td><td>
 
-[ServiceNow Otto for MCO\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use ServiceNow Otto for MCO to enhance user productivity and efficiency through conversation and proactive experiences using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/now-assist-for-MCO.md)
+[Automate\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI skills and agentic workflows to automate manufacturing tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/ai-in-mco.md)
 
 </td><td>
 

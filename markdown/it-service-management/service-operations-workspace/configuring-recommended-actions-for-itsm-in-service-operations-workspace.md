@@ -1,6 +1,6 @@
 ---
 title: Configuring Recommended Actions for ITSM in Service Operations Workspace
-description: Configure contexts, rules, recommendations, and resource generators to provide agents with AI-powered suggestions when working with incidents, problems, change requests, and other records in Service Operations Workspace in ITSM.
+description: Configure contexts, rules, recommendations, and resource generators to give agents AI-powered suggestions on records in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Contextual side panel configurations in Service Operations Workspac
 
 # Configuring Recommended Actions for ITSM in Service Operations Workspace
 
-Configure contexts, rules, recommendations, and resource generators to provide agents with AI-powered suggestions when working with incidents, problems, change requests, and other records in Service Operations Workspace in ITSM.
+Configure contexts, rules, recommendations, and resource generators to give agents AI-powered suggestions on records in Service Operations Workspace.
 
 ## Contexts in Recommended Actions for ITSM
 

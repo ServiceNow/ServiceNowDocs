@@ -79,7 +79,7 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[CrowdStrike Spoke]()|1.1.0|Brazil, Australia, Zurich, Yokohama|
 |[Databricks Spoke]()|1.0.1|Brazil, Australia, Zurich, Yokohama|
 |[Docker Spoke]()|2.4.3|Brazil, Australia, Zurich, Yokohama|
-|[Docusign eSignature Spoke]()|4.5.1|Brazil, Australia, Zurich, Yokohama|
+|[Docusign eSignature Spoke]()|4.5.2|Brazil, Australia, Zurich, Yokohama|
 |[Dropbox Business Spoke]()|1.1.0|Brazil, Australia, Zurich, Yokohama|
 |[Dun and Bradstreet DirectPlus Spoke]()|1.1.0|Brazil, Australia, Zurich, Yokohama|
 |[Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/ethoca-spoke.md)|1.0.0|Brazil, Australia, Zurich, Yokohama|
@@ -149,13 +149,13 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Microsoft Azure SQL Database Spoke]()|2.0.0|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Azure Traffic Manager Spoke]()|2.0.0|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Azure Virtual Machine Spoke]()|2.0.0|Brazil, Australia, Zurich, Yokohama|
-|[Microsoft Azure Virtual Network Spoke]()|2.0.0|Brazil, Australia, Zurich, Yokohama|
+|[Microsoft Azure Virtual Network Spoke]()|2.0.1|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Dynamics 365 for Finance and Operations Spoke]()|2.5.0|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Dynamics CRM Spoke]()|1.10.1|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Endpoint Configuration Manager Spoke]()|1.10.2|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Entra Entitlement Management Spoke]()|1.0.0|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)]()|4.8.2|Brazil, Australia, Zurich, Yokohama|
-|[Microsoft Exchange Online Spoke]()|4.1.2|Brazil, Australia, Zurich, Yokohama|
+|[Microsoft Exchange Online Spoke]()|4.1.3|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Exchange Server Spoke]()|2.6.0|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft Intune Spoke]()|2.0.1|Brazil, Australia, Zurich, Yokohama|
 |[Microsoft OneDrive Spoke]()|2.9.1|Brazil, Australia, Zurich, Yokohama|
@@ -183,7 +183,7 @@ To get started, see the Boomi API Management listing on the [ServiceNow® Store]
 |[Oracle Object Storage Management Spoke]()|1.0.3|Brazil, Australia, Zurich, Yokohama|
 |[Oracle Peoplesoft Financial Spoke]()|1.2.1|Brazil, Australia, Zurich, Yokohama|
 |[Oracle Virtual Cloud Network Spoke]()|1.0.4|Brazil, Australia, Zurich, Yokohama|
-|[PagerDuty Spoke]()|1.6.0|Brazil, Australia, Zurich, Yokohama|
+|[PagerDuty Spoke]()|1.6.1|Brazil, Australia, Zurich, Yokohama|
 |[Plivo Spoke]()|1.3.0|Brazil, Australia, Zurich, Yokohama|
 |[Pluralsight Spoke]()|1.2.0|Brazil, Australia, Zurich, Yokohama|
 |[Qualtrics Spoke]()|1.4.2|Brazil, Australia, Zurich, Yokohama|

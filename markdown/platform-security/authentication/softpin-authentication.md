@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Soft PIN Authentication, ServiceNow, low-risk scenarios, self-service features, security risks]
 breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -31,7 +31,10 @@ Each user enrolls a Soft PIN before it can be used for authentication. Users can
 
 When Soft PIN is selected as an authentication factor for an AI voice agent service, the agent prompts the caller for the PIN during the session. The platform validates the response against the user's enrolled PIN and returns the result to the orchestrator.
 
-**Note:** Soft PIN supports both Text and Voice input.
+**Note:**
+
+-   Soft PIN supports both Text and Voice input.
+-   Soft PIN factor isn’t supported for step-up authentication.
 
 ## Enrollment rules
 

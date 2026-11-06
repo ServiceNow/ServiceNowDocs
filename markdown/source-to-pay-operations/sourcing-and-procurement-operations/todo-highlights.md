@@ -20,7 +20,7 @@ A red vertical line is displayed to the left of the task card, and a badge with 
 
 Similarly, a yellow vertical line is displayed to the left of the task card, and a badge with the same color is displayed with the number of days, if the to-do has a due date approaching in three days.
 
-A procurement administrator can use the sn\_shop.spend.sla.due.days purchasing property to configure the number of days for displaying the yellow highlight. By default, this is set to three days of the task due date.
+A procurement administrator can use the `sn_shop.spend.sla.due.days` purchasing property to configure the number of days for displaying the yellow highlight. By default, this is set to three days of the task due date.
 
 **Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

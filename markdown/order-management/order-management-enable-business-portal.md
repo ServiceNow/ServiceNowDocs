@@ -41,7 +41,7 @@ See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceN
 
 ## What to do next
 
-Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-business-portals.md).
+Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Set up Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-business-portals.md).
 
 **Related topics**  
 

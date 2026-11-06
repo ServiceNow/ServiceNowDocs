@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/a2a-protocol.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-28"
+last_updated: "2026-10-16"
 reading_time_minutes: 1
 breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
@@ -16,7 +16,7 @@ Agent2Agent \(A2A\) is an open standard that enables cross-platform AI agent com
 
 ## Agent2Agent Protocol overview
 
-The standard relies on every AI agent having an Agent Card associated with it. The Agent Card provides basic information for providers like the ServiceNow AI Platform, Microsoft Azure, and Google to use them.
+The standard relies on every AI agent having an Agent Card associated with it. The Agent Card gives providers such as the ServiceNow AI Platform, Microsoft Azure, and Google the basic information they need to use the agent.
 
 **Note:** The supported A2A version for on-glide is v0.3 and the supported A2A version when Premium Chat is enabled is v1.
 
@@ -28,7 +28,7 @@ See [Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/S
 
 A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and another with an execution endpoint.
 
-## Custom Headers for External Agent Configuration
+## Custom headers for external agent configuration
 
 When configuring external agents, you can pass custom HTTP headers to be included in the API calls to external endpoints. In the External Agent Configuration \[sn\_aia\_external\_agent\_configuration\] table, use the custom headers column to specify headers in JSON format. These headers are applied to all HTTP requests made by that agent during offline execution, regardless of the connection type \(OAuth, API Key, or other\). The configured headers are sent alongside the agent's authentication credentials and are useful for passing additional metadata or requirements that your external API expects.
 

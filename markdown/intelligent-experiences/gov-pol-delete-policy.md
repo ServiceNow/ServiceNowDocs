@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, delete]
-breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Delete a policy

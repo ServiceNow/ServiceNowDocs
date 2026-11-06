@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Framework, containment]
-breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Create a Threat Response policy
@@ -51,15 +51,15 @@ A Threat Response policy watches for a specific threat type. Once conditions mat
 
     A follow-up fires only when the policy actually blocks an attempt, not just because it's published.
 
-<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d193193e206">
+<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d202345e206">
 
 Follow-up action
 
-</th><th align="left" id="d193193e209">
+</th><th align="left" id="d202345e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d193193e215">
+</th></tr></thead><tbody><tr><td id="d202345e215">
 
 **Create a ticket**
 
@@ -70,7 +70,7 @@ Description
 3.  Select the assignment group that will receive the ticket.
 
 
-</td></tr><tr><td id="d193193e242">
+</td></tr><tr><td id="d202345e242">
 
 **Notify**
 
@@ -91,7 +91,7 @@ The policy runs as soon as a matching threat is detected. The affected agent is 
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
 You can edit a Threat Response policy directly to change its threat type, scope, sensitivity, or follow-up actions. For details, see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Alternatively, clone the policy to test a variant without changing the original, then delete the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-clone-policy.md).
 

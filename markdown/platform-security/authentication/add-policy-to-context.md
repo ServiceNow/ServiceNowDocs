@@ -60,7 +60,7 @@ Role required: adaptive\_auth\_admin
 
     -   **Session validation context**
 
-        This context has a **Allow Policy** or **Deny Policy** field, depending on the selection in the **Default Policy** field.
+        This context has an **Allow Policy** field.
 
 4.  Click **Update**.
 

@@ -24,15 +24,11 @@ Requirements;
 
 <table id="table_crq_v4l_w2c" class="nav-card presentation"><tbody><tr><td>
 
-Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of dashboard summarization
-
-</td><td>
-
 [Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the ServiceNow Otto context menu and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-dashboard-summary.md)
 
 </td><td>
 
-Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Use the Dashboard Summary
+[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Use the Dashboard Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/use-dashboard-summary.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -52,7 +48,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tablesand indicators that will be used to generate analytics. For example, information from the Incident tableor the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tablesand indicators that will be used to generate analytics. For example, information from the Incident tableor the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 

@@ -170,7 +170,7 @@ For more information, see [Cross-project library elements](https://raw.githubuse
 
 </td></tr><tr><td>
 
-Info\[Omitted image "kpi-comp-info-icon.png"\] Alt text:
+Info\[Omitted image "kpi-comp-info-icon.png"\] Alt text: Open knowledge article
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/sales-order-management-rn-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -44,7 +44,9 @@ Sales and Order Management \(SOM\) is now known as Sales Customer Relationship M
 
 Sales Customer Relationship Management includes workflows for Customer Lifecycle Operations \(Customer Life Cycle Management\). For details on these features in the Australia release, see the [Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/data-management-rn.md) release notes.
 
-Also, agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases and case line items in CRM Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
+Also, agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases and case line items in CSM Configurable Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 -   **[Activity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/activity-management-rn.md)**  
 ServiceNow® Activity Management helps customer-focused teams to plan, execute, capture, and track customer interactions across multiple channels throughout the customer's association with your business. Activity Management is a new capability in the Australia release.
@@ -54,8 +56,8 @@ The ServiceNow® Advanced Approval Management application enables you to define 
 The ServiceNow® Advanced Approval Management AI application enables advanced approval users to manage quote approvals using natural language requests in Model Context Protocol \(MCP\)-compatible clients, without opening a ServiceNow instance. Advanced Approval Management AI is a new application in the Australia release.
 -   **[Buying Group release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/buying-group-rn.md)**  
 The ServiceNow® Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
--   **[CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cpq-transaction-manager-rn.md)**  
-CPQ is a configuration engine that acts as the "C" in Configure, Price, Quote. It uses an attribute-based approach to simplify complex product logic. The engine delivers dynamic blueprints, real-time user interfaces, and a Commerce Logic Engine that generates accurate outputs like bills of materials.
+-   **[ServiceNow CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cpq-transaction-manager-rn.md)**  
+ServiceNow CPQ is a configuration engine that acts as the "C" in Configure, Price, Quote. It uses an attribute-based approach to simplify complex product logic. The engine delivers dynamic blueprints, real-time user interfaces, and a Commerce Logic Engine that generates accurate outputs like bills of materials.
 -   **[Customer Engagement Sequences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/customer-engagement-sequences-rn.md)**  
 The ServiceNow® Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities to engage customers throughout the time they're associated with your business. Customer Engagement Sequences was enhanced and updated in the Australia release.
 -   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/customer-self-service-som-rn.md)**  

@@ -32,15 +32,15 @@ The LogRhythm alarm ID is connected to the ServiceNow AI Platform security incid
 
 2.  To use the automated alarm update for SIR Incident creation, choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d386631e99">
+<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d386468e99">
 
 Option
 
-</th><th align="left" id="d386631e102">
+</th><th align="left" id="d386468e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d386631e108">
+</th></tr></thead><tbody><tr><td id="d386468e108">
 
 **Update LogRhythm alarms upon SIR Incident Creation**
 
@@ -48,7 +48,7 @@ Description
 
 Default is cleared. Select this option to automatically update the LogRhythm alarms when the SIR Incident is created.
 
-</td></tr><tr><td id="d386631e120">
+</td></tr><tr><td id="d386468e120">
 
 **Initial comments posted back to LogRhythm alarm**
 
@@ -63,15 +63,15 @@ Indicates the initial comments that are posted for the LogRhythm alarm.
 </td></tr></tbody>
 </table>3.  To use the automated alarm update for SIR Incident closure, choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_xkc_b44_3tb"><thead><tr><th align="left" id="d386631e153">
+<table id="choicetable_xkc_b44_3tb"><thead><tr><th align="left" id="d386468e153">
 
 Option
 
-</th><th align="left" id="d386631e156">
+</th><th align="left" id="d386468e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d386631e162">
+</th></tr></thead><tbody><tr><td id="d386468e162">
 
 **Close LogRhythm alarms upon SIR Incident Closure**
 
@@ -79,7 +79,7 @@ Description
 
 Default is cleared. Select this option to automatically close the LogRhythm alarms when the SIR Incident is closed.
 
-</td></tr><tr><td id="d386631e174">
+</td></tr><tr><td id="d386468e174">
 
 **Closure comments posted back to LogRhythm alarm**
 

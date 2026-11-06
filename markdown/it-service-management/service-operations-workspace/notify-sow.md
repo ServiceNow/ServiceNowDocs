@@ -21,7 +21,7 @@ For more information about configuring Notify, see [Notify](https://raw.githubus
 -   **[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/telephony-sow.md)**  
 Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 -   **[Use Webex for conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/cisco-webex-sow.md)**  
-Use Webex to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
+Schedule conference calls with stakeholders in Webex to resolve incidents in Service Operations Workspace.
 -   **[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/zoom-sow.md)**  
 Use Zoom to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
 -   **[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/microsoft-teams-sow.md)**  

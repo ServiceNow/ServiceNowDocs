@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-A Knowledge Graph is a semantic layer that connects data, relationships, and context across your enterprise. It structures information as a graph of entities and their connections, transforming raw data into actionable knowledge. A Knowledge Graph allows AI agents to understand the relationships between real-world entities and retrieve insights, facts, and relationships directly to automate actions and improve accuracy. When adding a Knowledge Graph tool, you can configure its query instruction, conversation history, execution mode, output display, and processing messages to ensure the tool works effectively within your AI agent's workflow.
+A Knowledge Graph is a semantic layer that connects data, relationships, and context across your enterprise. It structures information as a graph of entities and their connections. This lets AI agents understand how real-world entities relate to each other and retrieve the facts they need to take action accurately. When adding a Knowledge Graph tool, you can configure its query instruction, conversation history, execution mode, output display, and processing messages to ensure the tool works effectively within your AI agent's workflow.
 
 ## Procedure
 

@@ -1,6 +1,6 @@
 ---
 title: Use Webex for conference calls in Service Operations Workspace
-description: Use Webex to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
+description: Schedule conference calls with stakeholders in Webex to resolve incidents in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/cisco-webex-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Notify in Service Operations Workspace, Collaboration in Service Op
 
 # Use Webex for conference calls in Service Operations Workspace
 
-Use Webex to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
+Schedule conference calls with stakeholders in Webex to resolve incidents in Service Operations Workspace.
 
 -   **[Start a conference call using Webex in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/start-conference-call-webex.md)**  
 Start a conference call using Webex from to work towards the resolution of an incident.

@@ -20,10 +20,10 @@ ServiceNow Otto allows the administrators to choose the custom skills for deploy
 
 You must also select ServiceNow Otto context menu as a display option when you activate the skill in AI Admin. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 
-To complete the activation process, create a ServiceNow Otto context menu configuration. For more information, see [Create ServiceNow Otto context Menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-now-assist-configuration-with-guided-setup.md)
+To complete the activation process, create a ServiceNow Otto context menu configuration. For more information, see [Create ServiceNow Otto context menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-now-assist-configuration-with-guided-setup.md)
 
--   **[Create ServiceNow Otto context Menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-now-assist-configuration-with-guided-setup.md)**  
-Create a new ServiceNow Otto context Menu configuration to deploy and activate a custom skill.
+-   **[Create ServiceNow Otto context menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-now-assist-configuration-with-guided-setup.md)**  
+Create a ServiceNow Otto context menu configuration to deploy and activate a custom skill.
 -   **[Create multiple ServiceNow Otto context menu skill configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-multple-nacm-skill-configuration.md)**  
 Create multiple ServiceNow Otto context menu configuration for the same field and table.
 -   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nacm-variable-set-description.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nacm-variable-set-description.md)**  

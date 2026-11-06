@@ -1,5 +1,5 @@
 ---
-title: Using the Access Simulator
+title: Use the Access Simulator
 description: Simulate changes to user access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/use-access-simulator.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Access simulator, Access Analyzer, Access Management]
 ---
 
-# Using the Access Simulator
+# Use the Access Simulator
 
 Simulate changes to user access.
 
@@ -20,16 +20,16 @@ Simulate changes to user access.
 
 Role required: access\_analyzer\_admin
 
-Enable the Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-simulator.md).
+The Take actions option must be enabled. For more information, see [Configure the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Access Simulator**.
 
-2.  To simulate a change, click **Simulate** next to one the following scenarios:
+2.  To simulate a change, select **Simulate** next to one of the following scenarios:
 
-    -   [Adding Roles to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/add-role-to-user.md)
-    -   [Removing Roles from users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-role-from-user.md)
-    -   [Adding users to Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/add-user-to-group.md)
-    -   [Removing users from Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-user-from-group.md)
+    -   [Add roles to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/add-role-to-user.md)
+    -   [Remove roles from users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-role-from-user.md)
+    -   [Add users to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/add-user-to-group.md)
+    -   [Remove users from groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/remove-user-from-group.md)
 

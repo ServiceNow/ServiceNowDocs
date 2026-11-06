@@ -60,5 +60,3 @@ You can integrate your ServiceNow instance with Okta to view software usage for 
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

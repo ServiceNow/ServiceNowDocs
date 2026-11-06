@@ -1,5 +1,5 @@
 ---
-title: Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]
+title: Define restricted downloadable MIME types
 description: Use the glide.ui.attachment.force\_download\_all\_mime\_types property to download MIME types and not to render inline in the browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.html
@@ -12,17 +12,17 @@ reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]
+# Define restricted downloadable MIME types
 
 Use the **glide.ui.attachment.force\_download\_all\_mime\_types** property to download MIME types and not to render inline in the browser.
 
-If **glide.ui.attachment.download\_mime\_types** does include dangerous MIME types such as text/html, image/svg ,image/svg+xml,application/xml, then dangerous files could be rendered inline in the browser, which could lead to Cross Site Scripting attacks \(XSS\). This property is the list of comma-separated attachment mime types, which won’t render inline in the browser. For example, including text/html forces HTML files to be downloaded to the client as attachments rather than viewed inline in the browser. Maintaining this list properly prevents cross-site scripting attacks.
+If the **glide.ui.attachment.download\_mime\_types** property doesn't include dangerous MIME types such as text/html, image/svg, image/svg+xml, application/xml, and application/xhtml+xml, dangerous files could be rendered inline in the browser. This can lead to cross-site scripting attacks \(XSS\).
 
-If the **glide.ui.attachment.download\_mime\_types** system property doesn't include dangerous MIME types such as "text/html, image/svg,image/svg+xml,application/xml", then dangerous files could be rendered inline in the browser. This can lead to Cross Site Scripting \(XSS\) attacks. This check is only relevant when **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**.
+This property is the list of comma-separated attachment mime types that don't render inline in the browser. For example, including text/html forces HTML files to be downloaded to the client as attachments rather than viewed inline in the browser. Maintaining this list properly prevents XSS attacks.
 
-This property is a list of comma-separated attachment MIME types, which don’t render inline in the browser. For example, including `text/html` forces HTML files to be downloaded to the client as attachments rather than viewed inline in the browser.
+**Note:** This check is only relevant when **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**.
 
-If **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**, verify that the **glide.ui.attachment.download\_mime\_types** system property includes the dangerous MIME types `text/html,image/svg,image/svg+xml,application/xml`.
+If **glide.ui.attachment.force\_download\_all\_mime\_types** is set to **false**, verify that the **glide.ui.attachment.download\_mime\_types** system property includes the dangerous MIME types `text/html, image/svg, image/svg+xml, application/xml, and application/xhtml+xml`.
 
 ## More information
 
@@ -64,7 +64,7 @@ Recommended value
 
 </td><td>
 
-text/html,image/svg,image/svg+xml,application/xml
+text/html,image/svg,image/svg+xml, application/xml, application/xhtml+xml
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Default value
 
 </td><td>
 
-text/html,image/svg,image/svg+xml,application/xml
+text/html, image/svg, image/svg+xml, application/xml, application/xhtml+xml
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Fallback value
 
 </td><td>
 
-text/html,image/svg,image/svg+xml,application/xml
+text/html, image/svg, image/svg+xml, application/xml, application/xhtml+xml
 
 </td></tr><tr><td>
 

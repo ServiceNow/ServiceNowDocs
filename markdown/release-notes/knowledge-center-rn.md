@@ -1,12 +1,12 @@
 ---
 title: Knowledge Center release notes
-description: The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
+description: The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan. It also adds style guides for AI-generated articles in the Knowledge Center.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.The ServiceNow Knowledge Center helps you manage knowledge articles from a single interface. Knowledge Center is available starting with the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/knowledge-center-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [ServiceNow AI Platform capabilities release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -67,7 +67,7 @@ See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 ## September 2026
 
-The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan.
+The September 2026 release extends Health score configuration with Duplicate score and, identification of stale and expiring articles to the Article Optimization scan. It also adds style guides for AI-generated articles in the Knowledge Center.
 
 ### What's new
 
@@ -82,6 +82,10 @@ The September 2026 release extends Health score configuration with Duplicate sco
 -   **[SharePoint as a content source for Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-article-using-sharepoint.md)**
 
     Connect ServiceNow Otto to a SharePoint site through an external content connection \(XCC\) so its content can be used when creating knowledge articles with AI. Microsoft SharePoint appears as an available source in the source list when you create an article using AI in Knowledge Center. ServiceNow Otto searches, aggregates, and summarizes relevant Microsoft SharePoint content to help generate the article.
+
+-   **[Using style guides in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-style-guides-in-the-knowledge-center.md)**
+
+    Style guides are now available in Knowledge Center, so you can define the tone, voice, and terminology that AI follows when it generates knowledge articles. Administrators create a style guide, assign it to a knowledge base, and set its order. Authors then select it when they generate an article.
 
 
 ### What's changed
@@ -107,7 +111,7 @@ The September 2026 release extends Health score configuration with Duplicate sco
 
 -   **Now LLM Service deprecation notice**
 
-    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 ## August 2026

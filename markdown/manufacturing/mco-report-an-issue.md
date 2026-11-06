@@ -1,5 +1,5 @@
 ---
-title: Report an issue
+title: Report an issue manually
 description: Create an issue report for the product non-conformance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-report-an-issue.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Quality issue management for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
-# Report an issue
+# Report an issue manually
 
 Create an issue report for the product non-conformance.
 
@@ -20,7 +20,7 @@ Role required: Product Non-conformance Submitter \(sn\_mfg\_qm.product\_non\_con
 
 ## About this task
 
-This task appears only when Now Assist capabilities are not available.
+This task appears only when Now Assist capabilities aren't available.
 
 ## Procedure
 

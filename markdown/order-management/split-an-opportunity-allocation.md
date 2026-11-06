@@ -20,7 +20,7 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the **Allocations** tab.
 

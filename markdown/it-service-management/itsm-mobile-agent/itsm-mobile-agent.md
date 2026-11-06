@@ -18,11 +18,9 @@ The ServiceNow® ITSM Mobile Agent app delivers base system mobile-first experie
 
 ## ITSM Mobile Agent overview
 
-Watch this three-minute video to learn more about ITSM Mobile Agent. This video covers the ITSM Mobile Agent app overview, installation, and information on how to access the app.
+ITSM Mobile Agent assists IT agents with an intuitive interface to manage all their work, view schedules, check who is on call, respond to major incidents, and more. The agent can also view incident details and activity; edit an incident and add comments; resolve, assign, or reassign an incident; and view incident notifications.
 
 ## Get started
-
-ITSM Mobile Agent assists IT agents with an intuitive interface to manage all their work, view schedules, check who is on call, respond to major incidents, and more. The agent can also view incident details and activity; edit an incident and add comments; resolve, assign, or reassign an incident; and view incident notifications.
 
 <table id="table_vth_41n_fzb" class="nav-card"><tbody><tr><td>
 

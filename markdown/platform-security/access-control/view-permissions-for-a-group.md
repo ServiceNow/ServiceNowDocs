@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Evaluate access, Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Evaluate access, Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
 # View permissions for a group
@@ -20,7 +20,7 @@ Use Access Analyzer to view permissions for a selected group.
 
 Role required: access\_analyzer\_admin
 
-This procedure explains how to view the permissions for a specific role \(such as **ITIL User**\) on the **Incident** table by using the Evaluate Access feature in Access Analyzer.
+This procedure explains how to view the permissions for a specific role \(such as ITIL User\) on the Incident table by using the Evaluate access feature in Access Analyzer.
 
 **Note:** Access Analyzer is a ServiceNow® Store product.
 
@@ -46,7 +46,7 @@ Analyze by \*
 
 </td><td>
 
-Select **Group**.
+**Group** option for analyzing access.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Select user \*
 
 </td><td>
 
-Specify a user name to select from the list. For example, **Incident Management**.
+Name of the group to select from the list. For example, **Incident Management**.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Rule type \*
 
 </td><td>
 
-Analyze access for the following:-   Table
+Access analysis for the following:-   Table
 -   UI page
 -   REST Endpoint
 -   Client callable script include
@@ -76,12 +76,12 @@ UI Page \*
 
 </td><td>
 
-Specify the UI page. For example, **incident.do**.
+Name of the UI page. For example, **incident.do**.
 
 </td></tr></tbody>
 </table>3.  Specify the description in the **Description** field.
 
-4.  Click **Analyze permissions**.
+4.  Select **Analyze permissions**.
 
     \[Omitted image "view-permissions-for-a-group.png"\] Alt text: View permission of the group for a UI page
 
@@ -91,6 +91,6 @@ Specify the UI page. For example, **incident.do**.
 
     The results can be read by referring to the Legends, access control list \(ACL\), IAccesshandler, and Data filters.
 
-    The overall access for the group is `passed`, which means that the users within the group \(**Incident Management**\) are able to access the Incident record.
+    The overall access for the group is `passed`, which means that the users within the group \(**Incident Management**\) can access the Incident record.
 
 

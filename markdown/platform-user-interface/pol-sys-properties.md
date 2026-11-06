@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/pol-sys-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-10-22"
+reading_time_minutes: 2
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -92,7 +92,39 @@ true
 
 </td><td>
 
-Enables the Unified Navigation experience on platform.
+Turns the Next Experience UI on or off for the entire instance. This property takes precedence over all other Next Experience properties and user preferences. When false, the Next Experience UI is off for all users.
+
+</td></tr><tr><td>
+
+glide.ui.next\_experience.opt\_out
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+false
+
+</td><td>
+
+Prevents the Next Experience UI from turning on automatically during an upgrade. This property applies only to instances that aren't using the Next Experience UI yet. When one of these instances upgrades to the Vancouver release or later, the Next Experience UI turns on automatically unless this property is set to true. The property is checked one time, during the upgrade.
+
+</td></tr><tr><td>
+
+glide.ui.polaris.on\_off\_user\_pref\_enabled
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+true
+
+</td><td>
+
+Displays a toggle in the **Display** section of the user preferences. Users can use the toggle to turn the Next Experience UI on or off for themselves. The toggle sets the glide.ui.polaris.use user preference. When false, users don't see the toggle.
 
 </td></tr><tr><td>
 

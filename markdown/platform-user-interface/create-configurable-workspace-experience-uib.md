@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-configurable-workspace-experience-uib.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: ui\_builder\_admin, admin
 
 **Note:**
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CRM Workspace.
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CSM Configurable Workspace.
 
 These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch.
 

@@ -23,7 +23,7 @@ Discovery identifies and classifies information about Solaris computers.
 -   Oracle Solaris 10
 -   Oracle Solaris 11
 
-## Prerequisites
+## Requirements for discovery
 
 -   **Handle truncated command line parameters**
 
@@ -51,7 +51,7 @@ Discovery identifies and classifies information about Solaris computers.
 
 -   **Set the preferred IP address version for network adapter discovery**
 
-    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+    Starting with Visibility Content version 6.32.0, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table when adapters support both IPv4 and IPv6. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 
 ## Classifier, probes, and pattern
@@ -177,7 +177,7 @@ Case 4: The relationship path between physical local and global zone machines is
 
 Subsequent discoveries of the global zone refresh the TCP connection and process information for the contained local zones.
 
-When the system discovers a global zone, the Solaris - Zones &amp; ADM Launcher probe triggers the Solaris - ADM probe to explore the global zone and each local zone found. Because the Solaris - ADM probe must run on the global zone to detect TCP connection and process information from its local zones, you might see multiple ECC queue records that appear identical.
+When the system discovers a global zone, the Solaris - Zones &amp; ADM Launcher probe triggers the Solaris - ADM probe to explore the global zone and each local zone found. The Solaris ADM probe must run on the global zone to detect TCP connection and process information from its local zones. As a result, you might see multiple ECC queue records that appear identical.
 
 \[Omitted image "ZoneECCQueue.png"\] Alt text: ECC queue entries for a zone Discovery
 

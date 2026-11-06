@@ -57,7 +57,7 @@ Perform the following:
 
 ## Result
 
-You can use the submitted Soft PIN to authenticate various ServiceNow system or service. For example, AI voice service.
+You can use your Soft PIN to authenticate with AI voice agents.
 
 **Note:** Users are eligible for Soft PIN enrollment only if their user ID is present in **sys\_user** table. If its missing, an enrollment failure message is displayed.
 

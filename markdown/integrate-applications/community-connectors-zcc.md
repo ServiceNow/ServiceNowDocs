@@ -22,14 +22,14 @@ Community connectors are developed by the open-source community and made availab
 
 |Community connector|Minimum compatibility|
 |-------------------|---------------------|
-|[Apache Cassandra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-cassandra-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[Apache Hive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-hive-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[Apache Hudi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-hudi-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[Delta Lake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/delta-lake-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[Exasol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/exasol-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[MariaDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mariadb-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[MongoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mongodb-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[OpenText Analytics Database \(Vertica\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/vertica-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[Prometheus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prometheus-zcc.md)|Yokohama Patch 5, Zurich, Australia|
-|[SingleStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/singlestore-zcc.md)|Yokohama Patch 5, Zurich, Australia|
+|[Apache Cassandra](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-cassandra-zcc.md)|Starting with Yokohama patch 5|
+|[Apache Hive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-hive-zcc.md)|Starting with Yokohama patch 5|
+|[Apache Hudi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-hudi-zcc.md)|Starting with Yokohama patch 5|
+|[Delta Lake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/delta-lake-zcc.md)|Starting with Yokohama patch 5|
+|[Exasol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/exasol-zcc.md)|Starting with Yokohama patch 5|
+|[MariaDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mariadb-zcc.md)|Starting with Yokohama patch 5|
+|[MongoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mongodb-zcc.md)|Starting with Yokohama patch 5|
+|[OpenText Analytics Database \(Vertica\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/vertica-zcc.md)|Starting with Yokohama patch 5|
+|[SingleStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/singlestore-zcc.md)|Starting with Yokohama patch 5|
+|[Prometheus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prometheus-zcc.md)|Starting with Australia|
 

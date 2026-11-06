@@ -195,7 +195,7 @@ AI Skill Kit is not visible on my instance
 
 </td><td>
 
--   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   Verify that the sn\_skill\_builder.admin role is assigned to the user.
 
 </td></tr><tr><td>
@@ -270,12 +270,27 @@ ServiceNow Otto panel
 
 </td><td>
 
+Panel is activated but stays in a loading or frozen state
+
+</td><td>
+
+-   Verify all ServiceNow Otto plugins are up to date.
+-   Repair Generative AI Controller.
+-   Clear browser cookies and cache.
+-   Verify Next Experience is enabled.
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
 Can't access skills in the ServiceNow Otto panel
 
 </td><td>
 
 -   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md).
--   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md).
+-   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md).
 
 If ServiceNow Otto for Virtual Agent is not installed, the ServiceNow Otto panel uses default search sources.
 
@@ -352,7 +367,7 @@ Configuration issues
 </td><td>
 
 1.  Verify that the plugin is up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md).
-2.  Follow the guided setup to install and configure it. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+2.  Follow the guided setup to install and configure it. For details, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -378,7 +393,7 @@ Chat is not showing search results
 
 -   Verify that all of your AI or ServiceNow Otto plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md).
 -   Verify that AI Search and ServiceNow Otto for AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md) and [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md).
--   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the ServiceNow Otto panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md).
+-   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the ServiceNow Otto panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md).
 
 </td></tr><tr><td>
 

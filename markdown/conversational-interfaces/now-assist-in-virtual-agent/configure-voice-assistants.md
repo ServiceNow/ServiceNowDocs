@@ -9,7 +9,7 @@ classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-04-21"
 reading_time_minutes: 15
-breadcrumb: [View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
+breadcrumb: [View assistants, Configure assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a voice assistant
@@ -313,7 +313,7 @@ Voice or DTMF
 </td></tr></tbody>
 </table>    4.  Select the step-up authentication factor.
 
-        This step is required if one or more AI voice agents in this assistant require step-up authentication. If none do, the step is optional and you can select the factor in advance. For more information about step-up authentication, see Step-up authentication.
+        This step is required if one or more AI voice agents in this assistant require step-up authentication. If none do, the step is optional and you can select the factor in advance. For more information about step-up authentication, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/step-up-authentication.md).
 
         Select one factor. The same factor applies to every AI voice agent in this assistant that requires step-up authentication. Supported factors are Okta Verify push notification, SMS verification code, and Authenticator app time-based One Time Password \(TOTP\). The factor selected as the **First factor** or **Second factor** can also be selected for step-up authentication. The caller receives a new challenge.
 

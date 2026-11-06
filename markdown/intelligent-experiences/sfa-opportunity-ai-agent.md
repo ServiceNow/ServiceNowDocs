@@ -1,6 +1,6 @@
 ---
 title: Opportunity AI agent
-description: This AI agent helps sales agents read, create, update, and summarize opportunities and their related records, such as accounts, contacts, touchpoints, opportunity tasks, line items, and meetings. It previews changes to opportunities, accounts, contacts, and line items and makes them only after the user approves.
+description: This AI agent helps the user read, create, update, and summarize opportunities and their related records, such as accounts, contacts, touchpoints, opportunity tasks, line items, and meetings. It previews changes to opportunities, accounts, contacts, and line items and makes them only after the user approves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sfa-opportunity-ai-agent.html
 release: australia
@@ -12,21 +12,21 @@ breadcrumb: [Sales Automation AI agents, Sales CRM AI agents, Sales CRM, AI agen
 
 # Opportunity AI agent
 
-This AI agent helps sales agents read, create, update, and summarize opportunities and their related records, such as accounts, contacts, touchpoints, opportunity tasks, line items, and meetings. It previews changes to opportunities, accounts, contacts, and line items and makes them only after the user approves.
+This AI agent helps the user read, create, update, and summarize opportunities and their related records, such as accounts, contacts, touchpoints, opportunity tasks, line items, and meetings. It previews changes to opportunities, accounts, contacts, and line items and makes them only after the user approves.
 
 ## Workflow
 
-The agent helps sales agents manage opportunities and their related records through natural-language requests.
+The agent helps users manage opportunities and their related records through natural-language requests.
 
 1.  Identify the action the user wants to take and the record it applies to, and ask a clarifying question if the request is unclear or not supported.
 2.  Use the record the user names, or the record open in the workspace if the user doesn't name one.
 3.  Retrieve and present the matching records or an opportunity summary, showing the first 10 results when more exist.
 4.  When creating an opportunity, help the user choose a sales cycle type and a stage that belongs to it.
 5.  Preview changes to opportunities, accounts, contacts, and line items, and apply them only after the user approves.
-6.  Apply changes to touchpoints, opportunity tasks, competitors, associated contacts, and meetings directly, and confirm removal of a competitor or line item before deleting it.
-7.  Report the result, including the reason for any failure, and suggest up to three next steps the user can take.
+6.  Apply changes to touchpoints, opportunity tasks, competitors, associated contacts, and meetings directly.
+7.  Report the result, including the reason for any failure, and provide up to three next steps the user can take.
 
-<table><thead><tr><th>
+<table id="table_gfn_wv5_5kc"><thead><tr><th>
 
 Field
 
@@ -67,8 +67,6 @@ Tools
 -   **Scripts**
 
 Opportunity Create
-
-Opportunity Delete
 
 Opportunity Lookup
 
@@ -119,6 +117,8 @@ Opportunity Agentic Workflow
 
 </td></tr></tbody>
 </table>Learn more about Opportunity Management at [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md).
+
+To manage opportunity records, see [Manage opportunity records using an AI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md).
 
 **Parent Topic:**[Sales Automation AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sales-automation-ai-agents-overview.md)
 

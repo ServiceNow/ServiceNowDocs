@@ -14,7 +14,7 @@ breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 
 Configure general settings for all Now Assist applications from the **Settings** tab in the AI Admin Hub console.
 
-As you begin to explore ServiceNow generative AI products, use **Settings** in the AI Admin Hub console to activate the plugins. See [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
+As you begin to explore ServiceNow generative AI products, use **Settings** in the AI Admin Hub console to activate the plugins. See [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 Turn on the ServiceNow Otto panel, review multi-language support, data sharing and processing, and AI Guardian features, and view the account settings. You can also manage the large language model integrations under **Settings**.
 

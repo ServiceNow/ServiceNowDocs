@@ -17,7 +17,7 @@ The ServiceNow® Upgrade Console application guides you for a comprehensive and 
 ## About Upgrade Console
 
 -   Access the ATF troubleshooting agent directly from the Upgrade console.
--   Manage your application version compatibility by updating the Now Assist suite.
+-   Manage your application version compatibility by updating the AI Suites.
 
 See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-landing-page.md) for more information.
 
@@ -51,7 +51,7 @@ The ServiceNow® Upgrade Console application guides you for a comprehensive and 
 
 -   **[App version compatibility support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-pre-upgrade-activities.md)**
 
-    Update the Now Assist suite to manage application version compatibility by automatically updating all related applications to compatible versions when you upgrade an application in the compatibility matrix.
+    Update the AI Suites to manage application version compatibility by automatically updating all related applications to compatible versions when you upgrade an application in the compatibility matrix.
 
 -   **[ATF Troubleshooting agent access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-post-upgrade-activities.md)**
 

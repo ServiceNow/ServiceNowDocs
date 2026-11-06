@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-10-15"
+reading_time_minutes: 8
 breadcrumb: [Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -20,7 +20,7 @@ The following capabilities can be leveraged by customers if they have both the S
 
 -   Connection between the Company and Supplier tables through the **Related company** field. Also, leverage properties in the tables to synchronize other fields between the two tables at your own discretion.
 -   Viewing tiering assessments and risk assessments for a vendor in the Supplier table.
--   Vendor Risk Reviewer role as a procurement specialist.
+-   Vendor Assessment Reviewer role \(sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\) as a procurement specialist.
 -   Adding members to the Governance, Risk, and Compliance \(GRC\) group, containing the new Purchasing Task Owner role.
 -   Automation of the **Valid risk assessment** field in the Supplier table.
 -   Enhancements to the existing Conduct a Supplier Risk Assessment case.
@@ -86,6 +86,15 @@ If the sourcing request gets converted to a purchase request, the case is availa
 **Note:** All tiering assessments for a supplier are displayed in related lists.
 
 For more information on sourcing requests, purchasing tasks, and procurement cases, see [Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md) and [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
+
+## Plugin dependencies of the integration artifacts
+
+Some artifacts are available only when specific plugins are installed.
+
+-   The **Link Supplier and Company** business rule is available only when the Risk Assessments Integration for Sourcing and Procurement Operations \[sn\_spend\_vrm\] plugin is installed.
+-   The **CoreCompany** script include is available only when the Sourcing and Purchasing Automation \[sn\_pr\] plugin is installed.
+
+The Risk Assessments Integration for Sourcing and Procurement Operations plugin depends on the Sourcing and Purchasing Automation plugin. If you do not see these artifacts on an instance, check whether the plugins are installed on that instance.
 
 **Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 

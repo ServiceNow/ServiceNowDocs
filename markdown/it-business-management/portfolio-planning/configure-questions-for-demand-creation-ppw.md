@@ -20,7 +20,7 @@ Add or modify an existing question for creating a demand through Agent assist in
 ## Before you begin
 
 -   Verify that AI Search is installed and provisioned for your instance by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**.
--   ServiceNow Otto for Virtual Agent is set up. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+-   ServiceNow Otto for Virtual Agent is set up. See [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 -   Verify the following plugins are install.
     -   ServiceNow Otto for Platform \(v4.0.2\)
     -   ServiceNow Otto for IT Service Management \(ITSM\)

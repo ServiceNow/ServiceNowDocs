@@ -34,7 +34,7 @@ Summarize what a flow or subflow does by using generative AI.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-roles-1.md)
+Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles
 
 </td></tr></tbody>
 </table>**Important:**

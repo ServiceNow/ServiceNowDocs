@@ -63,7 +63,7 @@ Scan your ServiceNow instance for findings. These scans return the findings and 
 
 Scans are initiated in different ways. They run using the Scan Engine properties you configured.
 
-For more information, see [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/additional-scan-engine-properties.md).
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/additional-scan-engine-properties.md).
 
 -   **[Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiating-on-demand-scans-scan-engine.md)**  
 Scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.

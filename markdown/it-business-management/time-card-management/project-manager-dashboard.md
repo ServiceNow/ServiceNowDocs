@@ -32,9 +32,9 @@ It displays the total count of entries in **Project time card exceptions** repor
 
 ## Project time card exceptions report
 
-The Project time card exceptions report lists the users who did not submit their time cards, and the time cards which are not yet approved for the selected project and time range. The exception report is generated for the users who are assigned to a task in progress, or hard allocated to the project/task in that time range. The report displays the following data:
+The Project time card exceptions report lists the users who did not submit their time cards, and the time cards which aren't yet approved for the selected project and time range. The exception report is generated for the users who are assigned to a task in progress, or hard allocated to the project/task in that time range. The report displays the following data:
 
--   **User**: The time card user assigned to the selected project, or hard allocated to the resource plan associated with the project. If there are more than one time cards for a user in a given date range which are not submitted or require approval, then multiple entries are listed for the user.
+-   **User**: The time card user assigned to the selected project, or hard allocated to the resource plan with the project. If there are more than one time cards for a user in a given date range which aren't submitted or require approval, then multiple entries are listed for the user.
 -   **Week starts on**: Starting date of the time card week in the selected time range.
 -   **State**: State of the time card. Time card entries with state as **Not Submitted** are also listed if a time card is not created for the week.
 

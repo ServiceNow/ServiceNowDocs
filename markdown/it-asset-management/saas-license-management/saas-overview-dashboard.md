@@ -159,5 +159,3 @@ Potential cost saved for each subscription profile if you reclaim unused subscri
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

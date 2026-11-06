@@ -1,6 +1,6 @@
 ---
-title: Configuring ServiceNow Cowork
-description: Activate ServiceNow Cowork plugin to download, install and setup Cowork.
+title: Configuring ServiceNow Arc
+description: Activate the ServiceNow Arc plugin, and then download, install, and set up Arc.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-cowork-configuring.html
 release: australia
@@ -8,25 +8,33 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
-breadcrumb: [ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [ServiceNow Arc, Enable AI experiences]
 ---
 
-# Configuring ServiceNow Cowork
+# Configuring ServiceNow Arc
 
-Activate ServiceNow Cowork plugin to download, install and setup Cowork.
+Activate the ServiceNow Arc plugin, and then download, install, and set up Arc.
 
--   **[Activate the ServiceNow Cowork plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-servicenow-cowork-plugin.md)**  
-You can activate the ServiceNow Cowork plugin \(sn\_app\_cowork\) for ServiceNow Cowork if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
--   **[Download and install ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-cowork.md)**  
-Install ServiceNow Cowork on a Mac with an M-series processor to use the AI desktop agent on your computer.
--   **[Set up ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-cowork.md)**  
-Connect Cowork to your ServiceNow instance and prepare your workspace and secure sandbox.
--   **[Create a ServiceNow Cowork agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-cowork-agent-policy.md)**  
-Create a policy to define what ServiceNow Cowork can do, which actions need human approval, and which actions are blocked.
--   **[Configure a ServiceNow Cowork agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-cowork-agent-policy.md)**  
-Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Cowork can do for the users the policy applies to.
--   **[Trace evaluation for Cowork in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cowork-trace-evaluation.md)**  
-AI Control Tower scores the traces that Cowork sends for quality and safety. Review the scores to understand usage patterns and identify where responses fall short.
+-   **[Activate the ServiceNow Arc plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-servicenow-cowork-plugin.md)**  
+You can activate the ServiceNow Arc plugin \(sn\_app\_cowork\) for ServiceNow Arc if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
+-   **[Download and install ServiceNow Arc for macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-cowork.md)**  
+Install ServiceNow Arc on a Mac with an M-series processor to use the AI desktop agent on your computer.
+-   **[Download and install Arc on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-arc-windows.md)**  
+Install ServiceNow Arc on your Windows computer.
+-   **[Set up ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/set-up-cowork.md)**  
+Connect Arc to your ServiceNow instance and prepare your workspace and secure sandbox.
+-   **[Create a ServiceNow Arc agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-cowork-agent-policy.md)**  
+Create a policy to define what ServiceNow Arc can do, which actions need human approval, and which actions are blocked.
+-   **[Configure a ServiceNow Arc agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-cowork-agent-policy.md)**  
+Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Arc can do for the users the policy applies to.
+-   **[Manage Arc agent policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-arc-policies-aict.md)**  
+Create and manage Arc agent policies and their rules in AI Control Tower, so you govern Arc in the same place as the rest of your AI systems.
+-   **[Make auto mode available to Arc users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-auto-mode-available.md)**  
+Turn on auto mode for the users a policy covers and choose which tools can use it, so users can let an AI model reviewer approve lower risk actions instead of answering every prompt.
+-   **[Add an MCP server for Arc users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-mcp-server-arc.md)**  
+Make a remote MCP server available to Arc users, so they can connect to it in one step without entering its details themselves.
+-   **[Trace evaluation for Arc in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cowork-trace-evaluation.md)**  
+AI Control Tower scores the traces that Arc sends for quality and safety. Review the scores to understand usage patterns and identify where responses fall short.
 
-**Parent Topic:**[ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-landing.md)
+**Parent Topic:**[ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-landing.md)
 

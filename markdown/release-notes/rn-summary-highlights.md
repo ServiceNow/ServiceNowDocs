@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-highlights.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 150
+last_updated: "2026-11-04"
+reading_time_minutes: 154
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -69,6 +69,8 @@ See [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubuserconte
 AI Admin Hub
 
 </td><td>
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
@@ -236,6 +238,18 @@ For more information on the legacy AI Control Tower experience, see [AI Control 
 
 </td></tr><tr><td>
 
+AI Cost Management
+
+</td><td>
+
+-   Track, maintain, and optimize spend across your AI accounts.
+-   Automatically retrieve and process usage and cost data for your AI accounts through supported provider integrations.
+-   Stay ahead of potential AI budget overages through configurable spend limits and alerts.
+
+See [AI Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ai-cost-management.md) for more information.
+
+</td></tr><tr><td>
+
 AI Desktop Actions
 
 </td><td>
@@ -261,6 +275,8 @@ AI Risk and Compliance
 -   Offboard AI assets with structured life-cycle tasks to support completion of governance and risk activities when systems are retired or replaced.
 
 See [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -327,6 +343,8 @@ Depending on your license, you will have access to certain application features,
 -   Use automated email parsing and LLM-assisted responses to handle cases with less manual effort.
 
 See [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/acc-pay-mgmt-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -433,8 +451,8 @@ Agent experience for CSM
 
 </td><td>
 
--   Minimize drafts of comments, work notes, and emails to a dock at the bottom of CRM Workspace and keep track of documents in this centralized location.
--   Enable agents to work from a single location with the ability to view CRM Workspace record pages in other workspaces.
+-   Minimize drafts of comments, work notes, and emails to a dock at the bottom of CSM Configurable Workspace and keep track of documents in this centralized location.
+-   Enable agents to work from a single location with the ability to view CSM Configurable Workspace record pages in other workspaces.
 -   Populate interaction wrap-up codes and notes by using AI, saving agents time.
 -   Auto-populate record fields and email drafts with dynamic values using form templates.
 
@@ -539,6 +557,8 @@ Asset Audit Response
 
 See [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audit-response.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Audit Management
@@ -557,16 +577,9 @@ Authentication
 
 [Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
 
--   **Step-up authentication for AI voice agents**
+-   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/step-up-authentication.md)**
 
 Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
-
-
-[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
-
--   **[Human-assisted SMS OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/human-assisted-sms-otp.md)**
-
-Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
 
 
 [Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
@@ -602,12 +615,7 @@ Australia
 -   Use the granular roles to complete administrative configuration tasks for Authentication without requiring the full admin role.
 -   Use the enhanced Auth Scope for your Inbound Integrations.
 
-[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
-
--   **Step-up authentication for AI voice agents**
-
-Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
-
+See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Authentication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -672,28 +680,6 @@ Buying Group
 Buying Group provides information on the customer stakeholders involved in a purchase decision for a product or solution, supporting multiple roles and persisting before, during, and after an opportunity.
 
 See [Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md) for more information.
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
--   Configure price and quantity ramps for subscription products directly in the CPQ Configurator, with support for split lines, reconfiguration, and delta pricing.
--   Pre-populate configuration fields at the start of a configuration session by mapping incoming request data, such as line attributes and characteristics, to config fields directly in the CPQ admin UI.
--   Enable agents to invoke Config AI capabilities directly using the Agent-to-Agent \(A2A\) protocol, without requiring manual integration setup.
--   Upload deal-specific documents such as customer emails, RFPs, and meeting notes so that Config AI and Quote AI have full deal context when generating configurations and quotes.
--   Upload organizational documents such as pricing policies, standard operating procedures, and product specifications so that Config AI and Quote AI reference your company's specific rules and standards during configuration and quoting sessions.
--   Manage transaction lines more precisely using natural language by targeting specific line numbers, adding favorited products, triggering events, updating header fields, and clearing field values directly from a prompt.
--   Review and act on Smart Predict recommendations directly inline in the configuration layout, with controls to accept or dismiss individual values or accept all recommendations at once at the layout or group level.
--   Use the guided setup to step through the initial configuration of the CPQ configurator.
--   Configure and manage thousands of line items with a single‑page, scalable transaction user experience that includes search, filtering, rollups, and in‑memory rule execution.
--   Achieve consistent pricing, validations, and process control without heavy scripting using attribute‑based rules, events, calculations, and workflow stages.
--   Integrate with Salesforce, ServiceNow, and downstream systems using ServiceNow Quote Experience API‑first design, which acts as the system of record for transaction data while remaining CRM‑agnostic.
--   Duplicate an existing solution configuration node in a set, directly from the solution configuration navigation sidebar to use it as the starting point for a new node.
--   Enable AI-assisted quote creation, modification, and automated generation by interpreting user intent and contextual triggers with Quote AI Agent.
-
-For more information, see [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md).
 
 </td></tr><tr><td>
 
@@ -979,6 +965,8 @@ Contract Management Pro
 -   Send contracts for signature using Adobe Sign without signing in to the electronic signature portal.
 -   Track undelivered electronic signature requests for a contract.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Core Business Suite
@@ -1192,6 +1180,18 @@ Data products
 -   Protect consumers from source system changes through schema stability — published data interfaces maintain their structure even when underlying tables change.
 
 See [Explore data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md) for more information.
+
+</td></tr><tr><td>
+
+Decision tables
+
+</td><td>
+
+-   Create decision tables that evaluate data from existing ServiceNow® records, external data sources, or data provided at runtime.
+-   Build rules with condition columns and multiple result columns.
+-   Reference decision tables in code snippets, flows, subflows, and playbooks.
+
+See [Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-decision-tables-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1458,6 +1458,8 @@ Early Availability
 -   Streamline inventory asset management with the expanded and efficient inventory auditing process.
 
 See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2105,9 +2107,14 @@ Legal Conflict of Interest
 
 </td><td>
 
-Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms. The risk assessment utility then automatically evaluates each submission and routes it to the appropriate approval workflow, enabling faster resolution.
+-   Submit COI request using natural language from the conversational interface of ServiceNow Otto in Virtual Agent or Employee Center.
+-   Risk assessment with configurable risk factors and score to automate approval workflow
+-   Risk assessment reports with detailed scoring and analysis enable legal fulfillers to make faster, informed approval decisions.
+-   Configurable approval flows in accordance with the organization's Conflict of Interest \(COI\) policy.
 
 See [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2119,6 +2126,8 @@ Help ensure that sensitive information remains confidential with stakeholder con
 
 See [Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management-landing-page.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Legal Request Management
@@ -2128,6 +2137,16 @@ Legal Request Management
 Help ensure that sensitive information remains confidential with stakeholder controls through attorney-client privilege \(ACP\) protection for legal requests and matters.
 
 See [Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
+</td></tr><tr><td>
+
+Legal Virtual Agent Conversations
+
+</td><td>
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2160,6 +2179,39 @@ Localization Workspace
 -   Use intelligent due date suggestions based on the size and scope of your requests when creating translation requests.
 
 See [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace.md) for more information.
+
+</td></tr><tr><td>
+
+Lux
+
+</td><td>
+
+-   Build widget-based UI experiences that run on your instance, using Lit components for pages and widgets.
+-   Render pages on the server and stream the HTML to the browser, which hydrates it into an interactive single-page app.
+-   Show fully rendered content on first load, with markup that assistive technology and search engines can read.
+-   Fetch data on the server with loaders that run near your instance.
+-   Map your pages directory to URLs with file-based routing.
+-   Inherit the design system automatically through Tailwind and DaisyUI styling.
+-   Share data across widgets with the Context API, and across pages with layout data.
+-   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
+
+See the Lux documentation for more information, [Lux Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/lux-development-landing.md).
+
+</td></tr><tr><td>
+
+Lux Lab
+
+</td><td>
+
+-   Start a project from a base experience, an extension of an existing application, or a collection, and let Lux Lab scaffold it for you.
+-   Extend existing applications by adding extension targets from the file explorer's right-click menu.
+-   Create collection pages and control which page each user sees by adding access rules in a guided, two-step flow.
+-   Preview your application locally and deploy it to your instance without leaving the app.
+-   Edit code with the built-in editor and source control, including inline Git blame that shows who last changed each line.
+-   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
+-   Create store applications with a custom scope that doesn't require your instance's company code.
+
+For more information, see [Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/lux-lab-landing.md).
 
 </td></tr><tr><td>
 
@@ -2417,6 +2469,8 @@ Australia Early Availability
 
 See [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management-landing-page.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Operational Technology Manager
@@ -2448,6 +2502,8 @@ Australia Early Availability
 
 See for [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager.md) more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Operational Technology Setup
@@ -2458,6 +2514,8 @@ Operational Technology Setup
 -   Complete admin configuration items in a consolidated location without having to navigate back and forth between pages.
 
 See [Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-setup-landing.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2494,6 +2552,19 @@ Order Management
 -   Enable order agents to create, track, and complete order-level tasks at the order header and top order line item level, with support for dependent task chains that automatically sequence work across submission, post-approval, and post-fulfillment stages.
 
 See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md) for more information.
+
+</td></tr><tr><td>
+
+Partner Passport Portal
+
+</td><td>
+
+-   Purchase partner applications directly from your instance using committed fabric credits, without a separate procurement process.
+-   Set up access to Boomi, a low-code integration platform as a service \(iPaaS\), and purchase Boomi plans using your fabric credits.
+-   View your fabric credit balance, including available credits, total entitled credits, and the reset date.
+-   Review every purchase made on the instance in the purchase log.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2641,6 +2712,8 @@ Predictive AI for CSM
 
 See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/intelligence-csm.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Predictive Intelligence
@@ -2651,6 +2724,14 @@ Predictive Intelligence
 -   The sys property ML Trainer - Glide communication KAA \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation when mTLS is enabled.
 
 See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md) for more information.
+
+</td></tr><tr><td>
+
+Predictive intelligence for Legal Service Delivery
+
+</td><td>
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2861,6 +2942,8 @@ Australia Early Availability
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 
 See [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm.md) and [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ai-enhanced-ra-otsm-landing.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -3185,11 +3268,33 @@ Use the Feature Preview Program to choose which pre-release capabilities to acti
 
 </td></tr><tr><td>
 
-ServiceNow Cowork
+ServiceNow Arc
 
 </td><td>
 
-See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+See [ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow CPQ
+
+</td><td>
+
+-   Configure price and quantity ramps for subscription products directly in the CPQ Configurator, with support for split lines, reconfiguration, and delta pricing.
+-   Pre-populate configuration fields at the start of a configuration session by mapping incoming request data, such as line attributes and characteristics, to config fields directly in the CPQ admin UI.
+-   Enable agents to invoke Config AI capabilities directly using the Agent-to-Agent \(A2A\) protocol, without requiring manual integration setup.
+-   Upload deal-specific documents such as customer emails, RFPs, and meeting notes so that Config AI and Quote AI have full deal context when generating configurations and quotes.
+-   Upload organizational documents such as pricing policies, standard operating procedures, and product specifications so that Config AI and Quote AI reference your company's specific rules and standards during configuration and quoting sessions.
+-   Manage transaction lines more precisely using natural language by targeting specific line numbers, adding favorited products, triggering events, updating header fields, and clearing field values directly from a prompt.
+-   Review and act on Smart Predict recommendations directly inline in the configuration layout, with controls to accept or dismiss individual values or accept all recommendations at once at the layout or group level.
+-   Use the guided setup to step through the initial configuration of the ServiceNow CPQ configurator.
+-   Configure and manage thousands of line items with a single‑page, scalable transaction user experience that includes search, filtering, rollups, and in‑memory rule execution.
+-   Achieve consistent pricing, validations, and process control without heavy scripting using attribute‑based rules, events, calculations, and workflow stages.
+-   Integrate with Salesforce, ServiceNow, and downstream systems using ServiceNow Quote Experience API‑first design, which acts as the system of record for transaction data while remaining CRM‑agnostic.
+-   Duplicate an existing solution configuration node in a set, directly from the solution configuration navigation sidebar to use it as the starting point for a new node.
+-   Enable AI-assisted quote creation, modification, and automated generation by interpreting user intent and contextual triggers with Quote AI Agent.
+
+For more information, see [ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md).
 
 </td></tr><tr><td>
 
@@ -3250,6 +3355,18 @@ See [ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Cloud Cost Management \(CCM\)
+
+</td><td>
+
+-   Automate repetitive cost optimization tasks and reduce workload on cloud cost managers.
+-   Analyze cloud spend trends using an AI-powered summarization.
+-   Optimize cloud costs using recommendations to reduce unnecessary spending.
+
+See [AI in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ai-ccm.md) for more information.
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
 
 </td><td>
@@ -3305,6 +3422,8 @@ ServiceNow Otto for Contract Management Pro
 -   Use AI powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
 See [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-exp-now-assist-land.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -3396,6 +3515,8 @@ Australia Patch 1
 
 See [AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 ServiceNow Otto for HR Service Delivery \(HRSD\)
@@ -3426,6 +3547,8 @@ ServiceNow Otto for Hardware Asset Management \(HAM\)
 -   Consolidate asset data across related records and identify action items with AI-generated analysis.
 
 See [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-ham.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -3464,6 +3587,8 @@ ServiceNow Otto for IT Service Management \(ITSM\)
 -   Use the Knowledge Article Advanced Editor page to create and edit articles.
 -   Use the ITSM Conversational Analytics dashboard that provides usage adoption performance metrics in Now Assist in Virtual Agent.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 See [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md) for more information.
 
 </td></tr><tr><td>
@@ -3475,6 +3600,8 @@ ServiceNow Otto for Legal Service Delivery \(LSD\)
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Legal Service Delivery \(LSD\). Check your entitlements to determine your access to specific features.
 -   Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms.
 -   Legal Request and Matter summarization now considers data from extended practice area tables when summarizing.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -3508,6 +3635,8 @@ See [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/Ser
 ServiceNow Otto for Software Asset Management \(SAM\)
 
 </td><td>
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 -   Enhance your SaaS integration troubleshooting experience with user-friendly error explanations and step-by-step resolution guidance for runtime job failures.
 
@@ -3642,6 +3771,8 @@ ServiceNow Vault
 
 See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Sidebar
@@ -3714,6 +3845,8 @@ Australia Patch 0
 -   Use a consolidated Microsoft licensing report that unifies device and infrastructure deployment details with license consumption calculations and transparent explanations.
 
 See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -4020,7 +4153,7 @@ Upgrade Console
 </td><td>
 
 -   Access the ATF troubleshooting agent directly from the Upgrade console.
--   Manage your application version compatibility by updating the Now Assist suite.
+-   Manage your application version compatibility by updating the AI Suites.
 
 See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-landing-page.md) for more information.
 
@@ -4057,6 +4190,8 @@ Virtual Agent
 -   Prompts help users ask better questions and get more accurate answers. Admins can turn prompt library on or off and further configure the default recommended prompts for users.
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -4113,12 +4248,10 @@ Zero Copy Connector for ERP
 
 </td><td>
 
--   Connect to Oracle E-Business Suite \(12.2 and later\).
--   Add Workday RaaS reports to read operations by pasting a sample report response.
--   Use REST APIs to extend beyond SAP systems.
--   Use the improved AI suggestions and interface to map fields in the Model Manager.
--   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.
--   Discover OData services faster using an AI agent for Zero Copy Connector for ERP.
+-   Retrieve and update data from an ERP system, such as SAP, SuccessFactors, Workday, or Oracle E-Business Suite.
+-   Create models that include ERP system data in remote tables and extraction tables.
+-   Use extracted and transformed data to build applications that access the models.
+-   Accelerate application development with Zero Copy Connector for ERP content packs that contain predefined models and process extensions.
 
 See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md) and [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) for more information.
 

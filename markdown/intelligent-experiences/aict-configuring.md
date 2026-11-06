@@ -33,8 +33,8 @@ Configure how AI assets are classified, evaluated, valued, and secured across yo
 Use the AI Gateway settings page to control global transaction processing for all connected MCP servers and manage individual MCP server connections independently of the global gateway state.
 -   **[AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md)**  
 Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
--   **[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md)**  
-Control how AI features operate on your instance by configuring data sharing preferences, asset approval requirements, and allowed AI model providers.
+-   **[Configuring ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-servicenow-ai-settings.md)**  
+Decide what AI data your instance shares with ServiceNow, which AI assets need AI steward approval before deployment, and which AI model providers your AI systems can use.
 -   **[Configuring pages in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)**  
 View and govern your AI portfolio using terms and visualizations tailored to your organization.
 -   **[Creating or extending pages with pro-code tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-extend-pages-pro-code-tools.md)**  

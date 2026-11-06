@@ -17,7 +17,7 @@ breadcrumb: [Configure, Digital Factory Workspace, Industrial Connected Workforc
 Learn how to configure Industrial Guided Tasks.
 
 -   **[Archive rules in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/archive-rules-industrial-guided-tasks.md)**  
-Archive rules in the Industrial Guided Tasks are designed to manage and organize records, so that you can focus on current and relevant data.
+Archive rules in the Industrial Guided Tasks manage and organize records, so that you can focus on current and relevant data.
 -   **[Configure scoring and automation in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configure-scoring-automation-igt.md)**  
 Configure scoring and automation for guided tasks to provide a measure of task performance and automation of processes.
 -   **[Smart Assessment Engine automation plugin dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/sae-automation-plugin-dependencies.md)**  

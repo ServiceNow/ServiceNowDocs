@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-external-aia.html
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-10-16"
 reading_time_minutes: 1
 breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
@@ -28,11 +28,11 @@ You can make tweaks to your external AI agent based on previous performance. You
 
 2.  Select the external AI agent that you want to modify.
 
-3.  In the node view, select either the pencil edit icon or the more options icon.
+3.  In the node view, select the **Edit** icon or the **More options** icon.
 
     The first node contains the main configuration settings for the external AI agent. The other nodes represent the tools that comprise the underlying architecture.
 
-    The pencil edit icon directs you to the original guided setup, where you can edit sections and add tools.
+    The **Edit** icon opens the original guided setup, where you can edit sections and add tools.
 
 4.  Select **Save** or **Run test** to save your changes.
 

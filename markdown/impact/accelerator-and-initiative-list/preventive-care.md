@@ -28,7 +28,7 @@ Preventive Care helps maintain optimal performance of large, strategic, ServiceN
 -   Facilitates regular partnership with a ServiceNow expert to discuss findings and grow technical stakeholder knowledge around supporting the ServiceNow platform.
 -   Builds confidence that the ServiceNow platform can fully support a customer’s wider business goals.
 
-**Note:** Preventive Care is an add-on package available for all Impact customers with activation. Large or complex ServiceNow implementations may benefit from quarterly \(instead of bi-annual\) reviews. For further details contact your Impact Customer Success Manager for additional information.
+**Note:** Preventive Care is an add-on package available for all Impact customers with activation. Large or complex ServiceNow implementations may benefit from quarterly \(instead of bi-annual\) reviews.
 
 ## Preventive Care Engagement Phases
 

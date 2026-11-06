@@ -35,5 +35,9 @@ A policy can be retired anytime after being approved and published to the KB. If
     This option is available only for policies in a published state.
 
 
+## Result
+
+When you retire a policy, the system evaluates each control objective linked to it. If a control objective isn’t linked to another Published policy or to an active citation, the system deactivates it and retires its associated controls. Otherwise, the control objective is left unchanged. Retiring a policy also cancels its policy acknowledgement campaign. For any common control retired as a result, the system deactivates its reliant entity associations.
+
 **Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

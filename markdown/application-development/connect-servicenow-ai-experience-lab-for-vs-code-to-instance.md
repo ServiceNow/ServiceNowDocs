@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.html
 release: australia
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Lab for VS Code, VS Code, instance connection, authentication]
 breadcrumb: [Configure, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
@@ -39,7 +39,7 @@ Visual Studio Code
 
 </td><td>
 
-1.97 later
+1.97 or later
 
 </td><td>
 
@@ -75,7 +75,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 
@@ -99,8 +99,8 @@ ServiceNow instance
 
 1.  Add a new instance.
 
-    -   From the home screen, select **Add a new instance**.
-    -   From the command palette, select **Add a new instance**.
+    -   From the home screen, select **Connect to an instance**.
+    -   From the command palette, select **Lux: Add ServiceNow instance**.
 2.  In the authentication type field, select either **Basic** or **OAuth** to match your instance configuration.
 
 3.  In the instance URL field, enter the URL for your instance, including the protocol.

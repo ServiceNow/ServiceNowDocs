@@ -98,7 +98,7 @@ Hardware requires the Hardware Model reference on the Computer be populated.
 
 ## Update TLM Data for a business application or application service
 
-You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Life-cycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+You can manually refresh the TLM life-cycle data manually for a selected business application or application service. A scheduled job **Populate TPM Discovered Technologies and Lifecycles** is also run on schedule or on-demand to update the life-cycle data for all business applications and application services​​. For more details, see [Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/update-tpm-data.md) and [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## View insights for technology life-cycle risks
 

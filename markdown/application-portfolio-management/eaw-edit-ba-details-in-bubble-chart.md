@@ -28,15 +28,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the business application that you want to edit details for.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d28227e86">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d28319e86">
 
 Bubble type
 
-</th><th align="left" id="d28227e89">
+</th><th align="left" id="d28319e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d28227e95">
+</th></tr></thead><tbody><tr><td id="d28319e95">
 
 **Single bubble**
 
@@ -46,7 +46,7 @@ Select a single bubble. The side panel appears and the business application deta
 
 If the trigger type of the ServiceNow Otto Business application insights skill is set to **Automatic**, the side panel opens on the **Insights** tab instead. For information on the trigger type, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md).
 
-</td></tr><tr><td id="d28227e139">
+</td></tr><tr><td id="d28319e139">
 
 **Grouped bubble**
 

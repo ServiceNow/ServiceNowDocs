@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [KBA Security questions, Personal identification information, Authentication methods, Identity verification, Challenge questions, Secret answers, User authentication, Security Questions]
 breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
@@ -27,6 +27,8 @@ KBA validates answers against records in ServiceNow AI Platform tables. For call
 
 KBA questions can be configured for identification, authentication, or both phases, depending on admin configuration.
 
+**Note:** KBA factor isn’t supported for step-up authentication.
+
 ## External source validation
 
 When caller data is not stored in ServiceNow AI Platform, admins can configure a custom script on an answer record to validate the caller's response against an external system, such as a CRM or order management platform. The script receives the caller's answer as input and returns a match result.
@@ -41,6 +43,8 @@ Script execution is limited to 15 seconds by default. To learn more configuratio
 ## Context persistence
 
 Starting `"nowassist-aia-voice", version: "5.0.3"` release, answers collected during identification and authentication are persisted as session context and are available to subsequent authentication questions. This means a caller does not have to repeat information they already provided. For example, if a caller provides a booking reference during identification, that value is accessible to authentication scripts without prompting the caller again.
+
+Only the caller's own answers are kept, for the current session.
 
 **Note:** Context persistence is available only for scripted answers, it doesn't capture non-scripted answer responses.
 

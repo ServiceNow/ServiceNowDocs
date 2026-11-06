@@ -6,7 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-developme
 release: australia
 topic_type: reference
 last_updated: "2026-09-23"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [Autonomous Engineer, file types, file uploads, size limits, attachments]
 breadcrumb: [Reference, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -23,7 +24,7 @@ Autonomous Engineer accepts images, documents, code files, and file types specif
 |Images|.png, .jpg, .jpeg, .gif, .svg, .webp|
 |Specific to ServiceNow|.now.ts \(Fluent DSL\), .xml \(update sets\)|
 
-You can also use MCP server connections, such as for Figma, to provide context for Build Agent. For more information, see [MCP connections and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-mcp-connections.md).
+You can also use MCP server connections, such as for Figma, to provide context for Autonomous Engineer. For more information, see [MCP connections and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-mcp-connections.md).
 
 ## Size limits
 

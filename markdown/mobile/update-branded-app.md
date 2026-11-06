@@ -229,6 +229,8 @@ AFter you have requested an updated iOS app for private distribution, perform th
 After you have requested an updated Android app for public distribution, perform these steps to test and publish it.
 -   **[Test and publish an updated iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/testpub-updat-ios-app-pub.md)**  
 After you have requested an updated iOS branded mobile app for public distribution, perform these steps to test and publish it.
+-   **[Asynchronous attachment uploads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/asynchronous-attachment-uploads.md)**  
+Set the `AsyncAttachmentsUploadEnabled` mobile property to true to turn on background file uploads in the ServiceNow mobile app.
 
 **Parent Topic:**[Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-test-pub-branded-mob-app.md)
 

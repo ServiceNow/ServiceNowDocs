@@ -112,7 +112,7 @@ The ServiceNow® Build Agent application enables developers to create, edit, and
     Build Agent now supports the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
-    -   Anthropic Claude on AWS Opus 5
+    -   Anthropic Claude Opus 5
 -   **[Test suite authoring and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-testing.md)**
 
     Create and run ATF test suites from Build Agent. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
@@ -340,7 +340,7 @@ The ServiceNow® Build Agent application enables developers to create, edit, and
 
 -   **[Additional model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)**
 
-    Choose the provider and model that fits your organizational needs in Build Agent, which now supports Anthropic Claude on AWS Sonnet 4.6 and Azure OpenAI GPT 5.4.
+    Choose the provider and model that fits your organizational needs in Build Agent, which now supports Anthropic Claude Sonnet 4.6 and Azure OpenAI GPT 5.4.
 
 -   **[Expanded metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-supported-metadata.md)**
 

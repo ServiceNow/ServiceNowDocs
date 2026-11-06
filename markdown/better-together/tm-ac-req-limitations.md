@@ -21,7 +21,7 @@ Learn about requirements and limitations for this unified journey.
 -   Windows requirement: Task Mining agent recording and AI Desktop Actions agent execution require Windows 11+. Automation Center configuration and agent creation can be performed on any supported operating system.
 -   Instance requirements: starting with the Australia patch 4 release.
 -   Plugin dependencies: Both Automation Center and AI Desktop Actions must be installed on the target instance before you can create an AI agent. ServiceNow Otto for Automation Center must be installed to use this feature.
--   AI skill dependencies: User task step summarization skill must be activated. For more information, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md).
+-   AI skill dependencies: User task step summarization skill must be activated. For more information, see .
 
 ## Limitations
 
@@ -33,7 +33,5 @@ Learn about requirements and limitations for this unified journey.
 **Related topics**  
 
 
-[Data collected by Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-management.md)
-
-[Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining-agent-features-and-workarounds.md)
+[bundle-par.data-management]
 

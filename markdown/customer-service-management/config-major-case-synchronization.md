@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-major-case-synchronization.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
 breadcrumb: [Configure major issue management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -17,6 +17,10 @@ Configure the major issue management system properties to enable synchronization
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+This task is optional. Complete it if you want field values from a major case to synchronize to its child cases.
 
 ## Procedure
 

@@ -20,6 +20,8 @@ Install the Universal Request for Source-to-Pay Operations \[sn\_fsc\_ur\_common
 
 Role required: admin
 
+Plugin ID: com.snc.sn\_fsc\_ur\_common \(scope: sn\_fsc\_ur\_common\). This plugin requires the Universal Request plugin \(com.snc.universal\_request\).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.

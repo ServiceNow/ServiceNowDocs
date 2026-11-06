@@ -1,5 +1,5 @@
 ---
-title: Setting up Agent Chat
+title: Set up Agent Chat
 description: Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. Through Agent Chat, agents interact with end users, create incident or case records, or transfer chats to another agent or queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.html
@@ -13,7 +13,7 @@ keywords: [Setup, Agent Chat, live agents]
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
-# Setting up Agent Chat
+# Set up Agent Chat
 
 Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. Through Agent Chat, agents interact with end users, create incident or case records, or transfer chats to another agent or queue.
 
@@ -22,7 +22,7 @@ Configure Agent Chat to enable live agents to chat with customers and manage var
 Configure the following before starting this task:
 
 -   Install the Agent Chat plugin \(com.glide.interaction.awa\).
--   If you want to use the Profanity Filter, activate the Profanity Filter plugin \(sn\_va\_profanity\).
+-   If you need to use the Profanity Filter, activate the Profanity Filter plugin \(sn\_va\_profanity\).
 -   In Advanced Work Assignment:
     -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
     -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-queues.md).
@@ -40,7 +40,7 @@ Use Agent Chat settings to do the following:
 
 -   Activate or deactivate:
     -   Agent Chat \(enabled by default\).
-    -   Display of agent names and avatars the chat window.
+    -   Display of agent names and avatars in the chat window.
     -   Display of the agent name in the header.
     -   Chat transcript downloads.
     -   Display of estimated wait time for live chat support \(transfer from the virtual agent to a live agent\).
@@ -203,9 +203,9 @@ Conversation History
 
 Select **View all** to display the Conversation History screen.
 
- Set maximum number of past conversation to display in the conversation window. Also, apply filters to only show what is most relevant to agents based on channel type, assignment group, and more.
+ Set the maximum number of past conversations to display in the conversation window. Also, apply filters to only show what is most relevant to agents based on channel type, assignment group, and more.
 
- For details on configuring the Conversation History options, see [Setting up conversation history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-conversation-history.md).
+ For details on configuring the Conversation History options, see [Set up conversation history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-conversation-history.md).
 
 </td></tr></tbody>
 </table><table id="table_c35_jd1_2yb"><thead><tr><th>
@@ -224,7 +224,7 @@ Quick action configurations
 
 Select **View all** to display the Quick Action Toolbar Controls screen.
 
- For details on configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
+ For details on configuring the toolbar controls, see [Set up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save**.

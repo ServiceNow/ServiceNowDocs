@@ -1,6 +1,6 @@
 ---
-title: Profanity Filter for Agent Chat overview
-description: The Profanity Filter for Agent Chat prevents agents from sending messages to requesters that include profane language \(also known as forbidden keywords\). If an agent is upset and tries to send a message with offensive language, the Profanity Filter prevents the requester from seeing the message.
+title: Profanity Filter for Agent Chat
+description: The Profanity Filter for Agent Chat helps prevent agents from sending messages to requesters that include profane language \(also known as forbidden keywords\). If an agent is upset and tries to send a message with offensive language, the Profanity Filter helps prevent the requester from seeing the message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ci-profanity-filter.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Explore, Agent Chat, Conversational Interfaces]
 ---
 
-# Profanity Filter for Agent Chat overview
+# Profanity Filter for Agent Chat
 
-The Profanity Filter for Agent Chat prevents agents from sending messages to requesters that include profane language \(also known as forbidden keywords\). If an agent is upset and tries to send a message with offensive language, the Profanity Filter prevents the requester from seeing the message.
+The Profanity Filter for Agent Chat helps prevent agents from sending messages to requesters that include profane language \(also known as forbidden keywords\). If an agent is upset and tries to send a message with offensive language, the Profanity Filter helps prevent the requester from seeing the message.
 
 If an agent tries to send a message with profane language, the Profanity Filter blocks the message and flags the forbidden keywords. The Profanity Filter warns the agent that the message contains forbidden keywords and alerts the chat manager to the agent's use of profane language.
 
@@ -36,7 +36,7 @@ You can configure the Profanity Filter to notify the chat manager if an agent tr
 
 The Profanity Filter uses a machine learning-based model or a keyword-based model to determine whether a message includes forbidden keywords. The machine learning-based model analyzes keywords and phrases in the context of the agent's entire message before determining whether any forbidden keywords in the message should be considered profane. For example, the statement "I made a silly mistake" would be considered not profane while "You sound so silly" would be considered profane. The machine learning-model is not on each instance individually – you cannot change the model directly to account for customized keywords and phrases.
 
-The keyword-based model compares a message against a list of forbidden keywords to determine whether something should be considered profane. You can allow certain keywords or phrases even if those keywords are considered profane in a generic sense. Common examples are book or movie titles that might contain forbidden keywords and but should still be allowed in a conversation. Conversely you can configure the Profanity Filter to block certain keywords or phrases even if the words may not always seem profane. The Profanity Filter analyzes each message against the list of allowed and forbidden keywords before running it through the model-based mode.
+The keyword-based model compares a message against a list of forbidden keywords to determine whether something should be considered profane. You can allow certain keywords or phrases even if those keywords are considered profane in a generic sense. Common examples are book or movie titles that might contain forbidden keywords but should still be allowed in a conversation. Conversely you can configure the Profanity Filter to block certain keywords or phrases even if the words may not always seem profane. The Profanity Filter analyzes each message against the list of allowed and forbidden keywords before running it through the model-based mode.
 
 |Allowed keyword|Forbidden keyword|Message to be analyzed|System behavior|
 |---------------|-----------------|----------------------|---------------|

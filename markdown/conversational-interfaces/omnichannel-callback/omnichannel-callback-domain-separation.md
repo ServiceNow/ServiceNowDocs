@@ -7,9 +7,9 @@ release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Omnichannel Callback reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Domain separation and Omnichannel Callback
@@ -27,16 +27,18 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-Domain separation enables you to partition your organization's data and administrative control into separate domains. This lets you isolate data and control access to it, which is particularly important in environments where multiple tenants share a common platform.
+## Overview
+
+Domain separation enables you to partition your organization's data and administrative control into separate domains. This is useful in environments where multiple tenants share a common platform.
 
 ## How domain separation works in Omnichannel Callback
 
 Domain separation in Omnichannel Callback works by routing callback requests to domain-specific available agents.
 
-When using domain separation for Omnichannel Callback, keep the following points in mind.
+When using domain separation for Omnichannel Callback, note the following:
 
--   Domain separation applies to both the agent and the customer requesting for a callback. This means that agents will only be able to access interactions records that are created under the domain of the user requesting the callback.
--   The agent should be in the same domain as the user to receive a callback request in the workspace.
+-   Domain separation applies to both the agent and the customer requesting a callback. This means that agents can access only interaction records created under the domain of the user requesting the callback.
+-   The agent must be in the same domain as the user to receive a callback request in the workspace.
 -   No configuration is required for domain separation for Omnichannel Callback.
 
 ## Domain separated tables

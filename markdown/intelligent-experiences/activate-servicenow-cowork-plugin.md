@@ -1,22 +1,22 @@
 ---
-title: Activate the ServiceNow Cowork plugin
-description: You can activate the ServiceNow Cowork plugin \(sn\_app\_cowork\) for ServiceNow Cowork if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
+title: Activate the ServiceNow Arc plugin
+description: You can activate the ServiceNow Arc plugin \(sn\_app\_cowork\) for ServiceNow Arc if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/activate-servicenow-cowork-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow Arc, Enable AI experiences]
 ---
 
-# Activate the ServiceNow Cowork plugin
+# Activate the ServiceNow Arc plugin
 
-You can activate the ServiceNow Cowork plugin \(sn\_app\_cowork\) for ServiceNow Cowork if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
+You can activate the ServiceNow Arc plugin \(sn\_app\_cowork\) for ServiceNow Arc if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
 
 ## Before you begin
 
-ServiceNow Cowork requires a separate subscription from the rest of the ServiceNow AI Platform.
+ServiceNow Arc requires a separate subscription from the rest of the ServiceNow AI Platform.
 
 To purchase a subscription, contact your ServiceNow account manager. When you purchase a subscription, certain plugins are activated automatically. If a paid plugin isn't activated automatically, you can manually activate it from the All Applications list in your instance.
 
@@ -30,7 +30,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the ServiceNow Cowork plugin \(sn\_app\_cowork\) using the filter criteria and search bar.
+2.  Find the ServiceNow Arc plugin \(sn\_app\_cowork\) using the filter criteria and search bar.
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 
@@ -41,5 +41,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-configuring.md)
 

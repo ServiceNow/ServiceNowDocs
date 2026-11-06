@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [sandbox rules, sandbox runtime directory, filesystem deny rule, known issue]
-breadcrumb: [Reference, ServiceNow Cowork, Enable AI experiences]
+breadcrumb: [Reference, ServiceNow Arc, Enable AI experiences]
 ---
 
 # Prevent changes to sandbox files
@@ -17,19 +17,19 @@ Add a filesystem deny rule to your sandbox policy so that agent actions can't mo
 
 ## Before you begin
 
-Role required: sn\_app\_cowork.admin
+Role required: sn\_app\_arc.admin
 
 ## About this task
 
-Cowork runs agent commands in an isolated sandbox. The sandbox reaches permitted files on the device through an authenticated file bridge, which is how tasks such as reading and saving documents work.
+Arc runs agent commands in an isolated sandbox. The sandbox reaches permitted files on the device through an authenticated file bridge, which is how tasks such as reading and saving documents work.
 
-In affected releases, the file bridge doesn't prevent writes to the sandbox runtime directory. Cowork launches sandbox components from this directory when it creates a sandbox, so a replaced file there can run on the device with the privileges of the user running Cowork, outside the sandbox restrictions. The deny rule blocks these writes until you deploy a release that contains the permanent fix.
+In affected releases, the file bridge doesn't prevent writes to the sandbox runtime directory. Arc launches sandbox components from this directory when it creates a sandbox, so a replaced file there can run on the device with the privileges of the user running Arc, outside the sandbox restrictions.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **ServiceNow Cowork** &gt; **Policies** &gt; **Cowork Agent Policy**.
+1.  Navigate to **All** &gt; **ServiceNow Arc** &gt; **Policies** &gt; **Arc Agent Policy**.
 
-2.  Open the policy assigned to your affected Cowork users.
+2.  Open the policy assigned to your affected Arc users.
 
 3.  Select the **Policy Sandbox Rules** tab, and then select **New**.
 
@@ -53,7 +53,7 @@ In affected releases, the file bridge doesn't prevent writes to the sandbox runt
 
 9.  Select **Update**.
 
-10. Sync the policy to your Cowork clients.
+10. Sync the policy to your Arc clients.
 
 11. Verify the rule.
 
@@ -90,7 +90,7 @@ Approval prompts add oversight but don't replace this rule.
 
 Keep the rule in place until a release that contains the permanent fix is deployed to all affected devices and you verify protection on them. Remove the rule only through your normal change approval process.
 
-If you suspect a runtime file on a device was already modified, follow your organization's security incident process and reinstall Cowork from a trusted source on that device.
+If you suspect a runtime file on a device was already modified, follow your organization's security incident process and reinstall Arc from a trusted source on that device.
 
-**Parent Topic:**[ServiceNow Cowork reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-reference.md)
+**Parent Topic:**[ServiceNow Arc reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-cowork-reference.md)
 

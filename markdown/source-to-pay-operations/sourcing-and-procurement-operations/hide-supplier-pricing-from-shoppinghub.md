@@ -1,6 +1,6 @@
 ---
 title: Hide supplier pricing from ShoppingHub
-description: When creating model categories for grouping your product models, you can decide if pricing is to be displayed in ShoppingHub for supplier products associated to a particular category.
+description: When creating model categories for grouping your product models, you can decide if pricing is to be displayed in Shopping Hub for supplier products associated to a particular category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/hide-supplier-pricing-from-shoppinghub.html
 release: australia
@@ -14,15 +14,15 @@ breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finan
 
 # Hide supplier pricing from ShoppingHub
 
-When creating model categories for grouping your product models, you can decide if pricing is to be displayed in ShoppingHub for supplier products associated to a particular category.
+When creating model categories for grouping your product models, you can decide if pricing is to be displayed in Shopping Hub for supplier products associated to a particular category.
 
-The pricing that is displayed for supplier products on ShoppingHub is an agreed-upon contractual price between you and the supplier. As an administrator, based on your business requirement, you can decide if this pricing needs to be displayed or hidden in your ShoppingHub catalog for supplier products associated to a particular category. If you decide to hide the pricing, the shipping and taxes involved are also hidden. If there are parent and child categories, the display pricing choice made on the child category overrides its parent.
+The pricing that is displayed for supplier products on Shopping Hub is an agreed-upon contractual price between you and the supplier. As an administrator, based on your business requirement, you can decide if this pricing needs to be displayed or hidden in your Shopping Hub catalog for supplier products associated to a particular category. If you decide to hide the pricing, the shipping and taxes involved are also hidden. If there are parent and child categories, the display pricing choice made on the child category overrides its parent.
 
 If pricing is hidden in the model category form for a product category, pricing details aren’t displayed in the following instances:
 
--   Product information card on the ShoppingHub catalog
+-   Product information card on the Shopping Hub catalog
 -   Product details or categories or suggestions based on your role landing page
--   Supplier product card, on both ShoppingHub and Virtual Agent
+-   Supplier product card, on both Shopping Hub and Virtual Agent
 -   Product header card in your shopping cart
 -   Summary section during full checkout and also on Virtual Agent
 -   Quick checkout overlay
@@ -50,12 +50,12 @@ If pricing is hidden in the model category form for a product category, pricing 
 -   **Payout amount** field in the to-do section in milestones, on mobile
 -   Activity stream and purchase summary in My to-dos
 -   Standard search results on Employee Center \(EC\) and Virtual Agent
--   AI Search results on ShoppingHub, Service Portal, and EC
+-   AI Search results on Shopping Hub, Service Portal, and EC
 
-    **Note:** Even if supplier pricing is hidden, sort by price and filter by price range display search results in ShoppingHub. For sort by price low to high, for example, request pricing products are displayed first, followed by pricing hidden products, and products with price. For filter by price range, if the minimum price range is greater than zero, pricing hidden products are hidden along with request pricing products.
+    **Note:** Even if supplier pricing is hidden, sort by price and filter by price range display search results in Shopping Hub. For sort by price low to high, for example, request pricing products are displayed first, followed by pricing hidden products, and products with price. For filter by price range, if the minimum price range is greater than zero, pricing hidden products are hidden along with request pricing products.
 
 
-However, when an approval to-do is created, the pricing is visible to the approver so that an informed decision can be taken on the approval request. If display pricing is set to No, then the select a supplier to-do is assigned to the buyer instead of the person who submitted it. But, if the buyer reassigns it to the submitter, the latter can view the price in the to-do in ShoppingHub. This is applicable to both desktop and mobile versions.
+However, when an approval to-do is created, the pricing is visible to the approver so that an informed decision can be taken on the approval request. If display pricing is set to No, then the select a supplier to-do is assigned to the buyer instead of the person who submitted it. But, if the buyer reassigns it to the submitter, the latter can view the price in the to-do in Shopping Hub. This is applicable to both desktop and mobile versions.
 
 Also, if you’re a shopper with store credits allocated to you, you can view the pricing details even though the pricing is otherwise hidden.
 

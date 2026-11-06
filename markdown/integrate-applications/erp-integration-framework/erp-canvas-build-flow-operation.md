@@ -1,25 +1,25 @@
 ---
-title: Building flows to read or update the ERP system
-description: After you configure an operation in Zero Copy Connector for ERP \(Enterprise Resource Planning\), you can build a flow in Workflow Studio to specify details for querying the ERP system. For example, build a flow that filters by Order ID.
+title: Building flows with the Zero Copy Connector for ERP Use ERP Data action
+description: Use the Use ERP Data action in Workflow Studio to build flows that read or update ERP data through a Zero Copy Connector for ERP model. Filter each request with input parameters such as an order ID.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
-reading_time_minutes: 3
-keywords: [erp, integration, canvas, data hub, zero, copy, connector, sap, build, flow]
-breadcrumb: [Building with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+last_updated: "2026-10-22"
+reading_time_minutes: 4
+keywords: [zero copy connector for erp, use erp data action, workflow studio, build erp flow, test flow action, flow input parameters, filter erp data, read or update erp data]
+breadcrumb: [Building applications and flows with ERP data from Zero Copy Connector for ERP, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Building flows to read or update the ERP system
+# Building flows with the Zero Copy Connector for ERP Use ERP Data action
 
-After you configure an operation in Zero Copy Connector for ERP \(Enterprise Resource Planning\), you can build a flow in Workflow Studio to specify details for querying the ERP system. For example, build a flow that filters by Order ID.
+Use the Use ERP Data action in Workflow Studio to build flows that read or update ERP data through a Zero Copy Connector for ERP model. Filter each request with input parameters such as an order ID.
 
 ## Actions in Workflow Studio for calling the ERP system
 
-The Use ERP Data action is automatically available in Workflow Studio after installing Zero Copy Connector for ERP.
+The Use ERP Data action is automatically available in Workflow Studio after installing Zero Copy Connector for ERP \(Enterprise Resource Planning\) .
 
 The Use ERP Data action enables you to use ERP data outside of Zero Copy Connector for ERP for other processes. For example, you could create a task or an incident based on ERP data using the Use ERP Data action.
 
@@ -42,7 +42,7 @@ To use ERP data for processes or tasks outside of Zero Copy Connector for ERP, u
 1.  In Workflow Studio, test the **Use ERP Data** action by selecting the model in the **System** field of the Test Action modal and then specifying the inputs.
     -   For more information about testing actions, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-action.md).
     -   For more details on inputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
-2.  After the test runs, view the action execution details. For more information, see .
+2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 3.  The returned data from testing the action appears in the **Response** field of the output data.
     -   For more information about outputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
     -   For details on incorporating returned ERP data, see [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-call-response-data.md).

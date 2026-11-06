@@ -32,15 +32,15 @@ In the Resource Finder, search for the resources that you need, and create a pla
 
 1.  Open the Resource Plans page for a project or demand.
 
-<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d126063e118">
+<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d129392e118">
 
 Option
 
-</th><th align="left" id="d126063e121">
+</th><th align="left" id="d129392e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d126063e127">
+</th></tr></thead><tbody><tr><td id="d129392e127">
 
 **From a project**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the **Resource Plan** related list, select **Manage** to open the Resources tab.
 
 
-</td></tr><tr><td id="d126063e166">
+</td></tr><tr><td id="d129392e166">
 
 **From a demand**
 

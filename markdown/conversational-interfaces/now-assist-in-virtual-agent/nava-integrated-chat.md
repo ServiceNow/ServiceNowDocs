@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-01-23"
-reading_time_minutes: 18
+reading_time_minutes: 19
 breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -110,13 +110,21 @@ A new conversation begins.
 
 </td></tr><tr><td>
 
-4. Support and settings \(\[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: Support and settings icon.\)
+4. More options \(\[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text:\)
 
 </td><td>
 
-Support contact information such as phone numbers and email addresses are listed. If live agents are available, an active **Contact Live Agent** button is displayed. Although multiple active conversations are possible, you can only have one live agent conversation at a time. Selecting **Contact Live Agent** begins a chat with a live agent. After a live agent enters the chat, the **Contact Live Agent** button becomes inactive. If live agents are unavailable, an inactive **No live agents currently available** button is displayed.
+More options includes page history and support options.
 
- Settings toggles for Audio notifications and Notifications appear. By default, audio notifications are turned on and notifications are turned off. If admins have enabled notifications within the guided setup, users can turn on the notifications.
+ Page history populates after you select a linked source from either the feedback panel's **Sources and more** or an inline citation from within the conversation. Page history is specific to each individual conversation. For example, you might have two active conversations: one about the parental leave policy and one about ordering a laptop. The sources that you selected in the parental leave conversation only appear in that conversation's page history and don't appear in the other conversation's page history. When you open any of the following items in the interactive view during a conversation, they appear here so you can move between them:
+
+-   Form catalogs
+-   Knowledge Base articles
+-   Attachments
+-   Organization charts
+-   People profiles
+
+ Support contact information such as phone numbers and email addresses is listed. If live agents are available, an active **Request Live Chat** button appears. Although multiple active conversations are possible, you can only have one live agent conversation at a time. Selecting **Request Live Chat** begins a chat with a live agent. After a live agent enters the chat, the **Request Live Chat** button becomes inactive. If live agents are unavailable, an inactive **No live agents currently available** button appears.
 
 </td></tr><tr><td>
 
@@ -131,6 +139,7 @@ Support contact information such as phone numbers and email addresses are listed
 -   An organizational chart is available to view.
 -   A document was uploaded and you choose to preview the document.
 -   A source is available and you choose to select and view the source content.
+-   A file was generated and you choose to select the file name to show the preview of the file output.
 
 </td></tr><tr><td>
 
@@ -187,6 +196,19 @@ Each Virtual Agent response includes a feedback icons panel. The feedback icons 
 \[Omitted image "feedback-panel-granular.png"\] Alt text: Thumbs down granular feedback dialog.
 
 Depending on the context of the response, an additional go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) may appear in the feedback icons panel. This icon appears alongside synthesized responses in Virtual Agent, clarifying questions in Virtual Agent, and regular search results or Virtual Agent fallback topics whenever a synthesized response is unavailable. Selecting the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) redirects you to the search results page and begins a search query using the last five chat utterances you entered.Additionally, a copy message icon \(\[Omitted image "dw-feedback-copy-message-icon.png"\]\) appears on received Virtual Agent responses.
+
+## Viewing and downloading generated files
+
+After ServiceNow Otto generates a file, it appears in a thumbnail card. You can select the download icon to download the generated file or select the file name to open it in the interactive view. Downloaded files use plain Microsoft Office templates with no ServiceNow branding applied.
+
+ServiceNow Otto displays generated files in the interactive view for these formats:
+
+-   Microsoft Word \(.doc, .docx\)
+-   Microsoft PowerPoint \(.ppt, .pptx\)
+-   Microsoft Excel \(.xls, .xlsx\)
+-   PDF
+
+For unsupported file types, either a fallback file reader opens the file or an error message appears. You can navigate between file previews and other interactive view content—knowledge articles, catalog items, and more—without losing your conversation context.
 
 ## Extended entities and view records
 
@@ -264,4 +286,14 @@ After selecting the chat widget button on the portal, the floating chat window o
 **Note:** Any search query entered into the portal’s search bar or Virtual Agent is incorporated into the greeting topic for future conversations as a suggested search query. Suggested search queries can be viewed in the Search Suggestions \[sys\_search\_suggestion.list\] table. For more information on how to enable suggested search queries, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
 If language detection is turned on and the initial utterance entered into the portal's search bar or chat differs from the user's profile language preference, the conversational language automatically switches to the detected language. For more information and examples of language detection in premium chat conversations, see [Language detection and dynamic translation in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
+
+## Ask follow-up questions
+
+You can ask follow-up questions about specific responses that you need further information on. To ask a follow-up question, highlight the text you want to ask about. An **Ask a follow-up** button appears.
+
+\[Omitted image "nap-follow-up-1.png"\] Alt text:
+
+After you select the **Ask a follow-up** button, an input bar appears where you can enter a question about the specific highlighted text.
+
+\[Omitted image "nap-follow-up-2.png"\] Alt text:
 

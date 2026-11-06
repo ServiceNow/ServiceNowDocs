@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [admin editor, EmployeeWorks Web App, Explore page, widget customization, translations]
-breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Admin editor in EmployeeWorks Web App
