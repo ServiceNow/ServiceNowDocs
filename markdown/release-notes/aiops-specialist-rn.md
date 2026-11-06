@@ -27,7 +27,7 @@ For detailed information, see the following documentation:
 
 -   [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-workforce.md)
 -   [AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-ai-specialist.md)
--   
+-   [ITOM AIOps specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-specialists.md)
 
 ## Activation and other requirements
 
@@ -44,7 +44,7 @@ The AIOps AI Specialist for is an AI-powered team member that handles routine al
 
 ### What's new
 
--   ****
+-   **[ITOM AIOps specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-specialists.md)**
 
     Add an AIOps AI Specialist to your team to handle routine alert triage, so operators can focus on alerts that need human judgment. The AIOps AI Specialist triages alerts within the scope you define, deflects insignificant alerts, and runs root cause and impact analysis. It also suggests remediation options that an operator must activate. The AIOps specialist does not make autonomous changes to your environment. Operators review its findings and make the final decisions. The AIOps AI Specialist holds the Operator role and is onboarded like a human team member.
 

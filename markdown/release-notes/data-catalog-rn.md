@@ -103,11 +103,11 @@ The September 2026 release adds bulk glossary management, cloud-based metadata c
 
     Document your data assets with rich text formatting and embedded images. Use bold, italics, lists, and links to format content, and embed images directly into catalog fields and resize them as needed.
 
--   **SAP HANA metadata collector**
+-   **[SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sap-hana-metadata-collector.md)**
 
     Automatically collect and synchronize metadata from SAP HANA using metadata collectors.
 
--   **Salesforce metadata collector**
+-   **[Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/salesforce-metadata-collector.md)**
 
     Automatically collect and synchronize metadata from Salesforce using metadata collectors.
 

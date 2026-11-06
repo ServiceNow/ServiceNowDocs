@@ -92,8 +92,8 @@ To learn about activating Playbook other applications, see [Activate Playbooks](
 
 |Integration|Content available|
 |-----------|-----------------|
-|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aes-overview.md)|Build playbooks from App Engine Studio.|
-|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
+|App Engine Studio|Build playbooks from App Engine Studio.|
+||Create basic request and fulfillment apps without code.|
 |[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
 |[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
 |[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/playbook-hr.md)|Create playbooks for HR services.|

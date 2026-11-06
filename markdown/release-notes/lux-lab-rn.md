@@ -25,7 +25,7 @@ Lux Lab is a desktop application for building Lux applications that run on a Ser
 -   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
 -   Create store applications with a custom scope that doesn't require your instance's company code.
 
-For more information, see .
+For more information, see [Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/lux-lab-landing.md).
 
 ## Activation and other requirements
 

@@ -44,15 +44,15 @@ SMART targets are specific, measurable, attainable, relevant, and time-bound. Wh
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d304306e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d304268e150">
 
 Option
 
-</th><th align="left" id="d304306e153">
+</th><th align="left" id="d304268e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d304306e159">
+</th></tr></thead><tbody><tr><td id="d304268e159">
 
 **From the Goals view**
 
@@ -64,7 +64,7 @@ Steps
 4.  Next to the goal, select the row context menu icon \[Omitted image "action-menu-icon.png"\] Alt text: and select **Add target**.
 
 
-</td></tr><tr><td id="d304306e206">
+</td></tr><tr><td id="d304268e206">
 
 **From the Targets tab**
 

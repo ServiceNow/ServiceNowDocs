@@ -27,7 +27,7 @@ Before you can [enable dynamic machine translation](https://raw.githubuserconten
     **Note:** Languages for Dynamic Translation are stored in the sys\_cs\_dynamic\_translation\_virtual\_agent table.
 
 3.  [Enable LLM languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
-4.  Create exclusion rules for specific terms and content patterns within the Exclusion Framework.
+4.  Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dyn-translation-exclusion-framework.md).
 
 The following translation service providers are pre-configured once the plugins are installed:
 
@@ -41,11 +41,11 @@ The following translation service providers are pre-configured once the plugins 
 
 You can configure any other translation service provider in the Dynamic Translation application as follows:
 
-1.  Integrate with a translation service provider.
+1.  [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/integrate-translation-service-provider.md).
 
-2.  Create a translator configuration in Dynamic Translation.
+2.  [Create a translator configuration in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-custom-translator.md).
 
-3.  Create a language code mapping to map translator language codes to the ServiceNow® language codes.
+3.  [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-language-code-mapping.md) to map translator language codes to the ServiceNow® language codes.
 
 
 ## Next step

@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
- is available for instances that meet ServiceNow readiness requirements. ServiceNow automatically performs eligibility checks to determine whether your instance can use premium chat.
+[Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-premium.md) is available for instances that meet ServiceNow readiness requirements. ServiceNow automatically performs eligibility checks to determine whether your instance can use premium chat.
 
 For eligible new customers, premium chat is the default and the only available chat experience. For existing customers, enhanced chat remains the default experience unless you opt in to premium chat.
 
@@ -37,7 +37,7 @@ If your instance previously had standard chat enabled, you can continue to use s
 
 Refresh your browser to view the option to opt in to premium chat. Premium chat isn't available for instances that use regional data routing.
 
-If your instance doesn’t meet the requirements, you can continue using your existing standard or enhanced chat experience. For more information about premium chat, see . Otherwise, proceed to step 1.
+If your instance doesn’t meet the requirements, you can continue using your existing standard or enhanced chat experience. For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-premium.md). Otherwise, proceed to step 1.
 
 For premium chat, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to ensure that everything was prefilled correctly.
 
@@ -71,7 +71,7 @@ For the ServiceNow Otto panel - Developer assistant, premium chat isn't availabl
 
 4.  Select **Save and continue**.
 
-    For help with installation, see .
+    For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
 
 
 ## What to do next

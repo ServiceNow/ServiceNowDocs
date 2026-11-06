@@ -54,5 +54,5 @@ To learn more about accessing and using ServiceNow Otto for Setup \(SPM\), see:
 **Related topics**  
 
 
-[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-landing.md)
+[bundle-platadm.ia-landing]
 

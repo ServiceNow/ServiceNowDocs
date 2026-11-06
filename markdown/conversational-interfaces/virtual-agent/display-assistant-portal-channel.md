@@ -78,7 +78,7 @@ In premium chat, some catalog items open in a catalog form instead of a conversa
 
         For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/prerequisites-enhanced-chat.md).
 
-        **Note:** When you turn on enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. This helps the portal or mobile app search results and the assistant provide consistent responses. To learn more about search profiles and how they affect search behavior, see .
+        **Note:** When you turn on enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. This helps the portal or mobile app search results and the assistant provide consistent responses. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-profiles-ais.md).
 
         Your display experience options depend on the configuration.
 
@@ -244,7 +244,7 @@ Not applicable
 
         \[Omitted image "NAinVA-prominent-action-override-122025.png"\] Alt text: Prominent action button override.
 
-        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see  and .
+        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see [Using the prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/using-prominent-action-button.md) and [Configuring a prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configuring-prominent-action-button.md).
 
     5.  The **Custom apps** section is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
 

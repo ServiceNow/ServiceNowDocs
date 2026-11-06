@@ -19,7 +19,7 @@ Link your Virtual Agent requesters to a ServiceNow instance before they run the 
 ## Before you begin
 
 -   [Manage the Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   Set up Slack Spoke.
+-   [Set up Slack Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md).
 
 Roles required:
 
@@ -51,7 +51,7 @@ Batch linking happens automatically during the **Slack Daily Pre-Link Job** sche
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 5.  Select **Save**.
 

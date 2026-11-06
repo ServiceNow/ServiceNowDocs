@@ -42,15 +42,15 @@ To create, edit, or delete demand stakeholders, you can also use the **Add stake
 
 6.  Add a stakeholder, either from the stakeholder registry or as a new record.
 
-<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d295592e147">
+<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d295554e147">
 
 Goal
 
-</th><th align="left" id="d295592e150">
+</th><th align="left" id="d295554e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d295592e156">
+</th></tr></thead><tbody><tr><td id="d295554e156">
 
 **Add an existing stakeholder from registry**
 
@@ -64,7 +64,7 @@ For information about the stakeholder registry, see [Populate the stakeholder re
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d295592e195">
+</td></tr><tr><td id="d295554e195">
 
 **Add a stakeholder to the registry**
 

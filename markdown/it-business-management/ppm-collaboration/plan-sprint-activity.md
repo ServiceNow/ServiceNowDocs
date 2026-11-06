@@ -32,15 +32,15 @@ Role required: scrum\_admin, scrum\_master, or scrum\_sprint\_planner
 
 4.  Use either of options to view all the active stories assigned to the team, but not assigned to any sprint in the Backlog section.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d128146e94">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d128152e94">
 
 Action
 
-</th><th align="left" id="d128146e97">
+</th><th align="left" id="d128152e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128146e103">
+</th></tr></thead><tbody><tr><td id="d128152e103">
 
 **Using the drag feature**
 
@@ -48,7 +48,7 @@ Description
 
 This option can be used to move stories within the backlog, move stories from the backlog to any sprint, or move stories from one sprint to another. Point to a story in the backlog and drag it to the required location.
 
-</td></tr><tr><td id="d128146e115">
+</td></tr><tr><td id="d128152e115">
 
 **Using the keyboard**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/api-rn-static.htm
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -21,7 +21,7 @@ The ServiceNow® APIs enable organizations to programmatically integrate Service
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-implementation-reference.md) for more information.
 
 ## Activation and other requirements
 
@@ -74,7 +74,7 @@ REST
 
 </td><td>
 
-
+[Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Server
 
 </td><td>
 
-
+[TroubleTicketNotificationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
 
 </td><td>
 
@@ -128,7 +128,7 @@ POST /openframe/voice-interaction endpoint now returns an existing callback inte
 
 -   **Trouble Ticket Open API**
 
-     endpoints under the `sn_ind_tsm_sdwan` scope are deprecated but remain available until the Denmark release, at which point they will be officially removed and inaccessible. Endpoints use a new `sn_ind_tsm_core` scope as of the November 2026 release. See Trouble Ticket documentation for migration guidance and timeline information.
+    [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md) endpoints under the `sn_ind_tsm_sdwan` scope are deprecated but remain available until the Denmark release, at which point they will be officially removed and inaccessible. Endpoints use a new `sn_ind_tsm_core` scope as of the November 2026 release. See Trouble Ticket documentation for migration guidance and timeline information.
 
 
 ## October 2026
@@ -141,9 +141,9 @@ ServiceNow® APIs enable you to build custom applications and experiences. APIs 
 
     |Application|App Version|API type|API|Methods/Endpoints|
     |-----------|-----------|--------|---|-----------------|
-    |Mobile SDK Libraries - Android|2.26.0|Mobile SDK||VoiceInputButton\(\)|
-    |Mobile SDK Libraries - iOS|2.26.0|Mobile SDK||VoiceInputButton\(\)|
-    |Zero Copy Connector for ERP \(com.snc.sn\_erp\_integration\)|10.6.0|Server||getRowCount\(\)|
+    |Mobile SDK Libraries - Android|2.26.0|Mobile SDK|[NowChatConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md)|VoiceInputButton\(\)|
+    |Mobile SDK Libraries - iOS|2.26.0|Mobile SDK|[NowChatConfiguration class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)|VoiceInputButton\(\)|
+    |Zero Copy Connector for ERP \(com.snc.sn\_erp\_integration\)|10.6.0|Server|[sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)|getRowCount\(\)|
 
 
 ### What's changed
@@ -184,7 +184,7 @@ Server
 
 </td><td>
 
-
+[MCPClient - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/MCPClientAPI.md)
 
 </td><td>
 
@@ -208,7 +208,7 @@ Mobile SDK
 
 </td><td>
 
-
+[NowChatConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md)
 
 </td><td>
 
@@ -230,7 +230,7 @@ Mobile SDK
 
 </td><td>
 
-
+[NowChatConfiguration class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
 
 </td><td>
 
@@ -252,7 +252,7 @@ REST
 
 </td><td>
 
-
+[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
@@ -272,7 +272,7 @@ REST
 
 </td><td>
 
-
+[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-inventory-open-api.md)
 
 </td><td>
 
@@ -292,7 +292,7 @@ REST
 
 </td><td>
 
-
+[Voice Interaction Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/voice-interaction-resource-api.md)
 
 </td><td>
 
@@ -334,7 +334,7 @@ REST
 
 </td><td>
 
-
+[Developer Sandbox Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/developer-sandbox-management-api.md)
 
 </td><td>
 
@@ -355,7 +355,7 @@ REST
 
 </td><td>
 
-
+[Schema Registry API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/schema_registry-api.md)
 
 </td><td>
 
@@ -380,7 +380,7 @@ REST
 
 </td><td>
 
-
+[Sales Cart REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)
 
 </td><td>
 
@@ -404,14 +404,14 @@ Mobile Scripting
 
 </td><td>
 
--   
--   
--   
--   
--   
--   
--   
--   
+-   [MobileGlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideDateScopedAPI.md)
+-   [MobileGlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideDateTimeScopedAPI.md)
+-   [MobileGlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideElementScopedAPI.md)
+-   [MobileGlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideRecordScopedAPI.md)
+-   [MobileGlideSystem - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideSystemScopedAPI.md)
+-   [MobileGlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideTimeScopedAPI.md)
+-   [MobileGlideUser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideUserScopedAPI.md)
+-   [MobileScripts - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileScriptsScopedAPI.md)
 
 
 </td><td>
@@ -428,7 +428,7 @@ Server
 
 </td><td>
 
-
+[ProcessMiningIntegrationAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/ProcessMiningIntAPIScoped.md)
 
 </td><td>
 
@@ -444,7 +444,7 @@ Server
 
 </td><td>
 
-
+[SecretsAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/SecretsAPI.md)
 
 </td><td>
 
@@ -464,7 +464,7 @@ REST
 
 </td><td>
 
-
+[Custom Connector Gateway API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/custom-connector-gateway-api.md)
 
 </td><td>
 
@@ -485,12 +485,12 @@ Push documents and user principals from a connector in your own environment into
 
     |Application|API type|API|Endpoints|
     |-----------|--------|---|---------|
-    |Virtual Agent and Live Agent|REST||POST /bot/integration: The `history` parameter of the Virtual Agent Bot Integration API now supports an `attachment` type, letting the primary bot include files that were shared earlier in the conversation when it passes chat history to Virtual Agent or Live Agent.|
+    |Virtual Agent and Live Agent|REST|[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/bot-api.md)|POST /bot/integration: The `history` parameter of the Virtual Agent Bot Integration API now supports an `attachment` type, letting the primary bot include files that were shared earlier in the conversation when it passes chat history to Virtual Agent or Live Agent.|
 
 
 ### What's deprecated or removed
 
--   ****
+-   **[ProcessMiningIntegrationAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/ProcessMiningIntAPIScoped.md)**
 
     The createProject\(\) method is deprecated. Use createProjectFromApi\(\) instead. The properties **promin.api.allow\_no\_role\_mining** and **promin.api.auto\_share\_project\_with\_creator** are also deprecated.
 
@@ -537,7 +537,7 @@ REST
 
 </td><td>
 
-
+[Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-offering-qualification-api.md)
 
 </td><td>
 
@@ -585,7 +585,7 @@ REST
 
 </td><td>
 
-
+[WSD Recurring Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/wsd_recur_reserv-api.md)
 
 </td><td>
 
@@ -605,7 +605,7 @@ Client
 
 </td><td>
 
-
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_openFrameAPI.md)
 
 </td><td>
 
@@ -626,7 +626,7 @@ REST
 
 </td><td>
 
-
+[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)
 
 </td><td>
 
@@ -646,7 +646,7 @@ Server
 
 </td><td>
 
-
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
 
 </td><td>
 
@@ -666,7 +666,7 @@ REST
 
 </td><td>
 
-
+[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
@@ -689,7 +689,7 @@ REST
 
 </td><td>
 
-
+[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/service-order-open-api.md)
 
 </td><td>
 
@@ -709,7 +709,7 @@ REST
 
 </td><td>
 
-
+[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-inventory-open-api.md)
 
 </td><td>
 
@@ -729,7 +729,7 @@ REST
 
 </td><td>
 
-
+[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-open-api.md)
 
 </td><td>
 
@@ -749,7 +749,7 @@ REST
 
 </td><td>
 
-
+[Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/service-test-management-api.md)
 
 </td><td>
 
@@ -769,7 +769,7 @@ REST
 
 </td><td>
 
-
+[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-open-api.md)
 
 </td><td>
 

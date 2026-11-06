@@ -81,7 +81,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## What to do next
 
-To enable additional fields from any connected work table, change the form layout configuration for the Default view of the table. You can then surface these fields as columns in CWM. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+To enable additional fields from any connected work table, change the form layout configuration for the Default view of the table. You can then surface these fields as columns in CWM. For more information, see .
 
 **Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

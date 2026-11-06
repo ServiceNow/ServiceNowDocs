@@ -159,7 +159,7 @@ Install Public Sector Digital Services by requesting it from the ServiceNow Stor
 
 ## Related ServiceNow applications and features
 
--   **Customer Service Management**
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
     The ServiceNow®Customer Service Management application enables customer service organizations and service operations to collaborate and resolve customer problems.
 

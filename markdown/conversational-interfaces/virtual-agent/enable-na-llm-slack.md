@@ -18,7 +18,7 @@ Enable large language model \(LLM\) conversational experiences with ServiceNow O
 
 ## Before you begin
 
-Ensure that you enable AI Search. For more information about enabling AI Search, see .
+Ensure that you enable AI Search. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-ais-next-exp-app.md).
 
 Role required: admin
 

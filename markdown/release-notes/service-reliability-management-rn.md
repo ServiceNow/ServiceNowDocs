@@ -21,7 +21,7 @@ The ServiceNow® Service Reliability Management \(SRM\) application helps your o
 -   Support service operations with team ownership and on-call workflows that help coordinate response when issues occur.
 -   Access SRM features on the go with ITOM Mobile Agent on iOS and Android devices.
 
-See  for more information.
+See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sr-landing-page.md) for more information.
 
 ## Activation and other requirements
 

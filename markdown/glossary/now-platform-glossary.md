@@ -218,7 +218,7 @@ App shells are the static elements of a web experience \(for example, the header
 
 Provides predefined data, experience, logic and automation, and security to support a certain use case. For example, the Travel Request template provides application content for submitting and approving employee travel requests.
 
-For more information on the available templates, see .
+For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/template-library.md).
 
 ### applet launcher
 
@@ -839,7 +839,7 @@ A user-defined AI capability tailored to meet specific business needs. It is cre
 
 ### customer access management
 
-Customer access management supports multiple related parties in handling cases, sold products, and install bases by providing them with varying levels of access. For more information about Customer Access Management, see .
+Customer access management supports multiple related parties in handling cases, sold products, and install bases by providing them with varying levels of access. For more information about Customer Access Management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-cam.md).
 
 ### customer data model
 
@@ -1241,7 +1241,7 @@ A graphical interface users interact with to create workspaces, portals, catalog
 
 ### Experience
 
-Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see .
+Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-experience.md).
 
 ### export definition
 
@@ -2936,7 +2936,7 @@ The user-defined top or bottom limit of the normal range of scores for an indica
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see .
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md).
 
 ### tolerance rules
 

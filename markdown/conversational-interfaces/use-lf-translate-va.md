@@ -44,7 +44,7 @@ Role required: virtual\_agent\_admin or admin
         1.  Select the applicable check boxes, and then click **Request translations**.
         2.  When prompted, confirm your choice.
 
-            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
+            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/fulfill-localization-task.md).
 
     -   [Edit translations directly in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/edit-translations-va-topics.md).
 

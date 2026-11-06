@@ -24,7 +24,7 @@ This section highlights key Virtual Agent features that are supported in the Con
 
 Virtual Agent can generate AI Search results that are displayed as Genius result cards and multiple-link outputs in conversations. The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and catalog items.
 
-For more information, see .
+For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-ais.md).
 
 ## Trusted domains
 
@@ -42,7 +42,7 @@ Translation of responses to the conversation language is done using the function
 
 -   The requested language plugin is absent, but a fallback language is configured​.
 
-    When the requested language plugin is absent, the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see .
+    When the requested language plugin is absent, the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/set-fallback-language.md).
 
 -   The requested language plugin is absent, but a fallback language is not configured.
 

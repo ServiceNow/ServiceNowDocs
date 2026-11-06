@@ -16,8 +16,8 @@ Configure certain Engagement Messenger settings to enable public sector end user
 
 -   Create an Engagement Messenger module. For more information on implementing Engagement Messenger, see Set up Engagement Messenger.
 -   Be familiar with customizing the Engagement Messenger module. For details, see Customize the feature configuration of Engagement Messenger.
--   Activate the Agent Chat plugin \(com.glide.interaction.awa\).
--   Activate the Virtual Agent plugin \(com.glide.cs.chatbot\), which requires a subscription.
+-   [Activate the Agent Chat plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-agent-chat.md) \(com.glide.interaction.awa\).
+-   [Activate the Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md) \(com.glide.cs.chatbot\), which requires a subscription.
 -   Activate the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\), which requires a subscription.
 
 ## Configure Engagement Messenger for Service Request Administration

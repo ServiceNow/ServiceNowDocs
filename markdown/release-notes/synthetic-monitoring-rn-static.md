@@ -20,7 +20,7 @@ The ServiceNow® Synthetic monitoring application in the Service Operations Work
 -   Visualize synthetic test results.
 -   Update monitors to match your business needs.
 
-See  for more information.
+See [Exploring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/exploring-synthetic-monitoring.md) for more information.
 
 ## Activation and other requirements
 
@@ -37,31 +37,31 @@ The ServiceNow® Synthetic monitoring application was enhanced and updated in th
 -   Tag HTTP endpoints and discovered APIs to multiple application services to reduce duplicate checks and preserve CMDB relationships.
 -   Prevent the ECC queue from growing unbounded with a new scheduled cleanup job for Synthetic Monitoring messages.
 
-See  for more information.
+See [Exploring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/exploring-synthetic-monitoring.md) for more information.
 
 **Important:** Synthetic monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ### New in the Brazil release
 
--   **Multi-service tagging for endpoints**
+-   **[Multi-service tagging for endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/multi-service-monitoring.md)**
 
     Tag a single HTTP endpoint or discovered API to multiple application services. One check represents every team that depends on that shared endpoint. The underlying CMDB relationships between the endpoint and each application service are preserved rather than replaced when a new service is added.
 
 
 ### UI changes
 
--   **Related services**
+-   **[Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md)Related services**
 
     HTTP endpoint and discovered API forms now display a Related services list that shows every application service tagged to the endpoint. This list is read-only and removes duplicate entries so teams can see which other services share the same endpoint.
 
 
 ### Changed in the Brazil release
 
--   **ECC queue auto purge**
+-   **[ECC queue auto purge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ecc-queue-auto-purge.md)**
 
     Prevent the ECC queue from growing unbounded. A new scheduled job removes old Synthetic Monitoring messages from the ECC queue and flags stuck or orphaned messages so that stale entries aren't mistaken for pending work. To enable this cleanup, grant **Can Delete** application access on the ECC Queue \[ecc\_queue\] table.
 
--   **Monitor result accuracy for HTTP error responses**
+-   **[Monitor result accuracy for HTTP error responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-a-monitor-s-test-results.md)**
 
     MID Server-executed checks now correctly show a Responded status when the endpoint returns an HTTP error status code, such as 401 or 503. Previously, these checks could incorrectly show no response despite a valid error being returned.
 

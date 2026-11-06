@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/confi
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Conversational Analytics dashboard, Analyze Virtual Agent performance, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 ---
 
@@ -81,7 +81,7 @@ If the data on User Search Metrics page does not load due to an invalid configur
 
 If the number of search terms exceeds the limit specified in the com.snc.pa.dc.max\_breakdown\_elements\_limit property, the dashboard will not show any data. Be sure to set the value of com.snc.pa.dc.max\_breakdown\_elements\_limit or com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit property to be greater than or equal to sn\_ci\_analytics.max.search.threshold. The default value of these properties is 10000.
 
-See  and  for more information.
+See [Breakdown and indicator Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-limit-setting-props.md) and [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-dc-props.md) for more information.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ If the data on User Search Metrics page does not load due to an invalid configur
 
 If the number of custom events exceeds the limit specified in the com.snc.pa.dc.max\_breakdown\_elements\_limit property, the dashboard will not show any data. Be sure to set the value of com.snc.pa.dc.max\_breakdown\_elements\_limit or com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit property to be greater than or equal to sn\_ci\_analytics.max.search.threshold. The default value of these properties is 10000.
 
-See  and  for more information.
+See [Breakdown and indicator Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-limit-setting-props.md) and [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-dc-props.md) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[\(Legacy\) Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversational-analytics-dashboard-reference-pae.md)

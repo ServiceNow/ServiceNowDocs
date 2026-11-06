@@ -34,15 +34,15 @@ You can create change templates for any change model, including the Normal, Stan
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d351434e77">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d351828e77">
 
 Source
 
-</th><th align="left" id="d351434e80">
+</th><th align="left" id="d351828e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d351434e86">
+</th></tr></thead><tbody><tr><td id="d351828e86">
 
 **Change Model**
 
@@ -54,7 +54,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d351434e123">
+</td></tr><tr><td id="d351828e123">
 
 **Create a change request page**
 
@@ -74,7 +74,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d351434e180">
+</td></tr><tr><td id="d351828e180">
 
 **Templates tab**
 

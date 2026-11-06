@@ -23,7 +23,7 @@ The ServiceNow® ITOM AIOps applications use machine learning and analytics to g
 -   Streamline incident response with structured workflows, automated escalation, and prioritized, context-rich alerts for faster resolution.
 -   Enable proactive service quality management through automated SLO tracking, alerting, and threshold monitoring across the IT environment.
 
-See  for more information.
+See [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md) for more information.
 
 ## Activation and other requirements
 

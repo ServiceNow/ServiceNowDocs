@@ -22,7 +22,7 @@ You can track the progress of demands and projects, and monitor the status of co
 
 **Note:**
 
--   Program workbench is based on Service Portal which means that you can configure, customize, and extend it as per your requirements and organizational workflow. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md) documentation.
+-   Program workbench is based on Service Portal which means that you can configure, customize, and extend it as per your requirements and organizational workflow. For more information, see Service Portal documentation.
 -   Program workbench does not support mobile device.
 
 The program workbench comprises of the following components:

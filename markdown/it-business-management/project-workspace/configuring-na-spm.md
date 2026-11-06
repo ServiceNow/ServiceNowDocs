@@ -24,7 +24,7 @@ The following example shows the Settings page with available plugins to install,
 
 \[Omitted image "image.settings-page-na"\] Alt text: ServiceNow Otto settings page that lets you install plugins, activate the AI panel, and view account details.
 
-To enable the Agile story generation skill and project insights generation skill, verify that AI panel is enabled. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md). For Agile story generation skill, verify AI Search is activated and ready to use by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**
+To enable the Agile story generation skill and project insights generation skill, verify that AI panel is enabled. For more information, see . For Agile story generation skill, verify AI Search is activated and ready to use by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**
 
 **Important:** The Acceptance criteria generation skill also requires activating Refine Records skill.
 
@@ -44,7 +44,5 @@ Configure the Project Data Quality Analysis AI skill to enable it for your proje
 **Related topics**  
 
 
-[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
-
-[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
+[bundle-platai.configuring-now-assist]
 

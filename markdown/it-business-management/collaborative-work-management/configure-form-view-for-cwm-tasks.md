@@ -38,7 +38,7 @@ CWM displays fields from the default view of a table's record form in the task s
 
 4.  Configure the form using Form Builder.
 
-    For instances without Form Builder, use Form Design or Form Layout instead. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+    For instances without Form Builder, use Form Design or Form Layout instead. For more information, see .
 
 5.  Add or remove the fields you want to display, and save your changes.
 
@@ -50,9 +50,7 @@ The updated fields appear in the task side panel when you open tasks or connecte
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
-
-[Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.configure-form-layout]
 
 [Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md)
 

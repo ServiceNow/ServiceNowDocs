@@ -15,7 +15,7 @@ breadcrumb: [Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Int
 
 Use catalogs to search for and request services and products in chat widget conversations.
 
-**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see . For information on Multi-turn catalog ordering instead, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
+**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/genius-results-ais.md). For information on Multi-turn catalog ordering instead, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
 
 The catalog feature lets you use natural language to search for and request service items in a Virtual Agent conversation. The Virtual Agent recognizes your request and presents you with the best answer. You complete the entire order in the chat, without going to a new page.
 
@@ -31,7 +31,7 @@ If you cancel the order instead, you receive a message confirming the cancellati
 
 \[Omitted image "va-catalogs-06.png"\] Alt text: The user requests an iPhone.\[Omitted image "va-catalogs-07.png"\] Alt text: While completing the request, the user chooses to cancel the order instead.\[Omitted image "va-catalogs-08.png"\] Alt text: The request is closed with a message informing the user that the order is Canceled.
 
-**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see . For information on Multi-turn catalog ordering instead, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
+**Note:** Catalogs for Virtual Agent are separate from Now Assist and Multi-turn catalog ordering. For more information on how catalog search results work based on AI Search, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/genius-results-ais.md). For information on Multi-turn catalog ordering instead, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
 
 ## Catalog live agent autopilot experience
 

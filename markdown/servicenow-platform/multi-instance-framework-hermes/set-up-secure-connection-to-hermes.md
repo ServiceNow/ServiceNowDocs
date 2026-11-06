@@ -37,15 +37,15 @@ For details on assigning KMF roles, see .
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d390527e127">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d390309e127">
 
 Option
 
-</th><th align="left" id="d390527e130">
+</th><th align="left" id="d390309e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d390527e136">
+</th></tr></thead><tbody><tr><td id="d390309e136">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d390527e178">
+</td></tr><tr><td id="d390309e178">
 
 **Apply ACLs to defined topics**
 

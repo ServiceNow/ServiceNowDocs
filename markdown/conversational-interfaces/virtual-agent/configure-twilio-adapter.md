@@ -33,7 +33,7 @@ Before you can set up the Conversational SMS Integration with Twilio, complete t
     -   Twilio spoke
     -   Conversational SMS Service Channel
     -   Conversational SMS Integration with Twilio
-3.  Set up Twilio spoke
+3.  [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-twilio.md)
 4.  Ensure that the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) is active on your instance.
 
 Role required: external\_app\_install\_admin or va\_admin
@@ -133,7 +133,7 @@ After you set up the Conversational SMS Integration with Twilio, you can create 
 
 [Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/install-sms-twilio.md)
 
-[bundle-platadm.servicenow-store]
+[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/servicenow-store.md)
 
 [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md)
 

@@ -35,15 +35,15 @@ Role required: itil, sn\_service\_desk\_agent
     -   All - List of all incidents.
 4.  Perform any of the following actions on the incident list page.
 
-<table id="choicetable_l1y_yhz_ydc"><thead><tr><th align="left" id="d334377e133">
+<table id="choicetable_l1y_yhz_ydc"><thead><tr><th align="left" id="d334771e133">
 
 Option
 
-</th><th align="left" id="d334377e136">
+</th><th align="left" id="d334771e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d334377e144">
+</th></tr></thead><tbody><tr><td id="d334771e144">
 
 **Assign to me**
 
@@ -51,7 +51,7 @@ Description
 
 Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text:\) icon corresponding to the incident record, and then select **Assign to me** to assign the incident record to yourself.
 
-</td></tr><tr><td id="d334377e166">
+</td></tr><tr><td id="d334771e166">
 
 **Reassign**
 
@@ -59,7 +59,7 @@ Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Al
 
 Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text:\) icon corresponding to the incident record, and then select **Reassign** to reassign the incident record to other agents.
 
-</td></tr><tr><td id="d334377e188">
+</td></tr><tr><td id="d334771e188">
 
 **Copy URL**
 
@@ -67,7 +67,7 @@ Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Al
 
 Select the **More actions** icon \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text:\) icon corresponding to the incident record, and then select **Copy URL** to copy the URL of the incident record. You can then share the URL with other agents.
 
-</td></tr><tr><td id="d334377e210">
+</td></tr><tr><td id="d334771e210">
 
 **Copy sys\_id**
 
@@ -75,7 +75,7 @@ Select the **More actions** icon \(\[Omitted image "dpr-icon-more-actions-v.png"
 
 Select the **More actions** icon \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text:\) icon corresponding to the incident record, and then select **Copy sys\_id** to copy the sys\_id of the incident record. You can then share the sys\_id with other agents.
 
-</td></tr><tr><td id="d334377e231">
+</td></tr><tr><td id="d334771e231">
 
 **Edit form**
 
@@ -87,7 +87,7 @@ Select the **Edit** \(\[Omitted image "icon-edit-pencil.png"\] Alt text:\) icon 
 -   Activity: Includes all the incident record activity information.
 
 
-</td></tr><tr><td id="d334377e258">
+</td></tr><tr><td id="d334771e258">
 
 **New**
 
@@ -95,7 +95,7 @@ Select the **Edit** \(\[Omitted image "icon-edit-pencil.png"\] Alt text:\) icon 
 
 Select **New** to create an incident.
 
-</td></tr><tr><td id="d334377e270">
+</td></tr><tr><td id="d334771e270">
 
 **Export**
 
@@ -103,7 +103,7 @@ Select **New** to create an incident.
 
 Select **Export** to export the list of incidents in Excel \(.csv\), PDF, or HTML.
 
-</td></tr><tr><td id="d334377e285">
+</td></tr><tr><td id="d334771e285">
 
 **Filter**
 
@@ -111,7 +111,7 @@ Select **Export** to export the list of incidents in Excel \(.csv\), PDF, or HTM
 
 Select the **Filter** \(\[Omitted image "pace-filter-icon.jpg"\] Alt text:\) icon to filter the incident list based on specific conditions. You can set up these conditions to customize your filter. The animated number on the **Filter** \(\[Omitted image "pace-filter-icon.jpg"\] Alt text:\) icon shows how many filters are currently applied to the incident list.
 
-</td></tr><tr><td id="d334377e312">
+</td></tr><tr><td id="d334771e312">
 
 **Refresh**
 
@@ -119,7 +119,7 @@ Select the **Filter** \(\[Omitted image "pace-filter-icon.jpg"\] Alt text:\) ico
 
 Select the **Refresh** \(\[Omitted image "refresh-list-icon.png"\] Alt text:\) icon to refresh the list of incidents.
 
-</td></tr><tr><td id="d334377e329">
+</td></tr><tr><td id="d334771e329">
 
 **Search**
 
@@ -127,7 +127,7 @@ Select the **Refresh** \(\[Omitted image "refresh-list-icon.png"\] Alt text:\) i
 
 Select the **Search** \(\[Omitted image "search\_icon.png"\] Alt text:\) icon to search an incident using any incident information as variable.
 
-</td></tr><tr><td id="d334377e347">
+</td></tr><tr><td id="d334771e347">
 
 **Edit column \(Personalize list\)**
 
@@ -135,7 +135,7 @@ Select the **Search** \(\[Omitted image "search\_icon.png"\] Alt text:\) icon to
 
 Select the **Edit column** \(\[Omitted image "toggle-compose-setting.png"\] Alt text:\) icon to configure the view of the columns for the incident. The column represents the fields of the incident record. You can add or remove the columns from the incident list. An animated dot symbol on the **Edit column** option indicates whether the columns in the list are edited or personalized.
 
-</td></tr><tr><td id="d334377e371">
+</td></tr><tr><td id="d334771e371">
 
 **Group by**
 
@@ -143,7 +143,7 @@ Select the **Edit column** \(\[Omitted image "toggle-compose-setting.png"\] Alt 
 
 Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text:\) icon corresponding to the column name, and then select **Group by** to group the incident list by the column name. The column name is the name of the field in the incident record.
 
-</td></tr><tr><td id="d334377e396">
+</td></tr><tr><td id="d334771e396">
 
 **Show matching**
 
@@ -151,7 +151,7 @@ Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Al
 
 Select the **More actions** \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text:\) icon corresponding to the incident record row, and then select **Show Matching** to show the incident with matching details.
 
-</td></tr><tr><td id="d334377e418">
+</td></tr><tr><td id="d334771e418">
 
 **Filter out**
 

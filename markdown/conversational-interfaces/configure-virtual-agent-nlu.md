@@ -53,7 +53,7 @@ Use Natural Language Understanding \(NLU\) for topic discovery
 
 [\(Legacy\) Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-nlu-settings.md)
 
- Creating models \(using NLU Workbench\)
+ [Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-models.md) \(using NLU Workbench\)
 
 </td></tr><tr><td>
 

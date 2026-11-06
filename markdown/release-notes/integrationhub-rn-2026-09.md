@@ -18,9 +18,9 @@ The Confluent Kafka REST Proxy Spoke integrates your ServiceNow instances with t
 
 -   **Plugins planned for deprecation**
 
-    Confluent Kafka REST Proxy Spoke \(sn\_kafkacon\_spoke\): Planned for deprecation in January 2030. For new implementations, evaluate Stream Connect for Apache Kafka and review the product documentation for additional guidance.
+    Confluent Kafka REST Proxy Spoke \(sn\_kafkacon\_spoke\): Planned for deprecation in January 2030. For new implementations, evaluate Stream Connect for Apache Kafka and review the [product documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-apache-kafka.md) for additional guidance.
 
-    ServiceNow Kafka Consumer \(sn\_kconsumer\_spoke\): Planned for deprecation in January 2030. For new implementations, evaluate Stream Connect for Apache Kafka and review the product documentation for additional guidance.
+    ServiceNow Kafka Consumer \(sn\_kconsumer\_spoke\): Planned for deprecation in January 2030. For new implementations, evaluate Stream Connect for Apache Kafka and review the [product documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-apache-kafka.md) for additional guidance.
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)

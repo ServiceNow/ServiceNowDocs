@@ -155,7 +155,7 @@ Table
 
 </td><td>
 
-Select a table from the list that you want to draw your results from. You can select any table in the platform.**Note:** Only indexed tables return search results. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-single-table-for-indexing.md).
+Select a table from the list that you want to draw your results from. You can select any table in the platform.**Note:** Only indexed tables return search results. Learn more: .
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ Using AI Search, GDS Service Portal users can find answers with features like au
 
     A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
 
-    For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+    For more information on defining a search application configuration, see Defining search application configurations.
 
 4.  In the **Search Results Configuration** field, select the search results configuration to enable for the portal.
 
@@ -255,7 +255,7 @@ Using AI Search, GDS Service Portal users can find answers with features like au
 
 AI Search is enabled throughout the portal, and constituents can use AI Search the next time they log in.
 
-The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-sources-ais.md) and [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/link-search-source-profile-ais.md).
+The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see Defining search sources and Link a search source to a search profile.
 
 To use AI Search for knowledge articles, you can keep the default **Knowledge Bases** search source or select a custom one.
 

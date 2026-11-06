@@ -21,17 +21,17 @@ The ServiceNow® Project Portfolio Management application combines innovation, d
 -   Manage projects, programs, and portfolios, along with their resources and financials, from a single suite of applications.
 -   Execute work using a traditional waterfall methodology, an Agile approach, or a hybrid of the two.
 
-See  for more information.
+See [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_ProjectPortfolioSuite.md) for more information.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) if you have the admin role. This plugin installs the Project Portfolio Management applications, along with their user roles and tables. For more information, see .
+    Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) if you have the admin role. This plugin installs the Project Portfolio Management applications, along with their user roles and tables. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 -   **Upgrade information**
 
-    Users who already have Project Portfolio Management can upgrade to PPM Standard. New users must purchase PPM Standard. For more information, see .
+    Users who already have Project Portfolio Management can upgrade to PPM Standard. New users must purchase PPM Standard. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-business-management-rn-landing.md)
@@ -50,11 +50,11 @@ The Brazil Early Availability release introduces cloning of AI skills and update
 
     Identify cost plans whose actual spend is running over or under plan for the current fiscal period with the new Cost Variance insight card in Portfolio Insights. The card flags cost plans where the variance between actual and planned costs exceeds a configurable threshold, in either direction, and groups the root causes by driver — such as rate-driven, effort or hours overrun, or actuals below plan — along with recommended next steps for each.
 
--   **Copy and customize the demand summarization skill**
+-   **[Copy and customize the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/clone-customize-the-demand-summarization-skill-ppm.md)**
 
     Tailor demand summaries to your organization's process by copying the base demand summarization skill and customizing it with your own input fields, related entities, and prompt. When you activate a copy of the demand summarization skill, the previously active skill, either the base skill or an earlier copy, is automatically deactivated. Only one version of the skill can be active at a time.
 
--   ****
+-   **[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/my-demands-widget-ppm.md)**
 
     Create and track demands without leaving the conversation-first Employee Slate workspace. Describe the demand in a conversation to have matching catalog items identified and relevant fields prepopulated from your message, then track its status, activity, and progress using the new My Demands widget on your canvas or the standard Requests widget. Demands appear in Employee Slate only when both Project Workspace and Employee Slate Core apps are installed.
 
@@ -69,20 +69,20 @@ The Brazil Early Availability release introduces cloning of AI skills and update
 
     Each card in Portfolio Insights now includes an info icon. Select the icon to open a popover with a plain-language explanation of what the insight measures and how it's calculated, so you can interpret the insight without leaving the panel.
 
--   **Navigation to Project Workspace in Next Experience**
+-   **[Navigation to Project Workspace in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CreateAProject.md#steps_cmz_5wd_tw)**
 
     View and access Project Workspace in Next Experience when you access project workspace from the All navigation menu.
 
--   ****
+-   **[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-summary-demand-classic.md)**
 
     The default trigger is not set to **Automatic** for demands in any state. You can select how you want the skill to be triggered for any state.
 
 
 ### What's deprecated or removed
 
--   **Planning console**
+-   **[Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/c_TheProjectPlanningConsole.md)**
 
-    Starting Brazil release, Planning console is deprecated and is no longer supported. Project managers can access Project Workspace using Next Experience to work on project planning.
+    Starting Brazil release, Planning console is deprecated and is no longer supported. Project managers can [access Project Workspace using Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/access-new-project-workspace.md) to work on project planning.
 
 -   **Process Mining**
 

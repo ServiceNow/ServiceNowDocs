@@ -26,7 +26,7 @@ Follow these instructions to get started with AI Admin Hub:
 2.  Activate any AI plugin from the ServiceNow Store to access AI Admin Hub.
 3.  Install additional plugins, from the AI Admin Hub.
 4.  The AI Admin Hub console guides your implementation, starting with installation.
-5.  Check out the [AI Journey Checklist for more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
+5.  Check out the AI Journey Checklist for more information.
 
 ## Procedure
 
@@ -62,5 +62,5 @@ If you encounter issues installing or updating applications, see this [knowledge
 **Related topics**  
 
 
-[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+[bundle-platai.configure-a-now-assist-skill]
 

@@ -32,15 +32,15 @@ Role required: itil, problem\_coordinator or higher \(for managing the life cycl
 
 2.  Perform any of the following actions on the problem record page.
 
-<table id="choicetable_ptk_vnq_cbc"><thead><tr><th align="left" id="d348212e103">
+<table id="choicetable_ptk_vnq_cbc"><thead><tr><th align="left" id="d348606e103">
 
 Option
 
-</th><th align="left" id="d348212e106">
+</th><th align="left" id="d348606e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d348212e112">
+</th></tr></thead><tbody><tr><td id="d348606e112">
 
 **View the unified dependency CMDB map in a new tab within the workspace view**
 
@@ -48,7 +48,7 @@ Description
 
 For the reference fields such as **Configuration item**, **Service offering** and **Service**, select the **Dependency view** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text:\).
 
-</td></tr><tr><td id="d348212e138">
+</td></tr><tr><td id="d348606e138">
 
 **Create a problem task associated with the problem**
 
@@ -56,7 +56,7 @@ For the reference fields such as **Configuration item**, **Service offering** an
 
 Select **Create problem task**, or select **New** from the **Problem Tasks** tab. For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-</td></tr><tr><td id="d348212e165">
+</td></tr><tr><td id="d348606e165">
 
 **Assess a problem**
 
@@ -64,7 +64,7 @@ Select **Create problem task**, or select **New** from the **Problem Tasks** tab
 
 Select **Assess** and fill in the required fields.
 
-</td></tr><tr><td id="d348212e177">
+</td></tr><tr><td id="d348606e177">
 
 **Confirm a problem**
 
@@ -72,7 +72,7 @@ Select **Assess** and fill in the required fields.
 
 Select **Confirm** to move the problem from the **Assess** state to the **Root Cause Analysis** state.
 
-</td></tr><tr><td id="d348212e196">
+</td></tr><tr><td id="d348606e196">
 
 **Investigate the root cause of a problem**
 
@@ -83,7 +83,7 @@ Select **Confirm** to move the problem from the **Assess** state to the **Root C
 
 For more information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-</td></tr><tr><td id="d348212e226">
+</td></tr><tr><td id="d348606e226">
 
 **Create a change request from the problem**
 
@@ -91,7 +91,7 @@ For more information about creating a problem task, see [Create a problem task i
 
 From the drop-down list next to **Create problem task**, select **Create change request**, or select **New** from the **Fix Tasks** tab.For information about creating a change request, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
 
-</td></tr><tr><td id="d348212e256">
+</td></tr><tr><td id="d348606e256">
 
 **Create an outage associated with the problem**
 
@@ -99,7 +99,7 @@ From the drop-down list next to **Create problem task**, select **Create change 
 
 From the drop-down list next to **Create problem task**, select **Create outage**.
 
-</td></tr><tr><td id="d348212e271">
+</td></tr><tr><td id="d348606e271">
 
 **Create a known error article**
 
@@ -107,7 +107,7 @@ From the drop-down list next to **Create problem task**, select **Create outage*
 
 From the drop-down list next to **Create problem task**, select **Create known error article**.Known error articles document the root cause and the workaround of the problem. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/known-error-article-form.md).
 
-</td></tr><tr><td id="d348212e296">
+</td></tr><tr><td id="d348606e296">
 
 **Assign the problem to yourself**
 
@@ -115,7 +115,7 @@ From the drop-down list next to **Create problem task**, select **Create known e
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d348212e308">
+</td></tr><tr><td id="d348606e308">
 
 **Mark a problem as a duplicate of an existing problem**
 
@@ -123,7 +123,7 @@ Select **Assign to me**.
 
 From the drop-down list next to **Cancel**, select **Mark duplicate** and fill in the required fields.
 
-</td></tr><tr><td id="d348212e324">
+</td></tr><tr><td id="d348606e324">
 
 **Cancel a problem**
 
@@ -131,7 +131,7 @@ From the drop-down list next to **Cancel**, select **Mark duplicate** and fill i
 
 Select **Cancel problem** and fill in the required fields.
 
-</td></tr><tr><td id="d348212e336">
+</td></tr><tr><td id="d348606e336">
 
 **Delete a problem**
 
@@ -139,7 +139,7 @@ Select **Cancel problem** and fill in the required fields.
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Delete**.
 
-</td></tr><tr><td id="d348212e353">
+</td></tr><tr><td id="d348606e353">
 
 **Create a known error article for a high-impact problem**
 
@@ -154,7 +154,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  From the **Recommended actions** tab, select **Create article**. For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/known-error-article-form.md).
 
 
-</td></tr><tr><td id="d348212e403">
+</td></tr><tr><td id="d348606e403">
 
 **Attach knowledge articles or records that help a quick resolution of a problem**
 
@@ -164,7 +164,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Search for a resource and perform the required action.
 The knowledge articles attached here are displayed in the **Related records** tab.
 
-</td></tr><tr><td id="d348212e428">
+</td></tr><tr><td id="d348606e428">
 
 **Add an attachment to a problem**
 
@@ -172,7 +172,7 @@ The knowledge articles attached here are displayed in the **Related records** ta
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text:\).
 
-</td></tr><tr><td id="d348212e442">
+</td></tr><tr><td id="d348606e442">
 
 **Copy the record page URL to easily access the record**
 
@@ -180,7 +180,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Copy URL**.
 
-</td></tr><tr><td id="d348212e460">
+</td></tr><tr><td id="d348606e460">
 
 **Share a workaround**
 
@@ -188,7 +188,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Share workaround**.
 
-</td></tr><tr><td id="d348212e477">
+</td></tr><tr><td id="d348606e477">
 
 **Share a fix**
 
@@ -196,7 +196,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Share fix**.
 
-</td></tr><tr><td id="d348212e494">
+</td></tr><tr><td id="d348606e494">
 
 **Create templates for reuse**
 
@@ -204,7 +204,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text:\).
 
-</td></tr><tr><td id="d348212e508">
+</td></tr><tr><td id="d348606e508">
 
 **Acknowledge the problem while recognizing there is currently no permanent resolution**
 
@@ -212,7 +212,7 @@ From the contextual side panel, select the templates icon \(\[Omitted image "tem
 
 From the drop-down list next to **Cancel**, select **Accept risk** and fill in the required fields.**Note:** You can apply workaround notes to a risk-accepted problem.
 
-</td></tr><tr><td id="d348212e525">
+</td></tr><tr><td id="d348606e525">
 
 **Re-analyze a problem**
 

@@ -48,7 +48,7 @@ Define pricing rules for individual consumers with a new context variable and re
 
     Define pricing and eligibility rules for individual consumers with the new system-defined Consumer context variable for transaction lines. The variable references the Consumer \[csm\_consumer\] table.
 
--   **Deselected lines in the pricing response**
+-   **[Deselected lines in the pricing response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
 
     Keep a complete view of the transaction in pricing responses by returning deselected lines. When the **price\_all\_lines** request setting is true, lines sent with **selected** set to false are included in the response. Deselected lines don't contribute to derived prices.
 
@@ -66,7 +66,7 @@ Define pricing rules for individual consumers with a new context variable and re
     -   Upsell quotes
         -   When a source product is swapped, the derived product now gets the required Amend and Add lines.
         -   Derived product split lines are now added within their wrapper line. Previously, a split line could be added outside the wrapper.
--   **Pricing requests and responses**
+-   **[Pricing requests and responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
 
     Get complete and consistent pricing responses for your integrations.
 
@@ -146,7 +146,7 @@ Automate derived product line creation, configure rounding precision for non-cur
 
     Configure the rounding precision applied to non-currency pricing fields, such as margin percentage, to match your organization's rounding requirements. The default precision is 4 decimal digits. To use a different precision, set the **sn\_csm\_pricing.rounding.non\_currency\_max\_precision\_digits** property in the system properties. Viewing or setting this property requires the Price List Administrator \(sn\_csm\_pricing.pricelist\_administrator\) role.
 
--   **Floor and ceiling price in the pricing response**
+-   **[Floor and ceiling price in the pricing response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
 
     Access floor and ceiling pricing values directly in pricing responses and persist them on custom quote or order line fields for downstream business processes and validations. To include these values in the response, the include\_floor\_ceiling pricing request setting must be set to true. When the setting is absent or false, floor and ceiling price are omitted from the response. If pricing\_elements setting isn't specified in the request, the PRICE element is included by default.
 

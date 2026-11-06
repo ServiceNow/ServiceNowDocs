@@ -26,7 +26,7 @@ You must have the it\_portfolio\_manager role to use the portfolio workbench for
 
 **Note:**
 
--   Portfolio workbench is based on Service Portal which means that you can configure, customize, and extend the workbench per your requirements and organizational workflow. See the [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md) documentation for more information.
+-   Portfolio workbench is based on Service Portal which means that you can configure, customize, and extend the workbench per your requirements and organizational workflow. See the Service Portal documentation for more information.
 -   Portfolio workbench does not support mobile devices.
 
 In addition to the Portfolio Workbench, starting with New York, you can use the Portfolio Planning Workbench do a scenario-based portfolio planning. This scenario-based planning enables you to focus your investment budget and resources on demands and projects that best position your organization.
@@ -38,7 +38,7 @@ The portfolio workbench shows the following sections for an [opened](https://raw
 -   The left section provides the following fields used to plan the portfolio:
     -   **Fiscal Year**: The list to select the fiscal year you want to perform the planning for.
 
-        **Note:** If there is no fiscal year in the list, [generate a fiscal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_GenerateFiscalCalendar.md).
+        **Note:** If there is no fiscal year in the list, generate a fiscal calendar.
 
     -   **Planning Steps**: The steps involved in planning the portfolio.
 

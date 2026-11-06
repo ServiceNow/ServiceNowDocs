@@ -40,34 +40,34 @@ Continuous Authorization and Monitoring streamlines authorization package manage
 
 ### What's new
 
--   **Document reuse and version control across records**
+-   **[Document reuse and version control across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/c_cam_document_management_system.md)**
 
     Link documents as shared resources across authorization packages, boundaries, and engagements. Set approval workflows to control who reviews and activates documents before they take effect.
 
--   **Analyze documents with AI**
+-   **[Analyze documents with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_use_smart_docs_with_documents.md)**
 
     Summarize documents, generate frequently asked questions with answers, or ask specific questions about document content, all from the Documents side panel in an authorization package, boundary, or engagement.
 
--   **Voice-based document analysis**
+-   **[Voice-based document analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_use_smart_docs_with_documents.md)**
 
     Generate spoken audio summaries of documents and conduct voice-based Q&amp;A using the Voice Assist panel, from the Documents side panel in an authorization package, boundary, or engagement.
 
--   ****
+-   **[Connect documents to external cloud storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_connect_documents_to_external_cloud.md)**
 
     Link documents from Google Drive, OneDrive, or SharePoint and keep them synchronized with authorization packages, boundaries, and engagements. Pull updates from cloud storage or push approved versions back, without manual downloads and uploads.
 
--   **AI-generated authorization package summary**
+-   **[AI-generated authorization package summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_generate_authorization_package_summary.md)**
 
     Using generative AI, the Authorization package summarization skill generates a summary of authorization package records. Each summary consolidates system purpose, impact level, operational status, and open POA&amp;M counts to show the package's current state.
 
--   **POAM user role**
+-   **[POAM user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/cam-roles-list.md)**
 
     Users with the POAM User role can view and update their assigned Plan of Action and Milestones \(POA&amp;Ms\), including viewing and updating tasks, accepting or rejecting acceptance tasks, and completing milestone tasks.
 
 
 ### What's changed
 
--   **OSCAL enhancements**
+-   **[OSCAL enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/oscal-cam-ws.md)**
 
     The OSCAL enhancements include:
 

@@ -639,9 +639,9 @@ Allow time card reporting on
 
 </td><td>
 
-Level at which the [time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATimeCard.md) for project tasks can be created:-   **Project only**: All time cards for the project are created at the project level only. For example, if a user is assigned to multiple tasks in a project, then the time spent on all tasks is recorded under one time card only for the project.
+Level at which the time cards for project tasks can be created:-   **Project only**: All time cards for the project are created at the project level only. For example, if a user is assigned to multiple tasks in a project, then the time spent on all tasks is recorded under one time card only for the project.
 
-**Note:** In the [Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/worker-portal.md), tasks, the project are listed on the **Tasks** tab. For these tasks, the **Add to Time Sheet** and **Add selected to Time Sheet** options are not available. Only the **Quick Add** option is available. On selecting **Quick Add**, a time card is created against the top project, not against the task.
+**Note:** In the Time Sheet Portal, tasks, the project are listed on the **Tasks** tab. For these tasks, the **Add to Time Sheet** and **Add selected to Time Sheet** options are not available. Only the **Quick Add** option is available. On selecting **Quick Add**, a time card is created against the top project, not against the task.
 
 -   **Project tasks only**: Separate time cards are created corresponding to each planned task.
 

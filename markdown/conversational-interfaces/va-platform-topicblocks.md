@@ -90,9 +90,9 @@ List of comma-separated activity system IDs. For example, incident ID or task ID
 </td></tr></tbody>
 </table>## FAQ Conversation Builder topic block
 
-Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing [knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-article-templates.md) that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as spreadsheets.
+Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing [knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-article-templates.md) that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as [spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_TranslateTheInterface.md).
 
-The FAQ Conversation Builder topic block uses contextual search to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
+The FAQ Conversation Builder topic block uses [contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-contextual-search.md) to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
 
 Activate the [Knowledge Management Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md) plugin to use the FAQ Knowledge template.
 

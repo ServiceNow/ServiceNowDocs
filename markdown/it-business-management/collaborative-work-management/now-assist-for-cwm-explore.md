@@ -146,11 +146,11 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as 
 
 ## ServiceNow Otto console
 
-An administrator can activate and manage ServiceNow Otto features and skills for the CWM workspace using the ServiceNow Otto console. For more information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
+An administrator can activate and manage ServiceNow Otto features and skills for the CWM workspace using the ServiceNow Otto console. For more information, see .
 
 ## ServiceNow Otto panel in CWM workspace
 
-A knowledge worker can use the ServiceNow Otto panel in CWM workspace. This conversational interface enables the user to generate CWM tasks from the context of a Doc page. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
+A knowledge worker can use the ServiceNow Otto panel in CWM workspace. This conversational interface enables the user to generate CWM tasks from the context of a Doc page. For more information about the ServiceNow Otto panel, see .
 
 ## What to explore next
 

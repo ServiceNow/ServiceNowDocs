@@ -82,5 +82,5 @@ In the following example, French, Spanish, and Polish are dynamically translated
 
 You can view dynamic translation and localization insights from the Assistant Designer page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**, and select **Localization Insights**from the list of links in the side panel.
 
-For more information, see Localization Insights dashboard.
+For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-insights-dashboard.md).
 

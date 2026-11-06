@@ -14,7 +14,7 @@ breadcrumb: [Using, Conversational Analytics dashboard, Analyze Virtual Agent pe
 
 Use the **NLU Prediction** tab to see how well NLU predicts intents, and to improve the intents so NLU makes better predictions.
 
-Virtual Agent \(VA\) uses the Natural Language Understanding \(NLU\) service to understand user input. **NLU Prediction** tab on the Conversational Analytics dashboard shows how well NLU is understanding user input in VA conversations. Virtual Agent comes with NLU models, but you can use the Activate the NLU Workbench to modify or create new models.
+Virtual Agent \(VA\) uses the Natural Language Understanding \(NLU\) service to understand user input. **NLU Prediction** tab on the Conversational Analytics dashboard shows how well NLU is understanding user input in VA conversations. Virtual Agent comes with NLU models, but you can use the [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-nlu-workbench.md) to modify or create new models.
 
 \[Omitted image "dashboard-NLU-entire-pae.png"\] Alt text: NLU Predictions page.
 
@@ -46,7 +46,7 @@ Clicking anywhere on the NLU Prediction indicator opens the Model Performance pa
 
 \[Omitted image "dashboard-model-performance.png"\] Alt text: NLU Model Performance page.
 
-See Activate the NLU Workbench for information on how to use NLU Workbench to improve NLU predictions.
+See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-nlu-workbench.md) for information on how to use NLU Workbench to improve NLU predictions.
 
 -   **[\(Legacy\) Modify models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/modify-model-pae.md)**  
 Test and modify the Virtual Agent models so they more accurately predict user intents.

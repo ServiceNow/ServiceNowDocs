@@ -20,7 +20,7 @@ The ServiceNow® Goal Framework for SPM application enables you to automate the 
 -   Align work items to goals and targets, and automate actual value updates by configuring target sources, ensuring real-time progress tracking without manual updates.
 -   Set target breakdowns at daily, weekly, monthly, quarterly, or yearly intervals. Distribute the final target value cumulatively or non-cumulatively across the defined time duration.
 
-See Goal Framework for SPM for more information.
+See [Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework.md) for more information.
 
 ## Activation and other requirements
 
@@ -37,19 +37,19 @@ Goal Framework for SPM supports fiscal calendars for Target breakdowns and check
 
 ### What's new
 
--   **Fiscal calendars for goals**
+-   **[Fiscal calendars for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-goal-framework.md)**
 
     Create, edit, and break down goal targets on fiscal calendars. The supported calendar types are Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4. Target breakdowns, due dates, and roll-ups follow the fiscal periods of the active calendar. Gregorian calendar behavior does not change.
 
--   **Setting and switching goal calendars**
+-   **[Setting and switching goal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/set-a-goal-calendar.md)**
 
     Set the goal calendar to Gregorian, which is the default, or to fiscal. Fiscal calendars come in three types: Regular, 4-4-5, and 13 Period. Switch from Gregorian to fiscal in the **sn\_gfa.calendar\_type** system property. Switch between fiscal types by changing the fiscal calendar type property, setting the fiscal unit, and regenerating the fiscal periods. A calendar change can make targets stale.
 
--   **Fiscal check-in frequencies for targets**
+-   **[Fiscal check-in frequencies for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-goal-framework.md)**
 
     Choose a check-in frequency that the active fiscal calendar supports. The target form offers only the frequencies that are valid for the calendar and the target date range, including Period. The target breakdown preview shows each generated period with its display name. The server validates every frequency and period on save, so a rejected change keeps the current breakdowns and shows the reason.
 
--   **Stale target protection for goals**
+-   **[Stale target protection for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/managing-stale-targets-gf.md)**
 
     Identify goal targets that become stale after a goal calendar change. Only targets with breakdowns can become stale, and stale targets stay locked until they are recovered. Recover a stale target in one of two ways. An administrator runs the **Goal calendar alignment - Reset check-in frequency for stale targets** scheduled job, and the target owner then selects a check-in frequency again. Or the target owner duplicates the target and sets a check-in frequency on the copy. The copy starts without the remarks, work notes, and history of the stale target.
 
@@ -60,7 +60,7 @@ Track targets that must stay above, below, or within a range of a value, and mea
 
 ### What's new
 
--   ****
+-   **[Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-gf.md#section_maintain_targets)**
 
     Track targets that need to hold steady at a value over time, such as keeping server uptime above 98% for a year. In addition to **Maximize** and **Minimize**, the **Type** field on a target includes three options:
 
@@ -69,7 +69,7 @@ Track targets that must stay above, below, or within a range of a value, and mea
     -   **Maintain constant**: The actual value must stay within a tolerance range of the final target.
     When you select a Maintain type, the **Target distribution** field is hidden on the target form.
 
--   **Progress calculation for Maintain-type targets**
+-   **[Progress calculation for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-gf.md#section_maintain_targets)**
 
     Measure progress on Maintain-type targets by how consistently the metric meets the target across check-in periods. The system automatically calculates status for each target breakdown period that has an actual value:
 
@@ -78,14 +78,14 @@ Track targets that must stay above, below, or within a range of a value, and mea
     -   **Maintain constant**: Met when the actual falls within the tolerance range, bounds included.
     Target-level progress equals the number of periods that meet the target divided by the total periods up to the latest actual value, multiplied by 100. For example, a **Maintain above** target with a final target of 75 and quarterly actuals of 78, 72, 80, and 76 shows 75% progress. Three of 4 periods meet the target.
 
--   **Target breakdowns for Maintain-type targets**
+-   **[Target breakdowns for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns-gf.md#section-target-breakdowns-maintain-types)**
 
     Start every check-in period from the same value. When you save a Maintain-type target, each target breakdown gets a planned target equal to the final target value. You can edit the planned target of any breakdown. If the final target value is empty, breakdowns are created with a planned target of 0.
 
 
 ### What's changed
 
--   **Target breakdown regeneration**
+-   **[Target breakdown regeneration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns-gf.md#section-target-breakdowns-maintain-types)**
 
     Target breakdowns adjust to changes in a target's dates or final target value, and recorded actuals are kept:
 
@@ -93,7 +93,7 @@ Track targets that must stay above, below, or within a range of a value, and mea
     -   Moving the start date earlier adds breakdowns for the new periods, with the same planned target.
     -   Shortening or extending the end date removes or adds the matching breakdowns.
     -   Changing the final target value updates the planned target of every breakdown and recalculates status and progress.
--   **Target type changes**
+-   **[Target type changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/change-target-type-gf.md)**
 
     Change the **Type** of a target after actual values are recorded, without deleting and recreating the target. When you change the type from Maximize to Minimize, or from Maximize to a Maintain type:
 
@@ -102,7 +102,7 @@ Track targets that must stay above, below, or within a range of a value, and mea
     -   Progress and attainment are recalculated using the new type's logic.
     A warning appears before you save the change. The change is recorded in the audit history.
 
--   **Number field in the target list view**
+-   **[Number field in the target list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-form.md)**
 
     The **Number** field appears as a link in the actual value automation list view. That list view opens when you view targets in Core UI.
 
@@ -113,13 +113,13 @@ Automatic status calculation for targets reduces manual data entry and improves 
 
 ### What's new
 
--   **Automatic status calculation for targets**
+-   **[Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/automatic-status-calculation-targets.md)**
 
     Automatically determine target status based on actual achievement percentages. When you enter actual values for a target period, the system compares the achievement percentage against predefined thresholds and automatically assigns a status \(Green, Yellow, or Red\). This eliminates manual status selection, reducing data entry errors and improving organizational governance.
 
     Status is calculated and updated when you enter actual values using the formula: \(\(Actual Value - Start Value\) / \(Planned Target - Start Value\)\) x 100. Target owners can override automatically calculated status values at any time. If you update the actual value after a manual override, the system recalculates the status automatically.
 
--   **Configure automatic status calculation thresholds**
+-   **[Configure automatic status calculation thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-automatic-status-calculation.md)**
 
     Enable administrators to customize automatic status calculation thresholds and enable or disable the feature based on organizational requirements. By default, automatic status calculation is enabled with system-defined thresholds of Green \(≥90%\), Yellow \(75-89%\), and Red \(&lt;75%\).
 

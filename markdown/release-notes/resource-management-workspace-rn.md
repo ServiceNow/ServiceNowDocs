@@ -21,7 +21,7 @@ The ServiceNow® Resource Management Workspace application helps organizations o
 -   Improve capacity planning with real-time visibility into resource availability, utilization, and workload across the organization.
 -   Streamline workforce planning by consolidating resource requests, assignments, and scheduling into a unified workspace.
 
-See the Resource Management Workspace documentation for more information.
+See the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/explore-rmw.md) documentation for more information.
 
 ## Activation and other requirements
 
@@ -45,7 +45,7 @@ Resource Management Workspace enables resource managers set a precise end date f
 
 ### What's changed
 
--   **End assignment UI option**
+-   **[End assignment UI option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/end-resource-assignment-rmw.md)**
 
     Added **End assignment** option in row context menu for assignments.
 

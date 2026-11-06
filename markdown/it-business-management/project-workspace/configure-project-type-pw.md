@@ -22,7 +22,7 @@ Define custom fields, a unique form layout, and the visible modules to support c
 -   Install the SPM Enterprise-Wide Deployment application. For instructions, see [Install SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/install-ewd.md).
 -   Identify the dynamic category that defines custom project records fields associated with project type.
 
-    **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+    **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see .
 
 -   Identify the form view that defines form layout for project records associated with project type.
 

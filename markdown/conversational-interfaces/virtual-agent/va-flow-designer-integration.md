@@ -28,7 +28,7 @@ In Virtual Agent conversations, you can use actions to trigger workflows that ar
 
 If an action in the workflow is slow to respond or appears to be waiting, topic authors see a relevant error message.
 
-By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see Scheduled jobs.
+By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
 
 You can change this interval as needed. To change the interval, see [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 

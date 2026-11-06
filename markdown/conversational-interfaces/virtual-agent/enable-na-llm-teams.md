@@ -18,7 +18,7 @@ Enable the large language model \(LLM\)-based conversational experience with Ser
 
 ## Before you begin
 
-Ensure that you enable AI Search to have ServiceNow Otto conversations using the Now LLM Service. For more information about enabling AI Search, see .
+Ensure that you enable AI Search to have ServiceNow Otto conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-ais-next-exp-app.md).
 
 Role required: admin
 

@@ -342,7 +342,7 @@ Form
 </td><td>
 
 Add AI systems to the demand by selecting from the existing systems or creating one.-   To link existing systems, use the **Product** and **Impacted AI systems** fields.
--   To create an AI system, select the **Create new AI system** link. This option is available only when AI Control Tower is installed and the investment type of the demand is set to artificial intelligence. For more information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md).
+-   To create an AI system, select the **Create new AI system** link. This option is available only when AI Control Tower is installed and the investment type of the demand is set to artificial intelligence. For more information, see .
 
 </td></tr></tbody>
 </table>## Confirm demand readiness for review

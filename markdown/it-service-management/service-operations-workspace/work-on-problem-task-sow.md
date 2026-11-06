@@ -34,15 +34,15 @@ Role required: itil or problem\_task\_analyst \(for changing the state of the pr
 
 3.  Perform any of the following actions on the problem task record page.
 
-<table id="choicetable_sj2_3wq_cbc"><thead><tr><th align="left" id="d293851e104">
+<table id="choicetable_sj2_3wq_cbc"><thead><tr><th align="left" id="d294245e104">
 
 Option
 
-</th><th align="left" id="d293851e107">
+</th><th align="left" id="d294245e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d293851e113">
+</th></tr></thead><tbody><tr><td id="d294245e113">
 
 **Assign a problem task to yourself**
 
@@ -50,7 +50,7 @@ Description
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d293851e125">
+</td></tr><tr><td id="d294245e125">
 
 **Assess a problem task**
 
@@ -58,7 +58,7 @@ Select **Assign to me**.
 
 Select **Assess** and fill in the required fields.
 
-</td></tr><tr><td id="d293851e137">
+</td></tr><tr><td id="d294245e137">
 
 **Start work on a problem task**
 
@@ -66,7 +66,7 @@ Select **Assess** and fill in the required fields.
 
 Select **Start work**.
 
-</td></tr><tr><td id="d293851e149">
+</td></tr><tr><td id="d294245e149">
 
 **Cancel a problem task**
 
@@ -74,7 +74,7 @@ Select **Start work**.
 
 Select **Cancel task** and fill in the required fields.
 
-</td></tr><tr><td id="d293851e162">
+</td></tr><tr><td id="d294245e162">
 
 **Delete a problem task**
 
@@ -82,7 +82,7 @@ Select **Cancel task** and fill in the required fields.
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Delete**.
 
-</td></tr><tr><td id="d293851e179">
+</td></tr><tr><td id="d294245e179">
 
 **Attach knowledge articles or records that help a quick resolution of a problem task**
 
@@ -92,7 +92,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Search for a resource and perform the required action.
 The knowledge articles attached here are displayed in the **Related records** tab.
 
-</td></tr><tr><td id="d293851e204">
+</td></tr><tr><td id="d294245e204">
 
 **Add an attachment to a problem task**
 
@@ -100,7 +100,7 @@ The knowledge articles attached here are displayed in the **Related records** ta
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text:\).
 
-</td></tr><tr><td id="d293851e218">
+</td></tr><tr><td id="d294245e218">
 
 **Copy the record page URL to easily access the record**
 
@@ -108,7 +108,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Copy URL**.
 
-</td></tr><tr><td id="d293851e235">
+</td></tr><tr><td id="d294245e235">
 
 **Complete a problem task**
 
@@ -116,7 +116,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 Select **Complete** and fill in the required fields.
 
-</td></tr><tr><td id="d293851e247">
+</td></tr><tr><td id="d294245e247">
 
 **Create templates for reuse**
 
@@ -124,7 +124,7 @@ Select **Complete** and fill in the required fields.
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text:\).
 
-</td></tr><tr><td id="d293851e262">
+</td></tr><tr><td id="d294245e262">
 
 **Re-assess a problem task**
 

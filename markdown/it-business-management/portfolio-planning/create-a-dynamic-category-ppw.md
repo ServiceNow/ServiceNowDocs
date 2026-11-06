@@ -51,7 +51,7 @@ A dynamic category groups the dynamic attributes that appear as custom fields on
 
 6.  Open the dynamic category and add the dynamic attributes that define its custom fields.
 
-    Supported data types are String, Boolean, Date, Date/Time, Integer, Decimal, Floating point, Choice, and Reference. For a Choice attribute, select the choice set that provides its values. To create a dynamic attribute, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-schema.md).
+    Supported data types are String, Boolean, Date, Date/Time, Integer, Decimal, Floating point, Choice, and Reference. For a Choice attribute, select the choice set that provides its values. To create a dynamic attribute, see .
 
 
 ## Result

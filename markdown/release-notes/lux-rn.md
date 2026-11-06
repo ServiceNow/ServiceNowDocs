@@ -26,7 +26,7 @@ Lux is a Lit-based platform for building widget-based UI experiences that run on
 -   Share data across widgets with the Context API, and across pages with layout data.
 -   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
 
-See the Lux documentation for more information, .
+See the Lux documentation for more information, [Lux Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/lux-development-landing.md).
 
 ## Activation and other requirements
 

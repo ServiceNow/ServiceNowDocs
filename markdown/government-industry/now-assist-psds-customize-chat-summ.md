@@ -65,7 +65,7 @@ In the ServiceNow Otto for PSDS Admin Console, admins can:
     You can select both in-product, ServiceNow Otto panel, or both.
 
     -   **In-product**: When selected, ServiceNow Otto skills are displayed on forms and workspaces.
-    -   **ServiceNow Ottopanel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Ottopanel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see .
 
         Select the down arrow to configure the user roles that can access the skill.
 
@@ -82,5 +82,5 @@ Chat summarization is active and customized for the desired workflow.
 
 ## What to do next
 
-Review the performance of the ServiceNow Otto for PSDS chat summarization skill on the AI Admin Hub console. Learn more about tracking your ServiceNow Otto usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md).
+Review the performance of the ServiceNow Otto for PSDS chat summarization skill on the AI Admin Hub console. Learn more about tracking your ServiceNow Otto usage at .
 

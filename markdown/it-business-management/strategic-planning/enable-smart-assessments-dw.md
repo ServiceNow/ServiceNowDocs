@@ -49,5 +49,5 @@ Demands route through smart assessments. No separate role assignment is needed f
 
 [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/smart-assessments-overview.md)
 
-[Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine-cf-config.md)
+[bundle-grc.smart-assessment-engine-cf-config]
 

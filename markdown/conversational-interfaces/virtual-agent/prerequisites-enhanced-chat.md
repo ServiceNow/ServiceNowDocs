@@ -20,7 +20,7 @@ Standard chat or enhanced chat offers different experiences. Enhanced chat provi
 
 To benefit from enhanced chat's search capabilities, your portal should have AI Search enabled. To configure AI Search for your portal, navigate to **All** &gt; **AI Search Admin Home**. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-ais-sp.md).
 
-**Note:** When you activate enhanced chat in a portal, that portal uses the VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see .
+**Note:** When you activate enhanced chat in a portal, that portal uses the VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-profiles-ais.md).
 
 Within the enhanced chat experience, the full-page experience is an additional option.
 

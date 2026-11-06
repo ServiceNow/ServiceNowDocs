@@ -18,7 +18,7 @@ Connect the SPM MCP server to an AI assistant so that the assistant can query go
 ## Before you begin
 
 -   The MCP for Strategic Portfolio Management application is installed. For details, see [Install MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/install-mcp-for-spm.md).
--   Confirm that the SPM MCP server is enabled on your instance by navigating to **All** &gt; **MCP Server Console**. If you don't see the server or want to create another MCP server, see [Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-mcp-server.md).
+-   Confirm that the SPM MCP server is enabled on your instance by navigating to **All** &gt; **MCP Server Console**. If you don't see the server or want to create another MCP server, see .
 
     \[Omitted image "mcp-for-spm-active-status.png"\] Alt text: MCP for SPM active status.
 
@@ -33,6 +33,6 @@ Role required: admin or sn\_mcp\_server.admin
 
 1.  Connect the SPM MCP server to your AI assistant.
 
-    For instructions, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
+    For instructions, see .
 
 

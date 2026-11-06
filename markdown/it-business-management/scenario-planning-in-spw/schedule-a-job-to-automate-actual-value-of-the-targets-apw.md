@@ -36,7 +36,7 @@ By default, the scheduled job runs daily at 00:00:00 AM \(System Time Zone\).
 
 5.  Click **Update**.
 
-    To learn more about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
+    To learn more about scheduled jobs, see Scheduled jobs.
 
 
 **Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)

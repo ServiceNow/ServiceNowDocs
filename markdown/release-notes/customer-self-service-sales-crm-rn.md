@@ -57,11 +57,11 @@ This release includes enhancements to the Sales Cart REST API for querying cart 
 
 ### What's changed
 
--   **Display values in cart read responses**
+-   **[Display values in cart read responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
     Get readable values in cart responses without extra lookups. Previously, retrieving a cart returned display values only for product offerings and characteristics. Now, display values are returned for every attribute on the cart, its line items, and line item characteristics for cart retrieval, line item retrieval, and cart queries. Create and update requests don't return display values.
 
--   **Order submission from a sales cart**
+-   **[Order submission from a sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
     Submit orders faster and keep them ready for downstream processing \(PRB2089913, PRB2109260, PRB2080458\).
 
@@ -75,11 +75,11 @@ This release includes enhancements to the Sales Cart REST API for validating pro
 
 ### What's changed
 
--   **Order number in the submit order response**
+-   **[Order number in the submit order response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
     Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
 
--   **Product offering eligibility validation when creating a cart**
+-   **[Product offering eligibility validation when creating a cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
     Prevent ineligible product offerings from reaching order submission by validating them as the cart is created.
 

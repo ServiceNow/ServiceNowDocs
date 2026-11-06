@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 19
+reading_time_minutes: 20
 breadcrumb: [Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -24,7 +24,7 @@ After the premium chat screen appears, begin entering a prompt in the chat input
 -   Keyword-based prompts
 -   Direct links to relevant content
 
-**Note:** For more information about how ServiceNow Otto for Virtual Agent and Now Assist in AI Search combine to include recommended prompts, see .
+**Note:** For more information about how ServiceNow Otto for Virtual Agent and Now Assist in AI Search combine to include recommended prompts, see [Auto-complete suggestion types included with ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/auto-complete-suggestion-types-na-ais.md).
 
 ## Chat input box features
 
@@ -154,7 +154,7 @@ If voice input is enabled, select the microphone icon and speak your message. Yo
 </td></tr></tbody>
 </table>## Chatting with Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see  and .
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-catalog-ordering-gr.md) and [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-qna-genius-results.md).
 
 If multiple results are found, you can follow inline citations to either begin an action or learn more. The option to **Show sources** appears at the end of the synthesized response for internal and external Knowledge Base articles. Virtual Agent can only return available catalog items that match a user's request when the ServiceNow Otto Multi-Turn Catalog Ordering skill is enabled.
 

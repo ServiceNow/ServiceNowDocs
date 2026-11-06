@@ -20,7 +20,7 @@ Playbooks in Next Experience for Demand Management provide a guided, structured 
 
 ## Purpose of playbooks in demand management
 
-Playbooks provide a structured way to manage work by guiding teams through predefined steps. They show what to do, when to do it, and where to find the tools or information required to complete each task. You can apply a playbook to processes such as managing a demand, resolving an issue, launching a product, onboarding new employees, or defining key steps of a process. You can also have different playbooks for different governance processes, such as IT and marketing. The stages and activities required for an IT demand may not be the same as those required for marketing demands. In such cases, with the relevant playbook, users can see and interact with only those stages and activities that are relevant for their processes. For more information on playbooks, see [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md).
+Playbooks provide a structured way to manage work by guiding teams through predefined steps. They show what to do, when to do it, and where to find the tools or information required to complete each task. You can apply a playbook to processes such as managing a demand, resolving an issue, launching a product, onboarding new employees, or defining key steps of a process. You can also have different playbooks for different governance processes, such as IT and marketing. The stages and activities required for an IT demand may not be the same as those required for marketing demands. In such cases, with the relevant playbook, users can see and interact with only those stages and activities that are relevant for their processes. For more information on playbooks, see Workflow Studio playbooks.
 
 In Next Experience for Demand Management, playbooks help demand managers and reviewers in the following ways:
 
@@ -75,7 +75,7 @@ For more information on the stages and activities in the default playbook, see [
 
 \[Omitted image "ppw-demand-playbook.png"\] Alt text: Stages and activities of the default demand playbook
 
-**Note:** More than one playbook can be applicable for a demand based on the trigger conditions. In this scenario, these playbooks are displayed one after another. You can also nest one playbook within another. For more information, see [Nested Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/nested-playbooks.md).
+**Note:** More than one playbook can be applicable for a demand based on the trigger conditions. In this scenario, these playbooks are displayed one after another. You can also nest one playbook within another. For more information, see .
 
 ## Activities for demand playbooks
 
@@ -104,7 +104,7 @@ Use the Demand State Transition Checker custom activity to validate the demand b
 
 When users complete all the activities in the stage, the playbook moves the demand to Screening. Before it changes the state, the playbook checks the same conditions that apply when you change the state of a demand manually. If a condition is not met, the state does not change. For example, the demand is already in a later state. For example, if a demand was moved to Approved outside the playbook, completing the Create demand brief stage does not move it back to Submitted.
 
-The conditions for each state change are defined in the `DemandPlaybookUtils` script include that the action uses. If you use custom states or roles, update this script include. For example, if your governance process requires an Architecture review state that only users with an enterprise architect role can complete, add the state and role to `DemandPlaybookUtils`. If you must make many changes, create your own action instead of changing the predefined one. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/actions.md).
+The conditions for each state change are defined in the `DemandPlaybookUtils` script include that the action uses. If you use custom states or roles, update this script include. For example, if your governance process requires an Architecture review state that only users with an enterprise architect role can complete, add the state and role to `DemandPlaybookUtils`. If you must make many changes, create your own action instead of changing the predefined one. For more information, see .
 
 ## Show the related lists of a demand in an activity
 
@@ -112,7 +112,7 @@ Use the Demand Related List custom activity when you want users to add or remove
 
 For example, to let the demand manager add investment goals during the Intake stage, add an Add investment goals activity. Use the Demand Related List activity definition. Set the activity to start after the Capture business case activity. Verify that the playbook uses the Demand Playbook Experience. For more information, see [Demand playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md).
 
-Users see the goals of the demand as a list in the activity. They select **New** to add a goal, **Delete** to remove one, or a goal in the list to view its details. For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activity-definitions.md).
+Users see the goals of the demand as a list in the activity. They select **New** to add a goal, **Delete** to remove one, or a goal in the list to view its details. For more information, see .
 
 ## Show a stage only when a plugin is installed
 
@@ -139,11 +139,7 @@ If you create or customize a playbook for demands:
 **Related topics**  
 
 
-[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md)
-
-[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/building-a-process.md)
-
-[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-experience-admins.md)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
 [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 

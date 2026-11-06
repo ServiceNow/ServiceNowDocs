@@ -21,7 +21,7 @@ AI agents created in AI Agent Studio appear in Assistant Designer, where you can
 
 **Role required**: virtual\_agent\_admin
 
-When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Assistant Designer. You can only view them in Assistant Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see .
+When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Assistant Designer. You can only view them in Assistant Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md).
 
 ## AI agents in Assistant Designer
 

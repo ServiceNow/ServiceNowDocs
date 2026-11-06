@@ -21,7 +21,7 @@ The ServiceNow® Goal Framework application enables your business to create goal
 -   Associate work and planning items—including demand, projects, and portfolios—with strategic goals and targets to provide end-to-end performance visibility across the organization.
 -   Support Enterprise PMO \(EPMO\) and portfolio managers with customizable goal preferences, weighted progress calculations, and centralized governance to drive business outcomes aligned to strategic priorities.
 
-See Goal Framework for more information.
+See [Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework.md) for more information.
 
 ## Activation and other requirements
 
@@ -38,7 +38,7 @@ Track targets that must stay above, below, or within a range of a set value. Cus
 
 ### What's new
 
--   **Maintain-type targets**
+-   **[Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-gf.md)**
 
     Track targets that must hold a value for the whole period instead of growing or shrinking toward it. The **Type** field on a target has three new options: **Maintain above**, **Maintain below**, and **Maintain constant**.
 
@@ -46,22 +46,22 @@ Track targets that must stay above, below, or within a range of a set value. Cus
 
     Maintain types are available only with quantitative units of measure. The **Target value distribution** field isn't shown for them.
 
--   **Tolerance for Maintain constant targets**
+-   **[Tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-maintain-constant-tolerance.md)**
 
     Set how far a Maintain constant target's actual value can move from the final target and still count as met. By default, an actual value within 5% of the final target, above or below, counts as met. Administrators can change the tolerance with the **sn\_gf.maintain\_constant\_tolerance\_percent** system property.
 
--   **Unique numbers and prefixes for goals and targets**
+-   **[Unique numbers and prefixes for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/change-number-prefix-goals-targets.md)**
 
     Match goal and target numbers to your organization's terminology, for example, OBJ and KR if you use objectives and key results. After an administrator changes the prefix in the number configuration, run the **GF - Override Goal and Target Number fields with customized prefixes** scheduled job to update existing records. The job keeps the numeric part of each number, so GOAL0004512 becomes OBJ0004512. It also skips records that already have the new prefix.
 
 
 ### What's changed
 
--   **Target type editable when actuals exist**
+-   **[Target type editable when actuals exist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/change-target-type-gf.md)**
 
     You can change a target's **Type** after actual values have been recorded. Previously, the **Type** field became read-only once a target had progress. A confirmation message appears before the change is applied, and if you cancel, the **Type** goes back to its original value. Changing the **Type** clears the target's actual value and percent complete. The exceptions are changes between two Maintain types and changes to or from Milestone.
 
--   **Type and unit of measure stay in sync**
+-   **[Type and unit of measure stay in sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-gf.md)**
 
     Choosing a target **Type** sets a matching unit of measure:
 

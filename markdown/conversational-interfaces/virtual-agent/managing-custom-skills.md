@@ -52,8 +52,8 @@ Custom skills become available in the Assistant Designer Asset library based on 
     -   Select **Platform skills** in the **Feature** list.
     -   Select the **ServiceNow Otto panel** card to enable the skill in the ServiceNow Otto panel.
 
--   For more information about the ServiceNow Otto Panel, see .
--   For more information about AI Skill Kit, see .
+-   For more information about the ServiceNow Otto Panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
+-   For more information about AI Skill Kit, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
 **Parent Topic:**[Managing asset library items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/managing-asset-library-items.md)
 

@@ -31,7 +31,7 @@ Scorecard widgets display a trend indicator below the metric value, showing the 
 
 **Note:**
 
-The intent and resolution metrics on this page depend on the intents and resolution criteria you define in the Asset library of AI Admin Center. To set them up, see .
+The intent and resolution metrics on this page depend on the intents and resolution criteria you define in the Asset library of AI Admin Center. To set them up, see [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md).
 
 Metrics marked with the **AI Inferred** tag are calculated through large language model \(LLM\) transcript analysis. Results may vary and may not be fully accurate. Review AI Inferred metrics before acting on them.
 
@@ -47,7 +47,7 @@ The **Overview** tab shows high-level conversation volume, resolution performanc
 
 -   **Resolution rate \(%\)**
 
-    This area of the dashboard shows the resolution rate for voice conversations. Only conversations with at least one detected intent are included. Conversations with no detected intent are not counted. A conversation is counted as resolved only when every intent in it was completed. If even one intent is not completed, the entire conversation is counted as unresolved. Intents and their resolution criteria are defined in the Asset library of AI Admin Center. See . The dashboard shows a breakdown of resolved conversations in two categories:
+    This area of the dashboard shows the resolution rate for voice conversations. Only conversations with at least one detected intent are included. Conversations with no detected intent are not counted. A conversation is counted as resolved only when every intent in it was completed. If even one intent is not completed, the entire conversation is counted as unresolved. Intents and their resolution criteria are defined in the Asset library of AI Admin Center. See [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md). The dashboard shows a breakdown of resolved conversations in two categories:
 
     -   **Resolved by AI**: conversations resolved entirely by the AI voice agent, with no human involvement.
     -   **Resolved by live agent after transfer**: conversations that required a live agent to complete at least one intent.
@@ -173,7 +173,7 @@ How many times each type of tool was used.
 
 -   **Execution count by tool type**
 
-    This area of the dashboard shows the total number of tool executions across voice conversations, broken down by tool type. Select the chart view to see how execution counts have changed over the selected date range. Use this metric to understand which tools are most frequently invoked during voice conversations. See  for information on tool types.
+    This area of the dashboard shows the total number of tool executions across voice conversations, broken down by tool type. Select the chart view to see how execution counts have changed over the selected date range. Use this metric to understand which tools are most frequently invoked during voice conversations. See [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-tool-aia.md) for information on tool types.
 
     \[Omitted image "aiv-execution-count-by-tool-type.png"\] Alt text: Donut chart showing total tool executions broken down by tool type, with a chart toggle to view execution counts over time.
 
@@ -219,7 +219,7 @@ The **Insights** tab shows intent tracking data and conversation quality signals
 
 What customers are calling about and how each intent performs. Displayed metrics are tracked per intent, not per conversation. A single conversation can include several intents.
 
-**Note:** The intents in this section, and their resolution criteria, are the ones you define in the Asset library of AI Admin Center. To set them up, see .
+**Note:** The intents in this section, and their resolution criteria, are the ones you define in the Asset library of AI Admin Center. To set them up, see [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md).
 
 -   **Intent breakdown**
 

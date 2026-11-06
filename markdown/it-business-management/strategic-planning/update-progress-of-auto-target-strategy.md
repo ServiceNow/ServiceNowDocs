@@ -34,15 +34,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d293907e79">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d293869e79">
 
 Option
 
-</th><th align="left" id="d293907e82">
+</th><th align="left" id="d293869e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d293907e88">
+</th></tr></thead><tbody><tr><td id="d293869e88">
 
 **From the Goals page**
 
@@ -55,7 +55,7 @@ The target record opens with the **Overview** tab.
 2.  Select **Details** tab.
 
 
-</td></tr><tr><td id="d293907e114">
+</td></tr><tr><td id="d293869e114">
 
 **From the Strategy page**
 

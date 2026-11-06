@@ -48,7 +48,7 @@ By default, all chat features, except web search mode, are turned on.
 
     -   If you want to use AWS Anthropic as the web search provider, switch the instance-level LLM to Claude.
     -   If the instance LLM is selected as Now LLM Service, Azure OpenAI, or Google Gemini, Gemini will still be the web search provider.
-    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see .
+    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
     To change the LLM provider for ServiceNow Otto for Virtual Agent, select the AI agents skill group in AI Admin Hub. Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers** &gt; **Edit model provider** &gt; **Customize**.
 
 2.  **Allow response streaming** for LLM messages to stream as they are generated instead of appearing all at once.
@@ -73,7 +73,7 @@ By default, all chat features, except web search mode, are turned on.
 
     All assistants use agentic orchestration by default, so AI agent skills are always available for skills discovery. Selecting the **Prioritize AI agents during skills discovery** option gives AI agents priority over other assets for the assistant.
 
-    For more information about agentic AI, see .
+    For more information about agentic AI, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-ai-agents.md).
 
     **Note:** If you upgraded from an earlier release, this setting may already be enabled on your assistant. Upgrading the Now Assist in Virtual Agent plugin to version 23.0.6 or later automatically creates a configuration record that enables agentic orchestration. Verify your current assistant mode before proceeding. For guidance on what changes after an upgrade, see [Configuring agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md).
 

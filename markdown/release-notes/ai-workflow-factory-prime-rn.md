@@ -21,7 +21,7 @@ The ServiceNow® AI Workflow Factory Prime application contains products that en
 -   Deploy, run, and govern custom applications at-scale with unlimited table capacity, embedded AI agents, centralized management for developers and apps, and faster query performance.
 -   Extend your platform's automation to the desktop, so that AI agents and actions can carry work across applications, browsers, email, and systems on behalf of employees.
 
-See  for more information.
+See [AI Workflow Factory Prime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ai-workflow-factory-prime.md) for more information.
 
 ## Activation and other requirements
 
@@ -42,14 +42,14 @@ AI Workflow Factory Prime was enhanced in October 2026 for the release of the Cr
 
 ### What's new
 
--   ****
+-   **[Credit Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/credit-dashboard-ai-workflow-factory-prime.md)**
 
     Explore your credit usage and trends with the AI Workflow Factory Prime Credit Dashboard. The Credit Dashboard is a standalone application available with AI Workflow Factory Prime entitlements that must be installed from the ServiceNow Store.
 
 
 ### What's changed
 
--   ****
+-   **[Troubleshooting the Credit Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aiwfp-credit-dashboard-troubleshooting.md)**
 
     The AI Workflow Factory Prime Credit Dashboard doesn't populate capability data on initial install. Use the troubleshooting guide to resolve the issue.
 

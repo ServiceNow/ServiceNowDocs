@@ -18,7 +18,7 @@ Guided Application Creator is a legacy development interface for building applic
 
 -   **Guided Application Creator**
 
-    Starting with the Brazil release, Guided Application Creator is no longer deployed, enhanced, or supported. For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. ServiceNow Studio provides the latest experience for this application. For more information, see  and .
+    Starting with the Brazil release, Guided Application Creator is no longer deployed, enhanced, or supported. For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. ServiceNow Studio provides the latest experience for this application. For more information, see [ServiceNow Studio and legacy products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-and-legacy-products.md) and [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md).
 
 
 ## Plugin information

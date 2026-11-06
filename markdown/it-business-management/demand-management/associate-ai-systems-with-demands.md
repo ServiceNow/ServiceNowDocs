@@ -48,7 +48,7 @@ If the required AI systems aren’t available, you can create AI systems using t
 
     **Note:** This related link is available for users with the sn\_ai\_governance\_ai\_steward role.
 
-    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md).
+    For more information on creating AI systems, see .
 
 
 **Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)

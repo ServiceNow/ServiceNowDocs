@@ -22,7 +22,7 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
 -   Connect your data by adding reference fields that relate one table to another.
 -   Control who can access your data by configuring table permissions as you build.
 
-See  for more information.
+See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/tb-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ Table Builder was enhanced in the Brazil patch X release to address issues with 
 
 ### What's new
 
--   **New role required to add a formula to a column**
+-   **[New role required to add a formula to a column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-formula-column-table-builder.md)**
 
     Accessing the formula editor in Table Builder now requires the formula\_read role. Previously, the formula editor stalled in the loading state. This issue is related to PRB2093578.
 

@@ -22,7 +22,7 @@ Unlike the User Inputs, Bot Responses, and Utilities, capabilities are features 
 
 ## Enable capabilities
 
-To enable capabilities in Assistant Designer, see .
+To enable capabilities in Assistant Designer, see [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller.md).
 
 **Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 

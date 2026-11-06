@@ -20,7 +20,7 @@ The ServiceNow® Service Creator application enables a department to offer custo
 
     Starting with the Brazil release, Service Creator is no longer deployed, enhanced, or supported. For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-    Creator Studio provides the latest experience for this functionality. For more information, see .
+    Creator Studio provides the latest experience for this functionality. For more information, see [Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/building-apps-with-creator-studio.md).
 
 
 ## Plugin information

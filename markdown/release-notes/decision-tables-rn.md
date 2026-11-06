@@ -20,7 +20,7 @@ The ServiceNow® decision tables application enable you to separate decision log
 -   Build rules with condition columns and multiple result columns.
 -   Reference decision tables in code snippets, flows, subflows, and playbooks.
 
-See  for more information.
+See [Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-decision-tables-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -44,11 +44,11 @@ Decision tables in Workflow Studio were updated in Brazil patch X to address iss
 
 ### What's changed
 
--   ****
+-   **[Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/manage-decision-tables-ms-excel.md)**
 
     Decision table exports now apply the access control lists \(ACLs\) to the data that's exported. Access is determined by the ACLs on the referenced table. This issue is related to PRB2067404.
 
--   ****
+-   **[Decision tables roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/decision-designer-permissions.md)**
 
     Delegated developers can now create, read, edit, and delete decision tables that belong to an application they have delegated developer access to. This issue is related to PRB2065210.
 

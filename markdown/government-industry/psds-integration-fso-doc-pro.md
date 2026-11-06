@@ -24,9 +24,9 @@ This application is automatically installed when you install the following Publi
 
 For more information about using the Document Processor, see [Using Document Processor](https://www.servicenow.com/docs/r/financial-services-operations/using-document-processor.html).
 
-An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see Document Templates.
+An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/document-templates-overview.md).
 
-Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see Document Template integration with Docusign or Document Template integration with AdobeSign.
+Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/docusign-doc.md) or [Document Template integration with AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/adobe-sign-doc.md).
 
 The Document Processor plugin is the foundation for document activities, installed automatically when you install the above plugins or applications. All document activities, components, and flows created by Public Sector Digital Services are part of the Service Applicant Information plugin. For more information on the Service Applicant Information plugin, see [Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/plugins-installed-with-psds.md).
 

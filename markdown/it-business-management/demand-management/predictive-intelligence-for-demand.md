@@ -36,7 +36,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definition for Predictive Intelligence for Demand Management
 
-The solution definition for Predictive Intelligence for Demand Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md) and [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ContextualSearch.md).
+The solution definition for Predictive Intelligence for Demand Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md) and Contextual search.
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 

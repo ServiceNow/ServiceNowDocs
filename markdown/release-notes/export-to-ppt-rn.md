@@ -22,7 +22,7 @@ The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in 
 -   Share status reports with stakeholders and teams to support collaboration and planning.
 -   Use default templates for detailed project reviews or high-level executive summaries.
 
-See  for more information.
+See [Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-ppt-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ Dynamic timeline type selection for exported roadmaps, replacing a hardcoded val
 
 ### What's changed
 
--   **Dynamic timeline type for roadmap exports**
+-   **[Dynamic timeline type for roadmap exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-a-portfolio-plan-to-powerpoint-strategic-planning.md)**
 
     Get more granular roadmap exports with timeline types that now reflect the actual export range. Previously, the timeline type was hardcoded. The timeline type is now derived from the resolved export range length. Ranges of one year or less use months, ranges over one year up to two years use quarters, and ranges over two years use years.
 

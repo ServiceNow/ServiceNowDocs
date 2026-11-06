@@ -279,5 +279,5 @@ Adapt the example to other processes. For example:
 
 [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 
-[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 

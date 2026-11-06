@@ -28,7 +28,7 @@ Knowledge Graph transforms search into an intelligent, predictive, and efficient
 
 **Note:** Knowledge Graph is not applicable to the ServiceNow Otto panel - Developer assistant.
 
-For more information about Knowledge Graph, see .
+For more information about Knowledge Graph, see [Knowledge Graph integration with ServiceNow® Otto for Virtual Agent and ServiceNow Otto® panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
 
 **Note:** By default, search personalization is available with AI Search in the assistant, and delivers personalized, context-aware search experiences powered by Knowledge Graph. To disable the integration with Knowledge Graph for personalization, open support ticket.
 
@@ -50,7 +50,7 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
     **Note:** For ServiceNow Otto panel - Platform \(default\) assistant, if Enterprise Graph and Enterprise Graph \(Small\) are selected within the NLQ schema, tags can be selected for specific workspaces that are active on the instance.
 
-    For more information about Knowledge Graph tags, see .
+    For more information about Knowledge Graph tags, see [Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/tagging-in-knowledge-graph.md).
 
     \[Omitted image "sno-kg-workspace-tags-0826.png"\] Alt text: Fields to add workspace tags.
 

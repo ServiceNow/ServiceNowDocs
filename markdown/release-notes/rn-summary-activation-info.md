@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-activa
 release: brazil
 topic_type: reference
 last_updated: "2026-11-04"
-reading_time_minutes: 43
+reading_time_minutes: 44
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -208,7 +208,7 @@ Agent Chat
 
 -   ****
 
-Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see .
+Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-agent-chat-configuring.md).
 
 
 </td></tr><tr><td>
@@ -296,7 +296,7 @@ Automation Center
 
 -   ****
 
-Install the Automation Center application \(sn\_ac\) by requesting it from the ServiceNow® Store. The application includes demo data and installs related Automation Center Store applications and plugins if they aren't already installed. Installation requires the admin role. For more information, see .
+Install the Automation Center application \(sn\_ac\) by requesting it from the ServiceNow® Store. The application includes demo data and installs related Automation Center Store applications and plugins if they aren't already installed. Installation requires the admin role. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-automation-center.md).
 
 
 </td></tr><tr><td>
@@ -438,7 +438,7 @@ Collaborative Work Management \(CWM\)
 
 -   ****
 
-Install the Collaborative Work Management application \(sn\_cwm\) from the ServiceNow Store. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed. Role required: admin. For more information, see .
+Install the Collaborative Work Management application \(sn\_cwm\) from the ServiceNow Store. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed. Role required: admin. For more information, see [Install Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/install-cwm.md).
 
 
 </td></tr><tr><td>
@@ -665,7 +665,7 @@ Discovery
 
 -   ****
 
-Request and activate the Discovery \(com.snc.discovery\) plugin. For more information, see .
+Request and activate the Discovery \(com.snc.discovery\) plugin. For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
 
 </td></tr><tr><td>
@@ -1014,7 +1014,7 @@ ITOM Visibility
 
 -   ****
 
-ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see Request Discovery and Request Service Mapping. For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store. ITOM Visibility installation is also available in the ITOM Product Hub for ServiceNow Otto users.For more information, see 
+ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) and [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateServiceMappingPlugin.md). For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store. ITOM Visibility installation is also available in the ITOM Product Hub for ServiceNow Otto users.For more information, see [Install ITOM Visibility using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-nowassist-setup-itom-visibility.md)
 
 
 </td></tr><tr><td>
@@ -1137,7 +1137,7 @@ LEAP
 
 -   ****
 
-Install LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). After installation, activate the skill from Workspaces &gt; LEAP &gt; Admin &gt; AI Admin Hub &gt; AI Skills &gt; Platform &gt; LEAP. For details, see .
+Install LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). After installation, activate the skill from Workspaces &gt; LEAP &gt; Admin &gt; AI Admin Hub &gt; AI Skills &gt; Platform &gt; LEAP. For details, see [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-aiops-leap.md).
 
 
 </td></tr><tr><td>
@@ -1497,7 +1497,7 @@ Project Portfolio Management
 
 -   ****
 
-Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) if you have the admin role. This plugin installs the Project Portfolio Management applications, along with their user roles and tables. For more information, see .
+Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) if you have the admin role. This plugin installs the Project Portfolio Management applications, along with their user roles and tables. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 
 </td></tr><tr><td>
@@ -1683,14 +1683,14 @@ Service Mapping
 
 -   ****
 
-For information on activating Service Mapping, see Request Service Mapping.For information on activating and updating Service Mapping Plus and AI Agents for Service Mapping, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh).
+For information on activating Service Mapping, see [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateServiceMappingPlugin.md).For information on activating and updating Service Mapping Plus and AI Agents for Service Mapping, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh).
 
 AI capabilities in Service Mapping require additional procedures for activation. For detailed information, see:
 
-    -   
-    -   
-    -   
-    -   
+    -   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-sm-ai-agents.md)
+    -   [Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-sm-candidate-skill.md)
+    -   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-sm-candidates-impact-skill.md)
+    -   [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-sm-mcp-server.md)
 
 </td></tr><tr><td>
 
@@ -1834,7 +1834,7 @@ ServiceNow Otto for Virtual Agent
 
 -   ****
 
-Virtual Agent is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. For details, see Activate Virtual Agent. Once activated, you can install ServiceNow Otto for Virtual Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Virtual Agent is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. For details, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md). Once activated, you can install ServiceNow Otto for Virtual Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -2102,7 +2102,7 @@ Zero Copy Connectors
 
 Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see .
+Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-zcc.md).
 
 
 </td></tr><tr><td>

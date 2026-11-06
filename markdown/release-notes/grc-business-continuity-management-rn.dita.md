@@ -19,7 +19,7 @@ The ServiceNow® Business Continuity Management application enables your organiz
 -   Plan, test, and maintain business continuity and disaster recovery strategies to verify organizational resilience across critical business functions and dependencies.
 -   Coordinate cross-functional response activities, manage incidents, and track recovery objectives with centralized visibility into business impact and recovery time metrics.
 
-See  for more information.
+See [Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md) for more information.
 
 ## Activation and other requirements
 
@@ -48,25 +48,25 @@ Business Continuity Management, version 12.0.x enhances collaboration between re
 
 ### What's new
 
--   **Assign group ownership to business impact analysis, plan, and event records**
+-   **[Assign group ownership to business impact analysis, plan, and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/group-ownership-bias.md)**
 
     Enable group ownership for business impact analysis \(BIA\), plan, and event records along with individual ownership.
 
     Use the **My group's pending tasks** and **My group's items** tabs, added to the My Tasks page, to view group-owned records.
 
--   **BIA owner and contributor synchronization**
+-   **[BIA owner and contributor synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/group-ownership-bias.md)**
 
     Automatically sync the BIA owner, members of BIA owner group, and BCM lead with the Smart Assessment when a BIA is created. After the BIA is created, added BIA contributors are automatically synced to all associated Smart Assessment' contributors.
 
--   **Enable integration of the GRC Issue module**
+-   **[Enable integration of the GRC Issue module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/managing-issues-in-bcm.md)**
 
     Use the **Issues** tab in plan and event records to create GRC issues or link existing issues in Business Continuity Workspace. It helps you track issue sources automatically and maintain proper access control.
 
--   **Report and summarize issues with ServiceNow Otto for IRM generative AI capabilities**
+-   **[Report and summarize issues with ServiceNow Otto for IRM generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-exploring-ai-skills.md)**
 
     Report and summarize GRC issues faster with ServiceNow Otto for IRM. Issue Summarization and Issue Validation are available across BCM Foundation and BCM Advanced tiers. Automated Resolution Planning is available in BCM Advanced tier. These capabilities enable you to track issue status from discovery through closure from the Employee Center in an instance or from plan and event records in Business Continuity Workspace.
 
--   **Import and export recovery tasks from Microsoft Excel**
+-   **[Import and export recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)**
 
     Upload recovery tasks in bulk using Microsoft Excel files, with row-level validation and error handling. Microsoft Excel columns are mapped to recovery task fields, to validate data integrity, support updates to existing tasks, and insert new tasks in the same import.
 
@@ -74,7 +74,7 @@ Business Continuity Management, version 12.0.x enhances collaboration between re
 
     Reorder recovery tasks in the Gantt view by linking task dependencies with drag-and-drop actions. If the linked order is invalid, an error message is displayed. Planners can reorder tasks for their own plans, while program managers can reorder tasks for all plans.
 
--   **Enhance collaboration between recovery teams during a crisis**
+-   **[Enhance collaboration between recovery teams during a crisis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)**
 
     Enable BCM users to create and manage recovery teams with users, groups, and hierarchies for coordinated crisis response. Tag events by escalation level \(Site, Regional, Corporate, Global\) and link recovery teams to track who's involved at each level.
 
@@ -83,17 +83,17 @@ Business Continuity Management, version 12.0.x enhances collaboration between re
 
 ### What's changed
 
--   **Group ownership**
+-   **[Group ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/group-ownership-bias.md)**
     -   **BIA owner group** field appears on the BIA form, the **Plan owner group** field appears on the plan form, and the **Assignment group** field appears on the exercise and crisis event forms.
     -   The **My group's pending tasks** and **My group's items** tabs have been added to the My Tasks page to view group-owned records.
     -   Group ownership details for BIA, plan, and event records also appear in separate sections in the PDF and Microsoft Word reports.
--   **Integrate Issues in plan and event records**
+-   **[Integrate Issues in plan and event records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)**
     -   The **Issues** tab is added to the plans and event records.
     -   The Issues details section is added to the PDF and Microsoft Word reports showing the Issue name, description, and number.
--   **Import and export recovery tasks**
+-   **[Import and export recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)**
     -   **Import from Excel** and **Export to Excel** UI actions are added to the Recovery tasks related list.
     -   The Microsoft Excel workbook contains the Recovery task, Instructions, Plan details sheets.
--   **Enhance collaboration between recovery teams during a crisis**
+-   **[Enhance collaboration between recovery teams during a crisis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)**
     -   The Recovery teams list \(name, description, location\) and form with parent and child hierarchy, Users and Groups lists, and Department column are added.
     -   The **Compose email** action and Email client template with recovery team members and members of linked groups are added.
     -   The Attachments and Emails related lists are added in the collaboration thread with email preview screen and activity stream integration.

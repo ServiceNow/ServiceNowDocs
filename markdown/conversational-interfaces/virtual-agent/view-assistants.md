@@ -27,7 +27,7 @@ To view the **Assistants** tab in Assistant Designer, verify that the Platform p
 
 -   With the Platform plugin, you can see all ServiceNow Otto for Virtual Agent and ServiceNow Otto panel assistants.
 -   If you only have the Creator plugin installed, only the ServiceNow Otto panel - Developer assistant is shown.
--   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see .
+-   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see [ServiceNow EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-slate-landing-page.md).
 
 |Default assistants|Activate|Deactivate|Edit|Test|Delete|
 |------------------|--------|----------|----|----|------|
@@ -70,7 +70,7 @@ Select the **View as cards** drop-down menu to toggle to the map view. The linka
 -   In the map view, primary assistants on the top row show secondary assistants that are linked to them.
 -   Green indicates that the assistant is turned on. Gray indicates that the assistant is turned off.
 
-The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to AI Admin Hub. For more information, see .
+The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to AI Admin Hub. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 
 To change the LLM provider for all assistants on the instance, select **Customize** &gt; **Edit provider for a skill group** &gt; **AI agents**.
 

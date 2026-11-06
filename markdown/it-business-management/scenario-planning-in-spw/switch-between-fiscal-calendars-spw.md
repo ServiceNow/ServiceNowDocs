@@ -56,7 +56,7 @@ Switching the fiscal calendar type changes the periods that targets use. A targe
 
     Regenerating the periods replaces the existing fiscal periods with new ones. Targets that use the old periods become stale.
 
-    For instructions, see [Generate a fiscal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_GenerateFiscalCalendar.md).
+    For instructions, see .
 
 5.  Review the targets that became stale, and reset them.
 

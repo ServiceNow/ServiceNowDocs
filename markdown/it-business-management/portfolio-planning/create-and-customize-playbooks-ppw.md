@@ -28,7 +28,7 @@ Customize the playbook when your demand processes differ from the default, for e
 
 The demand-specific behavior of the playbook, such as the related lists and the **Mark Complete**, **Save**, and **Skip** actions, comes from the demand playbook experience. Keep your customizations in this experience to use the custom activities built for demands. For more information, see [Demand playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md).
 
-This overview task covers the configuration of a demand process-specific playbook. For detailed information about creating or customizing playbooks, see [Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/setting-up-process-automation-designer.md). For a complete example of a custom demand playbook, see [Creation example for a demand playbook for IT governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/example-it-investment-governance-playbook-ppw.md).
+This overview task covers the configuration of a demand process-specific playbook. For detailed information about creating or customizing playbooks, see Configuring Playbooks. For a complete example of a custom demand playbook, see [Creation example for a demand playbook for IT governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/example-it-investment-governance-playbook-ppw.md).
 
 ## Procedure
 
@@ -49,9 +49,9 @@ This overview task covers the configuration of a demand process-specific playboo
 
         3.  Add a description for the playbook.
         4.  Select **Duplicate**.
-    -   To create a playbook, select **New** &gt; **Playbook**. For next steps, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/setting-up-process-automation-designer.md).
+    -   To create a playbook, select **New** &gt; **Playbook**. For next steps, see Create and configure playbooks.
 
-        **Note:** If you want to use agentic playbooks, see [Agentic playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/agentic-playbooks-landing.md).
+        **Note:** If you want to use agentic playbooks, see Agentic playbooks.
 
         \[Omitted image "demand-new-playbook.png"\] Alt text: The New drop-down list contains the option to create a playbook.
 
@@ -61,14 +61,14 @@ This overview task covers the configuration of a demand process-specific playboo
 
     2.  Select **Add trigger** or the existing trigger.
 
-    Each demand can map to more than one playbook, based on the trigger. You can create multiple playbooks with different trigger conditions. For detailed steps, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-triggers.md).
+    Each demand can map to more than one playbook, based on the trigger. You can create multiple playbooks with different trigger conditions. For detailed steps, see Triggers.
 
     -   To run the playbook only for some demands, add conditions to the trigger. For example, to run the playbook only for new demands in the Draft state, add the condition `State is Draft` to a record creation type trigger.
     -   To run the playbook when a demand is updated instead of created, select **When record is updated** or **When record is created or updated** as the trigger type.
     -   To apply the playbook to tables that extend the Demand \[dmn\_demand\] table, select the **Run this trigger on extended tables** check box to apply the trigger to extended tables.
 4.  Add or change stages.
 
-    In **Board view**, select **Add Stage**, or select **Add Step** &gt; **Add Stage** to add a stage after an existing one. Set the **Start rule** to **When playbook starts** or **After specific stages**. A stage appears to users only if at least one of its activities is available for the demand. For detailed steps, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-lanes-activities.md).
+    In **Board view**, select **Add Stage**, or select **Add Step** &gt; **Add Stage** to add a stage after an existing one. Set the **Start rule** to **When playbook starts** or **After specific stages**. A stage appears to users only if at least one of its activities is available for the demand. For detailed steps, see Stages and activities.
 
     \[Omitted image "demand-playbook-create-stage.png"\] Alt text: Add menu that has the option to create a stage to add activities.
 
@@ -79,7 +79,7 @@ This overview task covers the configuration of a demand process-specific playboo
     -   **Details**: Enter the label and description, and set the **Start rule** to **When stage starts** or **After specific activities**. To run the activity only when a condition is met, select **Show additional options** and add a run condition. For example, run an activity that moves the demand to Approved only if an earlier approval activity returns approved. If the condition is not met, the activity is skipped.
     -   **Automation**: Set the inputs of the activity. To assign the activity, select **Show additional options** and set **Assigned To** or **Assignment Group**. Use the data pill picker to assign the activity to a field on the demand, for example **Parent Record** &gt; **Demand** &gt; **Demand manager**, or enter a specific user or group.
     -   **UI Layout**: Set the associated table and record, the form fields to display, and the tagline that users see on the activity. For automated activities, enter a tagline such as `Automated state change` so that users don't see the default activity name.
-    For a record form activity, select the table and the record, and then select the fields to display from the table's form layout. To include a related list in the activity, use the `Demand Related List` custom activity definition. To include a plugin check in any activity, use the `Check if plugin is active` custom action. To run an activity only after another activity is complete, set the activity to start after that specific activity. For detailed steps, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-lanes-activities.md).
+    For a record form activity, select the table and the record, and then select the fields to display from the table's form layout. To include a related list in the activity, use the `Demand Related List` custom activity definition. To include a plugin check in any activity, use the `Check if plugin is active` custom action. To run an activity only after another activity is complete, set the activity to start after that specific activity. For detailed steps, see Stages and activities.
 
     For example, to capture a compliance review in the Define demand alignment stage, add a record form activity. Select the custom compliance fields from the Demand \[dmn\_demand\] table. Set the activity to start after the Define strategic alignment activity.
 
@@ -90,7 +90,7 @@ This overview task covers the configuration of a demand process-specific playboo
     -   **Skip on first run**: Skip this activity during the first run.
     \[Omitted image "demand-playbook-restart.png"\] Alt text: The restart options for an activity.
 
-    The setting on an activity takes precedence over the setting on its stage. For detailed steps, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/add-configure-activity.md).
+    The setting on an activity takes precedence over the setting on its stage. For detailed steps, see Add and configure an activity in a playbook.
 
 7.  Configure the automated state changes.
 
@@ -100,7 +100,7 @@ This overview task covers the configuration of a demand process-specific playboo
 
 8.  If you override activities or actions, add the overrides to the Demand playbook experience.
 
-    Overrides that you add to another experience aren't available when the playbook runs in Next Experience for Demand Management. For more information, see [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-experience-admins.md).
+    Overrides that you add to another experience aren't available when the playbook runs in Next Experience for Demand Management. For more information, see .
 
 9.  Select **Test** to test your playbook on the selected demand record and select `Demand playbook experience` as the Playbook preview.
 
@@ -118,9 +118,7 @@ The playbook runs for demands that match its trigger. Users see it on the **Play
 **Related topics**  
 
 
-[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/building-a-process.md)
-
-[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-experience-admins.md)
+[bundle-crworkflow.building-a-process]
 
 [Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md)
 

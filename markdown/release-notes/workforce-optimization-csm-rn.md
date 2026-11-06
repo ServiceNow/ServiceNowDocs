@@ -22,7 +22,7 @@ The ServiceNow® Workforce Optimization application enables you to efficiently r
 -   Analyze the help requested interactions segmented by different channels, such as Chat, Email, Messaging, Phone and Video.
 -   Enable Schedule Management as a standalone capability, with backward compatibility for existing deployments and no additional configuration required after activation.
 
-See  for more information.
+See [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-wfo-cs.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ As a shift planning admin \[sn\_shift\_planning.admin\], you can now temporarily
 
 ### What's new
 
--   **Move agents between shifts and schedules in Shift Planning**
+-   **[Move agents between shifts and schedules in Shift Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/move-agents-between-shifts-wfo-cs.md)**
 
     As a shift planning admin \[sn\_shift\_planning.admin\], you can move one or more agents from one shift to another, within the same published schedule or to a different published schedule. You no longer need to unpublish and republish the schedule. Each move has a start and end date, and you can configure for the agents to automatically revert to the original shift on the end date if required. You can move agents in bulk, using the same dates for all of them or separate dates for each. The system validates each move, and a move history records the changes.
 

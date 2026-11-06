@@ -17,9 +17,9 @@ Virtual Agent uses the ServiceNow AI Platform® AI Search application to return 
 
 ## How Virtual Agent uses AI Search
 
-The AI Search application, which is included with the ServiceNow AI Platform, provides relevant search results for queries and uses Machine Learning to continuously improve search results based on end-user selections. To learn more about AI Search, see .
+The AI Search application, which is included with the ServiceNow AI Platform, provides relevant search results for queries and uses Machine Learning to continuously improve search results based on end-user selections. To learn more about AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md).
 
-In addition to normal search results, AI Search can display Genius Result cards that show relevant catalog items, questions and answers \(Q&amp;A\), and people \(user\) information. To learn more, see Genius Results.
+In addition to normal search results, AI Search can display Genius Result cards that show relevant catalog items, questions and answers \(Q&amp;A\), and people \(user\) information. To learn more, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/genius-results-ais.md).
 
 Catalog Genius Results and Q&amp;A Genius Results are automatically activated in the base system.
 

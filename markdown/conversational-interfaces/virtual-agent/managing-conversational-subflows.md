@@ -49,7 +49,7 @@ Use the row actions icon \[Omitted image "kebab-menu.png"\] Alt text: to work wi
 **Related topics**  
 
 
-[bundle-platai.now-assist-panel-overview]
+[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md)
 
 [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-subflows.md)
 

@@ -110,7 +110,7 @@ With the Virtual Agent administrator \[virtual\_agent\_admin\] role, users can c
 -   If using Natural Language Understanding, the NLU admin role is included.
 -   If the Virtual Agent admin is granted access to AI Search-related tables, the search application administrator role \[search\_application\_admin\] is included.
 -   If the Virtual Agent admin is granted access to Entity View Action Mapper tables, the EVAM admin role \[evam\_admin\] is included.
--   For multilanguage support, the localization\_requestor role is included by default. For more information, see Localization Framework roles .
+-   For multilanguage support, the localization\_requestor role is included by default. For more information, see [Localization Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/roles-localization-framework.md) .
 -   For more information on the roles contained in virtual\_agent\_admin, see [Components installed with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-components.md).
 
 ## Users installed

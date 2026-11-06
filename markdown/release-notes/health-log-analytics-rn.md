@@ -23,7 +23,7 @@ The ServiceNow® Health Log Analytics application predicts IT issues before they
 -   Simplify log ingestion by processing high-volume log data at scale.
 -   Uncover patterns in log data using built-in AI and ML.
 
-See Health Log Analytics for more information.
+See [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -49,15 +49,15 @@ This release enables operators to suppress noisy short-lived anomaly spikes and 
 
 ### What's new
 
--   **Sustained Alert feedback**
+-   **[Sustained Alert feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-sustained-alert-apply.md)**
 
     Suppress alerts on short-lived anomaly spikes and receive notifications only when an issue persists continuously. Apply Sustained Alert feedback per metric from the Alert Card or Express List \(single or bulk\), setting a fixed duration threshold to define what counts as sustained.
 
--   **Smart Parser Gen AI enhancements**
+-   **[Smart Parser Gen AI enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-source-type-structure-adjustment.md)**
 
     Increase confidence in Smart Parser Gen AI alerts by viewing the full parsing and alert generation flow, now backed by expanded automated testing.
 
--   **MID-less integration setup through an MCP Client**
+-   **[MID-less integration setup through an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-mid-less-integrations-concept.md)**
 
     Admins with access to the ITOM MCP Server Console can use an AI-enabled MCP Client to set up MID-less integrations. You can use any MCP Client, such as AWS Claude, to create MID-less integrations through natural-language prompts, without navigating to the Integrations Launchpad.
 

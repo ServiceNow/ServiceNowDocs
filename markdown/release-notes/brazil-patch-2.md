@@ -40,7 +40,7 @@ Brazil Patch 2 includes fixes for security-related problems that affected certai
 
     Used to enhance cross-scope access controls for the**getRefRecord\(\)** JavaScript API method to ensure authorization rules are followed consistently when retrieving information from other another application scope via the JavaScript method **getRefRecord\(\)**
 
-    glide.sys.fencing.restricted\_caller\_access.invalidation\_mode: Controls how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set. For more information about RCA privileges, see 
+    glide.sys.fencing.restricted\_caller\_access.invalidation\_mode: Controls how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set. For more information about RCA privileges, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/restricted-caller-access-privilege.md)
 
 -   **[High-churn field detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/high-churn-field-detection-ais.md)**
 

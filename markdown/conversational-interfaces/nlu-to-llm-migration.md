@@ -37,7 +37,7 @@ For more information, see [Configure assistants overview](https://raw.githubuser
 1.  Identify topics with little or no usage, and retire them instead of migrating them.
 2.  Check whether a prebuilt LLM topic already covers the use case.
 
-    Use the prebuilt topic instead of migrating your own when it meets your needs. For more information, see .
+    Use the prebuilt topic instead of migrating your own when it meets your needs. For more information, see [ITSM Virtual Agent pre-built LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-va-prebuilt-topics.md).
 
 3.  Prioritize your remaining NLU topics.
     -   **Migrate first**

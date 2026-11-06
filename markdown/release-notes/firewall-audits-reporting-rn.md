@@ -21,7 +21,7 @@ The ServiceNow® Firewall Audits and Reporting application helps administrators 
 -   Centralize firewall rule management across multiple vendors and platforms in a single interface.
 -   Generate comprehensive audit reports to support compliance requirements and security assessments.
 
-See  for more information.
+See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility-landing-page.md) for more information.
 
 ## Activation and other requirements
 
