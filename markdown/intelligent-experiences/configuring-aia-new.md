@@ -79,9 +79,9 @@ Each tool in an agentic workflow is defined by three elements: its functionality
 
 ## Invoke Conversations with the AI Agent Background Channel
 
-The AI Agent Background Channel lets you invoke AI agent or agentic workflow execution from the Workspace. Use it with the AI Agent Background Provider, which is based on the Custom Adapter Framework from Virtual Agent. For more information, see .
+The AI Agent Background Channel lets you invoke AI agent or agentic workflow execution from the Workspace. Use it with the AI Agent Background Provider, which is based on the Custom Adapter Framework from Virtual Agent. For more information, see [Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/create-provider-va-cccif.md).
 
-To add conversational capabilities to your own provider application and obtain a new inbound ID, create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\]. For more information, see .
+To add conversational capabilities to your own provider application and obtain a new inbound ID, create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\]. For more information, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/create-channel-id-va-cccif.md).
 
 To start a conversation, trigger the flow using the sn\_aia.AiAgentRunttimeUtil\(\).startAiAgentConversation\(request\) API in the Script Include \(sys\_script\_include\) of the AIAgentBackgroundProvider, then select **Run Script**. When the script execution status shows **Success**, the conversation begins in the order of utterances defined in the script.
 
@@ -102,7 +102,9 @@ AI agents operate in one of the two execution modes, which determine how the age
     The AI agent does not contact the user at any fallback stage. Instead, it uses a dynamic prompt approach through the ReAct layer, where the prompt adapts based on the execution mode. Fallback options don't collect user input. The output of the AI agent or agentic workflow is still presented to the user, and any execution failure displays a message in the Now Assist panel or Virtual Agent.
 
 
-The execution mode is set in the **Execution Mode** field in the Execution Plans \[sn\_aia\_execution\_plan\] table and is determined at runtime.AI agents and agentic workflows can run concurrently in the AI Agent Background Channel and in non-interactive mode. Background execution allows AI agents to operate alongside any chat panel, such as the Now Assist panel or Virtual Agent.
+The execution mode is set in the **Execution Mode** field in the Execution Plans \[sn\_aia\_execution\_plan\] table and is determined at runtime.
+
+AI agents and agentic workflows can run concurrently in the AI Agent Background Channel and in non-interactive mode. Background execution allows AI agents to operate alongside any chat panel, such as the Now Assist panel or Virtual Agent.
 
 ## Multilingual support
 

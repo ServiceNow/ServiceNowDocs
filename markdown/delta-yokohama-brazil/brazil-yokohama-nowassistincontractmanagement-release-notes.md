@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-nowassistincontractmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -584,7 +584,7 @@ Zurich Patch 12
  [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
 
 -   Use the contract playbook to review and update the AI extracted metadata and reminder date for contract renewal or termination.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
  See [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=zurich&ft:locale=en-US) for more information.
 

@@ -16,6 +16,8 @@ The following AI agents are available for ServiceNow AI Platform.
 
 -   **[Access Analysis AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-analysis-agent.md)**  
 The Access Analysis Agent lets you ask whether a user, group, or role can access something on your ServiceNow instance. It uses guided, conversational workflows in the ServiceNow Otto® panel.
+-   **[ACL Explainer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-acl-explainer-ai-agent.md)**  
+The agent explains how access control lists \(ACLs\) are configured. It reads one or more ACLs that govern a table or field for an operation, and describes their roles, conditions, scripts, and admin overrides. The agent is read-only: it doesn't evaluate access, recommend changes, or modify ACLs.
 -   **[AI Analytics Q and A AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-ai-analytics-q-and-a-ai-agent.md)**  
 This AI agent answers natural language questions about AI Analytics. It covers KPI definitions, dashboard widgets, source tables, data flows, deflection log states and scenarios, the deflection and metric frameworks, and ServiceNow platform scripts.
 -   **[AICT security analyzer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**  

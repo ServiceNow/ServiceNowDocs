@@ -13,7 +13,7 @@ reading_time_minutes: 2
 
 AI experiences on the ServiceNow AI Platform® extend your workflows with AI-driven automation. Use generative AI skills, AI agents, and agentic workflows to automate multi-step tasks, surface relevant answers, and support self-service across your organization.
 
-Implementing AI on the ServiceNow AI Platform follows a natural sequence: assess your readiness and install Now Assist, establish governance policies, choose your language model strategy, prepare your data and search infrastructure, activate generative AI skills, deploy AI agents and agentic workflows, deliver AI capabilities to your users, measure effectiveness, and drive adoption across your organization.
+Implementing AI on the ServiceNow AI Platform follows a natural sequence: assess your readiness and install AI plugins, establish governance policies, choose your language model strategy, prepare your data and search infrastructure, activate generative AI skills, deploy AI agents and agentic workflows, deliver AI capabilities to your users, measure effectiveness, and drive adoption across your organization.
 
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
@@ -21,7 +21,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 <table id="table_platai_journey" class="nav-card presentation"><tbody><tr><td>
 
-[Get started\[Omitted image "bus-rocketship.svg"\] Alt text:Assess your AI readiness, install Now Assist, and build the foundation for AI experiences across your workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-getting-started-ai.md)
+[Get started\[Omitted image "bus-rocketship.svg"\] Alt text:Assess your AI readiness, install AI plugins, and build the foundation for AI experiences across your workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-getting-started-ai.md)
 
 </td><td>
 
@@ -29,7 +29,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 </td><td>
 
-[Large language models\[Omitted image "bus-innovation.svg"\] Alt text:Choose your language model strategy and configure the providers that power Now Assist generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-large-language-models-providers.md)
+[Large language models\[Omitted image "bus-innovation.svg"\] Alt text:Choose your language model strategy and configure the providers that power generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-large-language-models-providers.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 </td><td>
 
-[Generative AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Activate and configure Now Assist generative AI skills to enhance productivity across your workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-generative-ai-skills.md)
+[Generative AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Activate and configure generative AI skills to enhance productivity across your workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-generative-ai-skills.md)
 
 </td><td>
 
@@ -45,7 +45,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 </td></tr><tr><td>
 
-[AI user experiences\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Explore the Now Assist panel, assistants, and mobile experiences through which users interact with AI capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-creating-ai-user-experiences.md)
+[AI user experiences\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Explore the ServiceNow Otto panel, assistants, and mobile experiences through which users interact with AI capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-creating-ai-user-experiences.md)
 
 </td><td>
 

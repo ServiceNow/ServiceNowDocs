@@ -268,5 +268,5 @@ Reference to the \[cmdb\_ci\] table
 **Related topics**  
 
 
-[Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md)
+[Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md)
 

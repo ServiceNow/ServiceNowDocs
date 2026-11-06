@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a voice assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a voice assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Test a voice assistant

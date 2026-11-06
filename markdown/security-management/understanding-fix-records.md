@@ -66,5 +66,5 @@ From a Fix record you can reach the records it connects to:
 
 [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-fixes-in-workspace.md)
 
-[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/fix-links-on-findings.md)
+[fix-links-on-findings]
 

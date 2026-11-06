@@ -18,7 +18,7 @@ To calculate the success score, formula indicators are provided. These indicator
 
 You can view the Change success score formula indicators in Performance Analytics under the indicator group **Change success score - multipliers**.
 
-Review the following table to understand the default multipliers used in success score calculation.
+The following table lists the default multipliers used in the success score calculation.
 
 |Automated indicator|Multiplier applied by formula indicator|
 |-------------------|---------------------------------------|

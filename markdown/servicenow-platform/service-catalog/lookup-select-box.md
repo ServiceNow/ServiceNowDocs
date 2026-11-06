@@ -41,6 +41,7 @@ Instead of sourcing values from a table, you can configure the lookup select box
 -   This option is available for the lookup select box and lookup multiple choice variable types. It is supported in the Service Portal, mobile, and Virtual Agent channels.
 -   Table with large data causes performance issues when loading the page. Use reference qualifiers to reduce data or use the reference type variable.
 -   You can't add more than 10,000 choices.
+-   Reference qualifiers aren't honored when the lookup source is set to choice.
 
 ## Question \[item\_option\_new\] fields
 

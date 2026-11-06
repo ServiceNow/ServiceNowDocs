@@ -1,6 +1,6 @@
 ---
 title: Create and propose a change template
-description: Create, customize, and then propose for publication a change template aligned to a change model to standardize common change requests and not have to create them manually.
+description: Create, customize, and then propose a change template for any change model to standardize common change requests so that users don't have to create them manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-change-template.html
 release: brazil
@@ -8,13 +8,14 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
+keywords: [change template, normal change template, change model template]
 breadcrumb: [Create a Change model, Configure, Change Management, IT Service Management]
 ---
 
 # Create and propose a change template
 
-Create, customize, and then propose for publication a change template aligned to a change model to standardize common change requests and not have to create them manually.
+Create, customize, and then propose a change template for any change model to standardize common change requests so that users don't have to create them manually.
 
 ## Before you begin
 
@@ -25,19 +26,23 @@ You must have a role with the following access with regard to the change model t
 -   Access to read
 -   Access to modify
 
+## About this task
+
+You can create change templates for any change model, including the Normal, Standard, and Emergency change models and any custom models. A template inherits the approvals and state transitions of the change model that it's aligned to.
+
 ## Procedure
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d441215e68">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d351828e77">
 
 Source
 
-</th><th align="left" id="d441215e71">
+</th><th align="left" id="d351828e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d441215e77">
+</th></tr></thead><tbody><tr><td id="d351828e86">
 
 **Change Model**
 
@@ -49,7 +54,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d441215e114">
+</td></tr><tr><td id="d351828e123">
 
 **Create a change request page**
 
@@ -69,7 +74,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d441215e171">
+</td></tr><tr><td id="d351828e180">
 
 **Templates tab**
 
@@ -83,7 +88,9 @@ Description
 </td></tr></tbody>
 </table>2.  In the change template record, provide the template name and a short description.
 
-3.  Either retain the default setting that makes the template active or make the template unavailable for use even after being published by clearing the **Active** check box.
+3.  Clear the **Active** check box to keep the template unavailable after it's published.
+
+    The template is active by default.
 
 4.  In the record header, select **Save**.
 
@@ -97,13 +104,11 @@ Description
 
 6.  Configure the template field policies to set fields as mandatory, optional, or read-only.
 
-    **Note:** The change model combines template field policies with state field policies. A field on a change request is mandatory or read-only if the template, the current state, or both require it. For more information, see [State field policies for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/state-field-policies-change-models.md).
-
     1.  In the **Template Field Policies** tab, select **New**.
 
     2.  Select the field name from the list to add the field for which you want to set field policies.
 
-    3.  Determine the field policy by selecting one of the following options:.
+    3.  Select a field policy.
 
         -   To make the field mandatory, select **Mandatory**.
         -   To have the field display only predetermined default information, select **Read only**.
@@ -152,7 +157,7 @@ To view the review status of all the templates proposed by you, navigate to **Al
 
 -   **[Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-template-categories.md)**  
 Create template categories and child categories to classify templates based on a change model, template usage, and requirements.
--   **[Modify a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/modify-or-retire-template.md)**  
+-   **[Modify a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/modify-or-retire-template.md)**  
 Copy and modify change templates.
 -   **[Review a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/review-change-template.md)**  
 Review a change template proposed for common change requests.

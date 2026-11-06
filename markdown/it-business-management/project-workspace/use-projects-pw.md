@@ -503,6 +503,10 @@ This restriction is on by default. To turn it off, set the **com.snc.project.res
 Learn how to navigate to the new Project Workspace and open a project in the planning page.
 -   **[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md)**  
 Use Project Workspace to create a project and start planning for your project tasks.
+-   **[Save a project as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/save-project-template-pw.md)**  
+Save the plan of an existing project as a template to reuse the tasks and sub-projects in other projects in Project Workspace.
+-   **[Apply a template to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/apply-project-template-pw.md)**  
+Apply a saved project template to a project in Project Workspace to reuse a planned set of tasks and sub-projects.
 -   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
 -   **[Work with project tasks in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/pws-widgets-eslate.md)**  

@@ -21,5 +21,5 @@ Take the assessments assigned to you from the assessment and survey queue.
 -   **[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)**  
 In the Assessments application, assessment administrators create and administer metric types and assessable records.
 
-**Parent Topic:**[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Assessments.md)
+**Parent Topic:**[Assessments]()
 

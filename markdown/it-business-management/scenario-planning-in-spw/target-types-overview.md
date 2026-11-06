@@ -185,7 +185,7 @@ Ask yourself these questions when deciding on a target type:
     -   **Maintain below**: Must stay at or below a maximum
     -   **Maintain constant**: Must stay within a range
 3.  **Is your goal qualitative with a yes/no outcome?** Choose **Milestone**.
-4.  **Do you need to track performance across multiple time periods?** Add a check-in frequency \(Daily, Weekly, Monthly, Quarterly, Yearly\) to any target type. Maintain targets especially benefit from check-in frequency to measure consistency across periods.
+4.  **Do you need to track performance across multiple time periods?** Add a check-in frequency \(Daily, Weekly, Monthly, Quarterly, Yearly, or Period in fiscal mode\) to any target type. Maintain targets especially benefit from check-in frequency to measure consistency across periods.
 
 For examples of different scenarios and target type recommendations, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
 

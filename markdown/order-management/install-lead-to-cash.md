@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-lead-to-cash.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Install and configure CRM Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -47,15 +47,15 @@ The following items are installed with CRM Core application:
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d68197e162">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d67548e162">
 
 Demo data install task
 
-</th><th align="left" id="d68197e165">
+</th><th align="left" id="d67548e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68197e171">
+</th></tr></thead><tbody><tr><td id="d67548e171">
 
 **If demo data is available and you want to install it**
 
@@ -65,7 +65,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d68197e201">
+</td></tr><tr><td id="d67548e201">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

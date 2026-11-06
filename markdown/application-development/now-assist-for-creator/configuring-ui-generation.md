@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI generation, Use generative AI, ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
+breadcrumb: [UI generation, Use generative AI, ServiceNow Otto for Creator, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configuring UI generation

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-documentintelligence-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -426,7 +426,7 @@ Zurich
 
 </td><td>
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
  See [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&family=zurich&ft:locale=en-US) for more information.
 

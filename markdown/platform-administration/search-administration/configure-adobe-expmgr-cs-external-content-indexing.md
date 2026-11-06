@@ -47,7 +47,7 @@ To allow the connector to access your Adobe Experience Manager as a Cloud Servic
 
 2.  Download the Service Credentials for your new Technical Account as a JSON-format file.
 
-    1.  On the Technical Accounts tab, select the arrow icon to expand the private key entry for your new Technical Account.
+    1.  On the **Technical Accounts** tab, select the arrow icon to expand the private key entry for your new Technical Account.
 
         The private key name varies. As an example, the private key entry name for your new Technical Account might be `PRIVATE-KEY-1873000081275`.
 

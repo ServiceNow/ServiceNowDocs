@@ -90,5 +90,5 @@ Partner administrator \[sn\_customerservice.partner\_admin\]
 </table>**Related topics**  
 
 
-[Setup Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.md)
+[Set up Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.md)
 

@@ -9,7 +9,7 @@ classification: value-library
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Impact, Impact]
+breadcrumb: [Impact reference, Impact]
 ---
 
 # Value Management

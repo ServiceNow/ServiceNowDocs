@@ -53,7 +53,7 @@ The skill is active on the instance.
 
 ## What to do next
 
-Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your AI usage at [Monitor AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md).
+Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your AI usage at Monitor AI usage.
 
 **Parent Topic:**[Activate a AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-now-assist-skill-spm.md)
 

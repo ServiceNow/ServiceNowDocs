@@ -56,7 +56,7 @@ Number of minutes that the reset code is valid. See [Log in with Multi-factor Au
 
 Number of additional seconds that the reset code is valid. The maximum is `60`. The default is `10`.The instance validates the code entered by the user against the single app-generated code that is generated at the `current time`. You can skew the time window with this property and allow one or more codes to be generated during a time window to be considered valid.
 
-The property's value is used in the following calculation: `current time - X/2` and `current time + X/2`, where `X` is the value of this property. If you use the value of `10`, for example, the instance considers any codes that the app generates within the time range `[the current time - 5 seconds]` and `[current time + 5 seconds]` to be valid. Use this property to prevent login issues where the user is unable to enter the correct code in the default time allotted.
+The property's value is used in the following calculation: `current time - X/2` and `current time + X/2`, where `X` is the value of this property. If you use the value of `10`, for example, the instance considers any codes that the app generates within the time range `[the current time - 5 seconds]` and `[current time + 5 seconds]` to be valid. Use this property to help prevent login issues where the user is unable to enter the correct code in the default time allotted.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Sets how long a remembered browser stays trusted after MFA is completed. Within 
 
 </td><td>
 
-The number of browsers MFA remembers for this user.
+The number of browsers MFA retains for this user.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Default value of the remember-browser check box in the validate multi-factor pag
 
 </td></tr><tr><td>
 
-**glide.webauthn.enabled**\)
+**glide.webauthn.enabled**
 
 </td><td>
 

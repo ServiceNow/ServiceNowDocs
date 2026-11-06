@@ -56,7 +56,7 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-ai-agents.md)
 
-[Create recall corrective actions using ServiceNow Otto for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/execute-recall-campaigns.md)
+[bundle-platai.mco-ai-agents]
 
 [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)
 

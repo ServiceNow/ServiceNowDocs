@@ -1,5 +1,5 @@
 ---
-title: MFA Metrics
+title: MFA metrics
 description: View the different MFA metrics to understand the MFA adoption and usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-metrics.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# MFA Metrics
+# MFA metrics
 
 View the different MFA metrics to understand the MFA adoption and usage.
 
@@ -24,7 +24,7 @@ Following are the MFA metrics:
 
 -   Users enrolled for MFA: Total count of users enrolled to use MFA.
 -   Users using MFA bypass: Total count of users who are circumventing multi factor authentication.
--   High privileged non-mfa user: Total count of high-privileged users that are not using MFA.
+-   High privileged non-MFA user: Total count of high-privileged users that are not using MFA.
 -   Active MFA users: Total count of MFA users that are active on your instance.
 -   Locked out MFA users: Total count of MFA users who are locked out on your instance.
 -   Local logins not protected by MFA: Users that logged in without MFA.

@@ -247,9 +247,9 @@ Policy as Code Engine \(com.sn\_pace\)
 Contains the UI components to support the UI functionality of Policy as Code Engine \(PaCE\). PaCE provides a centralized platform for storing, managing, and using policies, which are pre-defined rule-sets that drive eligibility determination and benefits. Policies can be mapped to one or more social benefit types. This plugin includes the Policy as Code Engine UI \(com.sn\_pace\_builder\).
 
 </td></tr></tbody>
-</table>## Plugins installed with License and Permit Playbook
+</table>## Plugins installed with License and Permit Administration
 
-The following plugins are installed with the License and Permit Playbook \(com.sn\_gsm\_lic\_prmt\) application:
+The following plugins are installed with the License and Permit Administration \(com.sn\_gsm\_lic\_prmt\) application:
 
 <table id="table_gq4_zrs_xhc"><thead><tr><th>
 
@@ -362,9 +362,9 @@ Document Management \(com.snc.platform\_document\_management\)
 Enables you to manage large numbers of documents efficiently. Provides storage space and a filing system that allows you to easily upload, retrieve and delete documents.
 
 </td></tr></tbody>
-</table>## Plugins installed with Service Request Playbook
+</table>## Plugins installed with Service Request Administration
 
-The following plugins are installed with Service Request Playbook \(com.sn\_gsm\_srvc\_req\) application:
+The following plugins are installed with Service Request Administration \(com.sn\_gsm\_srvc\_req\) application:
 
 <table id="table_pq4_zrs_xhc"><thead><tr><th>
 
@@ -457,7 +457,7 @@ The following plugins are installed with ServiceNow Otto for Public Sector Digit
 
 ## Optional Plugins available for Public Sector Digital Services and related apps
 
-- Geo Map \(sn\_geo\_map\) for Service Request Playbook
+- Geo Map \(sn\_geo\_map\) for Service Request Administration
 
 **Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
 

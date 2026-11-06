@@ -34,7 +34,7 @@ The records related to a requester are displayed when an agent views the request
 
 3.  Edit the order such that it is less than that of the My Requests - Requested item predicate EVAM view config.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)

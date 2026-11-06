@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-developersandboxes-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 8
+last_updated: "2026-11-06"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -245,7 +245,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Manual sandbox enablement](https://www.servicenow.com/docs/access?context=dsb-properties-installed&family=brazil&ft:locale=en-US)**
+
+Starting with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:
+
+    -   `glide.dev_sandbox.enabled`: Set to `true`.
 
 </td></tr></tbody>
 </table>## Removed
@@ -398,8 +402,11 @@ Brazil
 
 -   **Activation information**
 
-Install the Developer Sandbox License Management \(`com.glide.dsb.licensing`\) plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI in App Engine Management Center on the controller instance to distribute packs.
+Install the Developer Sandboxes License Management \(`com.glide.dsb.licensing`\) plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI in App Engine Management Center on the controller instance to distribute packs.
 
+Beginning with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:
+
+    -   `glide.dev_sandbox.enabled`: Set to `true`.
 
 </td></tr></tbody>
 </table>## Additional requirements

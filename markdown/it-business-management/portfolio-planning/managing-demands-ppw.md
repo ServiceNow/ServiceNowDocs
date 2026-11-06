@@ -22,7 +22,7 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Capture a new business need and start structured governance from intake.
 
-2.  [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
+2.  [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 
     Define governance processes for low-code or no-code demand changes.
 

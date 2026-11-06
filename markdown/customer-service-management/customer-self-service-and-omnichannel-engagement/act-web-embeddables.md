@@ -18,7 +18,15 @@ You can enable the ServiceNow Components for Customer Service \(sn\_cx\_componen
 
 ## Before you begin
 
-Role required: None
+Role required: admin
+
+## About this task
+
+Activating Web Embeddables installs the following plugins:
+
+-   Components for Customer Service \(sn\_cx\_components\)
+-   Web Components for Guest \(sn\_guest\_component\)
+-   Web Embeddable Core \(sn\_embeddable\_core\)
 
 ## Procedure
 
@@ -34,4 +42,12 @@ Role required: None
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
+
+## Result
+
+Web Embeddables is available on your instance. To see the roles, tables, and properties that the plugins add, see [Components installed with Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/components-installed-web-embeddables.md) and [Properties installed with Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/properties-installed-with-web-embeddables.md).
+
+## What to do next
+
+Set up your instance for Web Embeddables. See [Set up Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-web-embeddables.md).
 

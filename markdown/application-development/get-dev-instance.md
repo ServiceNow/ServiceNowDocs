@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 1
-breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Get a development instance

@@ -35,9 +35,9 @@ You can ban as many passwords as necessary. Some of the examples are as follows:
 
 1.  Navigate to **All** &gt; **Password Policy** &gt; **Excluded Passwords**.
 
-2.  To add a password to your exclude list, click **New** and enter the password.
+2.  To add a password to your exclude list, select **New** and enter the password.
 
-3.  Navigate to **Password Policy** &gt; **Exclusion List Management** to govern your users' password and prevent users from using bad password for the instance.
+3.  Navigate to **Password Policy** &gt; **Exclusion List Management** to govern your users' password and help prevent users from using bad password for the instance.
 
     The **Exclusion List Management** has about 5000 commonly used passwords.
 

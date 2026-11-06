@@ -24,7 +24,7 @@ Public Sector Digital Services Core application provides a framework to enable i
 This section outlines the Service Request Playbook data model and the tables installed with the Service Request application.
 -   **[Public Sector Digital Services Information Request Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-ir-playbook.md)**  
 This section outlines the Information Request data model and the tables installed with the Information Request application.
--   **[Public Sector Digital Services License and Permit Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-lp-playbook.md)**  
+-   **[Public Sector Digital Services License and Permit Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-lp-playbook.md)**  
 This section outlines the License and Permit data model and the tables installed with the License and Permit application.
 -   **[Public Sector Digital Services Social Benefits Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-sb-playbook.md)**  
 This section outlines the Social Benefits data model and the tables installed with the Social Benefits application.
@@ -37,5 +37,5 @@ This section outlines the Service Applicant data model and the Service Applicant
 -   **[Identity Provider Integration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-identity-framework-dm.md)**  
 The Identity Provider Integration \(sn\_idp\_integ\) plugin provides ServiceNow developers the data model foundation to develop OpenID Connect \(OIDC\) integrations to authenticate and verify constituent identities through approved government OIDC providers — ID.me \(US\), myID \(Australia\), GOV.UK One Login \(UK\) — replacing email-only identification. The Identity Provider Integration standardizes and enhances the identity verification process, delivering a provider-neutral OIDC framework for capturing and storing identity provider data, including identity provider issuer, identity provider ID, and assurance level from OIDC providers.
 -   **[Urban Planning &amp; Permitting Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-uppa-data-model.md)**  
-The Urban Planning &amp; Permitting Administration provides the data model foundation for ServiceNow developers and administrators to develop integrations with License and Permit Playbook to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions.
+The Urban Planning &amp; Permitting Administration provides the data model foundation for ServiceNow developers and administrators to develop integrations with License and Permit Administration to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions.
 

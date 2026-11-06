@@ -34,9 +34,9 @@ Role required: admin
 
     The image shows only a sample set of products. Available products may change as new products are added in future releases. The products displayed in Product Hub depend on the entitlements available for your instance.
 
-    **Note:** If you use an earlier version of Admin Center, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) for installation information about ServiceNow Otto. In the latest version of Admin Center, the ServiceNow Otto card appears in the Manage your products section.
+    **Note:** If you use an earlier version of Admin Center, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) for installation information about ServiceNow Otto. In the latest version of Admin Center, the ServiceNow Otto card appears in the Manage your products section.
 
-    **Note:** The Manage your products section is collapsible by default. You can expand it to see all the product family cards.
+    **Note:** The Manage your products section is expanded by default. You can also collapse it if required.
 
 2.  Select a specific product family card in the Manage your products section to start the setup process.
 
@@ -52,7 +52,7 @@ Role required: admin
 
     The Product Hub page displays a single product tier based on entitlements, using a descending order to show the highest tier when multiple tiers are available. For example, if both Foundation and Advanced tiers are installed for Simplified ITSM, only the Advanced tier is displayed. Under the Not installed section, only apps associated with the Advanced tier entitlement are shown. At the Product Hub level, the tiering approach can be configured as either Tiered or All Active Resources. For example, ITSM and CBS use the Tiered approach, while ITOM uses the default \(All Active Resources\) approach.
 
-    \[Omitted image "image.ia-tier-approach"\] Alt text: Screenshot showing tiered approach by ITSM
+    \[Omitted image "ia-tier-approach.png"\] Alt text: Screenshot showing tiered approach by ITSM
 
 4.  Select **Upload batch** from Option 2.
 

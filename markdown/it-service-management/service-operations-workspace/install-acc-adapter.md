@@ -62,5 +62,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up investigation framework using Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-using-acc.md)
+**Parent Topic:**[Setting up Investigation Framework using Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-using-acc.md)
 

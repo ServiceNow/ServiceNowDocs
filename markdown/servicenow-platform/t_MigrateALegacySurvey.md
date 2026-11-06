@@ -20,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-To avoid timing out for very large surveys, you can disable the transaction quota. See [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TransactionQuotas.md).
+To avoid timing out for very large surveys, you can disable the transaction quota. See Transaction quotas.
 
 ## Procedure
 

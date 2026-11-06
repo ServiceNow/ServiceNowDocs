@@ -18,6 +18,8 @@ Determine which fields and functions are available to users when working in offl
 
 Role required: mobile\_admin, admin
 
+**Note:** Mobile scripting can be configured for button functions. This option is available via the ServiceNow AI Platform. For more information see [Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-script-concept.md) and .
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Mobile** &gt; **Mobile App Builder**.

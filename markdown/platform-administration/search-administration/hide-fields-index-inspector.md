@@ -33,7 +33,7 @@ To learn about the index inspector, see [Review indexing status for individual c
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -50,6 +50,6 @@ To install the ServiceNow Otto for CSM plugin \(sn\_csm\_gen\_ai\), follow the p
 
 8.  Either close the dialog box to review all of your plugins or select **View all \(Plugin\) Assists and Skills** to review the features of your new plugin.
 
-    For more detailed information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more detailed information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 

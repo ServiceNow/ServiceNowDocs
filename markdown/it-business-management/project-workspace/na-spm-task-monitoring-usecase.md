@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Use AI agent or agentic workflows, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -33,7 +33,7 @@ The email summary includes the following sections:
 -   RIDAC insights
 -   Financial insights
 
-If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Monitor project tasks agentic workflow
 
@@ -55,16 +55,12 @@ The following AI agents are used for the Monitor project tasks agentic workflow:
 
 ## Other agentic workflow
 
-For more information on other agentic workflow that are associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-use-cases.md).
+For more information on other agentic workflow that are associated with the Platform workflow, see .
 
 **Parent Topic:**[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 
 **Related topics**  
 
 
-[AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md)
-
-[Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-ai-agents-plugins.md)
-
-[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)
+[bundle-platai.na-ai-agents]
 

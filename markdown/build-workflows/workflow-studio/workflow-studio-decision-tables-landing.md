@@ -24,7 +24,7 @@ This video provides an example of creating a decision table from within a Workfl
 
 <table id="table_p4v_mvz_nyb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-decision-builder.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
 
 </td><td>
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/data-privacy-disc
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [Data Privacy, Data Discovery, anonymization, sensitive data, PII, Data Privacy, Data Discovery, anonymization, OCR, tokenization, PII detection]
 breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -49,18 +49,6 @@ See Data Privacy documentation and Data Discovery documentation for more informa
     -   For reversible tokenization: Cryptographic key management system configured with authorized roles defined for de-anonymization access.
     -   For bring your own PII detection: External PII service endpoint accessible with credentials securely stored.
     -   For granular findings storage: Sufficient database storage for storing individual record references; retention policies should be defined.
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   All user interface elements in Data Privacy and Data Discovery meet WCAG 2.1 Level AA standards for accessibility. The Store apps and all workflows are fully navigable by keyboard and compatible with screen readers including JAWS and NVDA.
-    -   Screen reader support includes proper ARIA labels for all UI components including policy configuration, findings inspection, and job management interfaces.
-    -   Color contrast ratios meet WCAG AA standards across all features and workflows.
-    -   For accessibility questions or to report accessibility issues, contact ServiceNow Support.
--   **Localization information**
-
-    All user-facing strings in Data Privacy and Data Discovery are localized for supported ServiceNow languages at general availability \(GA\). Supported languages include English, French, German, Spanish, Italian, Japanese, Portuguese, Chinese \(Simplified and Traditional\), and Korean. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
-
 
 ## Brazil Early Availability
 

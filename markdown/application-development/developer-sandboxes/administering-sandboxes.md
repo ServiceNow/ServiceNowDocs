@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
-breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Administering Developer Sandboxes

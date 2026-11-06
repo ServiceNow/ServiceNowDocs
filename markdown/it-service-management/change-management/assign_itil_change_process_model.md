@@ -19,7 +19,7 @@ Assign an ITIL change process to a change model so the ChangeRequest API uses th
 
 ## Before you begin
 
-Role required: `change_manager`
+Role required: change\_manager
 
 ## About this task
 
@@ -31,7 +31,7 @@ Define which change model represents the Normal, Standard, or Emergency ITIL cha
 
     Open an existing change model from the **Change Models** list, or create a change model by selecting **New** and entering a **Name**.
 
-2.  Complete the following field:
+2.  On the Change Model form, fill in the field.
 
     |Field|Description|
     |-----|-----------|

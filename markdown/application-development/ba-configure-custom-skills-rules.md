@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [custom skills, custom rules, build agent, configure, instructions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configure custom skills and rules

@@ -48,7 +48,7 @@ Role required: admin
 
 3.  On the Features to migrate from Agent Workspace page, for each feature, select the configurations and customizations to migrate.
 
-    For information about configurations and customizations that can be migrated, see [Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md).
+    For information about configurations and customizations that can be migrated, see [Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md).
 
 4.  Select **Next**.
 
@@ -78,8 +78,8 @@ Complete the post-migration tasks for each configuration or customization that y
 -   [Perform post-migration tasks for related list declarative form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-related-actions-aw-sow.md)
 -   [Perform post-migration tasks for field decorators form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-field-declarative-actions-aw-sow.md)
 
--   **[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
-Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+-   **[Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
+You can migrate several configurations and customizations related to ITSM Agent Workspace features to SOW for ITSM.
 
 **Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)
 

@@ -54,7 +54,11 @@ Role required: sn\_cwm.cwm\_user
 
     4.  Select the Update count icon \(\[Omitted image "cwm-icon-update-count.png"\] Alt text: Update count icon.\) to check the number of records that exist which match the filter criteria that you defined.
 
-        **Note:** Ensure that the number of records available for your filter criteria are not more than 100. You can change this number by default to 500 by working with your admin to update the system property **sn\_cwm.connect\_work\_import\_limit**.
+        **Note:**
+
+        Verify that the number of records available for your filter criteria aren't more than 100 for the first import. You can change this number by default to 500 by working with your admin to update the system property **sn\_cwm.connect\_work\_import\_limit**. During your first import, if the number of items are more than 500, the import throws an error and is not completed. However, on subsequent loads, you can pull data multiple times with no restrictions but can have up to only 1000 items on a board at a time.
+
+        The matching record count includes every item that meets your import conditions, but the board might display fewer items. Items can be hidden by ACLs or by board preferences. By default, a board shows only items that were updated in the last 90 days, and it can also hide completed items. To see items that match your conditions but aren't displayed, update the board preferences.
 
         \[Omitted image "cwm-connected-work-define.png"\] Alt text: Define conditions to connect records from other ServiceNow applications.
 
@@ -77,7 +81,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## What to do next
 
-To enable additional fields from any connected work table, change the form layout configuration for the Default view of the table. You can then surface these fields as columns in CWM. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+To enable additional fields from any connected work table, change the form layout configuration for the Default view of the table. You can then surface these fields as columns in CWM. For more information, see .
 
 **Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

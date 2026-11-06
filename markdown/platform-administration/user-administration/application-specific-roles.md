@@ -746,7 +746,7 @@ Reporting
 
 </td><td>
 
-[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting-roles.md)
+[Core UI Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting-roles.md)
 
 </td></tr><tr><td>
 

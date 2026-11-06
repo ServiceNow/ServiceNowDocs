@@ -122,7 +122,7 @@ Short description
 
 Brief description of the action such as what the action involves, how to implement the action, who it affects, and the action outcome.As you start entering the title for your action, the related actions that potentially match your action title appear.
 
- Click the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select a description from the list of predefined actions.
+ Select the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 

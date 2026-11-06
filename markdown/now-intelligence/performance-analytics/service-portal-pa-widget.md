@@ -42,7 +42,7 @@ Upgraded instances cannot automatically follow the rules introduced in Quebec be
 
 [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigureAPage.md)
 
-[Reports on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/service-portal-reporting-widget.md)
+[Core UI reports on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/service-portal-reporting-widget.md)
 
 [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_Widgets.md)
 

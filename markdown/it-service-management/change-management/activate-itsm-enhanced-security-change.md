@@ -20,7 +20,7 @@ Prevent unauthorized access to change-related tables using deny-unless ACLs by a
 
 Role required: admin
 
-**Note:** An admin can install and activate this plugin via support request.
+**Note:** A user with the admin role can install and activate this plugin through a support request.
 
 ## Procedure
 

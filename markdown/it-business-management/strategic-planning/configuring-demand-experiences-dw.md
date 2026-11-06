@@ -9,7 +9,7 @@ classification: strategic-planning
 topic_type: concept
 last_updated: "2026-10-06"
 reading_time_minutes: 1
-breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [EWD for demands, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Configuring demand experiences

@@ -15,13 +15,13 @@ breadcrumb: [Product Owner portal, Exploring AI Control Tower \(legacy\), AI Con
 
 # Business portfolio tab in AI Control Tower
 
-The Business portfolio tab on the AI Control Tower home page displays AI adoption trends across your business application portfolio.
+The **Business portfolio** tab on the AI Control Tower home page displays AI adoption trends across your business application portfolio.
 
-The Business portfolio tab is accessible from the AI Control Tower workspace home page.
+The **Business portfolio** tab is accessible from the AI Control Tower home page.
 
 ## Business portfolio widgets
 
-The Business portfolio tab displays the following widgets. You can drill down into the data on each widget.
+The **Business portfolio** tab displays the following widgets: You can view the underlying data for each widget.
 
 -   Business applications by AI system association: The total number of business applications, broken down into **Linked to AI systems** and **Not linked to AI systems**.
 -   AI systems by business application association: The total number of AI systems, broken down into **Linked to business applications** and **Not linked to business applications**.

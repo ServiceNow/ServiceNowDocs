@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 72
+reading_time_minutes: 73
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -373,7 +373,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -411,6 +411,24 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`: Business phone number.
+-   `email`: Email address.
+-   `homePhone`: Home phone number.
+-   `mobilePhone`: Mobile phone number.
+-   `postalAddress`: Address, handled separately as a location.
+-   `faxPhone`: Fax number.
+-   `phone`: Generic phone number, omitted in v1 responses.
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -437,22 +455,6 @@ Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.phoneNumber
 
 </td><td>
@@ -465,7 +467,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postcode of the individual.Data type: String
+Postal code of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -781,25 +783,25 @@ Response body for a Individual Contact party.
    "contactMedium": [
      {
        "preferred": false,
-       "mediumType": "email",
+       "contactType": "email",
        "emailAddress": "carlos.star@example.com",
        "@type": "EmailContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "businessPhone",
+       "contactType": "businessPhone",
        "phoneNumber": "",
        "@type": "BusinessPhoneContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "homePhone",
+       "contactType": "homePhone",
        "phoneNumber": "",
        "@type": "HomePhoneContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "mobilePhone",
+       "contactType": "mobilePhone",
        "phoneNumber": "",
        "@type": "MobilePhoneContactMedium"
      }
@@ -893,31 +895,31 @@ Response body for a Individual Consumer party.
    "contactMedium": [
      {
        "preferred": false,
-       "mediumType": "businessPhone",
+       "contactType": "businessPhone",
        "phoneNumber": "",
        "@type": "BusinessPhoneContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "homePhone",
+       "contactType": "homePhone",
        "phoneNumber": "",
        "@type": "HomePhoneContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "mobilePhone",
+       "contactType": "mobilePhone",
        "phoneNumber": "",
        "@type": "MobilePhoneContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "fax",
+       "contactType": "fax",
        "phoneNumber": "",
        "@type": "FaxContactMedium"
      },
      {
        "preferred": false,
-       "mediumType": "postalAddress",
+       "contactType": "postalAddress",
        "@type": "GeographicalAddressContactMedium",
        "city": "ygyg",
        "locationId": "a39bfc6953a46210132bddeeff7b12b7",
@@ -1098,7 +1100,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -1136,6 +1138,24 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`: Business phone number.
+-   `email`: Email address.
+-   `homePhone`: Home phone number.
+-   `mobilePhone`: Mobile phone number.
+-   `postalAddress`: Address, handled separately as a location.
+-   `faxPhone`: Fax number.
+-   `phone`: Generic phone number, omitted in v1 responses.
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -1162,22 +1182,6 @@ Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.phoneNumber
 
 </td><td>
@@ -1190,7 +1194,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postcode of the individual.Data type: String
+Postal code of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -1448,37 +1452,37 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "mediumType": "email",
+      "contactType": "email",
       "emailAddress": "john.doe18723@example.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "mobilePhone",
+      "contactType": "mobilePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "businessPhone",
+      "contactType": "businessPhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred":false,
-      "mediumType":"faxPhone",
+      "contactType":"faxPhone",
       "phoneNumber":"123456789",
       "@type":"FaxContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "homePhone",
+      "contactType": "homePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId":"25ab9e240a0a0bb3009eb9ef8dd0a2c0",
       "city": "Town",
@@ -1490,7 +1494,7 @@ Response body.
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId":"25aba17a0a0a0bb3007efd809d6e695c",
       "city": "Webster",
@@ -1586,7 +1590,7 @@ id
 
 </td><td>
 
-Sys\_id of the company or account record to retrieve.Table: Account \[customer\_account\] or Company \[csm\_company\]
+Sys\_id of the company or account record to retrieve.Table: Account \[customer\_account\]
 
 Data type: String
 
@@ -1767,6 +1771,23 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `faxPhone`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -1775,7 +1796,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAdress
+contactMedium.emailAddress
 
 </td><td>
 
@@ -1788,23 +1809,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   businessPhone
--   email
--   faxPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -2101,19 +2105,19 @@ Response body.
    "contactMedium": [
      {
        "preferred": "false",
-       "mediumType": "email",
+       "contactType": "email",
        "@type": "EmailContactMedium",
        "emailAddress": "user@servicenow.com"
      },
      {
        "preferred": "false",
-       "mediumType": "phone",
+       "contactType": "phone",
        "@type": "PhoneContactMedium",
        "phone": "(555) 555-5555"
      },
      {
        "preferred": "false",
-       "mediumType": "faxPhone",
+       "contactType": "faxPhone",
        "@type": "FaxPhoneContactMedium",
        "fax_phone": ""
      }
@@ -2426,7 +2430,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -2464,6 +2468,22 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -2485,22 +2505,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the party location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -2796,19 +2800,19 @@ Response body.
     "contactMedium": [
       {
         "preferred": "false",
-        "mediumType": "email",
+        "contactType": "email",
         "@type": "EmailContactMedium",
         "emailAddress": "user@email.com"
       },
       {
         "preferred": "false",
-        "mediumType": "phone",
+        "contactType": "phone",
         "@type": "PhoneContactMedium",
         "phone": "+1-555-555-5555"
       },
       {
         "preferred": "false",
-        "mediumType": "faxPhone",
+        "contactType": "faxPhone",
         "@type": "FaxPhoneContactMedium",
         "fax_phone": ""
       }
@@ -3029,7 +3033,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -3067,6 +3071,22 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -3088,22 +3108,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the party location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -3409,7 +3413,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -3447,6 +3451,24 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`: Business phone number.
+-   `email`: Email address.
+-   `homePhone`: Home phone number.
+-   `mobilePhone`: Mobile phone number.
+-   `postalAddress`: Address, handled separately as a location.
+-   `faxPhone`: Fax number.
+-   `phone`: Generic phone number, omitted in v1 responses.
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -3473,22 +3495,6 @@ Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.phoneNumber
 
 </td><td>
@@ -3501,7 +3507,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postcode of the individual.Data type: String
+Postal code of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -3755,25 +3761,25 @@ curl "http://localhost:8080/api/sn_tmf_api/v1/party/Individual/12345" \
   \"contactMedium\": [
     {
       \"preferred\": true,
-      \"mediumType\": \"email\",
+      \"contactType\": \"email\",
       \"emailAddress\": \"john.doe@gmail.com\",
       \"@type\": \"EmailContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"businessPhone\",
+      \"contactType\": \"businessPhone\",
       \"phoneNumber\": \"+1-202-555-0188\",
       \"@type\": \"PhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"homePhone\",
+      \"contactType\": \"homePhone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"HomePhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"postalAddress\",
+      \"contactType\": \"postalAddress\",
       \"@type\": \"GeographicAddressContactMedium\",
       \"locationId\":\"92656927259338967\",
       \"city\": \"Morristown\",
@@ -3875,37 +3881,37 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "mediumType": "email",
+      "contactType": "email",
       "emailAddress": "jane.smith@example.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "mobilePhone",
+      "contactType": "mobilePhone",
       "phoneNumber": "+1-416-555-1234",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "businessPhone",
+      "contactType": "businessPhone",
       "phoneNumber": "+1-416-555-5678",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "fax",
+      "contactType": "fax",
       "fax": "987654321",
       "@type": "FaxContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "homePhone",
+      "contactType": "homePhone",
       "phoneNumber": "+1-416-555-4321",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId": "03e588a17be062105e0d5494548cb68c",
       "city": "Toronto",
@@ -4122,7 +4128,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAdress
+contactMedium.emailAddress
 
 </td><td>
 
@@ -4659,6 +4665,23 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `faxPhone`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -4667,7 +4690,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAdress
+contactMedium.emailAddress
 
 </td><td>
 
@@ -4680,23 +4703,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   businessPhone
--   email
--   faxPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -4987,31 +4993,31 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   \"contactMedium\": [
     {
       \"preferred\": true,
-      \"mediumType\": \"email\",
+      \"contactType\": \"email\",
       \"emailAddress\": \"athammhd@email.com\",
       \"@type\": \"EmailContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"phone\",
+      \"contactType\": \"phone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"PhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"businessPhone\",
+      \"contactType\": \"businessPhone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"BusinessPhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"homePhone\",
+      \"contactType\": \"homePhone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"HomePhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"mediumType\": \"postalAddress\",
+      \"contactType\": \"postalAddress\",
       \"validFor\": {
         \"startDateTime\": \"2017-03-15T07:49:25.246Z\"
       },
@@ -5185,31 +5191,31 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "mediumType": "email",
+      "contactType": "email",
       "emailAddress": "athammhd@email.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "phone",
+      "contactType": "phone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "businessPhone",
+      "contactType": "businessPhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "homePhone",
+      "contactType": "homePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "validFor": {
         "startDateTime": "2017-03-15T07:49:25.246Z"
       },
@@ -5444,7 +5450,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -5482,6 +5488,22 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -5503,22 +5525,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the party location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 
@@ -5824,7 +5830,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "mediumType": "String",
+  "contactType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -5862,6 +5868,24 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   `businessPhone`: Business phone number.
+-   `email`: Email address.
+-   `homePhone`: Home phone number.
+-   `mobilePhone`: Mobile phone number.
+-   `postalAddress`: Address, handled separately as a location.
+-   `faxPhone`: Fax number.
+-   `phone`: Generic phone number, omitted in v1 responses.
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -5888,22 +5912,6 @@ Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   email
--   businessPhone
--   homePhone
--   mobilePhone
--   postalAddress
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.phoneNumber
 
 </td><td>
@@ -5916,7 +5924,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postcode of the individual.Data type: String
+Postal code of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -6171,37 +6179,37 @@ curl "http://instance.servicenow.com/api/sn_tmf_api/v1/party/individual" \
     \"contactMedium\": [
       {
         \"preferred\": true,
-        \"mediumType\": \"email\",
+        \"contactType\": \"email\",
         \"emailAddress\": \"jane.smith@example.com\",
         \"@type\": \"EmailContactMedium\"
       },
       {
         \"preferred\": false,
-        \"mediumType\": \"mobilePhone\",
+        \"contactType\": \"mobilePhone\",
         \"phoneNumber\": \"+1-416-555-1234\",
         \"@type\": \"PhoneContactMedium\"
       },
       {
         \"preferred\": false,
-        \"mediumType\": \"businessPhone\",
+        \"contactType\": \"businessPhone\",
         \"phoneNumber\": \"+1-416-555-5678\",
         \"@type\": \"BusinessPhoneContactMedium\"
       },
       {
         \"preferred\": false,
-        \"mediumType\": \"fax\",
+        \"contactType\": \"fax\",
         \"fax\": \"987654321\",
         \"@type\": \"FaxContactMedium\"
       },
       {
         \"preferred\": false,
-        \"mediumType\": \"homePhone\",
+        \"contactType\": \"homePhone\",
         \"phoneNumber\": \"+1-416-555-4321\",
         \"@type\": \"HomePhoneContactMedium\"
       },
       {
         \"preferred\": false,
-        \"mediumType\": \"postalAddress\",
+        \"contactType\": \"postalAddress\",
         \"@type\": \"GeographicAddressContactMedium\",
         \"locationId\": \"12345678901234567\",
         \"city\": \"Toronto\",
@@ -6298,37 +6306,37 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "mediumType": "email",
+      "contactType": "email",
       "emailAddress": "jane.smith@example.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "mobilePhone",
+      "contactType": "mobilePhone",
       "phoneNumber": "+1-416-555-1234",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "businessPhone",
+      "contactType": "businessPhone",
       "phoneNumber": "+1-416-555-5678",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "fax",
+      "contactType": "fax",
       "fax": "987654321",
       "@type": "FaxContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "homePhone",
+      "contactType": "homePhone",
       "phoneNumber": "+1-416-555-4321",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "mediumType": "postalAddress",
+      "contactType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId": "03e588a17be062105e0d5494548cb68c",
       "city": "Toronto",
@@ -6612,7 +6620,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAdress
+contactMedium.emailAddress
 
 </td><td>
 
@@ -7167,6 +7175,23 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.contactType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   `businessPhone`
+-   `email`
+-   `faxPhone`
+-   `homePhone`
+-   `mobilePhone`
+-   `postalAddress`
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.country
 
 </td><td>
@@ -7175,7 +7200,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAdress
+contactMedium.emailAddress
 
 </td><td>
 
@@ -7188,23 +7213,6 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-contactMedium.mediumType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   businessPhone
--   email
--   faxPhone
--   homePhone
--   mobilePhone
--   postalAddress
 
 Data type: String
 

@@ -102,15 +102,15 @@ Option to enable or disable SSL for the connection. When **Enabled**, additional
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Microsoft SQL Server.
 
-<table id="choicetable_sqlserver_auth"><thead><tr><th align="left" id="d142269e267">
+<table id="choicetable_sqlserver_auth"><thead><tr><th align="left" id="d141767e267">
 
 Option
 
-</th><th align="left" id="d142269e270">
+</th><th align="left" id="d141767e270">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d142269e276">
+</th></tr></thead><tbody><tr><td id="d141767e276">
 
 **Basic**
 
@@ -122,7 +122,7 @@ Option to use a Microsoft SQL Server login username and password. Compatible wit
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d142269e297">
+</td></tr><tr><td id="d141767e297">
 
 **OAuth**
 

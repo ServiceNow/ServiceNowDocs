@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activat
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Activate, Now Assist, ServiceNow, Otto, panel, skills, admin, experiences]
-breadcrumb: [Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate the ServiceNow Otto panel standard chat
@@ -37,6 +37,8 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 
 3.  Select **Turn On**.
 
+    **Note:** If **Turn On** is unavailable, verify that at least one ServiceNow Otto application is installed on your instance and that you have the sn\_generative\_ai.nsa\_admin role. If you have the role but **Turn On** remains unavailable, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
+
     \[Omitted image "config-now-assist-2.png"\] Alt text: On the Settings tab, select ServiceNow Otto panel, and then select Turn on.
 
 4.  In the Turn on ServiceNow Otto Panel dialog box, select **Turn on**.
@@ -57,5 +59,5 @@ For examples of the ServiceNow Otto panel in action for ServiceNow Otto applicat
 -   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/summarize-an-issue.md)
 -   [Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/gen-kb-now-assisthr.md)
 
-**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

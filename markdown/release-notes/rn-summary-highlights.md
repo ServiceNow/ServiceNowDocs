@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-highlights.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 77
+last_updated: "2026-11-04"
+reading_time_minutes: 83
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -35,10 +35,12 @@ AI Admin Center
 -   Get started right away with guided quick-start use cases that appear as actionable cards on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
 -   Automated assessment of your instance readiness helps you prepare for AI adoption. The readiness assessment enables you to assess whether updates, installations, or customizations on your instance could affect AI implementation. It helps you to identify configuration gaps, view actionable insights, measure readiness over time.
 -   Analyze your instance data to identify automation opportunities that provide the greatest efficiency gains. View and activate prebuilt AI agents that match the opportunities, or create and deploy new AI agents for them.
--   Use the ServiceNow Otto conversational experience to perform admin tasks, set up AI solutions, troubleshoot common issues, and get guided help.
+-   Use the ServiceNow Otto conversational experience to perform admin tasks, set up AI solutions, troubleshootand resolve common issues, and get guided help.
 -   Review and evaluate the readiness of your instance for AI adoption and instance upgrades.
 
 See [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -46,9 +48,11 @@ AI Admin Hub
 
 </td><td>
 
-Get started right away with guided quick-start use cases that appear as actionable cards on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
+Starting from the Brazil release, AI Admin Hub is being prepared for future deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md).
 
-See [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information.
+See the following sections and [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -61,6 +65,8 @@ AI Agent Advisor
 -   Create and deploy new AI agents to implement automation opportunities.
 
 See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -114,6 +120,18 @@ See [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 </td></tr><tr><td>
 
+AI Cost Management
+
+</td><td>
+
+-   Track, maintain, and optimize spend across your AI accounts.
+-   Automatically retrieve and process usage and cost data for your AI accounts through supported provider integrations.
+-   Stay ahead of potential AI budget overages through configurable spend limits and alerts.
+
+See [AI Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/ai-cost-management.md) for more information.
+
+</td></tr><tr><td>
+
 AI Desktop Actions
 
 </td><td>
@@ -123,7 +141,7 @@ AI Desktop Actions
 -   Detect errors during execution and recover by evaluating context and trying alternative approaches.
 -   Let AI agents process instructions and generate execution plans autonomously or semi-autonomously, reducing manual setup for repetitive tasks.
 
-See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -135,9 +153,56 @@ AI Risk and Compliance
 -   Centralize regulatory risk assessments, impact assessments, issue tracking, and remediation in a single workspace.
 -   Manage risk and compliance scores for AI assets throughout their life cycle with workflows for ongoing oversight and risk management.
 -   Manage conformity of AI assets with global regulations and frameworks.
--   Identify and address potential impacts on privacy, non- discrimination, and other human rights.
+-   Identify and address potential impacts on privacy, non-discrimination, and other human rights.
 
-See [September 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-airc-rn.md) for more information.
+See [September 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-ai-risk-and-compliance-rn.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   Index and search text and attachments from ServiceNow AI Platform tables and external document repositories.
+-   Machine learning relevancy intelligently tunes search result relevancy scores based on previous search users' selections.
+-   Semantic vector search and hybrid search modes find results that match the intent and context of your search.
+-   Genius Results highlight the best answers for a search query and provide immediate access to relevant actions.
+-   Content security preserves user access permissions for your searchable content.
+
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md) for more information.
+
+</td></tr><tr><td>
+
+AI Workflow Factory Prime
+
+</td><td>
+
+-   Discover how processes work in your ServiceNow ecosystem using process and task mining, AI-driven process insights, and Automation Center.
+-   Build and edit applications with agentic AI development tools such as Build Agent, Autonomous Engineer, and Developer Sandboxes.
+-   Deploy, run, and govern custom applications at-scale with unlimited table capacity, embedded AI agents, centralized management for developers and apps, and faster query performance.
+-   Extend your platform's automation to the desktop, so that AI agents and actions can carry work across applications, browsers, email, and systems on behalf of employees.
+
+See [AI Workflow Factory Prime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ai-workflow-factory-prime.md) for more information.
+
+</td></tr><tr><td>
+
+AIOps AI Specialist
+
+</td><td>
+
+-   The AIOps AI Specialist triages incoming alerts, finds the root cause, assesses service impact, and surfaces remediation options without waiting for an operator to start the process.
+-   The AIOps AI Specialist deflects insignificant or noise alerts so your team's queue stays focused on alerts that matter.
+-   Operators make the final decisions. The AIOps specialist does not make autonomous changes to your environment, and every remediation action requires an operator to activate it.
+-   The AIOps AI Specialist is onboarded like a human operator, with a name, a team assignment, and the Operator role. Its activity appears on the dashboard alongside your human operators.
+-   Supervisors can monitor alert activity, review alerts closed by the AIOps AI Specialist, and track AI efficiency from the AIOps home page and the AI supervising tab.
+
+For detailed information, see the following documentation:
+
+-   [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-workforce.md)
+-   [AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-ai-specialist.md)
+-   [ITOM AIOps specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-specialists.md)
 
 </td></tr><tr><td>
 
@@ -200,6 +265,8 @@ Accounts Payable Operations
 
 For an overview of Accounts Payable Operations capabilities, see [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/acc-pay-mgmt-landing-page.md).
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Advanced AI Search Management Tools
@@ -214,6 +281,20 @@ See [Platform Analytics Solution for Advanced AI Search Management Tools](https:
 
 </td></tr><tr><td>
 
+Advanced Risk
+
+</td><td>
+
+-   Introduces a rollup method that derives all risk scores from a single risk record based on the highest residual risk, improving traceability and alignment.
+-   Eliminate inconsistent risk assessment inputs by allowing administrators to hide the Not applicable option in control and residual assessments, improving calculation accuracy and reliability.
+-   Assign risk event owners, issue owners, and risk event approvers based on entity fields, in addition to static user or group selection.
+-   Use the Risk Suggestion AI Agent to refine and confirm risks, by providing additional context and reviewing, updating, renaming, or removing suggested risks before they're added.
+-   Use a structured workflow to draft, review, and approve control objective updates before making them active.
+
+See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/advanced-risk-assessment.md) for more information.
+
+</td></tr><tr><td>
+
 Agent Chat
 
 </td><td>
@@ -223,18 +304,6 @@ Agent Chat
 -   AI-powered responses and automation handle routine inquiries, freeing agents to focus on complex, high-value interactions and improving overall productivity and job satisfaction.
 
 See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-use-agent-chat.md) for more information.
-
-</td></tr><tr><td>
-
-Agent Client Collector
-
-</td><td>
-
--   Monitor the performance and health of your infrastructure components.
--   Enable proactive management and troubleshooting of Configuration Items \(CIs\).
--   Identify characteristics of components running on your servers, as an alternative to horizontal, IP-based Discovery.
-
-See [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -300,6 +369,8 @@ Asset Audit Response
 
 See [Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audit-response.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Audit Management
@@ -318,7 +389,7 @@ Authentication
 </td><td>
 
 -   Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details.
--   Simplify the login experience by crafting login policies that present relevant methods based on user context with the Policy-based experience - Identifier-first login experience.
+-   Simplify the login experience by creating identifier-first login policies that present relevant methods based on user context with the policy-based login experience.
 -   Act before SSO is disrupted with home page banner alerts when SAML SP signing or encryption keystores are nearing or past expiry.
 -   Authenticate callers in AI voice agent sessions using a one-time passcode delivered to a registered email address, as a standalone, primary, or secondary factor.
 -   Connect ServiceNow to Microsoft Azure and Google Cloud Platform without storing or rotating client secrets, using federated identity based on signed JWTs.
@@ -575,6 +646,8 @@ Contract Management Pro MCP Server
 
 See [Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cmpro-negotiation-mcp.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Core Business Suite
@@ -706,6 +779,18 @@ See Data Privacy documentation and Data Discovery documentation for more informa
 
 </td></tr><tr><td>
 
+Decision tables
+
+</td><td>
+
+-   Create decision tables that evaluate data from existing ServiceNow® records, external data sources, or data provided at runtime.
+-   Build rules with condition columns and multiple result columns.
+-   Reference decision tables in code snippets, flows, subflows, and playbooks.
+
+See [Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-decision-tables-landing.md) for more information.
+
+</td></tr><tr><td>
+
 DevOps Change Velocity
 
 </td><td>
@@ -740,7 +825,7 @@ Digital End-User Experience
 -   With the DEX Desktop Assistant, you can troubleshoot local applications, use Virtual Agent, run network tests, and contact IT support. Admins can send alerts to your Desktop Assistant.
 -   DEX includes DEX Application and Device Health, DEX Content Playbook, and DEX Desktop Assistant. Application and Device Health provides end-to-end visibility into applications, networks, and devices, regardless of location.
 
-See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dex-landing-cf.md) for more information.
+See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dex-landing-cf.md) for more information.
 
 </td></tr><tr><td>
 
@@ -932,6 +1017,8 @@ Enterprise Asset Management
 
 See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Event Management
@@ -1076,7 +1163,7 @@ Goal Framework for SPM
 -   Align work items to goals and targets, and automate actual value updates by configuring target sources, ensuring real-time progress tracking without manual updates.
 -   Set target breakdowns at daily, weekly, monthly, quarterly, or yearly intervals. Distribute the final target value cumulatively or non-cumulatively across the defined time duration.
 
-See [Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework.md) for more information.
+See [Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1439,6 +1526,19 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 </td></tr><tr><td>
 
+Next Experience
+
+</td><td>
+
+-   Increase productivity by accessing app shell items, including menus, notifications, and search, from one unified navigation pane, no matter which application you’re in.
+-   Find your favorite pages quickly by organizing them into folders, and pin navigation menus to keep the ones you use most within reach.
+-   Start each day with the information you need by using role-specific landing pages that bring your tasks and analytics into one location.
+-   Switch easily between classic environment applications and configurable workspaces.
+
+See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+
+</td></tr><tr><td>
+
 Next Experience Components
 
 </td><td>
@@ -1531,6 +1631,8 @@ Operational Technology Setup
 
 See [Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-setup-landing.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Opportunity Management
@@ -1560,6 +1662,19 @@ Order Management
 -   Enable post-sale support and drive customer satisfaction by effectively managing customer requests for disconnecting, suspending, or resuming products or services.
 
 See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md) for more information.
+
+</td></tr><tr><td>
+
+Partner Passport Portal
+
+</td><td>
+
+-   Purchase partner applications directly from your instance using committed fabric credits, without a separate procurement process.
+-   Set up access to Boomi, a low-code integration platform as a service \(iPaaS\), and purchase Boomi plans using your fabric credits.
+-   View your fabric credit balance, including available credits, total entitled credits, and the reset date.
+-   Review every purchase made on the instance in the purchase log.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2079,11 +2194,11 @@ See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/Se
 
 </td></tr><tr><td>
 
-ServiceNow Cowork
+ServiceNow Arc
 
 </td><td>
 
-See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+See [ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cowork-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2102,6 +2217,18 @@ See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Cloud Cost Management \(CCM\)
+
+</td><td>
+
+-   Automate repetitive cost optimization tasks and reduce workload on cloud cost managers.
+-   Analyze cloud spend trends using an AI-powered summarization.
+-   Optimize cloud costs using recommendations to reduce unnecessary spending.
+
+See [AI in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/ai-ccm.md) for more information.
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Contract Management Pro
 
 </td><td>
@@ -2113,6 +2240,8 @@ ServiceNow Otto for Contract Management Pro
 -   Review contract documents in external AI tools using organizational playbook guidance from . AI-proposed redlines follow approved playbooks rather than general guidance.
 
 See [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-exp-now-assist-land.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2126,6 +2255,8 @@ ServiceNow Otto for Hardware Asset Management \(HAM\)
 
 See [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-ham.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 ServiceNow Otto for IT Service Management \(ITSM\)
@@ -2135,6 +2266,8 @@ ServiceNow Otto for IT Service Management \(ITSM\)
 -   Accelerate incident resolution by using agentic AI workflows that autonomously triage, categorize, investigate, and resolve ITSM incidents, reducing manual effort for service desk agents.
 -   Boost agent productivity with generative AI skills that summarize incidents, chat interactions, and change requests, and automatically generate resolution notes and knowledge articles.
 -   Extend AI-driven automation across Change Management, Incident Management, and Digital End-User Experience with purpose-built AI agents and agentic workflows.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 See [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm.md) for more information.
 
@@ -2151,6 +2284,20 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+-   Automatically match software entitlements to installations and usage data, and flag over-deployment and unused licenses so asset managers aren’t reconciling spreadsheets by hand.
+-   Route license requests, installs, and upgrades to the right approvers and fulfillment steps, cutting response and provisioning time for employees.
+-   Link publishers, contracts, entitlements, and install records into one view, then use AI analysis to flag renewal risks, shelfware, and reclaim opportunities.
+
+See [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-sam.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Virtual Agent
 
 </td><td>
@@ -2160,6 +2307,8 @@ ServiceNow Otto for Virtual Agent
 -   Seamlessly transfer the entire conversation history and context to the right human agent so they can quickly address any escalations and resolve user issues.
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2209,6 +2358,8 @@ ServiceNow Vault
 
 See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/servicenow-vault-landing.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Smart Assessment Engine
@@ -2231,6 +2382,8 @@ Software Asset Management
 
 See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Sourcing and Procurement Operations
@@ -2244,6 +2397,8 @@ Sourcing and Procurement Operations
 -   Assess spend, operational efficiency, and team performance using pre-configured dashboards and metrics.
 
 For an overview of Sourcing and Procurement Operations capabilities, see [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/psm-overview.md).
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 </td></tr><tr><td>
 
@@ -2295,6 +2450,8 @@ Supplier Lifecycle Operations enables you to onboard suppliers quickly, effortle
 
 For an overview of Supplier Lifecycle Operations capabilities, see [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/supp-mgmt-landing-page.md).
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 </td></tr><tr><td>
 
 Synthetic Monitoring
@@ -2315,9 +2472,24 @@ System Localization
 
 -   Accommodate users in multiple countries, using different languages and currencies, within the same instance.
 -   Adapt your instance to a specific region or locale without impacting functionality.
+-   Adjust settings such as the display format for dates and times to align with regional expectations.
 -   Localize your instance using one or more of the default language packs provided. If your target language is not provided by default, you can create your own translations of UI text.
 
 See [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization-landing.md) for more information.
+
+</td></tr><tr><td>
+
+Table Builder
+
+</td><td>
+
+-   Build your app’s tables, forms, and display logic from one place, without switching between separate tools.
+-   Edit table structure and records together in one view, so you can see how data changes as you build.
+-   Bring existing data into your app by importing it from a spreadsheet into a new or existing table.
+-   Connect your data by adding reference fields that relate one table to another.
+-   Control who can access your data by configuring table permissions as you build.
+
+See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/tb-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2453,8 +2625,10 @@ Zero Copy Connector for ERP
 
 </td><td>
 
--   Add Workday RaaS reports to read operations by pasting a sample report response.
--   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Retrieve and update data from an ERP system, such as SAP, SuccessFactors, Workday, or Oracle E-Business Suite.
+-   Create models that include ERP system data in remote tables and extraction tables.
+-   Use extracted and transformed data to build applications that access the models.
+-   Accelerate application development with Zero Copy Connector for ERP content packs that contain predefined models and process extensions.
 
 See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md) for more information.
 

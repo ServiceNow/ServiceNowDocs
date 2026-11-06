@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Solution configurations, CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [Solution configurations, ServiceNow CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Field mapping in solution configuration

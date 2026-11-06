@@ -30,12 +30,6 @@ The following attributes in the Kafka Topic \[cmdb\_ci\_appl\_kafka\_topic\] tab
 |Topic Id|topic\_id|
 |Life Cycle Stage Status|life\_cycle\_stage\_status|
 
-## Confluent Organization \[cmdb\_ci\_confluent\_organization\]
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|cmdb\_ci\_confluent\_organization|Contains::Contained by|cmdb\_ci\_confluent\_env|
-
 ## Confluent Environment \[cmdb\_ci\_confluent\_env\]
 
 The following attributes in the Confluent Environment \[cmdb\_ci\_confluent\_env\] table are populated by collected data:

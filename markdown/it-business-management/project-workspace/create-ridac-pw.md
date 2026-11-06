@@ -43,7 +43,7 @@ Use RIDAC by Type page to focus on specific RIDAC record types. Each tab display
 
 4.  Select **New** to create a risk, issue, decision, action, or change request.
 
-    You can personalize fields that you want to display on RIDAC list using more actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: more action icons.\) menu. You can apply advanced filters, sort, or group by fields to the RIDAC list.
+    You can personalize fields that you want to display on RIDAC list using more actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: more action icons.\) menu. You can apply advanced filters, sort, or group by fields to the RIDAC list. To filter the list, enter a value in the filter row below a column header. The condition is added next to the fixed filter conditions above the list.
 
 5.  On the form, fill in the fields.
 

@@ -7,7 +7,7 @@ release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Default alerting policy for sensitive data entry, Default data privacy configurations, Data Privacy, Platform Privacy]
 ---

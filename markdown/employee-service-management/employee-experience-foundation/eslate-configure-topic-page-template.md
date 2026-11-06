@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 2
 keywords: [topic page template, Employee Slate, apply to children, default topic template]
-breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Assign a custom topic page template

@@ -26,7 +26,9 @@ Enterprise asset classes have a one to one mapping to product model classes and 
 
 There are two kinds of assets: consumable assets and serialized assets. Consumable assets don’t have an asset tag or a serial number.
 
-**Note:** This topic provides details on how to create enterprise, construction, facility, industrial, medical, retail, tactical equipment, transportation, and wearable assets. For details on how to create pallet assets, see [Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md).
+**Note:** This topic provides details on how to create enterprise assets, such as construction, facility, and medical assets. For details on how to create pallet assets, see [Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md).
+
+In addition, this topic provides details on how to create individual enterprise assets. For details on how to create multiple enterprise assets in one go, see [Bulk import of your enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md).
 
 -   **Unique identifiers for assets**
 

@@ -17,7 +17,7 @@ Deploy a matched AI agent or a new agent to automate a resolution for an identif
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -55,19 +55,19 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
 4.  Expand the **Resolution steps** section to review and edit the steps for accuracy and completeness in planning your AI agent.
 
-5.  Choose whether the AI agent will communicate as a **Chat Agent** or **Voice Agent**.
+    1.  Choose whether the AI agent will communicate as a **Chat Agent** or **Voice Agent**.
 
-6.  Select **View all steps and tools** to see all the resolution steps.
+    2.  Select **View all steps and tools** to see all the resolution steps.
 
-    The **Resolution steps** screen shows the implementation steps and the matched AI tools for each step.
+        The **Resolution steps** screen shows the implementation steps and the matched AI tools for each step.
 
-7.  When the steps are ready to implement for a custom AI agent, select **Build in AI Agent Studio**.
+5.  When the steps are ready to implement for a custom AI agent, select **Build in AI Agent Studio**.
 
     For an opportunity that has a matching prebuilt AI agent, select **Manage in AI Agent Studio**.
 
     AI Agent Studio opens.
 
-8.  Complete the development of the AI agent using AI Agent Studio capabilities.
+6.  Complete the development of the AI agent using AI Agent Studio capabilities.
 
     The resolution steps are mapped to the set of instructions and added as tools for the AI agent.
 

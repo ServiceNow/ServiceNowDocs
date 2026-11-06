@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [OIDC provider configuration, OAuth protected resource, MCP Server, reference]
 breadcrumb: [External authorization servers for the ServiceNow MCP Server, Authentication, Access Management]
@@ -28,9 +28,9 @@ Reference for the fields on the OIDC Provider Configuration and OAuth Protected 
 |Enable JTI claim verification|When selected, the instance verifies the JTI claim on incoming tokens.|
 |JTI Claim|The name of the token claim that carries the JTI value.|
 |OIDC Configuration Cache Life Span|How long the instance caches the provider's OIDC metadata.|
-|SSO Only||
+|SSO Only| |
 |User Claim|The token claim used to identify the user.|
-|User Field|The ServiceNow user field that the User Claim value is matched against. In the demo, this was set to email.|
+|User Field|The ServiceNow user field that the User Claim value is matched against. For example, this is set to email.|
 
 ## OAuth Protected Resource fields
 
@@ -42,8 +42,8 @@ Reference for the fields on the OIDC Provider Configuration and OAuth Protected 
 |Application|The application scope the resource belongs to.|
 |Allowed Glide APIs|The Glide APIs an authenticated client is allowed to call for this resource.|
 |Allow Glide as Authorization Server|When selected, the ServiceNow authorization server can also issue tokens for this resource, and any registered external authorization servers.|
-|Allowed Services||
-|Bearer Methods Supported|How the bearer token is presented on a request. In the demo, this was set to header.|
+|Allowed Services| |
+|Bearer Methods Supported|How the bearer token is presented on a request. For example, this is set to header.|
 |Scopes Supported|The scopes advertised for the resource in the Protected Resource Metadata.|
 |Domain|The domain the resource record belongs to.|
 

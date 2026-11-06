@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-28"
 reading_time_minutes: 1
 keywords: [smart assessment template override, DemandSmartAssessmentUtils, change assessment template]
-breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Assess demands with smart assessments, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Use a custom smart assessment template for demands
@@ -19,7 +19,7 @@ Point the automatic demand to smart assessment trigger at a custom template by o
 
 ## Before you begin
 
-A custom assessment template is created. For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/sae-asmnt-template-create.md)
+A custom assessment template is created. For more information, see 
 
 Role required: admin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-decisionbuilderinworkflowstudio-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -99,18 +99,7 @@ Yokohama
 
 </td><td>
 
--   **[Filter decision tables](https://www.servicenow.com/docs/access?context=filtering-overview&family=yokohama&ft:locale=en-US)**
-
-Apply filters to both condition and result column values in decision tables. Once filters are applied, only the relevant decisions are displayed, making it easier to refer or edit large tables.
-
--   **[Use enhanced reference record](https://www.servicenow.com/docs/access?context=using-enhanced-reference-record&family=yokohama&ft:locale=en-US)**
-
-When choosing a reference value as a condition or result, a new lookup icon enables you to select the reference record from the default list view. Additionally, you can preview the selected reference record by selecting the info icon.
-
--   **[Set rows active or inactive](https://www.servicenow.com/docs/access?context=set-active-inactive-rows&family=yokohama&ft:locale=en-US)**
-
-Turn the rows on or off. Activating a row includes its data while executing a decision table, while deactivating a row excludes it. This feature helps you to temporarily use or skip conditions without deleting them.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -163,10 +152,7 @@ Yokohama
 
 </td><td>
 
--   **[Pagination](https://www.servicenow.com/docs/access?context=decision-builder-user-interface&family=yokohama&ft:locale=en-US)**
-
-Use the pagination feature to switch between pages by selecting the page you'd like to see.
-
+No updates for this release.
 
 </td></tr><tr><td>
 

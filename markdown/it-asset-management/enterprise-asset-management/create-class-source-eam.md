@@ -20,7 +20,7 @@ Create a source that you can then assign to classification codes.
 
 A source is a system of classification for a particular industry. For more details on sources, see [Model classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/classification-codes.md).
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 

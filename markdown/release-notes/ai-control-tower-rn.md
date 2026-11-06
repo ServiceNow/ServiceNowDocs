@@ -1,12 +1,12 @@
 ---
 title: AI Control Tower release notes
-description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.The Brazil Early Availability 2 release adds improvements for policy management, improved monitoring visualizations, and more.The Brazil Early Availability release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.
+description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.The Brazil Patch 2 release adds improvements for policy management, security, discovery, and client-based access controls for AI Gateway.The Brazil Patch 1 release adds improvements for policy management, improved monitoring visualizations, and more.The Brazil Early Availability release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/ai-control-tower-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 13
+reading_time_minutes: 16
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -36,6 +36,8 @@ See [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
 
 
+**Important:** AI Risk and Compliance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
+
 ## Accessibility and localization
 
 -   **Accessibility information**
@@ -47,9 +49,49 @@ See [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/intelligent-experiences-rn-landing.md)
 
-## Brazil Early Availability 2
+## Brazil Patch 2
 
-The Brazil Early Availability 2 release adds improvements for policy management, improved monitoring visualizations, and more.
+The Brazil Patch 2 release adds improvements for policy management, security, discovery, and client-based access controls for AI Gateway.
+
+### What's new
+
+-   **[ServiceNow Arc policy management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)**
+
+    Create policies and rules that control ServiceNow Arc usage.
+
+-   **[AI Gateway client-based access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gw-controlling-client-access.md)**
+
+    Create client access policies that grant each MCP client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
+
+-   **[Security settings usability improvements and AI usage consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)**
+
+    Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
+
+-   **[Agent containment list filter and rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
+
+    Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
+
+-   **[Post-runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
+
+
+### What's deprecated or removed
+
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+    Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or have customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+    For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Prompt injection settings removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+
+
+## Brazil Patch 1
+
+The Brazil Patch 1 release adds improvements for policy management, improved monitoring visualizations, and more.
 
 ### What's new
 
@@ -95,6 +137,36 @@ The Brazil Early Availability 2 release adds improvements for policy management,
 
     Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
 
+-   **[AI Connector for Amazon](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074844)**
+
+    A new source system **Amazon Quick** has been added to the AI Connector for Amazon.
+
+-   **[AI Connector for Anthropic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147725)**
+
+    Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+    The October version of the connector supports MID Server.
+
+-   **[AI Connector for Salesforce](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074918)**
+
+    Establish a sever-to-server integration without manual intervention with JWT connection.
+
+-   **[AI Connector for OpenAI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147723)**
+
+    Configure mTLS certificate-based authentication besides the API Key for better security.
+
+    The October version of the connector supports X.509 certificate creation.
+
+-   **[AI Connector for Microsoft - Copilot Lite](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074871)**
+
+    You can n w discover AI agents from Copilot Lite \(Builder Agent\) following a set of prerequisites on the Microsoft Entra admin center.
+
+-   **[AI Connector for Google Enterprise - Agent Platform](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074877)**
+
+    Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+    The October version of the connector supports MID Server.
+
 
 ### What's changed
 
@@ -128,6 +200,10 @@ The Brazil Early Availability 2 release adds improvements for policy management,
 -   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
 
     The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **[Data integrity incident detection categories removed from external AI setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    All categories are removed. For example, Guardrail Circumvention Attempt and Untrusted Links and Downloads are unavailable in the external AI setting.
 
 
 ## Brazil Early Availability
@@ -245,7 +321,7 @@ The Brazil Early Availability release adds support for domain separation, polici
 
     Date and time values in the Security tab — including the agent containment list, the Overview tab's Dormant AI agents and Privileged AI agents details, and the Post-runtime tab's security events — are now shown in Coordinated Universal Time \(UTC\) rather than your local timezone.
 
--   **[AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)**
+-   **[AI Gateway settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)**
 
     Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
 
@@ -293,6 +369,12 @@ The Brazil Early Availability release adds support for domain separation, polici
 -   **[Findings by severity metric removed from Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
 
     The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
+
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+    The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+    For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
 ### Plugin information

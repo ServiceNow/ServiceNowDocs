@@ -150,7 +150,7 @@ Help your bot better understand a user's intent. For details, see [\(Legacy\) Ad
 
 </td><td>
 
-[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md)
+[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 
 </td><td>
 

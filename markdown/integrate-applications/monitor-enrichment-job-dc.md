@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/monitor-
 release: brazil
 topic_type: task
 last_updated: "2026-09-17"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [enrichment job, monitor, Data Catalog, AI metadata]
 breadcrumb: [Enriching data assets with AI, Metadata enrichment with ServiceNow Otto, Data Catalog, Workflow Data Fabric]
 ---
@@ -25,7 +25,7 @@ The Metadata Enrichment workspace provides a consolidated view of all enrichment
 
 A bulk enrichment job has already been submitted from either ServiceNow Otto or Data Catalog. See [Bulk-enrich assets with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/bulk-enrich-assets-otto-dc.md) or [Bulk-enrich assets from the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/bulk-enrich-assets-data-catalog-dc.md).
 
-Role required: df\_data\_steward
+Role required: df\_data\_steward, now\_assist\_panel\_user, and wdf\_operator
 
 ## Procedure
 
@@ -46,6 +46,8 @@ Role required: df\_data\_steward
 ## Result
 
 The job's detail view opens, listing every processed asset and field. To act on the suggestions, see [Review and publish suggested metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/review-publish-ai-metadata-dc.md).
+
+If you don't receive an email notification when a job finishes, verify that email notifications are configured correctly for your instance. Contact your administrator to confirm that outbound email is enabled and that your user profile includes a valid email address. For configuration details, see [Metadata enrichment prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ai-enrichment-prerequisites-dc.md).
 
 **Parent Topic:**[Enriching data assets with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/enrich-data-assets-ai-dc.md)
 

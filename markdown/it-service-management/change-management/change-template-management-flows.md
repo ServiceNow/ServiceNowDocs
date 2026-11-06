@@ -18,13 +18,13 @@ Change template management flows trigger and manage steps for the template propo
 
 Administrators can configure flows to trigger and manage the steps in the life cycle of a change template. These flows evaluate the predefined conditions and trigger requested actions to complete the modification or retirement actions for selected change templates.
 
-The two types of flows are the STTRM Template Publish Approval flow and the STTRM Template Retire Approval flow.
+Change template management uses the following flows:
 
 -   The STTRM Template Publish Approval flow helps manage the template proposal and publishing actions in the application. The flow runs when you send a template in the Proposed state for review.
 -   The STTRM Template Retire Approval flow helps manage template retirement actions. The flow runs when you retire templates and the selected templates move to the **Pending Retirement** state.
 
 
-The approver for both of these flows are determined by the users and groups defined for template in the change model's Template Management section.
+The approvers for both flows are the users and groups defined in the Template Management section of the change model.
 
 **Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)
 

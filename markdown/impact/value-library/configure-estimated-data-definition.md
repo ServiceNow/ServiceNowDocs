@@ -8,8 +8,8 @@ product: Value Library
 classification: value-library
 topic_type: task
 last_updated: "2026-10-05"
-reading_time_minutes: 1
-breadcrumb: [Product value, Value Management, Using Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Product value, Value Management, Impact reference, Impact]
 ---
 
 # Configure an estimated data definition
@@ -24,13 +24,15 @@ Role required: Instance admin.
 
 The dependent plugins for the product must be active. If they are not, the page shows a message naming the missing plugins and the path to enable them.
 
+You can also open this page from the banner or from the**Configure metric** modal on the **Manage objectives and outcome**s page. The outcome and metric carry through, and the matching row is highlighted. Select Back to return to Manage objectives and outcomes with your scroll position and filters kept.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Impact Setup Hub**.
 
 2.  On the **Configure impact product console**, select **Enable Value Management Data**.
 
-3.  Select Configure estimated data definitions and expand the product group that contains the metric you want to configure.
+3.  Select **Configure estimated data definitions** and expand the product group that contains the metric you want to configure.
 
     Each row shows the outcome details, the metric detail, the estimated data definition currently in use, the status of that definition, and the available action. The status is either **Not configured** or **Configured**.
 
@@ -50,7 +52,7 @@ The dependent plugins for the product must be active. If they are not, the page 
 
     The definition is saved, the modal closes, and the status for that row changes from **Not configured** to **Configured**. Subsequent data collection for the metric uses the configuration you saved, and the supplied estimated logic is no longer applied.
 
-    The action link on the row is greyed out and can no longer be selected. Hovering over it explains that the configuration has already been applied and cannot be changed. On the **Manage objectives and outcomes** page, the estimated indicator no longer appears for that metric and the outcome can be tracked.
+    The action link on the row is grayed out and can no longer be selected. A tooltip states that the configuration has already been applied and cannot be changed. On the **Manage objectives and outcomes** page, the estimated indicator no longer appears for that metric and the outcome can be tracked.
 
 
 **Related topics**  

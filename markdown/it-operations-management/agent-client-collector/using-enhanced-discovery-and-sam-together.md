@@ -158,7 +158,7 @@ To perform non-osqueryd data collection:
 
 1.  Ensure that the following permissions are configured for the relevant OS:
     -   Windows: The ACC service must run as the Local System account. Set the ACC service's Log On As value to **Local System**.
-    -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-sudoers-file.md).
+    -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see .
 2.  On the System Properties page \(**All** &gt; **System properties** &gt; **All properties**\), set the **sn\_acc\_vis\_content.enable\_sam\_collection\_without\_osqueryd** property to **true**.
 
     **Note:**

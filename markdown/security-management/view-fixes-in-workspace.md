@@ -21,7 +21,8 @@ Role required: `sn_vul_fix.read`, or a Vulnerability Response role that contains
 
 Prerequisites:
 
--   ServiceNow Support has configured the Armis Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-fix-intel.md).
+-   Install Fix Intelligence for SEM. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-fix-intel.md).
+-   Install the Unified Exposure Pipeline application.
 
 ## About this task
 

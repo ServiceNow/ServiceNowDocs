@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-operationaltechnologysetup-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -613,6 +613,8 @@ Australia
 
  See [Operational Technology Setup](https://www.servicenow.com/docs/access?context=ot-setup-landing&family=australia&ft:locale=en-US) for more information.
 
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
+
 </td></tr><tr><td>
 
 Brazil
@@ -623,6 +625,8 @@ Brazil
 -   Complete admin configuration items in a consolidated location without having to navigate back and forth between pages.
 
  See [Operational Technology Setup](https://www.servicenow.com/docs/access?context=ot-setup-landing&family=brazil&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

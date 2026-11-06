@@ -45,11 +45,11 @@ The Knowledge list in Workspace is available with the activation of the Agent Wo
 
 [View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace]()
 
-[Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md)
+[Schedule a knowledge article for publishing in Agent Workspace]()
 
 [Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
 

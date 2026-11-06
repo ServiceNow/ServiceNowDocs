@@ -1,6 +1,6 @@
 ---
 title: Sharing record pages from Service Operations Workspace across workspaces
-description: Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspace such as CSM and FSM workspaces.
+description: Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspaces such as CSM and FSM workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your e
 
 # Sharing record pages from Service Operations Workspace across workspaces
 
-Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspace such as CSM and FSM workspaces.
+Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspaces such as CSM and FSM workspaces.
 
-To support interoperability, SOW enables sharing the look and feel of the record pages such as incident and change request across other workspaces like CSM and FSM workspaces. The shared experience ensures agents see the same view and actions for a record regardless of which workspace they use.
+To support interoperability, SOW enables sharing the look and feel of the record pages such as incident and change request across other workspaces like CSM and FSM workspaces. With the shared experience, agents see the same view and actions for a record regardless of which workspace they use.
 
-To implement and consume this feature on other workspaces like CSM workspace, an admin in CSM must create record in the **UX Cross-experience route** UX property. The admin can then customize the usage conditions and other parameters to implement this feature for specific tables such as incident and mark this record as Active as per their requirement.
+To implement and consume this feature on other workspaces like CSM workspace, an administrator in CSM must create a record in the **UX Cross-experience route** UX property. The administrator can then customize the usage conditions and other parameters to implement this feature for specific tables such as incident and mark this record as Active as required.
 
 -   **[Create a UX cross-experience route](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-ux-cross-experience-route.md)**  
 Create a UX cross-experience route to share a record page from one workspace so it opens automatically when the same record type is viewed in another workspace.

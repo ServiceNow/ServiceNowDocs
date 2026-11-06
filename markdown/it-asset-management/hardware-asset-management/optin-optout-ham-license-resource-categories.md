@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Management license exclusion, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Opt-in or opt-out of HAM license resource categories
@@ -61,5 +61,5 @@ The resource category is opted in or opted out. A one time run job execution exe
 -   **[Exclude assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exclude-assets.md)**  
 Exclude an asset for which you don't want to use Hardware Asset Management licensed features.
 
-**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configuring-ham.md)
+**Parent Topic:**[Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md)
 

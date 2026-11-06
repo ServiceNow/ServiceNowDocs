@@ -21,7 +21,7 @@ Get actionable real-time recommendations in the side panel to help address custo
 -   **[Get field recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/get-field-recommendations.md)**  
 Get incident field recommendations in Service Operations Workspace while creating or updating incidents.
 -   **[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)**  
-Reference topics provide additional information about various form fields and components installed with Recommended Actions for ITSM.
+Find additional information about various form fields and components installed with Recommended Actions for ITSM.
 
 **Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 

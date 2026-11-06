@@ -8,7 +8,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -38,15 +38,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  Select one of the following in the **Add resolution notes** window.
 
-<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d368111e127">
+<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d367203e127">
 
 Option
 
-</th><th align="left" id="d368111e130">
+</th><th align="left" id="d367203e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d368111e136">
+</th></tr></thead><tbody><tr><td id="d367203e136">
 
 **Save notes**
 
@@ -54,7 +54,7 @@ Description
 
 Add resolution notes to the **Close notes** field.**Note:** Review the generated text and make sure it's accurate. You may edit the notes or delete them to provide your own.
 
-</td></tr><tr><td id="d368111e150">
+</td></tr><tr><td id="d367203e150">
 
 **Skip notes**
 
@@ -96,6 +96,10 @@ Skip adding resolution notes to the case.
 [Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
 

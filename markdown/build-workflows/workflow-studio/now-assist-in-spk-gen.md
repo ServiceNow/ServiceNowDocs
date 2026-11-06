@@ -40,7 +40,7 @@ ServiceNow Otto for Spoke Generation v2.0.0 is the latest version.
 
 The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [ServiceNow Otto for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator-landing.md) from the AI Admin Hub console.
+After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the ServiceNow Otto for Creator feature from the AI Admin Hub console.
 
 \[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
 
@@ -61,7 +61,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-products.md).
 

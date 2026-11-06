@@ -9,7 +9,7 @@ classification: reporting
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Export a report to PDF
@@ -75,5 +75,5 @@ Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoi
 
 When the export is complete, you see either a download link or a message that the export will be delivered to the recipient.
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DistributeReports.md)
 

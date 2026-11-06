@@ -7,7 +7,7 @@ release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-29"
 reading_time_minutes: 4
 breadcrumb: [Explore, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -61,7 +61,7 @@ User records are associated with records on several other tables to control perm
 
 ## Date and time formatting
 
-**Note:** From the Brazil release, Date format and Time format settings have been relocated from the user profile to the [Language &amp; Region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-language-preferences.md) section within the user's Preferences. The time zone setting continues to be available in the user profile from the Brazil release.
+**Note:** From the Brazil release, Date format and Time format settings are available in both the user profile and the [Language &amp; Region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-language-preferences.md) section within the user's Preferences. The time zone setting continues to be available in the user profile from the Brazil release.
 
 For releases before Brazil, you can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
 

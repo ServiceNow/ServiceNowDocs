@@ -32,7 +32,7 @@ With scenario-based planning, you can create multiple scenarios, compare them, a
 
 If you are using the Portfolio Workbench for portfolio planning and want to switch to a scenario-based planning, note the following points:
 
--   After installing Scenario Planning for PPM, remove the Portfolio Workbench module and related link from the Portfolio form. The de-activation of Portfolio Workbench is required to avoid conflicts with two methods of planning and data corruption. For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
+-   After installing Scenario Planning for PPM, remove the Portfolio Workbench module and related link from the Portfolio form. The de-activation of Portfolio Workbench is required to avoid conflicts with two methods of planning and data corruption. For more information, see Enable or disable an application menu or module.
 -   Use the **Portfolio Planning** related link or the Portfolio Planning Workbench module to navigate to Portfolio Planning Workbench.
 -   All your existing selections of demands and projects for a portfolio appear as a default scenario when you open the Portfolio Planning Workbench. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/create-scenarios.md).
 

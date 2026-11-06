@@ -82,6 +82,7 @@ State
 State of the non-conformance case.-   Draft
 -   New
 -   In progress
+-   On hold
 -   Closed complete
 -   Closed canceled
 -   Closed incomplete

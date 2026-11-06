@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Generate an update set description

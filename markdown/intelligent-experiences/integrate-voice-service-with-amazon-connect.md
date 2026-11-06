@@ -57,7 +57,7 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
     Also note the voice service sys\_id, which you can find in the URL when viewing the voice service record. You need this value in the Amazon Connect configuration steps.
 
-    **Note:** The Call Context API uses client credentials OAuth 2.0. For more details, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-credentials.md).
+    **Note:** The Call Context API uses client credentials OAuth 2.0. For more details, see [Client credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-credentials.md).
 
 9.  Enable context data persistence for the voice service.
 

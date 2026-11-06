@@ -24,6 +24,8 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: How to map states to playbook stages in an issue workflow
+
 Each non-terminal state in the workflow's state model maps to one corresponding playbook stage. When the issue enters a mapped state, the playbook moves to the corresponding stage. When the final activity in a stage is completed, the system proposes the corresponding state change for confirmation.
 
 ## Procedure

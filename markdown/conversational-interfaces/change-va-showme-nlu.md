@@ -33,15 +33,15 @@ The Greetings setup topic contains the Send Topic Picker script action, which co
 
 1.  Navigate to **All** and use one of the following methods.
 
-<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d79989e138">
+<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d80122e138">
 
 Method
 
-</th><th align="left" id="d79989e141">
+</th><th align="left" id="d80122e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79989e147">
+</th></tr></thead><tbody><tr><td id="d80122e147">
 
 **System properties**
 
@@ -52,7 +52,7 @@ Description
 3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d79989e181">
+</td></tr><tr><td id="d80122e181">
 
 **Virtual Agent Designer**
 

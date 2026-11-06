@@ -25,7 +25,7 @@ Validate that On-Call Scheduling still works after you make any configuration ch
 -   **[System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-properties.md)**  
 The property settings configure On-Call Scheduling operations.
 -   **[On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md)**  
-On-Call Scheduling subflows are reusable automated processes for on-call escalation and notification.
+Subflows in On-Call Scheduling enable you to build and configure on-call escalation and notification.
 -   **[On-Call Scheduling workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/workflows-oncall.md)**  
 Workflows perform On-Call Scheduling operations.
 -   **[Domain separation and On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/domain-separation-on-call-scheduling.md)**  

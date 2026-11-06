@@ -39,5 +39,5 @@ As an admin, you must enable the EC AI Homepage Search, Typeahead Search, and AI
 
 ## What to do next
 
-Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
+Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Business and Consumer Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_businessportal_guestuser.md).
 

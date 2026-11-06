@@ -59,12 +59,6 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
 
         -   change.modify can update most change request fields and add customer-visible comments.
         -   You can't modify closed or canceled change requests using change.modify.
-    -   **4. task\_approval\_decision: Approve or reject the caller's oldest pending approval on a change request.**
-
-        Example prompts:
-
-        -   "Approve CHG0123456."
-        -   "Reject CHG0123456."
 3.  Review the MCP client application response.
 
     The MCP client application retrieves data from your ServiceNow instance and presents it in the chat.

@@ -1,6 +1,6 @@
 ---
 title: Technology lifecycle risk score in Enterprise Architecture Workspace
-description: The Technology Lifecycle Management \(TPM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
+description: The Technology Lifecycle Management \(TLM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architectur
 
 # Technology lifecycle risk score in Enterprise Architecture Workspace
 
-The Technology Lifecycle Management \(TPM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
+The Technology Lifecycle Management \(TLM\) lifecycle risk score is a numeric value that quantifies how close a technology is to its end-of-support or end-of-life milestone. Risk scores roll up from individual technologies through application services to business applications, and serve as an indicator in scoring profiles to surface lifecycle exposure across the portfolio.
 
 ## Technology lifecycle risk scores
 
@@ -54,7 +54,7 @@ The **Populate TPM Discovered Technologies and Lifecycles** scheduled job traver
 -   A server or host CI \(cmdb\_ci\)
 -   A technology lifecycle record \(sn\_apm\_tpm\_technology\_lifecycle\)
 
-Without this job, no lifecycle dates are available for risk calculation. For instructions on running the job, see [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
+Without this job, no lifecycle dates are available for risk calculation. For instructions on running the job, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md).
 
 ## Risk score calculation
 
@@ -92,7 +92,7 @@ The maximum possible score from the formula is 80 \(base score 20 × multiplier 
 
 Scores are stored per fiscal period in the TLM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table.
 
-**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
 
 ## Technology lifecycle risk score example
 
@@ -172,7 +172,7 @@ The lifecycle risk score for the selected application appears alongside other in
 
 [Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-regenerate-indicator-score.md)
 
-[Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
+[Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
 
 [Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-configure-scoring-profiles.md)
 

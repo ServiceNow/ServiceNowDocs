@@ -32,7 +32,7 @@ The connector also supports pushdown for cast expressions, string functions such
 
 The connector also supports the following aggregate pushdowns: `avg()`, `count()`, `max()`, `min()`, `sum()`, `STDDEV_SAMP`, `STDDEV_POP`, `VARIANCE_SAMP`, `VARIANCE_POP`, `COVAR_SAMP`, `COVAR_POP`, `CORR`, `REGR_INTERCEPT`, and `REGR_SLOPE`. The connector also supports complex-expression pushdown, including arithmetic operations, `CAST`, `AND`/`OR`, `IN`, and `LIKE`.
 
-For known limitations, see the Knowledge Base article [Primary Connectors Limitations \(KBB0010487\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
+For known limitations, see the Knowledge Base article [Workflow Data Fabric - Primary Connectors Limitations \[KBB0010487\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 
 ## Supported data types
 

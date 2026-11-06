@@ -1,12 +1,12 @@
 ---
 title: Data Management for CSM release notes
-description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.Location Support Agents have read-only access to contracts, and entitlements, and write-access to entitlement usage for the organizations their business organization serves. Service organizations can now be added as buyers on install base records to control product inventory access by user role.CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
+description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.Order agents can update configurations of a consumer's product inventory one record at a time from the consumer record, with pricing that is updated automatically.Location Support Agents have read-only access to contracts, and entitlements, and write-access to entitlement usage for the organizations their business organization serves. Service organizations can now be added as buyers on install base records to control product inventory access by user role.CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/data-management-for-csm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Data Management for CSM]
 breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -39,6 +39,17 @@ See [Data management for Customer Service Management](https://raw.githubusercont
 
 
 **Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+
+## Version 3.0
+
+Order agents can update configurations of a consumer's product inventory one record at a time from the consumer record, with pricing that is updated automatically.
+
+### What's changed
+
+-   **[Product inventory configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/product_inventory_configurations.md)**
+
+    Order agents can modify, suspend, resume, or disconnect a consumer’s product inventory from the consumer record. Configuration updates reflect automatically on each quote or order to make sure customer's services are faster and more accurate.
+
 
 ## Version 2.0
 

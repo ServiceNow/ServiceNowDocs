@@ -1,5 +1,5 @@
 ---
-title: Using Evaluate access
+title: Use Evaluate access
 description: Analyze identities on the ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/using-evaluate-access.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
-# Using Evaluate access
+# Use Evaluate access
 
 Analyze identities on the ServiceNow AI Platform instance.
 
@@ -26,7 +26,7 @@ The following procedure describes the steps for accessing Evaluate access in the
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
 
-    The Analyze access and permissions homepage is displayed.
+    The Analyze access and permissions home page is displayed.
 
 2.  Select the **Evaluate access** tab.
 
@@ -42,27 +42,27 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Analyze by \*
+Analyze by
 
 </td><td>
 
-Analyze access for a user, a role, or a group
+Access for a user, a role, or a group
 
 </td></tr><tr><td>
 
-Select user \*
+Select user
 
 </td><td>
 
-Specify a user name to select from the list.
+User name to select from the list.
 
 </td></tr><tr><td>
 
-Rule type \*
+Rule type
 
 </td><td>
 
-Analyze access for the following:-   Table
+Access for the following:-   Table
 -   UI page
 -   REST Endpoint
 -   Client callable script include
@@ -72,11 +72,11 @@ Analyze access for the following:-   Table
 
 </td></tr><tr><td>
 
-Select table \*
+Select table
 
 </td><td>
 
-Specify a table name to select from the list.
+Table name to select from the list.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Select record
 
 </td><td>
 
-Specify a record name to select from the list.
+Record name to select from the list.
 
 </td></tr><tr><td>
 
@@ -92,17 +92,17 @@ Select field
 
 </td><td>
 
-Specify a field name to select from the list.
+Field name to select from the list.
 
 </td></tr></tbody>
 </table>4.  Specify the description in the **Description** field.
 
 5.  Select **Analyze permissions**.
 
-    The access results for the user are displayed. Similarly you can analyze the permissions of a Group or Role for the following rule types:
+    The access results for the user are displayed. Similarly, you can analyze the permissions of a group or role for the following rule types:
 
     -   Table \(record\)
-    -   Client callable scripts include
+    -   Client callable script include
     -   REST endpoints
     The access results are displayed.
 
@@ -160,7 +160,7 @@ Data filtration
 
 </td><td>
 
-A data filter is a form of access control designed to work along with the existing Access Control rules \(ACLs\) on your instance.
+A data filter is a form of access control that works along with the existing Access Control rules \(ACLs\) on your instance.
 
 </td></tr><tr><td>
 

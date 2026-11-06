@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-zerocopyconnectorforerp-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 18
+last_updated: "2026-11-06"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -283,7 +283,12 @@ Brazil
 
 </td><td>
 
--   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=brazil&ft:locale=en-US)**
+-   **[Support for Workday RaaS](https://www.servicenow.com/docs/access?context=obtain-data-from-workday-using-raas&family=brazil&ft:locale=en-US)**
+
+Add Workday RaaS reports to read operations by pasting a sample report response.
+
+
+ -   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=brazil&ft:locale=en-US)**
 
 Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
 
@@ -402,9 +407,9 @@ Australia
 
 </td><td>
 
--   ****
+-   **[Building flows](https://www.servicenow.com/docs/access?context=erp-canvas-build-flow-operation&family=australia&ft:locale=en-US)**
 
-[Building flows](https://www.servicenow.com/docs/access?context=erp-canvas-build-flow-operation&family=australia&ft:locale=en-US)Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
+Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
 
 
  -   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
@@ -513,7 +518,7 @@ Australia
 
 </td><td>
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
  The **Ask AI** button was removed from the Model Manager.
 
@@ -523,10 +528,7 @@ Brazil
 
 </td><td>
 
--   **Ask AI button**
-
-The **Ask AI** button was removed from the Model Manager.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -577,8 +579,6 @@ Australia
 
 Install Zero Copy Connector for ERP and ServiceNow Otto for Zero Copy Connector by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
-
-**Important:** Zero Copy Connector for ERP and ServiceNow Otto for Zero Copy Connector are available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr><tr><td>
 
@@ -852,12 +852,10 @@ Australia
 
 </td><td>
 
--   Connect to Oracle E-Business Suite \(12.2 and later\).
--   Add Workday RaaS reports to read operations by pasting a sample report response.
--   Use REST APIs to extend beyond SAP systems.
--   Use the improved AI suggestions and interface to map fields in the Model Manager.
--   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.
--   Discover OData services faster using an AI agent for Zero Copy Connector for ERP.
+-   Retrieve and update data from an ERP system, such as SAP, SuccessFactors, Workday, or Oracle E-Business Suite.
+-   Create models that include ERP system data in remote tables and extraction tables.
+-   Use extracted and transformed data to build applications that access the models.
+-   Accelerate application development with Zero Copy Connector for ERP content packs that contain predefined models and process extensions.
 
  See [ERP Integration](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=australia&ft:locale=en-US) and [Now Assist for Zero Copy Connectors](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&family=australia&ft:locale=en-US) for more information.
 
@@ -867,8 +865,10 @@ Brazil
 
 </td><td>
 
--   Add Workday RaaS reports to read operations by pasting a sample report response.
--   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Retrieve and update data from an ERP system, such as SAP, SuccessFactors, Workday, or Oracle E-Business Suite.
+-   Create models that include ERP system data in remote tables and extraction tables.
+-   Use extracted and transformed data to build applications that access the models.
+-   Accelerate application development with Zero Copy Connector for ERP content packs that contain predefined models and process extensions.
 
  See [ERP Integration](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=brazil&ft:locale=en-US) for more information.
 

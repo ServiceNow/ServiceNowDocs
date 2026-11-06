@@ -44,7 +44,7 @@ Model Type
 
 The **LLM** value is used for topic discovery within LLMs. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-llm.md).
 
- **Note:** If this field doesn't appear, verify that both the ServiceNow Otto panel and ServiceNow Otto are turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+ **Note:** If this field doesn't appear, verify that both the ServiceNow Otto panel and ServiceNow Otto are turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

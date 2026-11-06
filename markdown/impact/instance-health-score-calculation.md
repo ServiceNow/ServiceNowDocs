@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/instance-health-score-calculation.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-07"
 reading_time_minutes: 3
 keywords: [Instance Health Score, Platform Health, score calculation, category weights, Scan Engine]
 breadcrumb: [Scan Engine reference, Impact reference, Impact]
@@ -15,7 +15,13 @@ breadcrumb: [Scan Engine reference, Impact reference, Impact]
 
 Your Platform Health score is the foundation for understanding instance risk. The score reflects platform risk through a four-step, category-weighted calculation that combines findings into a single 0–100 health metric.
 
-Each scoring category is evaluated independently, then combined into a single overall score using fixed category weights. A critical Security finding should not be weighted exactly the same as a cosmetic User Experience finding, and remediating a Performance issue should not alter your Upgradeability score.
+Each scoring category is evaluated independently, then combined into a single overall score using fixed category weights. A critical Security finding should not be weighted exactly the same as a cosmetic User Experience finding, and remediating a Performance issue should not alter your Upgradeability score. The priority order by category scoring capacity is:
+
+1.  Security
+2.  Performance
+3.  Upgradeability
+4.  Manageability
+5.  User Experience
 
 |Step|What happens|Why it matters|
 |----|------------|--------------|

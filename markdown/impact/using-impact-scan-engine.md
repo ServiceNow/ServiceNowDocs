@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 4
-breadcrumb: [Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # On-demand scans
@@ -59,7 +59,7 @@ Scan your ServiceNow instance for findings. These scans return the findings and 
 </td></tr></tbody>
 </table>Scans are initiated in different ways. They run using the properties you configured. Scheduled instance scans can be executed immediately using the **Execute Now** action, but they cannot bypass their configured schedule settings. Real-time scans run automatically during record saves and cannot be manually triggered.
 
-For more information, see [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/additional-scan-engine-properties.md).
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) and [Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/additional-scan-engine-properties.md).
 
 **Note:** The Scan Engine integrates with certain development tools, such as App Engine Studio, ServiceNow Studio, and script editors. It scans business rules, script `includes`, UI scripts, client scripts, ACLs, record producers, and other script-containing records in real-time as they are saved.
 
@@ -97,8 +97,6 @@ Scan initiation capabilities are determined by user roles:
 |Read User|No scan initiation buttons \(view only\)|
 
 **Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-roles.md) for additional information on user roles.
-
-**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 
 **Related topics**  
 

@@ -22,9 +22,9 @@ These activities perform the same functions as SSH activities by the same name f
 
 To use the SSH custom activities, you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ActivateAnActivityPack.md) of the Orchestration - SSH plugin.
 
--   **[Secure Copy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_SecureCopyActivity.md)**  
+-   **[Secure Copy activity]()**  
 The Secure Copy activity copies a file from one host to another, without storing the copied file on the MID Server.
--   **[Files Compare activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_FilesCompareActivity.md)**  
+-   **[Files Compare activity]()**  
 The Files Compare activity compares two files on a Linux or UNIX computer.
 -   **[File Read activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_FileReadActivity.md)**  
 The File Read activity reads a file on a Linux or UNIX computer.
@@ -32,7 +32,7 @@ The File Read activity reads a file on a Linux or UNIX computer.
 The File Write activity writes a file on a Linux or UNIX computer.
 -   **[File Copy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_FileCopyActivity.md)**  
 The custom File Copy activity copies a file on a Linux or UNIX computer.
--   **[File Replace String activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_FileReplaceStringActivity.md)**  
+-   **[File Replace String activity]()**  
 The File Replace String activity finds and replaces a string in a file on a Linux or UNIX computer.
 -   **[Reset Linux User Password activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_ResetLinuxUserPasswordActivity.md)**  
 The Reset Linux User Password activity resets the password for a given user on a Linux computer.

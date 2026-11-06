@@ -112,7 +112,7 @@ BIA owner group
 
 </td><td>
 
-Group that owns the business impact analysis. All members of the selected group can edit the BIA. The list is filtered to groups that hold the BIA planner or BIA manager role. Either the owner or the owner group is required.
+Group that owns the business impact analysis. All members of the selected group can edit the BIA. The list is filtered to groups that hold the sn\_bia.bia\_planner or sn\_bia.bia\_manager role. Either the owner or the owner group is required.
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ Availability
 
 </td><td>
 
-Integrity information for the analysis.
+Availability information for the analysis.
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Integrity
 
 </td><td>
 
-Confidentiality information for the analysis. You can also have one questionnaire for calculating confidentiality, availability, and integrity of the data and assets in the assessment.
+Integrity information for the analysis. You can also have one questionnaire for calculating confidentiality, availability, and integrity of the data and assets in the assessment.
 
 </td></tr><tr><td>
 

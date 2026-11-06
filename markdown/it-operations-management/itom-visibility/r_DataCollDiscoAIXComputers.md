@@ -32,7 +32,7 @@ Discovery identifies and classifies information about AIX servers.
 
 -   **Reference the main CI on discovered IP addresses**
 
-    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
+    Starting with Discovery and Service Mapping Patterns version 1.35.1, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
 
 -   **Discover only the latest OS patch versions**
 

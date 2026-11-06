@@ -81,7 +81,7 @@ Approve or reject a time-off request.**Note:** Add a reason for rejection of a t
 |Swipe left on any of the shift cards|Tap **Provide coverage** to provide coverage for the shift.|
 |Tap **Provide Coverage**|Provide coverage for a gap in the shift.|
 
-For detailed procedure see [Managing teams and incidents using My Team applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/my-team-application.md).
+For detailed procedure see [Managing teams and incidents using the My Team applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/my-team-application.md).
 
 **Parent Topic:**[Mobile experience for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/mobile-experience-ocs.md)
 

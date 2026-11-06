@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 17
+last_updated: "2026-11-06"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -173,7 +173,12 @@ Brazil
 
 </td><td>
 
--   **[Sales Cart APIs for external ordering systems](https://www.servicenow.com/docs/access?context=sales-cart-external-integration&family=brazil&ft:locale=en-US)**
+-   **[Query cart line items](https://www.servicenow.com/docs/access?context=sales-cart-external-integration&family=brazil&ft:locale=en-US)**
+
+Enable external ordering systems to retrieve only the cart line items they need by using the Sales Cart REST API to return the line items that match an encoded query. Results are limited to the specified cart, include only the line item fields that are configured for the cart and that you can read, and return up to 50 line items per request. Both customers \(B2B users\) and consumers \(B2C users\) can use the query.
+
+
+ -   **[Sales Cart APIs for external ordering systems](https://www.servicenow.com/docs/access?context=sales-cart-external-integration&family=brazil&ft:locale=en-US)**
 
 Create and manage sales carts from third-party consumer portals, partner portals, and headless ordering applications by using the Sales Cart REST API. External systems can create and retrieve carts, add or update line items, delete carts or top-level line items, and submit validated carts to create orders without relying on the Business Portal user interface. Carts created externally use the same records and cart-processing logic as carts created in the Business Portal.
 
@@ -289,7 +294,19 @@ Brazil
 
 </td><td>
 
--   **[Order number in the submit order response](https://www.servicenow.com/docs/access?context=sales_cart-POST-submitorder&family=brazil&ft:locale=en-US)**
+-   **[Display values in cart read responses](https://www.servicenow.com/docs/access?context=sales_cart-GET-cart&family=brazil&ft:locale=en-US)**
+
+Get readable values in cart responses without extra lookups. Previously, retrieving a cart returned display values only for product offerings and characteristics. Now, display values are returned for every attribute on the cart, its line items, and line item characteristics for cart retrieval, line item retrieval, and cart queries. Create and update requests don't return display values.
+
+-   **[Order submission from a sales cart](https://www.servicenow.com/docs/access?context=sales_cart-POST-submitorder&family=brazil&ft:locale=en-US)**
+
+Submit orders faster and keep them ready for downstream processing \(PRB2089913, PRB2109260, PRB2080458\).
+
+    -   Previously, submitting a cart with many line items through the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder API waited until the entire order was created before returning. Now, carts with more than 20 line items are submitted asynchronously. The response returns immediately with an inbound queue record ID, and the cart state tracks progress, moving from Processing to Complete or Cancelled. If submission fails, the cart moves to the Cancelled state and can't be resubmitted.
+    -   Previously, customer orders created from a sales cart through the submit order API had no channel, so downstream processes couldn't distinguish self-service orders from agent-assisted orders. Now, orders submitted through the API have the channel set to Self-service portal.
+    -   Previously, the submit order API created customer orders in the Draft state. Now, it creates them in the New state.
+
+ -   **[Order number in the submit order response](https://www.servicenow.com/docs/access?context=sales_cart-POST-submitorder&family=brazil&ft:locale=en-US)**
 
 Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
 

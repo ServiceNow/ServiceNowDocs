@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-browser-reqs.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -41,6 +41,17 @@ AI Desktop Actions
 -   ****
 
 ServiceNow Otto AI agents support various browsers, including Google Chrome and Microsoft Edge. ServiceNow Otto AI agents aren't supported in Internet Explorer.
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   ****
+
+For optimal performance, use AI Search in the latest release of Google Chrome or Mozilla Firefox. AI Search doesn’t support Internet Explorer.
 
 
 </td></tr><tr><td>
@@ -82,7 +93,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/enable-dex-browser-extension.md).
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable the DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/enable-dex-browser-extension.md).
 
 </td></tr><tr><td>
 
@@ -130,6 +141,17 @@ Use the latest version of Chrome, Firefox, Safari, or Edge for optimal performan
 
 </td></tr><tr><td>
 
+Next Experience
+
+</td><td>
+
+-   ****
+
+Next Experience doesn’t support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
+
+</td></tr><tr><td>
+
 Self-service and omnichannel engagement for CSM
 
 </td><td>
@@ -148,6 +170,17 @@ ServiceNow Otto for Virtual Agent
 -   ****
 
 Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/browser-support.md).
+
+
+</td></tr><tr><td>
+
+Table Builder
+
+</td><td>
+
+-   ****
+
+Internet Explorer isn't supported.
 
 
 </td></tr><tr><td>

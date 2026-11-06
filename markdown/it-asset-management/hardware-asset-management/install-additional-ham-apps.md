@@ -28,17 +28,15 @@ Use this procedure to install additional HAM applications and plugins after your
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Admin Home**.
+1.  Navigate to **Manage Platform** &gt; **Hardware Asset Management**.
 
-    The Admin Home page opens automatically when you log in to your ServiceNow instance.
+    The Product Hub opens.
 
-2.  In the **Manage your products** section of the Admin Home page, select the **Hardware Asset Management** card to open the Product Hub.
-
-3.  Select the **Not installed** tab.
+2.  Select the **Not installed** tab.
 
     The tab lists additional HAM applications and plugins included in your subscription tier that aren't currently installed.
 
-4.  Select the application or plugin that you want to install.
+3.  Select the application or plugin that you want to install.
 
     -   If the application has an Install icon \[Omitted image "app-install-icon.png"\] Alt text:, select it to install directly from Product Hub.
     -   If the application displays an Open Application Manager icon \[Omitted image "open-application-manager-icon.png"\] Alt text:, select it to navigate to Application Manager and complete the installation from there.

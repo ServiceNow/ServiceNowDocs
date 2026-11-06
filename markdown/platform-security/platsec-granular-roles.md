@@ -388,7 +388,7 @@ external\_user\_self\_registration\_admin
 
 </td><td>
 
-Role required to on-board a large volume of external users to your instance. To learn more, see [Self-register to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/external-user-self-registration.md).
+Role required to on-board a large volume of external users to your instance. To learn more, see [Self-registration to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/external-user-self-registration.md).
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ oauth\_admin
 
 </td><td>
 
-Role required to configure all OAuth related functionality. To learn more, see [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/api-inbound-and-outbound.md).**Note:** You must assign the following roles for the following configurations:
+Role required to configure all OAuth related functionality. To learn more, see [OAuth inbound and outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/api-inbound-and-outbound.md).**Note:** You must assign the following roles for the following configurations:
 
 -   The **admin** role for non out of the box properties.
 -   The **script\_include\_admin** to change existing scripts \(JWT, and so on\).

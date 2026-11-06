@@ -1,12 +1,12 @@
 ---
 title: External Content Connectors release notes
-description: The ServiceNow External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.Version 9.0 adds a connector health dashboard, an index inspector tool, regulatory market conformance for the Amazon S3 external content connector, and delta content crawl support for the Google Drive external content connector.
+description: The ServiceNow External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.Version 9.2 adds the Custom Connector Gateway external content connector, support for additional binary file formats, secure search for the Amazon S3 external content connector, and a more descriptive analytics metric name.Version 9.0 adds a connector health dashboard, an index inspector tool, regulatory market conformance for the Amazon S3 external content connector, and delta content crawl support for the Google Drive external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/external-content-connectors-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -40,6 +40,39 @@ See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/S
 
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-admin-rn-landing.md)
+
+## Version 9.2
+
+Version 9.2 adds the Custom Connector Gateway external content connector, support for additional binary file formats, secure search for the Amazon S3 external content connector, and a more descriptive analytics metric name.
+
+### What's new
+
+-   **[Custom Connector Gateway external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/custom-connector-gateway-external-content-connector.md)**
+
+    Retrieve content, metadata, and users from any source system using your own custom connector, running in your local or cloud environment. Send your retrieved data to a gateway connector running on your instance by submitting Custom Connector Gateway API requests to an ingest gateway host. The gateway connector indexes your retrieved data and makes it searchable in the ServiceNow AI Platform®.
+
+-   **[Support for Markdown and email message binary files and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/file-extensions-ext-cont-connector.md)**
+
+    Extract searchable text from Markdown \(.md\) and email message \(.eml, .msg\) files and attachments retrieved by your external content connectors.
+
+
+### What's changed
+
+-   **[Secure search for the Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/amazon-s3-external-content-connector.md)**
+
+    The Amazon S3 external content connector adds support for secure search. The **Settings** tab for this connector includes a new **User mapping settings** screen. On this screen, you can select one of three permission modes for the connector and optionally configure user mappings. You can also configure user permission crawls for the connector if using a permission mode that requires them.
+
+-   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/analytics-external-content-connectors.md)**
+
+    The **Quota usage** metric has been renamed **Connector limit** for clarity.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    External Content Connectors Custom Connector \(com.sn\_ext\_conn\_ccg\): Plugin for the Custom Connector Gateway external content connector. This plugin is included when you install the External Content Connectors Application Suite plugin.
+
 
 ## Version 9.0
 

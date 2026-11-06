@@ -80,7 +80,7 @@ Controls how raw Meraki API data is mapped into CI fields. The connector uses th
 
 **Note:**
 
-The following transform names are built in and can't be overridden from getTransforms: lookupOrgName, lookupNetworkCompany, transformTags, defaultIfNull, defaultIfNullOrEmpty, roundNumberToTwoDecimalPlaces, getNetworkSiteKey, getSiteName, getSiteAddress, getOrgIdFromNetwork, getInterfaceKey, getInterfaceModel, getInterfacePosition, getInterfaceBandwidth, getInterfaceBandwidthName, getInterfaceBandwidthGroup, getPortName, and getPortPosition.
+The following transform names are built in and can't be overridden from getTransforms: lookupOrgName, lookupNetworkCompany, transformTags, defaultIfNull, defaultIfNullOrEmpty, roundNumberToTwoDecimalPlaces, getNetworkSiteKey, getSiteName, getSiteAddress, getOrgIdFromNetwork, getInterfaceKey, getInterfaceModel, getInterfacePosition, getInterfaceBandwidth, getInterfaceBandwidthName, getInterfaceBandwidthGroup, getPortName, getPortPosition, and normalizeWhitespace.
 
 ## TagTransformationExtensionPoint
 

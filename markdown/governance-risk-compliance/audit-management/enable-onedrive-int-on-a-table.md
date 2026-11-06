@@ -48,4 +48,6 @@ Ensure that you have installed the following applications:
 
     For more information on the fields, see [Create a Cloud file configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-access-permissions-to-the-cloud-file.md).
 
+    To find the value for the **File location ID** field, see [Find the File location ID for a Cloud file configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/get-sharepoint-file-location-id.md).
+
 

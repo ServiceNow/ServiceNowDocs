@@ -14,13 +14,13 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the configure, price, quote applications to streamline complex product, pricing, and quote-to-contract workflows.
 
-This process typically includes configuring the CPQ or the configurator, enabling quote management, and establishing contract and entitlements and sales agreement workflows to streamline complex sales cycles and improve quoting efficiency.
+This process typically includes configuring the ServiceNow CPQ or the configurator, enabling quote management, and establishing contract and entitlements and sales agreement workflows to streamline complex sales cycles and improve quoting efficiency.
 
-1.  [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md)
+1.  [Setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md)
 
-    Plan and configure the implementation of the advanced configurator in CPQ. The advanced configurator runs in the CRM Workspace and the Business Portal for customers placing orders.
+    Plan and configure the implementation of the advanced configurator in ServiceNow CPQ. The advanced configurator runs in the CRM Workspace and the Business Portal for customers placing orders.
 
-2.  [Configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-configuring.md)
+2.  [Configuring ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-configuring.md)
 3.  \(Optional\) [Setting up the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/confguring-product-configurator.md)
 
     Set up the base configurator and control the product options displayed in the product configurator interface by using the Open State Management API framework.

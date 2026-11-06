@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Create an extension application with Lux Lab, Prerequisites, Create the extension application, Create a new page in the extension application, Extend an existing host page, Add an extension page to host navigation, Add a page to L1 navigation, Add a page to L3 navigation, Wire up and verify the navigation item, Build and deploy the extension application]
-breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create an extension application with Lux Lab

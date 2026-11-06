@@ -18,7 +18,7 @@ You must perform several steps to set up Multi-Provider SSO, including configuri
 
 Refer the following topics to know more about each of the configurations.
 
--   [Multi-Provider SSO \(SAML\) IdP authentication flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/idpauthflow.md)
+-   [Multi-provider SSO \(SAML\) IdP authentication flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/idpauthflow.md)
 -   [Configure Multi-Provider SSO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_ConfigureMultiProviderSSOProps.md)
 -   [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_CreateUpdateIdentityProvider.md)
 -   [Configure users for Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_ConfigureUsersMultiProviderSSO.md)

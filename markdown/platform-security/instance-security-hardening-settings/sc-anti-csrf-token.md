@@ -16,15 +16,15 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.security.use\_csrf\_token** property to confirm the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
 
-Cross-Site Request Forgery \(CSRF\) is an attack that forces authenticated users to submit a request to a web application, exploiting the web application's trust in an authenticated user.
+Cross-site request forgery \(CSRF\) is an attack that forces authenticated users to submit a request to a web application, exploiting the web application's trust in an authenticated user.
 
 The **glide.security.use\_csrf\_token** property controls whether the platform embeds a token in rendered pages and validates that token on incoming requests. This allows the platform to distinguish requests that originated from its own pages from requests forged by a third-party site.
 
 To configure this property:
 
-1.  Confirm the current user has the security\_admin role or has elevated to that role.
+1.  Confirm the current user has the admin role or has elevated to that role.
 2.  Navigate to /sys\_properties\_list.do on the instance.
-3.  Confirm the **glide.security.use\_csrf\_token**property exists and is set to `true`.
+3.  Confirm the **glide.security.use\_csrf\_token** property exists and is set to `true`.
 
 ## More information
 

@@ -21,17 +21,17 @@ The ServiceNow® AI Desktop Actions application enables you to automate repetiti
 -   Detect errors during execution and recover by evaluating context and trying alternative approaches.
 -   Let AI agents process instructions and generate execution plans autonomously or semi-autonomously, reducing manual setup for repetitive tasks.
 
-See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+    AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see .
 
 -   **Upgrade information**
 
-    Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+    Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see .
 
 -   **Browser requirements**
 
@@ -59,11 +59,11 @@ Adaptive desktop actions now automatically record your steps and convert them in
 
 ### What's new
 
--   **[Execute recorded desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/reusable-skills-adaptive-da.md)**
+-   **Execute recorded desktop actions on macOS**
     -   Enable the system property to automatically record adaptive desktop actions during execution and reuse them for similar tasks.
     -   Automated recording captures your exact steps and converts them instantly into reusable skills.
     -   AI-powered search automatically suggests matching skills based on your current task.
--   **[New system property added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+-   **New system property added**
 
     The sn\_desktop\_core.enable\_reusable\_assets system property is added to manage the reusable skills feature. The system property creates reusable skills from adaptive desktop action recordings and enables deterministic replay. The default value is false.
 
@@ -80,7 +80,7 @@ Adaptive path AI Desktop Actions now gather stored credentials and dynamic param
 
 ### What's new
 
--   **[Execute adaptive desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai_desktop_actions_adaptive.md)**
+-   **Execute adaptive desktop actions on macOS**
 
     Download the new AI Desktop Actions installer for macOS with M-series processor support \(ARM64 architecture\). The adaptive desktop actions enable AI agents to navigate applications and browsers and perform tasks on macOS systems. Both adaptive and defined desktop actions are now available with platform-specific installers.
 
@@ -90,29 +90,29 @@ Adaptive path AI Desktop Actions now gather stored credentials and dynamic param
     -   Refer the real-time status tracking that shows whether the AI agent is initiating, running, or paused.
     -   Take control of the execution where your input is needed.
     -   The AI agent batches consecutive actions into single execution calls where possible, minimizing round trips and reducing overall execution time.
--   **[Control resource access using policy and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/security_policy_governance_concept.md)**
+-   **Control resource access using policy and rules**
 
     Create policies and rules to control which resources AI agents can access.
 
     -   Policies: Collection of resource access rules that applies to a specific user group or set of users based on defined user criteria.
     -   Resource access rules: Specific restrictions controlling agent access to various resource types, such as files, folders, websites, and applications.
     -   Bi-directional policy-rule mapping: Link policies to rules from either the policy record or the rule record, enabling rule reuse across multiple policies.
--   **[Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/credential-storage.md)**
+-   **Credential and dynamic parameter management**
 
     Reference credentials or other user-specific values by name in your instructions. The agent resolves them securely at execution time, so you never have to type them in yourself.
 
--   **[File upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/upload-download-file.md)**
+-   **File upload and download**
 
     Upload files to web forms and track file downloads during automated browser tasks. The agent validates file safety, confirms the target field with the reasoning model, and escalates to the user when it can't proceed safely.
 
 
 ### What's changed
 
--   **[Browser startup and tab behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)**
+-   **Browser startup and tab behavior**
 
     Browser session now opens to an empty page instead of Google's homepage. Automation actions within the same chat window now reuse the existing browser tab instead of opening a new tab for every action. A new tab opens only when a new chat session starts or you close the current tab.
 
--   **[Improved security for adaptive desktop actions system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+-   **Improved security for adaptive desktop actions system properties**
 
     Adaptive desktop actions system properties now require appropriate read and write roles. This change prevents unauthorized users from viewing or modifying the configuration settings, while automation continues to work as expected.
 

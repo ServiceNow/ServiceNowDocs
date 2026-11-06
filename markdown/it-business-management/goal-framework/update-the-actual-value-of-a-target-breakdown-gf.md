@@ -8,7 +8,7 @@ product: Goal Framework
 classification: goal-framework
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Target breakdowns, Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -24,19 +24,21 @@ Role required: sn\_gf.goal\_user
 
 **Note:** Only the owner or contributors of the goal can update the target breakdowns.
 
+**Important:** You can't update the actual value of a stale target. Its fields are read-only until an administrator resets its check-in frequency. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/stale-targets-gf.md).
+
 ## Procedure
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d280624e62">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d287735e77">
 
 Option
 
-</th><th align="left" id="d280624e65">
+</th><th align="left" id="d287735e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d280624e71">
+</th></tr></thead><tbody><tr><td id="d287735e86">
 
 **From the Targets related list**
 
@@ -47,7 +49,7 @@ Steps
 3.  From the Quantitative Targets related list, open the required target record.
 
 
-</td></tr><tr><td id="d280624e101">
+</td></tr><tr><td id="d287735e116">
 
 **From the Targets module**
 

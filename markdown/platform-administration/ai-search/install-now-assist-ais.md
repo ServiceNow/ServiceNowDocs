@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-The ServiceNow Otto for AI Search plugin is automatically installed as a dependency when you install a ServiceNow Otto plugin in ServiceNow Otto Admin. ServiceNow Otto for AI Search is included in Now Assist suites.
+The ServiceNow Otto for AI Search plugin is automatically installed as a dependency when you install a ServiceNow Otto plugin in ServiceNow Otto Admin. ServiceNow Otto for AI Search is included in AI Suites.
 
 **Note:** When you upgrade to the latest version of ServiceNow Otto for AI Search, the system reindexes content from the Catalog Item Table and Knowledge Table indexed sources. While these reindexing tasks are ongoing, searches may not return Catalog and Q&amp;A Genius Result answers. After reindexing completes, Catalog and Q&amp;A Genius Result answers should appear normally.
 
@@ -31,7 +31,7 @@ The ServiceNow Otto for AI Search plugin is automatically installed as a depende
 
 1.  In ServiceNow Otto Admin, install one or more ServiceNow Otto plugins.
 
-    To review the instructions for ServiceNow Otto feature plugin installation, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md). As part of the procedure, you may need to request a license for the plugin from the ServiceNow Store.
+    To review the instructions for ServiceNow Otto feature plugin installation, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md). As part of the procedure, you may need to request a license for the plugin from the ServiceNow Store.
 
 2.  Verify that ServiceNow Otto for AI Search is installed:
 

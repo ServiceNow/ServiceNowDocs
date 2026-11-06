@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # Now Mobile app
@@ -64,5 +64,5 @@ Take a look at the Now Mobile app demo. The demo is a curated experience designe
 -   **[Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-mobile-employee-experience/sg-mobile-demo.md)**  
 Access the demo in your Now Mobile app to learn how the app can help you work from anywhere using your mobile device.
 
-**Parent Topic:**[Unified Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
+**Parent Topic:**[EmployeeWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 

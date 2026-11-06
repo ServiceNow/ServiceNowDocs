@@ -19,7 +19,7 @@ You can configure which AWS resource types to exclude from AWS datacenter discov
 
 ## Before you begin
 
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Discover only datacenters with resources by setting the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to **false**. For more information, see [Limit AWS discovery to datacenters with resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/limit-aws-discovery-active-datacenter.md).
 
 Role required: discovery\_admin

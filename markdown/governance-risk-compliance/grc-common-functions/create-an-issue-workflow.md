@@ -22,6 +22,8 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: Overview of issue workflows
+
 An issue workflow applies only to the table that you select when you create it. Each category of issue that requires its own states, layout, approval requirements, or guided activities needs its own workflow. This workflow replaces the table's default behavior for issues that match the workflow criteria.
 
 Creating a workflow is the first step in a guided setup process.

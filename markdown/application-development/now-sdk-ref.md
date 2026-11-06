@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 1
 keywords: [Now SDK, In this section, Application packaging in ServiceNow IDE, CLI commands, Global options, auth, auth --add, auth --delete, auth --list, auth --use, init, build, install, dependencies, transform, move, download, clean, pack, explain, query, Legacy aiux CLI, ServiceNow Fluent APIs, Constructs, Language constructs]
-breadcrumb: [Lux Reference, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux Reference, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow SDK

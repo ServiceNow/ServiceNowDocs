@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-accessmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -143,7 +143,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[ACL Explainer AI agent](https://www.servicenow.com/docs/access?context=access-acl-explainer-ai-agent&family=brazil&ft:locale=en-US)**
+
+Understand what controls access to your ServiceNow resources without having to review every ACL. This agent finds inherited ACLs and other information automatically, without you having to open multiple ACLs to troubleshoot access to a resource.
+
 
 </td></tr></tbody>
 </table>## Changes

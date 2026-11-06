@@ -1,6 +1,6 @@
 ---
 title: Continuous Authentication \(CA\)
-description: ServiceNow's continuous authentication enables you to reverify and authenticate a user if they access resources that are protected by you.
+description: Continuous authentication in ServiceNow enables you to reverify and authenticate a user if they access resources that are protected by you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-homepage.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Zero Trust Access, Access Management]
 
 # Continuous Authentication \(CA\)
 
-ServiceNow's continuous authentication enables you to reverify and authenticate a user if they access resources that are protected by you.
+Continuous authentication in ServiceNow enables you to reverify and authenticate a user if they access resources that are protected by you.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 

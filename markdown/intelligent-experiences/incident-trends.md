@@ -1,29 +1,29 @@
 ---
 title: Platform Analyze task trends agentic workflow
-description: Use the Platform Analyze task trends agentic workflow to detect recurring task patterns so that you can understand the root cause and get recommendations to prevent them from happening in future.
+description: Use the Platform Analyze task trends agentic workflow to detect recurring task patterns and root causes and get recommendations to prevent them from happening in future.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/incident-trends.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-28"
+last_updated: "2026-10-28"
 reading_time_minutes: 11
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Platform Analyze task trends agentic workflow
 
-Use the Platform Analyze task trends agentic workflow to detect recurring task patterns so that you can understand the root cause and get recommendations to prevent them from happening in future.
+Use the Platform Analyze task trends agentic workflow to detect recurring task patterns and root causes and get recommendations to prevent them from happening in future.
 
 ## Analyze task trends overview
 
-The Analyze task trends agentic workflow enhances task management by detecting recurring patterns, predicting disruptions, and suggesting proactive resolution to reduce downtime and improve reliability. Tasks are grouped and analyzed by AI to analyze common recurring issues and root causes, and there are citations for representative records for each group. The LLM then generates resolution recommendations based on the analysis and displays it to you.
+The Analyze task trends agentic workflow enhances task management by detecting recurring patterns, predicting disruptions, and suggesting proactive resolution to reduce downtime and improve reliability. Trending task are grouped and analyzed to identify common recurring issues and root causes. The agentic workflow generates citations for representative records of each group and recommendations that can help managers prevent the issues from reoccurring.
 
 After the analysis is generated, you can continue the conversation to do the following:
 
 -   Get a summary of each group analysis. You have to specify which group you would like to get a summary of.
 -   Download the analysis as a PDF or Word document.
--   Get more information by asking follow-up questions. For example, you can ask why certain suggestions were generated.
--   Analyze the next ten groups. Each analysis is done for ten groups at a time. You can continue analyzing more groups with the same filters within the same conversation, but the other actions for the previous group are no longer available.
+-   Get more information about the analysis by asking follow-up questions. For example, you can ask why certain suggestions were generated.
+-   Analyze the next ten groups. Each analysis is done for the top 10 trending groups at a time. You can continue analyzing more groups with the same filters within the same conversation, but the other actions for the previous group are no longer available.
 
 The exact options for follow-up actions available can be configured.
 
@@ -40,7 +40,7 @@ The default input fields considered for analysis are the following:
 
 You can con figure additional input fields using a Now Assist Skill Config Var Set \[sn\_nowassist\_skill\_config\_var\_set\]. See the Additional configuration section for more information.
 
-The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
+The agents and tools associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by setting the display settings to include ServiceNow Otto assistants. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -50,11 +50,11 @@ To access this workflow, you must have ServiceNow Otto for Platform installed on
 
 For this agentic workflow to behave as expected, you should have at least 500 records on your task table.
 
-You must also configure Group Action Framework \(GAF\). See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/group-action-framework.md) for more information on what GAF is and how to set it up. The Incident, Case and HR Case tables use the default GAF records, but you can configure GAF for other task tables.
+You must also configure Group Action Framework \(GAF\) for the tables you want to analyze. See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/group-action-framework.md) for more information on what GAF is and how to set it up. The Incident, Case and HR Case tables use the default GAF grouping records.
 
-GAF is set up for certain applications for you. If you want the agentic workflow to have its own system of categorization different from the main application, you can clone an existing action strategy skill and use the clone in the var set described in the **Additional configuration** section. This enables you to train the groupings differently for different agentic resources.
+If you want the agentic workflow to have its own system of categorization different from the main application, you can duplicate an existing action strategy skill. Use the duplicate in the var set described in the **Additional configuration** section. This enables you to train the groupings differently for different agentic resources.
 
-**Note:** If you create a clone of an action strategy skill, ensure that **Optimized prediction** is enabled to use AI Search as your fallback. You can leave it unchecked if you don't use AI Search on your instance.
+**Note:** If you create a duplicate of an action strategy skill, ensure that **Optimized prediction** is enabled to use AI Search as your fallback. You can leave it unchecked if you don't use AI Search on your instance.
 
 ## Role filtering
 
@@ -70,11 +70,11 @@ You can change different settings related to the agentic workflow by changing va
 
 -   Go to the Now Assist Skill Config \[sn\_nowassist\_skill\_config\] table.
 -   Open the record named **Analyze Task Trends**.
--   In the Now Assist Skill Config Var Set related list, select **Task Trends Input Config**.
+-   In the Now Assist Skill Config Var Set related list, select **Task Trends Input Config** or **Prompt parameter configurations**.
 -   Edit the variable values.
 -   Save or update the record.
 
-Time is a required filter specification in the user utterance. If you want users to be able to filter tasks by fields other than time, you can configure a **Task Table Config** var set. One for the Task table is provided as part of the application. If you want to create one for a specific table, you can create a Now Assist Skill Config Var Set \[sn\_nowassist\_skill\_config\_var\_set\]. The **Skill Config** is `Analyze Task Trends`, and the **Config Type** is `Prompt Parameter Configuration`.
+Time is a required filter specification in the user utterance. If you want users to be able to filter tasks by fields other than time, you can configure a **Task Table Config** var set. The application comes with a default configuration for the Task table. If you want to create one for a specific table, you can create a Now Assist Skill Config Var Set \[sn\_nowassist\_skill\_config\_var\_set\]. The **Skill Config** is `Analyze Task Trends`, and the **Config Type** is `Prompt Parameter Configuration`.
 
 <table><thead><tr><th>
 
@@ -240,7 +240,13 @@ No default
 </td></tr></tbody>
 </table>## Accessing the Analyze task trends agentic workflow
 
-To access the agentic workflow:
+To access the agentic workflow in AI Agent Studio:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+2.  Select the **Agentic workflows** tab.
+3.  Select **Analyze task trends**.
+
+To access the agentic workflow in the legacy AI Agent Studio:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Analyze task trends**.
@@ -263,7 +269,7 @@ If you want to evaluate the agentic workflow over many different execution logs,
 
 ## Sample utterance
 
-After the workflow has been activated in AI Agent Studio, use similar queries to the following to run the agentic workflow in the ServiceNow Otto panel. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
+After the workflow has been activated in AI Agent Studio, use similar queries to the following to run the agentic workflow with ServiceNow Otto assistants. You can also test this workflow in AI Agent Studio with the same utterance if you have the sn.aia\_admin role.
 
 Each utterance must include the name of the table and the time frame to analyze. If the utterance doesn't include these things, the agentic workflow prompts you for more information.
 

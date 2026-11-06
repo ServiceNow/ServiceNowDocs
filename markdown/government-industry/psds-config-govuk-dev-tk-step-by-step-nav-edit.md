@@ -43,7 +43,7 @@ The Step-by-step navigation page pattern widgets can be viewed and cloned from t
 
     For example, select **Error Widget**.
 
-    **Note:** 
+    **Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from.
 
 5.  From the list menu in the widget header, select **Clone \[Widget Name\]**.
 

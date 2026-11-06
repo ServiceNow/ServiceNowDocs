@@ -149,5 +149,5 @@ Previous parent of the workplace entity.This field is applicable for workplace e
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 

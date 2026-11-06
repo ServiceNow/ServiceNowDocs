@@ -32,7 +32,7 @@ When BYOK is enabled, your organization provides an external key through the Clo
 
 Wrapping keys are stored in the Cloud Encryption key management service \(KMS\), not on Hermes brokers. The service unwraps the keys at runtime over a secure connection. Because existing records remain decryptable, you can rotate your key without migrating data.
 
-**Warning:** If you revoke your customer-supplied key, your instance might stop working because the database can't access the encrypted data. If the Cloud Encryption key management service is unreachable, message production is blocked until the connection is restored. For more information, see the [Key management operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/key-mgmt-operations-ce.md).
+**Warning:** If you revoke your customer-supplied key, your instance might stop working because the database can't access the encrypted data. If the Cloud Encryption key management service is unreachable, message production is blocked until the connection is restored. For more information, see the .
 
 ## Topics and encryption at rest
 

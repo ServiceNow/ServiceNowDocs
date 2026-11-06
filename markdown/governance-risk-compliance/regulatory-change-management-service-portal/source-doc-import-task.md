@@ -27,7 +27,7 @@ A source document import task is created from a regulatory alert record. The tas
 
 The source document import life cycle starts from the regulatory alert record. When the manager with the sn\_grc\_reg\_change.manager role marks an unassigned source document alert as applicable, a source document import task gets created.
 
-Users can view the import document task in the Ready to Import state, evaluate the citation associated with the alert, and decide the future course of action for the import document task.
+Users can view the import document task in the Ready to Import state, evaluate the citation associated with the alert. They can then decide the future course of action for the import document task.
 
 -   **[User actions and states for source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/import-doc-tasks-users-actions.md)**  
 Managers with the sn\_grc\_reg\_change.manager role and the users with the sn\_grc\_reg\_change.user, or sn\_grc\_reg\_change.admin role can view and perform certain actions on the source document import tasks.

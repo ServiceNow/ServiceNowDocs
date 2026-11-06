@@ -20,7 +20,7 @@ Activity packs allow you to automate several common business processes, such as 
 
 -   **[Use an activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_UseAnActivityDesignerPack.md)**  
 The **Packs** tab of the Workflow Editor contains any activity packs downloaded from the ServiceNow Store and any activity packs that you create.
--   **[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)**  
+-   **[Active Directory activity pack]()**  
 The Active Directory \(AD\) activity pack enables an administrator to create, delete, and manage objects in Windows Active Directory, such as users, groups, and computers, using a ServiceNow Orchestration workflow.
 -   **[Azure AD activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_AzureADActivityPack.md)**  
 The Azure AD activity pack enables an administrator to automate employee onboarding and offboarding functions on Azure AD and manage Office 365 licensing.

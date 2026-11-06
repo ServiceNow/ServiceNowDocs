@@ -1,6 +1,6 @@
 ---
 title: Landing page redirection in Service Operations Workspace for ITSM
-description: Redirection enables you to automatically route users to the SOW landing page upon login.
+description: Redirection enables you to automatically route users to the SOW landing page when they log in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.html
 release: brazil
@@ -14,9 +14,9 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 
 # Landing page redirection in Service Operations Workspace for ITSM
 
-Redirection enables you to automatically route users to the SOW landing page upon login.
+Redirection enables you to automatically route users to the SOW landing page when they log in.
 
-Landing page redirection can be configured in any of the following ways:
+You can configure landing page redirection in any of the following ways:
 
 -   Conditional, based on user criteria, for example, Service Desk groups.
 -   Blanket. All users are first redirected to the Service Operations Workspace home page and the audience configuration determines which landing page should be used.

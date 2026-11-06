@@ -20,3 +20,9 @@ Users can sort, filter, and take actions directly on the list. It also supports 
 
 \[Omitted image "we-object-list-comp-homepage.png"\] Alt text: Object list component displaying different cases with their details in list format.
 
+## Related components
+
+Use the Object list component with other components on your website:
+
+[Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/case-view-web-component.md): Shows the details of a case when a user selects a case in the list.
+

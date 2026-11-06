@@ -53,5 +53,5 @@ The life cycle status of an AI asset is deployed and completed.
 
 \[Omitted image "aict-lifecycle-deploy.png"\] Alt text: Screenshot showing the completion of the deploy stage and its tasks.
 
-To manage the approval workflow for ServiceNow® AI, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
+To manage the approval workflow for ServiceNow® AI, see [Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 

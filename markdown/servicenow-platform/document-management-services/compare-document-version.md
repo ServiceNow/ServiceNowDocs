@@ -26,7 +26,7 @@ In the navigation filter, enter `sys_property.list` and ensure **glide.documents
 
 ## Procedure
 
-1.  [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-experience.md), if an experience is already created, go to Step 5.
+1.  , if an experience is already created, go to Step 5.
 
 2.  [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/reuse-page-definitions.md).
 

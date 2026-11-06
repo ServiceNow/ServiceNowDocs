@@ -7,7 +7,7 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-22"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, data, interval, pull]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]

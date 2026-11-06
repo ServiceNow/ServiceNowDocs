@@ -59,15 +59,15 @@ The following video walks you through the process of adding metadata for fields,
 
 7.  On the Create mapping form in the **Type** field, select either field mapping or variables.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d223063e300">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d222801e300">
 
 Type of metadata
 
-</th><th align="left" id="d223063e303">
+</th><th align="left" id="d222801e303">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d223063e309">
+</th></tr></thead><tbody><tr><td id="d222801e309">
 
 **Field mapping**
 
@@ -77,7 +77,7 @@ Fields available
 -   **Field Name**- The field is automatically set to the value of the **Mapping Field**. You can also modify the value.
 
 
-</td></tr><tr><td id="d223063e334">
+</td></tr><tr><td id="d222801e334">
 
 **Variables**
 

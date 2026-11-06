@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add application security

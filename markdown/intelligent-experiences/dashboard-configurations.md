@@ -1,18 +1,18 @@
 ---
 title: Dashboard configurations
-description: Configure the tracking settings that determine which usage data appears on the dashboards in AI Control Tower \(AICT\).
+description: Configure the tracking settings that determine which usage data appears on the dashboards in AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/dashboard-configurations.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Dashboard configurations
 
-Configure the tracking settings that determine which usage data appears on the dashboards in AI Control Tower \(AICT\).
+Configure the tracking settings that determine which usage data appears on the dashboards in AI Control Tower.
 
 Dashboard configurations determine the data that the AI Control Tower collects for its dashboards. It is important to set up usage tracking. This ensures that the dashboards provide adoption data at the level of detail required by your analysts. Analysts need this information to assess how AI systems are utilized across your organization.
 

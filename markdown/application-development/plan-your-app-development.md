@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Plan your application development

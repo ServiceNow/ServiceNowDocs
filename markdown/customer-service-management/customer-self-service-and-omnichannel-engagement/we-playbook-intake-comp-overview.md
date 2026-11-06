@@ -22,3 +22,11 @@ You can use prefill fields or choose from various playbook experiences, and cust
 
 \[Omitted image "we-playbook-intake-comp.png"\] Alt text: Playbook intake component instance displaying creation of case using playbook guided experience.
 
+## Related components
+
+Use the Playbook intake component with other components on your website:
+
+-   [Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/case-create-component.md): Creates a case with a single form.
+-   [Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/case-view-web-component.md): Shows the details and process tab of a case.
+-   [Catalog browse component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-catalog-browse-comp.md): Opens a Playbook intake page when a customer selects a playbook item.
+

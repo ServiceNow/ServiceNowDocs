@@ -25,7 +25,7 @@ The **Command List** form contains all commands used in discovery by infrastruct
 -   **[Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-log.md)**  
 Discovery logs contain information on the horizontal discovery process based on probes and patterns.
 -   **[Discovery Schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-schedule-form.md)**  
-The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
+The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for the discovery run.
 -   **[Create a new discovery schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-a-new-discovery-schedule-form.md)**  
 The Create a new discovery schedule form displays information related to the schedule and the target cloud provider. The Create a new discovery schedule form is available in the Cloud Discovery Workspace.
 -   **[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)**  

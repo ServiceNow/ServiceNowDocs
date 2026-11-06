@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-nextexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 7
+last_updated: "2026-11-06"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -147,6 +147,10 @@ Zurich
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
+
 
  -   **Coral theme**
 
@@ -164,6 +168,10 @@ Australia
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
 
 
  -   **[Updated Coral theme](https://www.servicenow.com/docs/access?context=next-experience-theming&family=australia&ft:locale=en-US)**
@@ -186,7 +194,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=brazil&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -244,7 +259,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and their steps, are removed.
 
 </td></tr><tr><td>
 
@@ -252,7 +267,9 @@ Australia
 
 </td><td>
 
-Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements, defect fixes, and will no longer be supported. Certain system features may continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information activating Next Experience see [Activation considerations](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&family=australia&ft:locale=en-US).
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and their steps, are removed.
+
+ Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements, defect fixes, and will no longer be supported. Certain system features may continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information activating Next Experience see [Activation considerations](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -260,7 +277,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **The Unified Navigation onboarding modals are removed.**
+
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and all associated steps, are no longer available.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -307,7 +327,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Next Experience is a ServiceNow AI Platform® feature that is active by default. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
+
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -387,7 +412,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+Next Experience doesn’t support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -525,7 +553,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Increase productivity by accessing app shell items, including menus, notifications, and search, from one unified navigation pane, no matter which application you’re in.
+-   Find your favorite pages quickly by organizing them into folders, and pin navigation menus to keep the ones you use most within reach.
+-   Start each day with the information you need by using role-specific landing pages that bring your tasks and analytics into one location.
+-   Switch easily between classic environment applications and configurable workspaces.
+
+ See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-18"
 reading_time_minutes: 2
 keywords: [ATF Health Check, instance scan, run scan, automated test framework]
-breadcrumb: [ATF Health Check, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [ATF Health Check, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Run an ATF Health Check scan

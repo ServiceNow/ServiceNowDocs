@@ -55,15 +55,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 8.  To add an item to a dependency group, select one of the options.
 
-<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d48819e259">
+<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d48972e259">
 
 Step
 
-</th><th align="left" id="d48819e262">
+</th><th align="left" id="d48972e262">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48819e268">
+</th></tr></thead><tbody><tr><td id="d48972e268">
 
 **__Add__**
 
@@ -80,7 +80,7 @@ Add an item from all the records. The relationship source is BCM. All items from
 -   **Additional details - Comment**
  A sample assessment is shown in the example.\[Omitted image "update-dependencies.png"\] Alt text: Update the dependencies.
 
-</td></tr><tr><td id="d48819e331">
+</td></tr><tr><td id="d48972e331">
 
 **__Add first level CMDB dependencies__**
 
@@ -92,7 +92,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
  A sample assessment is shown in the example.\[Omitted image "first-level-of-dependencies.png"\] Alt text: Add first level CMDB dependencies.
 
-</td></tr><tr><td id="d48819e376">
+</td></tr><tr><td id="d48972e376">
 
 **__Update dependencies__**
 
@@ -100,7 +100,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
 Import all CMDB relationships manually in the respective categories that are defined in the instance.
 
-</td></tr><tr><td id="d48819e389">
+</td></tr><tr><td id="d48972e389">
 
 **Edit __Required Recovery Timeframe__ \(RTO\) for one dependency**
 
@@ -108,7 +108,7 @@ Import all CMDB relationships manually in the respective categories that are def
 
 If you have one dependency in the **Pending** state, you can update its RTO by updating the inline value in the **Required Recovery Timeframe** field as shown in the example.\[Omitted image "req-recovery-timeframe-inline.png"\] Alt text: Updating RTO for one dependency at a time.
 
-</td></tr><tr><td id="d48819e416">
+</td></tr><tr><td id="d48972e416">
 
 **Edit __Required Recovery Timeframe__ for multiple dependencies**
 
@@ -136,7 +136,7 @@ If the administrator has set the **Required Recovery Timeframe** field in the de
 
  Data from the Required Recovery Timeframe and Required Data Backup columns is now pulled into the BCP record.
 
-</td></tr><tr><td id="d48819e510">
+</td></tr><tr><td id="d48972e510">
 
 **Select __Complete__**
 
@@ -182,7 +182,7 @@ This is the final step. You must complete all the pending assessments before sel
     -   If you have view-only access to the BIA, the option to generate a PDF helps you to download the document to your local hard drive.
     -   You can download the BIA before its **Approval** state.
     -   By default, the PDF is generated and attached after the BIA is approved.
-14. To move a BIA from **Approved** to **Draft** state, select the **Edit** button.
+14. To move a BIA from the **Approved** or **Archived** state to the **Draft** state, select the **Edit** button.
 
 15. To create a copy of the BIA, select the **Copy** button.
 
@@ -201,7 +201,7 @@ This is the final step. You must complete all the pending assessments before sel
         -   You can assess the details in the **Results** section. The RTO and RPO values are recalculated after you complete the assessments.
         -   Activities and Work notes are not copied to the new BIA. Enter this information relevant to the new BIA.
         -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button is not copied. The assessment data in the PDF pertain to the original BIA. You can modify the assessment details in the copied BIA and generate a new PDF.
-        -   The copied BIA retains the original BIA's **BIA owner** and **BIA owner group** values.
+        -   The copied BIA inherits the original **BIA owner group** only. You're automatically assigned as the **BIA owner** of the copy.
         **Note:** You can delete a BIA \(and its related tables\) that is in the **Draft** state. BCM planner and program manager can delete a BIA that is in the **In Review** and **Returned** states, whereas a BCM admin can delete a BIA irrespective of its state.
 
 

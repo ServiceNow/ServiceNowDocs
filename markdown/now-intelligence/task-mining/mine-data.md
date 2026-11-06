@@ -89,7 +89,7 @@ To configure a task to track the status of P1 incidents from creation to closing
 |Start|New|
 |End|Closed|
 
-\[Omitted image "tm-task-example.png"\] Alt text: Screenshot showing the example task.
+\[Omitted image "tm-task-example.png"\] Alt text: The example task.
 
 ## What to do next
 

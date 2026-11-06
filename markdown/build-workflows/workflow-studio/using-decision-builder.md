@@ -7,8 +7,8 @@ release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-20"
+reading_time_minutes: 3
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
@@ -46,6 +46,8 @@ Filter the conditions in the decision table to focus on the necessary data.
 View and manage records when referring to other records in the current Decision Tables, without switching to another screen.
 -   **[Set rows active or inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/set-active-inactive-rows.md)**  
 Activating a row in a Decision Tables includes its conditions and rules when executing the Decision Tables, while deactivating rows excludes the logic while executing the Decision Tables. This feature lets you use or skip conditions in the rows when executing the Decision Tables without deleting them.
+-   **[Filter decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/filtering-overview.md)**  
+Apply filters to both condition and result columns in the Decision Tables in Workflow Studio. Filters can enhance the usability and efficiency of managing large Decision Tables. This feature can be used to view, modify, and reorder a subset of rows directly within the Decision Tables, without exporting the table to Excel.
 
 **Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
 

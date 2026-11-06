@@ -43,16 +43,16 @@ A knowledge article is published depending on the workflow setting of its knowle
     **Note:** With an ownership group associated with a knowledge article, ownership group members can approve self-authored articles for publication. An administrator can override this behavior by disabling the **glide.knowman.ownership\_group.enable\_self\_approval** property. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
 
-For more information, see [Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md).
+For more information, see [Schedule a knowledge article for publishing in Agent Workspace]().
 
 When published, your knowledge article appears in the My Articles - Published and All Articles lists. If the article versioning feature is enabled, the version of the article is incremented based on the [version number pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 
 **Related topics**  
 
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace]()
 
 [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 

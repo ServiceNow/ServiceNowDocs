@@ -16,7 +16,7 @@ breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Ser
 
 The ServiceNow® Enterprise Service Management Integrations Framework application contains common components that can be used for integrating your ServiceNow application with third-party systems. It uses the flow designer capability to communicate with external instances and third-party systems.
 
-The application provides a consistent way of building integrations for common use cases such as pulling employee profiles and tasks from the third-party application to a ServiceNow application, and pushing data from a ServiceNow application into a third-party application.
+The application provides a consistent way to build integrations for common use cases. These include pulling employee profiles and tasks from the third-party application to a ServiceNow application, and pushing data from a ServiceNow application into a third-party application.
 
 ## Request apps on the Store
 

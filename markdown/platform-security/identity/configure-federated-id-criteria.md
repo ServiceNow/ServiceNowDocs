@@ -1,5 +1,5 @@
 ---
-title: Configuring Federated ID Criteria
+title: Configure Federated ID Criteria
 description: Access and configure Federated ID Criteria to see the ID fields selected to generate the Federated ID unique identifier. The default setting is User ID and email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/configure-federated-id-criteria.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Global Identity, Identity]
 ---
 
-# Configuring Federated ID Criteria
+# Configure Federated ID Criteria
 
 Access and configure Federated ID Criteria to see the ID fields selected to generate the Federated ID unique identifier. The default setting is User ID and email.
 
@@ -24,9 +24,9 @@ Role required: iamsync\_admin
 
 1.  Navigate to **All** &gt; **Manage Federated ID** &gt; **Federated ID Criteria**.
 
-    The **Federated ID Criteria** page displays Role and User record.
+    The **Federated ID Criteria** page displays Role and User records.
 
-2.  Select the record, the following details are displayed:
+2.  Select the record to view the following details:
 
     -   Type Name: **User**
     -   Table Name: **User \[sys\_user\]**
@@ -40,6 +40,6 @@ Role required: iamsync\_admin
     -   User ID and email are used to generate Federated IDs by default.
     \[Omitted image "federated-id.png"\] Alt text: Federated ID Criterias page
 
-    **Note:** You can only change ID fields when generating new Federated IDs for the existing records. To know more, see [Updating ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/updating-id-fields.md).
+    **Note:** You can only change ID fields when generating new Federated IDs for the existing records. To learn more, see [Update ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/updating-id-fields.md).
 
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configu
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [configure]
 breadcrumb: [MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
@@ -21,7 +21,7 @@ Create a Model Context Protocol \(MCP\) server and configure the tools and input
 
     An AI administrator creates a server and adds tools to the server.
 
-2.  
+2.  [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md)
 
     -   Out-of-box tools
         -   Access the out-of-box tools of platform and business specific types to manage capabilities that AI agents and other clients can use through your MCP servers.
@@ -43,6 +43,8 @@ Create a Model Context Protocol \(MCP\) server and configure the tools and input
 
 After configuring a server, the AI administrator configures OAuth inbound integrations for each client or configures an integration with a third-party identity provider \(IDP\) for authentication. Then they can configure clients to connect to the server using the server and authentication details. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
+To troubleshoot MCP server connections and tool calls, the AI administrator can also enable logging for MCP server activities and view the logs in the System Log. For more information, see [View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-mcp-server-logs.md).
+
 -   **[Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-mcp-server.md)**  
 Create a Model Context Protocol \(MCP\) server and configure which tools it exposes to MCP clients.
 -   **[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md)**  
@@ -55,6 +57,8 @@ Explore MCP Server monitoring dashboard to review the performance and usage of t
 Create the necessary AI Access Control List \(ACL\) for the component to be called externally.
 -   **[Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/check-compatibility-of-subflow.md)**  
 After establishing the ACL, publish the component and check the compatibility staging table.
+-   **[View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-mcp-server-logs.md)**  
+Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the logs.
 
 **Parent Topic:**[MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

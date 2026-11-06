@@ -50,5 +50,5 @@ For more information, see [Run the Process Mining evaluation project](https://ra
 
 [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 

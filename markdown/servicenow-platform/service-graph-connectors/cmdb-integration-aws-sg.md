@@ -24,9 +24,9 @@ The integration uses AWS native technologies and AWS security best practices to 
 
 ## Supported ServiceNow versions
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 ## Use cases
 
@@ -40,7 +40,7 @@ The following are examples on how you can use the Service Graph Connector for di
 
 Before you begin the upgrade process, complete the following tasks:
 
--   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CustomerUpdatesTable.md).
+-   If there are any customizations, delete the records associated with the Service Graph Connector for AWS from the Customer Updates \[sys\_update\_xml\] table. See .
 -   Upgrade any dependencies.
 
 After you've installed the latest version of the Service Graph Connector for AWS:
@@ -83,7 +83,6 @@ Import CI relationships established between virtual private clouds \(VPCs\), sub
 See the following articles on the ServiceNow Community site for any additional information on the AWS set up:
 
 -   [Service Graph Connector for AWS - Introduction](https://www.servicenow.com/community/cmdb-articles/service-graph-connector-for-aws-introduction/ta-p/2300757)
--   [How do I configure the AWS Service Graph Connector?](https://www.servicenow.com/community/cmdb-articles/aws-service-graph-connector/ta-p/2958151)
 -   [Service Graph Connector for AWS - Diagnostic Tool &amp; Troubleshooting Issues](https://community.servicenow.com/community?id=community_article&sys_id=668651e71bde4150c465ece6b04bcb23)
 -   [Service Graph Connector for AWS - Functional Spec and CI](https://www.servicenow.com/community/cmdb-articles/service-graph-connector-for-aws-functional-spec-and-ci/ta-p/2301845)
 -   [Cloud Discovery and SG-AWS](https://www.servicenow.com/community/cmdb-articles/cloud-discovery-and-sg-aws/ta-p/2300607)

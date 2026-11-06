@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/rn-combined
 release: brazil
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 62
+reading_time_minutes: 63
 ---
 
 # Products combined by family
@@ -59,8 +59,12 @@ Consolidated page of all release notes for AI Agent Studio from Xanadu to Brazil
 Consolidated page of all release notes for AI Analytics from Xanadu to Brazil.
 -   **[Combined AI Control Tower release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aicontroltower-release-notes.md)**  
 Consolidated page of all release notes for AI Control Tower from Xanadu to Brazil.
+-   **[Combined AI Cost Management release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aicostmanagement-release-notes.md)**  
+Consolidated page of all release notes for AI Cost Management from Xanadu to Brazil.
 -   **[Combined AI Desktop Actions release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aidesktopactions-release-notes.md)**  
 Consolidated page of all release notes for AI Desktop Actions from Xanadu to Brazil.
+-   **[Combined AIOps AI Specialist release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aiopsaispecialist-release-notes.md)**  
+Consolidated page of all release notes for AIOps AI Specialist from Xanadu to Brazil.
 -   **[Combined AIOps LEAP release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aiopsleap-release-notes.md)**  
 Consolidated page of all release notes for AIOps LEAP from Xanadu to Brazil.
 -   **[Combined AI Risk and Compliance release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-airiskandcompliance-release-notes.md)**  
@@ -69,6 +73,8 @@ Consolidated page of all release notes for AI Risk and Compliance from Xanadu to
 Consolidated page of all release notes for AI Search from Xanadu to Brazil.
 -   **[Combined AI Skill Kit release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aiskillkit-release-notes.md)**  
 Consolidated page of all release notes for AI Skill Kit from Xanadu to Brazil.
+-   **[Combined AI Workflow Factory Prime release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-aiworkflowfactoryprime-release-notes.md)**  
+Consolidated page of all release notes for AI Workflow Factory Prime from Xanadu to Brazil.
 -   **[Combined Alumni Center release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-alumnicenter-release-notes.md)**  
 Consolidated page of all release notes for Alumni Center from Xanadu to Brazil.
 -   **[Combined Analytics, Intelligence, and Reporting release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-analyticsintelligenceandreporting-release-notes.md)**  
@@ -191,8 +197,6 @@ Consolidated page of all release notes for Conversation Insights from Xanadu to 
 Consolidated page of all release notes for Core Business Suite from Xanadu to Brazil.
 -   **[Combined Core ServiceNow AI Platform release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-coreservicenowaiplatform-release-notes.md)**  
 Consolidated page of all release notes for Core ServiceNow AI Platform from Xanadu to Brazil.
--   **[Combined CPQ release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-cpq-release-notes.md)**  
-Consolidated page of all release notes for CPQ from Xanadu to Brazil.
 -   **[Combined CPQ Configurator release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-cpqconfigurator-release-notes.md)**  
 Consolidated page of all release notes for CPQ Configurator from Xanadu to Brazil.
 -   **[Combined Creator Studio release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-creatorstudio-release-notes.md)**  
@@ -233,6 +237,8 @@ Consolidated page of all release notes for Data products from Xanadu to Brazil.
 Consolidated page of all release notes for Data Separation from Xanadu to Brazil.
 -   **[Combined Decision Builder in Workflow Studio release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-decisionbuilderinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Decision Builder in Workflow Studio from Xanadu to Brazil.
+-   **[Combined Decision tables release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-decisiontables-release-notes.md)**  
+Consolidated page of all release notes for Decision tables from Xanadu to Brazil.
 -   **[Combined Decision tables in Workflow Studio release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-decisiontablesinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Decision tables in Workflow Studio from Xanadu to Brazil.
 -   **[Combined Developer Sandboxes release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-developersandboxes-release-notes.md)**  
@@ -455,6 +461,8 @@ Consolidated page of all release notes for Legal Hold Notification from Xanadu t
 Consolidated page of all release notes for Legal Matter Management from Xanadu to Brazil.
 -   **[Combined Legal Request Management release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-legalrequestmanagement-release-notes.md)**  
 Consolidated page of all release notes for Legal Request Management from Xanadu to Brazil.
+-   **[Combined Legal Virtual Agent Conversations release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-legalvirtualagentconversations-release-notes.md)**  
+Consolidated page of all release notes for Legal Virtual Agent Conversations from Xanadu to Brazil.
 -   **[Combined Lifecycle Events release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-lifecycleevents-release-notes.md)**  
 Consolidated page of all release notes for Lifecycle Events from Xanadu to Brazil.
 -   **[Combined Listening Posts release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-listeningposts-release-notes.md)**  
@@ -561,6 +569,8 @@ Consolidated page of all release notes for Opportunity Management from Xanadu to
 Consolidated page of all release notes for Opportunity Marketplace from Xanadu to Brazil.
 -   **[Combined Order Management release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-ordermanagement-release-notes.md)**  
 Consolidated page of all release notes for Order Management from Xanadu to Brazil.
+-   **[Combined Partner Passport Portal release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-partnerpassportportal-release-notes.md)**  
+Consolidated page of all release notes for Partner Passport Portal from Xanadu to Brazil.
 -   **[Combined Partner Relationship Management release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-partnerrelationshipmanagement-release-notes.md)**  
 Consolidated page of all release notes for Partner Relationship Management from Xanadu to Brazil.
 -   **[Combined Password Reset release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-passwordreset-release-notes.md)**  
@@ -589,6 +599,8 @@ Consolidated page of all release notes for Portfolio Planning from Xanadu to Bra
 Consolidated page of all release notes for Predictive AI for CSM from Xanadu to Brazil.
 -   **[Combined Predictive Intelligence release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-predictiveintelligence-release-notes.md)**  
 Consolidated page of all release notes for Predictive Intelligence from Xanadu to Brazil. Predictive Intelligence was previously called Agent Intelligence.
+-   **[Combined Predictive intelligence for Legal Service Delivery release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-predictiveintelligenceforlegalservicedelivery-release-notes.md)**  
+Consolidated page of all release notes for Predictive intelligence for Legal Service Delivery from Xanadu to Brazil.
 -   **[Combined Pre-Visit Management release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-previsitmanagement-release-notes.md)**  
 Consolidated page of all release notes for Pre-Visit Management from Xanadu to Brazil.
 -   **[Combined Pricing Management release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-pricingmanagement-release-notes.md)**  
@@ -701,10 +713,12 @@ Consolidated page of all release notes for ServiceNow Add-in for Microsoft 365 f
 Consolidated page of all release notes for ServiceNow AI Lens from Xanadu to Brazil.
 -   **[Combined ServiceNow AI Platform core feature release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowaiplatformcorefeature-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Xanadu to Brazil.
+-   **[Combined ServiceNow Arc release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowarc-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Arc from Xanadu to Brazil.
 -   **[Combined ServiceNow CLI release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowcli-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow CLI from Xanadu to Brazil.
--   **[Combined ServiceNow Cowork release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowcowork-release-notes.md)**  
-Consolidated page of all release notes for ServiceNow Cowork from Xanadu to Brazil.
+-   **[Combined ServiceNow CPQ release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowcpq-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow CPQ from Xanadu to Brazil.
 -   **[Combined ServiceNow IDE release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Xanadu to Brazil.
 -   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowluxlabforvscode-release-notes.md)**  
@@ -715,6 +729,8 @@ Consolidated page of all release notes for ServiceNow Otto from Xanadu to Brazil
 Consolidated page of all release notes for ServiceNow Otto for App Engine from Xanadu to Brazil.
 -   **[Combined ServiceNow Otto for Care Team Operations release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowottoforcareteamoperations-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for Care Team Operations from Xanadu to Brazil.
+-   **[Combined ServiceNow Otto for Cloud Cost Management \(CCM\) release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowottoforcloudcostmanagementccm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Cloud Cost Management \(CCM\) from Xanadu to Brazil.
 -   **[Combined ServiceNow Otto for CMDB release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowottoforcmdb-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for CMDB from Xanadu to Brazil.
 -   **[Combined ServiceNow Otto for Collaborative Work Management \(CWM\) release notes for upgrades from Xanadu to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/brazil-xanadu-servicenowottoforcollaborativeworkmanagementcwm-release-notes.md)**  

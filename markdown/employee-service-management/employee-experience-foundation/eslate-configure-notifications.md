@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [notifications, notification content, trigger conditions, recipients, Employee Slate, Now Assist]
-breadcrumb: [Notifications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Notifications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure notifications

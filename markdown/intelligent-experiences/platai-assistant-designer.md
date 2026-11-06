@@ -42,7 +42,7 @@ The **Assistants** tab is where you create and configure individual assistants a
 
 \[Omitted image "asst-designer-assistant-tab.png"\] Alt text: Assistants tab displaying configured assistants as cards, with options to test, edit, or create assistants.
 
-For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 ## Asset library tab
 
@@ -77,7 +77,7 @@ The **Analytics** tab has several page views, each answering a different questio
 
 \[Omitted image "NAinVA-assistant-designer-analytics-overview.png"\] Alt text: Overview dashboard page in Assistant analytics.
 
-For more information, see .
+For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ai-engagement-analytics.md).
 
 **Parent Topic:**[Creating AI user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-creating-ai-user-experiences.md)
 

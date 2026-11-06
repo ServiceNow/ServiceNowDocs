@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Premium chat, Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Prompt library

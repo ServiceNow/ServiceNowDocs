@@ -34,7 +34,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 4.  If the **Type** field is not visible, configure the form layout of the Default view to include it.
 
-    For information on configuring the form layout, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+    For information on configuring the form layout, see .
 
 5.  Add the value of **Agile Team** to the **Type** field.
 

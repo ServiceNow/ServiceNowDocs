@@ -1,6 +1,6 @@
 ---
 title: Request Change Management - Standard Change Template Intelligence
-description: To activate Change Management capability that uses Predictive Intelligence to identify change clusters and propose standard change templates, request the Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) through the Now Support Customer Service system.
+description: The Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) uses Predictive Intelligence to identify change clusters and propose standard change templates. Request the plugin through the Now Support Customer Service system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-cm-std-chg-template-intelligence.html
 release: brazil
@@ -8,13 +8,13 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Request Change Management - Standard Change Template Intelligence
 
-To activate Change Management capability that uses Predictive Intelligence to identify change clusters and propose standard change templates, request the Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) through the Now Support Customer Service system.
+The Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) uses Predictive Intelligence to identify change clusters and propose standard change templates. Request the plugin through the Now Support Customer Service system.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: maint
 
 ## About this task
 
-The Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) plugin activates these related plugins if they are not already active.
+The Change Management - Standard Change Template Intelligence plugin \(com.snc.change\_management.ml.sctp\) activates these related plugins if they are not already active.
 
 <table id="table_fvt_nq2_plb"><thead><tr><th>
 
@@ -94,14 +94,14 @@ Select the date and time to activate the plugin.
 
 
 -   **[Components installed with Change Management - Standard Change Template Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-with-std-chg-temp-ml.md)**  
-Several types of components are installed with activation of the Change Management - Standard Change Template Intelligence plugin that includes tables.
+Several types of components are installed with activation of the Change Management - Standard Change Template Intelligence plugin, including tables.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -121,17 +121,17 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
 [Request Change Management - Risk Assessment]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -139,7 +139,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

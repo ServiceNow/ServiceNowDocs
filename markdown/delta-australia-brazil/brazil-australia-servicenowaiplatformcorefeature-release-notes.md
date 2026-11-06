@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowaiplatformcorefeature-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -72,7 +72,12 @@ Australia
 
 </td><td>
 
--   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=australia&ft:locale=en-US)**
+-   **[MCP server logging](https://www.servicenow.com/docs/access?context=view-mcp-server-logs&family=australia&ft:locale=en-US)**
+
+Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the system logs, starting with Australia Patch 7.
+
+
+ -   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=australia&ft:locale=en-US)**
 
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
@@ -142,7 +147,12 @@ Brazil
 
 </td><td>
 
--   **[Set up cross-instance communication](https://www.servicenow.com/docs/access?context=multi-instance-setup-overview&family=brazil&ft:locale=en-US)**
+-   **[MCP server logging](https://www.servicenow.com/docs/access?context=view-mcp-server-logs&family=brazil&ft:locale=en-US)**
+
+Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the system logs.
+
+
+ -   **[Set up cross-instance communication](https://www.servicenow.com/docs/access?context=multi-instance-setup-overview&family=brazil&ft:locale=en-US)**
 
 Run a scan to discover non-production instances related to a production instance and connect instances using the Multi-Instance Setup application \(sn-app-amf\). Multi-Instance Setup supports cross-instance communication with other ServiceNow applications and provides a single interface to view and monitor connections.
 
@@ -243,7 +253,12 @@ Brazil
 
 </td><td>
 
--   **[AI indicators updated for form fields](https://www.servicenow.com/docs/access?context=platai-ai-indicator-form-fields&family=brazil&ft:locale=en-US)**
+-   **Improved cross-scope access security enforcement for getRefRecord\(\) JavaScript API**
+
+The cross-scope security mechanism has been strengthened, supporting consistent application of authorization rules. For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985).
+
+
+ -   **[AI indicators updated for form fields](https://www.servicenow.com/docs/access?context=platai-ai-indicator-form-fields&family=brazil&ft:locale=en-US)**
 
 AI indicators for form fields in Core UI and configurable workspaces now support AI color gradients and have been updated to reflect the latest ServiceNow Otto name and iconography.
 

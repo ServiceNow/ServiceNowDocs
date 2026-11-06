@@ -1,6 +1,6 @@
 ---
 title: Cloud Cost Management release notes
-description: The ServiceNow Cloud Cost Management application helps you to analyze cloud costs across your organization. It helps you to identify and act on opportunities to save costs and optimize operations. See the following sections for release notes by version.The Version 11.0.0 release introduces AI-powered summarization of cloud spend, standardized business context for unified cost reporting with total cost of ownership \(TCO\), business insights using the Unit Economics dashboard, and a reorganized Cloud Cost Management Workspace with enhanced navigation, and reusable saved views.
+description: The ServiceNow Cloud Cost Management application helps you to analyze cloud costs across your organization. It helps you to identify and act on opportunities to save costs and optimize operations. See the following sections for release notes by version.The Version 11.0.0 release introduces standardized business context for unified cost reporting with total cost of ownership \(TCO\), business insights using the Unit Economics dashboard, and a reorganized Cloud Cost Management Workspace with enhanced navigation, and reusable saved views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/cloud-cost-management-rn.html
 release: brazil
@@ -44,13 +44,9 @@ See [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## Version 11.0.0
 
-The Version 11.0.0 release introduces AI-powered summarization of cloud spend, standardized business context for unified cost reporting with total cost of ownership \(TCO\), business insights using the Unit Economics dashboard, and a reorganized Cloud Cost Management Workspace with enhanced navigation, and reusable saved views.
+The Version 11.0.0 release introduces standardized business context for unified cost reporting with total cost of ownership \(TCO\), business insights using the Unit Economics dashboard, and a reorganized Cloud Cost Management Workspace with enhanced navigation, and reusable saved views.
 
 ### What's new
-
--   **[Make smarter cloud cost decisions with AI-powered summarization of cloud spend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-summary-otto-ccm.md)**
-
-    Get an AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings. The **Summarize** button enables you to view month-over-month changes, commitments coverage, and the top five recommendations to reduce costs. Use these insights to make more informed decisions about your cloud spend.
 
 -   **[Get complete cost visibility with TCO and unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/business-insights-ccm-ws.md)**
 
@@ -79,10 +75,6 @@ The Version 11.0.0 release introduces AI-powered summarization of cloud spend, s
 
 
 ### Plugin information
-
--   **New plugins**
-
-    ServiceNow Otto for Cloud Cost Management \(com.sn\_now\_assist\_ccm\): Enables cloud resource admins and users to use the capabilities of generative AI skills in Cloud Cost Management.
 
 -   **Plugins planned for deprecation**
 

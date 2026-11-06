@@ -143,7 +143,7 @@ Default settings:-   Selected for local ServiceNow credential stores
 
 7.  Click **Submit**.
 
-8.  Set up the [Microsoft AD v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-ms-ad-v2.md)
+8.  Set up the Microsoft AD v2 spoke
 
 9.  [Test the connection to the credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/test-cxn-to-credential-store.md).
 

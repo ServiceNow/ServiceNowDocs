@@ -35,7 +35,7 @@ To learn more about labels and their IDs and values in Google Drive, see the [La
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sn_ext_conn_base_connector_configuration.list`.
+    2.  In the navigation field, enter `sn_ext_conn_base_connector_configuration.list`.
 
     3.  Press Enter.
 

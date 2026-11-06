@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/getting\_started\_with\_impact\_concept.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Exploring Impact, Impact]
 ---
@@ -54,7 +54,7 @@ The deliverables available through Impact Foundations vary by Impact package. Al
 |Impact deliverable|Description|Guided|Advanced|Total|
 |------------------|-----------|------|--------|-----|
 |Get started with Impact|Kicks off the onboarding experience and evaluates the current state of targeted areas for analysis on the ServiceNow Platform.|✓|✓|✓|
-|Customer Impact Plan|Provides general guidelines and recommendations based on your organizational goals and ServiceNow product mix, curated by your Customer Success Manager.|✓|✓|✓|
+|Customer Impact Plan|Provides general guidelines and recommendations based on your organizational goals and ServiceNow product mix.|✓|✓|✓|
 |Product Adoption Roadmaps|Shows a recommended implementation sequence for your capabilities.|✓|✓|✓|
 |Value Management|Supports identification of high-level goals and connects them to measurable outcomes and success metrics that demonstrate value over time.|✓|✓|✓|
 |Capabilities Maps|Shows the applications and capabilities at your disposal for achieving your objectives.|✓|✓|✓|
@@ -67,10 +67,6 @@ The deliverables available through Impact Foundations vary by Impact package. Al
 -   Accelerate your time to value on the ServiceNow Platform
 -   Access prescriptive guidance from the Impact Squad
 -   Maintain momentum through structured quarterly engagements
-
-## Next steps
-
-To begin your Getting started with Impact experience, contact your Customer Success Manager to schedule your Impact Kickoff Meeting. They will guide you through the onboarding process and help you define your objectives and priorities for the platform.
 
 **Related topics**  
 

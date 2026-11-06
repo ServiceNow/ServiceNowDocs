@@ -7,7 +7,7 @@ release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Integrate Grafana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -59,9 +59,9 @@ Perform the following steps for Grafana v9.3.2 to send event to ServiceNow.
         8.  Set **Default Grant Type** field value to **Client Credentials**.
 2.  In the Grafana console, create a contact point.
 
-    1.  Navigate to **Alerts &amp;IRM** &gt; **Alerting** &gt; **Contact Points**.
+    1.  Navigate to **Alerts &amp; IRM** &gt; **Alerting** &gt; **Contact Points**.
 
-    2.  Select **New Contact Point**, enter a name, and select the type as **Webhook**.
+    2.  Select **New contact point**, enter a name, and select the type as **Webhook**.
 
     3.  Enter a URL.
 

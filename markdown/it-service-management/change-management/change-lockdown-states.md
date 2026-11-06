@@ -24,7 +24,7 @@ These states describe where a change lockdown sits in its approval cycle, which 
 |Draft|The lockdown is being defined. The conditions and the schedule are editable, and no change request is on hold. The **Preview** action becomes available after a schedule entry is saved.|Preview, Update, Request Approval, Delete|
 |Awaiting Approval|Approval has been requested and an approval record is generated for the assignment group or the assigned user. No change request is on hold yet.|Preview, Revert to Draft, Cancel Lockdown, Delete|
 |Enforced|The lockdown is approved and active. The matched change requests appear in the **Schedule Lockdown Changes** related list with the **On hold** column set to `true`.|Cancel Lockdown, Delete|
-|Cancelled|The lockdown has ended. If it had been enforced, the change requests that it held are released. A cancelled lockdown cannot be reverted or reused.|Delete|
+|Cancelled|The lockdown has ended. If it had been enforced, the change requests that it held are released. A canceled lockdown can't be reverted or reused.|Delete|
 
 ## Related lists on a change lockdown
 

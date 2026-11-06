@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 4
-breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Enterprise-Wide Deployment for demands

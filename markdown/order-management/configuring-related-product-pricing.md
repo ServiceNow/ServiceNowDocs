@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-related-product-pricing.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-11-04"
+reading_time_minutes: 8
 keywords: [derived pricing, price list line, product offering source, product offering target, Derived Pricing Matrix]
 audience: administrator
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
@@ -152,6 +152,21 @@ Derived lines that the pricing engine creates have the **System generated** \[**
 On a system-generated line, a seller can change the start date of the first date segment. The pricing engine applies that change and recalculates the remaining segments from it. The pricing engine manages the quantity, the dates on later segments, and the priced characteristics that it copied from the reference line.
 
 A system-generated line can span a date range that reaches past the end of one contributing contract, so date validation is relaxed for these lines.
+
+Generated lines, including sold product lines, derived product lines, and other generated lines, take the auto-renew value from the sold product. Only sold products in the transaction currency contribute to a derived price.
+
+## Cached derived price rule results
+
+Derived pricing caches the rule matrix result for each source and target product offering pair. Caching reduces repeated rule matrix evaluations and improves derived pricing performance across scenarios. The performance improvement is most significant for account-level derived pricing, where accounts with thousands of sold products can require the rule matrix to evaluate a large number of source and target product offering pairs.
+
+The cache is enabled by default, and cached results expire after 72 hours. To evaluate the rule matrix on every request instead, set the **sn\_csm\_pricing.derived\_price\_cache\_enabled** property to `false`. Use the **sn\_csm\_pricing.derived\_price\_cache\_ttl\_hours** property to change how long cached results are kept. For more information, see [Pricing Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-management-properties.md).
+
+To refresh cached results daily, activate the Derived Price Rules Cache - Scheduled Refresh scheduled job. The job is inactive by default.
+
+Changes to the Derived Pricing Matrix v2 don't automatically invalidate existing cached results. If you want rule changes to take effect before the cached results expire, use one of these methods:
+
+-   Refresh the cache on demand. Open the Derived Price Rules Cache - Scheduled Refresh scheduled job and select **Execute Now**, or run `new sn_csm_pricing.DerivedPriceCacheWarmer().run()` from a background script. Refreshing the cache re-evaluates the existing cached results against the current matrix.
+-   Delete the affected cached results. Delete rows from the Derived Price Rules Cache \[sn\_csm\_pricing\_der\_rules\_cache\] table. You can delete all cached results or only the results for the affected target product offering.
 
 ## Limitations for derived pricing
 

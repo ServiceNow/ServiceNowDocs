@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Explore, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision Builder user interface

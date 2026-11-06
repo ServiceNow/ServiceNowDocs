@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate with the UKG spoke, Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrate with the UKG spoke, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Receive employee data from UKG to the Employee Center Pro Kiosk

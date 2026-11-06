@@ -93,7 +93,7 @@ Select the **X** in the upper right corner of the node. In the topic header bar,
 
     You can review test results in the adjoining tabs. For detailed information, see [\(Legacy\) Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-designer-testing.md).
 
-    If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments. For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+    If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments. For more information, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
 6.  When you're finished with the topic, select **Save** in the topic header bar.
 

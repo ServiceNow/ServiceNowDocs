@@ -1,6 +1,6 @@
 ---
 title: Install the Entity Based Access application
-description: Install the GRC: Entity Based Access application.
+description: Install the GRC: Entity Based Access \(sn\_grc\_ent\_access\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/install-entity-based-access.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Entity Based Access, Entity Based Access, Common GRC feat
 
 # Install the Entity Based Access application
 
-Install the GRC: Entity Based Access application.
+Install the GRC: Entity Based Access \(sn\_grc\_ent\_access\) application.
 
 ## Before you begin
 

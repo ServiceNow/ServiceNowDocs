@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-exporttopowerpoint-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -128,7 +128,7 @@ Brazil
 
 </td><td>
 
--   **Dynamic timeline type for roadmap exports**
+-   **[Dynamic timeline type for roadmap exports](https://www.servicenow.com/docs/access?context=export-a-portfolio-plan-to-powerpoint-strategic-planning&family=brazil&ft:locale=en-US)**
 
 Get more granular roadmap exports with timeline types that now reflect the actual export range. Previously, the timeline type was hardcoded. The timeline type is now derived from the resolved export range length. Ranges of one year or less use months, ranges over one year up to two years use quarters, and ranges over two years use years.
 

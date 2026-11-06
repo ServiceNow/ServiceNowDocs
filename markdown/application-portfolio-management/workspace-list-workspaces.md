@@ -40,9 +40,9 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Continuous Authorization and Monitoring employs the seven steps defined by the Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 
--   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)**
+-   **[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)**
 
-    CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+    CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 
 -   **[Digital Portfolio Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-landing.md)**
 

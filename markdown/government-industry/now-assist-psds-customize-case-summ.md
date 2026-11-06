@@ -202,7 +202,7 @@ Resolved
 
         -   **ServiceNow Otto panel**: When selected, the ServiceNow Otto skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see .
 
             For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 

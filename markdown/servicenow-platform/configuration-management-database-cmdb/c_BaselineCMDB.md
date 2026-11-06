@@ -88,7 +88,7 @@ Changes are displayed only for the cmdb\_ci table and child tables. You can chan
 To improve performance and prevent memory issues when showing large amounts of baseline differences data on CI forms, complete the following steps:
 
 1.  Set the system property **com.cmdb.baseline.entry.attachment** to true.
-2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RunFixScripts.md).
+2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see .
 
 **Related topics**  
 

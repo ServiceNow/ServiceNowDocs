@@ -62,5 +62,3 @@ Update the **com.snc.pa.dc.max\_row\_count\_indicator\_source** system property 
 
 [Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications]()
-

@@ -45,13 +45,13 @@ For more details on working with remote tables, see [Remote tables](https://raw.
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
 -   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md)
--   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-flows.md)
--   [Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-process-automation-designer.md)
+-   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
+-   [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md)
 -   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/tb-landing-page.md)
 -   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
 -   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder-landing.md)
 
-You can also access data from the system of record through the Glide API.
+You can also access data from the ERP system through the Glide API.
 
 The following is an example of a Glide query that fetches a customer name.
 

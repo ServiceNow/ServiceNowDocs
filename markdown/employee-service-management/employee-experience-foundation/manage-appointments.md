@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Schedule an appointment, Using Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Schedule an appointment, Using Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage your appointments
@@ -34,15 +34,15 @@ Role required: none
 
     **Note:** You can perform these actions from the Appointment list page or the Appointment details page.
 
-<table id="choicetable_czy_5m4_4dc"><thead><tr><th align="left" id="d347329e108">
+<table id="choicetable_czy_5m4_4dc"><thead><tr><th align="left" id="d346453e108">
 
 Choice
 
-</th><th align="left" id="d347329e111">
+</th><th align="left" id="d346453e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d347329e117">
+</th></tr></thead><tbody><tr><td id="d346453e117">
 
 **Cancel**
 
@@ -50,7 +50,7 @@ Action
 
 The **Cancel appointment** window opens. You can cancel the appointment by selecting **Yes, cancel**.
 
-</td></tr><tr><td id="d347329e135">
+</td></tr><tr><td id="d346453e135">
 
 **Update**
 
@@ -60,7 +60,7 @@ The Schedule appointment page opens. The fields are pre-filled with the appointm
 
  For more information about scheduling an appointment, see [Schedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/schedule-appointment.md).
 
-</td></tr><tr><td id="d347329e157">
+</td></tr><tr><td id="d346453e157">
 
 **Give Feedback**
 

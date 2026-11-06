@@ -238,11 +238,11 @@ Provides quick access to ITSM related configurations in Service Operations Works
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
-
 [Additional roles for SOW admin]()
 
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
 [Service Operations Workspace for ITSM data model]()
+
+[Service Operations Workspace for ITSM glossary]()
 

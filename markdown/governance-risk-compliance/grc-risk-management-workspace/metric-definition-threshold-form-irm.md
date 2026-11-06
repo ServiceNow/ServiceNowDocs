@@ -65,7 +65,7 @@ Valid from
 
 </td><td>
 
-Date from which the threshold configuration is valid.
+Date from which the threshold configuration is valid.**Note:** The threshold applies only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
 
 </td></tr><tr><td>
 

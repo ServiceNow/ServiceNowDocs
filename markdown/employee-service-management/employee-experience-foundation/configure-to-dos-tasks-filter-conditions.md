@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurable task filters, Setup task management, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configurable task filters, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure filter categories

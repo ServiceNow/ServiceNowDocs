@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/use-sgt.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Scripting Governance Tool, SGT, scripting, Conditional Script Writer]
 breadcrumb: [Scripting Governance Tool, Access Management]
 ---
@@ -51,7 +51,7 @@ Auto-assignment
 
 </td><td>
 
-Auto-assignment assigns new users to the **Conditional Script Writer** group if the users are `internal users` and has one functional role. You can select the slider to de-activate.**Note:** It is recommended to de-activate auto-assignment.
+Auto-assignment assigns new users to the **Conditional Script Writer** group if the users are `internal users` and has one functional role. You can select the slider to de-activate.**Note:** It is recommended to turn off auto-assignment and take control of who is added to the **Conditional Script Writer** group. Security administrators \(users with the `security_admin` role\) should decide who belongs to this group, because membership determines who on your ServiceNow AI Platform instance has access to scripting.
 
 </td></tr><tr><td>
 

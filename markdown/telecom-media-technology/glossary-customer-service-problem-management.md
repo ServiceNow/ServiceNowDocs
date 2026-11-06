@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/glossa
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

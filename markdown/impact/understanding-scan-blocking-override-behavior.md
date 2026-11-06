@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/understanding-scan-blocking-override-behavior.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [Scan Engine, scan blocking, override]
-breadcrumb: [Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Scan blocking and override behavior scenarios
@@ -51,6 +51,4 @@ The system requires a page refresh to display the most current scan information.
 -   Select the browser refresh button or press **F5**.
 -   The Scan Results list updates to show the latest scan status.
 -   New scans appear with **Getting ready** status before transitioning to in-progress
-
-**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 

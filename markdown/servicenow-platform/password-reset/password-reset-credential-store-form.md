@@ -58,7 +58,7 @@ Enable password policy
 
 </td><td>
 
-See [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/enable-password-policies.md)
+See Enable password policies on your instance
 
 </td></tr><tr><td>
 

@@ -70,7 +70,7 @@ If the VM is deleted from vCenter, the cmdb\_ci\_vm\_instance state changes to t
 When a vCenter CI, such as a virtual machine, is removed, the ServiceNow instance marks it as "stale" in the CMDB, using either of these procedures:
 
 -   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale".
--   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table from the VmRemovedEvent event, without having to run Discovery.
+-   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table. This record is created from the VmRemovedEvent event, without having to run Discovery.
 
 **Note:** When the **Staleness** setting is configured, the dependency view \(BSM map\) grays out stale CIs in its relationship diagram to indicate that they were removed from vCenter.
 

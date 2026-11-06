@@ -25,7 +25,7 @@ Role required: impact app admin, admin
 1.  Navigate to the Impact Setup Hub.
 
     -   On the ServiceNow landing page, navigate to **Manage Your Products** &gt; **Impact**.
-    -   \(Optional\) If Impact is already installed, navigate directly to the Setup Hub by going to **All** &gt; **Impact** &gt; **Configuration** &gt; **Impact Setup Hub**. If you use this option, skip to step 3.
+    -   \(Optional\) If Impact is already installed, navigate directly to the Setup Hub by going to **All** &gt; **Impact** &gt; **Impact Setup Hub**. If you use this option, skip to step 3.
 2.  Select the Impact tile and install or configure Impact.
 
     The Impact Product Hub launches:
@@ -48,11 +48,10 @@ Role required: impact app admin, admin
         -   [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-roles.md)
         -   [Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-development-team.md)
         -   [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)
-        -   [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) and [Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-real-time-scanning-properties.md)
-        -   [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
-        -   Configure Platform Health agent: 
+        -   [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md) and [Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-real-time-scanning-properties.md)
+        -   [Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
     -   **Register your instance**
-        -   [Initiate registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-registration.md)
+        -   [Register and connect to the data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-registration.md)
         -   [Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md)
     -   **Sync and migrate data**
         -   [Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)
@@ -60,6 +59,8 @@ Role required: impact app admin, admin
     -   **Enable Value Management data**
 
         [Configure an estimated data definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/configure-estimated-data-definition.md)
+
+        To configure Value Management data, you need one of these roles: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector.
 
     **Note:** Some activities are sequential. Unless you complete the previous activity, you can't finish the next one.
 

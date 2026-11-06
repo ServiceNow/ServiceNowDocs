@@ -21,7 +21,7 @@ Use the Allow Conflict Detection attribute to limit conflict detection to a spec
 
 You must have a change model configured with at least one state.
 
-Role required: admin.
+Role required: admin
 
 ## About this task
 
@@ -35,7 +35,7 @@ Without the **Allow Conflict Detection** attribute, conflict detection runs when
 
     For example, open the Emergency change model.
 
-3.  On the **Model States** tab, open the state on which conflict detection is to run.
+3.  On the **Model States** tab, open the state in which conflict detection runs.
 
     The related list shows each state with its **State label**, whether it is the **Initial state**, and its **Sequence**.
 

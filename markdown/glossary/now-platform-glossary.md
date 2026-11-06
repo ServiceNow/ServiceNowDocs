@@ -2824,7 +2824,7 @@ A unique 32-character Globally Unique Identifier \(GUID\) that identifies each r
 
 ### system of record
 
-
+The ERP system of record is where the data lives and is distributed from, for example, SAP or Oracle EBS.
 
 ### system property category
 

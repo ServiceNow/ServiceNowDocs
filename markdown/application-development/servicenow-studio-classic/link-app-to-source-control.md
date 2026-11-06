@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Link an app to source control in ServiceNow Studio

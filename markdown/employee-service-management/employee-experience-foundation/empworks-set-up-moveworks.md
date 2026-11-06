@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 1
 keywords: [Moveworks setup, Moveworks assistant, Product Configuration console, EmployeeWorks Web App]
-breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Set up Moveworks for Employee Slate

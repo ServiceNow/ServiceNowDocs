@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int-guide-service-defs-ins-case-types.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-05"
+last_updated: "2026-10-06"
 reading_time_minutes: 1
 breadcrumb: [Using case types and service definitions in FSO, Developer resources, Financial Services Operations \(FSO\)]
 ---

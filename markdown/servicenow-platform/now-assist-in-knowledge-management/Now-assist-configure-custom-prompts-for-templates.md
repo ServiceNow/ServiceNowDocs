@@ -24,7 +24,7 @@ Role required: sn\_skill\_builder.admin, sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-To create custom prompts for OOB and custom knowledge article templates, clone the existing KB generation skill, from the AI skill kit. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Configuration of the skill happens in three steps:
+To create custom prompts for OOB and custom knowledge article templates, clone the existing KB generation skill, from the AI skill kit. For more information, see  Configuration of the skill happens in three steps:
 
 -   Clone the OOB KB generation skill
 -   Prompt configuration
@@ -62,7 +62,7 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 11. Evaluate the prompt.
 
-    For more, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/evaluate-prompt.md)
+    For more, see 
 
 12. Select the **Settings** icon to open the **Configurations** settings panel.
 

@@ -279,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d140117e1046">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141733e1046">
 
 Interface
 
-</th><th align="left" id="d140117e1049">
+</th><th align="left" id="d141733e1049">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d140117e1055">
+</th></tr></thead><tbody><tr><td id="d141733e1055">
 
 **Core UI**
 
@@ -298,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d140117e1097">
+</td></tr><tr><td id="d141733e1097">
 
 **Software Asset Workspace**
 
@@ -446,7 +446,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

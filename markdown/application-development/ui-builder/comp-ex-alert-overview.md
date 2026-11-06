@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [UI Builder, Alert, Alert message, Components, Use case, UI Builder, Alert, Alert message, Components, Use case, UI Builder, Alert, Alert message, Components, Use case]
-breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create and customize alert messages in UI Builder

@@ -9,7 +9,7 @@ last_updated: "2026-09-22"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Build Agent limitations, regulated environments, FedRAMP, GCC, NSC, Build Agent v1, Build Agent v2, Autonomous Engineer, AI-generated code review, Fluent API, deployment constraints, agentic development, off-instance services, security compliance]
 audience: developer
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent limitations

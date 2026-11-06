@@ -28,7 +28,7 @@ For configuration management to be most effective, establish relationships betwe
 
 \[Omitted image "csdm-ci-relationships.png"\] Alt text: CSDM relationships.
 
-**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/SPM2-taxonomy.md).
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See .
 
 ## Resources in the ServiceNow Community
 

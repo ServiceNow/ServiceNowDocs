@@ -193,9 +193,9 @@ Enable to show the percentage each data point contributes to the total alongside
 </td></tr></tbody>
 </table>Chart variation options:
 
--   \[Omitted image "dv-column-stacked.png"\] Alt text: Example of a stacked column visualization
--   \[Omitted image "dv-column-side-by-side.png"\] Alt text: Example of a side-by-side column visualization
--   \[Omitted image "dv-column-normalized.png"\] Alt text: Example of a normalized column visualization
+-   \[Omitted image "dv-column-stacked.png"\] Alt text: A stacked column visualization
+-   \[Omitted image "dv-column-side-by-side.png"\] Alt text: A side-by-side column visualization
+-   \[Omitted image "dv-column-normalized.png"\] Alt text: A normalized column visualization
 
 ## Spline, line, and step visualization display settings
 

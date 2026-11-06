@@ -40,5 +40,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|User was successfully added to group.|
 |Failure|An error occurred while attempting to add the user to the group. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

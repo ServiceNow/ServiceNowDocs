@@ -8,7 +8,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -32,6 +32,10 @@ Create drafts of knowledge articles from multiple cases with the ServiceNow Otto
 Generate an email reply that is based on the case and email context by using the ServiceNow Otto icon. With email reply recommendations, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 -   **[Summarize an HR case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md)**  
 Quickly understand the case context and respond to inquiries by using the case summarization skill.
+-   **[Summarize an ER case interview using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-er-interview.md)**  
+Use the ER interview summarization skill to obtain a comprehensive overview of the ER interview, which includes key details such as quick recap, key assertions and responses.
+-   **[Summarize an ER case using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-er-case.md)**  
+Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details such as allegations, evidences, and interviews.
 -   **[Generate resolution notes using ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md)**  
 Generate the resolution notes for a case using the resolution notes generation skill. You can improve the quality of the resolution notes by providing a summary of the issue and the steps that were taken to resolve the case.
 -   **[View employee summary reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/employee-summary-lh.md)**  

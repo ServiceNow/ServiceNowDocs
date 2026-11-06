@@ -9,7 +9,7 @@ last_updated: "2026-09-09"
 reading_time_minutes: 1
 keywords: [ServiceNow Studio, changlog, Autonomous Engineer]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # View changes in the change log

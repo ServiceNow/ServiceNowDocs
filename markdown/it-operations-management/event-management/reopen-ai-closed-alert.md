@@ -7,8 +7,9 @@ release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-02"
 reading_time_minutes: 1
+keywords: [Dashboard, metrics, AI specialist, MTTR, performance]
 breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -17,6 +18,8 @@ breadcrumb: [Manage alert states in Express List, Assigning and managing alerts,
 Reopen an alert that the AIOps AI Specialist auto-closed as noise so it bypasses the noise classifier and runs the full investigation pipeline. Your override is honored for the alert's entire lifecycle, preserved in the audit trail, and fed back to improve future classification accuracy.
 
 ## Before you begin
+
+[AIOps AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ai-specialist-aiops-overview.md)
 
 Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 

@@ -1,20 +1,20 @@
 ---
-title: Exploring the Wiz Test Results and Issues Integrations with Configuration Compliance
-description: Import cloud configuration data with the Wiz Test Results and Issues Integrations with Configuration Compliance that are included with the Wiz Vulnerability Response Integration.
+title: Understanding the Wiz Test Results and Issues Integrations with Configuration Compliance
+description: Import cloud configuration data with the Wiz Test Results and Issues Integrations with Configuration Compliance that are included with the Vulnerability Response Integration with Wiz.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/exploring-wiz-ctest-results-int.html
 release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-26"
 reading_time_minutes: 2
 breadcrumb: [Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
-# Exploring the Wiz Test Results and Issues Integrations with Configuration Compliance
+# Understanding the Wiz Test Results and Issues Integrations with Configuration Compliance
 
-Import cloud configuration data with the Wiz Test Results and Issues Integrations with Configuration Compliance that are included with the Wiz Vulnerability Response Integration.
+Import cloud configuration data with the Wiz Test Results and Issues Integrations with Configuration Compliance that are included with the Vulnerability Response Integration with Wiz.
 
 ## Wiz Test Results Integration
 
@@ -34,5 +34,5 @@ Import issues data from Wiz to help vulnerability managers, analysts, and cloud 
 
 These findings are also mapped to CTRs with `Wiz Issues` labeled as the source in the Configuration Compliance application to help you track and remediate assets that may pose complex multi-vector risks.
 
-For more information about the other integrations that are included with the Wiz Vulnerability Response Integration and installation and configuration steps, see [Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md).
+For more information about the other integrations that are included with the Wiz Vulnerability Response Integration and installation and configuration steps, see [Understanding the Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md).
 

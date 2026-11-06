@@ -29,10 +29,10 @@ The Activity Center provides a comprehensive view of all the activities supporti
 Impact enables multiple stakeholder groups within your organization to lead their own digital transformation.
 -   **[Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/grant-ide-permissions.md)**  
 Review and approve Initiative and Accelerator activities access using **Manage Permissions**.
--   **[Objectives and Outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/objectives-and-outcomes-in-impact-delivery-instance.md)**  
+-   **[Objectives and outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/objectives-and-outcomes-in-impact-delivery-instance.md)**  
 The value management lifecycle starts with the creation of the Objectives and outcomes that are high-level goals tied to measurable outcomes that help illustrate value over time.
 -   **[Value Reports in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-reports-in-impact-delivery-instance.md)**  
-Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a **Value Report.**
+Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a **Value Report**.
 -   **[Manage product adoption roadmaps for Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-and-publish-a-product-adoption-roadmap.md)**  
 Create a product Adoption Roadmap \(PAR\) with a single click by selecting the template that best supports your specific business outcome.
 -   **[Manage capabilities maps in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/manage-capabilities.md)**  

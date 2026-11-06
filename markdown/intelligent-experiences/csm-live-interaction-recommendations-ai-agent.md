@@ -1,6 +1,6 @@
 ---
 title: Live interaction recommendations AI agent
-description: The agent analyzes the conversation between a customer and a live agent. It recommends actions that help the live agent resolve the customer's issue.
+description: The AI agent analyzes the conversation between a customer and a human agent. It recommends actions that help a human agent resolve the customer's issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/csm-live-interaction-recommendations-ai-agent.html
 release: brazil
@@ -12,17 +12,18 @@ breadcrumb: [Customer Service Management AI agents, Customer Service Management,
 
 # Live interaction recommendations AI agent
 
-The agent analyzes the conversation between a customer and a live agent. It recommends actions that help the live agent resolve the customer's issue.
+The AI agent analyzes the conversation between a customer and a human agent. It recommends actions that help a human agent resolve the customer's issue.
 
 ## Workflow
 
-The agent helps a live agent during a customer call by surfacing recommendations from the interaction.
+The AI agent helps a human agent by providing real-time recommendations during live customer interactions on the voice channel.
 
-1.  Show a **Get Recommendations** button when the session starts.
-2.  Analyze the current interaction when the user selects the button.
-3.  Display the recommendations, with clarifying options where they apply.
-4.  Refine the recommendations when the user selects an option or asks a follow-up question.
-5.  Show the button again so the user can refresh the recommendations as the call continues.
+1.  Show the welcome message and customer name in the ServiceNow Otto panel when the session starts.
+2.  Show the **Get Recommendations** button.
+3.  Analyze the current call transcript when the human agent selects the **Get Recommendations** button.
+4.  Display the recommendations, with clarifying options where they apply.
+5.  Refine the recommendations when the user selects an option or asks a follow-up question.
+6.  Show the **Get Recommendations** button again so the user can refresh the recommendations as the call continues.
 
 <table><thead><tr><th>
 
@@ -33,22 +34,6 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-Allow third party to access this AI agent
-
-</td><td>
-
-When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
-
-</td></tr><tr><td>
-
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
 
 Manage long-term memory
 
@@ -66,7 +51,7 @@ Tools
 
 Get Interaction Context
 
--   **Tool**
+-   **Subflow**
 
 Analyse Interaction and Generate Recommendation
 
@@ -101,7 +86,7 @@ Channels
 
 </td><td>
 
-Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+Configure an assistant for ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

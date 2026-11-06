@@ -27,7 +27,7 @@ This page displays cards with information on metrics related to authentication. 
 -   X509 certificates expiring: Total count of X509 certificates that are expiring in the next 30 days.
 -   Biometric scanner/Hardware key users: Total count of users login with biometric scanner or Hardware key.
 -   REST API's Without Access Policy: Total count of users login without REST API's Access Policy.
--   Integration Accounts without Web Service Access Only Flag enabled: Total count of users login without Integration Accounts Web Service Access Only Flag enabled.
+-   Integration Accounts without Web Service Access Only Flag enabled: Total count of users login without Integration Accounts Web Service Access Only Flag enabled. To clear entries from the enforcement table, see [Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-enforcement.md).
 
 Select the cards to view the individual metrics page with additional details.
 

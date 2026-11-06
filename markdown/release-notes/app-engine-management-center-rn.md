@@ -33,7 +33,7 @@ See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
 
-## Version X.X.X
+## October 2026
 
 App Engine Management Center \(AEMC\) was enhanced and updated in the October 2026 release to enable the assignment of Developer Sandboxes packs inside AEMC.
 

@@ -37,17 +37,17 @@ Before retiring a template, you can analyze the template usage by viewing the **
 
 3.  Retire and discontinue the template or retire it and create a copy you can modify.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d176087e101">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d293140e103">
 
 **Retire and discontinue a change template**
 
 </td><td>
 
-Select **Retire**.The retirement request is sent for approval. The template moves to Pending Retirement state, and is no longer be available for modifications.
+Select **Retire**.The retirement request is sent for approval. The template moves to the **Pending Retirement** state and is no longer available for modifications.
 
-After approval, the template moves to the **Retired** state, and is unavailable for use. If rejected, the state of the template changes to **Published**.
+After approval, the template moves to the **Retired** state, and is unavailable for use. If the request is rejected, the state of the template changes to **Published**.
 
-</td></tr><tr><td id="d176087e123">
+</td></tr><tr><td id="d293140e128">
 
 **Copy and retire the parent template**
 
@@ -62,7 +62,7 @@ After the copied template is published, the original template moves to the **Ret
 
     -   To save the modifications but not send them for approval, select **Save**.
     -   To send the template for approval, select **Publish**.
-5.  View the list of approvers who have been configured to review the modifications made to the template in the **Approvers** tab.
+5.  On the **Approvers** tab, view the approvers who are configured to review the modifications to the template.
 
 
 **Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)

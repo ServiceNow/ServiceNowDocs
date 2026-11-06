@@ -47,9 +47,9 @@ The following legacy risk assessment components are migrated:
 
 3.  Open the legacy risk assessment that you want to migrate to a change risk assessment.
 
-4.  Click the **Migrate to Risk Assessment** related link.
+4.  Select the **Migrate to Risk Assessment** related link.
 
-5.  Click **OK**.
+5.  Select **OK**.
 
 6.  Repeat steps 4-5 for all the legacy risk assessment to be migrated.
 
@@ -64,7 +64,7 @@ disable_legacy_change_risk_assessment.js
 
 Capture the results in the update set created and later mark the update set as closed complete. For more information, see [Mark an update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_CompleteUpdateSets.md).
 
-**Note:** The given procedure is a suggested practice. Alternatively, you can capture each migrated Change Risk Assessment in their own update set. You can also capture the results of disabling of the Change Management - Risk Assessment \[Legacy\] using `disable_legacy_change_risk_assessment.js` in a separate update set.
+**Note:** The given procedure is a suggested practice. Alternatively, you can capture each migrated Change Risk Assessment in their own update set. You can also capture the results of Change Management - Risk Assessment \[Legacy\] using `disable_legacy_change_risk_assessment.js` in a separate update set.
 
 -   **[Migrated risk assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/migrated-risk-assessment-components.md)**  
 When you migrate a change risk assessment, the system maps records from legacy risk assessment to the new risk assessment tables.

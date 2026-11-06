@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-fieldservicemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 10
+last_updated: "2026-11-06"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -112,7 +112,16 @@ Brazil
 
 </td><td>
 
--   **[Field Service Questionnaires with Smart Assessments v4.0](https://www.servicenow.com/docs/access?context=create-a-smart-assessment-template&family=brazil&ft:locale=en-US)**
+-   **[FSM Configurable Dispatcher Workspace Bundle v11.1.0 calendar time format](https://www.servicenow.com/docs/access?context=r_PropInstallWFieldServMgmnt&family=brazil&ft:locale=en-US)**
+
+You can set the time format for the Dispatcher Workspace calendar with the `sn_fsm_disp_wrkspc.dispatcher_workspace.calendar_display_time_format` system property. The default HH:mm format hides seconds, including in the stacked time zone row headers.
+
+-   **[Operational notes in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=operational-notes-overview&family=brazil&ft:locale=en-US)**
+
+Dispatchers can add day-specific notes for technicians, crews, equipment, and work order tasks. Only dispatchers and administrators can see these notes.
+
+
+ -   **[Field Service Questionnaires with Smart Assessments v4.0](https://www.servicenow.com/docs/access?context=create-a-smart-assessment-template&family=brazil&ft:locale=en-US)**
 
 Create Smart Assessment templates faster by adding standard questions from a question bank instead of authoring each question manually.
 
@@ -390,7 +399,7 @@ Brazil
 Install Field Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
 
 
-**Note:** Field Service Management is available in the ServiceNow Store. For details, see [\[Placeholder link text to key t\_ActivateFieldServiceManagement\]](https://www.servicenow.com/docs/access?context=t_ActivateFieldServiceManagement&family=brazil&ft:locale=en-US).
+**Note:** Field Service Management is available in the ServiceNow Store. For details, see [Activate](https://www.servicenow.com/docs/access?context=t_ActivateFieldServiceManagement&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -23,22 +23,22 @@ The console is accessible to users with the `user_authn_admin` role. Navigate to
 
 ## What the Authentication Console includes
 
-The Authentication Console currently includes configuration for the next-generation login experience. Additional authentication configuration areas may be added in future releases.
+The Authentication Console currently includes configuration for the policy-based login experience. Additional authentication configuration areas may be added in future releases.
 
--   **Identifier-first login \(IFL\) policies**
+-   **Identifier-first login policies**
 
-    The Authentication Console enables administrators to configure identifier-first login \(IFL\) for the instance. From this section, administrators can:
+    The Authentication Console enables administrators to configure identifier-first login for the instance. From this section, administrators can:
 
     -   Enable or disable the identifier-first login flow for the instance.
-    -   View the list of all IFL policies configured on the instance.
-    -   Create, edit, activate, deactivate, and delete IFL policies.
-    -   Define conditions for each policy — such as IP address, role, group, department, company, domain, and location — using a guided condition builder.
-    -   Assign an authentication method to each policy — either an SSO provider or local login.
+    -   View the list of all identifier-first login policies configured on the instance.
+    -   Create, edit, activate, deactivate, and delete identifier-first login policies.
+    -   Define conditions for each policy — such as IP address, role, and group — using a guided condition builder.
+    -   Assign an authentication method to each policy — either SSO login or Use Password.
     -   Set and adjust the evaluation order of policies to control which policy takes precedence when multiple policies match a user.
-    -   Configure SSO cookie override behavior to control whether a previously stored SSO session cookie is honored or bypassed during login routing.
+    -   Configure the Override cookie-based redirects setting to control whether a previously stored IdP cookie is honored or bypassed during login routing.
 -   **Settings**
 
-    Contains instance-level toggles for the login experience, including the option to enable the identifier-first login flow and configure SSO cookie override behavior.
+    Contains instance-level toggles for the login experience, including the option to enable the identifier-first login flow and configure the Override cookie-based redirects setting.
 
     -   **Enable policy-based login** — the main setting that turns the experience on and determines the first authentication factor during login. See [Activate the policy-based login experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/activate-authentication-console.md).
     -   Identifier-first page options, such as showing identity provider tiles for direct login and showing recently used identifiers.
@@ -51,10 +51,10 @@ Access to the Authentication Console is restricted to users with the `user_authn
 
 |Operation|Description|
 |---------|-----------|
-|View IFL policies|View the list of all IFL policies and their current configuration.|
-|Create IFL policies|Create IFL policies with conditions and an authentication method.|
-|Edit IFL policies|Modify the name, order, conditions, authentication method, or active status of an existing IFL policy.|
-|Activate or deactivate IFL policies|Include or exclude a policy from login evaluation without deleting it.|
-|Delete IFL policies|Permanently remove an IFL policy from the instance.|
-|Manage instance settings|Enable or disable the next-generation login experience and configure SSO cookie override behavior.|
+|View identifier-first login policies|View the list of all identifier-first login policies and their current configuration.|
+|Create identifier-first login policies|Create identifier-first login policies with conditions and an authentication method.|
+|Edit identifier-first login policies|Modify the name, order, conditions, authentication method, or active status of an existing identifier-first login policy.|
+|Activate or deactivate identifier-first login policies|Include or exclude a policy from login evaluation without deleting it.|
+|Delete identifier-first login policies|Permanently remove an identifier-first login policy from the instance.|
+|Manage instance settings|Enable or disable the policy-based login experience and configure the Override cookie-based redirects setting.|
 

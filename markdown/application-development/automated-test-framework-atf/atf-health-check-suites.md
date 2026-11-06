@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-18"
 reading_time_minutes: 4
 keywords: [ATF Health Check, instance scan, automated test framework, diagnostic checks]
-breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # ATF Health Check

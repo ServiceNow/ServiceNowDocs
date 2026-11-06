@@ -1,6 +1,6 @@
 ---
 title: Monitoring data usage in Hermes
-description: Monitor data usage in Hermes over time.
+description: Monitor the amount of data produced to and consumed from the Hermes cluster over time. Use the Hermes Usage Dashboard to track data inflow and outflow by topic, application, and time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.html
 release: brazil
@@ -9,14 +9,17 @@ classification: multi-instance-framework-hermes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
+keywords: [Usage dashboard, Monitor data usage, Usage data]
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Monitoring data usage in Hermes
 
-Monitor data usage in Hermes over time.
+Monitor the amount of data produced to and consumed from the Hermes cluster over time. Use the Hermes Usage Dashboard to track data inflow and outflow by topic, application, and time period.
 
-Monitor the amount of data that is produced to and consumed from the Hermes cluster over time in the Hermes Usage Dashboard.
+\[Omitted video\] Description: Hermes Usage Dashboard overview video.
+
+This video covers the Hermes Usage Dashboard.
 
 Usage data is calculated by aggregating the size of all messages sent to the cluster. The size of the message is determined by the total payload present in Kafka, including key, header, value, and overhead. If compression is enabled, the dashboard reports the compressed payload size, which includes key, header, and message.
 
@@ -26,7 +29,7 @@ Usage data is calculated by aggregating the size of all messages sent to the clu
 -   Visualize data usage over time for all topics, a single topic, or multiple applications.
 -   Compare data usage for topics that belong to an application.
 
-\[Omitted image "hermes-usage-dashboard.png"\] Alt text: Hermes Metrics Dashboard.
+\[Omitted image "hermes-usage-dashboard.png"\] Alt text: Usage Dashboard showing data inflow and outflow metrics by topic and time period.
 
 ## Required roles
 
@@ -38,7 +41,7 @@ View usage by navigating to **All** &gt; **Hermes Messaging Service** &gt; **Usa
 
 ## Multi-select for Application ID filter
 
-The Application ID filter displays full descriptive names alongside application identifiers. This makes it easier to identify and select the application you want to monitor without needing to know internal shorthand codes. Only applications with active metrics collection appear in the filter.
+The Application ID filter displays full descriptive names alongside application identifiers so you can identify and select the application without needing to know internal shorthand codes. Only applications with active metrics collection appear in the filter.
 
 |Application ID|Display Name|
 |--------------|------------|
@@ -47,7 +50,7 @@ The Application ID filter displays full descriptive names alongside application 
 |sn\_streamconnect|Stream Connect|
 |sn\_logstoanalytics|Log Export Service|
 
-The Application ID filter now supports selecting multiple applications simultaneously. Previously, you could only view one application at a time. With multi-select option, you can do the following:
+The Application ID filter supports selecting multiple applications simultaneously. With the multi-select option, you can do the following:
 
 -   Compare data usage across multiple applications in a single view.
 -   View aggregate Total MB In and MB Out across all selected applications.
@@ -121,7 +124,7 @@ The following are the available options in the Hermes Topic filter:
 -   **All - Summary** — Displays one aggregated total row per selected application. Use this for a quick snapshot of overall usage.
 -   **All - Detailed** — Displays individual rows per topic. Use this to identify which specific topics are driving the most data usage. The sum of all rows in All - Detailed equals the All - Summary total.
 
-|Application ID|Hermes Topic Option|What You See|How You Might Use It|
+|Application ID|Hermes Topic Option|What you see|How you might use it|
 |--------------|-------------------|------------|--------------------|
 |All|All - Summary|One aggregate row per selected application.|Quickly compare total data usage across applications.|
 |All|All - Detailed|Individual topic rows for all applications, excluding aggregate entries.|Identify which specific topics are driving the most usage across your organization.|

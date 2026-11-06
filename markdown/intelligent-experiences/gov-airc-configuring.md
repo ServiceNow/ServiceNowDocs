@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-air
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -38,5 +38,5 @@ If the necessary governance information isn't yet available, incomplete states m
 
 Risk and Compliance information depends on AI Risk and Compliance being installed and, for life-cycle-driven governance, integrated with AI Control Tower. Some capabilities also depend on additional plugins, such as the AI Risk and Asset Management for Now Assist plugin and, in new IRM deployments, the IRM Standard plugin for AI intake request forms. For the full list of dependencies, see [Governing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-governing-ai-assets.md).
 
-For the specific properties, applications, and publishing steps required for regulatory risk classification, aggregated risk score, and compliance score, see [Configure classification, risk score, and compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-configure-crc-scores.md). For more information about configuring AI Risk and Compliance, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+For more information about configuring AI Risk and Compliance, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
 

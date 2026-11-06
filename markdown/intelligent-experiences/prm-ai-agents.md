@@ -14,5 +14,8 @@ breadcrumb: [Sales CRM AI agents, Sales CRM, AI agents library, AI agents and ag
 
 The following AI agents are available for Partner Relationship Management \(PRM\).
 
+-   **[Deal Registration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/prm-deal-registration-agent-ai-agent.md)**  
+Manages the end-to-end deal registration workflow. Creates, updates, and submits deal registrations for channel partners; resolves customer and product information; and handles product line item management including additions and removals.
+
 **Parent Topic:**[Sales CRM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sales-crm-ai-agents-overview.md)
 

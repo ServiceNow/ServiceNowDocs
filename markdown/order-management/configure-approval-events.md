@@ -1,6 +1,6 @@
 ---
 title: Configure approval events
-description: Configure the approval system events that control the approval buttons and stage transitions for a CPQ implementation.
+description: Configure the approval system events that control the approval buttons and stage transitions for a ServiceNow CPQ implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-approval-events.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Set up the environment to manage approvals, Advanced Approval Manag
 
 # Configure approval events
 
-Configure the approval system events that control the approval buttons and stage transitions for a CPQ implementation.
+Configure the approval system events that control the approval buttons and stage transitions for a ServiceNow CPQ implementation.
 
 ## Before you begin
 

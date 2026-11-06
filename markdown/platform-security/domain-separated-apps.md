@@ -94,7 +94,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Moveworks|No support|
 |[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
 |[Safe Workplace Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/domain-separation-safe-workplace.md)|See application site for individual application support levels|
-|[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/sharepoint-online-search-connector-domain-separation.md)|Basic|
+|SharePoint Online Search Connector|Basic|
 |[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/domain-sep-universal-request.md)|Basic|
 |[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/domain-sep-universal-task.md)|Basic|
 |[Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/wfo-hr-overview.md)|Basic|

@@ -18,6 +18,8 @@ Configure entity filters to define the records from ServiceNow tables that popul
 
 Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
+Only users with the sn\_oper\_res.admin role can delete entity filters.
+
 ## About this task
 
 Choose the appropriate method based on your specific filtering requirements and the complexity of your data selection criteria: build custom conditions for specific requirements or use predefined queries for standard scenarios.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/channel-partner-components.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ Business Profile
 
 </td><td>
 
-Details associated with the channel partner.To learn more information about the details, see [Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-channel-partner-record.md).
+Details associated with the channel partner.To learn more information about the details, see .
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Register Partner Staff
 
 </td><td>
 
-Register staff to an enterprise.To learn more about registering partner staff, see [Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-partner-staff-on-workspace.md).
+Register staff to an enterprise.To learn more about registering partner staff, see .
 
 </td></tr></tbody>
 </table>|UI component|Description|

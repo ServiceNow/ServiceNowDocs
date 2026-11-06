@@ -24,7 +24,7 @@ Role required: sn\_query\_gen.admin
 
 ## Procedure
 
-1.  Activate the Query Generation skills as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md).
+1.  Activate the Query Generation skills as described in .
 
 2.  Navigate to **Query Generation** &gt; **Indexed Sources**.
 

@@ -37,22 +37,22 @@ You can search the HI Knowledge Base for troubleshooting articles or monitor the
 ## ServiceNow applications that use the MID Server
 
 -   [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-setup.md)
--   [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_OrchestrationMID.md)
+-   Orchestration
 -   [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping-setup.md)
 -   [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EMConfiguration.md)
 -   [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/get-started-metrics.md)
 -   [Cloud Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration.md)
--   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integrationhub.md)
+-   IntegrationHub
 -   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-insights-landing-page.md)
 -   [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-landing-page.md)
 
 ## External applications that use the MID Server
 
--   [Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/import-sets-landing-page.md)
--   [Microsoft SMS/SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
--   [LANDesk Maintenance Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_CSDExtensionFramework.md)
+-   Import Sets
+-   Microsoft SMS/SCCM
+-   LANDesk Maintenance Suite
 -   [Microsoft System Center Operations Manager \(SCOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_EMConfigureSCOMConnectorInstance.md)
--   [Microsoft MIIS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_UsingADAMSyncToPopulateADAM.md)
+-   Microsoft MIIS
 
 ## Begin MID Server installation
 

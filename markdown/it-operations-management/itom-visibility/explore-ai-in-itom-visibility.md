@@ -149,7 +149,7 @@ An incident responder wants to trigger an Ansible automation directly from the S
 </td><td>
 
 -   [Ansible automation integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-automation-integration-overview.md)
--   [Execute Ansible automations for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
+-   [Execute Ansible playbooks for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
 
 </td></tr></tbody>
 </table>## AI agents

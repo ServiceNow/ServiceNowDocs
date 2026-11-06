@@ -21,7 +21,7 @@ Task Communications Management \(TCM\) provides a framework for defining and man
 Explore
 
 -   [Task Communications Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/task-communications-management.md)
--   [Slack Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/setting-up-slack.md)
+-   Slack Communication
 
 </td><td>
 

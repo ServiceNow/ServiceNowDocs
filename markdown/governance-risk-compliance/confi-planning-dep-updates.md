@@ -26,6 +26,8 @@ The BCM administrators configure the sources for fetching the latest dependencie
 
 **Note:** In the plans, the dependencies are fetched for all primary scope assets.
 
+Assets that don't match an active element definition, including its filter, aren't added to the plan. Existing plan assets that no longer match are flagged as invalid when you update dependencies, and related assets are removed from the plan.
+
 ## Auto-update the dependencies
 
 The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record. This option schedules an auto-update of the related assets in the plans.

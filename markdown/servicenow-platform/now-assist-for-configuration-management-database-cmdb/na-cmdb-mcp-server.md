@@ -49,7 +49,7 @@ For an overview of the MCP Server and its supported clients and tools, see [CMDB
 
 2.  On the Servers page of the Configuration console, select the **CMDB MCP Server** card and then select **Activate**.
 
-3.  To control access to the server, set up OAuth credentials using the Inbound Integrations feature as described in [Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/inbound-integrations.md).
+3.  To control access to the server, set up OAuth credentials using the Inbound Integrations feature as described in .
 
     For instructions on connecting an MCP client to the server, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 

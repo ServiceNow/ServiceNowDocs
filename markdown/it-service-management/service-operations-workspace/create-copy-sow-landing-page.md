@@ -44,5 +44,5 @@ Role required: admin or ui\_builder\_admin
 
 [Customize Service Operations Workspace landing page]()
 
-[Customize the incident record page]()
+[Incident record page customization]()
 

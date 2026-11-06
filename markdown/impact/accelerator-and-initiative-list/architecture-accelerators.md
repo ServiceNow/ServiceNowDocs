@@ -27,7 +27,7 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |Accelerator|Guided package|Guided +Platform Governance|Advanced package|Total package|Integrated Success|On-Demand|
 |:----------|:------------:|:-------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Architecture Blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md)| |✓|✓|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon| |
-|[CSDM Data Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/csdm-data-modeling.md)| |✓|✓|✓|✓| |
+|[CSDM Data Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/csdm-data-modeling.md)| | | |✓|✓| |
 |[CSDM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/csdm-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Data Management and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/data-mgt-governance.md)| |✓|✓|✓|✓| |
 |[Design Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/design-review.md)​| |✓|✓|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon| |

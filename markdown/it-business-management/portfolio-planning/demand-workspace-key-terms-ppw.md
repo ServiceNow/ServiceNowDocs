@@ -104,7 +104,7 @@ Demand experience
 
 </td><td>
 
-A configuration record that defines a governance process, such as Marketing or IT. It controls the form view, modules, and dynamic attributes that appear on a demand using that experience. See [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/demand-experiences-ppw.md).
+A configuration record that defines a governance process, such as Marketing or IT. It controls the form view, modules, and dynamic attributes that appear on a demand using that experience. For more information, see [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/demand-experiences-ppw.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Smart assessment
 
 </td><td>
 
-An assessment automatically created from a template and scored when a demand reaches the Screening state, replacing the classic assessment instances and assessment results workflow. See [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md).
+An assessment automatically created from a template and scored when a demand reaches the Screening state, replacing the classic assessment instances and assessment results workflow. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md).
 
 </td></tr></tbody>
 </table>

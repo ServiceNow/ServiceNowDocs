@@ -28,15 +28,15 @@ Use the **Cleaning** workplace service to request for cleaning service at your w
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d187422e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d187161e70">
 
 Location
 
-</th><th align="left" id="d187422e73">
+</th><th align="left" id="d187161e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d187422e79">
+</th></tr></thead><tbody><tr><td id="d187161e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d187422e149">
+</td></tr><tr><td id="d187161e149">
 
 **Employee Center**
 

@@ -1,6 +1,6 @@
 ---
 title: Permissions management for Cloud Services Catalog
-description: Permissions are your group-level access rights to features and actions in Cloud Services Catalog.
+description: Permissions are your group-level access rights to features and actions in Cloud Services Catalog \(CSC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/working-with-permissions.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Cloud Services Catalog administration guide, Configure, Cloud Servi
 
 # Permissions management for Cloud Services Catalog
 
-Permissions are your group-level access rights to features and actions in Cloud Services Catalog.
+Permissions are your group-level access rights to features and actions in Cloud Services Catalog \(CSC\).
 
-The permission policies in Cloud Provisioning and Governance User Portal control the actions that are allowed or limited for users based on the user group. See [Permissions Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-permissions.md) for permission types and ideas.
+Cloud Services Catalog honors all the permissions in Cloud Provisioning and Governance. The permission policies in Cloud Provisioning and Governance User Portal control the actions that are allowed or limited for users based on the user group. See [Permissions Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-permissions.md) for permission types and ideas.
 
-Currently, this does not apply for catalog provisioning in Cloud Services Catalog. For CSC, all users with roles permission can access, view and provision the catalogs, by default.
+For CSC, all users with roles permission can access, view and provision the catalogs, by default.
 
 **Parent Topic:**[Cloud Services Catalog administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/cloud-services-catalog-administration-guide.md)
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [Assign Developer Sandboxes packs, Assign Developer Sandboxes packs in AEMC, Developer Sandboxes, App Engine Management Center, AEMC, Developer Sandboxes license assignment, Assign DSB packs in AEMC]
-breadcrumb: [Manage app development, Use, App Engine Management Center, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Manage app development, Use, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Assign Developer Sandboxes packs
@@ -30,7 +30,7 @@ Developer Sandboxes are packaged in increments of 10, called packs. For more inf
 -   Multi-Instance Management is required for assigning Developer Sandboxes licenses. It depends on the Multi-Instance Setup app \(`sn-app-amf`\), which must be installed separately from the ServiceNow® Store. This app is not a dependency of the `com.glide.dsb.licensing` plugin and is not installed automatically. For details on adding managed instances, see [Connecting controller and managed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/connecting-controller-managed-instances.md).
 
 
-Role required: sn\_dsb\_commons.sandbox\_license\_admin or admin
+Role required: sn\_dsb\_commons.sandbox\_license\_admin or admin, plus app\_engine\_admin
 
 ## Procedure
 

@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-breadcrumb: [Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure voice settings for a chat assistant

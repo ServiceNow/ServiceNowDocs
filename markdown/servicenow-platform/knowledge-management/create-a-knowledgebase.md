@@ -292,7 +292,7 @@ List of knowledge categories associated with this knowledge base.**Note:** If th
 
 [Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
 
-[Explicit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explicit-roles.md)
+[bundle-psec.explicit-roles]
 
 [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 

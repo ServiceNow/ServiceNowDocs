@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 1
 keywords: [Add a release to a deployment request, Deployment request ReleaseOps]
-breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Add a release to a deployment request

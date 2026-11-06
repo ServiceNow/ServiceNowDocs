@@ -28,9 +28,7 @@ A business operational risk manager has the role sn\_risk\_workspace.business\_o
 -   View the control status, the number of new controls, and the number of controls not attested.
 -   View the number of overdue issues and the number of new issues.
 
-The following image shows the operational risk manager's view of the Risk Workspace \[Omitted image "risk-business-op-risk.gif"\] Alt text: Workspace for the business operational risk manager..
-
-To view the risk assessments for the top risks for your entities, click the **Top risks** card.
+To view the risk assessments for the top risks for your entities, select the **Top risks** card.
 
 The heatmap on the workspace gives critical insights into the risks when you select each tile of the heatmap. You can use the filter on the heatmap to view either the inherent risk posture or the residual risk posture. For more information, see [Risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-workbench.md).
 

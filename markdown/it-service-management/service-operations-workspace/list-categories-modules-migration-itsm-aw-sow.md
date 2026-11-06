@@ -103,7 +103,7 @@ Migrating list items or modules for each category
 -   **[Perform post-migration tasks for list categories and modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-list-categories-modules.md)**  
 Verify that the list categories and modules in Service Operations Workspace \(SOW\) are consistent with the list categories and modules in ITSM Agent Workspace \(ITSM AW\) and the list categories and modules are ready for use in SOW. You can update the migrated list categories and modules settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

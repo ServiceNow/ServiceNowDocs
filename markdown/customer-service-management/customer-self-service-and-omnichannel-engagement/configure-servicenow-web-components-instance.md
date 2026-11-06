@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up Web EmbeddablesWeb Embeddable, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the ServiceNow component instance

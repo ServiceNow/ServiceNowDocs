@@ -1,6 +1,6 @@
 ---
 title: Configure role-based multi-factor criteria
-description: Use role based multi-factor criteria to enforce Multi-factor authentication for all users assigned to specific roles.
+description: Use role-based multi-factor criteria to enforce multi-factor authentication for all users assigned to specific roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-role-criteria.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [MFA criteria, Configuring MFA, Multi-factor authentication, Authent
 
 # Configure role-based multi-factor criteria
 
-Use role based multi-factor criteria to enforce Multi-factor authentication for all users assigned to specific roles.
+Use role-based multi-factor criteria to enforce multi-factor authentication for all users assigned to specific roles.
 
 ## Before you begin
 
@@ -28,24 +28,24 @@ Role required: adaptive\_auth\_admin
 
 3.  Use the **Multi-factor Roles** list to add or remove roles.
 
-<table id="choicetable_w45_gnx_bpb"><tbody><tr><td id="d34672e85">
+<table id="choicetable_w45_gnx_bpb"><tbody><tr><td id="d34713e87">
 
 **Add a role**
 
 </td><td>
 
-Double-click **Insert a new row...** and enter or select a role name. Click the **Save Icon** \(\[Omitted image "save-icon.png"\] Alt text: Save icon\) to save the entry.
+Double-click **Insert a new row...** and enter or select a role name. Select the **Save Icon** \(\[Omitted image "save-icon.png"\] Alt text: Save icon\) to save the entry.
 
-</td></tr><tr><td id="d34672e106">
+</td></tr><tr><td id="d34713e108">
 
 **Remove a role**
 
 </td><td>
 
-Click the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: delete icon\) to remove a role from the list.
+Select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: delete icon\) to remove a role from the list.
 
 </td></tr></tbody>
-</table>4.  Click **Update**.
+</table>4.  Select **Update**.
 
 
 ## Result

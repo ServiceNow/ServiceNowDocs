@@ -50,7 +50,7 @@ Role required: admin.
 
 -   **Create custom Knowledge workflows**
 
-    If the default [knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowOverview.md) for those knowledge bases.
+    If the default [knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom workflows for those knowledge bases.
 
 -   **Configure Knowledge properties**
 

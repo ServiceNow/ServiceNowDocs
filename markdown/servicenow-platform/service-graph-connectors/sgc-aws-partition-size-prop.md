@@ -19,7 +19,7 @@ When using the SG-AWS-Image-Private, SG-AWS-Tags, SG-AWS-SendCommand, and AWS-SS
 
 ## Before you begin
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 

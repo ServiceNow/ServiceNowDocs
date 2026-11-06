@@ -1,6 +1,6 @@
 ---
 title: Discovery store applications release notes
-description: The ServiceNow Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Foundry Hub, with field updates for Amazon Bedrock and Microsoft Foundry \(classic\).Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.ACC-Visibility September 2026 adds package discovery, custom software filter rules, license key verification, and software categorization for improved inventory control.The September release introduces life cycle management for service accounts, IP addresses, and tags.The September release includes updates to the mapping of RDS allocated storage capacity information and operating system domain and the import of primary IP address for Server. This release also includes the discovery of Amazon FSx file system resources and introduces IMDS v2 support for the discovery of Kubernetes resources.The September release includes updates to patch job discovery, operating system domain mapping, import of MAC address for Network Adapter, and deep discovery jobs.ITOM URL Discovery 1.6.0 fixes a cross-application scope error that prevented broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
+description: The ServiceNow Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Foundry Hub, with field updates for Amazon Bedrock and Microsoft Foundry \(classic\).Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.The September release introduces life cycle management for service accounts, IP addresses, and tags.The September release includes updates to the mapping of RDS allocated storage capacity information and operating system domain and the import of primary IP address for Server. This release also includes the discovery of Amazon FSx file system resources and introduces IMDS v2 support for the discovery of Kubernetes resources.The September release includes updates to patch job discovery, operating system domain mapping, import of MAC address for Network Adapter, and deep discovery jobs.ITOM URL Discovery 1.6.0 fixes a cross-application scope error that blocked broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/discovery-store-apps-rn.html
 release: brazil
@@ -69,7 +69,7 @@ New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Found
     -   Vendor is populated in AI System Digital Asset \(alm\_ai\_system\_digital\_asset\) and AI Prompt Digital Asset \(alm\_ai\_prompt\_digital\_asset\).
     -   Manufacturer now populates from the **glide.appcreator.company.friendly\_name** system property instead of a hardcoded value in the AI System Component Product Model \(cmdb\_ai\_system\_component\_product\_model\) and AI Prompt Product Model \(cmdb\_ai\_prompt\_product\_model\) tables.
 
-## Discovery and Service Mapping Patterns version 1.35.0
+## Discovery and Service Mapping Patterns version 1.35.1
 
 Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.
 
@@ -137,29 +137,6 @@ Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kuber
 -   **[Service Account and Logical Datacenter job full resync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-sa-ldc-full-resync.md)**
 
     The **Populate SA and LDC IN CMDB** job supports a full resync to reprocess all configuration item \(CI\) records. Configure the **sn\_itom\_pattern.populate\_saldc\_full\_resync** system property when service accounts or logical datacenters have incorrect or corrupted values for a CI.
-
-
-## Agent Client Collector for Visibility Content version 2.0.3
-
-ACC-Visibility September 2026 adds package discovery, custom software filter rules, license key verification, and software categorization for improved inventory control.
-
-### What's new
-
--   **[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/accvc-package-discovery.md)**
-
-    Discover software on endpoints that isn't discoverable by traditional checks and policies.
-
--   **[Create a custom filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-custom-filter-rule.md)**
-
-    Create a custom software filter rule to exclude irrelevant entries from Discovery in your Software Asset Management \(SAM\) inventory.
-
--   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-license-key-rule.md)**
-
-    Verify software legitimacy by creating license keys on your Windows, Linux and macOS devices.
-
--   **[Categorize software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-software-categorization.md)**
-
-    Use software categorization to group discovered software packages into business-relevant categories. Software categorization helps you avoid manually tagging software and provides administrative teams with an efficient inventory of software records.
 
 
 ## Service Graph Connector for Microsoft Azure version 1.18.0
@@ -401,12 +378,12 @@ The September release includes updates to patch job discovery, operating system 
 
 ## URL Discovery version 1.6.0
 
-ITOM URL Discovery 1.6.0 fixes a cross-application scope error that prevented broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
+ITOM URL Discovery 1.6.0 fixes a cross-application scope error that blocked broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
 
 ### What's changed
 
 -   **Discover all URLs toggle**
 
-    Fixed a cross-application scope error that prevented the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to ITOM URL Discovery to enable or disable the toggle.
+    Fixed a cross-application scope error that blocked the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to **ITOM URL Discovery** to turn the toggle on or off.
 
 

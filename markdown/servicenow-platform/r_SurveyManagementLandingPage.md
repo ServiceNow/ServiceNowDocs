@@ -85,5 +85,5 @@ Reference topics provide additional information about the forms, fields, and pro
 
 [Surveys in Service Portal and the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyServicePortal.md)
 
-[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md)
+[bundle-platux.c_ServicePortal]
 

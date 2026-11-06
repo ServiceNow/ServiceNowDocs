@@ -55,7 +55,7 @@ The Atlassian Confluence Cloud external content connector only retrieves permiss
 
 2.  In the Connectors list, select the record for the connector that you want to create a user permission crawl for.
 
-3.  In the connector editor's Create crawls tab, select **Crawl user permissions**.
+3.  In the connector editor's **Create crawls** tab, select **Crawl user permissions**.
 
     The Crawl user permissions dialog box appears, with the **User permission crawl** tile selected.
 

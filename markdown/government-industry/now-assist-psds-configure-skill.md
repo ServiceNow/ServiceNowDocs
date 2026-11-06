@@ -25,11 +25,11 @@ Each skill is configured separately, and tailored to support agents across vario
 |Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-customize-case-summ.md).|
 |Chat summarization|Auto-generate summaries of agent-facing chats. Summaries capture the essence of conversations between agents and constituents or virtual agents, highlighting key points. Critical information from interactions is readily accessible for future reference and actions. For more information, see [Configure Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-customize-chat-summ.md).|
 
-The AI Admin Hub console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
+The AI Admin Hub console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see 
 
 ## General Configuration Steps
 
-The AI Admin Hub console contains everything that you need to install the plugins and configure generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
+The AI Admin Hub console contains everything that you need to install the plugins and configure generative AI skills. For additional information, see .
 
 Each skill has its own configuration process. However, skill activation follows the same guided setup. What configuring steps are required varies depending on the skill.
 
@@ -88,9 +88,9 @@ Role required: admin
 9.  Select where you would like to display the skill.
 
     -   **In-product**: When selected, the ServiceNow Otto skills are displayed on forms and workspaces. For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
-    -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md). For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
+    -   **ServiceNow Otto panel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see . For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
-        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the CRM Workspace. For Government case summarization, select **In-product**.
+        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the Public Sector Workspace. For Government case summarization, select **In-product**.
 
 10. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 
@@ -110,7 +110,7 @@ You can go back to the AI Skills page to configure another skill.
 **Related topics**  
 
 
-[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[bundle-platai.platform-now-assist-landing]
 
 [Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-configuring.md)
 

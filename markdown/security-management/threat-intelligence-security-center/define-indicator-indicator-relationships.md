@@ -33,15 +33,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d334460e110">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d336671e110">
 
 Field
 
-</th><th align="left" id="d334460e113">
+</th><th align="left" id="d336671e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d334460e119">
+</th></tr></thead><tbody><tr><td id="d336671e119">
 
 **Description**
 
@@ -49,7 +49,7 @@ Description
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d334460e128">
+</td></tr><tr><td id="d336671e128">
 
 **Domain**
 
@@ -57,7 +57,7 @@ Specifies the threat source from which this record is created.
 
 Defines the scope of the object record. The value in this field is auto populated.
 
-</td></tr><tr><td id="d334460e139">
+</td></tr><tr><td id="d336671e139">
 
 **Target Indicator**
 
@@ -65,7 +65,7 @@ Defines the scope of the object record. The value in this field is auto populate
 
 Select and define the target indicator object.
 
-</td></tr><tr><td id="d334460e148">
+</td></tr><tr><td id="d336671e148">
 
 **Relationship Type**
 
@@ -77,7 +77,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d334460e168">
+</td></tr><tr><td id="d336671e168">
 
 **Source Indicator**
 

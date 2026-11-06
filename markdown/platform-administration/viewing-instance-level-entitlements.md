@@ -67,7 +67,7 @@ Determine whether your subscription allocations are in compliance by viewing the
 
     The number of allocated subscription entitlements equals the number of purchased subscription entitlements.
 
--   **Over-c**
+-   **Over-allocated**
 
     The number of allocated subscription entitlements exceeds the number of purchased subscription entitlements.
 

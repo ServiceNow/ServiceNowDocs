@@ -1,6 +1,6 @@
 ---
 title: Urban Planning &amp; Permitting Administration Data Model
-description: The Urban Planning &amp; Permitting Administration provides the data model foundation for ServiceNow developers and administrators to develop integrations with License and Permit Playbook to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions.
+description: The Urban Planning &amp; Permitting Administration provides the data model foundation for ServiceNow developers and administrators to develop integrations with License and Permit Administration to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-uppa-data-model.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 
 # Urban Planning &amp; Permitting Administration Data Model
 
-The Urban Planning &amp; Permitting Administration provides the data model foundation for ServiceNow developers and administrators to develop integrations with License and Permit Playbook to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions.
+The Urban Planning &amp; Permitting Administration provides the data model foundation for ServiceNow developers and administrators to develop integrations with License and Permit Administration to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions.
 
 ## Plugins installed with Urban Planning &amp; Permitting Administration
 

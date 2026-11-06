@@ -22,5 +22,5 @@ When using a WorkflowCoordinator object, you can create a **Parallel Flow Launch
 -   Define the WorkflowCoordinator within the **Workflow** activity variable. Add the `javascript:` identifier at the beginning of the script. The [Parallel Flow Launcher example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_ParallelFlowLauncherExample.md) shows how to use a WorkflowCoordinator object in this way.
 -   Create a factory class to define the WorkflowCoordinator object. The system does not provide a factory class for WorkflowCoordinator by default.
 
-**Parent Topic:**[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_ParallelFlowLauncher.md)
+**Parent Topic:**[Parallel Flow Launcher workflow activity]()
 

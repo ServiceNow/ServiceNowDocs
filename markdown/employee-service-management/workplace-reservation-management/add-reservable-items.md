@@ -1,6 +1,6 @@
 ---
 title: Add a workplace space for reservation
-description: Add different types of workplace spaces like a workspace, desk, or similar spaces for employees to reserve.
+description: Configure workplace spaces, such as desks and meeting rooms, to make them available for reservation in the Workplace Reservation Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-reservable-items.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Deli
 
 # Add a workplace space for reservation
 
-Add different types of workplace spaces like a workspace, desk, or similar spaces for employees to reserve.
+Configure workplace spaces, such as desks and meeting rooms, to make them available for reservation in the Workplace Reservation Management application.
 
 ## Before you begin
 
--   Ensure that you have the following details:
+-   The following details are required:
     -   Workplace data for your organization
     -   Data of workspaces that can be marked as available
 
@@ -30,13 +30,13 @@ Role required: sn\_wsd\_core.admin
 
 1.  Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Administration** &gt; **Workplace spaces**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
     For a description of the field values, see [Space form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/space-new-record-form.md).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

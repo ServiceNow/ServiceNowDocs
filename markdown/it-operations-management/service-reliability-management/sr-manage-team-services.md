@@ -40,15 +40,15 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 6.  Add a new service or register an existing one.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d261899e135">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d277512e135">
 
 Option
 
-</th><th align="left" id="d261899e138">
+</th><th align="left" id="d277512e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d261899e144">
+</th></tr></thead><tbody><tr><td id="d277512e144">
 
 **Add a new service**
 
@@ -62,7 +62,7 @@ For more information on the field descriptions, see [Add service form](https://r
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d261899e186">
+</td></tr><tr><td id="d277512e186">
 
 **Register an existing service**
 
@@ -82,15 +82,15 @@ For more information on the field descriptions, see [Add service form](https://r
 
 8.  Finish setting up your service or do it later.
 
-<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d261899e252">
+<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d277512e252">
 
 Option
 
-</th><th align="left" id="d261899e255">
+</th><th align="left" id="d277512e255">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d261899e261">
+</th></tr></thead><tbody><tr><td id="d277512e261">
 
 **Finish setting up your service**
 
@@ -101,7 +101,7 @@ Steps
 3.  Select **Add SLO &amp; SLI** and create a service level objective and measure your service health with a service level indicator.
 
 
-</td></tr><tr><td id="d261899e291">
+</td></tr><tr><td id="d277512e291">
 
 **Do it later**
 

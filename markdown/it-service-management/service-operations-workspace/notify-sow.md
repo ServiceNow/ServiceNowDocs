@@ -18,14 +18,14 @@ Notify in Service Operations Workspace provides support for SMS, telephone, and 
 
 For more information about configuring Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify-landing-page.md).
 
--   **[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/telephony-sow.md)**  
+-   **[Conference calls with Twilio in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/telephony-sow.md)**  
 Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
--   **[Use Webex for conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cisco-webex-sow.md)**  
-Use Webex to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
--   **[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/zoom-sow.md)**  
-Use Zoom to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
--   **[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/microsoft-teams-sow.md)**  
-Use Microsoft Teams to schedule the conference calls with the stake holders to resolve the incidents in Service Operations Workspace.
+-   **[Conference calls with Webex in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cisco-webex-sow.md)**  
+Use Webex to schedule the conference calls with the stakeholders to resolve the incidents in Service Operations Workspace.
+-   **[Conference calls with Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/zoom-sow.md)**  
+Use Zoom to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
+-   **[Using Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/microsoft-teams-sow.md)**  
+Use Microsoft Teams to schedule the conference calls with the stakeholders to resolve the incidents in Service Operations Workspace.
 
 **Parent Topic:**[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/collaboration-sow.md)
 

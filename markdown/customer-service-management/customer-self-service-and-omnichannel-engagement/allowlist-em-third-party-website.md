@@ -43,7 +43,7 @@ You must add a CNAME record to your website domain’s DNS records where Engagem
 support.acme.com 300 IN CNAME acme.servicenow.com
 ```
 
-where `acme.service-now.com` is the ServiceNow instance and `acme.com` is your website on which Engagement Messenger is integrated.
+where `acme.servicenow.com` is the ServiceNow instance and `acme.com` is your website on which Engagement Messenger is integrated.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-09-25"
+last_updated: "2026-10-26"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, workday, raas, rest, report]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]

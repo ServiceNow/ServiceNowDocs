@@ -34,5 +34,5 @@ The second **Parallel Flow Launcher** activity uses WorkflowCoordinator objects 
 
 \[Omitted image "WFParallelActivityDetail2.png"\] Alt text:
 
-**Parent Topic:**[Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_ParallelFlowLauncher.md)
+**Parent Topic:**[Parallel Flow Launcher workflow activity]()
 

@@ -48,6 +48,8 @@ Threshold evaluation does not apply to ad hoc metric data tasks. For more inform
     -   If validation errors occur, the system displays error messages indicating the specific field and recommended actions. Review these messages and correct the issues before resubmitting.
     The configured threshold is now active for the metric. When the Enable threshold breach monitoring option is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports. Clearing the Enable threshold breach monitoring option hides the threshold justification field on affected metric data tasks.
 
+    **Note:** The threshold applies only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
+
 
 ## What to do next
 

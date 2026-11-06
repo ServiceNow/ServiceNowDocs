@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Required subtitle that appears under the heading. The default description is `This is home page description`.
+Required subtitle that appears under the heading. The default description is `This is home page banner description`.
 
 </td></tr><tr><td>
 

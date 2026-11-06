@@ -65,3 +65,5 @@ For more information, see [Components installed with Advanced Approval Managemen
 
 [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-advanced-approval-for-sales.md)
 
+[Approval field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/r_approval_field_mapping.md)
+

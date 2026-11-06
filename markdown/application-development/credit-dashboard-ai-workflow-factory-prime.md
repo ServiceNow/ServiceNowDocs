@@ -1,28 +1,28 @@
 ---
 title: Credit Dashboard
-description: The AI Workflow Factory Credit Dashboard enables you to see your credit entitlements and usage, including trends over time and breakdowns by capabilities used.
+description: The AI Workflow Factory Prime Credit Dashboard enables you to see your credit entitlements and usage, including trends over time and breakdowns by capabilities used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/credit-dashboard-ai-workflow-factory-prime.html
 release: brazil
 topic_type: concept
 last_updated: "2026-10-06"
 reading_time_minutes: 1
-breadcrumb: [AI Workflow Factory, Building applications]
+breadcrumb: [AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Credit Dashboard
 
-The AI Workflow Factory Credit Dashboard enables you to see your credit entitlements and usage, including trends over time and breakdowns by capabilities used.
+The AI Workflow Factory Prime Credit Dashboard enables you to see your credit entitlements and usage, including trends over time and breakdowns by capabilities used.
 
-## Credits and AI Workflow Factory
+## Credits and AI Workflow Factory Prime
 
-AI Workflow Factory measures the consumption of certain capabilities with credits. Each credit represents a unit of consumption under a unified meter. For example, tasks such as provisioning Developer Sandboxes consume credits. Credits are allocated to you based on your organization's entitlements.
+AI Workflow Factory Prime measures the consumption of certain capabilities with credits. Each credit represents a unit of consumption under a unified meter. For example, tasks such as provisioning Developer Sandboxes consume credits. Credits are allocated to you based on your organization's entitlements.
 
-Not all AI Workflow Factory capabilities consume credits. To track your usage of these capabilities, you can use Subscription Management. For more information, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-landing-page-v2.md).
+Not all AI Workflow Factory Prime capabilities consume credits. To track your usage of these capabilities, you can use Subscription Management. For more information, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
-For more information about AI Workflow Factory products, meters, reproducibility, see the Now Support Knowledge Base.
+For more information about AI Workflow Factory Prime products, meters, reproducibility, see the Now Support Knowledge Base.
 
-For more information about AI Workflow Factory credits, see the [Count of AI Workflow Factory Credits Consumed \[KB3220821\]](https://support.servicenow.com/kb?sys_kb_id=c8e583b247af031027a3fac8736d4378&id=kb_article_view) article in the Now Support Knowledge Base.
+For more information about AI Workflow Factory Prime credits, see the [Count of AI Workflow Factory Credits Consumed \[KB3220821\]](https://support.servicenow.com/kb?sys_kb_id=c8e583b247af031027a3fac8736d4378&id=kb_article_view) article in the Now Support Knowledge Base.
 
 ## Credit Dashboard
 

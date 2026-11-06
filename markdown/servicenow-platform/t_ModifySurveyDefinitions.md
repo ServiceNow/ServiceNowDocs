@@ -114,7 +114,7 @@ Assessment duration
 
 </td><td>
 
-The length of time to complete assigned survey instances, starting from the time the survey instance is generated. The assessment duration sets the Due date for each survey instance. The default duration is 14 days. [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to view this field.
+The length of time to complete assigned survey instances, starting from the time the survey instance is generated. The assessment duration sets the Due date for each survey instance. The default duration is 14 days. Configure the form to view this field.
 
 </td></tr><tr><td>
 
@@ -378,5 +378,5 @@ Recipients lists that are added to the survey.
 
 [Publish a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PublishASurvey.md)
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduleEvents.md)
+[bundle-platadm.c_ScheduleEvents]
 

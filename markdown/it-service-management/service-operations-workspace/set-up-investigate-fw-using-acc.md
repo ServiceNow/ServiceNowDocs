@@ -1,6 +1,6 @@
 ---
-title: Setting up investigation framework using Agent Client Collector for Investigation
-description: Set up the Investigation Framework in Service Operations Workspace using the Agent Client Collector for Investigation adapter to enable the display of the CI metrics information on the Investigation tab of the Incident records.
+title: Setting up Investigation Framework using Agent Client Collector for Investigation
+description: Set up the Investigation Framework in Service Operations Workspace using the Agent Client Collector for Investigation adapter to display CI metrics on the Investigation tab of the incident records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/set-up-investigate-fw-using-acc.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Setting up investigation framework using Agent Client Collector for Investigation
+# Setting up Investigation Framework using Agent Client Collector for Investigation
 
-Set up the Investigation Framework in Service Operations Workspace using the Agent Client Collector for Investigation adapter to enable the display of the CI metrics information on the **Investigation** tab of the Incident records.
+Set up the Investigation Framework in Service Operations Workspace using the Agent Client Collector for Investigation adapter to display CI metrics on the **Investigation** tab of the incident records.
 
 **Important:**
 
@@ -22,8 +22,8 @@ Starting with the Brazil release, Agent Client Collector for Investigation is be
 
 You must ensure that the following requirements are met:
 
--   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application set up is complete and configured as per your requirement. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/getting-started-sow.md)
--   Install the Agent Client Collector for Investigation Application. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md).
+-   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application setup is complete and configured to meet your requirements. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/getting-started-sow.md)
+-   Install the Agent Client Collector for Investigation application. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md).
 
     **Note:** Installing the Agent Client Collector for Investigation application requires the ITSM Pro package subscription.
 

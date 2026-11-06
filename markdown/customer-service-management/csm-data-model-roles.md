@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation roles
@@ -411,38 +411,6 @@ If also an internal user on a case, this user can:
 -   sn\_customerservice.case\_contributor\_creator
 -   sn\_service\_org.service\_criteria\_read
 -   sn\_service\_org.customer\_criteria\_read
-
-</td></tr><tr><td>
-
-Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
-
-</td><td>
-
-Business Org Account Contributor
-
-</td><td>
-
-Creates cases for accounts supported by their business organization. Tracks and manages cases created by them for the accounts associated with their business organization.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
-
-</td><td>
-
-Business Org Consumer Contributor
-
-</td><td>
-
-Creates cases for consumers or households supported by their business organization. Tracks and manages cases created by them for the consumers or households associated with their business organization.
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Granular roles

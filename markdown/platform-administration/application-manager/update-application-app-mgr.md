@@ -41,9 +41,9 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 4.  From the Summary section of the details page, select **Proceed to update**.
 
-5.  Select a compatibleapplication version or a compatible Now Assist Suite versionfrom the version drop-down menu.
+5.  Select a compatibleapplication version or a compatible AI Suites versionfrom the version drop-down menu.
 
-    For additional information about Now Assist Suites, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+    For additional information about AI Suites, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
 
 6.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
@@ -55,15 +55,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 8.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97709e244">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97967e244">
 
 Installation option
 
-</th><th align="left" id="d97709e247">
+</th><th align="left" id="d97967e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d97709e253">
+</th></tr></thead><tbody><tr><td id="d97967e253">
 
 **Install now**
 
@@ -73,7 +73,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d97709e277">
+</td></tr><tr><td id="d97967e277">
 
 **Install later**
 

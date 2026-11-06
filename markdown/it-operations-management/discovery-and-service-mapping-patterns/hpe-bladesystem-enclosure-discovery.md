@@ -44,7 +44,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Populate only the serial number in the Serial Number field**
 
-    Starting with version 1.35.0 of Discovery and Service Mapping Patterns, you can populate the **Serial Number** field with only the serial number value, without the UUID suffix, by setting the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+    Starting with version 1.35.1 of Discovery and Service Mapping Patterns, you can populate the **Serial Number** field with only the serial number value, without the UUID suffix, by setting the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
 
 
 ## Highlights and supported versions

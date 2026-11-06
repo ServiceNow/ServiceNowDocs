@@ -16,7 +16,7 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
 
-To start a Microsoft Teams chat, refer [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
+To start a Microsoft Teams chat, see [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
 
 -   **[Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/notify-sow.md)**  
 Notify in Service Operations Workspace provides support for SMS, telephone, and the service providers on the ServiceNow AI Platform for communicating internally with team members and externally with customers and contractors.

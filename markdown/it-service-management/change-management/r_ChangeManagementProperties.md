@@ -41,7 +41,7 @@ glide.ui.risk\_calculate\_rule
 
 </td><td>
 
-Change risk calculation method. Business rule calculates on insert/update, UI action calculates only on demand. **None** disables this capability.-   Type: choice list
+Change risk calculation method. **None** turns off this capability.-   Type: choice list
 -   Default value: ui\_action
 
  For more information, see [Risk Calculator property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/r_ChangeRiskCalculator.md).
@@ -168,7 +168,7 @@ Enter the change request state field values, each separated by a comma to genera
 </td></tr></tbody>
 </table>## Change Management properties for Discovery integration
 
-If your organization is subscribed to Discovery , integration with Discovery is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. When Discovery is activated, the following three new properties become available.
+If your organization is subscribed to Discovery, integration with Discovery is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. When Discovery is activated, the following three properties become available.
 
 <table id="table_mh3_5wb_4gb"><thead><tr><th>
 
@@ -194,7 +194,7 @@ com.snc.change\_request.disco.auto.state
 
 </td><td>
 
-Defines which Change Request states Discovery will be automatically triggered.-   Type: String
+Defines the change request states in which Discovery is automatically triggered.-   Type: String
 -   Default value: Review
 
 </td></tr><tr><td>
@@ -203,7 +203,7 @@ com.snc.change\_request.disco.manual.state
 
 </td><td>
 
-Defines which Change Request states allow Discovery to be manually triggered.-   Type: String
+Defines the change request states in which Discovery can be manually triggered.-   Type: String
 -   Default value: Implement, Review
 
 </td></tr></tbody>

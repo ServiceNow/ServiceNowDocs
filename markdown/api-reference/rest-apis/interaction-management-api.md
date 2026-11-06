@@ -24,6 +24,8 @@ This class requires the Interaction Logging, Routing, and Queueing plugin \(com.
 
 Inserts or updates a record in the interaction table.
 
+**Note:** The **opened\_by** field on created interaction records is a reference to the User \[sys\_user\] record for the authenticated user calling the API. The **opened\_by** field can't be set in the request body. To set additional fields beyond those listed under Supported request parameters, such as **short\_description**, use the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/c_TableAPI.md) instead.
+
 ### URL format
 
 Versioned URL: `/api/now/{api_version}/interaction`

@@ -57,7 +57,7 @@ After learning the basics, here are some other Virtual Agent features that may h
 
     Expand the functionality of NLU Workbench to help you manage and improve your models. NLU Workbench - Advanced Features is available from the ServiceNow Store.
 
--   **[Integrate Virtual Agent with other portals and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent.md)**
+-   **[Integrate Virtual Agent with other portals and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)**
 
     Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are.
 

@@ -18,6 +18,8 @@ Activate the KCS Integration for Incident Management plugin \(com.snc.incident.k
 
 ## Before you begin
 
+Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+
 Role required: admin
 
 ## About this task
@@ -38,10 +40,10 @@ Knowledge Management Advanced Installer\[com.snc.knowledge\_advanced.installer\]
 
 </td><td>
 
-Use this plugin to install the Knowledge Management Advanced plugin. Activating or upgrading this plugin validates knowledge articles and knowledge bases to ensure that the Knowledge Management Advanced plugin can be successfully installed.
+Use this plugin to install the Knowledge Management Advanced plugin. Activating or upgrading this plugin validates knowledge articles and knowledge bases to verify that the Knowledge Management Advanced plugin can be successfully installed.
 
 </td></tr></tbody>
-</table>After activating this plugin, agents can create knowledge articles directly from resolved incidents by using the **Create Knowledge** option available for the Incident Form. For more information, see [Create a knowledge article from an incident using an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-a-knowledge-article.md).
+</table>After activating this plugin, agents can create knowledge articles directly from resolved incidents by using the **Create Knowledge** option available for the Incident form. For more information, see [Create a knowledge article from an incident with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-a-knowledge-article.md).
 
 ## Procedure
 
@@ -58,8 +60,8 @@ Use this plugin to install the Knowledge Management Advanced plugin. Activating 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Component installed with KCS Integration for Incident Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/installed-with-incident-mgmt.md)**  
-The Incident KCS Article table is installed with the activation of the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
+-   **[Component installed with KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/installed-with-incident-mgmt.md)**  
+The Incident KCS Article table is installed when you activate the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
 
 **Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
 
@@ -68,7 +70,7 @@ The Incident KCS Article table is installed with the activation of the KCS Integ
 
 [List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 
-[Create a knowledge article from an incident using an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-a-knowledge-article.md)
+[Create a knowledge article from an incident with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-a-knowledge-article.md)
 
 [Create a knowledge article from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-knowledge-incident.md)
 

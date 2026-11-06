@@ -1,6 +1,6 @@
 ---
 title: Create HTTP response headers for Engagement Messenger
-description: Configure a name-value pair for HTTP response headers for the Engagement Messenger module. The ability to configure and pass response headers enables special handling of the page content by a client, which is most typically a browser.
+description: Configure a name-value pair for HTTP response headers for the Engagement Messenger module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-http-response-headers-for-ec.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Custom
 
 # Create HTTP response headers for Engagement Messenger
 
-Configure a name-value pair for HTTP response headers for the Engagement Messenger module. The ability to configure and pass response headers enables special handling of the page content by a client, which is most typically a browser.
+Configure a name-value pair for HTTP response headers for the Engagement Messenger module.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Configure a name-value pair for HTTP response headers for the Engagement Messeng
 
 ## About this task
 
-Use the Engagement Messenger API and your website URL to create a CORS rule.
+HTTP response headers control how a browser handles page content served by the Engagement Messenger module. Configure a name-value pair to set the **Content-Security-Policy** header, which restricts the domains that can embed the module in a frame.
 
 ## Procedure
 
@@ -131,8 +131,6 @@ Detailed description for the HTTP response header.
 ## What to do next
 
 [Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-engagement-messenger-module.md)
-
-.
 
 **Related topics**  
 

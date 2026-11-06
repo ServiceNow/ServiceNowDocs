@@ -8,7 +8,7 @@ product: Goal Framework
 classification: goal-framework
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic 
 
 Breaking down a target into smaller periods \(for example, Monthly\) helps you set a target value for each month and focus on that specific monthly target. The target breakdowns are automatically created based on the Check-in frequency and Target value distribution set for the target.
 
-The check-in frequency for a target can be set to Daily, Weekly, Monthly, Quarterly, or Yearly. Based on the Check-in frequency of the target, the corresponding target breakdowns are created. For example, if the Check-in frequency is set to Monthly for a target spanning for a year, 12 monthly target breakdowns are created. Planned target values are automatically set for each target breakdown based on the Target value distribution setting of the target.
+The check-in frequency for a target can be set to Daily, Weekly, Monthly, Quarterly, Yearly, or Period \(fiscal mode only\). Based on the Check-in frequency of the target, the corresponding target breakdowns are created. For example, if the Check-in frequency is set to Monthly for a target spanning for a year, 12 monthly target breakdowns are created. Planned target values are automatically set for each target breakdown based on the Target value distribution setting of the target.
 
 **Note:** The target breakdowns feature isn’t supported for qualitative targets.
 
@@ -93,4 +93,12 @@ When the check-in frequency is set to None for a target, the actual value must b
 ## Target breakdowns in target automation
 
 If you’ve enabled the target automation feature for a target and set the check-in frequency and Target value distribution, the target automation feature automatically updates the actual value in the respective target breakdown based on the check-in due date. After the actual value of a target breakdown is updated, the value is rolled up to rolls up to the actual value of the main target. Then, the progress of the target and its goal are auto-updated.
+
+## Target breakdowns on a fiscal calendar
+
+When the calendar mode is fiscal, the breakdowns of a target follow the fiscal periods instead of calendar months, quarters, and years. The check-in frequencies that a target can use depend on the periods that the fiscal calendar provides. The breakdown names use the fiscal period names, for example `FY27`, `FY27: Q1`, or `FY27: P01`. Weekly breakdowns show the week name with its start and end dates.
+
+A target can use a check-in frequency only when the fiscal calendar covers its start and end dates. If the calendar doesn't cover them, the target can't be saved with that frequency, and its breakdowns aren't generated. For the reasons, see [Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/fiscal-calendar-goal-framework.md).
+
+When the calendar mode or the fiscal calendar changes, targets that have breakdowns can become stale when their stored breakdowns no longer match the calendar. A stale target can't be changed until its check-in frequency is cleared. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/stale-targets-gf.md).
 

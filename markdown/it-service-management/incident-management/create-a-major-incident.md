@@ -1,6 +1,6 @@
 ---
 title: Create a major incident
-description: Create a major incident directly or review the candidates and promote the candidates to major incidents.
+description: Create a major incident directly, or review major incident candidates and promote them to major incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-a-major-incident.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Working on major incident management, Managing major incidents, Inc
 
 # Create a major incident
 
-Create a major incident directly or review the candidates and promote the candidates to major incidents.
+Create a major incident directly, or review major incident candidates and promote them to major incidents.
 
 ## Before you begin
 
@@ -22,39 +22,39 @@ Role required: major\_incident\_manager
 
 ## Procedure
 
-1.  Perform any of the following actions.
+1.  Create a major incident using one of the following methods.
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-<table id="choicetable_mzp_swn_gdb"><thead><tr><th align="left" id="d224419e78">
+<table id="choicetable_mzp_swn_gdb"><thead><tr><th align="left" id="d378597e77">
 
 Option
 
-</th><th align="left" id="d224419e81">
+</th><th align="left" id="d378597e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d224419e87">
+</th></tr></thead><tbody><tr><td id="d378597e86">
 
 **Promote an incident to a major incident manually**
 
 </td><td>
 
-On the context menu, click **Promote to Major Incident**. The incident directly becomes a major incident.**Note:**
+On the context menu, select **Promote to Major Incident**. The incident directly becomes a major incident.**Note:**
 
 -   Only a major incident manager can promote an incident to a major incident. If an incident is in the resolved, closed, or canceled state, the **Promote to Major Incident** option does not appear on the context menu.
--   When an incident is promoted to a major incident, the incident itself is considered as a major incident and no new incident is created.
+-   When an incident is promoted to a major incident, the incident itself becomes the major incident and no new incident is created.
 
-To get this behavior, you need to set the major incident management property **Create major incident from candidate – A new incident is created from a candidate as a major incident. The candidate is associated with the new incident as a child.** \(**sn\_major\_inc\_mgmt.com.snc.incident.mim.major\_incident\_creation**\) to **Promote candidate to a major incident**.
+To get this behavior, set the major incident management property **Create major incident from candidate – A new incident is created from a candidate as a major incident. The candidate is associated with the new incident as a child.** \(**sn\_major\_inc\_mgmt.com.snc.incident.mim.major\_incident\_creation**\) to **Promote candidate to a major incident**.
 
-</td></tr><tr><td id="d224419e125">
+</td></tr><tr><td id="d378597e128">
 
 **Create a major incident from application navigation**
 
 </td><td>
 
-1.  Click **Incident** &gt; **Major Incidents** &gt; **Create Major Incident**.
-2.  Fill in the fields and click **Submit**.
+1.  Navigate to **Incident** &gt; **Major Incidents** &gt; **Create Major Incident**.
+2.  Fill in the fields and select **Submit**.
 
 
 </td></tr></tbody>

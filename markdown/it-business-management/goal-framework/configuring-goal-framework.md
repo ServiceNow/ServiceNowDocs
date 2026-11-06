@@ -40,6 +40,10 @@ Configure system-wide automatic status calculation settings to determine target 
 Set the tolerance percentage for Maintain constant targets to define the range of acceptable actual values and control how progress and status are calculated.
 -   **[Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/change-number-prefix-goals-targets.md)**  
 Change the prefix of the Number field for goals and targets, for example, from GOAL and TRGT to OBJ and KR when your organization uses objectives and key results, and apply the new prefix to existing records.
+-   **[Setting a goal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/set-a-goal-calendar.md)**  
+The goal calendar decides which periods your targets use for their check-in frequency and breakdowns. You can use the Gregorian calendar or a fiscal calendar.
+-   **[Managing stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/managing-stale-targets-gf.md)**  
+Understand which targets become stale after a goal calendar change, and how to recover them.
 
 **Parent Topic:**[Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework.md)
 

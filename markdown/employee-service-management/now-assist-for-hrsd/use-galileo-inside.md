@@ -8,7 +8,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -56,6 +56,10 @@ Role required: sn\_hr\_na\_galileo.read
 [Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 

@@ -1,6 +1,6 @@
 ---
 title: Configuration item summarization AI agent
-description: This AI agent uses a sys\_id to summarize a configuration item \(CI\) using an existing skill.
+description: Summarizes a configuration item \(CI\) identified by its sys\_id, using the CI summarization skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cmdb-configuration-item-summarization-ai-agent.html
 release: brazil
@@ -12,11 +12,13 @@ breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic work
 
 # Configuration item summarization AI agent
 
-This AI agent uses a sys\_id to summarize a configuration item \(CI\) using an existing skill.
+Summarizes a configuration item \(CI\) identified by its sys\_id, using the CI summarization skill.
 
 ## Workflow
 
-The agent helps users complete tasks related to configuration item summarization.
+This agent summarizes the data of a single configuration item. For more information about the summarization capability, see [View CI information with the ServiceNow Otto CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-agent-ci-summarizer.md).
+
+Prerequisite: The CI summarization skill is enabled.
 
 1.  Collect the sys\_id from the administrator or orchestrator.
 2.  If the sys\_id does not exist, inform the user that there is not enough required information.
@@ -70,7 +72,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+sn\_cmdb\_user
 
 </td></tr><tr><td>
 

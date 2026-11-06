@@ -40,7 +40,7 @@ Streamline deal registration with a natural language AI agent that assists users
 
 ### What's new
 
--   **[Register a deal using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-deal-using-agentic-ai.md)Deal Registration AI agent**
+-   **Deal Registration AI agent**
 
     Accelerate deal registration with an AI agent that assists users with deal intake, validation, and record creation. This helps reduce manual effort by guiding users through the deal registration process and supporting more accurate deal submissions.
 

@@ -18,7 +18,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
 <table id="table_gwj_2sf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>The MID Server properties are in the MID Server Property \[ecc\_agent\_property\] table and can be accessed by navigating to **MID Server** &gt; **Properties**. To set these properties, you must add them, if they are not already present.
@@ -239,7 +239,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See  for more information.
 
     -   Type: true \| false
     -   Default value: false

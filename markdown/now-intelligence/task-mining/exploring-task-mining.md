@@ -27,6 +27,7 @@ Task Mining combines a desktop agent, workstation user activities, and dashboard
 |Task Mining admin|Access all Task Mining system configurations, settings, and projects. The admin role contains the power user role.|
 |Task Mining power user|Access all Task Mining system configurations and settings. The power user role contains the analyst role.|
 |Task Mining analyst|Create and share Task Mining projects, and access projects that another user has shared with them. Request data logging to be enabled for workstation users.|
+|Task Mining agent installer|Access the Task Mining agent installation page.|
 
 ## Task Mining workflow
 

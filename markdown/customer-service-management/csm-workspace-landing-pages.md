@@ -1,24 +1,24 @@
 ---
 title: CRM Workspace landing pages
-description: A landing page is an initial view of your workspace. Landing pages present content tailored to a user’s assigned role and provide the information they must get started with their work.
+description: A landing page is an initial view of your workspace. Landing pages present content tailored to users' assigned roles and provide the information needed to get started with their work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-landing-pages.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CRM Workspace landing pages
 
-A landing page is an initial view of your workspace. Landing pages present content tailored to a user’s assigned role and provide the information they must get started with their work.
+A landing page is an initial view of your workspace. Landing pages present content tailored to users' assigned roles and provide the information needed to get started with their work.
 
-Landing pages can include filtered lists, KPIs, and other features that enables you to access information from one location. CRM Workspace landing pages provide customer service agents and managers with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
+Landing pages can include filtered lists, KPIs, and other features that enable you to access information from one location. CRM Workspace landing pages provide customer service agents and managers with lists of assigned cases and case tasks and agent, group, and organization metrics.
 
-Agents use landing pages as a starting point to get into their work. They can use landingpages to quickly scan and prioritize cases and case tasks, access records, and track their performance.
+Use landing pages as a starting point to get into your work. You can use landing pages to quickly scan and prioritize cases and case tasks, access records, and track your performance.
 
-## CRM Workspace landing pages
+## Landing page types in CRM Workspace
 
 Several landing pages are available for CRM Workspace.
 

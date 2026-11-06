@@ -52,7 +52,7 @@ Each software technology lifecycle record also shows which TRM product and produ
 
 [Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
 
-[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+[Restart the Populate TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
 [View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 

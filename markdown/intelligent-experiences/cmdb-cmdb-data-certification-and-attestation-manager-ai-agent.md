@@ -18,10 +18,9 @@ Performs actions related to the data certification and data attestation policies
 
 The agent helps users complete tasks related to CMDB data certification and attestation manager.
 
-1.  If you have done it before, skip to step 2.
-2.  Ask the user if they want to check the data certification and attestation policies for all principal classes, and if not, which specific class or classes instead.
-3.  Check if the selected CI classes have data certification and attestation cycle policies.
-4.  Inform the user that they have completed the step of managing data certification and attestation policies.
+1.  Ask the user if they want to check the data certification and attestation policies for all principal classes, and if not, which specific class or classes instead.
+2.  Check if the selected CI classes have data certification and attestation cycle policies.
+3.  Inform the user that they have completed the step of managing data certification and attestation policies.
 
 <table><thead><tr><th>
 
@@ -74,7 +73,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_cmdb\_admin, snc\_internal
+sn\_cmdb\_admin
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Pricing in the ServiceNow Quote Experience
-description: ServiceNow Quote Experience integrates natively with CPQ Price Management, enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
+description: ServiceNow Quote Experience integrates natively with ServiceNow CPQ Price Management, enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/pricing-in-quote-experience.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationshi
 
 # Pricing in the ServiceNow Quote Experience
 
-ServiceNow Quote Experience integrates natively with CPQ Price Management, enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
+ServiceNow Quote Experience integrates natively with ServiceNow CPQ Price Management, enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
 
 Price evaluations can be triggered manually by a user or automatically when a price affecting field value changes. Price strategies support both user-entered and rule-driven price adjustments. For more information, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-management.md).
 
@@ -20,12 +20,12 @@ Price evaluations can be triggered manually by a user or automatically when a pr
 
 To enable pricing for the Quote Experience, complete the following steps:
 
-1.  Complete CPQ setup for Quote Experience. For more information, see [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md).
+1.  Complete ServiceNow CPQ setup for Quote Experience. For more information, see [Setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setup-cpq-integrator.md).
 2.  Install the required [Price Management plugins](https://www.servicenow.com/docs/r/australia/order-management/quoting-experiences-overview.html).
 3.  Submit a support ticket requesting the required tenant setting configurations for your instance:
     1.  transaction.oneQuoting.pricing.enabled to 'TRUE'
     2.  transaction.oneQuoting.pricing.integration.type to 'productized'
-4.  Export and import the quote blueprint in CPQ Administration.
+4.  Export and import the quote blueprint in ServiceNow CPQ Administration.
 
 ## Pricing states
 
@@ -55,7 +55,7 @@ Price updates can be configured to run automatically or explicitly through an ev
 
 ## Context variables
 
-Context variables bring information beyond the product itself into pricing decisions — such as customer, channel, geography, term, transaction type, or usage. A single pricing rule can condition on that context instead of requiring a separate rule for every permutation. CPQ Pricing uses context variables to execute price rules, matrices, and calculations. A set of system-defined context variables is provided, and administrators can create custom variables.
+Context variables bring information beyond the product itself into pricing decisions — such as customer, channel, geography, term, transaction type, or usage. A single pricing rule can condition on that context instead of requiring a separate rule for every permutation. ServiceNow CPQ Pricing uses context variables to execute price rules, matrices, and calculations. A set of system-defined context variables is provided, and administrators can create custom variables.
 
 **Important:** Pricing in the ServiceNow Quote Experience uses field-mapped context variables. Variable mappings using dot-walked fields or scripted values are not supported.
 
@@ -64,7 +64,7 @@ To implement a custom context variable to pricing:
 1.  Define custom context variables in the Context Rule Management section of the CRM Workspace.
 2.  Set **Entity** to **Quote Advanced**.
 3.  Set **Table** to either Quote \(`sn_quote_mgmt_core_quote`\) or Quote Line Item \(`sn_quote_mgmt_core_quote_line_item`\)
-4.  Sync it to CPQ.
+4.  Sync it to ServiceNow CPQ.
 
 For more information on creating and managing context variables, see the following resources:
 
@@ -91,7 +91,7 @@ For additional field information, see [Transaction line-level system fields](htt
 
 [Enable pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-pricing-quote-experience.md)
 
-[Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-external-connection-logik.md)
+[Set up an external connection in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-external-connection-logik.md)
 
 [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-events.md)
 

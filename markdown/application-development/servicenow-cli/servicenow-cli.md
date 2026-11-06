@@ -9,7 +9,7 @@ classification: servicenow-cli
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Developing your application, Building applications]
+breadcrumb: [Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow CLI

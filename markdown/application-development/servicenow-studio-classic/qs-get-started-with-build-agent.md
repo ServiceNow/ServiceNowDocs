@@ -7,10 +7,10 @@ release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [Build Agent]
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Getting started with Build Agent in ServiceNow Studio
@@ -35,7 +35,7 @@ Access Build Agent from several places.
 
 ## What can I do in Build Agent?
 
-Build Agent is an AI tool designed for developers within ServiceNow Studio and the ServiceNow IDE. Build Agent acts as an autonomous AI agent capable of independently generating a custom, base system, or global application and global metadata records. For example, a global scope app that uses tables such as incident, problem, and change.
+Build Agent is an AI tool designed for developers within ServiceNow Studio and the ServiceNow IDE. Build Agent acts as an autonomous AI agent capable of independently generating a custom, base system, or global application and global metadata records. For example, you could create a global scope app that uses tables such as incident, problem, and change.
 
 Key Build Agent benefits include:
 

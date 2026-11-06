@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [Configure theme-level theming, Declare the theme in theme.js, Connect the theme to the app, Register a theme-owned font, Verify, Examples, Next steps]
-breadcrumb: [Theming with Lux, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Theming with Lux, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure theme-level theming

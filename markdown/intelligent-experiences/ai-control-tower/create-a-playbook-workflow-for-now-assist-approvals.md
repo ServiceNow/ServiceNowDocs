@@ -1,6 +1,6 @@
 ---
-title: Create an AI Control Tower Playbook workflow
-description: Create a AI Control Tower Playbook workflow for Now Assist approvals to approve or reject an asset.
+title: Create a Playbook workflow in AI Control Tower
+description: Create a Playbook workflow in AI Control Tower for Now Assist approvals to approve or reject an asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.html
 release: brazil
@@ -13,9 +13,9 @@ keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large lang
 breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Create an AI Control Tower Playbook workflow
+# Create a Playbook workflow in AI Control Tower
 
-Create a AI Control Tower Playbook workflow for Now Assist approvals to approve or reject an asset.
+Create a Playbook workflow in AI Control Tower for Now Assist approvals to approve or reject an asset.
 
 ## Before you begin
 

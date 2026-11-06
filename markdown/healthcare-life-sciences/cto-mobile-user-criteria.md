@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Configure Care Team Mobile, Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Reference, Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # User criteria for Care Team Mobile
@@ -28,4 +28,6 @@ User criteria control icon visibility only. Access to Care Team Mobile itself st
 |HCIT Support Agent|sn\_cto\_hcit.loc\_support\_agent|Care Team Operations for Healthcare IT|Healthcare IT support agents.|
 |HCO Location Support Agent|sn\_hco.loc\_support\_agent|Healthcare Operations Core|Support agents in any of the four departments above. The four department roles inherit this role.|
 |Care Team Agent|sn\_cto.care\_team\_agent|Care Team Work Management|Care team agents. Use this record for the base quick actions, My Group Tasks and Closed Tasks.|
+
+**Parent Topic:**[Care Team Mobile reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/care-team-mobile-reference.md)
 

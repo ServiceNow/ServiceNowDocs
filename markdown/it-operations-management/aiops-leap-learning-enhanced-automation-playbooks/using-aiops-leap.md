@@ -67,7 +67,7 @@ The Ask Otto feature of ServiceNow Otto streamlines artifact creation. Select \[
 
     Create mappings between automation opportunity resolution steps and Ansible job templates to enable automated incident remediation.
 
-10. [Execute Ansible automations for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
+10. [Execute Ansible playbooks for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
 
     Use the Ansible Execution Agent to launch mapped Ansible job templates during incident remediation.
 

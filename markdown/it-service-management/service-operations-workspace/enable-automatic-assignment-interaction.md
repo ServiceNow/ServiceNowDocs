@@ -36,7 +36,7 @@ Role required: admin
 
         -   Inbox card: Accepts the interactions and adds them to the agent inbox. Agent can open the accepted interaction from the inbox.
         -   Inbox card and workspace tab: Accepts the interactions and opens a tab for each accepted interaction.
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Configure the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-inbox-in-sow.md)

@@ -56,7 +56,7 @@ Although the following catalog item question types are supported in the conversa
 |Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using ServiceNow Otto for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-enhanced-chat.md)|
 |Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of AI in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph-landing.md)|
 |Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.|[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ext-cont-connectors.md)|
-|Monitor your device's performance and diagnose potential issues.|[Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/check-your-device-s-health-using-now-assist-for-itsm.md)|
+|Monitor your device's performance and diagnose potential issues.||
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Although the following catalog item question types are supported in the conversa
 
 2.  Set up Otto for Virtual Agent.
 
-    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     **Note:**
 

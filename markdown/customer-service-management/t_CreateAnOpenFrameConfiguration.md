@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OpenFrame overview, Configure voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [OpenFrame overview, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Create an OpenFrame configuration

@@ -42,7 +42,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 5.  On the Risk form, fill in the fields.
 
-    For more information, see [Risk, issues, decisions, actions, and request change \(RIDAC\) form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-forms.md).
 
     **Note:** The Risk Assessment Summary section only appears when the **Enable Advanced Risk PPM Integration** property is enabled.
 
@@ -51,7 +51,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 ## What to do next
 
--   Assess the risks that have been added. For more information, see [Assign project risks to stakeholders for assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/assess-project-risk-using-ara.md)
+-   Assess the risks that have been added. For more information, see Assign project risks to stakeholders for assessment
 -   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/convert-ridac-for-project.md).
 -   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/reassociate-ridac-project.md).
 

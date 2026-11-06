@@ -17,7 +17,7 @@ breadcrumb: [Change lockdown, Configure, Change Management, IT Service Managemen
 
 Conflict detection checks change requests against active lockdown records in the same run that checks maintenance windows and blackout windows. A change request that falls inside a lockdown period is reported as a conflict and automatically placed on hold.
 
-The `change.conflict.lockdown` property controls whether conflict detection checks against lockdown records. The property is shipped with the value `true`, so lockdown checking is active by default. For more information, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-conflict-properties.md).
+The property controls whether conflict detection checks against lockdown records. The property is shipped with the value `true`, so lockdown checking is active by default. For more information, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-conflict-properties.md).
 
 ## Conflict detection triggers
 
@@ -33,7 +33,7 @@ You can narrow this behavior to a single state of a change model by using the **
 
 ## Lockdown conflict results
 
-A change request that falls inside a lockdown period shows a conflict of type **Inside Change Lockdown** in the **Conflicts** tab, with the lockdown record named in the **Schedule** column. The **Conflict status** field is set to **Conflict**, the **On hold** field is set to **true**, and the **On hold reason** field records which lockdown caused the hold.
+A change request that falls inside a lockdown period shows a conflict of type **Inside Change Lockdown** **Conflicts** tab, with the lockdown record named in the **Schedule** column. The **Conflict status** field is set to **Conflict**, , and the **On hold reason** field records which lockdown caused the hold.
 
 Rescheduling the change request outside the lockdown period triggers a new conflict detection run. The lockdown conflict is removed, the on hold reason is cleared, and the change request can continue through its states.
 

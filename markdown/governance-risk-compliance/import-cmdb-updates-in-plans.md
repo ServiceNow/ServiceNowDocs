@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/impo
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -38,6 +38,8 @@ For more information on the source BIA records option in the Dependency configur
 
 **Note:** The filter condition in the Element definition is used to add specific configuration items \(CIs\) via the pop-up. The **Update dependencies** UI action also considers the element definition's filter and retrieves the related CIs of the configuration item listed in the **Applies to** field of the BIA. These relationships are retrieved from the CI Relationships table.
 
+Assets that don't match an active element definition, including its filter, aren't added to the plan. Existing plan assets that no longer match are flagged as invalid when you update dependencies, and related assets are removed from the plan.
+
 ## Roles associated with the auto-update of the related assets in the plans
 
 Users with these roles update the related assets in the plans:
@@ -52,6 +54,8 @@ The **Update BCP dependencies snapshot** scheduled job is shipped as part of the
 \[Omitted image "bcp-scheduled-job.png"\] Alt text: BCP scheduled job.
 
 The scheduled job is not marked as Active by default. To run the scheduled job at regular intervals, the system administrators can select the **Active** option and select **Execute now** to set up a schedule. The scheduled job then runs at regular intervals, scans the plan records for the changes, and fetches the updated related assets for the planning records. It creates a snapshot record for each planning record update.
+
+**Note:** The scheduled job retrieves planning records up to the limit defined in the **sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit** system property \(default 1000\). The condition in the Planning dependency update configuration is evaluated for each retrieved record, so records that don't match the condition still count toward the limit. If you have more planning records than the limit, the job doesn't process the remaining records. Increasing the limit processes more records but increases the run time of the job.
 
 The scheduled job processes a workflow to check for the changes in the relationships and save the dependency updates automatically as shown in the example.
 

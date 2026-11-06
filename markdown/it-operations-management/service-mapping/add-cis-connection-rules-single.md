@@ -28,7 +28,7 @@ Role required: service\_mapping\_admin
 
 Connection rules enhance the connection suggestions generated using Predictive Intelligence. Each rule contains a condition that describes an aspect of a traffic-based connection. The fields available in conditions come from the Connection Suggestion \[sa\_ml\_connection\_suggestion\] table, which is only populated when you run top-down discovery. You can base your rules directly on the connection suggestions. For example, create a rule for any connection with confidence level High. Alternatively, if you know which CIs must be part of the service instances, you can choose fields that point at these CIs.
 
-You can create connection rules that apply to specific application services or to all application services. If the rule is for a specific service, but the rule condition points at a CI that is part of multiple services, Service Mapping adds this CI to all relevant services.
+You can create connection rules that apply to specific application services or to all application services. If the rule is for a specific service but the rule condition points at a CI that is part of multiple services, Service Mapping adds this CI to all relevant services.
 
 For information about Service Mapping evaluating and applying connection rules, see [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 

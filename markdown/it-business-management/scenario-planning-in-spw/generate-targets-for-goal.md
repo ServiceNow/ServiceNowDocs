@@ -7,7 +7,7 @@ release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -30,6 +30,8 @@ The Target generation skill leverages the goal’s details and provided context 
 The skill automatically populates key fields in the Target form, ensuring accuracy and alignment with the goal. This helps teams define clear, measurable outcomes and speeds up the target-setting process.
 
 The skill suggests the target type based on the goal’s details and the context that you enter in the Provide context to generate a target window. Depending on that context, the type can be **Maximize**, **Minimize**, **Milestone**, **Maintain above**, **Maintain below**, or **Maintain constant**. For goals about sustaining a level rather than changing one, such as keeping service uptime at or above a threshold, staying within a cost ceiling, or holding headcount steady, the skill suggests one of the Maintain types. For a description of each target type, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-types-overview.md).
+
+The skill also sets the check-in frequency from the context. It sets a frequency only from those that the active calendar supports. If the context asks for a frequency that the calendar doesn't support, the skill sets a supported frequency instead. For example, a monthly request on a 4-4-5 fiscal calendar sets Period, and a Period request on the Gregorian calendar sets Monthly or Quarterly.
 
 **Note:** Only the owner or contributors of the goal can create targets for the goal.
 

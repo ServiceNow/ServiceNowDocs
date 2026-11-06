@@ -22,6 +22,8 @@ This application is automatically installed when you install the following Publi
 -   Social Benefits Playbook
 -   License and Permit Playbook
 
+For more information about using the Document Processor, see [Using Document Processor](https://www.servicenow.com/docs/r/financial-services-operations/using-document-processor.html).
+
 An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/document-templates-overview.md).
 
 Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/docusign-doc.md) or [Document Template integration with AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/adobe-sign-doc.md).

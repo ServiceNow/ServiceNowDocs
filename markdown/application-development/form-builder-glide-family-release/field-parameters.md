@@ -9,7 +9,7 @@ classification: form-builder-glide-family-release
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Table Builder reference, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Reference, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Field configuration in Table Builder
@@ -308,7 +308,7 @@ Attribute value that you can set to alter the field behavior that is described b
 </td></tr></tbody>
 </table>## Formula
 
-A formula allows you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
+A formula enables you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
 
 In the Formula section, select **Edit** or **+ Add** to edit or add a formula.
 

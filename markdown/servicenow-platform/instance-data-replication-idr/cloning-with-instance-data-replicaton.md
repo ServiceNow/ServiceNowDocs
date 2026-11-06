@@ -28,7 +28,7 @@ There are multiple methods for copying an IDR configuration from one instance to
 
     Before you clone your instance, you must determine whether to exclude or include your IDR replication configuration.
 
-    For details on cloning, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-clone-landing.md).
+    For details on cloning, see .
 
 
 ## IDR cloning use cases

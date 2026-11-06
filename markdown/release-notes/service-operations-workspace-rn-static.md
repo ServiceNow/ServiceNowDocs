@@ -1,12 +1,12 @@
 ---
 title: Service Operations Workspace release notes
-description: The Service Operations Workspace application centralizes IT operations, giving real-time snapshots of alerts, workload, and AI impact. Express List speeds monitoring, Integrations Launchpad unifies data, automations cut manual effort, and AIOps dashboards track service health. See the following sections for release notes by version.This release gives AIOps managers and AI specialists new navigation, homepage filtering, standardized workflow monitoring, and broader specialist scope—so teams investigate faster and oversee more from one place.In Express list, you can now switch alert modes without searching and see the reasoning behind each auto-closed alert.Set up connectors faster with conversational Otto configuration and inline credentials, keep them running with clearer activation and error troubleshooting, and rely on modernized vRealize and Dynatrace integrations.
+description: The Service Operations Workspace application centralizes IT operations, giving real-time snapshots of alerts, workload, and AI impact. Express List speeds monitoring, Integrations Launchpad unifies data, automations cut manual effort, and AIOps dashboards track service health. See the following sections for release notes by version.This release gives AIOps managers and AI specialists new navigation, homepage filtering, standardized workflow monitoring, and broader specialist scope—so teams investigate faster and oversee more from one place.Event Management Connectors make it easier to pull or push events from external sources.In Express list, you can now switch alert modes without searching and see the reasoning behind each auto-closed alert.Set up connectors faster with conversational Otto configuration and inline credentials, keep them running with clearer activation and error troubleshooting, and rely on modernized vRealize and Dynatrace integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/service-operations-workspace-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Event Management release notes, ITOM AIOps release notes, IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -68,9 +68,29 @@ This release gives AIOps managers and AI specialists new navigation, homepage fi
 
     Launch the AI agent for alert grouping directly from Alert Automation pages. Select **Configure with AI** to open the ServiceNow Otto panel with a pre-populated prompt that guides rule creation.
 
--   **Assign AI Specialists to all groups**
+-   **[Assign AI Specialists to all groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/onboard-ai-specialist.md)**
 
     Assign the AI Specialist to the new **All Groups** option to let it handle alerts from every assignment group. Previously, only the **Add specialist to specific group\(s\)** option was available, which limited the specialist to the groups you chose.
+
+
+## Event Management Connectors Version 2.22.2
+
+Event Management Connectors make it easier to pull or push events from external sources.
+
+### What's changed
+
+-   **Event Management Connectors**
+    -   **[Support for Datadog Work Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-a-datadog-work-item-connector.md)**
+
+        Configure Datadog Work Items to listen to events using the Datadog connector. Datadog Work Items are also named as Cases.
+
+    -   **[Enhanced Dynatrace Event connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dynatrace-events-integration.md)**
+
+        Dynatrace Event connector enhanced to support the new third generation Dynatrace workflow.
+
+    -   **Use of Fluent-based code and ServiceNow SDK**
+
+        Event Management Connectors app now uses Fluent-based code and the ServiceNow SDK for AI-native development and faster releases.
 
 
 ## Express List September Store

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Install Lux Lab]
-breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Install Lux Lab
@@ -46,7 +46,7 @@ Lux Lab also requires the following:
 
 ## About this task
 
-Download the Lux Lab app using the following link. [Lux Lab installation files](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/Lux-Lab-official-release.zip).
+Download the Lux Lab app using the following links.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Download the Lux Lab app using the following link. [Lux Lab installation files](
 
     1.  Download the Lux Lab `.dmg` installer using the following link.
 
-        [Lux Lab installation files](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/Lux-Lab-official-release.zip).
+        [Lux Lab for macOs](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/LUX-Lab-2.11.0-arm64-mac.zip).
 
     2.  Open the `.dmg` file.
 
@@ -68,7 +68,7 @@ Download the Lux Lab app using the following link. [Lux Lab installation files](
 
     1.  Download the Lux Lab `.exe` installer using the following link.
 
-        [Lux Lab installation files](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/Lux-Lab-official-release.zip).
+        [Lux Lab for Windows](https://install.service-now.com/glide/distribution/builds/package/app-signed/app-aiux-lab/LUX-Lab-2.11.0-win-x64.exe).
 
     2.  Run the installer.
 

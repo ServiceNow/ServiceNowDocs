@@ -49,7 +49,5 @@ When you share a dashboard or data visualization, users with similar names are d
 
 \[Omitted image "ref-qual-in-action.png"\] Alt text: Dashboard sharing modal showing three employees with the same name but different email addresses. Two are in the same department but their email addresses distinguish them as well.
 
-## What to do next
-
 **Parent Topic:**[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-in-ac.md)
 

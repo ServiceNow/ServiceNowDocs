@@ -74,6 +74,6 @@ If you're using any generative AI features, you already have access to AI Gatewa
 
 -   For information on the process flow of MCP servers, see [Process flow of MCP servers via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.md)
 -   For information on AI Gateway setup tab, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md)
--   For information on AI Gateway in the configuration page, see [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)
+-   For information on AI Gateway in the configuration page, see [AI Gateway settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)
 -   For information on the roles in AI Control Tower and their role with AI Gateway, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
 

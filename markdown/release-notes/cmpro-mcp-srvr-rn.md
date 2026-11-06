@@ -24,6 +24,8 @@ The Contract Management Pro MCP Server connects external AI tools to Contract Ma
 
 See [Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cmpro-negotiation-mcp.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 -   **Activation information**

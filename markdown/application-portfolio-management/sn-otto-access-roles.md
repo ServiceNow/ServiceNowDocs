@@ -1808,7 +1808,7 @@ Ask follow-up questions within the same session without restating context; selec
 
 </td></tr><tr><td>
 
-Ask about the impact of an infrastructure configuration item \(CI\), such as a database, database instance, server, or storage device, and about the infrastructure that a business application or application service depends on
+Ask about the impact of an infrastructure CI, such as a database, database instance, server, or storage device. Ask about the infrastructure that a business application or application service depends on.
 
 </td><td align="center">
 

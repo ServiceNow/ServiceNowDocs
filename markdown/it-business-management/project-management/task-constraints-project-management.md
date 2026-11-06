@@ -18,7 +18,7 @@ Task constraints define the earliest or latest dates a task can start or finish 
 
 ## Types of constraints
 
-Flexible constraints: These constraints do not require an associated date and allows the scheduling engine to place tasks as early or as late as possible within the boundaries set by dependencies and other constraints. As Soon As Possible \(ASAP\) and As Late As Possible \(ALAP\) are flexible constraints.
+Flexible constraints: These constraints don't require an associated date. The scheduling engine places tasks as early or as late as possible within the boundaries set by dependencies and other constraints. As Soon As Possible \(ASAP\) and As Late As Possible \(ALAP\) are flexible constraints.
 
 Semi-flexible constraints: These constraints require an associated date that defines the earliest or latest allowed start or finish date for a task. The task can complete at any time, as long as it meets the defined boundary. For example, a Start No Earlier Than \(SNET\) constraint set to May 20 helps avoid the task from starting before that date, even if its predecessor finishes earlier.
 

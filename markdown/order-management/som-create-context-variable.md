@@ -20,6 +20,8 @@ Before creating a custom variable, review the context variables available in the
 
 For example, the system-defined context variables provided for non-product attributes include: Account, Shipping Country, Shipping City, Shipping State, Shipping Zip, Billing Country, Billing City, Billing State, Billing Zip, and Transaction Date.
 
+System-defined context variables for transaction lines include buyer organization and channel partner. Buyer Organization and Channel Partner context variables reference the Customer Service Organization \[sn\_customer\_service\_organization\] table. The Consumer context variable references the Consumer \[csm\_consumer\] table. In pricing requests, the consumer is identified by its External ID \[sn\_tmt\_core\_external\_id\] value.
+
 Role required: admin
 
 ## About this task

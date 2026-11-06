@@ -32,7 +32,7 @@ Role required: catalog\_admin or admin
 
     For more information about the fields and their descriptions on the Record Producer form, see [Record Producer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/record-producer-form.md).
 
-4.  To add attachments such as information and instruction documentation to the catalog item, see [Add an attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_AddingAnAttachment.md) .
+4.  To add attachments such as information and instruction documentation to the catalog item, see Add an attachment .
 
 5.  Click **Submit**.
 

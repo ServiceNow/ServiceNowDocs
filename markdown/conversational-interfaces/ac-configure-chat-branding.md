@@ -21,7 +21,7 @@ Create different Virtual Agent branding configurations for the various organizat
 
 Check for updates and improvements to the Omni-Experience Standard Feature Set application on the ServiceNow Store.
 
-**Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. Branding for bots in Slack is available as well. For details, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/slack-branding-overview.md).
+**Note:** Branding for bots in the Conversational Integration with Microsoft Teams is available through the Microsoft Teams app customization feature. For details, see [MS Teams branding for the conversational integration](https://community.servicenow.com/community?id=community_article&sys_id=3b4f487edbe17490904fa9fb1396195b) in Now Community. Branding for bots in Slack is available as well. For details, see [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/slack-branding-overview.md).
 
 Role required: virtual\_agent\_admin or admin
 

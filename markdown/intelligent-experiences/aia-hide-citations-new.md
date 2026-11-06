@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-hide-citations-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Citations in Now Assist AI agents, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]

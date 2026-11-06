@@ -9,7 +9,7 @@ last_updated: "2026-09-18"
 reading_time_minutes: 2
 keywords: [playbook, playbook authoring, build agent playbook, playbook designer, fluent playbook, playbook launcher, runtime permissions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: developer
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Playbook authoring with Build Agent and Autonomous Engineer

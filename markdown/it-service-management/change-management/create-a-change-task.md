@@ -1,6 +1,6 @@
 ---
 title: Create a change task
-description: You can create change tasks for a change request. A change task is a piece of work related to the change request. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
+description: Create change tasks to track the work for a change request, such as planning, implementing, testing, and reviewing the change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-change-task.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create a change request, Use, Change Management, IT Service Managem
 
 # Create a change task
 
-You can create change tasks for a change request. A change task is a piece of work related to the change request. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
+Create change tasks to track the work for a change request, such as planning, implementing, testing, and reviewing the change.
 
 ## Before you begin
 
@@ -38,15 +38,15 @@ If the Change task related list is not visible, scroll down the change form or v
 
 1.  Navigate to **All** &gt; **Change** &gt; **Open**.
 
-2.  Select the change request to add a change task.
+2.  Select the change request that you want to add a change task to.
 
-3.  In the **Related Links** section, select **Change Tasks** tab and then, select **New**.
+3.  In the **Related Links** section, select the **Change Tasks** tab, and then select **New**.
 
 4.  To associate an existing change task with the change request, open the change task record and update the **Change** field to the target change request and save the record.
 
-    **Note:** The **New** button creates a change task and doesn't attach an existing change task. To carry tasks to the new change request, [Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/copy-a-change-request.md)
+    **Note:** The **New** button creates a change task and doesn't attach an existing change task. To carry tasks over to a new change request, copy the change request. For more information, see [Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/copy-a-change-request.md).
 
-5.  Fill in the fields, as appropriate.
+5.  On the Change Task form, fill in the fields.
 
 <table id="table_blp_xnl_sy"><thead><tr><th>
 
@@ -162,7 +162,7 @@ A detailed description of the task.
 
     **Important:**
 
-    Close codes and close notes apply to individual change tasks only and do not affect other change tasks on the change request. Once you submit or close a change task, you cannot revert it to an earlier state, such as **Open** or **In Progress**.
+    Close codes and close notes apply to individual change tasks only and do not affect other change tasks on the change request. After you submit or close a change task, you cannot revert it to an earlier state, such as **Open** or **In Progress**.
 
 8.  Select **Submit**.
 

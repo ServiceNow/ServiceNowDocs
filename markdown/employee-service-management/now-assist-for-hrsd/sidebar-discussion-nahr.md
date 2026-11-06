@@ -52,15 +52,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d597553e215">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d596451e215">
 
 Option
 
-</th><th align="left" id="d597553e218">
+</th><th align="left" id="d596451e218">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d597553e224">
+</th></tr></thead><tbody><tr><td id="d596451e224">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -71,7 +71,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d597553e251">
+</td></tr><tr><td id="d596451e251">
 
 **Provide feedback for the summary**
 
@@ -97,6 +97,10 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 [Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 

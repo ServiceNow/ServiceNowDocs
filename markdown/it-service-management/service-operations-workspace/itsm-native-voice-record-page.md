@@ -63,7 +63,7 @@ The Interaction Controls Component plugin has the following dependencies:
 
 ## ITSM voice interaction record template
 
-The ITSM voice interaction record template enables customers to create voice interaction record page variants and customize them as needed. This template includes customizable views for different CCaaS providers as well as real-time updates and notifications.
+The ITSM voice interaction record template enables customers to create voice interaction record page variants and customize them as needed. This template includes customizable views for different CCaaS providers, real-time updates, and notifications.
 
 Record pages and page variants created from this template help agents manage phone calls with customers and external users and surface the information needed to resolve issues.
 
@@ -261,10 +261,10 @@ Account information is provided
 When an account is selected on the interaction record, the account history is displayed in the Customer History tab.
 
 </td></tr></tbody>
-</table>Refreshing the customer history information:
+</table>You can refresh the customer history information in the following ways:
 
 -   If you select a different customer on the interaction record and save it, select **Refresh** on the Customer History component to update the information. You can also refresh the record page.
--   If new activity occurs while the page is open — for example, when you select **Create Case** on the interaction record — click Refresh on the Customer History component or refresh the record page to display it in the Customer History tab.
+-   If new activity occurs while the page is open — for example, when you select **Create Case** on the interaction record — select **Refresh** on the Customer History component or refresh the record page to display it in the Customer History tab.
 
 ## Live call transcript
 
@@ -297,14 +297,14 @@ The ITSM voice interaction record page supports actions from the following Custo
 -   Case Management Core \(com.sn\_customerservice\)
 -   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
 -   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CSM Workspace \(com.snc.agent\_workspace.csm
+-   CSM Workspace \(com.snc.agent\_workspace.csm\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
 -   Time Recording for Customer Service \(com.snc.csm\_time\_recording\)
 -   Omni-Experience Standard Feature Set
 
-If you are using any additional plugins, you need to add the actions from those plugins to the CSM voice interaction record page action bar. For more information, see the configuration steps in [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-front-line-case-page-action-bar.md).
+If you use additional plugins, add the actions from those plugins to the CSM voice interaction record page action bar. For more information, see the configuration steps in [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-front-line-case-page-action-bar.md).
 
 ## Contextual side panel component
 
@@ -345,7 +345,7 @@ Related Lists
 
 </td><td>
 
-The Related Lists tab provides access the interaction related lists.The ITSM voice interaction record page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
+The Related Lists tab provides access to the interaction related lists.The ITSM voice interaction record page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 

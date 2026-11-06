@@ -37,15 +37,15 @@ Own paper contracts are created using your company's predefined templates. The r
 
 1.  Navigate to the contract request form.
 
-<table><thead><tr><th align="left" id="d563630e118">
+<table><thead><tr><th align="left" id="d562223e118">
 
 Entry point
 
-</th><th align="left" id="d563630e121">
+</th><th align="left" id="d562223e121">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d563630e127">
+</th></tr></thead><tbody><tr><td id="d562223e127">
 
 **Employee Center \(sn\_cm\_core.contract\_user\)**
 
@@ -56,7 +56,7 @@ Navigation
 3.  Select **Contract request**.
 
 
-</td></tr><tr><td id="d563630e166">
+</td></tr><tr><td id="d562223e166">
 
 **Contract Workspace \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -100,15 +100,15 @@ Navigation
 
     Adding documents is optional for own paper requests. Attached documents are classified as supporting documents.
 
-<table><thead><tr><th align="left" id="d563630e315">
+<table><thead><tr><th align="left" id="d562223e315">
 
 Method
 
-</th><th align="left" id="d563630e318">
+</th><th align="left" id="d562223e318">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d563630e324">
+</th></tr></thead><tbody><tr><td id="d562223e324">
 
 **Choose a file**
 
@@ -118,7 +118,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d563630e348">
+</td></tr><tr><td id="d562223e348">
 
 **Drag and drop**
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Incident plugin activates these related plugins if they are not already active.
+The Incident plugin activates the following related plugins if they are not already active.
 
 <table id="table_m4z_wfs_wfb"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Incident Overview Homepage\[com.glideapp.report.itsm.incident.overview\]
 
 </td><td>
 
-Incident Overview Homepage
+Provides the Incident Overview homepage.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -72,8 +72,8 @@ Incident Overview Homepage
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with the Incident plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/installed-with-incident.md)**  
-Several types of components are installed with activation of the Incident plugin in Incident Management.
+-   **[Components installed with Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/installed-with-incident.md)**  
+Several types of components are installed when you activate the Incident plugin in Incident Management.
 
 **Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
 

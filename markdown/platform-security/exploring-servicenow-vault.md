@@ -38,6 +38,7 @@ To learn more about configuring and using ServiceNow Vault, see:
 
 -   [AI in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/exploring-now-assist-vault.md)
 -   [Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-suite.md)
+-   [ServiceNow Vault email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-email-notifications.md)
 -   [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-dashboard.md)
 -   [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-servicenow-vault.md)
 -   [Use guided setup for ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-vault-guided-setup.md)
@@ -52,9 +53,9 @@ To learn more about configuring and using ServiceNow Vault, see:
 
 </td><td>
 
-[Code Signing\[Omitted image "bus-contract.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
+[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
 
- [Help improve security by validating sensitive application configuration data and scripts before they are used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
+ [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
 
 </td></tr><tr><td>
 
@@ -76,15 +77,15 @@ To learn more about configuring and using ServiceNow Vault, see:
 
 </td><td>
 
-[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
-
- [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
+ 
 
 </td></tr></tbody>
 </table>-   **[Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-suite.md)**  
 Vault Suite deploys the complete set of ServiceNow Vault capabilities on your instance automatically, eliminating manual plugin setup.
 -   **[AI in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/exploring-now-assist-vault.md)**  
 With the ServiceNow Otto for Vault application, you can automate many tasks in Vault with the help of AI. These tasks include securing custom applications to improve your security posture, checking role access for an encrypted column to instance’s encryption access posture, and others.
+-   **[ServiceNow Vault email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-email-notifications.md)**  
+ServiceNow Vault sends emails to users who have the admin role to help them get started and report how much of their sensitive data ServiceNow Vault protects.
 
 **Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/servicenow-vault-landing.md)
 

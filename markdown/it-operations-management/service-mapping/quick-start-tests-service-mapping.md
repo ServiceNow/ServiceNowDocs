@@ -76,5 +76,5 @@ Orlando
 </table>**Related topics**  
 
 
-[bundle-cadev.atf-run-test]
+[Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-run-test.md)
 

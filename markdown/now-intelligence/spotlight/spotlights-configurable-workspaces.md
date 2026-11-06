@@ -27,5 +27,5 @@ To show Spotlight in Platform Analytics, create a dashboard in the inline editor
 
 [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md)
 
-[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md)
+[Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md)
 

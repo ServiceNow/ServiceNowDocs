@@ -32,7 +32,7 @@ Role required: admin
 
 4.  There are two prerequisites you much complete before you can create connections for the Service Graph Connector for ServiceNow OT Discovery:
 
-5.  The first prerequisite is download and install the OT Discoverycomponents.
+5.  The first prerequisite is download and install the OT Discovery components.
 
     \[Omitted image "downloadpage2-sgcc.png"\] Alt text: OT Discovery Downloads
 

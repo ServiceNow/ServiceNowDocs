@@ -34,25 +34,25 @@ The Configuration Console includes a **Configure with AI** option that opens a c
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Admin Home**.
+1.  Navigate to **Manage Platform** &gt; **Hardware Asset Management**.
 
-2.  In the **Manage your products** section of the Admin Home page, select the **Hardware Asset Management** card to open the Product Hub.
+    The Product Hub opens.
 
-3.  In the Configure your product section, select **Configure**.
+2.  In the Configure your product section, select **Configure**.
 
     The Configure Hardware Asset Management page opens in the Configuration Console.
 
-4.  Select **Configure with AI**.
+3.  Select **Configure with AI**.
 
     The ServiceNow Otto panel opens and displays the estimated time to complete the full configuration process.
 
-5.  Select the task that you want to complete.
+4.  Select the task that you want to complete.
 
     -   Select **Start with Assignment groups \(Team management\)** to configure groups, assign users, assign roles, or search by org chart.
     -   Select **Choose something else** to view all available options, including groups, users, and roles.
-6.  Based on your selection, follow the prompts in the panel.
+5.  Based on your selection, follow the prompts in the panel.
 
-<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d346748e258">
+<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d352465e248">
 
 **__Assignment groups \(Team management\)__ or __Roles \(Team management\)__**
 
@@ -65,7 +65,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d346748e294">
+</td></tr><tr><td id="d352465e284">
 
 **__Users \(Team management\)__**
 
@@ -74,20 +74,20 @@ Select one of the following options or enter a natural-language prompt: -   **As
 Select a data source \(File or LDAP\) and follow the prompts to import users into your ServiceNow instance.
 
 </td></tr></tbody>
-</table>7.  Respond to the follow-up questions and provide any additional information requested in the panel.
+</table>6.  Respond to the follow-up questions and provide any additional information requested in the panel.
 
-8.  Review the action summary and select the required action.
+7.  Review the action summary and select the required action.
 
     -   **Yes**—Confirm the action.
     -   **Change details**—Modify the information you provided.
     -   **Cancel** — Cancel the action.
-9.  When prompted for confirmation, select **Yes** to proceed or **No** to cancel.
+8.  When prompted for confirmation, select **Yes** to proceed or **No** to cancel.
 
-10. When the assistant displays a success message, select the required option.
+9.  When the assistant displays a success message, select the required option.
 
     -   **Do something else**: Return to the task selection to complete another configuration.
     -   **No further assistance**: End the conversation. The assistant then asks if you want to mark the step as configured.
-11. When prompted, select how to proceed with the configuration step.
+10. When prompted, select how to proceed with the configuration step.
 
     -   To mark the step as complete immediately, select **Mark as configured**.
     -   To mark the step as complete later, select **Mark later** and return to the Configuration Console to complete this action manually.

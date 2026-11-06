@@ -29,5 +29,5 @@ Cloud Cost Management generates recommendations that appear in the Rightsizing r
     These recommendations are integrated from Azure Advisor service and are refreshed when the integration job completes.
 
 
-For details on how the values are generated, see the Azure Advisor documentation at [Microsoft Learn](https://docs.microsoft.com).
+For details on how the values are generated, see the [Azure Advisor documentation](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview).
 

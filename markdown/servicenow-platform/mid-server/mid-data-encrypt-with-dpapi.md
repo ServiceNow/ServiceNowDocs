@@ -57,5 +57,5 @@ DPAPI encryption provides another level of security for data such as credentials
         The data is re-encrypted by the operating system, based the new MID Server user account.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security]()
 

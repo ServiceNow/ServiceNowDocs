@@ -1,6 +1,6 @@
 ---
 title: Create an event
-description: Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in CPQ.
+description: Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-custom-event.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Events, ServiceNow Quote Experience, Configure, price, quote apps, 
 
 # Create an event
 
-Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in CPQ.
+Create a custom event in ServiceNow Quote Experience to trigger rule groupings, integrations, and stage transitions based on business-specific requirements in ServiceNow CPQ.
 
 ## Before you begin
 

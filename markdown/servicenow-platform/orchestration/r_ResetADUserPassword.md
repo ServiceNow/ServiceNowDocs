@@ -77,5 +77,5 @@ Powershell command result.
 |Policy Failure|New password does not comply with the organization's Active Directory requirements.|
 |Failure|An error occurred while attempting to reset the password. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

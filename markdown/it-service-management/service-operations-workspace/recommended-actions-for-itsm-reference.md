@@ -1,6 +1,6 @@
 ---
 title: Recommended Actions for ITSM reference
-description: Reference topics provide additional information about various form fields and components installed with Recommended Actions for ITSM.
+description: Find additional information about various form fields and components installed with Recommended Actions for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Recommended Actions for ITSM in Service Operations Workspace, Manag
 
 # Recommended Actions for ITSM reference
 
-Reference topics provide additional information about various form fields and components installed with Recommended Actions for ITSM.
+Find additional information about various form fields and components installed with Recommended Actions for ITSM.
 
 -   **[Contexts in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/contexts-in-recommended-actions-for-itsm.md)**  
 The ITSM base system includes the following context.

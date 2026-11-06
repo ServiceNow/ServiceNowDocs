@@ -18,7 +18,7 @@ Configure an application quota rule to limit the number of events or jobs that c
 
 ## Before you begin
 
-Role required: admin
+Role required: app\_resource\_quota\_admin or admin
 
 ## About this task
 

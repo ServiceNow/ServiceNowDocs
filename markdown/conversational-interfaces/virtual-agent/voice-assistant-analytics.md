@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Analyze and optimize, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -29,7 +29,11 @@ You can filter the data on all tabs using the following options:
 
 Scorecard widgets display a trend indicator below the metric value, showing the change in value compared to the equivalent previous period. The indicator includes the absolute change, the percentage change, and the comparison date range.
 
-**Note:** Metrics marked with the **AI Inferred** tag are calculated through large language model \(LLM\) transcript analysis. Results may vary and may not be fully accurate. Review AI Inferred metrics before acting on them.
+**Note:**
+
+The intent and resolution metrics on this page depend on the intents and resolution criteria you define in the Asset library of AI Admin Center. To set them up, see [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md).
+
+Metrics marked with the **AI Inferred** tag are calculated through large language model \(LLM\) transcript analysis. Results may vary and may not be fully accurate. Review AI Inferred metrics before acting on them.
 
 ## Overview tab
 
@@ -43,7 +47,7 @@ The **Overview** tab shows high-level conversation volume, resolution performanc
 
 -   **Resolution rate \(%\)**
 
-    This area of the dashboard shows the resolution rate for voice conversations. Only conversations with at least one detected intent are included. Conversations with no detected intent are not counted. A conversation is counted as resolved only when every intent in it was completed. If even one intent is not completed, the entire conversation is counted as unresolved. The dashboard shows a breakdown of resolved conversations in two categories:
+    This area of the dashboard shows the resolution rate for voice conversations. Only conversations with at least one detected intent are included. Conversations with no detected intent are not counted. A conversation is counted as resolved only when every intent in it was completed. If even one intent is not completed, the entire conversation is counted as unresolved. Intents and their resolution criteria are defined in the Asset library of AI Admin Center. See [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md). The dashboard shows a breakdown of resolved conversations in two categories:
 
     -   **Resolved by AI**: conversations resolved entirely by the AI voice agent, with no human involvement.
     -   **Resolved by live agent after transfer**: conversations that required a live agent to complete at least one intent.
@@ -209,11 +213,13 @@ Time required for the voice assistant to complete actions using tools.
 
 ## Insights tab
 
-The **Insights** tab shows intent tracking data and conversation quality signals measured through large language model \(LLM\) transcript analysis.
+The **Insights** tab shows intent tracking data and conversation quality signals. Intent tracking data is based on the intents you define in the Asset library of AI Admin Center. The conversation quality signals are measured through large language model \(LLM\) transcript analysis.
 
 **Intents**
 
 What customers are calling about and how each intent performs. Displayed metrics are tracked per intent, not per conversation. A single conversation can include several intents.
+
+**Note:** The intents in this section, and their resolution criteria, are the ones you define in the Asset library of AI Admin Center. To set them up, see [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md).
 
 -   **Intent breakdown**
 

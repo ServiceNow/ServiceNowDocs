@@ -35,7 +35,7 @@ You can force an external content connector to refresh some or all of its search
 
 2.  In the Connectors list, select the record for the external content connector that you want to refresh searchable content and metadata for.
 
-3.  In the connector editor's Settings tab, select **Index management**.
+3.  In the connector editor's **Settings** tab, select **Index management**.
 
 4.  In the Force reindex section, select **Force reindex all content**.
 

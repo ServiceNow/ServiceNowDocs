@@ -119,7 +119,7 @@ Field to indicate when the benefits start realizing. Select any of the following
 -   **Milestone**: After completion of a milestone.
 -   **Start Date**: At the start of the epic.
 -   **End Date**: After the epic ends.
- If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the end date of the epic changes, the benefit plan start date shifts to align with the new end date of the epic.
+ If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, conosider the offset type is set to **End Date** and the end date of the epic changes. Then the benefit plan start date shifts to align with the new end date of the epic.
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ Non-monetary benefit that is associated to this monetary benefit plan.
     |-----|-----------|
     |Entered benefit|Benefit incurred from the epic specified in terms of entered currency.|
     |Entered currency|Currency in which you want the benefit plan to be created.|
-    |Functional currency|Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-properties.md).|
+    |Functional currency|Currency that is obtained from the **glide.system.locale** property.|
     |Total planned benefit|Estimated amount of potential benefit of the epic.|
     |Benefit in functional currency|Benefit incurred from epic in terms of functional currency. The value in this field changes if the **Entered currency** is different from the functional currency.|
     |Actual benefit|Actual benefit that is incurred from the epic. This value is rolled up from the **Actual benefit** field of all the benefit plan breakdowns.|

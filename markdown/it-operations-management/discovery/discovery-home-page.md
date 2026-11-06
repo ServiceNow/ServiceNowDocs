@@ -240,7 +240,7 @@ Role required: discovery\_admin
 
 [Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
 
-[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
+[ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
 [Create Discovery schedules for cloud resources]()
 

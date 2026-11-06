@@ -9,7 +9,7 @@ classification: decision-tables
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision Tables, Builder library, Developing your application, Building applications]
+breadcrumb: [Decision Tables, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Decision tables in the classic environment

@@ -16,9 +16,7 @@ The Sales CRM for Telecommunications PSR catalog entities, product offering, pro
 
 ## TMF SID model
 
-The TMF SID model is an industry-agreed framework by TM Forum that provides a common language and data model for communications service providers \(CSPs\). It defines business entities such as customer, product, service, and resource and their relationships across enterprise systems. The Sales CRM for Telecommunications PSR catalog maps its core entities to the product, service, and resource layers of the TMF SID model. The TMF APIs that the catalog supports, including TMF 620 and TMF 633, are also based on the SID model.
-
-\[Omitted image "somt-psr-sid.jpg"\] Alt text: Diagram showing relationships between Product Offering, Product Specification, CFSS, RFSS, and Resource Specification entities in TMF SID model.
+The TMF SID model is an industry-agreed framework by TM Forum that provides a common language and data model for communications service providers \(CSPs\). It defines business entities such as customer, product, service, and resource and their relationships across enterprise systems. The Sales CRM for Telecommunications PSR catalog maps its core entities to the product, service, and resource layers of the TMF SID model. The TMF APIs that the catalog supports, including TMF 620 and TMF 633, are also based on the SID model.\[Omitted image "somt-psr-sid-example.jpg"\] Alt text: Diagram showing relationships between Product Offering, Product Specification, CFSS, RFSS, and Resource Specification entities in TMF SID model.
 
 ## Product offering
 

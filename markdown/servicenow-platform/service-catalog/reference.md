@@ -20,7 +20,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 Keep the following information in mind when you create a reference variable:
 
--   Reference variables use the [auto-complete feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_AutoCompleteForReferenceFields.md) . To ensure that users have enough information to make the selection, configure the [reference lookup list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceLookup.md) .
+-   Reference variables use the auto-complete feature . To ensure that users have enough information to make the selection, configure the [reference lookup list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceLookup.md) .
 -   Reference variables store the sys\_id of the selected record \(like reference fields\). To use the display value in a script, use the same methods as for a reference field.
 
 ```

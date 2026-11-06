@@ -60,7 +60,7 @@ View subscription details on the details page by navigating to **Admin** &gt; **
     -   Determine whether an application is available to install from the current product subscription by checking the **Installation status** column.
 -   Maximize subscription usage and grant entitlement to the right users by allocating per-user subscriptions. You allocate per-user subscriptions by adding one or more groups to a product subscription. Subscription Management helps you with the allocation process by recommending groups based on their assigned roles. For more information, see [Allocate subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/allocate-subscriptions-v2.md).
 
-    **Note:** To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-subscription-auto-assignment.md).
+    **Note:** To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
 
 
 ## Consolidated subscriptions

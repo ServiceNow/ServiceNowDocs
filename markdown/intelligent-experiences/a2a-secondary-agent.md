@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/a2a-sec
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -24,6 +24,8 @@ After creating your AI agent in AI Agent Studio, you can point it to the Agent C
 
 You can use the same OAuth or API key for authenticating the agent discovery and the agent execution. For more information, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/a2a-api-key-credential-behavior-new.md).
 
+If you want v1 of the secondary agent, then verify that the **sn\_nowassist\_va.show\_ai\_native\_experience** system property is set to **true** and the A2A deployment record experience is set to **AI native** in the **sys\_now\_assist\_deployment\_channel**.
+
 To verify that your AI agent is running from the ServiceNow side, during a conversation with the AI agent, you can go to the **Execution Plan \[sn\_aia\_execution\_plan\]** table. From the Execution Plan table, you can identify the execution plan based on the **Objective** field that contains the prompt from the conversation on the other platform.
 
 For more information about setting up instructions for your ServiceNow AI agents as secondary agents \(acting as A2A server\), refer to [Authentication for A2A - ServiceNow as Secondary Agent](https://www.servicenow.com/community/now-assist-articles/authentication-for-google-a2a-servicenow-as-secondary-agent/ta-p/3446091).
@@ -35,7 +37,7 @@ For more information about sample payloads for A2A with ServiceNow AI agent as S
 The A2UI protocol allows interactions that enable agents to drive UI workflows and receive structured responses from user interface surface with more advanced visual responses in external systems when connecting to ServiceNow agents. To enable the A2UI protocol, you must:
 
 -   Turn on the **sn\_aia.external\_agents.a2ui.enabled** system property to **true**, whose default value is **false**.
--   Route the A2A deployment through off-glide experience. The A2UI responses can only be built on the off-glide path. Verify that the **sn\_nowassist\_va.show\_ai\_native\_experience** system property to **true** and the A2A deployment record experience to **AI native** in the **sys\_now\_assist\_deployment\_channel**, as shown in the following image:
+-   Route the A2A deployment through off-glide experience. The A2UI responses can only be built on the off-glide path. Verify that the **sn\_nowassist\_va.show\_ai\_native\_experience** system property is set to **true** and the A2A deployment record experience is set to **AI native** in the **sys\_now\_assist\_deployment\_channel**, as shown in the following image:
 
     \[Omitted image "a2ui-channel.png"\] Alt text: Enable AI native chat for AI Agent A2A Provider Application.
 

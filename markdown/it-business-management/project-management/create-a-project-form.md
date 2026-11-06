@@ -452,7 +452,7 @@ Rate model assigned to the project. The [rate model](https://raw.githubuserconte
 
  The subprojects in a project derive their resource plan calculations from the rate model associated with the top task.
 
- If the assigned rate model is removed or replaced or the hourly rates in the rate model are changed, the cost fields on the associated resource plans are not recalculated automatically. You must [update costs of all resource plans in the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) using the **Recalculate Resource Costs** menu option to reflect new rates from the rate model.
+ If the assigned rate model is removed or replaced or the hourly rates in the rate model change, the cost fields associated to resource plans aren't recalculated automatically. You must [update costs of all resource plans in the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) using the **Recalculate Resource Costs** menu option to reflect new rates from the rate model.
 
  You can also [update costs of a single resource plan one at a time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/recalculate-resource-costs.md).
 
@@ -462,11 +462,11 @@ Total planned cost
 
 </td><td>
 
-Estimated cost of the project. If an operational expenditure, capital expenditure, or both are associated with the project, then the planned cost is the sum of the operational expenditure and capital expenditure, which is in the selected currency for the project.
+Estimated cost of the project. If an operational expenditure, capital expenditure, or both are associated with the project, the planned cost is the sum of the two. The planned cost is displayed in the selected currency for the project.
 
- For Agile and Hybrid projects, the planned cost for stories is considered when the resource plan is created for Agile assignment group.
+For Agile and Hybrid projects, the planned cost for stories is considered when the resource plan is created for Agile assignment group.
 
- **Note:** To create a resource plan for Agile assignment group, you must assign the pps\_resource role to the group.
+**Note:** To create a resource plan for Agile assignment group, you must assign the pps\_resource role to the group.
 
 </td></tr><tr><td>
 
@@ -508,7 +508,7 @@ Estimate at completion
 
 Sum of all actuals for past fiscal periods added to the planned cost for future fiscal periods.**Note:** The current month is considered as a future month for EAC calculation purposes.
 
- For example, if the duration of a project is from January 01 to December 31 and you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of planned cost from May to December`.
+Consider the duration of a project from January 01 to December 31 and you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of planned cost from May to December`.
 
 </td></tr><tr><td>
 
@@ -639,9 +639,9 @@ Allow time card reporting on
 
 </td><td>
 
-Level at which the [time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATimeCard.md) for project tasks can be created:-   **Project only**: All time cards for the project are created at the project level only. For example, if a user is assigned to multiple tasks in a project, then the time spent on all tasks is recorded under one time card only for the project.
+Level at which the time cards for project tasks can be created:-   **Project only**: All time cards for the project are created at the project level only. For example, if a user is assigned to multiple tasks in a project, then the time spent on all tasks is recorded under one time card only for the project.
 
-**Note:** In the [Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/worker-portal.md), tasks, the project are listed on the **Tasks** tab. For these tasks, the **Add to Time Sheet** and **Add selected to Time Sheet** options are not available. Only the **Quick Add** option is available. On selecting **Quick Add**, a time card is created against the top project, not against the task.
+**Note:** In the Time Sheet Portal, tasks, the project are listed on the **Tasks** tab. For these tasks, the **Add to Time Sheet** and **Add selected to Time Sheet** options are not available. Only the **Quick Add** option is available. On selecting **Quick Add**, a time card is created against the top project, not against the task.
 
 -   **Project tasks only**: Separate time cards are created corresponding to each planned task.
 

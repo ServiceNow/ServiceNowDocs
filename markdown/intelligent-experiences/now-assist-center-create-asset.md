@@ -17,7 +17,7 @@ Use the asset inventory to create AI assets in your instance.
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -37,7 +37,7 @@ From the asset inventory, asset types are created by opening their respective ap
 
 -   Create assets with Assistant Designer, including topics, virtual assistants, subflows, and actions.
 
-    For more information, see .
+    For more information, see [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/assistant-designer.md).
 
 -   Create custom skills with AI Skill Kit.
 
@@ -150,7 +150,7 @@ Opens the Create an assistant page in Assistant Designer.
 
  A virtual assistant is the container for the end-to-end administrative configuration for a chat or voice conversation.
 
- For more information on creating a virtual assistant in Assistant Designer, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+ For more information on creating a virtual assistant in Assistant Designer, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

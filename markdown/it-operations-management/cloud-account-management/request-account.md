@@ -24,9 +24,9 @@ Role required: sn\_itom\_cam.cw\_requester
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace**.
+1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Manage and Configure** &gt; **Requests** &gt; **All requests**.
 
-2.  From the Home page, select **Request**.
+2.  Select **Create new request**.
 
 3.  On the Request new cloud account form, fill in the fields.
 
@@ -36,4 +36,6 @@ Role required: sn\_itom\_cam.cw\_requester
 
 4.  Select **Submit**.
 
+
+**Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/creating-an-account.md)
 

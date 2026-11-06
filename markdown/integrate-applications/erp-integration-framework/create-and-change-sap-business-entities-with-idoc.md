@@ -1,21 +1,21 @@
 ---
-title: Creating and changing SAP business entities with IDoc
-description: Work with SAP business entities that can only be created or changed using IDoc.
+title: Creating and changing SAP business entities with IDoc in Zero Copy Connector for ERP
+description: Use IDoc in Zero Copy Connector for ERP to create or change SAP business entities that support no other method, and monitor IDoc status as outbound messages are processed asynchronously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.html
 release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
-reading_time_minutes: 1
-keywords: [erp, integration, canvas, data hub, sap, zero, copy, connector, entity, idoc]
-breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+last_updated: "2026-10-07"
+reading_time_minutes: 2
+keywords: [sap, idoc, zero copy connector for erp, sap idoc, idoc entity, idoc outbound message, idoc status, sap partner profile, create sap business entity]
+breadcrumb: [Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Creating and changing SAP business entities with IDoc
+# Creating and changing SAP business entities with IDoc in Zero Copy Connector for ERP
 
-Work with SAP business entities that can only be created or changed using IDoc.
+Use IDoc in Zero Copy Connector for ERP to create or change SAP business entities that support no other method, and monitor IDoc status as outbound messages are processed asynchronously.
 
 SAP still has some business entities that can only be created or changed using IDoc. In Zero Copy Connector for ERP \(Enterprise Resource Planning\), you can add IDoc entities to model operations and configure outbound messages. Monitor the asynchronous processing to obtain information about IDoc status and the business entity created or updated.
 

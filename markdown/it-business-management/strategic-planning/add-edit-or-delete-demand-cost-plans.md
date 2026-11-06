@@ -25,7 +25,7 @@ Role required: it\_demand\_manager
 To create, edit, or delete cost plan records, you can also use:
 
 -   The **Cost Plans** related list in the **Details** tab.
--   The **Estimate financial cost** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+-   The **Estimate financial cost** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
@@ -39,15 +39,15 @@ To create, edit, or delete cost plan records, you can also use:
 
 5.  Create, edit, or delete a cost plan.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d212605e132">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d217836e132">
 
 Goal
 
-</th><th align="left" id="d212605e135">
+</th><th align="left" id="d217836e135">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d212605e141">
+</th></tr></thead><tbody><tr><td id="d217836e141">
 
 **Create a cost plan**
 
@@ -64,7 +64,7 @@ For a description of the field values, see [Cost plan form](https://raw.githubus
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create another one.
 
 
-</td></tr><tr><td id="d212605e182">
+</td></tr><tr><td id="d217836e182">
 
 **Edit a cost plan**
 
@@ -76,7 +76,7 @@ Edit a cost plan in one of the following ways.-   Select the name of the cost pl
 
 **Note:** Use the keyboard Tab key to navigate to between the fiscal periods.
 
-</td></tr><tr><td id="d212605e212">
+</td></tr><tr><td id="d217836e212">
 
 **Delete a cost plan**
 

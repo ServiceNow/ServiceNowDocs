@@ -24,7 +24,7 @@ Role required: Website administrator
 
 1.  Open the HTML file of the web page on the website where you integrate Engagement Messenger.
 
-2.  Change the existing version number to `v=3.1`.
+2.  Change the existing version number to the latest version.
 
     For example:\[Omitted image "em-version-no-update.png"\] Alt text: Engagement Messenger with the version number highlighted in the Embed code.
 

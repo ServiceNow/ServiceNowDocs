@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring CI metrics for MECM, Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Extend hardware inventory
@@ -42,7 +42,7 @@ Role required: admin
 
 5.  On the Default Settings window, select **Hardware Inventory**.
 
-6.  Click **Set Classes**.
+6.  Select **Set Classes**.
 
     A Hardware Inventory Classes pop-up window containing the list of Hardware Inventory Classes is displayed.
 
@@ -50,7 +50,7 @@ Role required: admin
 
     \[Omitted image "add-hardware-inventory.png"\] Alt text: Add hardware inventory
 
-8.  Click **OK**.
+8.  Select **OK**.
 
 
 ## Result

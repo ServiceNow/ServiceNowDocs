@@ -75,7 +75,7 @@ Approval with e-signature supports these types of user credential sources.
 
 User credentials must be set up before enabling Approvals with e-signature. See [Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-users.md) to create local User records.
 
-See [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_MultipleProviderSingleSignOn.md) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
+See  to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
 
 -   **[Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/activate-approval-esignature.md)**  
 The Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) allows users to approve requests by re-entering their login credentials.

@@ -1,12 +1,12 @@
 ---
 title: ServiceNow Otto for Platform Analytics Release Notes
-description: ServiceNow Otto for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.Query information that is available in formula indicators, not only in automated indicators and tables.
+description: ServiceNow Otto for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.Query information that is available in formula indicators, not only in automated indicators and tables.Support returns for ACL Assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/otto-for-platform-analytics-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -53,4 +53,22 @@ Query information that is available in formula indicators, not only in automated
     -   A more detailed description of the skill
     -   Key benefits of the skill
     -   Required and recommended skills to go with the skill
+
+## Brazil Patch 2 Platform Analytics release notes
+
+Support returns for ACL Assessments.
+
+### What's changed
+
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/report-view-acl-dashboard.md)**
+
+    The ACL Assessment for Reports that was removed in Australia Patch 4 is back with support for Platform Analytics data visualizations. It also scans data source conditions for restricted fields.
+
+
+### Plugin information
+
+-   **Renamed or changed plugins**
+
+    ACL Assessment for Data Visualizations \(sn\_report\_acl\): Scans data visualizations and Core UI reports for attempts to view content that were blocked by report\_view or read ACL rules.
+
 

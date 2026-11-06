@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prerequisites for enhanced chat, Enhanced chat, Chat experiences, Explore, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Prerequisites for enhanced chat, Enhanced chat, Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Portal prerequisites for enhanced chat

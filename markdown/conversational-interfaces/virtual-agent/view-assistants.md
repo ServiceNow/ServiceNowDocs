@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Virtual Agent, LLM, Large language model]
-breadcrumb: [Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # View assistants
@@ -19,7 +19,7 @@ View and manage all existing chat and voice assistants on your instance.
 
 ## Before you begin
 
-See [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+See [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 To view the **Assistants** tab in Assistant Designer, verify that the Platform plugin is installed. The plugin comes with ServiceNow Otto products such as ServiceNow Otto for ITSM, ServiceNow Otto for CSM, and others.
 

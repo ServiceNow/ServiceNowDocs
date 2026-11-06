@@ -57,17 +57,19 @@ After the provider sends the sample, a subscription is generated for each offeri
 
         For unresolved relationships, the banner remains until you complete the configuration.
 
-6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\), CMDB with **Maintain sysID** enabled by the provider, or a non-CMDB table.
+6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on table you selected.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d27096e184">
+    Some non-CMDB tables have names that start with `cmdb_`, such as Product Model \[cmdb\_model\], Hardware Model \[cmdb\_hardware\_product\_model\], and Consumable Model \[cmdb\_consumable\_product\_model\]. Configure these tables using the non-CMDB table option. Refer to the following table for detailed steps.
+
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d27125e186">
 
 Option
 
-</th><th align="left" id="d27096e187">
+</th><th align="left" id="d27125e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d27096e193">
+</th></tr></thead><tbody><tr><td id="d27125e195">
 
 **Configure data integration for CMDB tables**
 
@@ -85,7 +87,7 @@ A message is displayed stating that you're about to navigate to the ETL Transfor
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d27096e237">
+</td></tr><tr><td id="d27125e239">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -100,7 +102,7 @@ A message is displayed stating that you're about to navigate to the Transform Ma
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d27096e279">
+</td></tr><tr><td id="d27125e281">
 
 **Configure data integration for non-CMDB table**
 
@@ -117,6 +119,14 @@ A message is displayed stating that you're about to navigate to the Transform Ma
 
 </td></tr></tbody>
 </table>    You must configure incoming data for each subscription item except dependent subscription items.
+
+7.  If a consumer table does not exist on the provider, do the following.
+
+    1.  On the provider, create the subscription item.
+
+    2.  On the provider, create a transform map that routes the incoming data to a target table, either default or custom.
+
+    3.  In the transform map, map each incoming field to a target column.
 
 
 ## Result

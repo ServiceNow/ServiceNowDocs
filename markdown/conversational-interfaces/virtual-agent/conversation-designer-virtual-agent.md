@@ -101,7 +101,7 @@ Use the **Properties** tab to do the following:
 
 -   Specify the name and type of asset, such as [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md), [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md), [custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/custom-controls.md), and so on.
 -   Specify the purpose of the topic, and which assistants can run this topic for ServiceNow Otto customers.
--   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent.md).
+-   Control who uses the topic and [what channels it can run in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
 -   Associate [live agent variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/live-agent-chat-context-vars.md) with a topic.
 
 For more information, see [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md).

@@ -1,12 +1,12 @@
 ---
 title: API release notes
-description: The ServiceNow APIs enable organizations to programmatically integrate ServiceNow with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
+description: The ServiceNow APIs enable organizations to programmatically integrate ServiceNow with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/api-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 9
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -31,6 +31,105 @@ See [API implementation and reference](https://raw.githubusercontent.com/Service
 
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
+
+## November 5, 2026
+
+ServiceNow® APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
+
+### What's changed
+
+-   ****
+
+<table id="table_rgg_kz3_sjc"><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+API type
+
+</th><th>
+
+API
+
+</th><th>
+
+Methods/Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Customer Service Management
+
+</td><td>
+
+6.7.5
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md)
+
+</td><td>
+
+**Important:** Migration Notice
+
+Starting with the November 2026 release, the Trouble Ticket API transitions scope to Telecom Service Management Core \(`sn_ind_tsm_core`\) from SD-WAN \(`sn_ind_tsm_sdwan`\). Existing `sn_ind_tsm_sdwan` endpoints remain available but are deprecated until the Denmark release.Migrate your integrations to the new endpoints before the Denmark release to avoid disruption. See Trouble Ticket Open API documentation for timeline and migration guidance.
+
+</td></tr><tr><td>
+
+Customer Service Management
+
+</td><td>
+
+6.7.5
+
+</td><td>
+
+Server
+
+</td><td>
+
+[TroubleTicketNotificationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
+
+</td><td>
+
+Starting with the November 2026 release, Trouble Ticket APIs transitions scope from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. An automatic upgrade is planned for the December release for existing customers whose instances use S-DWAN.
+
+</td></tr><tr><td>
+
+Customer Service Management
+
+</td><td>
+
+1.8.0
+
+</td><td>
+
+REST
+
+</td><td>
+
+
+
+</td><td>
+
+POST /openframe/voice-interaction endpoint now returns an existing callback interaction instead of creating a new one when the first item in the **relatedRecords** array is an interaction record. This helps avoid duplicate interaction records when an agent calls a customer back from a callback interaction. The response includes the sys\_id and number of the existing interaction.
+
+</td></tr></tbody>
+</table>
+### What's deprecated or removed
+
+-   **Trouble Ticket Open API**
+
+    [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/trouble-ticket-open-api.md) endpoints under the `sn_ind_tsm_sdwan` scope are deprecated but remain available until the Denmark release, at which point they will be officially removed and inaccessible. Endpoints use a new `sn_ind_tsm_core` scope as of the November 2026 release. See Trouble Ticket documentation for migration guidance and timeline information.
+
 
 ## October 2026
 
@@ -353,6 +452,29 @@ Provides an entry point for delivering credentials to a MID Server without requi
 
 -   getSecret\(\)
 -   getSecrets\(\)
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Custom Connector Gateway API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/custom-connector-gateway-api.md)
+
+</td><td>
+
+Push documents and user principals from a connector in your own environment into AI Search, so you can index sources that ServiceNow can't reach.-   POST /xcc-ingest \(ADDDOCUMENT\)
+-   POST /xcc-ingest \(ADDPRINCIPAL\)
+-   POST /xcc-ingest \(DELETEALLDOCUMENTS\)
+-   POST /xcc-ingest \(DELETEALLPRINCIPALS\)
+-   POST /xcc-ingest \(DELETEBYQUERY\)
+-   POST /xcc-ingest \(DELETEDOCUMENT\)
+-   POST /xcc-ingest \(DELETEPRINCIPAL\)
 
 
 </td></tr></tbody>

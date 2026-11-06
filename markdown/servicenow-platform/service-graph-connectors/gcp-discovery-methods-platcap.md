@@ -111,7 +111,7 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |compute.googleapis.com/ForwardingRule|Yes|Yes|cmdb\_ci\_lb\_service|
 |compute.googleapis.com/HttpHealthCheck|Yes|Yes|cmdb\_ci\_lb\_health\_service|
 |compute.googleapis.com/Image|Yes|No|cmdb\_ci\_os\_template|
-|compute.googleapis.com/Instance|Yes|N,A|cmdb\_ci\_lb\_pool\_member|
+|compute.googleapis.com/Instance|Yes|N/A|cmdb\_ci\_lb\_pool\_member|
 |compute.googleapis.com/Instance|N/A|Yes|cmdb\_ci\_server|
 |compute.googleapis.com/Instance|Yes|Yes|cmdb\_ci\_vm\_instance|
 |compute.googleapis.com/Instance/networkInterfaces|Yes|No|cmdb\_ci\_endpoint\_vnic|

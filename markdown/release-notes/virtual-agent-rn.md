@@ -1,12 +1,12 @@
 ---
 title: ServiceNow Otto for Virtual Agent release notes
-description: The ServiceNow Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The September 2026 release deprecated Virtual Agent for NLU and keywords and added several features including upload file size improvements and embed enhanced chat capabilities.HEIDI BETH FEEL FREE TO UPDATE AS WELL. THIS MIMICS OLD HIGHLIGHTS SECTION.
+description: The ServiceNow Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The September 2026 release deprecated Virtual Agent for NLU and keywords and added several features including upload file size improvements and embed enhanced chat capabilities.HEIDI BETH FEEL FREE TO UPDATE AS WELL. THIS MIMICS OLD HIGHLIGHTS SECTION.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/virtual-agent-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 9
 breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -21,6 +21,8 @@ The ServiceNow® Otto for Virtual Agent application uses large language models \
 -   Seamlessly transfer the entire conversation history and context to the right human agent so they can quickly address any escalations and resolve user issues.
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Activation and other requirements
 
@@ -51,6 +53,32 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 
 **Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/conversational-interfaces-rn-landing.md)
+
+## November 2026
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.
+
+### What's new
+
+-   ****
+-   **[New features for premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    These features were added to premium chat:
+
+    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down list in the interactive view header. Return to a knowledge article, catalog form, or other content you opened earlier without searching for it again.
+    -   Preview files in the interactive view when ServiceNow Otto generates them, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
+    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
+    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
+    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+
+### What's changed
+
+-   ****
+
+-   **[Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md)**
+
+    Existing and newly created assistants now run on the latest version of Agentic Orchestrator \(v2\), and administrators don’t need to take further action.
+
 
 ## October 2026
 

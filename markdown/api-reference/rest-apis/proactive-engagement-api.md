@@ -28,7 +28,7 @@ To use this API, ensure the following tables are populated with records:
 -   Notification Content \[sn\_pren\_notification\_content\]
 -   Provider \[sn\_pren\_provider\]
 
-For more information, see [Proactive Engagement overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/proactive-engagement-overview.md).
+For more information, see [Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/proactive-engagement-reference.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/api-rest.md)
 

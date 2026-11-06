@@ -33,7 +33,7 @@ See [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
 
-## Version X.X.X
+## Version 30.1.2
 
 App Engine Studio was updated in the October 2026 release for the deprecation of the PDF Extractor tool \(table creation from PDFs\).
 

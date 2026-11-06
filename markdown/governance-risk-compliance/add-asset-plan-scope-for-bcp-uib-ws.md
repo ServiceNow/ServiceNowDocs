@@ -35,6 +35,8 @@ You can use the updated dependencies from the most recent BIA record to conduct 
 
 \[Omitted image "data-pulled-in-scope-tab.png"\] Alt text: Data in scope tab.
 
+The Hierarchical view is available to users with the sn\_bcp.plan\_viewer or sn\_bcp.plan\_manager role.
+
 The Hierarchical view is used to evaluate the BIA, Recovery time objective \(RTO\), Recovery point objective \(RPO\), and Recovery tier \(RT\) values between the primary and related assets within a plan. The color coding helps Business Continuity Management \(BCM\) planners to compare these metrics:
 
 -   Rows where the RTO or RPO value for the primary asset is lower than that of the related asset are marked in Red.

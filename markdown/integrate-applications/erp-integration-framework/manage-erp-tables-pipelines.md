@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, prod, sub-prod, non-prod, development, move, update, update set]
-breadcrumb: [Building with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Build applications and flows with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Managing ERP development pipelines in Zero Copy Connector for ERP

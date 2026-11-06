@@ -58,8 +58,6 @@ IT Service Management has new and updated features in the Brazil release.
 The ServiceNow® Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
 -   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/mobile-rn-landing.md)**  
 Mobile Platform product enhancements and updates in the Brazil release.
--   **[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-assist-rn-landing.md)**  
-ServiceNow Otto and agentic AI product enhancements and updates in the Brazil release.
 -   **[Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/operational-sustainability-management-rn.md)**  
 The ServiceNow® Operational Sustainability Management application helps organizations manage sustainability data, metrics, and reporting requirements. See the following sections for release notes by version.
 -   **[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/operational-technology-rn-landing.md)**  

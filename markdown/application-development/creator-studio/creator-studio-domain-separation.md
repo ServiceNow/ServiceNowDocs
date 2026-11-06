@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio and domain separation

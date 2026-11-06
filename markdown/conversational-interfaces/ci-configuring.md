@@ -41,7 +41,7 @@ Create a Virtual Agent with Now Assist, using an LLM model and generative AI ski
 
 </td><td>
 
-To create a virtual agent using Now Assist, select **Get started** to display the Assistants screen. For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+To create a virtual agent using Now Assist, select **Get started** to display the Assistants screen. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 </td><td>
 
@@ -55,7 +55,7 @@ Monitor your Now Assist in Virtual Agent\[Omitted image "monitor-na-in-va.png"\]
 
 To view Virtual Agent analytics for existing LLM virtual agents, select **View performance**. For more information, see [\(Legacy\) Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md).
 
- To manage existing LLM virtual agents, select **Manage assistants** to display the Assistants screen. For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+ To manage existing LLM virtual agents, select **Manage assistants** to display the Assistants screen. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 </td><td>
 
@@ -91,7 +91,7 @@ Customize your Virtual Agent bot by selecting the colors and icons, and add a lo
 
 </td><td>
 
-[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md)
+[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 
 </td><td>
 

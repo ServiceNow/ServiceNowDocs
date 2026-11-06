@@ -7,10 +7,10 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [configure step-up authentication, step-up factor, Caller verification, AI Voice Assistant Designer]
-breadcrumb: [Step-up authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Step-up authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure step-up authentication
@@ -37,9 +37,9 @@ Whether an AI voice agent requires step-up authentication is set in AI Agent Stu
 
 4.  Select one of the following factors:
 
-    -   Okta Verify push notification
-    -   SMS verification code
-    -   Authenticator app time-based One Time Password \(TOTP\)
+    -   Push notification - Okta Verify
+    -   SMS One-time passcode \(OTP\)
+    -   Time-based one-time password \(TOTP\)
     The factor you select applies to every AI voice agent in this voice assistant that requires step-up authentication. The factor selected as the **First factor** or **Second factor** can be selected again here.
 
 5.  Select **Save and continue**.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-quote-management-for-channel-partners.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -48,15 +48,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d165260e146">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d164603e146">
 
 Demo data install task
 
-</th><th align="left" id="d165260e149">
+</th><th align="left" id="d164603e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d165260e155">
+</th></tr></thead><tbody><tr><td id="d164603e155">
 
 **If demo data is available and you want to install it**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d165260e185">
+</td></tr><tr><td id="d164603e185">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -91,7 +91,7 @@ Quote Self-Service \(com.sn\_quote\_self\_service\) enables channel partners to 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

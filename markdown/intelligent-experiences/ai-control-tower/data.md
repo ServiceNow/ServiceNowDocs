@@ -37,9 +37,9 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
 
 ## Security &amp; privacy
 
--   **Secure policies violation**
+-   **Data integrity incident detection**
 
-    These configuration settings control the Security policy violations chart, which shows violations of policies detected in LLM responses. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
+    These configuration settings control the detection of violations of policies in LLM responses. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
 
     **Note:** If you inactivate the chart, past data shows on the chart for 90 days.
 
@@ -60,9 +60,9 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
     -   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
     -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
--   **Agent goal hijack**
+-   **Agent goal deviation**
 
-    These configuration settings control the Agent output deviation chart, which shows when AI agents deviate from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
+    These configuration settings control the Agent goal deviation chart, which shows when AI agents deviate from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
 
     **Note:** If you inactivate the chart, past data shows on the chart for 90 days.
 
@@ -73,13 +73,13 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the AI agent's or skill's response diverges from the expected output. Multiple analysis uses the results from 3 or more LLMs to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 -   **Output screening**
 
-    These configuration settings control the AI agent output with PII detected and High-risk AI agent output charts, which show when agents' LLM output contains PII or security-vulnerable patterns. To show data for these charts on the dashboard, select **Configure**, select **Active**, and then select a setting for the data to collect. If you want to discontinue collecting data for the charts, deselect **Active**.
+    These configuration settings control the AI agent output with PII detected and agentic output injection detection charts, which show when agents' LLM output contains PII or security-vulnerable patterns. To show data for these charts on the dashboard, select **Configure**, select **Active**, and then select a setting for the data to collect. If you want to discontinue collecting data for the charts, deselect **Active**.
 
     **Note:** If you inactivate the charts, past data collected shows on the charts for 90 days.
 
     You can configure these settings:
 
-    -   **Output Security Vulnerability** – Collect and show data in the High-risk AI agent output chart. The data is collected by scanning LLM output for known vulnerable patterns and potential corresponding attack vectors. For example, HTML tags can have scripts associated with them to generate cross-site script attacks \(XSS\), or stacked SQL queries that can result in SQL injection attacks.
+    -   **Output Security Vulnerability** – Collect and show data in the agentic output injection detection chart. The data is collected by scanning LLM output for known vulnerable patterns and potential corresponding attack vectors. For example, HTML tags can have scripts associated with them to generate cross-site script attacks \(XSS\), or stacked SQL queries that can result in SQL injection attacks.
     -   **Output Extended PII** – Collect more PII data occurrences and show in the AI agent output with PII detected chart. The data is collected by scanning LLM output for additional PII data patterns beyond those specified in Data Privacy. These PII data patterns are U.S. CA drivers license, U.S. taxpayer ID, U.S. passport number, and vehicle ID number.
     -   **Output PII Violation** – Collect and show data in the AI agent output with PII detected chart. The data is collected by scanning LLM output for default PII sensitive data patterns specified in Data Privacy. For example, U.S. phone number or credit card number.
 -   **Sensitive data input and anonymization**

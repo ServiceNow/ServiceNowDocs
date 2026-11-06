@@ -1,6 +1,6 @@
 ---
 title: Activate Incident Management Best Practice – San Diego
-description: Activate the Incident Management Best Practice — San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Incident Management Best Practice – San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/act-inc-mgmt-best-prac-plugin-sd.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Incident Management Best Practice – San Diego, Incident Managemen
 
 # Activate Incident Management Best Practice – San Diego
 
-Activate the Incident Management Best Practice — San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Incident Management Best Practice – San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Incident Management Best Practice – San Diego plugin modifies the problem and incident management workflows to enhance the customer experience.
+The Incident Management Best Practice – San Diego plugin modifies the problem and incident management workflows.
 
 ## Procedure
 

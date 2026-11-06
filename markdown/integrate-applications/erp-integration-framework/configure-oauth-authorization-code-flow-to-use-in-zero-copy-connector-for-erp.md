@@ -7,10 +7,10 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, oauth, odata, configure, code, provider]
-breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure OAuth authorization code flow for Zero Copy Connector for ERP
@@ -21,7 +21,7 @@ Configure OAuth authorization code flow for SAP and use OAuth to authenticate an
 
 **Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). Currently, OAuth can't be used for tables, BAPI, or RFC.
 
-To understand OAuth, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_SettingUpOAuth.md) and [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/oauth-inbound.md).
+To understand OAuth, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_SettingUpOAuth.md) and [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/oauth-inbound.md).
 
 Consult with your SAP administrator:
 

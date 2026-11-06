@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Footer configuration, Admin configurations, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Footer configuration, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Footer Menus form

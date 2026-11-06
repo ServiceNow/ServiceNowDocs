@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Center for IT Service Management, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center for IT Service Management, EmployeeWorks, Employee Service Management]
 ---
 
 # Configuring Employee Center for ITSM

@@ -24,6 +24,8 @@ Role required: admin
 
 You can display references of ID, key, Azure DevOps project, and the project URL on your custom table form. To do so, add an External Identifier reference field to your custom table, and then add the table to the Populate External Identifier Reference business rule.
 
+The Populate External Identifier Reference rule populates this field only for the Story, Epic, and Sprint tables. Other tables, such as `rm_scrum_task`, don't have an External Identifier field by default.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definitions** &gt; **Tables** and open your custom table \(for example, `rm_defect`\).
@@ -65,9 +67,9 @@ Configure the form layout or personalize the list layout of your custom table to
 **Related topics**  
 
 
-[Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md)
+[bundle-platux.t_PersonalizeAList]
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.configure-form-layout]
 
 [Populate external identifier on custom tables for Azure DevOps](https://www.servicenow.com/community/spm-articles/populate-external-identifier-on-custom-tables-for-azure-devops/ta-p/3359244)
 

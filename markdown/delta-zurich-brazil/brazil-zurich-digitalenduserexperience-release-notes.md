@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-digitalenduserexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
@@ -249,7 +249,7 @@ Brazil
 
 You can now use remedial actions to start or stop a Windows service, clear the system cache, and reset the print spooler.
 
--   **[\[Placeholder link text to key execute-remedial-action-subflow\]](https://www.servicenow.com/docs/access?context=execute-remedial-action-subflow&family=brazil&ft:locale=en-US)**
+-   **[Triggering remedial actions from flows](https://www.servicenow.com/docs/access?context=Trigger-ra-flow&family=brazil&ft:locale=en-US)**
 
 You can now execute remedial actions from Flow designer. Each action runs only when the device is online and the action applies to it.
 

@@ -19,7 +19,7 @@ When you work with approvals, you need to understand how approval activities int
 **Related topics**  
 
 
-[Rollback To workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/r_RollbackTo.md)
+[bundle-crworkflow.r_RollbackTo]
 
 ## Approval workflow activities and approval engines
 
@@ -36,7 +36,7 @@ To turn approval engines off for the table, navigate to the **System Properties 
 **Related topics**  
 
 
-[Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
+[Approval and rollback workflow activities]()
 
 [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/r_Approvals.md)
 
@@ -54,7 +54,7 @@ An approval activity might skip for the following reasons:
 
 -   The approval user or group is missing or invalid \(for example, sys\_id\).
 -   The approval user or group became inactive after the approval record was created.
--   The activity is a [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md) field, such as `current.opened_by.department.manager`, and it has a missing or invalid approval user or group.
+-   The activity is a Dot-walking to data in related tables field, such as `current.opened_by.department.manager`, and it has a missing or invalid approval user or group.
 -   The business rule on the table that is associated with the workflow is invalid.
 
 To correct a missed approval activity:
@@ -69,7 +69,7 @@ To correct a missed approval activity:
 
 4.  Review the portion of the workflow that executed, and then do one or more of the following:
 
-    -   Verify that after approval, the workflow progressed to the next activity. If a workflow failed to progress, check the business rules. For more information, see [Debugging business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_DebuggingBusinessRules.md).
+    -   Verify that after approval, the workflow progressed to the next activity. If a workflow failed to progress, check the business rules. For more information, see Debugging business rules.
     -   Point to each processed approval activity to find activities where the **State** is **Finished** and **Result** is **Skipped**.
 5.  Navigate to **Workflow** &gt; **Workflow Editor** and open the workflow.
 

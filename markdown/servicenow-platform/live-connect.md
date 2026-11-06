@@ -26,5 +26,5 @@ To use Live Connect, your instance must run RaptorDB Professional, and the Live 
 
 ## Where to go next
 
-For configuration and query syntax, see [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
+For configuration and query syntax, see .
 

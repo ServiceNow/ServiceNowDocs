@@ -26,7 +26,7 @@ Role required: sn\_process\_mining\_admin
 
     The Connector Configurations page is displayed.
 
-    \[Omitted image "image.app-conn-config"\] Alt text: Connector configurations list
+    \[Omitted image "app-conn-config.png"\] Alt text: Connector configurations list
 
 2.  Select **Schedule Import**.
 

@@ -41,5 +41,5 @@ To put prebuilt agentic workflows and AI agents to work for common scenarios suc
 
 AI Desktop Actions extends AI agent capabilities to applications outside the ServiceNow AI Platform. In the no-code Design workspace, you create desktop actions by auto-capturing or manually recording a series of steps you perform on your computer, such as clicking buttons, entering text, or selecting from drop-downs across different applications. You then save that sequence as a reusable desktop action. After you activate a desktop action, it becomes available as a tool in AI Agent Studio, enabling your AI agents to interact with desktop applications as part of an agentic workflow.
 
-To record reusable desktop actions that let your AI agents work in applications outside the ServiceNow AI Platform, see [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-landing-page.md).
+To record reusable desktop actions that let your AI agents work in applications outside the ServiceNow AI Platform, see .
 

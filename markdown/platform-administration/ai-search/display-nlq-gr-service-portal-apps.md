@@ -34,7 +34,7 @@ Administrators should set this system property's value to **true** if the NLQ Ge
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

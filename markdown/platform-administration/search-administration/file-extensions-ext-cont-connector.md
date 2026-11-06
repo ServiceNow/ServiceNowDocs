@@ -7,7 +7,7 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -58,6 +58,14 @@ Hypertext Markup Language
 
 -   `.htm`
 -   `.html`
+
+</td></tr><tr><td>
+
+Markdown
+
+</td><td>
+
+`.md`
 
 </td></tr><tr><td>
 
@@ -119,7 +127,7 @@ Rich Text Format
 `.rtf`
 
 </td></tr></tbody>
-</table>**Note:** Some external content connectors include support for indexing searchable content and metadata from additional content formats, such as video transcriptions or source-specific native document formats. Examples of source-specific native document formats include `.aspx` pages in Microsoft SharePoint Online and Wiki pages in Atlassian Confluence Cloud.
+</table>**Note:** Some external content connectors include support for indexing searchable content and metadata from additional content formats, such as video transcriptions or source-specific native document formats. Examples of source-specific native document formats include `.aspx` pages in Microsoft SharePoint Online and wiki pages in Atlassian Confluence Cloud.
 
 For details on defining file-extension inclusion and exclusion filters for external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md).
 

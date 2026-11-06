@@ -39,7 +39,7 @@ If the signatory information is missing, the contract request will be saved as a
 
 5.  Select the **Contract Requests** tab and open the request.
 
-6.  Select the **Activity** stream to know the validation error.
+6.  Select the **Activity** stream to find the validation error.
 
 7.  Select the **Signatories** tab.
 

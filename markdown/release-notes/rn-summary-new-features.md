@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-new-features.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 152
+last_updated: "2026-11-04"
+reading_time_minutes: 171
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -29,15 +29,6 @@ Details
 AI Admin Center
 
 </td><td>
-
--   **[Automation opportunities enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**
-
-Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
-
--   **[Delete custom data set analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**
-
-Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
-
 
 -   **[AI readiness enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-view-ai-readiness.md)**
 
@@ -68,6 +59,15 @@ Define custom deflection metrics, configure deflection logic, and test definitio
 Set up analysis of interaction data to identify intents, generate detection and resolution criteria for them, and provide a review workflow for intent curation and AI agent mapping.
 
 
+-   **[Automation opportunities enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**
+
+Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
+
+-   **[Delete custom data set analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**
+
+Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
+
+
 </td></tr><tr><td>
 
 AI Admin Hub
@@ -90,6 +90,11 @@ AI Agent Advisor
 
 </td><td>
 
+-   **View automation opportunities in AI Agent Studio**
+
+View automation opportunities on the AI Agent Studio home page. Select the opportunity to create a custom AI agent or edit an existing AI agent in the agent builder.
+
+
 -   **[Automation opportunities enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**
 
 Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
@@ -97,11 +102,6 @@ Use the automation opportunities enhancements to refine your view and identify o
 -   **[Delete custom data set analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**
 
 Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
-
-
--   **View automation opportunities in AI Agent Studio**
-
-View automation opportunities on the AI Agent Studio home page. Select the opportunity to create a custom AI agent or edit an existing AI agent in the agent builder.
 
 
 </td></tr><tr><td>
@@ -140,6 +140,27 @@ Enforce deny-by-default access control for agentic AI record types \(`gen_ai_age
 AI Control Tower
 
 </td><td>
+
+-   **[ServiceNow Arc policy management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)**
+
+Create policies and rules that control ServiceNow Arc usage.
+
+-   **[AI Gateway client-based access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gw-controlling-client-access.md)**
+
+Create client access policies that grant each MCP client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
+
+-   **[Security settings usability improvements and AI usage consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)**
+
+Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
+
+-   **[Agent containment list filter and rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
+
+Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
+
+-   **[Post-runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
+
 
 -   **[Monitor agent activity chart improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
 
@@ -182,6 +203,36 @@ Set a rate for a specific service from an integrated vendor, such as an agent pl
 -   **[Subscription-based costs for AI vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-subscription-based-cost-for-ai-vendors.md)**
 
 Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+-   **[AI Connector for Amazon](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074844)**
+
+A new source system **Amazon Quick** has been added to the AI Connector for Amazon.
+
+-   **[AI Connector for Anthropic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147725)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
+
+-   **[AI Connector for Salesforce](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074918)**
+
+Establish a sever-to-server integration without manual intervention with JWT connection.
+
+-   **[AI Connector for OpenAI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147723)**
+
+Configure mTLS certificate-based authentication besides the API Key for better security.
+
+The October version of the connector supports X.509 certificate creation.
+
+-   **[AI Connector for Microsoft - Copilot Lite](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074871)**
+
+You can n w discover AI agents from Copilot Lite \(Builder Agent\) following a set of prerequisites on the Microsoft Entra admin center.
+
+-   **[AI Connector for Google Enterprise - Agent Platform](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074877)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
 
 
 -   **[Control AI asset usage through policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-landing.md)**
@@ -261,16 +312,16 @@ AI Desktop Actions
 
 </td><td>
 
--   **[Execute recorded desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/reusable-skills-adaptive-da.md)**
+-   **Execute recorded desktop actions on macOS**
     -   Enable the system property to automatically record adaptive desktop actions during execution and reuse them for similar tasks.
     -   Automated recording captures your exact steps and converts them instantly into reusable skills.
     -   AI-powered search automatically suggests matching skills based on your current task.
--   **[New system property added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+-   **New system property added**
 
 The sn\_desktop\_core.enable\_reusable\_assets system property is added to manage the reusable skills feature. The system property creates reusable skills from adaptive desktop action recordings and enables deterministic replay. The default value is false.
 
 
--   **[Execute adaptive desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai_desktop_actions_adaptive.md)**
+-   **Execute adaptive desktop actions on macOS**
 
 Download the new AI Desktop Actions installer for macOS with M-series processor support \(ARM64 architecture\). The adaptive desktop actions enable AI agents to navigate applications and browsers and perform tasks on macOS systems. Both adaptive and defined desktop actions are now available with platform-specific installers.
 
@@ -280,18 +331,18 @@ Download the new AI Desktop Actions installer for macOS with M-series processor 
     -   Refer the real-time status tracking that shows whether the AI agent is initiating, running, or paused.
     -   Take control of the execution where your input is needed.
     -   The AI agent batches consecutive actions into single execution calls where possible, minimizing round trips and reducing overall execution time.
--   **[Control resource access using policy and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/security_policy_governance_concept.md)**
+-   **Control resource access using policy and rules**
 
 Create policies and rules to control which resources AI agents can access.
 
     -   Policies: Collection of resource access rules that applies to a specific user group or set of users based on defined user criteria.
     -   Resource access rules: Specific restrictions controlling agent access to various resource types, such as files, folders, websites, and applications.
     -   Bi-directional policy-rule mapping: Link policies to rules from either the policy record or the rule record, enabling rule reuse across multiple policies.
--   **[Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/credential-storage.md)**
+-   **Credential and dynamic parameter management**
 
 Reference credentials or other user-specific values by name in your instructions. The agent resolves them securely at execution time, so you never have to type them in yourself.
 
--   **[File upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/upload-download-file.md)**
+-   **File upload and download**
 
 Upload files to web forms and track file downloads during automated browser tasks. The agent validates file safety, confirms the target field with the reasoning model, and escalates to the user when it can't proceed safely.
 
@@ -304,7 +355,7 @@ AI Risk and Compliance
 
 -   **[Updated playbooks for governing managed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.md)**
 
-After upgrading to version 23.0.3, manage AI assets through structured life cycle workflows using the updated playbooks. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
+After upgrading to version 23.0.3, manage AI assets through structured life cycle workflows using the updated playbooks in AI Control Tower. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
 
 -   **[AI reviewer assist for risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-based-reviewer-assistant-for-assessments.md)**
 
@@ -316,6 +367,59 @@ After upgrading to version 23.0.2, AI Risk and Compliance analysts reviewing ass
 Business applications can be mapped directly to AI system records during intake, without requiring Enterprise Architecture Workspace to be installed. After upgrading AI Control Tower to version 9.0.3 and AI Risk and Compliance to version 23.1.1, Enterprise Architecture for AICT \(com.sn\_ea\_aict\) decouples the AI system-to-business-application association from Enterprise Architecture Workspace. The plugin installs automatically with AI Control Tower Core at the required version.
 
 **Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md), [Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md), and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   **[Exclude high-churn fields from indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/high-churn-field-detection-ais.md)**
+
+Reduce the frequency and duration of indexing operations and improve search performance by excluding frequently updated fields from the index. Excluding these high-churn fields avoids needless reindexing and reduces the size of your index, making search more efficient.
+
+
+-   **[Display search suggestion links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/display-search-suggestion-links-standard.md-anchors.md)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/display-search-result-links-standard.md-anchors.md)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
+</td></tr><tr><td>
+
+AI Workflow Factory Prime
+
+</td><td>
+
+-   **[Credit Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/credit-dashboard-ai-workflow-factory-prime.md)**
+
+Explore your credit usage and trends with the AI Workflow Factory Prime Credit Dashboard. The Credit Dashboard is a standalone application available with AI Workflow Factory Prime entitlements that must be installed from the ServiceNow Store.
+
+
+</td></tr><tr><td>
+
+AIOps AI Specialist
+
+</td><td>
+
+-   **[ITOM AIOps specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-specialists.md)**
+
+Add an AIOps AI Specialist to your team to handle routine alert triage, so operators can focus on alerts that need human judgment. The AIOps AI Specialist triages alerts within the scope you define, deflects insignificant alerts, and runs root cause and impact analysis. It also suggests remediation options that an operator must activate. The AIOps specialist does not make autonomous changes to your environment. Operators review its findings and make the final decisions. The AIOps AI Specialist holds the Operator role and is onboarded like a human team member.
+
+
+</td></tr><tr><td>
+
+Access Management
+
+</td><td>
+
+-   **[ACL Explainer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-acl-explainer-ai-agent.md)**
+
+Understand what controls access to your ServiceNow resources without having to review every ACL. This agent finds inherited ACLs and other information automatically, without you having to open multiple ACLs to troubleshoot access to a resource.
 
 
 </td></tr><tr><td>
@@ -412,9 +516,14 @@ Authentication
 
 </td><td>
 
+-   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/step-up-authentication.md)**
+
+Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
+
+
 -   **[Policy-based login experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/next-gen-login-experience.md)**
 
-Use the Policy-based experience \(identifier-first login\) framework in the Authentication Console to craft login policies to simplify the login experience by presenting relevant login methods based on user context, such as username or email.
+Use the policy-based login experience in the Authentication Console to create identifier-first login policies that simplify the login experience by presenting relevant login methods based on user context, such as username or email. To turn on the experience, set the glide.authenticate.policy\_based\_login\_experience.enabled property to true, turn on Enable policy-based login in the Authentication Console, and create at least one active identifier-first login policy.
 
 -   **[SAML certificate expiry notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SAML2.0WebBrowserSSOProfile.md)**
 
@@ -447,11 +556,6 @@ Use the Basic Auth Restriction page to strengthen instance security by limiting 
 -   **[Authenticate MCP clients with external authorization servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/mcp-3p-auth-concept.md)**
 
 Register an external authorization server as a trusted token issuer for the MCP Server by creating an OIDC Provider Configuration that identifies the provider's issuer URI and metadata endpoint. The MCP Server validates a token from a registered provider locally — confirming the issuer is trusted, the signature is valid, the audience matches, and the token has not expired — without depending on the ServiceNow authorization server. Tokens from issuers that aren't registered and active are rejected.
-
-
--   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/step-up-authentication.md)**
-
-Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
 
 
 </td></tr><tr><td>
@@ -508,6 +612,11 @@ Build Agent and Autonomous Engineer
 
 -   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
 
+Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+
+
+-   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
+
 Build Agent and Autonomous Engineer support the Google Gemini 3.7 Flash model in the October 2026 release.
 
 -   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-supported-metadata.md)**
@@ -557,7 +666,7 @@ When you use Autonomous Engineer to plan an application, Test Agent automaticall
 Build Agent and Autonomous Engineer now support the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
-    -   Anthropic Claude on AWS Opus 5
+    -   Anthropic Claude Opus 5
 -   **[Test suite authoring and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md)**
 
 Create and run ATF test suites from Build Agent and Autonomous Engineer. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
@@ -659,6 +768,8 @@ Store risk and compliance details on change requests without adding columns to t
 
 Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
 
+**Note:** The Change lockdown depends on Change Management - Collision Detector plugin \(com.snc.change.collision\), this plugin is now activated automatically when you upgrade to the Brazil release.
+
 -   **[Change lockdown conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/lockdown-conflict-detection.md)**
 
 Automatically flag change requests that overlap an active lockdown period. Conflict detection runs alongside maintenance window and blackout window checks. Any change request inside a lockdown is marked as an Inside Change Lockdown conflict and placed on hold. Reschedule it outside the lockdown period to clear the conflict and continue processing.
@@ -681,10 +792,6 @@ Use state field policies to make change request fields mandatory or read-only at
 Cloud Cost Management
 
 </td><td>
-
--   **[Make smarter cloud cost decisions with AI-powered summarization of cloud spend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-summary-otto-ccm.md)**
-
-Get an AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings. The **Summarize** button enables you to view month-over-month changes, commitments coverage, and the top five recommendations to reduce costs. Use these insights to make more informed decisions about your cloud spend.
 
 -   **[Get complete cost visibility with TCO and unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/business-insights-ccm-ws.md)**
 
@@ -920,6 +1027,11 @@ Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
+-   **[Query cart line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-cart-external-integration.md)**
+
+Enable external ordering systems to retrieve only the cart line items they need by using the Sales Cart REST API to return the line items that match an encoded query. Results are limited to the specified cart, include only the line item fields that are configured for the cart and that you can read, and return up to 50 line items per request. Both customers \(B2B users\) and consumers \(B2C users\) can use the query.
+
+
 -   **[Sales Cart APIs for external ordering systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-cart-external-integration.md)**
 
 Create and manage sales carts from third-party consumer portals, partner portals, and headless ordering applications by using the Sales Cart REST API. External systems can create and retrieve carts, add or update line items, delete carts or top-level line items, and submit validated carts to create orders without relying on the Business Portal user interface. Carts created externally use the same records and cart-processing logic as carts created in the Business Portal.
@@ -1114,15 +1226,15 @@ Digital End-User Experience
 
 </td><td>
 
--   **[Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dex-diff-ra.md)**
+-   **[Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dex-diff-ra.md)**
 
 You can now use remedial actions to start or stop a Windows service, clear the system cache, and reset the print spooler.
 
--   ****
+-   **[Triggering remedial actions from flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/Trigger-ra-flow.md)**
 
 You can now execute remedial actions from Flow designer. Each action runs only when the device is online and the action applies to it.
 
--   **[Metric rule rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/metric-rule-rate-limiting.md)**
+-   **[Metric rule rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-rule-rate-limiting.md)**
 
 Metric rules and event rules are now rate limited per rule on the device. This helps prevent a single noisy rule from flooding the instance with alerts or events.
 
@@ -1167,15 +1279,15 @@ Discovery
 Configure MID Server parameters to run File-based Discovery and Windows ADME on target hosts that use PowerShell 7. Beginning with Brazil, you can set two MID Server configuration parameters to prefer PowerShell 7 over the default PowerShell 5 on the MID Server and on remote target hosts.
 
 
--   **Configure certificate discovery from Discovery Admin Workspace**
+-   **Configure certificate discovery**
 
 Discovery Admin Workspace now supports certificate discovery configuration and management. Configure certificate discovery from a single location instead of switching between workspace and classic interfaces. The new **Certificate Discovery** tab on the Schedules page centralizes schedule management and access to discovered certificates. Certificate discovery can also use URL Monitoring data to automate discovery targets and reduce manual configuration. Existing certificate discovery configurations remain supported, and certificate discovery continues to respect role-based permissions.
 
 -   **[View Shazzam insights in IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/daw-ip-inventory.md)**
 
-The IP Inventory page now includes a **Shazzam** tab that displays Shazzam Summary and Shazzam Status data alongside your other IP data. Previously, you had to leave the IP Inventory page and open the Shazzam Insights dashboard separately to review probe results. Now you can check which IPs are alive, active, or unreachable while working with your IP addresses, ranges, and networks in the same view
+The IP Inventory page now includes a **Shazzam** tab that displays Shazzam Summary and Shazzam Status data alongside your other IP data. Previously, you had to leave the IP Inventory page and open the Shazzam Insights dashboard separately to review probe results. Now you can check which IPs are alive, active, or unreachable while working with your IP addresses, ranges, and networks in the same view.
 
--   **[View Kubernetes resources in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-explorer-dash.md)**
+-   **[View Kubernetes resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-explorer-dash.md)**
 
 Get a consolidated view of the Kubernetes resources discovered in your environment without leaving the Discovery Admin Workspace. The new Kubernetes explorer dashboard organizes discovered clusters, nodes, namespaces, services, workloads, pods, and Docker images across dedicated tabs. Each tab includes a resource table and visualizations such as data counts, bar charts, and donut charts. Interact with a visualization to filter the table on the same tab. You can also select a resource to open its details page. The details page shows the resource properties and a Dependency View of related configuration items.
 
@@ -1242,23 +1354,6 @@ Discover Oracle Databases on Windows using Oracle Wallet instead of storing appl
 -   **[Kubernetes large-payload discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-discovery.md)**
 
 Discover Kubernetes clusters using the "Kubernetes Cluster - Per-Namespace LP" pattern to handle large cluster payloads.
-
-
--   **[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/accvc-package-discovery.md)**
-
-Discover software on endpoints that isn't discoverable by traditional checks and policies.
-
--   **[Create a custom filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-custom-filter-rule.md)**
-
-Create a custom software filter rule to exclude irrelevant entries from Discovery in your Software Asset Management \(SAM\) inventory.
-
--   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-license-key-rule.md)**
-
-Verify software legitimacy by creating license keys on your Windows, Linux and macOS devices.
-
--   **[Categorize software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-software-categorization.md)**
-
-Use software categorization to group discovered software packages into business-relevant categories. Software categorization helps you avoid manually tagging software and provides administrative teams with an efficient inventory of software records.
 
 
 -   **Life cycle management for service accounts, IP addresses, and tags**
@@ -1458,7 +1553,7 @@ Query business application insights, capability mappings, architectural relation
 
 -   **[Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)**
 
-    -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
+    -   Associate AI systems with business applications, even if you don't use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of the AI Control Tower Core \(app-ai-governance\) application.
     -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
 Before you upgrade, review [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
@@ -1533,6 +1628,15 @@ External Content Connectors
 
 </td><td>
 
+-   **[Custom Connector Gateway external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/custom-connector-gateway-external-content-connector.md)**
+
+Retrieve content, metadata, and users from any source system using your own custom connector, running in your local or cloud environment. Send your retrieved data to a gateway connector running on your instance by submitting Custom Connector Gateway API requests to an ingest gateway host. The gateway connector indexes your retrieved data and makes it searchable in the ServiceNow AI Platform®.
+
+-   **[Support for Markdown and email message binary files and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/file-extensions-ext-cont-connector.md)**
+
+Extract searchable text from Markdown \(.md\) and email message \(.eml, .msg\) files and attachments retrieved by your external content connectors.
+
+
 -   **[Connector health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/resolve-health-issues-external-content-connector.md)**
 
 View and resolve connector health issues using the connector health dashboard.
@@ -1555,6 +1659,18 @@ Reduce content crawl time with delta content crawls. Unlike full content crawls,
 Financial Services Card Operations
 
 </td><td>
+
+-   **Additional Mastercard fraud type options**
+
+Classify Mastercard fraud disputes more precisely by selecting from three additional fraud type options during card dispute intake:
+
+    -   53 - Testing-issuer
+    -   54 - Undetermined
+    -   57 - First-party misuse
+-   **Colombia payment reversion claim question**
+
+Capture the information that Colombian regulations require for Mastercard fraud disputes. When a Mastercard dispute uses reason code 4837, 4870, or 4871, the merchant is located in Colombia, and the cardholder billing currency is the Colombian Peso, the dispute intake form asks whether the cardholder has filed a reversion of payment claim under Colombian law. An answer is required.
+
 
 -   **Date facilities were withdrawn**
 
@@ -1643,7 +1759,24 @@ Goal Framework for SPM
 
 </td><td>
 
--   **[Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-overview.md)**
+-   **[Fiscal calendars for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-goal-framework.md)**
+
+Create, edit, and break down goal targets on fiscal calendars. The supported calendar types are Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4. Target breakdowns, due dates, and roll-ups follow the fiscal periods of the active calendar. Gregorian calendar behavior does not change.
+
+-   **[Setting and switching goal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/set-a-goal-calendar.md)**
+
+Set the goal calendar to Gregorian, which is the default, or to fiscal. Fiscal calendars come in three types: Regular, 4-4-5, and 13 Period. Switch from Gregorian to fiscal in the **sn\_gfa.calendar\_type** system property. Switch between fiscal types by changing the fiscal calendar type property, setting the fiscal unit, and regenerating the fiscal periods. A calendar change can make targets stale.
+
+-   **[Fiscal check-in frequencies for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-goal-framework.md)**
+
+Choose a check-in frequency that the active fiscal calendar supports. The target form offers only the frequencies that are valid for the calendar and the target date range, including Period. The target breakdown preview shows each generated period with its display name. The server validates every frequency and period on save, so a rejected change keeps the current breakdowns and shows the reason.
+
+-   **[Stale target protection for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/managing-stale-targets-gf.md)**
+
+Identify goal targets that become stale after a goal calendar change. Only targets with breakdowns can become stale, and stale targets stay locked until they are recovered. Recover a stale target in one of two ways. An administrator runs the **Goal calendar alignment - Reset check-in frequency for stale targets** scheduled job, and the target owner then selects a check-in frequency again. Or the target owner duplicates the target and sets a check-in frequency on the copy. The copy starts without the remarks, work notes, and history of the stale target.
+
+
+-   **[Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-gf.md#section_maintain_targets)**
 
 Track targets that need to hold steady at a value over time, such as keeping server uptime above 98% for a year. In addition to **Maximize** and **Minimize**, the **Type** field on a target includes three options:
 
@@ -1652,7 +1785,7 @@ Track targets that need to hold steady at a value over time, such as keeping ser
     -   **Maintain constant**: The actual value must stay within a tolerance range of the final target.
 When you select a Maintain type, the **Target distribution** field is hidden on the target form.
 
--   **[Progress calculation for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-overview.md#section_maintain_targets)**
+-   **[Progress calculation for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-types-gf.md#section_maintain_targets)**
 
 Measure progress on Maintain-type targets by how consistently the metric meets the target across check-in periods. The system automatically calculates status for each target breakdown period that has an actual value:
 
@@ -1661,7 +1794,7 @@ Measure progress on Maintain-type targets by how consistently the metric meets t
     -   **Maintain constant**: Met when the actual falls within the tolerance range, bounds included.
 Target-level progress equals the number of periods that meet the target divided by the total periods up to the latest actual value, multiplied by 100. For example, a **Maintain above** target with a final target of 75 and quarterly actuals of 78, 72, 80, and 76 shows 75% progress. Three of 4 periods meet the target.
 
--   **[Target breakdowns for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns.md#section-maintain-type-breakdowns)**
+-   **[Target breakdowns for Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns-gf.md#section-target-breakdowns-maintain-types)**
 
 Start every check-in period from the same value. When you save a Maintain-type target, each target breakdown gets a planned target equal to the final target value. You can edit the planned target of any breakdown. If the final target value is empty, breakdowns are created with a planned target of 0.
 
@@ -1874,7 +2007,7 @@ Use common tools to use with the ITSM MCP Server.
 For example:
 
     -   Answer structured natural language questions about ITSM data, including details on incidents, change requests, and active catalog items using `itsm_knowledge_graph`.
-    -   Approve or reject your oldest pending approval for a change or request items using `task_approval_decision`.
+    -   Approve or reject your oldest pending approval for a change request or an incident using `task_approval_decision`.
     -   Get the authenticated user's current session time zone and the current date and time in that time zone using `get_session_timezone`.
 
 </td></tr><tr><td>
@@ -1973,6 +2106,23 @@ L1 IT Service Desk AI Specialist
 
 </td><td>
 
+-   **[Rate trend chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+Track the durable auto-resolve and coverage rates over time with a Rate trend chart on the AI Specialist Performance dashboard, and select a day to see its incidents.
+
+-   **[Overview funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/perf-overview-l1-sd-ai-spec.md)**
+
+Follow incidents from assignment to eligible groups through durable resolution in a four-step funnel on the Overview tab. Drill down into each step, and use the calculation cards to see how each rate is worked out.
+
+-   **[Cross-group reassignment outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cross-group-reassignment-l1-sd-ai-spec.md)**
+
+See what your service desk team did with cross-group reassignment recommendations in a chart that shows which were adopted, overridden, or are awaiting a decision.
+
+-   **[Requester reference portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)**
+
+AI Admins can set the portal that knowledge article and catalog item links open in for requesters. Links in work notes for Service Desk Agents continue to open in the platform view.
+
+
 -   **[Configure L1 IT Service Desk AI Specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md) Response Templates**
 
 AI Admins can switch response templates between a fixed template and dynamic mode, where the AI Specialist writes activity notes, customer comments, work notes, and close notes from free-form instructions the administrator provides.
@@ -2046,6 +2196,15 @@ MCP Server Console
 
 </td><td>
 
+-   ****
+
+Create a tool from a Playbook to expose it to Model Context Protocol \(MCP\) clients from MCP server.
+
+-   ****
+
+Create a tool from a Search to expose it to Model Context Protocol \(MCP\) clients from MCP server.
+
+
 -   **[Monitoring dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/monitoring-dashboard.md)**
 
 Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
@@ -2091,6 +2250,10 @@ Fill an entire mobile form by speaking aloud using voice to form. On-device AI m
 -   **[Support for Microsoft Entra Shared Device Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/shared-device-device-level.md)**
 
 Enable secure multi-user device sharing with Microsoft Entra Shared Device Mode. Users authenticate once at the device level, and Microsoft Entra-enabled apps use this authentication as part of their own sign-in process. When users sign out, data is cleared across all apps, preparing the device for the next user. This setup is applicable for areas like kiosk and shift-based deployments managed through Microsoft Intune.
+
+-   **[Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-script-concept.md)**
+
+Use mobile scripts to run reusable JavaScript on the user’s device while offline, so offline buttons and write-back actions stay consistent with online behavior. Mobile scripts are a subset of web scripts, which are stored centrally on the instance. The platform pushes them to mobile devices as part of the offline cache.
 
 
 </td></tr><tr><td>
@@ -2205,7 +2368,7 @@ Partner Relationship Management
 
 </td><td>
 
--   **[Register a deal using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-deal-using-agentic-ai.md)Deal Registration AI agent**
+-   **Deal Registration AI agent**
 
 Accelerate deal registration with an AI agent that assists users with deal intake, validation, and record creation. This helps reduce manual effort by guiding users through the deal registration process and supporting more accurate deal submissions.
 
@@ -2252,7 +2415,7 @@ Playbooks
 
 </td><td>
 
--   **[Ideal path for a playbookIdeal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ideal-path-for-playbook.md)**
+-   **[Ideal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ideal-path-for-playbook.md)**
 
 Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
 
@@ -2341,7 +2504,7 @@ System-generated lines are marked with the System generated \[**system\_generate
 
 Configure the rounding precision applied to non-currency pricing fields, such as margin percentage, to match your organization's rounding requirements. The default precision is 4 decimal digits. To use a different precision, set the **sn\_csm\_pricing.rounding.non\_currency\_max\_precision\_digits** property in the system properties. Viewing or setting this property requires the Price List Administrator \(sn\_csm\_pricing.pricelist\_administrator\) role.
 
--   **[Floor and ceiling price in the pricing response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales_crm_pricing-POST-compute-price.md)**
+-   **[Floor and ceiling price in the pricing response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
 
 Access floor and ceiling pricing values directly in pricing responses and persist them on custom quote or order line fields for downstream business processes and validations. To include these values in the response, the include\_floor\_ceiling pricing request setting must be set to true. When the setting is absent or false, floor and ceiling price are omitted from the response. If pricing\_elements setting isn't specified in the request, the PRICE element is included by default.
 
@@ -2577,6 +2740,57 @@ Launch citizen-facing services using the GOV.UK Developer Toolkit. This collecti
 Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs. This decreases the number of users with full administrative power over the instance. For more information on granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 
+-   **[Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gm-rolling-grant-approvals-concept.md)**
+
+Propose awards and declines for any scored subset of applications at any time. The Rolling grant approval feature enhances the Grants management funding workflow, by giving Grant Program Managers the flexibility to propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review. From this release, Grant Program Managers can choose to process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
+
+The feature introduces the Funding Allocation Request as a new record type — an approval packet that groups a subset of proposals for Grant Program Director review. The Grant Program Director can either approve the Funding Allocation Request or reject it, returning all proposals in the batch, regardless of whether they were on the funding or decline track. The proposals in the rejected batch feed back into the Grant Program Manager's working queue, re-entering the funding pool for future review and funding allocation opportunities. The Funding Allocation Requests introduce an alternative to the previous all-or-none approval model and enable continuous, long-running grant programs to operate on a single program record.
+
+Release result letters per proposal for Rolling grant approval scenarios in Grants Management. Once a proposal’s funding or decline decision is approved through its Funding Allocation Request \(FAR\), the corresponding award, decline, or ineligibility letter can be issued to that applicant independently—without waiting for program-wide completion.
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gdsp-overview.md)**
+
+Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
+
+
+-   **[Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-inv-case-management.md)**
+
+Create an investigative case using Investigative Case Management. Investigative Case Management guides investigators through the process of organizing, tracking, and resolving investigations, ​developing case details,​ assigning investigators and team members​, and track evidence with logging and metadata. The following features are available as part of Investigative Case Management:
+
+    -   Entity Management
+    -   Evidence Management
+With Entity Management, investigators can create investigative tasks and workflows for investigative activities with automated metadata capture \(time, source, entities, classification\)​, as well as define processing with teams and attorneys and collaborate across agencies/divisions. With Evidence Management, investigators can log and triage evidence metadata \(digital, physical, testimonial\)​ and maintain an audit trail \(Chain of Custody logging\), as well as draft, review, and create reports with supporting evidence​​.
+
+-   **Task Tab and Field Service Management case escalation in Investigative Case Management**
+
+Use the Tasks tab in the investigative case record to view and create investigative tasks directly within the case context. Use the **Create Work Order** to escalate a case directly to an Field Service Management work order without leaving the ICM workspace​​.
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **Use ServiceNow Otto for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents**
+
+Complete case narratives and make refinements to investigative case records using ServiceNow Otto for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
+
+-   **Use the Case Narrative Refinement AI Agent to refine case narratives in Investigative Case Management**
+
+Produce clear, accurate, and well-structured case narratives using the Case narrative refinement AI agent, embedded within the case record page. This AI agent analyzes existing narratives and related case data to suggest improvements in clarity, structure, tone, and completeness, and highlighting gaps and inconsistencies.
+
+-   **Document Screening AI Skill for Social Benefits Playbook**
+
+Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of ServiceNow Otto for Public Sector Digital Services \(PSDS\).
+
+-   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**
+
+Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs, decreasing the number of users with full administrative power over the instance. For more information on granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
+
+
 </td></tr><tr><td>
 
 Purchase Order Management
@@ -2679,6 +2893,15 @@ Sales CRM Mobile
 
 </td><td>
 
+-   **[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-your-day-sales-crm-mobile.md)**
+
+Touchpoints track your interactions with contacts, accounts, leads, and opportunities. View them from the quick access section of My Day. Use the **My Touchpoints** tab to view the touchpoints related your records. On the **All** tab, users can view all the touchpoints in the instance. Open a touchpoint to view its owner, details, related records, and activities.
+
+-   **[ServiceNow Otto AI Interface activated by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/servicenow-otto-sales-crm-mobile.md)**
+
+ServiceNow Otto AI Interface on mobile is activated by default for users to access it.
+
+
 -   **[Home dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-your-day-sales-crm-mobile.md)**
 
 View a personalized home dashboard summarizing your day, including today's meetings, tasks due, and opportunities in focus.
@@ -2702,11 +2925,11 @@ Sales CRM for Telecommunications
 
 </td><td>
 
--   **Task plan templates for Sales Customer Relationship Management \(Sales CRM\)**
+-   **[Task plan templates for Sales Customer Relationship Management \(Sales CRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-task-plan-template.md)**
 
 Define and use task plan templates without a Sales Customer Relationship Management for Telecommunications \(SOMT\) license. Define task plan templates, task plan items, and dependencies, and trigger them based on order action \(add, change\) and product type.
 
--   **AI Agent for template-driven order orchestration**
+-   **[AI Agent for template-driven order orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-task-template-generation-somt.md)**
 
 Generate reusable orchestration templates with an enhanced conversational AI Agent instead of a flat task list. When no template exists for a product specification, the agent converts an uploaded fulfilment-journey image into a draft template, or proposes one from the closest matching specification's past orders. Product Catalog Managers define dependencies and publish the template, which then automatically orchestrates the current and all future orders for that specification and action.
 
@@ -2785,8 +3008,6 @@ Service Exchange \(formerly Service Bridge\)
 
 </td><td>
 
--   ****
-
 -   **[Knowledge article sync via FDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/knowledge-base-assignment.md)**
 
 Assign knowledge articles from a source instance to a valid knowledge base on the target instance via Foundation Data Sync. The target instance creates a company knowledge base automatically when the source does not specify one.
@@ -2847,75 +3068,106 @@ Track day-over-day trends in slow-pattern data with daily snapshots that automat
 
 </td></tr><tr><td>
 
-ServiceNow Cowork
+ServiceNow Arc
 
 </td><td>
 
--   **[Microsoft 365 and GitHub connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connectors-in-cowork.md)**
+-   **[Microsoft 365 and GitHub connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/connectors-in-cowork.md)**
 
-Connect ServiceNow Cowork to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
+Connect ServiceNow Arc to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
 
--   **[Sandboxed execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cowork-architecture.md)**
+-   **[Sandboxed execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-architecture-arc.md)**
 
 The agent runs scripts and commands in an isolated virtual machine sandbox on the Mac, with access to the files you share. The sandbox image comes from your connected instance, so updates to it apply the next time you launch, sign in, or switch instances.
 
--   **[Policy management and governance in ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/policy-management-cowork.md)**
+-   **[Policy management and governance in ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/policy-management-cowork.md)**
 
 Control what the agent can reach and change with network allowlists, sandbox rules, file type rules, and connector scopes, alongside tool gates and approval patterns. Target each policy to specific users and groups with user criteria. The Default Policy applies to everyone, and clients keep enforcing their last policy if the instance is unreachable. Override the Default Policy by creating a policy with a higher priority. The policy with the lowest priority number wins, and when priorities tie, the most restrictive rule wins. The same resolution applies to tool gates, connector scopes, and capability overrides. Tool gates offer an auto approval option alongside Allow, Deny, and require approval.
 
--   **[Tiered approvals and Auto Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/action-approval-flow-cowork.md)**
+-   **[Tiered approvals and Auto Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/action-approval-flow-cowork.md)**
 
 Assign each approval pattern a hard gate or a soft gate. Hard asks for approval every time, with **Allow**, and **Deny** options. Soft gates add an **Always allow** option that persists across sessions. Users can review and revoke these grants from the **Approvals** list in Settings.
 
 To reduce prompts, administrators turn on the Auto Approval capability \(**auto\_approval**, off by default\), an AI classifier evaluates soft gate and unmatched tool calls against the user's goal and either proceeds or asks for approval. Hard gates never auto-approve. If the classifier is unavailable, soft gate and unmatched calls proceed, and every classifier and fallback decision is logged.
 
--   **[Priority-based policy resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/policy-stacking-precedence-cowork.md)**
+-   **[Priority-based policy resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/policy-stacking-precedence-cowork.md)**
 
 Override the default policy by creating a policy with a lower priority number. The lowest priority number wins. When priorities tie, the approval pattern with the more specific match wins, and then the more restrictive rule. The same resolution applies to all policy components, including tool gates, connector scopes, and capability overrides. Tool gates offer Allow, Deny, HITL, and Auto.
 
--   **[Approval pattern Match Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/action-approval-flow-cowork.md)**
+-   **[Approval pattern Match Mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/action-approval-flow-cowork.md)**
 
 Define how an approval pattern matches commands with a single Match Mode field: **Exact**, **Relaxed**, or **Keyword**. Keyword mode requires a tool filter and matches whole words only. Write verbs for the bash tool live in a Keyword approval pattern instead of the bash tool gate. Commands that read credential paths or set sensitive environment variables require approval.
 
--   **[Skills catalog and slash commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/extending-cowork.md)**
+-   **[Skills catalog and slash commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/extending-cowork.md)**
 
 Browse skills by source \(Default or Custom\), invocation \(agent invoked or user invoked\), and connector, and see whether each skill's required connector is connected. User invoked skill has a unique slash command; typing it in the composer expands the skill's instructions before you send.
 
 Create custom skills by adding a folder with a SKILL.md file, or let the agent create them from a conversation. When a skill script fails, the agent diagnoses and detects the error, applies a correction to fix it, and retries.
 
--   **[Bundled skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/extending-cowork.md)**
+-   **[Bundled skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/extending-cowork.md)**
 
-ServiceNow Cowork ships with a focused set of default skills, including separate skills for ServiceNow, Microsoft 365, planning and meeting skills.
+ServiceNow Arc ships with a focused set of default skills, including separate skills for ServiceNow, Microsoft 365, planning and meeting skills.
 
--   **[Usage Insights analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cowork-trace-evaluation.md)**
+-   **[Usage Insights analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)**
 
-View ServiceNow Cowork as an application in Usage Insights, with active users, monthly and daily active users, and sessions. Report on conversations by how they start, success and error rates, user interventions, and the model used, along with connector, MCP, and policy block events.
+View ServiceNow Arc as an application in Usage Insights, with active users, monthly and daily active users, and sessions. Report on conversations by how they start, success and error rates, user interventions, and the model used, along with connector, MCP, and policy block events.
 
 Build funnels, cohorts, and retention reports, and drill down from aggregate charts to individual users and tasks. Data is scoped to your instance only, and user IDs are hashed.
 
--   **[Observability in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cowork-trace-evaluation.md)**
+-   **[Observability in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)**
 
-Register ServiceNow Cowork as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
+Register ServiceNow Arc as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
 
--   **[Kill switch and heartbeat monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cowork-architecture.md)**
+-   **Kill switch and heartbeat monitoring in AI Control Tower**
 
-Monitor and control ServiceNow Cowork across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Cowork and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
+Monitor and control ServiceNow Arc across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
 
--   **[Predictable retry behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-agent-limits-safeguards.md)**
+-   **[Predictable retry behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/set-agent-limits-safeguards.md)**
 
 The agent stops and reports the problem after a bounded number of attempts on the same task, instead of retrying indefinitely or working around a policy block. When a policy blocks an action, the agent reports the block and the reason and makes no further attempts.
 
--   **[Automatic app updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/update-cowork.md)**
+-   **[Automatic app updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/update-cowork.md)**
 
 The app checks for updates at start-up, during onboarding, every 30 minutes, and on demand from Settings. A required update shows an Update and Restart screen; updates found in the background appear as a dismissible notification. Each update is signature verified before it installs.
 
--   **[Model choice across](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/select-model-folders.md)Anthropic Claude, GPT, and Google Gemini**
+-   **[Model choice across](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/select-model-folders.md)Anthropic Claude, GPT, and Google Gemini**
 
 Choose a model from Anthropic Claude \(Opus 4.6, 4.7, 4.8, and Sonnet 4.6\), OpenAI GPT \(5.4 and 5.5\), and Google Gemini \(3.5 Flash\), all routed through Generative AI Controller. After you connect, the model list comes from the models configured on your instance. Opus 4.8 is the default.
 
 -   **Assist metering and entitlements**
 
-User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Cowork Execution. Check your entitlements to determine whether you have access to ServiceNow Cowork.
+User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Arc Execution. Check your entitlements to determine whether you have access to ServiceNow Arc.
+
+
+-   **[Windows support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-arc-windows.md)**
+
+ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
+
+-   **[Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md)**
+
+Administrators author and manage ServiceNow Arc agent policies in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
+
+-   **[MCP servers managed by administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-mcp-server-arc.md)**
+
+MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
+
+When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
+
+-   **[Notifications for approvals and reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/notifications-arc.md)**
+
+ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
+
+For more information, see [Turn notifications on or off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-notification-settings.md).
+
+-   **[Fluent app development for MacOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-development-arc.md)**
+
+Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
+
+App development isn't supported on Windows.
+
+-   **[File preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/preview-files-arc.md)**
+
+Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
 
 
 </td></tr><tr><td>
@@ -2924,7 +3176,7 @@ ServiceNow Lux Lab for VS Code
 
 </td><td>
 
--   **[Create a collection page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page-collection-servicenow-ai-experience-lab-for-vs-code.md)**
+-   **[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page-variant-servicenow-ai-experience-lab-for-vs-code.md)**
 
 Support multiple page variations on the same route by creating collection pages directly from the command palette or the file explorer. Show different content to different users based on role without maintaining a separate page and URL for each audience.
 
@@ -2954,9 +3206,40 @@ This AI agent identifies the most relevant change template and model for new cha
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+-   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-ai-enhancements.md)**
+
+Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
+
+-   **[Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/resolve-entitlement-import-error.md)**
+
+Resolve unmatched publisher and product data that blocks bulk entitlement imports in the Software Asset Workspace using the 5 new AI-powered skills that normalize publisher and product values:
+
+    -   Publisher Search Tags Generation
+    -   Product Search Tags Generation
+    -   Publisher Match Review
+    -   Product Match Review
+    -   Product Resolution
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Virtual Agent
 
 </td><td>
+
+-   ****
+-   **[New features for premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+These features were added to premium chat:
+
+    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down list in the interactive view header. Return to a knowledge article, catalog form, or other content you opened earlier without searching for it again.
+    -   Preview files in the interactive view when ServiceNow Otto generates them, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
+    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
+    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
+    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
 
 -   **[Cancel live agent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
@@ -3031,7 +3314,7 @@ Amend simple and configurable products that originate from a contract, directly 
 
 -   **ServiceNow Quote Experience Integration with Subscription Management**
 
-Subscription Management integrates with ServiceNow Quote Experience, CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
+Subscription Management integrates with ServiceNow Quote Experience, ServiceNow CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
 
 -   **[Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-in-quote-experience.md)**
 
@@ -3044,7 +3327,7 @@ Calculate and adjust transaction pricing directly from a quote.
     -   Apply automatic price adjustments. Use rules such as volume tiers, promotions, and contracted discounts during a pricing call. A manual adjustment always takes precedence over an automatic one on the same line or header.
 -   **Configure ServiceNow Quote Experience through Guided Setup**
 
-Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your CPQ integration in a single guided flow, instead of configuring components separately.
+Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your ServiceNow CPQ integration in a single guided flow, instead of configuring components separately.
 
 
 </td></tr><tr><td>
@@ -3191,16 +3474,57 @@ Improve reporting of your software installation inventory by deploying rules tha
 
 Reduce entitlement onboarding time by using additional predefined license metrics for supported publishers. These predefined license metrics help you track consumption, verify compliance, and reconcile deployments against entitlements. Review tier ranges and calculation factors on the new **License Metric Tier** tab of the Software entitlement page.
 
--   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-ai-enhancements.md)**
-
-Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
-
 
 </td></tr><tr><td>
 
 Strategic Planning
 
 </td><td>
+
+-   **[Fiscal calendars for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-support-targets.md)**
+
+Create, edit, and break down goal targets on fiscal calendars. The supported calendar types are Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4. Target breakdowns, due dates, and roll-ups follow the fiscal periods of the active calendar. Gregorian calendar behavior does not change.
+
+-   **[Setting and switching goal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/set-a-goal-calendar.md)**
+
+Set the goal calendar to Gregorian, which is the default, or to fiscal. Fiscal calendars come in three types: Regular, 4-4-5, and 13 Period. Switch from Gregorian to fiscal in the **sn\_gfa.calendar\_type** system property. Switch between fiscal types by changing the fiscal calendar type property, setting the fiscal unit, and regenerating the fiscal periods. A calendar change can make targets stale.
+
+-   **[Fiscal check-in due dates and reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/configure-target-checkin-reminders-spw.md)**
+
+Set check-in due dates by fiscal period for goal targets. When you enter actuals on a target breakdown, the check-in due date updates to match the fiscal period. Reminders for the Period check-in frequency follow the fiscal calendar.
+
+-   **[Fiscal planning range and time scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-support-targets.md)**
+
+View goals in fiscal mode in the Strategic Planning workspace. The planning range, time scale, saved preferences, graph, stale target actions, and check-in panel all use the fiscal periods of the active calendar. The grid and goals list show the generated fiscal period names.
+
+-   **[Fiscal check-in frequencies for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/fiscal-calendar-support-targets.md)**
+
+Choose a check-in frequency that the active fiscal calendar supports. The target form offers only the frequencies that are valid for the calendar and the target date range, including Period. The target breakdown preview shows each generated period with its display name. The server validates every frequency and period on save, so a rejected change keeps the current breakdowns and shows the reason.
+
+-   **[Stale target protection for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/managing-stale-targets.md)**
+
+Identify goal targets that become stale after a goal calendar change. Only targets with breakdowns can become stale, and stale targets stay locked until they are recovered. Recover a stale target in one of two ways. An administrator runs the **Goal calendar alignment - Reset check-in frequency for stale targets** scheduled job, and the target owner then selects a check-in frequency again. Or the target owner duplicates the target and sets a check-in frequency on the copy. The copy starts without the remarks, work notes, and history of the stale target.
+
+-   **[AI target generation and goal insights in fiscal mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-insights-for-goal-spw.md)**
+
+Generate goal targets with the AI target generation skill on fiscal calendars. Generation uses the active calendar, the allowed frequencies, and the generated period names and dates. The server validates the generated output before it fills the new target form. Goal insights read fiscal period history in period order and do not assume Gregorian months or quarters.
+
+-   **[Fiscal target automation and check-in history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-actuals-automation-spw.md)**
+
+Automation writes target values into the breakdown of the current fiscal period, using the fiscal period boundaries in the fiscal calendar time zone. Check-in history records take their reporting period from the fiscal calendar, and the roll-up remark shows the fiscal period name.
+
+-   **[Track work within a state using substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/substates-in-eap.md)**
+
+Teams that do several kinds of work in one state can't see where that work waits. Substates divide a state into steps that match how your team works. A scrum master creates substates on the **Substates** tab of Team Settings, sets their order, and marks one default for each state. When you change the state of a story, the substate changes to the default of the new state. The **Substate** field is hidden for teams that have no substates.
+
+-   **[Spot overloaded lanes with WIP limits on the Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/wip-limits-in-eap.md)**
+
+A lane that holds more work than planned can hide where work is stuck. WIP limits make those lanes visible on the Planning board. Each lane header shows the number of stories and the limit, for example 3/5. An amber header marks a lane at its limit. A red header with an alert icon marks a lane over its limit. Counts update as you move stories, and a limit never blocks a move.
+
+-   **[Set WIP limits for your own team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/set-wip-limits-for-kanban-lanes-in-eap.md)**
+
+Each team works differently, so each team sets its own limits. A scrum master selects **Team Settings** on the Planning board and adds limits on the **Kanban WIP limits** tab. Choose a lane, which is a state or a substate of the team, and enter the limit. The **Team** field is set automatically, and each lane can have one limit.
+
 
 -   **[Enterprise-wide deployment for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ewd-for-demands-dw.md)**
 
@@ -3221,7 +3545,7 @@ The smart assessment form is more intuitive and supports text-based questions. T
 
 Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
 
--   **Kanban teams in the portfolio structure in EAP**
+-   **[Kanban teams in the portfolio structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scrum-and-kanban-teams-in-eap.md)**
 
 Run Scrum and Kanban teams under the same Agile Release Train \(ART\). Select a planning methodology when you add a team to an ART, or set the Planning methodology field on an existing team. Kanban teams plan from the team backlog: sprint controls are hidden, planning intervals skip them, and the Home page shows the Kanban Team dashboard. Both team types appear side by side on the ART planning board.
 
@@ -3367,6 +3691,17 @@ Offer a more personalized experience to users in the Latin America region with a
 
 </td></tr><tr><td>
 
+Table Builder
+
+</td><td>
+
+-   **[New role required to add a formula to a column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-formula-column-table-builder.md)**
+
+Accessing the formula editor in Table Builder now requires the formula\_read role. Previously, the formula editor stalled in the loading state. This issue is related to PRB2093578.
+
+
+</td></tr><tr><td>
+
 Telecommunication Network Inventory
 
 </td><td>
@@ -3483,6 +3818,23 @@ Unified Security Exposure Management \(USEM\)
 
 </td><td>
 
+-   **[Unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/integrating-usem.md)**
+
+Configure, monitor, and troubleshoot scanner integrations within the Unified Security Exposure Management \(USEM\) interface. It has a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.
+
+The Security Assets view in the SEM workspace displays normalized and deduplicated assets reported by your security integrations. Each asset shows its risk rating, open findings, labels, and sources. The asset context enables USEM to create precise CIs in appropriate CMDB classes.
+
+**Note:** Th unified exposure pipeline can't be configured alongside the standard scanner integration applications from ServiceNow Store. You must disable all standard scanner integration applications and clear their data before using the unified exposure pipeline.
+
+-   **[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/fix-intel-for-usem-landing.md)**
+
+Accelerate remediation using the deduplicated USEM exposure findings and fix guidance. Automatically identify and group findings by fixes, remediation categories, and software versions for fix-oriented remediation workflows.
+
+Each fix record gives the recommended remediation, such as a software package and version to update, with its category, related security advisories, and patch month. The fix record also shows the number of affected findings and assets, with a rolled-up risk score and risk rating. Use these details to prioritize fixes that reduce the most exposure.
+
+**Note:** It is available only when scanner integrations are configured using the unified exposure pipeline.
+
+
 -   **[Schedule patch deployments through Change Request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vr-ws-patch-schedule-change-request.md)**
 
 Route patch deployments scheduled from remediation tasks through Change Request approval for Microsoft SCCM and HCL BigFix integrations. This lets you align patch deployment for critical vulnerabilities with your organization's change management approval process, and optionally deploy the patch automatically once the change is approved.
@@ -3580,6 +3932,11 @@ Zero Copy Connector for ERP
 
 </td><td>
 
+-   **[Support for Workday RaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/obtain-data-from-workday-using-raas.md)**
+
+Add Workday RaaS reports to read operations by pasting a sample report response.
+
+
 -   **[Support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-oracle-rest-support.md)**
 
 Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
@@ -3596,8 +3953,6 @@ Search for endpoints of discovered WADL services from the interface using AI Sea
 
 Call the `getRowCount()` method on the `API` class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for `execute()`.
 
-
--   ****
 
 </td></tr><tr><td>
 

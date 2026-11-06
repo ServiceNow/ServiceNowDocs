@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-side-panel-tabs2.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-07"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -34,12 +34,13 @@ The panel can be configured to ensure your agents have access to the necessary i
 
     You can also select the component within the editor.
 
-5.  To add a tab, select **+Add** in the Tab sidebar component.
+5.  To add a tab, select **+ Add** in the Tab sidebar component.
 
 6.  Select the option for building a tab.
 
-    -       -   Use a repeater
-    -   Display lists for a related record
+    -   Start from an empty container
+    -   Use a repeater
+    -   Display related lists for a record
     -   Add a page collection
     This procedure uses the **Start from an empty container** option.
 

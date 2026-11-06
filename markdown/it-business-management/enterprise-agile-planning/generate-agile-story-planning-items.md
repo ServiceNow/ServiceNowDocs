@@ -26,7 +26,7 @@ Create stories AI agentic workflow addresses these challenges by automating stor
 
 -   Analyze and generate: The agent reviews the epic description and creates relevant, detailed user stories.
 -   Interactive refinement: The agent engages in a free-flow conversation with you, presenting story recommendations, accepting feedback, and iterating based on your input.
--   Decision and action: The agent manages successful flows such as saving validated stories and feedback loops such as removing unwanted stories and learning from corrections to ensure that accurate, high-quality stories are finalized.
+-   Decision and action: The agent manages successful flows such as saving validated stories. It also manages feedback loops such as removing unwanted stories and learning from corrections. These actions ensure that accurate, high-quality stories are finalized.
 
 The key benefits of this workflow are:
 
@@ -36,7 +36,7 @@ The key benefits of this workflow are:
 
 Unlike rigid AI templates, this workflow emphasizes flexibility and collaboration, enabling dynamic input and refinement to deliver precise, actionable user stories.
 
-If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Create stories agentic workflow
 

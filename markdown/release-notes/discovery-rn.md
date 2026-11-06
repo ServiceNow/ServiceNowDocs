@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/discovery-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Discovery, Discovery Admin Workspace, Discovery, Discovery Admin Workspace]
 breadcrumb: [ITOM Visibility release notes, IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -51,6 +51,10 @@ The Brazil release expands Discovery's monitoring and scanning capabilities with
 
     Credential-less Discovery can now check UDP ports and guess the operating system of a target host when it can't confirm an exact match. Enable each option by setting a MID Server property. Both options are inactive by default. Set **mid.discovery.credentialless.include\_udp\_scan** to `true` to check UDP ports and TCP ports. Set **mid.discovery.credentialless.include\_os\_scan\_guess** to `true` to let the scan guess the operating system of the target host.
 
+-   **Increased default partitions for software discovery**
+
+    The default value of the **com.glide.ensurer.partitions.cmdb\_ci\_spkg** system property changed from `64` to `128`. This change improves software discovery performance on instances with a large number of discovered software installations and without Software Asset Management \(SAM\) installed. The change applies automatically on upgrade.
+
 
 ### What's deprecated or removed
 
@@ -65,15 +69,15 @@ Discovery Admin Workspace continues to centralize Discovery workflows with new c
 
 ### What's new
 
--   **Configure certificate discovery from Discovery Admin Workspace**
+-   **Configure certificate discovery**
 
     Discovery Admin Workspace now supports certificate discovery configuration and management. Configure certificate discovery from a single location instead of switching between workspace and classic interfaces. The new **Certificate Discovery** tab on the Schedules page centralizes schedule management and access to discovered certificates. Certificate discovery can also use URL Monitoring data to automate discovery targets and reduce manual configuration. Existing certificate discovery configurations remain supported, and certificate discovery continues to respect role-based permissions.
 
 -   **[View Shazzam insights in IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/daw-ip-inventory.md)**
 
-    The IP Inventory page now includes a **Shazzam** tab that displays Shazzam Summary and Shazzam Status data alongside your other IP data. Previously, you had to leave the IP Inventory page and open the Shazzam Insights dashboard separately to review probe results. Now you can check which IPs are alive, active, or unreachable while working with your IP addresses, ranges, and networks in the same view
+    The IP Inventory page now includes a **Shazzam** tab that displays Shazzam Summary and Shazzam Status data alongside your other IP data. Previously, you had to leave the IP Inventory page and open the Shazzam Insights dashboard separately to review probe results. Now you can check which IPs are alive, active, or unreachable while working with your IP addresses, ranges, and networks in the same view.
 
--   **[View Kubernetes resources in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-explorer-dash.md)**
+-   **[View Kubernetes resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/kubernetes-explorer-dash.md)**
 
     Get a consolidated view of the Kubernetes resources discovered in your environment without leaving the Discovery Admin Workspace. The new Kubernetes explorer dashboard organizes discovered clusters, nodes, namespaces, services, workloads, pods, and Docker images across dedicated tabs. Each tab includes a resource table and visualizations such as data counts, bar charts, and donut charts. Interact with a visualization to filter the table on the same tab. You can also select a resource to open its details page. The details page shows the resource properties and a Dependency View of related configuration items.
 

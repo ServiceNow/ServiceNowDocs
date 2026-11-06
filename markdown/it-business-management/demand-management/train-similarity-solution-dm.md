@@ -30,7 +30,7 @@ Role required: admin
 
 3.  On the Similarity Definition form, verify the default field values for demands.
 
-    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md).
+    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
 
 4.  Select **Update &amp; Retrain**.
 

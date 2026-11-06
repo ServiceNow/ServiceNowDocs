@@ -1,5 +1,5 @@
 ---
-title: Configuring Access Insights
+title: Configure Access Insights
 description: Enable and configure the Access Insights feature in Access Analyzer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-access-insights.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Access Insights, Access Analyzer, Access Management]
 ---
 
-# Configuring Access Insights
+# Configure Access Insights
 
 Enable and configure the Access Insights feature in Access Analyzer.
 
@@ -41,5 +41,5 @@ The following procedure describes the steps for enabling Access Insights.
 
 ## Result
 
-The Access Insights feature is shown when you're comparing user access to a resource under **Role Hierarchy**. To know more about using Access Insights, see [Using Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-access-insights.md).
+The Access Insights feature is shown when you're comparing user access to a resource under **Role Hierarchy**. To know more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-access-insights.md).
 

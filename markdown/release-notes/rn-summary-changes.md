@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 94
+last_updated: "2026-11-04"
+reading_time_minutes: 114
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -136,7 +136,7 @@ The Kill Switch Protocol Log is renamed the Agent containment list, and the **Vi
 
 Date and time values in the Security tab — including the agent containment list, the Overview tab's Dormant AI agents and Privileged AI agents details, and the Post-runtime tab's security events — are now shown in Coordinated Universal Time \(UTC\) rather than your local timezone.
 
--   **[AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)**
+-   **[AI Gateway settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)**
 
 Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
 
@@ -181,11 +181,11 @@ AI Desktop Actions
     -   Adaptive desktop actions now support version 4.6 of Claude Sonnet. It is now the default model for adaptive desktop actions.
     -   Use function keys \(F1–F12\) and combo keys \(cmd+a, alt+F4, ctrl+c\) in desktop automation without manual intervention.
 
--   **[Browser startup and tab behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)**
+-   **Browser startup and tab behavior**
 
 Browser session now opens to an empty page instead of Google's homepage. Automation actions within the same chat window now reuse the existing browser tab instead of opening a new tab for every action. A new tab opens only when a new chat session starts or you close the current tab.
 
--   **[Improved security for adaptive desktop actions system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+-   **Improved security for adaptive desktop actions system properties**
 
 Adaptive desktop actions system properties now require appropriate read and write roles. This change prevents unauthorized users from viewing or modifying the configuration settings, while automation continues to work as expected.
 
@@ -218,6 +218,28 @@ The Employee Center AI asset list view's redirection link was also updated to op
 The AI system, AI model, and dataset record headers also display the corresponding record name and identifier after submission.
 
 **Note:** AI case and AI inquiry submissions in Employee Center aren't affected by this change.
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   **[Expanded support for hybrid search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/hybrid-search-ais.md)**
+
+Hybrid search now supports all indexed sources that have semantic vector indexing configured.
+
+
+</td></tr><tr><td>
+
+AI Workflow Factory Prime
+
+</td><td>
+
+-   **[Troubleshooting the Credit Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aiwfp-credit-dashboard-troubleshooting.md)**
+
+The AI Workflow Factory Prime Credit Dashboard doesn't populate capability data on initial install. Use the troubleshooting guide to resolve the issue.
 
 
 </td></tr><tr><td>
@@ -505,6 +527,18 @@ Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
+-   **[Display values in cart read responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
+
+Get readable values in cart responses without extra lookups. Previously, retrieving a cart returned display values only for product offerings and characteristics. Now, display values are returned for every attribute on the cart, its line items, and line item characteristics for cart retrieval, line item retrieval, and cart queries. Create and update requests don't return display values.
+
+-   **[Order submission from a sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
+
+Submit orders faster and keep them ready for downstream processing \(PRB2089913, PRB2109260, PRB2080458\).
+
+    -   Previously, submitting a cart with many line items through the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder API waited until the entire order was created before returning. Now, carts with more than 20 line items are submitted asynchronously. The response returns immediately with an inbound queue record ID, and the cart state tracks progress, moving from Processing to Complete or Cancelled. If submission fails, the cart moves to the Cancelled state and can't be resubmitted.
+    -   Previously, customer orders created from a sales cart through the submit order API had no channel, so downstream processes couldn't distinguish self-service orders from agent-assisted orders. Now, orders submitted through the API have the channel set to Self-service portal.
+    -   Previously, the submit order API created customer orders in the Draft state. Now, it creates them in the New state.
+
 -   **[Order number in the submit order response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
 Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
@@ -542,6 +576,11 @@ Data Management for CSM
 
 </td><td>
 
+-   **[Product inventory configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/product_inventory_configurations.md)**
+
+Order agents can modify, suspend, resume, or disconnect a consumer’s product inventory from the consumer record. Configuration updates reflect automatically on each quote or order to make sure customer's services are faster and more accurate.
+
+
 -   **Service organizations as buyers on install base records**
 
 Add service organizations as buyers on install base records to control access to their product inventory by user role. Use the Modify or Disconnect actions from the service organization record to enable service organizations to create orders or quotes.
@@ -570,15 +609,42 @@ Initiate an RMA case from the business portal without contacting an agent to red
 
 </td></tr><tr><td>
 
+Decision tables
+
+</td><td>
+
+-   **[Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/manage-decision-tables-ms-excel.md)**
+
+Decision table exports now apply the access control lists \(ACLs\) to the data that's exported. Access is determined by the ACLs on the referenced table. This issue is related to PRB2067404.
+
+-   **[Decision tables roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/decision-designer-permissions.md)**
+
+Delegated developers can now create, read, edit, and delete decision tables that belong to an application they have delegated developer access to. This issue is related to PRB2065210.
+
+
+</td></tr><tr><td>
+
+Developer Sandboxes
+
+</td><td>
+
+-   **[Manual sandbox enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-properties-installed.md)**
+
+Starting with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:
+
+    -   `glide.dev_sandbox.enabled`: Set to `true`.
+
+</td></tr><tr><td>
+
 Digital End-User Experience
 
 </td><td>
 
--   **[Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dex-workspace-devices-tab.md)**
+-   **[Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dex-workspace-devices-tab.md)**
 
 The Devices page now includes a link to DEX dashboard, so users with multiple roles can reach the DEX homepage faster.
 
--   **[Check device health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/check-your-device-s-using-employee-center.md)**
+-   **[Check device health using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/check-your-device-s-using-employee-center.md)**
 
 The Diagnose view in Device Health Check now explains why a category shows a **Poor** or **Average** status with no pending actions. It tells users that their IT team is reviewing additional metrics.
 
@@ -627,6 +693,10 @@ Discovery
 -   **[Scan options for credential-less discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/nmap-credential-less-discovery.md)**
 
 Credential-less Discovery can now check UDP ports and guess the operating system of a target host when it can't confirm an exact match. Enable each option by setting a MID Server property. Both options are inactive by default. Set **mid.discovery.credentialless.include\_udp\_scan** to `true` to check UDP ports and TCP ports. Set **mid.discovery.credentialless.include\_os\_scan\_guess** to `true` to let the scan guess the operating system of the target host.
+
+-   **Increased default partitions for software discovery**
+
+The default value of the **com.glide.ensurer.partitions.cmdb\_ci\_spkg** system property changed from `64` to `128`. This change improves software discovery performance on instances with a large number of discovered software installations and without Software Asset Management \(SAM\) installed. The change applies automatically on upgrade.
 
 
 -   **[IP Inventory multi-schedule link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/daw-ip-inventory.md)**
@@ -786,7 +856,7 @@ A relationship is created between cloud database and region.
 
 -   **Discover all URLs toggle**
 
-Fixed a cross-application scope error that prevented the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to ITOM URL Discovery to enable or disable the toggle.
+Fixed a cross-application scope error that blocked the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to **ITOM URL Discovery** to turn the toggle on or off.
 
 
 </td></tr><tr><td>
@@ -795,9 +865,64 @@ Dispute Rules Content Pack for Mastercard
 
 </td><td>
 
--   **Updated Mastercard chargeback ineligibility rule for fraud**
+-   **Updated Mastercard chargeback ineligibility decision tables for Colombian reversion of payment claims \(RC 4837, RC 4870, and RC 4871\)**
 
-The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) correctly evaluates the fraud-report timing window. A dispute is ineligible only when it is not raised within three days of the transaction being reported lost, stolen, or never received in the fraud and loss database. The condition also requires a fraud report ID to be present. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+Review updated chargeback eligibility for Mastercard fraud disputes on Colombian transactions. Eligibility now depends on the dispute agent's answer to the reversion of payment claim question in the dispute questionnaire. The question asks whether the cardholder filed a reversion of payment claim \(RP-Reg\) under Law 1480 of 2011, Article 51, and Decree 587 of 2016. Under the Mastercard guide, RC 4837, RC 4870, and RC 4871 do not apply to a Colombian domestic transaction that the reversion of payments regulation addresses.
+
+The following decision tables each change the ineligibility condition for their Colombia rule:
+
+    -   **Mastercard 4837 - No Cardholder Authorization**
+    -   **Mastercard 4870 - Chip Liability Shift**
+    -   **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud**
+Before this release, each rule decided that a dispute was ineligible from the authorization data alone. A dispute was ineligible when the authorization had a fee collection function code or the original message type identifier 1740, the acceptor country was Colombia, and the cardholder billing currency was Colombian Peso \(170\). A dispute is now ineligible when the answer to the **This dispute is due to \(Mastercard\)** question on the dispute intake record matches the reason code of the decision table and the answer to the reversion of payment claim question is Yes. When the answer is No, this rule does not make the dispute ineligible.
+
+The location and currency checks now apply to the question rather than to the rule. The dispute questionnaire asks the question only for Mastercard disputes with RC 4837, 4870, or 4871 when the acceptor country is Colombia and the cardholder billing currency is Colombian Peso. The dispute questionnaire change is described in the Financial Services Card Operations release notes.
+
+-   **Updated Mastercard chargeback ineligibility decision tables for fraud report checks \(RC 4837, RC 4849, RC 4870, and RC 4871\)**
+
+Review updated chargeback eligibility for Mastercard fraud disputes. Eligibility now depends on whether the transaction was reported as fraud before the chargeback. This reflects the Mastercard requirement that the issuer report the transaction as fraud on or before the date of the chargeback. The following decision tables each change the fraud report ID condition:
+
+    -   **Mastercard 4837 - No Cardholder Authorization** for Mainland China domestic transactions and for all other transactions
+    -   **Mastercard 4849 - Questionable Merchant Activity** for Mainland China domestic transactions and for all other transactions
+    -   **Mastercard 4870 - Chip Liability Shift** for Mainland China domestic transactions
+    -   **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** for the fraud report timing rule
+Before this release, the RC 4837 conditions made a dispute ineligible when a fraud report ID was present, and the RC 4849 conditions made a dispute ineligible when both a fraud report ID and a Mastercard fraud type were present. A dispute is now ineligible when the fraud report ID is empty, and the RC 4849 conditions no longer check the fraud type. For RC 4870, a dispute for a Mainland China domestic transaction was ineligible when the fraud type was not 04 and a fraud report ID was present. The dispute is now ineligible when the fraud type is not 04 or the fraud report ID is empty. The chargeback ineligibility reason text for RC 4837 is updated to say that the transaction was not reported on or before initiating a chargeback.
+
+For RC 4871, the rule that makes a dispute ineligible after the fraud report no longer requires a fraud report ID. A dispute is ineligible when the fraud type is 00, 01, or 02 and the dispute is raised more than three days after the fraud report date.
+
+-   **Updated Mastercard chargeback ineligibility decision table for Credit Posted as a Purchase \(RC 4853\)**
+
+Review the updated **Mastercard 4853 - Credit Posted as a Purchase** decision table, which changes the ineligibility condition for the **Refund posted as a purchase** dispute reason. Before this release, a dispute was ineligible when the disputed amount was not equal to twice the original transaction amount. A dispute is now ineligible when the disputed amount is more than twice the original transaction amount. The chargeback ineligibility reason text is updated to say that the disputed amount should not exceed twice the original transaction amount.
+
+The decision input for the condition is renamed from **dispute\_amount\_neq\_twice\_transaction\_amount** to **dispute\_amount\_gt\_twice\_transaction\_amount**. If you reference the input in a customization, update the reference.
+
+-   **Updated Mastercard chargeback ineligibility decision table for repeat fraud chargebacks and digital goods \(RC 4837\)**
+
+Review two updated ineligibility conditions in the **Mastercard 4837 - No Cardholder Authorization** decision table.
+
+The condition for repeat fraud chargebacks on the same Mastercard card account uses the **Fraud CB count before auth date** input. Before this release, a dispute was ineligible when the **Chargeback transactions count** was three or more, regardless of when the chargebacks were submitted. A dispute is now ineligible when the count is two or more. The new count includes only chargebacks that were submitted before the authorization date of the disputed transaction.
+
+The condition for digital goods purchases of USD 25 or less now evaluates card data input mode S or R and the merchant category codes \(MCCs\) 5815, 5816, 5817, and 5818.
+
+-   **Removed Mastercard chargeback ineligibility rules \(RC 4837, RC 4849, and RC 4871\)**
+
+Review the following updated ineligibility rules, which no longer apply. Disputes that previously matched them are no longer ineligible on that basis:
+
+    -   The **Mastercard 4849 - Questionable Merchant Activity** decision table no longer includes the rule that made a dispute ineligible when the cardholder had neither attempted to file a police complaint nor completed a coercion claim affidavit.
+    -   The **Mastercard 4837 - No Cardholder Authorization** decision table no longer includes the rule for transactions with wallet identifier 101 and e-commerce indicator 221, 222, or 225.
+    -   The **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision table no longer includes the rule that made a dispute ineligible when the POS card data terminal input capability was not 2, or when the cardholder authentication method was PIN and the response code was 00. The rule applied to all regions.
+The removals apply to new and existing installations.
+
+
+-   **Updated Mastercard chargeback ineligibility decision tables for fraud \(RC 4870 and RC 4871\)**
+
+The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) in the **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision table reverses the comparison for the fraud-report timing window. Before this release, a dispute was ineligible when it was raised fewer than three days after the transaction was reported lost, stolen, or never received in the fraud and loss database. A dispute is ineligible when it is raised more than three days after the report. The condition also requires a fraud report ID to be present; this requirement is unchanged. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+
+The **Mastercard 4870 - Chip Liability Shift** and **Mastercard 4871 - Chip Liability Shift-Lost/Stolen/Never Received Issue \(NRI\) Fraud** decision tables each change the ineligibility condition for repeat fraud chargebacks on the same Mastercard card account. Before this release, a dispute was ineligible when the **Chargeback transactions count** was three or more. The count included chargebacks under RC 4837, RC 4870, or RC 4871, regardless of when they were submitted. The condition uses a new input, **Fraud CB count before auth date**, and a dispute is ineligible when the count is two or more. The new count includes only chargebacks that were submitted before the authorization date of the disputed transaction. The chargeback ineligibility reason text in both decision tables is updated to specify fraud chargebacks.
+
+-   **Updated Mastercard chargeback ineligibility decision table for Refund Not Processed \(RC 4853\)**
+
+The **Mastercard 4853 - Credit Not Processed** decision table adds a condition to the ineligibility rule for RC 4853 \(Refund Not Processed\). Before this release, a dispute was ineligible when the transaction had one of the merchant category codes \(MCCs\) 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The MCC list is unchanged. A dispute with one of these MCCs is ineligible only when the merchant provided a voucher for future use and disclosed it in its terms and conditions. The new condition checks that the answer to the merchant voucher question in the dispute questionnaire is Yes. The chargeback ineligibility reason text is updated to describe the voucher condition.
 
 
 -   **Updated Mastercard chargeback ineligibility rules for fraud**
@@ -881,7 +1006,7 @@ Export to PowerPoint
 
 </td><td>
 
--   **Dynamic timeline type for roadmap exports**
+-   **[Dynamic timeline type for roadmap exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-a-portfolio-plan-to-powerpoint-strategic-planning.md)**
 
 Get more granular roadmap exports with timeline types that now reflect the actual export range. Previously, the timeline type was hardcoded. The timeline type is now derived from the resolved export range length. Ranges of one year or less use months, ranges over one year up to two years use quarters, and ranges over two years use years.
 
@@ -891,6 +1016,15 @@ Get more granular roadmap exports with timeline types that now reflect the actua
 External Content Connectors
 
 </td><td>
+
+-   **[Secure search for the Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/amazon-s3-external-content-connector.md)**
+
+The Amazon S3 external content connector adds support for secure search. The **Settings** tab for this connector includes a new **User mapping settings** screen. On this screen, you can select one of three permission modes for the connector and optionally configure user mappings. You can also configure user permission crawls for the connector if using a permission mode that requires them.
+
+-   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/analytics-external-content-connectors.md)**
+
+The **Quota usage** metric has been renamed **Connector limit** for clarity.
+
 
 -   **Crawl schedules tab renamed**
 
@@ -910,6 +1044,10 @@ The Now Assist context menu \(NACM\) component replaces the AI Summary Card comp
 Dispute agents can share a generated summary to the claim's work notes from the summary component. Selecting **Share** opens an editable work notes dialog, where agents can edit the summary text before selecting **Save to work notes**.
 
 Activate the Dispute Summarization skill configuration for the summary component to appear. If the skill configuration isn't active, the component doesn't display on the dispute record page.
+
+-   **UI policy update for the merchant voucher question on Refund Not Processed disputes**
+
+The Mastercard-specific merchant voucher question in the dispute questionnaire displays for Refund Not Processed disputes when the transaction has one of the following merchant category codes \(MCCs\): 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The UI policy **Field: TransactionMerchantVoucherFutureUseInd - Show/Hide/Mandatory \(Consumer\)** controls this display. Before this release, the UI policy displayed the question for Goods or Services Not Provided disputes and for Travel and Entertainment disputes where the merchant issued a voucher. The question and the MCC list are unchanged. Dispute agents answer whether the merchant provided a voucher for future use and disclosed it in its terms and conditions. When Dispute Rules Content Pack for Mastercard is installed, the answer determines whether a chargeback for reason code \(RC\) 4853 is eligible.
 
 
 -   **Price-discrepancy question for Visa consumer disputes**
@@ -1008,7 +1146,7 @@ Goal Framework for SPM
 
 </td><td>
 
--   **[Target breakdown regeneration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns.md#section-maintain-type-breakdowns)**
+-   **[Target breakdown regeneration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns-gf.md#section-target-breakdowns-maintain-types)**
 
 Target breakdowns adjust to changes in a target's dates or final target value, and recorded actuals are kept:
 
@@ -1016,7 +1154,7 @@ Target breakdowns adjust to changes in a target's dates or final target value, a
     -   Moving the start date earlier adds breakdowns for the new periods, with the same planned target.
     -   Shortening or extending the end date removes or adds the matching breakdowns.
     -   Changing the final target value updates the planned target of every breakdown and recalculates status and progress.
--   **[Type field editable after actuals are recorded](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/change-target-type-spw.md)**
+-   **[Target type changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/change-target-type-gf.md)**
 
 Change the **Type** of a target after actual values are recorded, without deleting and recreating the target. When you change the type from Maximize to Minimize, or from Maximize to a Maintain type:
 
@@ -1025,7 +1163,7 @@ Change the **Type** of a target after actual values are recorded, without deleti
     -   Progress and attainment are recalculated using the new type's logic.
 A warning appears before you save the change. The change is recorded in the audit history.
 
--   **[Number field in the target list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-form-egm.md)**
+-   **[Number field in the target list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-form.md)**
 
 The **Number** field appears as a link in the actual value automation list view. That list view opens when you view targets in Core UI.
 
@@ -1082,9 +1220,23 @@ ITOM AIOps
 
 Launch the AI agent for alert grouping directly from Alert Automation pages. Select **Configure with AI** to open the ServiceNow Otto panel with a pre-populated prompt that guides rule creation.
 
--   **Assign AI Specialists to all groups**
+-   **[Assign AI Specialists to all groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/onboard-ai-specialist.md)**
 
 Assign the AI Specialist to the new **All Groups** option to let it handle alerts from every assignment group. Previously, only the **Add specialist to specific group\(s\)** option was available, which limited the specialist to the groups you chose.
+
+
+-   **Event Management Connectors**
+    -   **[Support for Datadog Work Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-a-datadog-work-item-connector.md)**
+
+Configure Datadog Work Items to listen to events using the Datadog connector. Datadog Work Items are also named as Cases.
+
+    -   **[Enhanced Dynatrace Event connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dynatrace-events-integration.md)**
+
+Dynatrace Event connector enhanced to support the new third generation Dynatrace workflow.
+
+    -   **Use of Fluent-based code and ServiceNow SDK**
+
+Event Management Connectors app now uses Fluent-based code and the ServiceNow SDK for AI-native development and faster releases.
 
 
 -   **[Express List mode switching without searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/express-list.md)**
@@ -1213,6 +1365,17 @@ Resource details pages now include enhanced Dependency Views that show relations
 
 </td></tr><tr><td>
 
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   **[Catalog variable collection and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/catalog-variable-collection-slot-fill-l1-sd-ai-spec.md)**
+
+The L1 IT Service Desk AI Specialist now fills catalog item variables from the incident and the caller's details and shows requesters what it already captured, so requesters answer fewer questions. It also now uses dynamic response authoring for L1 IT Service Desk AI Specialist Catalog submission responses. Default instructions are provided so the agent composes each message fresh instead of relying on a fixed template.
+
+
+</td></tr><tr><td>
+
 LEAP
 
 </td><td>
@@ -1250,6 +1413,21 @@ Mobile Platform
 -   **Android app build request form**
 
 Meet Google's new Android security requirements for developer verification and app registration using the updated build request form and pipeline. The form now includes a developer verification section where you provide your snippet, and the pipeline automatically embeds it in your APK or generates a verification APK for manual registration.
+
+
+</td></tr><tr><td>
+
+Next Experience
+
+</td><td>
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **ServiceNow Otto® onboarding slide added**
+
+Next Experience onboarding now opens with a ServiceNow Otto slide. The slide appears only when the Generative AI Controller plugin \(sn\_generative\_ai\) is active on the instance. After a user selects “Got it,” the slide doesn’t appear again.
 
 
 </td></tr><tr><td>
@@ -1774,6 +1952,80 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
+-   **[Enhancements to Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-inv-case-management.md)**
+    -   Render all entities, evidence, tasks, and related cases as an interactive knowledge graph with Case Link Analysis Data Visualization, and set any node as the home node to re-map relationships. Add ​control and transparency to entity updates with Master Index Versioning, creating an immutable, time-stamped snapshot of that entity that cannot be altered, and a complete audit trail – who changed it, when they changed it, what changed. Update entities across all cases or create a case-specific version for an investigation for a unified, searchable record of every entity across your cases \(Persons, Vehicles, Organizations, Locations, Property, Firearms\).
+
+    -   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the `Create Work Order` button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace and context-switching between systems.
+
+    -   Added lead management capabilities for lead submission, intake, triage, assignment, tracking, and investigation workflows, including portal experiences for submitting and monitoring leads.
+
+-   **[Use Page Patterns with GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-tk-portal-patterns.md)**
+    -   The GOV.UK Developer Toolkit has been updated to include three page patterns that confirm to GOV.UK Design System guidelines:
+
+        -   Question pages: forms experience where the questions are surfaced one by one on the UI
+        -   Step by step navigation: Where a user can view all the steps required to complete a task in one view
+        -   Confirmation page: Where a user sees a confirmation page after submitting their answer to the last question
+-   **[Identity Provider Integration plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-identity-framework-landing.md)**
+    -   The Identity Provider Integration plugin \(sn\_idp\_integ\) allows provides ServiceNow developers with the data model foundation to develop OpenID Connect \(OIDC\) integrations that authenticate and verify constituent identities through approved government OpenID Connect \(OIDC\) providers — ID.me \(US\), myID \(Australia\), GOV.UK One Login \(UK\) — replacing email-only identification. It standardizes and enhances the identity verification process, delivering a provider-neutral OIDC framework for capturing and storing key identity provider data, including identity provider issuer, identity provider ID, and assurance level from OIDC providers on top of the existing Multi-Provider SSO \(MPSSO\) plugin.
+
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+-   **[Enhancements to Grants Management: Program Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Establish the Grant Program Budget in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pgr-budget.md)
+
+Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
+
+    -   [Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)
+
+Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
+
+-   **[Enhancements to Grants Management: Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-gmp-grant-proposal-screen.md)
+
+Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
+
+
+
+-   **[Updated Coral theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md)**
+
+The Coral theme has been improved to enhance usability across web, mobile, and portal experiences that use Next Experience and Core UI:
+
+    -   A fully overhauled color system for smoother gradients and better contrast.
+    -   Softer outlines and more rounded components for a new, accessible look.
+    -   A significantly improved dark mode with deeper blue tones for reduced eye strain.
+    -   New AI gradient styles and subtle animations to highlight intelligent features.
+    -   Smarter focus behavior that reduces visual clutter for mouse users.
+-   **[Enhancements to Constituent Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/portals-psds-exploring.md)**
+
+UI Enhancements have been made to all Public Sector Digital Services constituent portals by replacing legacy widgets \(for example, portal banners, data lists\) with standardized, CSM Configurable Widgets and components. The update verifies backward compatibility, migration guidance, usage analytics, and provide training for admins, and also enables dynamic data rendering, and better filtering across service flows.
+
+-   **[Enhancements to Investigative Case Management Configurable Case role-based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md)**
+
+Extend write access and restrict read access to cases based on Assigned Office, Assignment Group, or both to allow automatic case access alignment with organizational units without managing the Teams tab manually.
+
+-   **[Enhancements to Document Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-ai-skill-doc-screening.md)**
+
+Applicants can select a specific document type from a pre-configured, category-scoped list during upload, stored on the document record and displayed read-only to internal agents in both portal and Workspace views.
+
+
+-   **[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
 </td></tr><tr><td>
 
 Purchase Order Management
@@ -1872,11 +2124,11 @@ Sales CRM for Telecommunications
 
 </td><td>
 
--   **Legal name persistence during account creation**
+-   **[Legal name persistence during account creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/account-details-form-fields.md)**
 
 Legal name entered during account creation is now correctly persisted. Previously, the value was mapped to a database field that did not exist.
 
--   **Order integrator role no longer blocks other roles from creating consumers and locations**
+-   **[Order integrator role no longer blocks other roles from creating consumers and locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-with-order-management.md)**
 
 Fixed an access control issue where the order integrator role's create permissions on Consumer and Location records inadvertently blocked other roles, such as CSM Agent, from creating those records.
 
@@ -1909,7 +2161,7 @@ Service Exchange \(formerly Service Bridge\)
 
 </td><td>
 
--   **[Upgrade authorization on a provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown) and [Upgrade authorization on a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**
+-   **[Upgrade authorization on a provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-upgrade-authorization-provider.md) and [Upgrade authorization on a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-upgrade-authorization-consumer.md)**
 
 Upgrade consumer connections from Resource Owner Password Credentials \(ROPC\) to Client Credentials OAuth by using Upgrade Auth on the connection record, to authenticate connections as an application rather than of with a user's password, improving security and compliance. Run the upgrade once from the provider instance to update both instances, keep the connection active, and avoid off-boarding and re-onboarding the consumer.
 
@@ -1953,6 +2205,15 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
+-   **Improved cross-scope access security enforcement for getRefRecord\(\) JavaScript API**
+
+The cross-scope security mechanism has been strengthened, supporting consistent application of authorization rules. For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985).
+
+-   **[Default value of glide.sys.fencing.restricted\_caller\_access.invalidation\_mode is SCRIPT\_ENGINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md)**
+
+The default value of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed from DB\_LISTENER to SCRIPT\_ENGINE. When the property is set to SCRIPT\_ENGINE, and an update set contains a script with changes, the script engine doesn't invalidate associated RCA records. To enable a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits, set the value to DB\_LISTENER.
+
+
 -   **[AI indicators updated for form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-ai-indicator-form-fields.md)**
 
 AI indicators for form fields in Core UI and configurable workspaces now support AI color gradients and have been updated to reflect the latest ServiceNow Otto name and iconography.
@@ -1971,7 +2232,9 @@ Configure choice fields to display either None or --None-- for empty options usi
 
 -   **[Base cross-scope access on the latest source code updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md)**
 
-Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property. By default, a database listener monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
+Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property.
+
+**Note:** In the Brazil Early Availability and Brazil Patch 1 releases, the default value is DB\_LISTENER. Beginning with the Brazil Patch 2 release, the default value is SCRIPT\_ENGINE.
 
 -   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
 
@@ -1984,6 +2247,50 @@ The JavaScript engine on the ServiceNow AI Platform was updated to incorporate c
 -   **[Configure row threshold for exports to Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ExportLimits.md)**
 
 Configure the row limit for exports to Excel using the properties **glide.export.xls.max.rows.per.sheet** and **glide.export.xlsx.max.rows.per.sheet**.
+
+
+</td></tr><tr><td>
+
+ServiceNow Arc
+
+</td><td>
+
+-   **[Auto mode for each chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-auto-mode-chat.md)**
+
+Users choose **Standard** or **Auto** approval for each chat in ServiceNow Arc from the message box, and set a default approval mode in **Settings** &gt; **Approvals** for new chats and background runs, such as scheduled tasks.
+
+To make auto mode available, administrators turn on the Auto Mode capability \(**auto\_approval**\), which is off by default, and set tool gates to **Auto Approval** for the tools that auto mode can cover.
+
+-   **[Microsoft 365 connector permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/set-m365-permissions.md)**
+
+Users set each Microsoft 365 connector capability to **Allow**, **Ask me first**, or **Deny**. With **Ask me first**, an approval card asks the user to allow or deny the action every time it runs, and auto mode never skips it.
+
+Administrators set the upper limit with the **Approval gate** field on each connector scope in a policy. Users can choose only a stricter setting, and capabilities the policy limits show **Set by your organization**. Microsoft 365 scopes turned off on the instance now appear in the list. Existing policies keep their behavior, and the audit log records policy changes and Microsoft 365 write actions.
+
+-   **[Clearer approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/action-approval-flow-cowork.md)**
+
+Approval cards in ServiceNow Arc now name the action and describe what's at stake, such as what the action changes or sends and whether it can be undone. For a command under a hard gate, the card names the command that triggered it.
+
+**Allow always** is renamed **Always Allow**, and standing approvals in **Settings** &gt; **Approvals** describe the whole group of actions they cover.
+
+Accessing a folder outside the workspace asks for approval with a soft gate that offers **Always Allow**, unless an approval pattern in the policy applies a hard gate to that call.
+
+-   **[Schedules management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-scheduled-tasks.md)**
+
+Users create scheduled tasks from **Schedules** in the ServiceNow Arc sidebar or through chat. They can start from a blueprint or a custom reminder, and select **Reminder only** to get a notification instead of running a task.
+
+The list shows every schedule, whether created in chat or in **Schedules**. Users can search the list, run, duplicate, edit, pause, or delete any schedule, and see when it last ran and when it runs next.
+
+
+</td></tr><tr><td>
+
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   **[Page collections renamed page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page-variant-servicenow-ai-experience-lab-for-vs-code.md)**
+
+Page collections are now called page variants. The **Lux: Create page variant** command and its prompts and messages use the new name. When you create a page variant in a new project, the extension saves it in the `_variants` folder. In projects that already have a `_collections` folder, the extension continues to create page variants in `_collections`.
 
 
 </td></tr><tr><td>
@@ -2014,9 +2321,22 @@ When the AI agent searches for similar change requests, it now returns only chan
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+-   **[Software Spend Detection Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-sam-workspace.md)**
+
+The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
+
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Virtual Agent
 
 </td><td>
+
+-   ****
 
 -   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md)**
 
@@ -2087,7 +2407,7 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 
 -   **Role masking in the Access Observer and Field Encryption workflows**
 
-The security\_admin role is no longer used as the role masking agent for the Access Observer and Field Encryption agentic workflows. Following least-privilege principles, these workflows run without elevating to security\_admin.
+The security\_admin role isn't part of the sn\_vault\_console.vault\_console\_admin role. To use the Access Observer and Field Encryption agentic workflows, assign the security\_admin role to sn\_vault\_console.vault\_console\_admin users, and then elevate to security\_admin.
 
 -   **Default policy naming**
 
@@ -2131,10 +2451,6 @@ Understand licensing scope at a glance from the renamed column in the Software M
 
 The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
 
--   **[Software Spend Detection Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-sam-workspace.md)**
-
-The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
-
 
 </td></tr><tr><td>
 
@@ -2142,11 +2458,24 @@ Strategic Planning
 
 </td><td>
 
--   **Switching a team to Kanban in EAP**
+-   **Target import check-in frequencies**
+
+Target import accepts Period as a check-in frequency. Import rejects a check-in frequency that the active calendar does not allow and shows a message that states the reason.
+
+-   **[Duplicate target behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/create-a-copy-of-a-goal-or-target.md)**
+
+When you duplicate a target, the copy keeps the source check-in frequency only if the active calendar supports it. The copy gets new breakdowns from the active calendar and never copies the source breakdowns. The source target does not change.
+
+-   **[Find the open sprints that block Planning Interval completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/start-or-complete-iteration-in-eap.md)**
+
+When open child sprints prevent you from completing a Planning Interval, you must know which sprints to close. The completion alert now lists every open sprint by team. Each sprint links to the Agile board of the team for Agile Development 2.0 sprints. CWM teams link to the CWM board. All other sprints link to the EAP Backlog of the team.
+
+
+-   **[Switching a team to Kanban in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/switch-agile-team-to-kanban-in-eap.md)**
 
 Sprints that aren't complete are cancelled when you set a team's Planning methodology to Kanban, including the team's current sprint. Completed and cancelled sprints aren't changed, and work items stay assigned to the sprints that were cancelled. A team connected to Collaborative Work Management \(CWM\) can't be switched to Kanban while it has active or planned sprints.
 
--   **Planning methodology on existing teams in EAP**
+-   **[Planning methodology on existing teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scrum-and-kanban-teams-in-eap.md)**
 
 Each existing agile team is assigned a planning methodology when you upgrade: Scrum if the team or its configuration has a business calendar, Kanban if neither has one. Because Kanban teams don't show sprint controls, review any team created without a business calendar and set its Planning methodology to Scrum if that team plans in sprints.
 
@@ -2266,7 +2595,7 @@ System Localization
 
 -   **[Improved visibility for the user's date format and time format settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-language-preferences.md)**
 
-The date and time format settings are relocated from the user profile to the Language &amp; Region section within the user's Preferences. These important settings are now visible and editable in one place.
+Date and time format settings can be edited in two locations: the user profile and the Language &amp; Region section within the user's Preferences. This update improves the visibility and availability of these important settings.
 
 
 </td></tr><tr><td>
@@ -2434,16 +2763,6 @@ Vulnerability Response
 
 Changing a risk rating is no longer available from the Request Exception dialog, or from the Bulk Edit dialog by selecting **Mitigating Control in Place** as a deferral reason. Risk rating and compensating control fields have been removed from both. Use **Modify risk** or **Request risk modification**, according to your role, to change a risk rating instead for individual records or in bulk.
 
-
-</td></tr><tr><td>
-
-Zero Copy Connector for ERP
-
-</td><td>
-
--   ****
-
--   ****
 
 </td></tr><tr><td>
 

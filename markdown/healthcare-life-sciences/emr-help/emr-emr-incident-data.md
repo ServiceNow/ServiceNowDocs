@@ -18,7 +18,7 @@ The EMR Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table stores the cap
 
 The EMR Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table has the following features:
 
--   Extends the Remote Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table.
+-   Extends the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table.
 -   Models request-specific EMR data.
 -   Corresponds to request parameters.
 -   Includes the capability to add more columns for any additional parameters.

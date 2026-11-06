@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -24,6 +24,8 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: How to set the trigger condition and priority for an issue workflow
+
 When a new issue is created, the system evaluates the workflow's trigger condition. If the condition matches, the workflow can be applied to the issue.
 
 If multiple active workflows on the same table match an issue, the workflow with the lowest priority number is selected. Priority controls the order in which matching workflows are evaluated. When you create a workflow, the system automatically assigns a default priority value that is higher than the highest priority already assigned to a workflow on the table. You can change this value as needed. If another active workflow on the same table uses the same priority value, the system displays a warning. The conflict must be resolved before the workflow can be activated.
@@ -32,15 +34,15 @@ If multiple active workflows on the same table match an issue, the workflow with
 
 1.  Define how the workflow's trigger condition is evaluated.
 
-<table><thead><tr><th align="left" id="d345128e69">
+<table><thead><tr><th align="left" id="d346113e90">
 
 Option
 
-</th><th align="left" id="d345128e72">
+</th><th align="left" id="d346113e93">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d345128e78">
+</th></tr></thead><tbody><tr><td id="d346113e99">
 
 **No condition**
 
@@ -48,7 +50,7 @@ Action
 
 No action is required. The workflow applies to any issue on the selected table.
 
-</td></tr><tr><td id="d345128e90">
+</td></tr><tr><td id="d346113e111">
 
 **__Field-based condition__**
 
@@ -56,7 +58,7 @@ No action is required. The workflow applies to any issue on the selected table.
 
 Leave **Scripted condition** cleared. Select **Edit conditions**, define the condition criteria, and then select **Set**.
 
-</td></tr><tr><td id="d345128e112">
+</td></tr><tr><td id="d346113e133">
 
 **__Scripted condition__**
 

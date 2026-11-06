@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowottoforfinancialservicesoperationsfso-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -566,6 +566,8 @@ Australia Patch 5
 -   Research and prepare for customer outreach with a customer profile summary skill and a customer insights AI agent. The AI agent answers natural-language queries about a customer by dynamically drawing on data from defined data sources.
 
  See [AI in FSO](https://www.servicenow.com/docs/access?context=exploring-now-assist-for-financial-services-operations-fso&family=australia&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 

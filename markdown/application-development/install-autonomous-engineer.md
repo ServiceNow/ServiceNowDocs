@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/install-autonomous-engineer.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-14"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, install, setup, ServiceNow Studio, Build Agent, agent packs]
 audience: programmer
-breadcrumb: [Configure, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Configure, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Install Autonomous Engineer
@@ -22,7 +22,7 @@ Autonomous Engineer is a separate application available in the ServiceNow Store.
 
 -   Check your entitlements to confirm your access to Autonomous Engineer before installing.
 -   Review the Autonomous Engineer application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   You can use Autonomous Engineer on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-build-agent.md).
+-   You can use Autonomous Engineer in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-build-agent.md).
 
 Role required: admin
 

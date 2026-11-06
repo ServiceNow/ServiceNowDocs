@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow Add-in for Microsoft 365, ServiceNow Add-in for Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using ServiceNow Add-in for Microsoft 365, ServiceNow Add-in for Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Get a custom add-in for Microsoft Outlook

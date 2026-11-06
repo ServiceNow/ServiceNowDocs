@@ -24,7 +24,7 @@ Subscription required: This feature requires an Integration Hub subscription. Fo
 
 Ensure that you've installed the required spoke plugin.
 
-Ensure that you have created an OAuth application endpoint for the external client applications to access the ServiceNow instance. For more information about creating an inbound OAuth application endpoint, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/oauth-inbound.md).
+Ensure that you have created an OAuth application endpoint for the external client applications to access the ServiceNow instance. For more information about creating an inbound OAuth application endpoint, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/oauth-inbound.md).
 
 -   If you want to create an OAuth application endpoint for external client applications to access the ServiceNow instance, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateEndpointforExternalClients.md).
 -   If you want to create an OAuth JWT API endpoint for external clients to access the ServiceNow instance, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-jwt-endpoint.md).

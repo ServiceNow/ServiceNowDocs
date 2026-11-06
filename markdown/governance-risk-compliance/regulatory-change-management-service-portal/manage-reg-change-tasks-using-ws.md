@@ -1,6 +1,6 @@
 ---
 title: Manage regulatory change tasks
-description: Manage the regulatory change tasks that are associated with the regulatory event alert. When a business entity owner completes the impact assessment on the regulatory event alert, the user with the sn\_grc\_reg\_change.user role reviews the assessment summary and marks the alert as applicable.
+description: Manage the regulatory change tasks associated with a regulatory event alert. After a business entity owner completes the impact assessment, a user with the sn\_grc\_reg\_change.user role reviews the summary and marks the alert as applicable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-reg-change-tasks-using-ws.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, 
 
 # Manage regulatory change tasks
 
-Manage the regulatory change tasks that are associated with the regulatory event alert. When a business entity owner completes the impact assessment on the regulatory event alert, the user with the sn\_grc\_reg\_change.user role reviews the assessment summary and marks the alert as applicable.
+Manage the regulatory change tasks associated with a regulatory event alert. After a business entity owner completes the impact assessment, a user with the sn\_grc\_reg\_change.user role reviews the summary and marks the alert as applicable.
 
 ## Before you begin
 
@@ -36,15 +36,15 @@ The coordinator of the regulatory event alert identifies the steps to comply wit
 
 4.  Review the impact assessment and mark the alert using one of the following options.
 
-<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d233973e110">
+<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d234893e110">
 
 Field
 
-</th><th align="left" id="d233973e113">
+</th><th align="left" id="d234893e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233973e119">
+</th></tr></thead><tbody><tr><td id="d234893e119">
 
 **Applicable**
 
@@ -52,7 +52,7 @@ Description
 
 Mark the alert as applicable. After marking the regulatory event alert as **Applicable**, a new regulatory change task is automatically created in the Regulatory Tasks related list in the regulatory alert UI page.
 
-</td></tr><tr><td id="d233973e131">
+</td></tr><tr><td id="d234893e131">
 
 **Not applicable**
 
@@ -67,7 +67,7 @@ Mark the alert as not applicable.
 -   Other
 As a result of this action, the stepper component displays the alert stage as **Completed**.
 
-</td></tr><tr><td id="d233973e167">
+</td></tr><tr><td id="d234893e167">
 
 **Cancel regulatory alert**
 
@@ -75,7 +75,7 @@ As a result of this action, the stepper component displays the alert stage as **
 
 Cancel the regulatory alert.
 
-</td></tr><tr><td id="d233973e176">
+</td></tr><tr><td id="d234893e176">
 
 **Defer**
 

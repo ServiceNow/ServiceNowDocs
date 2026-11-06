@@ -36,11 +36,6 @@ See [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/Ser
     After you upgrade to Brazil, update the Workflow Studio application in the ServiceNow® Store.
 
 
-## Accessibility and localization
-
--   **Accessibility information**
-    -   -   **Localization information**
-
 **Parent Topic:**[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/workflow-studio-rn-landing.md)
 
 ## Brazil Early Availability
@@ -49,7 +44,7 @@ This release introduces the ability to view conditional activities and the prefe
 
 ### What's new
 
--   **[Ideal path for a playbookIdeal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ideal-path-for-playbook.md)**
+-   **[Ideal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ideal-path-for-playbook.md)**
 
     Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
 

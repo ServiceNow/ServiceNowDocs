@@ -68,6 +68,22 @@ Condition
 
 Filter condition used to set up the relationship for the configuration record. For example, you can set the condition as **"Status in source" "is" "Valid"**.
 
+</td></tr><tr><td>
+
+Maximum number of nodes
+
+</td><td>
+
+Maximum number of nodes to be processed for the configuration record. The value must be 2 or greater. If you leave this field empty, the value of the Maximum number of nodes to be processed system property is used. The default value is 10,000.
+
+</td></tr><tr><td>
+
+Maximum number of levels
+
+</td><td>
+
+Maximum number of relationship levels to be processed for the configuration record. The value must be 2 or greater. If you leave this field empty, the value of the Maximum number of levels to be processed system property is used. The default value is 5.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-a-main-node-config-record.md)
 

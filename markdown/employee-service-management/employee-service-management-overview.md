@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emp
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 8
 ---
 
 # Employee Service Management

@@ -36,7 +36,7 @@ You can view equipment model entities for any site, if the cmdb\_ot\_isa\_admin 
 
 4.  To create a child entity, select the **Create new entity** button and fill in the details in the Create new entity form.
 
-    To learn more, see [Create an entity for a new equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md).
+    To learn more, see [Create an entity for an equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md).
 
 5.  To view the child entities for the equipment model entity, select **Child Entities**.
 

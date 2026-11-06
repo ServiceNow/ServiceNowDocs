@@ -49,7 +49,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 

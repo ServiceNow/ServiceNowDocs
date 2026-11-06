@@ -24,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an active obligation record.
 
-<table id="choicetable_a12_4dt_3kc"><thead><tr><th align="left" id="d338138e62">
+<table id="choicetable_a12_4dt_3kc"><thead><tr><th align="left" id="d343801e62">
 
 Hardware Asset Workspace view
 
-</th><th align="left" id="d338138e67">
+</th><th align="left" id="d343801e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d338138e73">
+</th></tr></thead><tbody><tr><td id="d343801e73">
 
 **Contract management**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d338138e134">
+</td></tr><tr><td id="d343801e134">
 
 **Asset operations**
 

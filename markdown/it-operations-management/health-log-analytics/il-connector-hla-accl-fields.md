@@ -41,7 +41,7 @@ Port
 
 </td><td>
 
-The port on the MID Server to which the ACC-L agent connects. This field is required.**Important:** This port can't be the same as the MID Web Server port.
+The port on the MID Server to which the ACC-L agent connects. This field is required.**Important:** This port can't be the same as the MID Web Server port. Enter a unique port that no other application on the MID Server uses. Ask your security team to allow traffic on this port between the MID Server and the log sources.
 
 </td></tr><tr><td>
 

@@ -24,11 +24,11 @@ Role required: activity\_admin, activity\_creator
 
 The JDBC activity template allows you to execute ANSI SQL statements or stored procedures on a target database. Support for stored procedures with IN, OUT, and INOUT parameters are available in Brazil. To learn how to set up these parameters, see [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAJDBCActivity.md).
 
-**Note:** If you are transferring bulk data into a ServiceNow instance from an external data source, use [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_ImportSetsKeyConcepts.md). The JDBC activities allow you to transfer data between external data sources and ServiceNow within a workflow. It is not intended to replace the bulk import features of data sources.
+**Note:** If you are transferring bulk data into a ServiceNow instance from an external data source, use Import sets key concepts. The JDBC activities allow you to transfer data between external data sources and ServiceNow within a workflow. It is not intended to replace the bulk import features of data sources.
 
 ## Procedure
 
-1.  Create or verify your [JDBC credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md).
+1.  Create or verify your JDBC credential.
 
     Your JDBC credentials must have permission for the target database and proper configuration for the corresponding JDBC connection. Credentials must be set up before you can create a JDBC activity.
 
@@ -36,13 +36,13 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
     Your JDBC connection must be configured with valid JDBC credentials set up before you can create a JDBC activity.
 
-3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-custom-activities.md).
+3.  Create a custom activity.
 
     This action creates a custom activity using a template.
 
 4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md), configure the JDBC Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d564233e157">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d566744e157">
 
 **[JDBC Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)**
 
@@ -54,7 +54,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 -   Database instance name
 
 
-</td></tr><tr><td id="d564233e188">
+</td></tr><tr><td id="d566744e188">
 
 **Credential**
 
@@ -62,7 +62,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 
 JDBC credential to use for your JDBC connection.
 
-</td></tr><tr><td id="d564233e197">
+</td></tr><tr><td id="d566744e197">
 
 **SQL statement**
 
@@ -79,7 +79,7 @@ Input the ANSI SQL to execute on the JDBC target database. **Note:** This field 
 -   describe
 For added security measure, a MID Server property controls the operations that this JDBCOrchestrationProbe executes, which restricts the SQL commands used. This property protects against potentially destructive commands, such as drop database. The mid.property.jdbc\_operations contains the MID Server property controls.**Note:** You cannot run multiple statements of different types. For example, you cannot run a select statement and an update statement together, but you can run two insert statements. However, you cannot run multiple select statements in this activity.
 
-</td></tr><tr><td id="d564233e244">
+</td></tr><tr><td id="d566744e244">
 
 **Maximum rows**
 
@@ -87,7 +87,7 @@ For added security measure, a MID Server property controls the operations that t
 
 Maximum number of records to retrieve from database. The default is 1000.
 
-</td></tr><tr><td id="d564233e253">
+</td></tr><tr><td id="d566744e253">
 
 **Maximum payload size \(KB\)**
 
@@ -95,7 +95,7 @@ Maximum number of records to retrieve from database. The default is 1000.
 
 You can set a limit on the maximum payload size of data retrieved from the database. The default is 64 kilobytes.
 
-</td></tr><tr><td id="d564233e263">
+</td></tr><tr><td id="d566744e263">
 
 **Connection timeout**
 
@@ -103,7 +103,7 @@ You can set a limit on the maximum payload size of data retrieved from the datab
 
 How long the activity waits to make the connection. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d564233e272">
+</td></tr><tr><td id="d566744e272">
 
 **Query timeout**
 
@@ -111,7 +111,7 @@ How long the activity waits to make the connection. This field is populated auto
 
 Elapsed time to wait after running the query until the data is returned. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d564233e281">
+</td></tr><tr><td id="d566744e281">
 
 **Required MID Server capabilities**
 
@@ -119,7 +119,7 @@ Elapsed time to wait after running the query until the data is returned. This fi
 
 MID Server to use for querying JDBC, by capabilities. By default, the system selects a MID Server that has JDBC capability.
 
-</td></tr><tr><td id="d564233e290">
+</td></tr><tr><td id="d566744e290">
 
 **Use stored procedure**
 
@@ -158,7 +158,7 @@ Role required: activity\_admin, activity\_creator
 
 ### About this task
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md) [JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CyberArkCredStorageIntegrate.md).
+JDBC credentials JDBC credentials are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CyberArkCredStorageIntegrate.md).
 
 ### Procedure
 
@@ -361,7 +361,7 @@ The JDBC driver to use for this connection when it is not a default database. **
 **Related topics**  
 
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md)
+[bundle-psec.r_JDBCCredentialsForm]
 
 ## Auto-map JDBC activity output variables
 

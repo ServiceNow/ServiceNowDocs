@@ -33,15 +33,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d451357e110">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d453860e110">
 
 Field
 
-</th><th align="left" id="d451357e113">
+</th><th align="left" id="d453860e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d451357e119">
+</th></tr></thead><tbody><tr><td id="d453860e119">
 
 **Observable**
 
@@ -49,7 +49,7 @@ Description
 
 Select and define the observable.
 
-</td></tr><tr><td id="d451357e128">
+</td></tr><tr><td id="d453860e128">
 
 **Object**
 
@@ -57,7 +57,7 @@ Select and define the observable.
 
 Select and define the object.
 
-</td></tr><tr><td id="d451357e137">
+</td></tr><tr><td id="d453860e137">
 
 **Relationship Type**
 
@@ -69,7 +69,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d451357e156">
+</td></tr><tr><td id="d453860e156">
 
 **Start Time**
 
@@ -77,7 +77,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d451357e166">
+</td></tr><tr><td id="d453860e166">
 
 **Stop Time**
 
@@ -85,7 +85,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d451357e175">
+</td></tr><tr><td id="d453860e175">
 
 **Description**
 

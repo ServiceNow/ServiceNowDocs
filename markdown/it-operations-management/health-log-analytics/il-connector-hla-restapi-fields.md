@@ -83,7 +83,7 @@ Port
 
 </td><td>
 
-The port for the MID Server.This field is read-only. It is auto-populated when the MID Web Server is chosen.
+The port on the MID Server used for listening to logs.This field is read-only. It is auto-populated when the MID Web Server is chosen.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)

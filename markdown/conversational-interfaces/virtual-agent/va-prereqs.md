@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, LLM]
-breadcrumb: [Enhanced chat, Chat experiences, Explore, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Enhanced chat, Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Prerequisites for enhanced chat

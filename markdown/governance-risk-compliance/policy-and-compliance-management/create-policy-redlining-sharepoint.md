@@ -58,6 +58,8 @@ When personal authentication is enabled, create, connect, and upload operations 
 
     For example, if your document, PolicyAuthoring.docx, will reside at **Site Documents** &gt; **GRC**, enter GRC in the **Folder location** field.
 
+    Currently, you can create, connect, and retrieve documents only from the default document library of the configured SharePoint site.
+
 8.  Enter the name of the document in the **Document name** field.
 
 9.  Select **Create**.

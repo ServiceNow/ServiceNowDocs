@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 2
-breadcrumb: [Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Full and delta scans
@@ -47,8 +47,6 @@ Impact Platform Health delivers AI-generated code fixes at two critical points i
 You can view findings, apply manual fixes, generate AI-suggested fixes, or submit exceptions for findings you believe aren't valid.
 
 This unified approach reduces manual remediation time and improves platform quality across your ServiceNow instances.
-
-**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 
 **Related topics**  
 

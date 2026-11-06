@@ -1,6 +1,6 @@
 ---
 title: Create a quote transaction layout
-description: Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in CPQ.
+description: Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-layout.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Layouts, ServiceNow Quote Experience, Configure, price, quote apps,
 
 # Create a quote transaction layout
 
-Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in CPQ.
+Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in ServiceNow CPQ.
 
 ## Before you begin
 

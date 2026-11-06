@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AEMC user interface, App Engine Management Center UI, App Engine Management Center user interface]
-breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # App Engine Management Center user interface

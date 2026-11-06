@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio user interface

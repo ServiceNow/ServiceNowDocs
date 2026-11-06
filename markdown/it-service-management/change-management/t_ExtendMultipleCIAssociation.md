@@ -32,7 +32,7 @@ Role required: admin
 
     For example, to enable multiple CI association for problem records, add `problem` as a value, separated by a comma.
 
-4.  Click **Update** to save and update the property.
+4.  **Update** to save and update the property.
 
 5.  Complete the following steps to disable multiple CI association for the Change Request form.
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 1
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Create application files to include sample data
@@ -41,7 +41,7 @@ The application data only includes the version of the records that existed when 
 
 4.  For **Load When**, select when the application record includes application data.
 
-<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d54731e142">
+<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d52452e142">
 
 **__New Install and Upgrades__**
 
@@ -49,7 +49,7 @@ The application data only includes the version of the records that existed when 
 
 Includes application data whenever the application is installed or upgraded.
 
-</td></tr><tr><td id="d54731e154">
+</td></tr><tr><td id="d52452e154">
 
 **__New Install__**
 
@@ -57,7 +57,7 @@ Includes application data whenever the application is installed or upgraded.
 
 Includes application data only when the application is installed.
 
-</td></tr><tr><td id="d54731e166">
+</td></tr><tr><td id="d52452e166">
 
 **__New Install with Demo Data__**
 

@@ -18,7 +18,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
 
 <table id="table_ibb_fsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>To add a parameter to a MID Server, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
@@ -316,7 +316,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See  for more information.
 
     -   Type: true \| false
     -   Default value: false

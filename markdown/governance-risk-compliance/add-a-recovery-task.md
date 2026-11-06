@@ -50,6 +50,8 @@ To automate a recovery task, administrators or application developers create an 
 
     If a plan has more than 500 tasks, the system doesn’t update the order of the tasks automatically. A manual intervention is required to set the order of the tasks. An informational message is displayed informing the users to select the **Update dependencies** UI action that is available in the plan and recovery task records.
 
+    You can select dependencies only from tasks in the same plan or in an upstream plan. An upstream plan has the current plan added as a related plan with the Downstream relationship. If you select a task from any other plan, the error "Recovery task dependencies should have a valid upstream dependency" appears.
+
     In a plan, while it’s possible to tag multiple assets, you can concentrate on particular assets for certain scenarios. Beginning with the Xanadu release, you can tag specific assets to a recovery task and calculate the time taken to recover each asset accurately during an event or exercise. The actual duration and total effort of the assets in the events are determined based on the tagging of the assets. You have these options in the **Tag assets** field for assigning assets to a recovery task:
 
     -   **None**

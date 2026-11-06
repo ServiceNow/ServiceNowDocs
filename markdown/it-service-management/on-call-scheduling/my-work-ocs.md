@@ -18,7 +18,7 @@ As a member of a shift, view your upcoming shifts, request time off, and accompl
 
 My work application in the ITSM Mobile Agent app has the On-Call Scheduling applet to view your upcoming shifts and request time-off. You can also view the members of your group available on call.
 
-For detailed procedure see [Managing incidents and tasks using My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/my-work-application.md).
+For detailed procedure see [Managing incidents and tasks using the My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/my-work-application.md).
 
 |Action|Description|
 |------|-----------|

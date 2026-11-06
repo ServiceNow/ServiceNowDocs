@@ -1,5 +1,5 @@
 ---
-title: Reviewing policy enforcement in AI Control Tower
+title: Reviewing policy enforcement activities in AI Control Tower
 description: Review policy activities and execution results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-reviewing-enforcement-activity.html
@@ -11,7 +11,7 @@ keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, enfo
 breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Reviewing policy enforcement in AI Control Tower
+# Reviewing policy enforcement activities in AI Control Tower
 
 Review policy activities and execution results.
 

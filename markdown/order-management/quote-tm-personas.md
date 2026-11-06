@@ -1,6 +1,6 @@
 ---
 title: Quote transaction personas
-description: Personas define distinct user types in the quoting experience, controlling what users can view and edit on a quote at each stage in CPQ.
+description: Personas define distinct user types in the quoting experience, controlling what users can view and edit on a quote at each stage in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-personas.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Quote transaction personas
 
-Personas define distinct user types in the quoting experience, controlling what users can view and edit on a quote at each stage in CPQ.
+Personas define distinct user types in the quoting experience, controlling what users can view and edit on a quote at each stage in ServiceNow CPQ.
 
 ServiceNow Quote Experience uses personas to represent the distinct roles found in a sales organization, such as a sales representative or a sales manager. Each persona has customized access to data — controlling what users with that persona can view and edit and how the layout appears at each stage of the quote lifecycle.
 

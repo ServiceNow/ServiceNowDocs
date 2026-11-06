@@ -26,15 +26,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d709855e70">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d706921e70">
 
 Method
 
-</th><th align="left" id="d709855e73">
+</th><th align="left" id="d706921e73">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d709855e79">
+</th></tr></thead><tbody><tr><td id="d706921e79">
 
 **__Employee Center__**
 
@@ -45,7 +45,7 @@ Actions
 3.  Open your submitted non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d709855e113">
+</td></tr><tr><td id="d706921e113">
 
 **__Legal Service Portal__**
 

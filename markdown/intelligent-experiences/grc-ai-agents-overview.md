@@ -22,6 +22,8 @@ This AI agent identifies the optimal steps for resolving an issue by referencing
 This AI agent identifies the remediation tasks for resolving an issue by referencing the action plan field on the issue record.
 -   **[Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/grc-report-a-grc-issue-ai-agent.md)**  
 This AI agent enriches the given issue description with additional information by looking at historical data and using GRC context. It analyzes, extracts key information \(such as issue type, date of occurrence, and so on\), and creates a GRC issue.
+-   **[Risk Suggestion AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/grc-risk-suggestion-ai-agent.md)**  
+The Risk Suggestion AI agent builds context for an entity and suggests relevant risks for it. It draws on your internal risk library, model-driven inference, and, with your permission, external public sources, and then creates the confirmed risks as triage records.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sir-exc
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Security Incident Response AI agents, Security Incident Response, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -109,7 +109,7 @@ Used in agentic workflows
 Resolve security incident
 
 </td></tr></tbody>
-</table>Learn more about Security Incident Response at .
+</table>Learn more about Security Incident Response at [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sir-landing-page.md).
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sir-ai-agents-overview.md)
 

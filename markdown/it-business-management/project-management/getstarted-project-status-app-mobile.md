@@ -39,5 +39,5 @@ Role required: admin
 **Related topics**  
 
 
-[Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-experience.md)
+[bundle-mobile.mobile-experience]
 

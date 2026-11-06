@@ -24,7 +24,7 @@ Your OAuth provider and server have different refresh time periods. Refresh time
 
 ## Remedy
 
-Refer to your OAuth provider's documentation when configuring OAuth. See [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/api-inbound-and-outbound.md) for more information.
+Refer to your OAuth provider's documentation when configuring OAuth. See [OAuth inbound and outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/api-inbound-and-outbound.md) for more information.
 
 **Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/troubleshoot-synthetic-monitors.md)
 

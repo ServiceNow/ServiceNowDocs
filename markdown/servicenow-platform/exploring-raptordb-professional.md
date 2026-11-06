@@ -36,7 +36,7 @@ All users of an instance running RaptorDB Professional receive the following ben
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Run analytical queries against operational data without exporting it to an external system.|HTAP engine|All users|
-|Run analytical queries faster on large tables.|Column-store index and parallel query processing. For more information, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateCustomIndex.md).|All users|
+|Run analytical queries faster on large tables.|Column-store index and parallel query processing. For more information, see .|All users|
 |Reduce the primary storage footprint, for leaner backups and faster clone operations.|Live Archive|Platform administrator|
 |Query archived records without restoring them to primary tables.|Live Archive|Data analyst, platform administrator|
 |Query ServiceNow data from existing SQL and business intelligence tools, with no data replication.|Live Connect|Data analyst|

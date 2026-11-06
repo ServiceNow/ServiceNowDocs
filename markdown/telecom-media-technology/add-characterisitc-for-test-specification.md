@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up test definitions, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define a characteristic for the test definition
@@ -69,4 +69,11 @@ Auto-populated name of the test definition for which you’re defining the chara
 
 5.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Test definitions in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-definition-stm.md)
+
+[Test groups in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-group-stm.md)
 

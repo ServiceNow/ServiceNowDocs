@@ -9,7 +9,7 @@ classification: automated-test-framework-atf
 topic_type: reference
 last_updated: "2026-06-10"
 reading_time_minutes: 1
-breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # UI category

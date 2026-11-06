@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-advancedrisk-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 11
+last_updated: "2026-11-06"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -347,7 +347,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Advanced Risk by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Important:** Advanced Risk is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -562,7 +567,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Introduces a rollup method that derives all risk scores from a single risk record based on the highest residual risk, improving traceability and alignment.
+-   Eliminate inconsistent risk assessment inputs by allowing administrators to hide the Not applicable option in control and residual assessments, improving calculation accuracy and reliability.
+-   Assign risk event owners, issue owners, and risk event approvers based on entity fields, in addition to static user or group selection.
+-   Use the Risk Suggestion AI Agent to refine and confirm risks, by providing additional context and reviewing, updating, renaming, or removing suggested risks before they're added.
+-   Use a structured workflow to draft, review, and approve control objective updates before making them active.
+
+ See [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

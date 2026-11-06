@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-23"
+last_updated: "2026-10-06"
 reading_time_minutes: 2
 keywords: [Copy, Now Assist, skill, admin, features]
 breadcrumb: [Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
@@ -27,6 +27,7 @@ The skills that come with the generative AI applications have default configurat
 
 -   The **Make a copy** function is not available for all AI skills.
 -   In a default scenario, only one version of a skill can be active at a time. When you create and activate a copy of a skill, any previously activated version of the skill is deactivated.
+-   One-step activation is not available for copied skills, so use the guided setup to configure and activate.
 
 ## Procedure
 

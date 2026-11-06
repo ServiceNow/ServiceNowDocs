@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-softwareassetmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 51
 breadcrumb: [Products combined by family]
 ---
@@ -616,10 +616,6 @@ Improve reporting of your software installation inventory by deploying rules tha
 
 Reduce entitlement onboarding time by using additional predefined license metrics for supported publishers. These predefined license metrics help you track consumption, verify compliance, and reconcile deployments against entitlements. Review tier ranges and calculation factors on the new **License Metric Tier** tab of the Software entitlement page.
 
--   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://www.servicenow.com/docs/access?context=spend-detection-ai-enhancements&family=brazil&ft:locale=en-US)**
-
-Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -768,10 +764,6 @@ Understand licensing scope at a glance from the renamed column in the Software M
 -   **[Removal candidates tab replaced with the Reclamation tab in the License usage view](https://www.servicenow.com/docs/access?context=sam-workspace-workbench&family=brazil&ft:locale=en-US)**
 
 The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
-
--   **[Software Spend Detection Core UI](https://www.servicenow.com/docs/access?context=spend-detection-sam-workspace&family=brazil&ft:locale=en-US)**
-
-The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
 
 
 </td></tr></tbody>
@@ -1356,6 +1348,8 @@ Australia
 
  See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&family=australia&ft:locale=en-US) for more information.
 
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
+
 </td></tr><tr><td>
 
 Brazil
@@ -1369,6 +1363,8 @@ Brazil
 -   Track and manage financial transaction data for your software products to optimize your software spend.
 
  See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&family=brazil&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

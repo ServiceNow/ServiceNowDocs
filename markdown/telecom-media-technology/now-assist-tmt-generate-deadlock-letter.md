@@ -42,15 +42,15 @@ The deadlock letter draft generation skill is available in the CRM Workspace.
 
 6.  After you're finished summarizing the key findings, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d38188e148">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d41327e148">
 
 Option
 
-</th><th align="left" id="d38188e151">
+</th><th align="left" id="d41327e151">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d38188e157">
+</th></tr></thead><tbody><tr><td id="d41327e157">
 
 **Provide feedback for the summary**
 
@@ -60,7 +60,7 @@ Procedure
 -   If you think that the deadlock letter wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary detail and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d38188e190">
+</td></tr><tr><td id="d41327e190">
 
 **Copy the case summary**
 
@@ -68,7 +68,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the details of the deadlock letter for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d38188e205">
+</td></tr><tr><td id="d41327e205">
 
 **View the information about the case summary**
 

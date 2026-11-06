@@ -1,6 +1,6 @@
 ---
 title: AI in Manufacturing Commercial Operations
-description: Use ServiceNow Otto for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
+description: ServiceNow Otto skills and agentic workflows in Manufacturing Commercial Operations help you create corrective actions and charge information for dealers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/ai-in-mco.html
 release: brazil
@@ -12,20 +12,32 @@ breadcrumb: [Explore, Manufacturing Commercial Operations]
 
 # AI in Manufacturing Commercial Operations
 
-Use ServiceNow Otto for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
+ServiceNow Otto skills and agentic workflows in Manufacturing Commercial Operations help you create corrective actions and charge information for dealers.
 
-ServiceNow Otto brings generative AI skills and agentic workflows to Manufacturing Commercial Operations. Managers, dealers, agents, and submitters can spend less time on manual summarization.
+ServiceNow Otto brings generative AI skills and agentic workflows to Manufacturing Commercial Operations \(MCO\). With these capabilities, managers, dealers, agents, and submitters can generate summaries instead of writing them manually. AI-generated output might be inaccurate or inappropriate, so review all output before you use it.
 
-Within MCO, ServiceNow Otto capabilities fall into two categories:
+Within MCO, ServiceNow Otto capabilities fall into the following categories:
 
 -   Skills
 -   Agentic workflows
 
-Most skills and workflows are available directly on the relevant record page, and can also be started conversationally from the ServiceNow Otto panel. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md). To activate the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Most skills and workflows are available directly on the relevant record page, and you can also start them conversationally from the ServiceNow Otto panel. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md). To activate the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-Role required: admin. Most skills are inactive by default.
+## AI plugins for MCO
 
-To activate a skill, follow the general procedure in [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md), selecting the **MCO** workflow group.
+ServiceNow AI Platform and the \[sn\_mfg\_ai\_agents\], \[sn\_mfg\_gen\_ai\] ServiceNow Otto plugins together provide AI capabilities for MCO workflows.
 
-To edit a skill's prompt, duplicate and edit it directly in AI Skill Kit. See [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md).
+These plugins are included in the existing MCO products, bringing AI-powered automation through three licensing tiers each reflecting a different level of automation maturity:
+
+-   Foundation: Default AI assistance.
+-   Advanced: Agentic workflows and multi-step automation.
+-   Prime: Custom AI agent development.
+
+To activate a skill, follow the general procedure in [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md), and select the **MCO** workflow group.
+
+To edit a skill's prompt, duplicate the skill and edit the copy in AI Skill Kit. See [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md).
+
+## ServiceNow Otto for MCO AI agents
+
+To view a list of all the available agents for ServiceNow Otto for TMT, see .
 

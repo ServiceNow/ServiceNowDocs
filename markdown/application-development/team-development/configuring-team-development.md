@@ -9,7 +9,7 @@ classification: team-development
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Planning your application, Building applications]
+breadcrumb: [Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Configuring Team Development

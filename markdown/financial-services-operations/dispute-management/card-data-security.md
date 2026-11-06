@@ -48,3 +48,5 @@ The Card data security application embeds a tokenization service that enables Fi
 
 **Important:** Customer is responsible for implementation of this application, including decisions relating to tokenization/detokenization of data. Customer remains solely responsible for complying with applicable legal obligations, including Payment Card Industry Data Security Standards \(PCI DSS\).
 
+Card Data Security is hosted in the United States only. For other regional support, contact your ServiceNow representative for more information.
+

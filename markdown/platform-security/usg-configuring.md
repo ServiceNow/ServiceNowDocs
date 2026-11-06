@@ -29,6 +29,8 @@ Create a custom identity group to manage access for a specific set of members.
 Create consumer grants to specify which identity groups can access which alias groups.
 -   **[Add members to an identity group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/usg-add-members-identity-group.md)**  
 Add existing members to an identity group to control which entities can access secrets through consumer grants.
+-   **[Remove members from an identity group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/usg-remove-members-identity-group.md)**  
+Remove a member from an identity group when that member no longer requires access to secrets.
 
 **Parent Topic:**[Unified Secrets Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/usg-landing.md)
 

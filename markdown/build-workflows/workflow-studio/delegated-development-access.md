@@ -18,7 +18,7 @@ Delegated development scopes playbook access to edit Playbook content within a s
 
 Delegated development grants playbook access within one application rather than across the instance. Create an application, assign users as developers on it, and grant them Playbooks permission. Delegated development controls whether playbook authors reach features that are otherwise restricted to admin users.
 
-For general information about delegated development, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md) and [Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-permissions.md).
+For general information about delegated development, see  and .
 
 ## Roles granted
 
@@ -30,7 +30,7 @@ A delegated developer must switch from the Global application scope to the scope
 
 ## Access to activity definitions
 
-Delegated developers reach all activity definitions by default, through the out-of-box content filtering rule that grants access to users with the delegated\_developer role. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+Delegated developers reach all activity definitions by default, through the out-of-box content filtering rule that grants access to users with the delegated\_developer role. For more information, see .
 
 -   **[Grant delegated access to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/grant-delegated-access-to-playbooks.md)**  
 Assign a user as a delegated developer so they can build playbooks within one application.

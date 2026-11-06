@@ -1,5 +1,5 @@
 ---
-title: Modify a template
+title: Modify a change template
 description: Copy and modify change templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/modify-or-retire-template.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Create and propose a change template, Create a Change model, Configure, Change Management, IT Service Management]
 ---
 
-# Modify a template
+# Modify a change template
 
 Copy and modify change templates.
 
@@ -37,19 +37,19 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 2.  Select the template you want to modify, copy, or retire.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d93874e104">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d129917e103">
 
 **Modify a change template**
 
 </td><td>
 
-Modify the information available in the template.**Note:** You can modify any field and field policy in the change template, and send for approval. After the modifications are approved, a new version of the change template is created. Change requests created from the modified change template reflects the modifications made.
+Modify the information available in the template.**Note:** You can modify any field and field policy in the change template, and send for approval. After the modifications are approved, a new version of the change template is created. Change requests created from the modified change template reflect the modifications.
 
 You can modify only templates in the Draft state.
 
-</td></tr><tr><td id="d93874e121">
+</td></tr><tr><td id="d129917e116">
 
-**Create a copy of a published template for retirement or modification**
+**Copy a template**
 
 </td><td>
 
@@ -60,7 +60,7 @@ Select **Copy**.**Note:** A template copy is created and the Previous template f
 
     -   To save the modifications but not send them for approval, select **Save**.
     -   To send the template for approval, select **Publish**.
-    **Note:** In the **Approvers** tab, you can view the list of approvers who have been configured to review the modifications made to the template, and the details of proposed and reviewed modifications.
+    **Note:** On the **Approvers** tab, you can view the list of approvers who have been configured to review the modifications made to the template, and the details of proposed and reviewed modifications.
 
 
 **Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)

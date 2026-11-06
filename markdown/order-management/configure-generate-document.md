@@ -24,7 +24,7 @@ Before you configure the document generation feature, complete the following ins
 2.  Submit a support ticket requesting to enable the **Document Generation** tenant setting.
 3.  When the tenant setting is enabled, export and import the transaction blueprint.
 
-You must also create a document template before you configure this feature. Document templates are created and managed outside CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-configure-pdf-documents.md).
+You must also create a document template before you configure this feature. Document templates are created and managed outside ServiceNow CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-configure-pdf-documents.md).
 
 ## About this task
 

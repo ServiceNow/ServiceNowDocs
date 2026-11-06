@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, Build Agent, agentic development, implementation plan, vibe coding, parallel execution, work items, agent packs]
-breadcrumb: [Build Agent overview, Develop, Agentic development, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Autonomous Engineer in Build Agent

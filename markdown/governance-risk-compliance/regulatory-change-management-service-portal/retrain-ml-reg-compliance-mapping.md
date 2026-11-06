@@ -43,7 +43,7 @@ Role required: ml\_admin
     |**Update and Retrain**|Modify your solution definition and train it.|
 
 
--   **[Auto-assign configuration for regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.md)**  
+-   **[Set up auto-assignment for regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.md)**  
 Set up an assignment configuration record to enable auto-assignments for regulatory alerts of the type regulatory event.
 -   **[Similarity Definition Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/similarity-definition-form.md)**  
 Use the Similarity Definition Form form in Compliance Workspace to create a similarity definition for regulatory compliance mapping.

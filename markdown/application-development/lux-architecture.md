@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Lux architecture, Request pipeline, Server rendering, then hydration, Built on Lit widgets, Subsystem map, Where an app runs]
-breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Lux architecture

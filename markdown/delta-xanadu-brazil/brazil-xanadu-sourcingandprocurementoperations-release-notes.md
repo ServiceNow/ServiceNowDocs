@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-sourcingandprocurementoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 28
 breadcrumb: [Products combined by family]
 ---
@@ -1038,6 +1038,8 @@ Brazil
 -   Assess spend, operational efficiency, and team performance using pre-configured dashboards and metrics.
 
  For an overview of Sourcing and Procurement Operations capabilities, see [Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=psm-overview&family=brazil&ft:locale=en-US).
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

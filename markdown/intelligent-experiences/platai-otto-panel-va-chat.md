@@ -24,7 +24,7 @@ Chat experiences in ServiceNow Otto for Virtual Agent are defined in assistants,
 
 \[Omitted image "nava-portal-screen.png"\] Alt text: Full-page view of the premium chat portal.
 
-For more information, see [Assistants and conversations in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-assistant-designer.md) and .
+For more information, see [Assistants and conversations in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-assistant-designer.md) and [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md).
 
 ## ServiceNow Otto panel
 
@@ -34,7 +34,7 @@ Unlike ServiceNow Otto for Virtual Agent, which is focused on self-service conve
 
 The panel's premium chat experience brings together AI chat, search, file uploads, and multi-step AI-assisted tasks in a single interface. Users can search organizational knowledge, interact with records, and perform work without switching between multiple tools or applications.
 
-The ServiceNow Otto panel experience has an assistant of its own where admins can configure it in Assistant Designer. For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
+The ServiceNow Otto panel experience has an assistant of its own where admins can configure it in Assistant Designer. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md) and [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-premium.md).
 

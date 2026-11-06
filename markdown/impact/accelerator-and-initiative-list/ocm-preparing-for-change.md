@@ -19,15 +19,13 @@ This Accelerator provides Impact customers with structured coaching and proven f
 
 ## Accelerator Overview
 
-OCM: Preparing for Change helps customers answer the question every transformation leader dreads: "Are our people ready?" through five structured phases. CSEs guide customers to assess readiness, engage stakeholders, build communication plans, activate champions, and establish a readiness baseline — so adoption barriers are addressed before they become adoption failures. Customers own the work while the CSEs facilitate the transformation support with appropriate frameworks and expertise.
-
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What You Get
 
-Includes the following CSE-led sessions and activities, as applicable \(up to 1.5 hours each\)
+Includes the following CSE-ledsessions and activities, as applicable \(up to 1.5 hours each\)
 
 -   **Kickoff Session**
     -   Set expectations on the process and depth of deliverables

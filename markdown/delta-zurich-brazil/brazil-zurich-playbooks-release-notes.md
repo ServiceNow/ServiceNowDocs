@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-playbooks-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -94,7 +94,7 @@ Brazil
 
 </td><td>
 
--   **[Ideal path for a playbookIdeal path for a playbook](https://www.servicenow.com/docs/access?context=ideal-path-for-playbook&family=brazil&ft:locale=en-US)**
+-   **[Ideal path for a playbook](https://www.servicenow.com/docs/access?context=ideal-path-for-playbook&family=brazil&ft:locale=en-US)**
 
 Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
 
@@ -361,9 +361,7 @@ Brazil
 
 </td><td>
 
--   **Accessibility information**
-    -   
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -400,7 +398,7 @@ Brazil
 
 </td><td>
 
--   **Localization information**
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Highlight information

@@ -140,7 +140,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 ## Related ServiceNow applications and features
 
--   **[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aes-overview.md)**
+-   **App Engine Studio**
 
     ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
 
@@ -148,10 +148,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Work with remote tables in the ERP system of record, such as SAP, as well as APIs and ETLs, to create ERP data models to use as data sources for ServiceNow AI Platform applications.
 
--   **[ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining-overview.md)**
-
-    Identify ERP customization apps that are candidates to migrate to the ServiceNow AI Platform. Use the ServiceNow AI Platform to build applications and features to automate ERP processes and workflows.
-
+-   **ERP Customization Mining**
 -   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integrationhub.md)**
 
     Automate integration tasks using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
@@ -168,7 +165,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
--   **[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)**
+-   **Virtual Agent Designer**
 
     The Assistant Designer Asset library includes a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 

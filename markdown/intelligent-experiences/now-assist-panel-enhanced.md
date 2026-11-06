@@ -30,9 +30,9 @@ You must fulfill the following conditions before using the ServiceNow Otto panel
 -   ServiceNow Otto panel enhanced chat must be activated before you can use it. See [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md) for more information.
 -   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [ServiceNow Otto skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 -   If you want to use assistants, you must activate them. See [Activate ServiceNow Otto assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
--   If you want to use voice input, you have to enable voice input [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+-   If you want to use voice dictation, you have to enable voice dictation [Enable voice dictation for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
-    **Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
+    **Note:** Voice dictation is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice dictation is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
 
 ## ServiceNow Otto panel enhanced chat overview
@@ -233,7 +233,7 @@ After you enter a question or request on the ServiceNow Otto panel, ServiceNow O
 
 ## Fallback options
 
-**Note:** For more information about where and how to enable fallback options, see .
+**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
 
 A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when ServiceNow Otto didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results.
 

@@ -31,7 +31,7 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 ## Identifier rules
 
-The default Discovery system contains these identifier rules. Each rule is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field, and contains the appropriate attributes for discovering CIs from that table. Where necessary, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
+The default Discovery system contains these identifier rules. Each rule is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field. Each rule also contains the appropriate attributes for discovering CIs from that table. Where necessary, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
 
 <table id="table_r2p_1ql_lt"><thead><tr><th>
 

@@ -34,31 +34,27 @@ The Configuration Console organizes Software Asset Management setup into indepen
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Admin Home**.
+1.  Navigate to **Manage Platform** &gt; **Software Asset Management**.
 
-2.  In the **Manage your products** section, select the Software Asset Management tile.
-
-    The Product Hub opens.
-
-3.  In the Configure your product section, select **Configure**.
+2.  In the Configure your product section, select **Configure**.
 
     **Tip:** To find a specific setup item, enter a keyword in the **Search configurations** field.
 
-4.  Select a module to configure.
+3.  Select a module to configure.
 
     -   In the Configuration Summary navigation menu, select a module.
     -   In the Setup status section, select **Get started** on a module card.
     Configure modules and setup items in any order.
 
-5.  Complete the setup items in the module.
+4.  Complete the setup items in the module.
 
-6.  After completing a setup item, select **Mark as configured**.
+5.  After completing a setup item, select **Mark as configured**.
 
     **Tip:** You can change the configuration status of any item at any time.
 
-7.  Review the **Setup status** section to confirm overall progress.
+6.  Review the **Setup status** section to confirm overall progress.
 
-8.  To bundle configuration changes for deployment, select **Package and download**.
+7.  To bundle configuration changes for deployment, select **Package and download**.
 
     The update set downloads as an `.xml` file.
 

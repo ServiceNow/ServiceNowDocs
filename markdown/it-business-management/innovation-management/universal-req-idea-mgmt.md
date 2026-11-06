@@ -23,7 +23,7 @@ A Universal Request is created from an Interaction Record or New Call record whe
 -   Resolve the Universal Request immediately without assigning it to a specific department.
 -   Transfer the Universal Request to a different department by assigning it to a Tier 1 assignment group.
 
-Universal Request serves as a parent record for other records created as child records, such as INC, HRC, and custom task types. It is also used for all cross-departmental reporting. For more information about universal request, see [Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/explore-universal-request.md).
+Universal Request serves as a parent record for other records created as child records, such as INC, HRC, and custom task types. It is also used for all cross-departmental reporting. For more information about universal request, see Exploring Universal Request.
 
 ## Features
 
@@ -35,11 +35,11 @@ The integration provides the following functionalities:
 
     The relevant information of the universal request such as details from the **Short description** and **Description** fields are copied to the **Title** and **Idea Description** fields of the idea.
 
-    Also, the idea created from the universal request becomes the primary ticket for the universal request and the **Primary Ticket** field is populated with the idea number.
+    Also, the idea created from the universal request is set to the primary ticket for the universal request and the **Primary Ticket** field is populated with the idea number.
 
--   Transfer the idea to another department with or without resolution: If the idea is rejected or cannot be implemented, the routing agent can transfer the idea to another department.
+-   Transfer the idea to another department with or without resolution: If the idea is rejected or can't be implemented, the routing agent can transfer the idea to another department.
 
-    When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC when the idea is deemed not feasible.
+    When an idea is transferred to another department, the idea is closed and a record is created. A request related to HR process can be converted to an idea and transferred to the HR department as an HRC when the idea is deemed not feasible.
 
     **Note:** When the idea created from a universal request is transferred to another department, the resulting INC, HRC, or custom task becomes the primary ticket for the parent universal request.
 
@@ -49,7 +49,7 @@ The integration provides the following functionalities:
 Activate the following plugins if you have the admin role. These plugins are not active by default, and you must install them to integrate Innovation Management with Universal Request applications.
 
 -   PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
--   Universal Request plugin \(com.snc.universal\_request\). For activation information, see [Activate Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/activate-ur-plugin.md).
+-   Universal Request plugin \(com.snc.universal\_request\). For activation information, see Activate Universal Request.
 
 Activate other related plugins such as Human Resources Scoped App: Core \(com.sn\_hr\_core\), and Employee Center \(com.snc.employee\_center\) plugins to facilitate inter-department transfers of ideas.
 

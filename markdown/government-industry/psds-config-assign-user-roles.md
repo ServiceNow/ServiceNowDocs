@@ -72,8 +72,8 @@ External Roles
 
 -   You can also assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
-    -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
+    -   Assign a role to a user
+    -   Assign a role to a group
 
 **Related topics**  
 

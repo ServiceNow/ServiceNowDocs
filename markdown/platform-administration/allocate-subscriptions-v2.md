@@ -20,7 +20,7 @@ Role required: usage\_admin, sn\_sub\_man.admin, oradmin
 
 ## About this task
 
-To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-subscription-auto-assignment.md).
+To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
 
 If you have manually allocated user-based subscriptions before, you can still make manual allocations.
 

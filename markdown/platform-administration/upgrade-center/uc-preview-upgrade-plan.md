@@ -31,7 +31,7 @@ Role required: admin
     -   Total: total number of skipped records
     -   Resolved: skipped records included in the upgrade plan
     -   Reviewed: skipped records that have been reviewed
-    **Note:** This step is applicable only if you have enabled the GLIDE\_UPGRADE\_PLAN\_INCLUDE\_SKIPS property.
+    **Note:** This step is applicable only if you have enabled the GLIDE.UPGRADE.PLAN.INCLUDE.SKIPS property.
 
 
 **Parent Topic:**[Prepare to upgrade with Upgrade Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-prepare-upgrade-plan.md)

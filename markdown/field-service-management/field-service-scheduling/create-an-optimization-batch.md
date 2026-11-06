@@ -18,6 +18,8 @@ Create an optimization batch to determine the interval at which Schedule Optimiz
 
 ## Before you begin
 
+[Configure the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md) and [Scheduling attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
+
 Verify that your agent work schedules are set up correctly:
 
 -   Work schedule structure: Set up a repeating schedule for each technician, such as a weekly or monthly pattern. Individual day exceptions can override this base schedule. Schedules with single, individual day entries won't work for optimization.
@@ -72,7 +74,7 @@ At each defined interval, the batch triggers the Schedule Optimization process. 
 
 **Note:** Schedule Optimization doesn’t detect changes you make to agents or tasks during an optimization run. It considers changes to technicians and tasks during the next optimization run.
 
-You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt.
+You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt. To understand how tasks were processed and assigned during Schedule Optimization runs, see [Run summaries overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
 
 **Related topics**  
 

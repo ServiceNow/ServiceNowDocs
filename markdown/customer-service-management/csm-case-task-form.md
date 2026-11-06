@@ -166,5 +166,21 @@ Visible to customer
 
 If this check box is enabled, the case task is visible to end users from the Customer or Consumer Portals.
 
+</td></tr><tr><td>
+
+Template item
+
+</td><td>
+
+The task plan template item that created this record. This field is read-only, and is a reference to the Template Item \[sn\_task\_plan\_template\_item\] table and appears only when the Task Plan Templates plugin is active.
+
+</td></tr><tr><td>
+
+Template execution
+
+</td><td>
+
+The task plan template execution that created this record. This field is read-only, and is a reference to the Task Plan Template Execution table and appears only when the Task Plan Templates plugin is active.
+
 </td></tr></tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: MobileScripts - Scoped
-description: The MobileScripts API is the entry point for loading and calling custom mobile scripts stored in the Mobile Script \[sys\_sg\_mobile\_script\] table.Loads a mobile script by its API name and returns its exported value \(typically a class or function\) for immediate invocation.
+description: The MobileScripts API is the entry point for loading and calling custom mobile scripts stored in the Mobile Script \[sys\_sg\_mobile\_script\] table.Loads a mobile script by its name and returns the value that the script exports, such as a class or function, so that a script can call it right away.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/MobileScriptsScopedAPI.html
 release: brazil
@@ -8,7 +8,7 @@ product: API Reference
 classification: api-reference
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Mobile Scripting API reference, API reference, API implementation and reference]
 ---
 
@@ -30,26 +30,47 @@ This API is registered in the `sn_mobile_scripting` application scope and requir
 
 ## MobileScripts - get\(String apiName\)
 
-Loads a mobile script by its API name and returns its exported value \(typically a class or function\) for immediate invocation.
+Loads a mobile script by its name and returns the value that the script exports, such as a class or function, so that a script can call it right away.
 
 |Name|Type|Description|
 |----|----|-----------|
-|apiName|String|Dot-walked name in scope.name format \(for example, "global.ValidationHelper"\), matching a record in the sys\_sg\_mobile\_script table.|
+|apiName|String|Name of the mobile script, in the format `scope.name`, such as `global.ValidationHelper`. The name must match a record in the Mobile Script \[sys\_sg\_mobile\_script\] table.|
 
 |Type|Description|
 |----|-----------|
-|Object|The script's exported class, function, or object. Resolved exports are cached for the rest of the transaction, so repeated calls with the same apiName are cheap. If apiName does not resolve to a record in sys\_sg\_mobile\_script, throws IllegalArgumentException.|
+|Object|The value that the script exports, such as a class, function, or object. If `apiName` does not match a record in the Mobile Script table, the method throws an `IllegalArgumentException` error. When the script runs on the instance, the result is saved for the rest of the transaction, so repeated calls with the same name don't run the script again.|
 
-This example calls a static method exported by a mobile script named global.TaskValidator.
+This example loads a mobile script named `global.TaskValidator`, calls its canComplete\(\) method with the sys\_id of the current record, and logs whether the task can be completed.
 
 ```
 var canComplete = MobileScripts.get('global.TaskValidator').canComplete(current.getValue('sys_id'));
-mgs.info(canComplete);
+        mgs.info(canComplete);
 ```
 
 Output:
 
 ```
 true
+```
+
+This example uses the same validator in a write-back action to stop a task from being completed while it has open child tasks. The script handles the case where the mobile script name doesn't match a record, which makes get\(\) throw an error. Keeping the check in a mobile script means that every button and action that needs it calls the same logic.
+
+```
+try {
+        var validator = MobileScripts.get('global.TaskValidator');
+        if (validator.canComplete(current.getValue('sys_id'))) {
+        mgs.addInfoMessage('Task can be completed.');
+        } else {
+        mgs.addErrorMessage('Complete all child tasks first.');
+        }
+        } catch (e) {
+        mgs.info('Could not load global.TaskValidator: ' + e);
+        }
+```
+
+Message shown to the user when the task has open child tasks:
+
+```
+Complete all child tasks first.
 ```
 

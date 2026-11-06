@@ -57,6 +57,8 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -76,6 +78,8 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 [Attach a script file to a file synchronized MID Server]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## Enable MID Server FIPS Enforced Mode
 

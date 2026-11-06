@@ -7,7 +7,7 @@ release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-21"
 reading_time_minutes: 16
 breadcrumb: [Prerequisites for performing top-down discovery, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---

@@ -90,6 +90,8 @@ Target types in Strategic Planning Workspace define how goal achievement is meas
 Target status is calculated automatically from achievement percentages when you enter actual values, and it rolls up to goals using Green, Yellow, and Red thresholds.
 -   **[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)**  
 Formulas and worked examples show how target status is calculated for each target type and how status rolls up from breakdowns to goals.
+-   **[Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/fiscal-calendar-support-targets.md)**  
+With fiscal calendar support, the check-in frequency of a target follows the fiscal periods of your organization instead of the Gregorian calendar.
 
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

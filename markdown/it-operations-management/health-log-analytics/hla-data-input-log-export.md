@@ -9,7 +9,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [ServiceNow, Log Export, Health Log Analytics, HLA, data input, configuration]
+keywords: [ServiceNow, Log Export, Health Log Analytics, HLA, manual, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 

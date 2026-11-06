@@ -81,7 +81,7 @@ Perform any of the following operations in the application service map.
 
 ## What to do next
 
-You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in Configuring the form layout.
 
 **Related topics**  
 

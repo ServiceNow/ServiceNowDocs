@@ -65,8 +65,8 @@ ServiceNow Order Management provides a centralized platform to create and manage
 Learn how to use order operations applications.
 -   **[Using post-sales engagement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-post-sales-engagement.md)**  
 Learn how to use post-sales engagement applications.
--   **[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)**  
-Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)**  
+
 -   **[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-lead-cash-foundation.md)**  
 Learn how to use lead-to-cash foundation applications.
 -   **[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-business-portal.md)**  

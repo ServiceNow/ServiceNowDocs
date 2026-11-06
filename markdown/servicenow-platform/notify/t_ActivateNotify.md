@@ -76,7 +76,7 @@ When migrating to Notify from the Legacy Notify functionality, several changes a
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 
-[E.164 phone number field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md)
+[bundle-platadm.r_ConfigureE.164PhoneNumberFields]
 

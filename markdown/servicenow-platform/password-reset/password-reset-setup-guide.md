@@ -18,7 +18,7 @@ The Password Reset application is active by default and includes example verific
 
 ## Requirements
 
-Role required: admin
+Role required: password\_reset\_admin
 
 **Note:** The Password Reset application is not available during an upgrade.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-file-retrieval-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
 breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_aia.admin
 
 File upload tools allow AI agents to access specialized knowledge from uploaded files. When adding a file upload tool, you can configure which files the AI agent has access to, its execution mode, output display, and processing messages to ensure the tool works effectively within your AI agent's workflow.
 
-Attaching a document when building an AI agent conversationally only informs the draft configuration only. See Create an AI agent conversationally. You must add a file upload tool if you want the AI agent to access the file at run time.
+Attaching a document when building an AI agent conversationally only informs the draft configuration. See Create an AI agent conversationally. You must add a file upload tool if you want the AI agent to access the file at run time.
 
 ## Procedure
 

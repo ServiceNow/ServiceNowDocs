@@ -200,5 +200,5 @@ Reference
 Credentials to use for this SOAP message when the `auth_type` is `basic_auth_pick_credentials`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+</table>**Parent Topic:**[Create a SOAP web service activity]()
 

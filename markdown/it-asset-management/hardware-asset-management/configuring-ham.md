@@ -147,8 +147,8 @@ The Hardware Asset Management \(HAM\) application can be installed from the Prod
 The Configuration Console gives administrators a centralized, module-by-module setup experience to configure Hardware Asset Management features after installation.
 -   **[Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)**  
 Opt in to the Hardware Asset Management Content Service to improve the normalization process by sharing hardware and consumable model data from your organization with ServiceNow.
--   **[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)**  
-Opt in the Hardware Asset Management \(HAM\) license resource categories that are part of the HAM subscription. You can purchase and opt in the resource categories that you use, and you can opt out and not pay for the categories that you don't use.
+-   **[Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md)**  
+Pay only for the assets using licensed Hardware Asset Management features and exclude an asset for which you don't want to use the licensed features.
 -   **[Update associated Decision tables for HAM flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/trigger-flow-ham.md)**  
 Update associated Decision tables for Hardware Asset Management \(HAM\) flows to trigger a new or customized HAM flow.
 -   **[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)**  

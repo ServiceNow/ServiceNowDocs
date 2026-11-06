@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-identity-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -488,7 +488,7 @@ Zurich
 
 **Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
 
--   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Explore Federated ID](https://www.servicenow.com/docs/access?context=federated-id&family=zurich&ft:locale=en-US).
+-   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Exploring Federated ID](https://www.servicenow.com/docs/access?context=federated-id&family=zurich&ft:locale=en-US).
 -   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://www.servicenow.com/docs/access?context=machine-identity-metrics&family=zurich&ft:locale=en-US) and [View dashboard](https://www.servicenow.com/docs/access?context=view-inbound-api-integration-usage-dashboard&family=zurich&ft:locale=en-US).
 
  Zurich

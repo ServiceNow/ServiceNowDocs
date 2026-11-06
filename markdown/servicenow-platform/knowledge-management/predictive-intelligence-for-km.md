@@ -44,7 +44,7 @@ Similarity
 
 Suggests related articles based on the short description of articles. You can see the results in the following places:-   The Knowledge results section on the Knowledge form when creating an article in the Knowledge Management Service Portal.
 
-If the Knowledge results section isn't displayed on the Knowledge form, you may need to configure the form, to add the **Contextual Search Results** field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+If the Knowledge results section isn't displayed on the Knowledge form, you may need to configure the form, to add the **Contextual Search Results** field. For more information, see Configuring the form layout.
 
 -   The Related Articles section on the knowledge article view page in the Knowledge Management Service Portal and Now Mobile applications.
 -   The Agent assist in Agent Workspace when the **Similar Articles \(ML\)** option is selected.
@@ -105,7 +105,7 @@ Compares similarity of incidents with knowledge bases and identifies similar clo
 
 [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
 [Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
 

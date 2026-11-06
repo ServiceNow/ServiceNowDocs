@@ -100,7 +100,7 @@ References
 
 </td><td>
 
--   [Using License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-lp-playbooks.md)
+-   [Using License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-lp-playbooks.md)
 -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md)
 
 </td></tr></tbody>

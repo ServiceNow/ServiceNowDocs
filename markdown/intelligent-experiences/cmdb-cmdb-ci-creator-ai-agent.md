@@ -73,7 +73,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_cmdb\_editor, snc\_internal
+sn\_cmdb\_editor
 
 </td></tr><tr><td>
 

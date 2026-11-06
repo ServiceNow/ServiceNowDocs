@@ -2894,7 +2894,7 @@ Provides users the access to view reports on the Service Applicant Information p
 None
 
 </td></tr></tbody>
-</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-stakeholder-for-csm.md).
+</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under Business Stakeholder for Customer Service Management.
 
 **Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
 

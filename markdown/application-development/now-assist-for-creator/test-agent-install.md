@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ATF troubleshooting agent, Use agentic AI, ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
+breadcrumb: [ATF troubleshooting agent, Use agentic AI, ServiceNow Otto for Creator, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Install ATF troubleshooting agent
@@ -19,7 +19,7 @@ Install the ServiceNow Otto for Creator application from the ServiceNow Store to
 ## Before you begin
 
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   The default model provider for ATF troubleshooting agent is Anthropic Claude on AWS.
+-   The default model provider for ATF troubleshooting agent is Anthropic Claude.
 
 Ensure that the following applications are installed:
 

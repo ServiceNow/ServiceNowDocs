@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowottoforlegalservicedeliverylsd-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -350,6 +350,8 @@ Australia
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Legal Service Delivery \(LSD\). Check your entitlements to determine your access to specific features.
 -   Disclose conflicts of interest using natural language from ServiceNow Otto in Virtual Agent rather than having to fill out intake forms.
 -   Legal Request and Matter summarization now considers data from extended practice area tables when summarizing.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 

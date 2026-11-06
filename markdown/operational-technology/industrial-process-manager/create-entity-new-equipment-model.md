@@ -1,6 +1,6 @@
 ---
-title: Create an entity for a new equipment model
-description: Create an entity for a new equipment model. You do this task when you want to manually create a new equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
+title: Create an entity for an equipment model
+description: Create an entity for a equipment model. You do this task when you want to manually create a equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-entity-new-equipment-model.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Review and update the equipment model details, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
-# Create an entity for a new equipment model
+# Create an entity for an equipment model
 
-Create an entity for a new equipment model. You do this task when you want to manually create a new equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
+Create an entity for a equipment model. You do this task when you want to manually create a equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
 
 ## Before you begin
 

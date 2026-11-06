@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 3
 keywords: [EmployeeWorks Web App, Moveworks AI assistant, AI front door]
-breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks Web App

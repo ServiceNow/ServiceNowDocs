@@ -30,15 +30,15 @@ The following procedure describes the process for manually associating a REST AP
 
 1.  Create a Scripted REST Header Association record in one of the following ways
 
-<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d327309e66">
+<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d331000e66">
 
 Option
 
-</th><th align="left" id="d327309e69">
+</th><th align="left" id="d331000e69">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d327309e75">
+</th></tr></thead><tbody><tr><td id="d331000e75">
 
 **Navigate through a scripted REST API record**
 
@@ -50,7 +50,7 @@ Procedure
 4.  In the **Request Header Associations** tab, select **New**.
 
 
-</td></tr><tr><td id="d327309e120">
+</td></tr><tr><td id="d331000e120">
 
 **Navigate directly to a new Scripted REST Header Association record**
 

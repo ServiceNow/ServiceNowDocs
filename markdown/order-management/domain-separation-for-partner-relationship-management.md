@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/domain-separation-for-partner-relationship-management.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -21,7 +21,5 @@ All partner program records, partner program relationships, and channel partners
 **Related topics**  
 
 
-[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-program-table.md)
-
-[Partner program table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-program-table-fields.md)
+[configure-partner-program-table]
 

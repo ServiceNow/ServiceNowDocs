@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Application Runtime Policy modes, Tracking mode, Enforcing mode, ARP]
-breadcrumb: [Configure, Application Runtime Policy \(ARP\), Developing your application, Building applications]
+breadcrumb: [Configure, Application Runtime Policy \(ARP\), Developing your application, Classic app development, Building applications]
 ---
 
 # Application Runtime Policy modes

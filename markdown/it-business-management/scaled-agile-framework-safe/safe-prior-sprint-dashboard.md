@@ -89,7 +89,7 @@ SAFe\_scrum\_user
 
 ## Data visualizations
 
-If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Essential SAFe, then install this dashboard from Solution Library to upgrade its layout and access the Sprint Burnup report. For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
+If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Essential SAFe, then install this dashboard from Solution Library. This upgrades its layout and provides access to the Sprint Burnup report. For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_mbk_ndk_k3b"><thead><tr><th>
 

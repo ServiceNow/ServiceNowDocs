@@ -22,5 +22,5 @@ A major incident demands a response beyond the routine incident management proce
 
 Setting up Major Incident Management in Service Operations Workspace involves installing Major Incident Management using Admin Center in Service Operations Workspace.
 
-Admin Center in Service Operations Workspace gives admins centralized control of the instance. It provides quick access to manage all customizations in Service Operations Workspace for IT Service Management \(ITSM\) and additional plugins that extend the Service Operations Workspace for ITSM capabilities. For more information on Admin Center, see [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/admin-center-sow.md).
+Admin Center in Service Operations Workspace gives administrators centralized control of the instance. It provides quick access to manage all customizations in Service Operations Workspace for IT Service Management \(ITSM\) and additional plugins that extend the Service Operations Workspace for ITSM capabilities. For more information on Admin Center, see [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/admin-center-sow.md).
 

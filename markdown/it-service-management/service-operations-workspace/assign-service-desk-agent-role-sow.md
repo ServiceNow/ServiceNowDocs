@@ -34,7 +34,7 @@ Role required: admin
     -   **Available groups and users**: List of all available users in the system.
 3.  Select the **Available groups and users** tab.
 
-4.  Select a group to assign all the users in the group with the service desk agent role.
+4.  Select a group to assign the service desk agent role to all the users in the group.
 
     Select a user to assign the service desk agent role.
 
@@ -43,7 +43,7 @@ Role required: admin
 
 ## Result
 
-The selected users are assigned with a service desk agent role.
+The selected users are assigned the service desk agent role.
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

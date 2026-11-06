@@ -86,5 +86,5 @@ The topics you create in Assistant Designer asset library can be used in both th
 
 ## What to do next
 
-To enable ServiceNow Otto for Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+To enable ServiceNow Otto for Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 

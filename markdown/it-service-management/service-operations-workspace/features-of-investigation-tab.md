@@ -47,7 +47,7 @@ The metrics data includes the following information:
     This link is available to the agent only if the following conditions are met:
 
     -   The selected CI is of type Device, which is also known as Endpoint.
-    -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-landing-cf.md).
+    -   The DEX plugin is installed on the instance. For more information on DEX, see .
     -   The DEX agent is installed on the selected CI.
 -   Asset utilization: Utilization of the assets for the CI. The following information is displayed along with the date and time:
 

@@ -41,7 +41,7 @@ Under the **Type Specifications** tab, you can specify the price in different cu
 -   Fixed
 -   Multiple
 
-For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/price-fields.md) .
+For information on the pricing models, see Price fields .
 
 \[Omitted image "VariableCheckBoxG.png"\] Alt text: A check box variable
 

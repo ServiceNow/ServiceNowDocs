@@ -32,7 +32,7 @@ Role required: agent\_workspace\_user and knowledge
 
 3.  Click an existing article link.
 
-    For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md).
+    For more information, see [Edit a knowledge article in Agent Workspace]().
 
     **Note:**
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure response feedback
@@ -51,5 +51,5 @@ Role required: admin
 14. For more information on accessing the stored feedback data, see [Granular Feedback and Analytics in ServiceNow Otto for Virtual Agent \(KB3060968\).](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249)
 
 
-**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

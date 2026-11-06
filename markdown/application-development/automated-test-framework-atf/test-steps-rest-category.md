@@ -9,7 +9,7 @@ classification: automated-test-framework-atf
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # REST category
@@ -193,7 +193,7 @@ Mutual authentication
 
 </td><td>
 
-An X.509 certificate for mutual authentication. You must create or select a client certificate to assign to test steps to avoid authentication issues when running the test. For more information, see [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/set-up-mutual-auth.md).
+An X.509 certificate for mutual authentication. You must create or select a client certificate to assign to test steps to avoid authentication issues when running the test. For more information, see [Set up certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/set-up-mutual-auth.md).
 
 </td></tr><tr><td>
 

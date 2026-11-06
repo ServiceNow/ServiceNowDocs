@@ -38,7 +38,7 @@ HR AI voice agents handle routine employee inquiries and HR transactions through
 
         -   ServiceNow Otto for Voice \[sn\_voice\_aia\] delivers AI voice capabilities
         -   HR Voice AI Agents \[sn\_hr\_voice\_aia\] contains AI voice agents for HR Service Delivery
-    2.  [Configure authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-authentication-factors-for-ai-voice-agents.md).
+    2.  [Authentication factor configuration for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-authentication-factors-for-ai-voice-agents.md).
 
     3.  [Integrate with a third-party Contact Center as a Service \(CCaaS\) provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
@@ -94,7 +94,7 @@ Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Re
 
 ## What to do next
 
-Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
+Assign roles to admins and users to grant them access to Voice features. See [Components installed with Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
 
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

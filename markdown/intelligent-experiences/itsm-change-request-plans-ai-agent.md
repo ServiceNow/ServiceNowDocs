@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itsm-ch
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Change request plans AI agent
 
 This AI agent helps change owners and approvers by drafting high-quality, context-aware change request content.
+
+**Note:** This version of the AI agent is available on releases earlier than Zurich Patch 12 and Australia Patch 5. The autonomous version isn't available on these releases. If you're using Zurich Patch 12, Australia Patch 5, or later, see [Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md).
 
 ## Workflow
 

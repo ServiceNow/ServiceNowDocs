@@ -34,15 +34,15 @@ Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_com
 
 3.  Select the audit that you want to perform.
 
-<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d260935e102">
+<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d265278e102">
 
 Audit type
 
-</th><th align="left" id="d260935e105">
+</th><th align="left" id="d265278e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d260935e111">
+</th></tr></thead><tbody><tr><td id="d265278e111">
 
 **To perform stockroom audits**
 
@@ -53,7 +53,7 @@ Action
 3.  Tap **New stockroom audit**.
 
 
-</td></tr><tr><td id="d260935e140">
+</td></tr><tr><td id="d265278e140">
 
 **To perform location audits**
 

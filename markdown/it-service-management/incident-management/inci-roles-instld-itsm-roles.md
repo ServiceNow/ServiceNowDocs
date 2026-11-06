@@ -38,7 +38,7 @@ Incident read\[sn\_incident\_read\]
 
 </td><td>
 
-Read access to the Incident Management application and related records.**Note:** An ESS user \(user with no role\) can view only those incidents that they create or someone else creates on their behalf. A user with the sn\_incident\_read role can view all incidents as well as the major incident workbench.
+Read access to the Incident Management application and related records.**Note:** An employee self-service \(ESS\) user \(user with no role\) can view only those incidents that they create or someone else creates on their behalf. A user with the sn\_incident\_read role can view all incidents and the Major Incident Workbench.
 
 </td><td>
 
@@ -67,7 +67,7 @@ Service desk agent\[sn\_service\_desk\_agent\]
 
 </td><td>
 
-Enables gathering, and verifying information, as well as delivering quick resolutions for tier 1 service desk agents. This user role is available when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
+Enables tier 1 service desk agents to gather and verify information and deliver quick resolutions. This user role is available when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td><td>
 
@@ -91,7 +91,7 @@ Incident Manager \[incident\_manager\]
 </td><td>
 
 -   Manages incident properties and major incident trigger rules.
--   Can create and edit Communication Plan Definitions.
+-   Creates and edits Communication Plan Definitions.
 
 </td><td>
 
@@ -103,7 +103,7 @@ Incident Manager \[incident\_manager\]
 
 -   sn\_incident\_write
 
-**Note:** For zboot instances, starting Brazil release, the itil role is replaced with sn\_incident\_write.
+**Note:** For zBoot instances, starting with the Brazil release, the itil role is replaced with sn\_incident\_write.
 
 
 </td></tr><tr><td>
@@ -112,7 +112,7 @@ Incident Admin\[sn\_incident\_admin\]
 
 </td><td>
 
-Configures all Incident Management features including incident management properties.
+Configures all Incident Management features, including incident management properties.
 
 </td><td>
 

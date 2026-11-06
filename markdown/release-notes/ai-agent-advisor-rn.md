@@ -1,6 +1,6 @@
 ---
 title: AI Agent Advisor release notes
-description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.The September 2026 release adds features to help you configure data source analysis and view your automation opportunities.The October 2026 release adds the ability to view your automation opportunities in AI Agent Studio and deploy existing and custom AI agents for them in the agent builder.
+description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.The October 2026 release adds the ability to view your automation opportunities in AI Agent Studio and deploy existing and custom AI agents for them in the agent builder.The September 2026 release adds features to help you configure data source analysis and view your automation opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/ai-agent-advisor-rn.html
 release: brazil
@@ -23,6 +23,8 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 
 See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md) for more information.
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 -   **Activation information**
@@ -40,6 +42,31 @@ See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/intelligent-experiences-rn-landing.md)
+
+## Version 1.5
+
+The October 2026 release adds the ability to view your automation opportunities in AI Agent Studio and deploy existing and custom AI agents for them in the agent builder.
+
+### What's new
+
+-   **View automation opportunities in AI Agent Studio**
+
+    View automation opportunities on the AI Agent Studio home page. Select the opportunity to create a custom AI agent or edit an existing AI agent in the agent builder.
+
+
+### What's changed
+
+-   **Updated AI Admin Center experience**
+
+    The new AI Agent Advisor experience in AI Admin Center provides a fresh look and feel, featuring revised pages and navigation to enhance your user experience. The Next Experience AI Admin Center workspace is still supported in this release.
+
+
+### What's deprecated or removed
+
+-   **[AI Admin Center Next Experience workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md)**
+
+    The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
 
 ## Version 1.4
 
@@ -65,23 +92,5 @@ The September 2026 release adds features to help you configure data source analy
 -   **[Daily recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
 
     The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
-
-
-## Version 1.5
-
-The October 2026 release adds the ability to view your automation opportunities in AI Agent Studio and deploy existing and custom AI agents for them in the agent builder.
-
-### What's new
-
--   **View automation opportunities in AI Agent Studio**
-
-    View automation opportunities on the AI Agent Studio home page. Select the opportunity to create a custom AI agent or edit an existing AI agent in the agent builder.
-
-
-### What's changed
-
--   **Updated AI Admin Center experience**
-
-    The new AI Agent Advisor experience in AI Admin Center provides a fresh look and feel, featuring revised pages and navigation to enhance your user experience. The Next Experience AI Admin Center workspace is still supported in this release.
 
 

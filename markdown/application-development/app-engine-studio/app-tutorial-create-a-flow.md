@@ -8,8 +8,8 @@ product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 21
-breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
+reading_time_minutes: 20
+breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a flow
@@ -178,7 +178,7 @@ For more information about the Ask for Approval action, see [Ask for Approval ac
 
     2.  Select the **-Choose approval rule** field, then select **All users approve or reject**.
 
-    3.  Choose which users or groups can complete the approval actions using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), the add user icon \(\[Omitted image "app-tutorial-add-user-icon.png"\] Alt text: Add user icon\), add group icon \(\[Omitted image "app-tutorial-add-group-icon.png"\] Alt text: Add group icon\), the add manual approvers icon \(\[Omitted image "manual-users-icon.png"\] Alt text: Manual approvers icon\), or by dragging data pills from the **Data** panel into the field.
+    3.  Choose which users or groups can complete the approval actions using the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, the add user icon \[Omitted image "app-tutorial-add-user-icon.png"\] Alt text:, add group icon \[Omitted image "app-tutorial-add-group-icon.png"\] Alt text:, the add manual approvers icon \[Omitted image "manual-users-icon.png"\] Alt text: Manual approvers icon, or by dragging data pills from the **Data** panel into the field.
 
         In our tutorial, we want the Ask for Approval action to route to the manager of the user who submitted the travel request. So we select **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by** &gt; **Manager**.
 
@@ -335,7 +335,7 @@ This procedure outlines duplicating the Ask for Approval action to request regio
 
     \[Omitted image "app-tutorial-duplicate-action.png"\] Alt text: You can select the Duplicate action icon to duplicate actions within your flow.
 
-2.  Move the duplicated action into the correct place in the flow by hovering over the action, selecting the drag icon \(\[Omitted image "Drag.png"\] Alt text: Row drag and drop gripper icon\), and dragging the action into the correct place.
+2.  Move the duplicated action into the correct place in the flow by hovering over the action, selecting the drag icon \[Omitted image "Drag.png"\] Alt text: Row drag and drop gripper icon, and dragging the action into the correct place.
 
     We move the duplicated Ask for Approval action beneath the Make a decision flow logic that returns the regional head information.
 
@@ -345,15 +345,15 @@ This procedure outlines duplicating the Ask for Approval action to request regio
 
     1.  Select the duplicated action to open the action dialog.
 
-    2.  Select the remove icon \(\[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\) to remove any field values that you must change.
+    2.  Select the remove icon \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element. to remove any field values that you must change.
 
-        In our tutorial, we must change the user that the Ask for Approval routes to. So we select the remove icon \( \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\) in the data pill that contains the manager user information.
+        In our tutorial, we must change the user that the Ask for Approval routes to. So we select the remove icon \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element. in the data pill that contains the manager user information.
 
-    3.  Provide the correct field values by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\) or by dragging data pills from the **Data** panel into the fields.
+    3.  Provide the correct field values by selecting the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon or by dragging data pills from the **Data** panel into the fields.
 
         To route the Ask for Approval action to the correct regional head, we must add the data pill that contains the regional head information.
 
-        -   Using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), we select **Make a decision** &gt; **Decision Table Multiple Result Record** &gt; **Result elements** &gt; **Regional heads**.
+        -   Using the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, we select **Make a decision** &gt; **Decision Table Multiple Result Record** &gt; **Result elements** &gt; **Regional heads**.
         -   Using the **Data** panel, we select and drag the regional heads data pill into the field.
 
             \[Omitted image "app-tutorial-make-a-decision-data-pill.png"\] Alt text: The regional heads data pill appears in the Data panel in the Make a decision section.
@@ -395,7 +395,7 @@ For more information about the Update Record action, see [Update Record action](
 
 3.  From the **ServiceNow Core** options, select **Update Record**.
 
-4.  Select the record that you want to update by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\) or by dragging the data pill from the **Data** panel into the **Record** field.
+4.  Select the record that you want to update by selecting the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon or by dragging the data pill from the **Data** panel into the **Record** field.
 
     In our tutorial, we want to update the travel request record, so we add the travel request trigger to the **Record** field.
 
@@ -486,11 +486,11 @@ For more information about the Send Email action, see [Send Email action](https:
 
 3.  From the **ServiceNow Core** options, select **Send Email**.
 
-4.  Add the record that the email is associated with to the **Target Record** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), or by dragging the data pill from the **Data** panel.
+4.  Add the record that the email is associated with to the **Target Record** field using the Data pill picker \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, or by dragging the data pill from the **Data** panel.
 
     In our tutorial, we want the email to be associated with the travel request record in our trigger.
 
-5.  Add recipients for the email in the **To** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), or by dragging the data pill from the **Data** panel.
+5.  Add recipients for the email in the **To** field using the Data pill picker \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, or by dragging the data pill from the **Data** panel.
 
     In our tutorial, we want the user who created the travel request to receive the email. The user information is stored under **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by**.
 

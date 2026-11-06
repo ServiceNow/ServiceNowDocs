@@ -8,7 +8,7 @@ product: Goal Framework
 classification: goal-framework
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -18,7 +18,7 @@ Use the Target form to track and measure the progress of the goals.
 
 Some of the fields on the form is available when the Goal Framework for SPM application is installed.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see Configuring the form layout.
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 
@@ -226,7 +226,9 @@ Check-in frequency
 
 </td><td>
 
-Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).**Note:** The target breakdowns feature isn’t supported for qualitative targets.
+Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, **Period** \(fiscal mode only\), and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-breakdowns-gf.md).**Note:** The target breakdowns feature isn’t supported for qualitative targets.
+
+ The options you see depend on the calendar type. On a fiscal calendar, the list shows only the frequencies that the fiscal period structure supports, for example Period, Quarterly, and Yearly on a 4-4-5 calendar. On a Gregorian calendar, the list shows Daily, Weekly, Monthly, Quarterly, and Yearly, and the default is Quarterly. When a new target opens with an unsupported value, the field is set to the calendar default. For a stale target, this field is read-only, except that you can set it to None. For more information, see [Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/fiscal-calendar-goal-framework.md).
 
 </td></tr><tr><td>
 

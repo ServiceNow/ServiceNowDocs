@@ -20,3 +20,27 @@ A module represents a website with a collection of pages or a section using grou
 
 \[Omitted image "we-module-1.png"\] Alt text: Web Embeddables homepage displaying demo module under Your modules section.
 
+## How modules, groups, and component instances fit together
+
+You model your website in Web Embeddables with three levels.
+
+|Level|Represents|
+|-----|----------|
+|Module|Your website.|
+|Group|A page or section of your website.|
+|Component instance|A component on that page or section.|
+
+## What a module controls
+
+All component instances in a module share the module settings:
+
+-   Theme. The theme applies to all components that you embed on your website.
+-   External domain. The domain where you embed the components. Your CORS rules depend on this domain. If you change it, review the CORS rules and reconfigure them if necessary.
+-   ServiceNow custom domain. The domain of the instance where you configure the components, used as the base URL. If you change it, copy the updated global code to your webpages.
+
+## Start from a prebuilt module
+
+You can create a module or use a prebuilt module, such as the demo module, and edit it to fit your website. When you create a module, a default group named Group 1 is created for it automatically.
+
+For more information, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md) and [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
+

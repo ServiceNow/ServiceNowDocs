@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-changemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -71,6 +71,8 @@ Brazil
 The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
 
 To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
+The Change Management - Collision Detector plugin \(com.snc.change.collision\) is now activated automatically when you upgrade to the Brazil release.
 
 
 </td></tr></tbody>
@@ -143,6 +145,8 @@ Store risk and compliance details on change requests without adding columns to t
 -   **[Change lockdown](https://www.servicenow.com/docs/access?context=change-lockdown&family=brazil&ft:locale=en-US)**
 
 Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
+
+**Note:** The Change lockdown depends on Change Management - Collision Detector plugin \(com.snc.change.collision\), this plugin is now activated automatically when you upgrade to the Brazil release.
 
 -   **[Change lockdown conflict detection](https://www.servicenow.com/docs/access?context=lockdown-conflict-detection&family=brazil&ft:locale=en-US)**
 

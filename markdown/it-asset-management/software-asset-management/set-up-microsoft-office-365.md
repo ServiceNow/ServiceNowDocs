@@ -36,15 +36,15 @@ If you’re using Software Asset Workspace, the option to create the direct inte
 
 1.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d196420e127">
+<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d199187e127">
 
 Interface
 
-</th><th align="left" id="d196420e130">
+</th><th align="left" id="d199187e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d196420e136">
+</th></tr></thead><tbody><tr><td id="d199187e136">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **SaaS License** &gt; **Direct Integration Profiles**
 
-</td></tr><tr><td id="d196420e159">
+</td></tr><tr><td id="d199187e159">
 
 **Software Asset Workspace**
 
@@ -171,7 +171,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 When you create an integration profile, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to ensure that it meets your specifications. You can view all automatically generated reclamation rules for Office 365 by navigating to **Software Asset** &gt; **Administration** &gt; **Reclamation Rules**. Reclamation rules are applied based on the Microsoft System Center Configuration Management \(SCCM\) usage data that is pulled through the Microsoft SCCM usage integration. For more information on these reclamation rules, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
 

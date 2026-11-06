@@ -28,15 +28,15 @@ Before booking a room or desk, check the availability of the selected item using
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table><thead><tr><th align="left" id="d800110e60">
+<table><thead><tr><th align="left" id="d797162e60">
 
 Location
 
-</th><th align="left" id="d800110e63">
+</th><th align="left" id="d797162e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d800110e69">
+</th></tr></thead><tbody><tr><td id="d797162e69">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d800110e90">
+</td></tr><tr><td id="d797162e90">
 
 **From Employee Center Portal**
 
@@ -56,7 +56,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
 Make a reservation portal page opens for you to make workplace reservations.
 
-</td></tr><tr><td id="d800110e137">
+</td></tr><tr><td id="d797162e137">
 
 **From Workplace Service Portal**
 

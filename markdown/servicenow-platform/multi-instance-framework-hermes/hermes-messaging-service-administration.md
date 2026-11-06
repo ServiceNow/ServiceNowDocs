@@ -21,7 +21,7 @@ View, modify, and manage configuration properties that control the behavior of H
 -   **[Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/run-hermes-messaging-service-diagnostics.md)**  
 Check the status of and test the connection to the Hermes Kafka cluster by sending and receiving test messages.
 -   **[Monitoring data usage in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.md)**  
-Monitor data usage in Hermes over time.
+Monitor the amount of data produced to and consumed from the Hermes cluster over time. Use the Hermes Usage Dashboard to track data inflow and outflow by topic, application, and time period.
 -   **[Tracking message usage in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/tracking-hermes-messaging-service-usage.md)**  
 Message usage through the Hermes Messaging Service is tracked for monitoring and management purposes through the Kafka topic name.
 -   **[Cloning with Hermes Messaging Service enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/cloning-with-hermes-messaging-service.md)**  

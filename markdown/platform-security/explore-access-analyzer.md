@@ -14,7 +14,7 @@ breadcrumb: [Access Analyzer, Access Management]
 
 Analyze identities on the ServiceNow AI Platform instance.
 
-ServiceNow AI Platform Access Analyzer is an access diagnostic tool designed for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
+ServiceNow AI Platform Access Analyzer is an access diagnostic tool for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
 
 **Note:**
 
@@ -37,7 +37,7 @@ Compare Access is a capability of the ServiceNow AI Platform Access Analyzer V2,
 
 Compare Access can be performed between the users for the user records and access control.
 
-You can perform the following analyzes:
+You can perform the following analyses:
 
 -   Level 1: Compare user records to understand the attributes, roles, groups, agentic workflow, and AI agents.
 -   Level 2: Compare access controls to run the root cause analysis by finding access issues.
@@ -52,7 +52,7 @@ The following are some of the benefits of using Access Analyzer:
 -   Generate a report showing whether an identity has access to a resource \(table\).
 -   Understand who has access for critical security hygiene.
 -   Avoid over-provisioning permissions.
--   Achieve the least privilege principals when implementing access controls.
+-   Achieve the least privilege principles when implementing access controls.
 -   Limit access to certain data, which includes applications, tables, rows or columns, and other resources.
 -   Provide reporting capabilities for the analyzer results.
 -   Compare access between user records and access controls.

@@ -21,7 +21,7 @@ Configure the duration to display requester’s history, consisting of tasks, in
 -   **[Hide the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/hide-inbox-sow-interaction.md)**  
 Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox will remain visible even after accepting a work item.
 -   **[Automatically close an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/automatically-close-interaction-sow.md)**  
-Automatically close the interaction when an incident linked is closed in Service Operations Workspace.
+Automatically close the interaction when a linked incident is closed in Service Operations Workspace.
 -   **[Configure the display of requester related records in an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-order-related-records-interaction.md)**  
 For an interaction, ensure that related records of a requester are displayed as intended for Service Operations Workspace.
 -   **[ITSM Configurable Workspace chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md)**  

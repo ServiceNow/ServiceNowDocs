@@ -20,13 +20,13 @@ Role required: sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.constitue
 
 ## About this task
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 The Document screening generative AI skill automatically analyzes documents uploaded by applicants, identifies the type or category of each document \(for example, driver's license, passport, budget, or narrative\), and validates whether the uploaded document matches what was requested in an application checklist. If there is a mismatch, the agent flags it and helps government employees generate Al-assisted messages requesting corrected documentation.
 
 ## Procedure
 
-1.  Navigate to a social benefits, license and permit, or information request case in the CRM Workspace.
+1.  Navigate to a social benefits, license and permit, or information request case in the Public Sector Workspace.
 
 2.  Complete the activities in the Review stage once the constituent has uploaded their documents and other supporting information through the Government Service Portal and the case is moved from Intake to Review stage.
 

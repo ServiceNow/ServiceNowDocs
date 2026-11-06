@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-careerconversations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -554,7 +554,7 @@ Zurich
 
 [Zurich Patch 2](https://www.servicenow.com/docs/access?context=zurich-patch-2&family=zurich&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Make career conversations easy to create and track using the growth conversations agentic workflow.
 -   As a manager, find and share relevant resources to conduct meaningful conversations using the Manager resource recommendation AI agent.
 -   As a manager, you can now edit a series, and also specify when a series should end while creating the growth conversation.

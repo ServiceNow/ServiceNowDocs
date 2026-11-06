@@ -145,6 +145,8 @@ For details on activating Summary Genius Results in global and workspace search,
 
 .
 
+AI Search Assist doesn't support Summary Genius Results. To display Genius Results in a record producer, use the . AI Search Assist displays only AI Search results. For more information, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/ai-search-assist.md).
+
 ## Large language model \(LLM\) providers
 
 By default, Summary Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.

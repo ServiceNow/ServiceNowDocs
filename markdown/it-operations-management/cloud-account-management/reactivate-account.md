@@ -24,20 +24,5 @@ Only an admin or account owner can view the reactivated account.
 
 A suspend profile must exist for an account to be reactivated. For more details, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md).
 
-Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_cam.cw\_requestor
-
-## Procedure
-
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Home**.
-
-2.  Select **Subscription Accounts**.
-
-3.  In the **Managed Accounts** section, select **Suspended**.
-
-4.  Select an entry in the list of suspended accounts and select **Reactivate**.
-
-5.  Enter a reason for reactivation in the **Reason** field and select **Yes**.
-
-    The reactivation request is sent for approval. Reactivated accounts are listed in the **Managed Accounts** section.
-
+**Parent Topic:**[Managing cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/managing-an-account.md)
 

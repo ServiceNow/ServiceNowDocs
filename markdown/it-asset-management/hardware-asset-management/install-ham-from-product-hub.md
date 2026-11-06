@@ -19,7 +19,7 @@ Install the Hardware Asset Management application on your ServiceNow instance fr
 ## Before you begin
 
 -   The Hardware Asset Management application must be licensed for your ServiceNow instance.
--   To access the Admin Home page, install the application that matches your SKU type: ServiceNow Otto for Setup \(sn\_ia\) for AI Native SKUs, or Setup Hub \(sn\_ia\_base\) for non-AI Native SKUs.
+-   To access the Admin Home page, install the application that matches your SKU type: ServiceNow Otto for Setup \(sn\_ia\) version 5.0.10 or later for AI Native SKUs, or Setup Hub \(sn\_ia\_base\) version 3.0.4 or later for non-AI Native SKUs.
 
 Role required: ia\_admin
 
@@ -29,19 +29,17 @@ Use this procedure for initial HAM installation. If HAM is already installed, Pr
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Admin Home**.
+1.  Navigate to **Manage Platform** &gt; **Hardware Asset Management**.
 
-    The Admin Home page opens automatically when you log in to your ServiceNow instance.
+    The Product Hub opens.
 
-2.  In the **Manage your products** section of the Admin Home page, select the **Hardware Asset Management** card to open the Product Hub.
-
-3.  Select **Start new setup** to install HAM.
+2.  Select **Start new setup** to install HAM.
 
     **Note:** If you are moving an existing HAM setup from another ServiceNow instance, select **Upload new batch** instead of **Start new setup**. You may have to configure some instance-specific settings again after the upload. For details, see [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-update-set.md).
 
     The Apps and plugins page opens, displaying the core HAM application for your highest entitled subscription tier in the **Not installed** tab. For example, if you are entitled to Hardware Asset Management Advanced, **Hardware Asset Management - Advanced** appears in the **Not installed** tab.
 
-4.  Select the **Not installed** tab and install the core HAM application.
+3.  Select the **Not installed** tab and install the core HAM application.
 
     -   For Hardware Asset Management - Advanced and Hardware Asset Management - Prime, select the Open Application Manager icon \[Omitted image "open-application-manager-icon.png"\] Alt text: to navigate to Application Manager and then install the application from there.
     -   For Hardware Asset Management - Pro SKU, select the Install icon \[Omitted image "app-install-icon.png"\] Alt text: to install directly in Product Hub.

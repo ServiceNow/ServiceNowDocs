@@ -39,7 +39,7 @@ For information about domain separation, multi-repo support with Terraform app, 
 -   **[Cloud Services Catalog and Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/cloud-services-catalog-and-terraform-connector.md)**  
 Use the Cloud Services Catalog app with Terraform Connector support with all its features that help in provisioning and managing cloud resources across various public and private clouds.
 -   **[Permissions management for Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/working-with-permissions.md)**  
-Permissions are your group-level access rights to features and actions in Cloud Services Catalog.
+Permissions are your group-level access rights to features and actions in Cloud Services Catalog \(CSC\).
 -   **[Policies and permission levels on services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/policies-and-permission-levels-on-services.md)**  
 Configure policies with the necessary level of permissions to provide access to the AWS, Azure, ADO, Ansible and Google Cloud services, respectively.
 

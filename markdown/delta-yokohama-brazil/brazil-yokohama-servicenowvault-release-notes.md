@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicenowvault-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -284,7 +284,7 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 
 -   **Role masking in the Access Observer and Field Encryption workflows**
 
-The security\_admin role is no longer used as the role masking agent for the Access Observer and Field Encryption agentic workflows. Following least-privilege principles, these workflows run without elevating to security\_admin.
+The security\_admin role isn't part of the sn\_vault\_console.vault\_console\_admin role. To use the Access Observer and Field Encryption agentic workflows, assign the security\_admin role to sn\_vault\_console.vault\_console\_admin users, and then elevate to security\_admin.
 
 -   **Default policy naming**
 
@@ -379,7 +379,12 @@ Brazil
 
 </td><td>
 
--   **Now LLM Service**
+-   **Code Signing in Vault Suite**
+
+Code Signing is no longer included in Vault Suite. Installing Vault Suite doesn't install Code Signing. On instances that already have Code Signing, it no longer appears in Vault Console.
+
+
+ -   **Now LLM Service**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
@@ -690,6 +695,8 @@ Australia
 
  See [ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&family=australia&ft:locale=en-US) for more information.
 
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
+
 </td></tr><tr><td>
 
 Brazil
@@ -710,6 +717,8 @@ Brazil
     -   [Log Export Service \(LES\)](https://www.servicenow.com/docs/access?context=les-intro&family=brazil&ft:locale=en-US)
 
  See [ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&family=brazil&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

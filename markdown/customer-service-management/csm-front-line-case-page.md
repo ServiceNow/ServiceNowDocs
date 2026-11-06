@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 19
+reading_time_minutes: 20
 breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Front-line case page
 
 The Front-line case page provides a simplified case view that enables front-line agents to quickly gather context, categorize cases, and provide prompt responses to customers.
+
+\[Omitted image "front-line-case-page-template.png"\] Alt text: Front-line case page enables agents to focus on four main areass: contact information, case details, activity stream, and contextual side panel
 
 The Front-line case page focuses on the essential functionality that front-line or tier 1 agents need:
 
@@ -295,6 +297,8 @@ To use the case summarization component with the Front-line case page, activate 
 ## Activity stream component
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
+
+\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 

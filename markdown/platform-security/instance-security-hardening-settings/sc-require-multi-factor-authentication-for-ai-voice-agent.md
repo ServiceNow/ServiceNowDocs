@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use a system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature.
 
-Use the **glide.voice.authenticate.mfa\_mandatory** system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature. MFA requires users to provide two or more different verification factors to access a service or account. Examples of factors are SoftPIN or time-based one-time password \(TOTP\). More information about authentication factors for AI voice agents can be found at [Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/explore-authentication-factors.md).
+Use the **glide.voice.authenticate.mfa\_mandatory** system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature. MFA requires users to provide two or more different verification factors to access a service or account. Examples of factors are SoftPIN or time-based one-time password \(TOTP\). More information about authentication factors for AI voice agents can be found at [Authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/explore-authentication-factors.md).
 
 Ensure the **glide.voice.authenticate.mfa\_mandatory** system property is set to `true`.
 

@@ -24,7 +24,7 @@ Use the Conversational Interfaces Console to set up the basic chat features shar
 |Message preview|[Enable message preview on the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/web-client-message-preview.md)|
 |Public access|[Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/enable-public-access-web-client.md)|
 |Channels and routing|
-|Channels|[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).|
+|Channels|[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).|
 |Context variables|[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-context-variables.md)|
 |System actions|
 |System messages|[Change Virtual Agent and Agent Chat system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-change-system-messages.md)|

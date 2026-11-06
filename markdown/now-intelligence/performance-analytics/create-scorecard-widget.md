@@ -134,5 +134,5 @@ To view the widget, add it to a dashboard or a portal.
 
 [Interacting with breakdown widgets on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_WidgetInteractivity.md)
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 

@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a filtered list to a workspace in Creator Studio

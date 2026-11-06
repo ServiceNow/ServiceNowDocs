@@ -20,9 +20,9 @@ ServiceNow Otto in Knowledge Management uses artificial intelligence \(AI\) to g
 
 You can generate knowledge articles in ServiceNow Otto for Customer Service Management \(CSM\), ServiceNow Otto for IT Service Management \(ITSM\), ServiceNow Otto for HR Service Delivery \(HRSD\), and ServiceNow Otto for Field Service Management \(FSM\). For more information, see the following topics.
 
--   [Generate a knowledge article with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md).
--   [Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md).
--   [Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/gen-kb-now-assisthr.md).
+-   .
+-   .
+-   .
 -   [Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/na-fsm-generate-kb-article.md)
 -   To generate knowledge articles based on cases or incidents from the ServiceNow Otto panel, see [Generate a Knowledge article from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-NApanel.md).
 -   [Generate a Knowledge article from the classic environment with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.md).

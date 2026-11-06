@@ -9,7 +9,7 @@ classification: form-builder-glide-family-release
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Customize your form layout in Table Builder
@@ -36,15 +36,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 3.  Customize the form layout that displays in the form editor by performing the following actions.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d315439e168">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d229200e174">
 
 Option
 
-</th><th align="left" id="d315439e171">
+</th><th align="left" id="d229200e177">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d315439e177">
+</th></tr></thead><tbody><tr><td id="d229200e183">
 
 **Add form sections**
 
@@ -55,7 +55,7 @@ Action
 3.  Enter a title for the section.
  **Note:** You can also add a new section from within the form editor by pointing to the **+** icon at the top of an existing section, and then selecting **+Add section** or by using the menu in the section header.
 
-</td></tr><tr><td id="d315439e213">
+</td></tr><tr><td id="d229200e219">
 
 **Configure section layout \(columns\)**
 
@@ -67,7 +67,7 @@ Change the layout of your section. Sections can consist of one column or be spli
     -   From the section header menu, select **One-column** or **Two-column**.
 
 
-</td></tr><tr><td id="d315439e251">
+</td></tr><tr><td id="d229200e257">
 
 **Merge section with the section above**
 
@@ -79,7 +79,7 @@ Merge two sections. Merging a section refers to combining two sections together 
     -   From the section panel, select **Merge with section above**.
 
 
-</td></tr><tr><td id="d315439e286">
+</td></tr><tr><td id="d229200e292">
 
 **Detach section**
 
@@ -91,7 +91,7 @@ Detach a section. You can split two previously merged sections apart into separa
     -   From the section panel, select **Detach from section above**.
 
 
-</td></tr><tr><td id="d315439e322">
+</td></tr><tr><td id="d229200e328">
 
 **Remove section from form**
 

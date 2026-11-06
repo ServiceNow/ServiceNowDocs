@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Profile integration with Microsoft Teams, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Profile integration with Microsoft Teams, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Disable Microsoft Teams status view

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use, Application Runtime Policy, ARP, policy approval, quota configuration]
-breadcrumb: [Application Runtime Policy \(ARP\), Developing your application, Building applications]
+breadcrumb: [Application Runtime Policy \(ARP\), Developing your application, Classic app development, Building applications]
 ---
 
 # Using Application Runtime Policy

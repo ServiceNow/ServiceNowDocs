@@ -33,15 +33,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d239856e99">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d243528e99">
 
 Interface
 
-</th><th align="left" id="d239856e102">
+</th><th align="left" id="d243528e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d239856e108">
+</th></tr></thead><tbody><tr><td id="d243528e108">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d239856e147">
+</td></tr><tr><td id="d243528e147">
 
 **Hardware Asset Workspace**
 

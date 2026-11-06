@@ -7,7 +7,7 @@ release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -95,7 +95,7 @@ Support Multiple Active Connections
 
 </td><td>
 
-Designator that indicates whether the alias supports multiple active connections. Add connections using the Connections table and associated them to the alias using the Connections related list.
+Designator that indicates whether the alias supports multiple active connections. Add connections using the Connections table and associated them to the alias using the Connections related list. This setting is not supported for IntegrationHub integrations.
 
 </td></tr><tr><td>
 

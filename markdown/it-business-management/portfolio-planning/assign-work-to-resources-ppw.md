@@ -20,7 +20,7 @@ Filter the unassigned work to view priority requests and assign them to resource
 
 Role required: it\_demand\_manager
 
-[Create an active employee definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/generate-profile-definition.md) for resources to view their allocation details on the Resources grids.
+ for resources to view their allocation details on the Resources grids.
 
 ## About this task
 
@@ -48,15 +48,15 @@ The assign logic provides you with the flexibility and control for users when as
 
 6.  Assign resources manually or automatically.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d200545e143">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d205576e142">
 
 Assign work choices
 
-</th><th align="left" id="d200545e146">
+</th><th align="left" id="d205576e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d200545e152">
+</th></tr></thead><tbody><tr><td id="d205576e151">
 
 **Assign resources manually**
 
@@ -68,7 +68,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d200545e183">
+</td></tr><tr><td id="d205576e182">
 
 **Assign resources automatically**
 

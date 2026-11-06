@@ -28,7 +28,7 @@ The application includes demo data and installs related applications and plugins
     -   **Required ServiceNow plugins**
         -   **Predictive Intelligence**
 
-            Install this plugin to enable the creation of machine learning solutions using data in your instance. The plugin provides various capabilities and solution types for training the system to predict, recommend, and drive data outcomes. A trained solution can be invoked by any application through the use of a prediction API..
+            Install this plugin to enable the creation of machine learning solutions using data in your instance. The plugin provides various capabilities and solution types for training the system to predict, recommend, and drive data outcomes. A trained solution can be invoked by any application through the use of a prediction API.
 
     -   **Universal Request**
 

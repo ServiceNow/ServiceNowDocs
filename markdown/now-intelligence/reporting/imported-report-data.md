@@ -9,7 +9,7 @@ classification: reporting
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Using imported report data
@@ -22,5 +22,5 @@ You must have the subscription version of Performance Analytics to create report
 
 **Note:** Importing report data in this way is useful when you have information that is maintained outside of your instance. To import an external data set into your instance permanently, see [Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_EasyImport.md).
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

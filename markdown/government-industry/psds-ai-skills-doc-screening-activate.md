@@ -35,7 +35,7 @@ Activate the Document screening AI skill to use ServiceNow Otto for PSDS gen-AI 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+For more information, see .
 
 -   Confirm that the following applications and plugins are installed:
 
@@ -43,7 +43,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
     -   Document Processor \(sn\_doc\_processor\)
     -   Service Applicant Information \(sn\_svc\_appl\_info\)
     -   ServiceNow Otto for Public Sector Digital Services \(PSDS\)
-    -   Social Benefits Playbook, Grants Management, **or** License and Permit Playbook
+    -   Social Benefits Playbook, Grants Management, **or** License and Permit Administration
     For more information on configuring ServiceNow Otto in Document Intelligence, see .
 
 -   Perform this task in your ServiceNow instance, ensuring the ServiceNow Otto for Public Sector Digital Services \(PSDS\) Application scope is selected.

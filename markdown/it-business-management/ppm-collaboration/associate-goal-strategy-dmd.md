@@ -9,7 +9,7 @@ classification: ppm-collaboration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategic Spend Tracking for PPM, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Allocate or modify the strategy and goal percentage for a demand

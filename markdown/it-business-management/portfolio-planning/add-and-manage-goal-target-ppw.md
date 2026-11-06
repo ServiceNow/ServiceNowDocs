@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 

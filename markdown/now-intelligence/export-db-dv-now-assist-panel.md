@@ -23,7 +23,7 @@ Role required: now\_assist\_panel\_user. To schedule an export, you also need pa
 
 1.  Open the ServiceNow Otto panel.
 
-    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
+    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the ServiceNow Otto panel.
 
     \[Omitted image "otto-panel-landing.png"\] Alt text: Initial ServiceNow Otto panel.
 
@@ -62,7 +62,7 @@ In your prompts for the dashboard and visualization export skill, you can descri
 **Related topics**  
 
 
-[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-visualization-vd.md)
+[Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-visualization-vd.md)
 
 [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-pae-dashboard-ppt.md)
 

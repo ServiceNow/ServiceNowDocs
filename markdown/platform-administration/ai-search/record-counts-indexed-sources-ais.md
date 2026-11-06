@@ -30,7 +30,7 @@ The AI Search Indexed Source Statistics \[ais\_datasource\_stats\] table contain
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `ais_datasource_stats.list`.
+    2.  In the navigation field, enter `ais_datasource_stats.list`.
 
     3.  Press Enter.
 

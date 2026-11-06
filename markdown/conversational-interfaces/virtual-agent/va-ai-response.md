@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-26"
 reading_time_minutes: 1
 breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
@@ -19,6 +19,8 @@ Use this control to write a prompt description that will dynamically create an o
 ## LLM Text bot response control properties
 
 The Text bot response is available on the palette when you work with topics that use LLM topic discovery.
+
+\[Omitted image "va-ai-response-llm-properties.png"\] Alt text: Basic properties include the node name and how you want the LLM to respond. Advanced options include Hide this node.
 
 <table id="table_m2v_xmj_h1c"><thead><tr><th>
 
@@ -61,9 +63,5 @@ Conditionally show this node if
 No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>## Example Text bot response control
-
-\[Omitted image "va-ai-response-llm-properties.png"\] Alt text: Basic properties include the node name and how you want the LLM to respond. Advanced options include Hide this node.
-
-**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

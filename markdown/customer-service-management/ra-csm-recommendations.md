@@ -160,3 +160,5 @@ Group created by a defined grouping strategy that displays relevant recommendati
 </td></tr></tbody>
 </table>**Note:** The **Action type**, **Action**, and **Recommendation hint** fields aren’t shown for the AI search resource generator. You can configure the **Action type** and **Action** fields, and mapping between AI search outputs and guidance actions inputs in the Search result mapping related list.
 
+\[Omitted image "ra-recommendation.png"\] Alt text: Recommendations form - Guidance action type
+

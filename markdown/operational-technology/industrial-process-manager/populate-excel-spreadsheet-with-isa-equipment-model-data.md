@@ -26,7 +26,7 @@ To create a Microsoft Excel spreadsheet that properly populates the Configuratio
 
 2.  Download the attached Import Equipment Model – Data Source - v2.xlsx spreadsheet to learn more about the template and its worksheets:
 
-    **Note:** If you're an ISA SGC user upgrading from v1 to v2, see the section named **Upgrading from v1 to v2** below.
+    **Note:** If you're an ISA SGC user upgrading from v1 to v2, see the section named **Upgrading from v1 to v2**.
 
     |Worksheet name|Purpose|
     |--------------|-------|
@@ -36,7 +36,7 @@ To create a Microsoft Excel spreadsheet that properly populates the Configuratio
 
 3.  After populating the Microsoft Excel spreadsheet, save it in a known location for easy access when you run the Integration Hub ETL function.
 
-    **Note:** Column names cannot be changed. You can add additional columns to support additional fields to uniquely identify owners, as designated in the **sn\_isa\_model.user\_search\_matching\_attribute** system property.
+    **Note:** Column names can't be changed. You can add additional columns to support additional fields to uniquely identify owners, as designated in the **sn\_isa\_model.user\_search\_matching\_attribute** system property.
 
 
 ## Populating the spreadsheet

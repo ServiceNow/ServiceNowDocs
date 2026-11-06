@@ -1,6 +1,6 @@
 ---
 title: Build Agent and Autonomous Engineer release notes
-description: The ServiceNow Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.The October 2026 release of Build Agent and Autonomous Engineer includes Git integration, new model support, auto-advance plan execution, and more.Build Agent includes enhancements in the September 2026 release, such as Autonomous Engineer for spec-driven full-stack development, expanded Automated Test Framework capabilities, and MCP support.
+description: The ServiceNow Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.Build Agent and Autonomous Engineer add support for new AI models.The October 2026 release of Build Agent and Autonomous Engineer includes Git integration, new model support, auto-advance plan execution, and more.Build Agent includes enhancements in the September 2026 release, such as Autonomous Engineer for spec-driven full-stack development, expanded Automated Test Framework capabilities, and MCP support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/build-agent-rn.html
 release: brazil
@@ -36,6 +36,17 @@ See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/br
     -   Autonomous Engineer is dependent on Build Agent.
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+
+## November 2026
+
+Build Agent and Autonomous Engineer add support for new AI models.
+
+### What's new
+
+-   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
+
+    Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+
 
 ## October 2026
 
@@ -111,7 +122,7 @@ Build Agent includes enhancements in the September 2026 release, such as Autonom
     Build Agent and Autonomous Engineer now support the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
-    -   Anthropic Claude on AWS Opus 5
+    -   Anthropic Claude Opus 5
 -   **[Test suite authoring and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md)**
 
     Create and run ATF test suites from Build Agent and Autonomous Engineer. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.

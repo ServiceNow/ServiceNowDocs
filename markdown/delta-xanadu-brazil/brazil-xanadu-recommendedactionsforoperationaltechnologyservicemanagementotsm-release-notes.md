@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -133,7 +133,7 @@ Australia
 
 -   **[Now LLM Service](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US) deprecation**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
  -   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
@@ -690,6 +690,8 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 
  See [Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=recommended-actions-for-otsm&family=australia&ft:locale=en-US) and [AI Enhanced Recommended Actions for OTSM](https://www.servicenow.com/docs/access?context=ai-enhanced-ra-otsm-landing&family=australia&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 

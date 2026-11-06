@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/available-versions.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -26,9 +26,9 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 5a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3156989)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 12](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-12.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 13 Hotfix 5a W39](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159478)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 5b W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228436)|[Australia](https://www.servicenow.com/docs/r/australia/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 5a W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228388)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 5a W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230085)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -52,6 +52,40 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Brazil Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-2.md)
+
+ [Brazil Patch 2 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228372)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/11/05
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Brazil Patch 1 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-1-hf-1.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/15
+
+</td><td>
+
+Available to Early Availability customers
+
+</td></tr><tr><td>
+
 [Brazil Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-1.md)
 
  [Brazil Patch 1 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220580)
@@ -66,7 +100,7 @@ Patch
 
 </td><td>
 
-Available to Early Availability customers
+Unavailable
 
 </td></tr><tr><td>
 
@@ -86,7 +120,7 @@ Feature
 
 </td><td>
 
-Available to Early Availability customers
+Unavailable
 
 </td></tr></tbody>
 </table>-   Available: Any user can upgrade to the version. "Available" versions will appear on the [Instance Upgrade Management Dashboard](https://www.servicenow.com/community/upgrades-and-patching-blogs/manage-your-upgrades-with-the-instance-upgrade-management/ba-p/2283562).
@@ -104,6 +138,10 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+-   **[Brazil Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-2.md)**  
+The Brazil Patch 2 release contains important problem fixes.
+-   **[Brazil Patch 1 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-1-hf-1.md)**  
+The Brazil Patch 1 Hotfix 1 release contains fixes to these problems.
 -   **[Brazil Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-1.md)**  
 The Brazil Patch 1 release contains important problem fixes.
 -   **[Brazil security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-security-notables.md)**  

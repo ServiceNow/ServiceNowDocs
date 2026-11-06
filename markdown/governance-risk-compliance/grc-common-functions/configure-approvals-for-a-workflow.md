@@ -24,6 +24,8 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: How to configure approvals for an issue workflow
+
 An approval can apply to an issue or to a remediation task. A **State Change** approval prevents an issue from progressing beyond a specified state until the approval is granted. A **Due Date Extension** approval is used when a due date extension request requires approval and is not associated with a specific workflow state.
 
 **Note:**

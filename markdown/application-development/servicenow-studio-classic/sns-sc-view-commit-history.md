@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # View commit history

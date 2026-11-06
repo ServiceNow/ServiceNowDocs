@@ -42,5 +42,5 @@ Role required: admin or survey\_admin or survey\_creator
 **Related topics**  
 
 
-[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SchedulePeriods.md)
+[Schedule periods]()
 

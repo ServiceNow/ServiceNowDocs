@@ -8,7 +8,7 @@ product: Adoption Services
 classification: adoption-services
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
 
@@ -22,7 +22,7 @@ Role required: guided\_tour\_admin
 
 To use domain separation in Guided Tours, you must [request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateDomainSeparation.md).
 
-**Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ActivateUI16.md).
+**Note:** The Guided Tour Designer requires Core UI. For more information, see Activate Core UI.
 
 ## About this task
 

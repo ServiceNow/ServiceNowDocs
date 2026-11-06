@@ -37,7 +37,7 @@ To use the Microsoft Exchange custom activities, you must [request activation](h
 Configure a MID Server with defined IP ranges to use Exchange.
 -   **[Pass multivalued properties with an Exchange activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_PassMultivaluedProperties.md)**  
 To set a multivalued property using an Exchange activity, you must use a specific parameter format.
--   **[Create Address List activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_CreateAddressListActivity.md)**  
+-   **[Create Address List activity]()**  
 The Create Address List activity creates a new address list that acts as an alias for emailing all users in the group.
 -   **[Delete Address List activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_DeleteAddressListActivity.md)**  
 The Delete Address List activity removes an existing address list from an Exchange server.
@@ -49,7 +49,7 @@ The Move Address List activity moves a Microsoft Exchange address list to anothe
 The Set Address List activity modifies a Microsoft Exchange address list.
 -   **[Update Address List activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_UpdateAddressListActivity.md)**  
 The Update Address List activity adds or removes users from the specified address list and immediately applies any cached address list changes to the server.
--   **[Create Mailbox activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_CreateMailboxActivity.md)**  
+-   **[Create Mailbox activity]()**  
 The Create Mailbox activity creates a new Active Directory user, if that user does not already exist, and a Microsoft Exchange mailbox for that user.
 -   **[Delete Mailbox activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_DeleteMailboxActivity.md)**  
 The Delete Mailbox activity deletes the Microsoft Exchange mailbox of an Active Directory user.

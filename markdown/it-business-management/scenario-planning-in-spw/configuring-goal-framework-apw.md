@@ -51,6 +51,12 @@ Defining a custom unit of measure helps the goal users to set the unit of measur
 Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
 -   **[Configure the tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-maintain-constant-tolerance-spw.md)**  
 Change the tolerance band that determines whether a Maintain constant target is on target. The default tolerance is ±5%.
+-   **[Configure check-in due date reminders for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-target-checkin-reminders-spw.md)**  
+Set how many days before a target's review due date the owner and contributors are reminded, based on the target's check-in frequency.
+-   **[Setting a goal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/set-a-goal-calendar-spw.md)**  
+The goal calendar decides which periods your targets use for their check-in frequency and breakdowns. You can use the Gregorian calendar or a fiscal calendar.
+-   **[Managing stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-stale-targets.md)**  
+Understand which targets become stale after a goal calendar change, and how to recover them.
 
 **Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

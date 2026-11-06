@@ -37,7 +37,7 @@ The compliance dynamic schema for change requests consists of the following elem
     The field that references the dynamic category that applies to the change. On the Change Request form this field is labeled **Risk and compliance category**.
 
 
-**Note:** Neither field appears on the Change Request form in the base system. You may need to configure the form to add these fields, and you can place them in the section that suits your process, such as the **Planning** or **Schedule** section.
+**Note:** Neither field appears on the Change Request form in the base system. To add them, configure the form. You can place the fields in any section that suits your process, such as the **Planning** or **Schedule** section.
 
 ## Dynamic categories for change requests
 
@@ -52,11 +52,11 @@ The base system includes example categories, such as Risk and Compliance, Financ
 
 ## Risk and compliance attributes
 
-The namespace defines few dynamic attributes in the base system. These cover areas such as audit trail, downtime, estimated impacted users, lead time, rollback time, and compliance. Each attribute has a type, such as `True/False`, `Integer`, `Decimal`, or `String`, and a value entered for the attribute adheres to that type.
+The namespace defines a few dynamic attributes in the base system. These cover areas such as audit trail, downtime, estimated impacted users, lead time, rollback time, and compliance. Each attribute has a type, such as `True/False`, `Integer`, `Decimal`, or `String`, and a value entered for the attribute adheres to that type.
 
 The attributes provided in the base system are examples. You can deactivate them or define the attributes that match the compliance requirements of your organization.
 
-You can also record an attribute that is not defined in the namespace. Such an attribute is transient, applies only to the change request where you enter it, and is stored as a string whatever value you enter. Recording `"lead_time_to_complete" : "true"` on a change request creates a transient string attribute, because `lead_time_to_complete` is not defined in the namespace.
+You can also record an attribute that is not defined in the namespace. Such an attribute is transient, applies only to the change request where you enter it, and is stored as a string regardless of the value you enter. Recording `"lead_time_to_complete" : "true"` on a change request creates a transient string attribute, because `lead_time_to_complete` is not defined in the namespace.
 
 **Note:**
 

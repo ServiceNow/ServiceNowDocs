@@ -27,7 +27,7 @@ To promote data integrity, you can't create new remote tables in Zero Copy Conne
 
 For information on adding and removing fields to and from remote tables, see [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.md).
 
-ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
+ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table.
 
 ## Procedure
 

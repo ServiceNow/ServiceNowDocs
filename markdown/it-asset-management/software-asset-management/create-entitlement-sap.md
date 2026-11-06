@@ -28,15 +28,15 @@ Role required: sam\_user or sam\_admin
 
 1.  Navigate to the software entitlements.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d37328e86">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d37582e86">
 
 Interface
 
-</th><th align="left" id="d37328e89">
+</th><th align="left" id="d37582e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37328e95">
+</th></tr></thead><tbody><tr><td id="d37582e95">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d37328e131">
+</td></tr><tr><td id="d37582e131">
 
 **Software Asset Workspace**
 

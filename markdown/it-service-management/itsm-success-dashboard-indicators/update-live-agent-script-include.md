@@ -1,6 +1,6 @@
 ---
 title: Update the live agent script include
-description: Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). While we configure these deflections, we need to update the live agent script include. Update the SSADeflectionHelper script to override the checkInteraction function.
+description: Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). When you configure these deflections, update the live agent script include. Update the SSADeflectionHelper script to override the checkInteraction function.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [ITSM Success Dashboard Admin console, Configure, ITSM Success Dashb
 
 # Update the live agent script include
 
-Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). While we configure these deflections, we need to update the live agent script include. Update the SSADeflectionHelper script to override the *checkInteraction* function.
+Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). When you configure these deflections, update the live agent script include. Update the SSADeflectionHelper script to override the *checkInteraction* function.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-An agent interaction is where the interaction is not through a virtual agent interaction. The interaction could be through Walk up experience, phone, video or with a live agent. The base system instrumentation checks whether the employee created an incident or interacted with an agent after reading an article or interacting with a Virtual Agent.
+An agent interaction is where the interaction is not through a virtual agent interaction. The interaction could be through Walk up experience, phone, video, or a live agent. The base system instrumentation checks whether the employee created an incident or interacted with an agent after reading an article or interacting with a Virtual Agent.
 
-The SSADeflectionHelper script overrides the check interaction function and helps in setting up the live agent interaction.
+The SSADeflectionHelper script overrides the *checkInteraction* function and helps in setting up the live agent interaction.
 
 ## Procedure
 

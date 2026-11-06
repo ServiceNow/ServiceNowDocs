@@ -14,6 +14,8 @@ breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analyt
 
 A dashboard viewer has several ways to affect what a data visualization shows in runtime.
 
+-   **[Column filters in the Data visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/column-filters-data-viz-library.md)**  
+Every column in the data visualization library can be filtered. The options for filtering depend on the type of data in the column.
 -   **[Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-group-runtime.md)**  
 A viewer of a data visualization can select the value for grouping the data in the visualization.
 -   **[Refresh a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/refresh-data-viz-runtime.md)**  

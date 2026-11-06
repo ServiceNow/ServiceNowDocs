@@ -16,7 +16,7 @@ Use Platform Analytics dashboards to access, organize, and share data in a visua
 
 ## Dashboards library overview
 
-You can find all the [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) that you have permission to access, dashboards that you own, dashboards that you have bookmarked, and dashboards that have been shared with you by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can also directly access Dashboards from the filter navigation in Platform Analytics library pages.
+You can find all the [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) that you have permission to access by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can filter what dashboards are listed, for example seeing only dashboards you own or you have bookmarked. You can also directly access Dashboards from the filter navigation in Platform Analytics library pages.
 
 Library pages like this one include a navigation pane that provides access to the other libraries and the Usage Insights page. Use it to navigate between the libraries without interrupting your workflow.
 
@@ -56,11 +56,11 @@ Description
 
 </td><td>
 
-Dashboard title
+Open library
 
 </td><td>
 
-Displays the dashboard title. Select the arrow to choose a different dashboard.
+Returns the viewer to the Dashboard library
 
 </td></tr><tr><td>
 
@@ -68,11 +68,11 @@ Displays the dashboard title. Select the arrow to choose a different dashboard.
 
 </td><td>
 
-Refresh information
+Dashboard title
 
 </td><td>
 
-Displays the time or duration when the dashboard was last refreshed. Users with admin roles can configure the refresh intervals. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-ac-db-settings.md).
+Displays the dashboard title. Select the arrow to choose a different dashboard.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Refresh button
 
 </td><td>
 
-Button for refreshing all the visualizations on the dashboard.
+Button for refreshing all the visualizations on the dashboard. In the dashboard settings, an admin user can set whether to display the last refresh near the title. They can also set up automatic dashboard refreshes. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-ac-db-settings.md).
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ More actions button
 
 </td><td>
 
-Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-in-ac.md).\[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog that shows who the dashboard has been shared with and whether they can edit or only view it.
+Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-in-ac.md).
 
 </td></tr><tr><td>
 
@@ -164,15 +164,27 @@ Button for creating, duplicating, sharing, printing, bookmarking, clearing the f
 
 </td><td>
 
-[Top stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md)
+Collapse/Expand container
 
 </td><td>
 
-Elements that are visible no matter which tab has the focus. Filters in this section apply to visualizations on all of the tabs.
+Some dashboard elements, typically filters, can be in a container above or below the tabs. This control hides or shows that container and its contents.
 
 </td></tr><tr><td>
 
 11
+
+</td><td>
+
+Filter
+
+</td><td>
+
+In this example dashboard, there is a filter in a container above the tabs. Because it is outside the tabs, it applies to the contents of all tabs. For more information, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md).
+
+</td></tr><tr><td>
+
+12
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Application sharing

@@ -9,12 +9,14 @@ classification: performance-analytics
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Responsive dashboard properties
 
 Use properties to fine-tune dashboard behavior and appearance.
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md).
 
 Navigate to **System Properties** &gt; **Dashboard Properties** to configure the main responsive dashboard properties. In the Filter navigator, enter `sys_properties.list` to configure other reporting properties.
 

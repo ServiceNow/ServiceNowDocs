@@ -26,7 +26,7 @@ When the customer reports an incident through Live Agent \(for example, through 
 
 \[Omitted image "incoming-chat-ims.png"\] Alt text: Live agent chat
 
-Once the agent accepts the chat, the Inbox is hidden, allowing the agent to focus on resolving the incident.
+After the agent accepts the chat, the Inbox is hidden, allowing the agent to focus on resolving the incident.
 
 \[Omitted image "chat-hidden-ims.png"\] Alt text: Active chat
 

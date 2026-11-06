@@ -34,7 +34,7 @@ Get started with one of the pre-defined lenses, or build a custom lens structure
 
 ## Pre-defined lenses and their structure
 
-Strategic Planning provides nine pre-defined lenses to get you started with building your portfolio plans - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability. Planning managers can use these lenses based on their role at the company.
+Strategic Planning provides ten pre-defined lenses to get you started with building your portfolio plans - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, Project Program, and Business Capability. Planning managers can use these lenses based on their role at the company.
 
 \[Omitted image "predefined-lenses-sp.png"\] Alt text: Predefined lenses - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability.
 
@@ -110,7 +110,7 @@ Digital Product
 
 Plan, prioritize, and roadmap work for digital products.
 
- If the ServiceNow® Digital Product Release Workspace is installed, the planning items associated with the product enhancement appear in the **Planning items** tab of the Release scope page in Digital Product Release Workspace. For details, see [Scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpr-work-release-scope.md).
+ If the ServiceNow® Digital Product Release Workspace is installed, the planning items associated with the product enhancement appear in the **Planning items** tab of the Release scope page in Digital Product Release Workspace. For details, see Scope of a release.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Enterprise architect
 
 </td><td>
 
-Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the [ServiceNow® Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md) is installed.
+Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the ServiceNow® Enterprise Architecture Workspace is installed.
 
 </td></tr><tr><td>
 

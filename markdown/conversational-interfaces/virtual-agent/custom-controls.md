@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-24"
 reading_time_minutes: 3
 breadcrumb: [Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Custom controls are components that ServiceNow® developers can create for use i
 
 Assistant Designer provides a default set of controls that represent [user inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md) for building a Virtual Agent conversation. As a developer, you can use the Asset library in Assistant Designer to create additional controls \(interface components\) for specific inputs or output responses. For example, a slider is an example of a custom input control that enables end users to select a quantity.
 
-**Note:** Custom controls do not work on Internet Explorer version 11. Custom controls are also not supported for Microsoft Teams.
+**Note:** Custom controls don't work on Internet Explorer version 11. Custom controls are also not supported for Microsoft Teams.
 
 ## Before building a custom control
 
@@ -31,7 +31,7 @@ Before building a custom component, you must have the following:
 -   JavaScript knowledge to define component behavior and that of the custom control.
 -   Knowledge of the design process for creating custom components for use in Assistant Designer.
 
-To learn more about developing custom components for Virtual Agent, see Develop a component for Virtual Agent.
+To learn more about developing custom components for Virtual Agent, see [Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/va-components.md).
 
 ## How custom controls work
 

@@ -1,12 +1,12 @@
 ---
 title: Field Service Management release notes
-description: Field Service Management has new and updated features in the Brazil releaseThe ServiceNow Field Service Management \(FSM\) application enables your organization to efficiently manage Field Service operations including work order dispatch, scheduling, and mobile workforce enablement. Field Service Management was enhanced and updated in the Brazil release.Field Service Management enhancements and new features in the Brazil release.Field Service Management enhancements and new features in the Brazil release.
+description: Field Service Management has new and updated features in the Brazil releaseThe ServiceNow Field Service Management \(FSM\) application enables your organization to efficiently manage Field Service operations including work order dispatch, scheduling, and mobile workforce enablement. Field Service Management was enhanced and updated in the Brazil release.Field Service Management enhancements and new features in the Brazil release.Field Service Management enhancements and new features in the Brazil release.Field Service Management enhancements and new features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/field-service-management-rn-landing.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -32,11 +32,54 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ### Activation and other requirements
 
-**Note:** Field Service Management is available in the ServiceNow Store. For details, see .
+**Note:** Field Service Management is available in the ServiceNow Store. For details, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
 -   **Activation information**
 
     Install Field Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## 2026 November Monthly
+
+Field Service Management enhancements and new features in the Brazil release.
+
+### What's new
+
+-   ****
+-   **[FSM Configurable Dispatcher Workspace Bundle v11.1.0 calendar time format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md)**
+
+    You can set the time format for the Dispatcher Workspace calendar with the `sn_fsm_disp_wrkspc.dispatcher_workspace.calendar_display_time_format` system property. The default HH:mm format hides seconds, including in the stacked time zone row headers.
+
+-   **[Operational notes in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/operational-notes-overview.md)**
+
+    Dispatchers can add day-specific notes for technicians, crews, equipment, and work order tasks. Only dispatchers and administrators can see these notes.
+
+
+### What's changed
+
+-   ****
+
+### What's deprecated or removed
+
+-   ****
+
+### Plugin information
+
+-   **New plugins**
+
+     \(\): 
+
+-   **Deprecated plugins**
+
+     \(\): 
+
+-   **Plugins planned for deprecation**
+
+     \(\): Planned for deprecation in . 
+
+-   **Renamed or changed plugins**
+
+     \(\): 
 
 
 ## 2026 October Monthly

@@ -114,7 +114,7 @@ Connection URL
 
 </td><td>
 
-Connection URL. Enter `https://graph.microsoft.com`.
+Connection URL. Enter `https://graph.microsoft.com`
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Authorization URL
 
 </td><td>
 
-OAuth authorization code endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/authorize`.
+OAuth authorization code endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/authorize`
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Token URL
 
 </td><td>
 
-OAuth server token endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`.
+OAuth server token endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ OAuth Redirect URL
 
 </td><td>
 
-OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`.
+OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`
 
 </td></tr></tbody>
 </table>        \[Omitted image "ms-teams-spoke-conf-connection.jpg"\] Alt text: Configure a connection for the Microsoft Teams spoke
@@ -179,7 +179,7 @@ OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_re
 
 5.  Configure the **Microsoft Teams Graph Client Credentials** connection.
 
-    Except the Look up Schedules action, all the other calendar and webhook management spoke actions use this connection record.
+    Except the Look up Schedules action, all the other calendar and web hook management spoke actions use this connection record.
 
     1.  Locate the **Microsoft Teams Graph Client Credentials** connection alias and select **View Details**.
 
@@ -216,7 +216,7 @@ Connection URL
 
 </td><td>
 
-Connection URL. Enter `https://graph.microsoft.com`.
+Connection URL. Enter `https://graph.microsoft.com`
 
 </td></tr><tr><td>
 
@@ -232,7 +232,7 @@ Token URL
 
 </td><td>
 
-OAuth server token endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`.
+OAuth server token endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`
 
 </td></tr><tr><td>
 

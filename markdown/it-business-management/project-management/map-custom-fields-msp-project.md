@@ -78,7 +78,7 @@ The supported data types for field mapping between Microsoft Project and Service
 ## What to do next
 
 -   Import the Microsoft Project file. For more information, see [Import a Microsoft Project file with the Import module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ImportMicrosoftProjectFiles.md).
--   Configure the Project form to add the custom fields that you want to see. For more information, see [Form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/basic-form-administration.md).
+-   Configure the Project form to add the custom fields that you want to see. For more information, see Form configuration.
 
 **Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

@@ -30,6 +30,8 @@ Role required: import\_transformer, import\_admin, or admin
 
 4.  In the **Source of the import** field, select File, and then select **Choose File** to select the source Excel spreadsheet.
 
+    \[Omitted image "import\_task\_file.png"\] Alt text: Import task file configuration form
+
 5.  If required, specify the Work sheet and Header row number.
 
 6.  Select **Submit**
@@ -38,11 +40,11 @@ Role required: import\_transformer, import\_admin, or admin
 
 7.  Create field mappings for custom columns.
 
-    For more information, see [Create field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_MappingOptions.md).
+    For more information, see Create field mappings.
 
 8.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_RunImport.md).
+    For more information, see Run an import.
 
 
 **Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)

@@ -38,7 +38,7 @@ Role required: admin
 
 1.  Navigate to **System Definition** &gt; **Plugins**.
 
-    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Select **Sync now** to synchronize the plugins page with your freshly entitled store application.
 

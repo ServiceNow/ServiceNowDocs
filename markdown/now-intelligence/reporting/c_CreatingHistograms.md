@@ -9,12 +9,14 @@ classification: reporting
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Histogram reports
 
 Histograms group numbers in a data set into ranges. The data used in a histogram is continuous data. Continuous data is measured whereas discrete data, which is used in bar charts, is counted.
+
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 For example, a histogram can show the pattern of P1 incidents logged over a four-week period after a product release. For the first week after the product was released, P1 incidents are low because users do not really understand the product enough to use it. In the second week, more users start working with the product and P1 issues increased. In the third week, P1 issues increase even more as more users began working with the product. In the fourth week, P1 issues stay the same as the third week. The information suggests that it is not necessary to increase support staff until the third week after a product is released.
 
@@ -22,7 +24,7 @@ For example, a histogram can show the pattern of P1 incidents logged over a four
 
 \[Omitted image "histo-report-ex.png"\] Alt text: Histogram Report example
 
-**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md)
+**Parent Topic:**[Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a histogram report
 
@@ -32,15 +34,21 @@ Histograms group numbers in a continuous data set into ranges.
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
+### About this task
+
+**Note:** This topic is about creating Core UI reports, not Platform Analytics data visualizations. You can still create Core UI reports in the Platform Analytics experience, depending on how your instance is configured. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
+
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d180602e159">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d180741e227">
 
 **Data source**
 
@@ -48,7 +56,7 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d180602e178">
+</td></tr><tr><td id="d180741e246">
 
 **Table**
 
@@ -56,7 +64,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name.For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md).
 
-</td></tr><tr><td id="d180602e197">
+</td></tr><tr><td id="d180741e265">
 
 **External import**
 
@@ -64,7 +72,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d180602e222">
+</td></tr><tr><td id="d180741e290">
 
 **MetricBase**
 

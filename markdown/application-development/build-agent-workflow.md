@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-22"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent workflow
@@ -30,7 +30,7 @@ A general workflow for using Build Agent in either ServiceNow Studio or the Serv
 9.  Instruct Build Agent to build the application; verify results in the File Navigator or Metadata Explorer.
 10. Deploy the application. If you're using source control, you can push to Git.For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-deployment.md).
 
-When your app is connected to Git-based source control, you can also manage source control operations from the Build Agent chat panel without switching to the VS Code UI. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-source-control.md).
+When your app is connected to Git-based source control, you can also manage source control operations from the Build Agent chat panel without switching to the VS Code UI. For more information, see .
 
 **Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)
 

@@ -22,7 +22,7 @@ Based on the fiscal calendar setup, you can then set the [funding frequency](htt
 
 For information about fiscal calendars, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FiscalCalendar.md).
 
-For information about how to generate a fiscal calendar, see [Generate a fiscal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_GenerateFiscalCalendar.md).
+For information about how to generate a fiscal calendar, see Generate a fiscal calendar.
 
 **Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-administration.md)
 

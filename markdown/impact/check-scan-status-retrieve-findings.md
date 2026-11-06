@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 4
 keywords: [scan status, findings, API, GET]
-breadcrumb: [Scan Engine Headless REST API, Scan your instance, Configuring Impact, Impact]
+breadcrumb: [Scan Engine Headless REST API, Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Check scan status and retrieve findings
@@ -319,6 +319,4 @@ You now have detailed findings from your scan and can track resolved findings ov
 ## What to do next
 
 For common usage patterns, integrate the scan results into your CI/CD pipelines or scheduled workflows. See [Automate scans in CI/CD pipelines and scheduled workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/integrate-scan-engine-ci-cd.md) for examples.
-
-**Parent Topic:**[Scan Engine Headless REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-headless-api-overview.md)
 

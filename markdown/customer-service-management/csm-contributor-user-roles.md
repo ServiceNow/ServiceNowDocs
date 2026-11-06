@@ -163,33 +163,26 @@ Service organization contributor \[sn\_customerservice.service\_organization\_co
 
 This role enables you to create cases for your service organization \(business location\).**Note:** A service organization contributor must be a member of a service organization to create cases on its behalf.
 
+This role enables you to also perform the following on the customer-visible case tasks for the cases you have access to at your service organization \(business location\):
+
+-   View and update case tasks and the fields on the case task record.
+-   Close case tasks in Business Location Service Portal \(BLSP\).
+
 </td><td>
 
 sn\_customerservice.case\_contributor\_creator
 
 </td></tr><tr><td>
 
-Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
 
 </td><td>
 
-This role enables you to create cases for accounts associated with your business organization using criteria-based restricted customer access. Track and manage cases created by you for the accounts associated with your business organization.
+This role enables you to create and track cases for yourself while associating them with your business location. You can also link any sold products or install base items assigned to you at a business location to the case.
 
 </td><td>
 
- 
-
-</td></tr><tr><td>
-
-Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
-
-</td><td>
-
-This role enables you to create cases for consumers and households associated with your business organization using criteria-based restricted customer access. Also, track and manage cases created by you for the consumers or households associated with your business organization.
-
-</td><td>
-
- 
+sn\_customerservice.case\_contributor\_creator
 
 </td></tr></tbody>
 </table>## Roles included with the CSM Base Extension Entities plugin
@@ -226,6 +219,8 @@ sn\_customerservice.case\_contributor\_creator
 </td></tr></tbody>
 </table>## Additional roles
 
+Using the following roles, you can provide access to customer data and CRM workspace to some contributor users.
+
 <table id="table_hbc_drt_jnb"><thead><tr><th>
 
 Role
@@ -256,7 +251,7 @@ Workspace user\[sn\_customerservice.csm\_workspace\_user\]
 
 </td><td>
 
-This role provides access to case tasks from the following modules in the CSM workspaces for internal users only:-   My Case Tasks
+This role provides access to case tasks from the following modules in the CRM workspaces for internal users only:-   My Case Tasks
 -   My Group's Case Tasks
 
  You can also:

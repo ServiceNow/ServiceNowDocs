@@ -60,6 +60,8 @@ Bot response controls
 Make your own user interface applicable to the interactive view with some customization in the following two tables: Now Canvas Definition \[sn\_now\_canvas\_definition.list\] and Now Canvas Configuration \[sn\_now\_canvas\_configuration.list\].
 -   **[ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-sys-props.md)**  
 Use system properties to customize your assistant. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Legacy refers to the standard or enhanced chat experience. Premium refers to the premium chat experience.
+-   **[Setup topic requirements for assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/setup-topic-requirements-assistants.md)**  
+Setup topics handle the basic parts of a chat, such as greeting users, ending the chat, and responding when the assistant can't interpret a request.
 -   **[Assistant analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/assistant-analytics-dashboard-indicator-details.md)**  
 View the data and calculations behind an indicator that is presented in the form of a visualization on the Assistant analytics dashboard.
 -   **[Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/multi-lingual-support-for-voice-assistants.md)**  

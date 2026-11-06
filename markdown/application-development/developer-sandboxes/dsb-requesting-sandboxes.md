@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Administering, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Requesting sandboxes

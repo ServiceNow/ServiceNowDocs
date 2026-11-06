@@ -9,12 +9,20 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [Configuration Console, HAM Setup, Product Hub]
 breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configuration Console for Hardware Asset Management
 
 The Configuration Console gives administrators a centralized, module-by-module setup experience to configure Hardware Asset Management features after installation.
+
+## Requirements for the Configuration Console
+
+The Configuration Console is available when your ServiceNow instance meets the following requirements:
+
+-   Hardware Asset Management version 16.0.0 or later is installed.
+-   Setup Hub \(sn\_ia\_base\) version 3.0.4 or later is installed.
 
 ## Key benefits
 
@@ -26,7 +34,7 @@ The Configuration Console gives administrators a centralized, module-by-module s
     **Note:** AI-assisted configuration provides suggestions based on your instance data and may not always be accurate. Review and validate all AI-generated configurations before applying them to verify they meet your organization's requirements.
 
 
-## Access Configuration console
+## Access Configuration Console
 
 After installing the Hardware Asset Management application, a **Configure** option appears on the Product Hub page. Select this option to open the Configuration Console.
 

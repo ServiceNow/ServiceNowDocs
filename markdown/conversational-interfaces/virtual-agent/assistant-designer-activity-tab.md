@@ -18,6 +18,8 @@ Investigate completed voice interactions and troubleshoot individual interaction
 
 The **Conversations** tab in Assistant Designer shows a log of completed voice interactions across all voice assistants. Use the Conversations tab to review call outcomes, identify issues with tool executions or authentication, and access full transcripts for specific calls.
 
+**Note:** The user intents and the intent log on this page depend on the intents and resolution criteria you define in the Asset library of AI Admin Center. To set them up, see [Create an intent in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-create-intent.md).
+
 \[Omitted image "aiv-assistant-designer-activity-tab.png"\] Alt text: Conversations tab in Assistant Designer listing completed voice calls with columns for ID, description, timestamp, duration, resolution status, agents, intents, authentication, and assists.
 
 ## Conversations list

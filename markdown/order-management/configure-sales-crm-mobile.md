@@ -37,8 +37,6 @@ This role is automatically inherited by users with the sales\_agent, sales\_rest
     You are logged in the Sales CRM Mobile application.
 
 
--   **[Activate ServiceNow Otto plugin on Sales CRM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activate-servicenow-otto-plugin-sales-crm-mobile.md)**  
-Activate the plugin and ServiceNow Otto tab required for AI conversational interface on Sales CRM Mobile application.
 -   **[Activate ServiceNow Otto AI Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activate-servicenow-otto-chat-sales-crm-mobile.md)**  
 After installing the ServiceNow Otto plugin, activate the chat launcher required to enable ServiceNow Otto AI conversational interface on Sales CRM Mobile application.
 
@@ -50,8 +48,6 @@ After installing the ServiceNow Otto plugin, activate the chat launcher required
 [Mobile experience for Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/mobile-experience-sales-crm.md)
 
 [Sales CRM Mobile Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-crm-mobile-application.md)
-
-[Activate ServiceNow Otto plugin on Sales CRM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activate-servicenow-otto-plugin-sales-crm-mobile.md)
 
 [Activate ServiceNow Otto AI Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activate-servicenow-otto-chat-sales-crm-mobile.md)
 

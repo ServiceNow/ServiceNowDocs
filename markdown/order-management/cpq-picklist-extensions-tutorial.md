@@ -1,18 +1,18 @@
 ---
 title: Configure picklist extensions
-description: Learn how to create and configure picklist extensions \(Picklist extensions\) in CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
+description: Learn how to create and configure picklist extensions \(Picklist extensions\) in ServiceNow CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-picklist-extensions-tutorial.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure picklist extensions
 
-Learn how to create and configure picklist extensions \(Picklist extensions\) in CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
+Learn how to create and configure picklist extensions \(Picklist extensions\) in ServiceNow CPQ. Add extended option details, apply filters, and map products and quantities to display enriched picklist data in layouts for more dynamic and efficient configurations.
 
 ## Before you begin
 

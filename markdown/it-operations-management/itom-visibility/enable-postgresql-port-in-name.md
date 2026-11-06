@@ -19,7 +19,7 @@ You can make multiple PostgreSQL instances on the same host distinguishable by p
 
 ## Before you begin
 
-Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: mid\_server, agent\_admin, or agent\_security\_admin
 

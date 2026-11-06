@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Users with the roles that are listed in the following table can use the Industrial Process Manager application.
+Users with the roles listed in the following table can use the Industrial Process Manager application.
 
 <table id="table_q55_vpq_4nb"><thead><tr><th>
 

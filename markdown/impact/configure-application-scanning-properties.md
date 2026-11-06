@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-application-scanning-properties.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [application scanning, Team Dev, Suite Scan, scan engine, push approval]
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure application scanning properties
@@ -106,7 +106,7 @@ Allow Suite Scan for applications
 </table>8.  Select **Save**.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
 
 **Related topics**  
 

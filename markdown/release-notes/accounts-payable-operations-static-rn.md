@@ -24,6 +24,8 @@ The ServiceNow® Accounts Payable Operations application helps Accounts Payable 
 
 For an overview of Accounts Payable Operations capabilities, see [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/acc-pay-mgmt-landing-page.md).
 
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
+
 ## Activation and other requirements
 
 **Note:** Accounts Payable Operations is available in the ServiceNow Store.

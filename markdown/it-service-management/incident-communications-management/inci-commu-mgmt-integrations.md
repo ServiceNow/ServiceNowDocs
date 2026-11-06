@@ -1,6 +1,6 @@
 ---
 title: Incident Communications Management integrations
-description: Incident Communications Management is integrated with other applications such as Notify to improve the overall communication process.
+description: Incident Communications Management integrates with other applications, such as Notify, to improve the communication process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/inci-commu-mgmt-integrations.html
 release: brazil
@@ -14,10 +14,10 @@ breadcrumb: [Incident Communications Management reference, Incident Communicatio
 
 # Incident Communications Management integrations
 
-Incident Communications Management is integrated with other applications such as Notify to improve the overall communication process.
+Incident Communications Management integrates with other applications, such as Notify, to improve the communication process.
 
 -   **[Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/c_NotifyWithIncidentAlertManagement.md)**  
-Notify allows you to integrate with the Twilio telephony service to send and receive phone calls and SMS from within your instance. In Incident Communications Management, Notify provides you with SMS and conference as channels.
+Notify integrates with the Twilio telephony service so you can send and receive phone calls and SMS messages from your instance. In Incident Communications Management, Notify provides SMS and conference channels.
 
 **Parent Topic:**[Incident Communications Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/reference-section-inci-comm-mngmt.md)
 

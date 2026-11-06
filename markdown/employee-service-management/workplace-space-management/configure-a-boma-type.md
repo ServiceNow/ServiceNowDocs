@@ -76,7 +76,7 @@ The BOMA type is configured. To map the BOMA type with a Space type, refer to [M
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

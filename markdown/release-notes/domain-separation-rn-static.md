@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/domain-separation
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Domain Separation, multi-tenant, data isolation, compliance, security]
 breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -41,16 +41,4 @@ See Domain Separation documentation for more information.
 
 -   **Additional requirements**
     -   Appropriate user roles assigned: Domain Separation Admin, Domain Policy Admin, and other role-based permissions for domain management and configuration.
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   All user interface elements in Domain Separation meet WCAG 2.1 Level AA standards for accessibility. The administration console and all configuration workflows are fully navigable by keyboard and compatible with screen readers including JAWS and NVDA.
-    -   Screen reader support includes proper ARIA labels for all UI components including domain policy configuration, access control settings, and cross-domain restriction interfaces.
-    -   Color contrast ratios meet WCAG AA standards across all features and workflows.
-    -   For accessibility questions or to report accessibility issues, contact ServiceNow Support.
--   **Localization information**
-
-    All user-facing strings in Domain Separation are localized for supported ServiceNow languages at general availability \(GA\). Supported languages include English, French, German, Spanish, Italian, Japanese, Portuguese, Chinese \(Simplified and Traditional\), and Korean. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
-
 

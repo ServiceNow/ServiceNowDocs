@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/zcc-erp
 release: brazil
 topic_type: reference
 last_updated: "2026-09-22"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -103,13 +103,13 @@ Used in agentic workflows
 
 </td><td>
 
-[Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
+
 
 </td></tr></tbody>
 </table>For more information, see:
 
--   [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
--   [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+-   
+-   
 -   [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md)
 
 **Parent Topic:**[Zero Copy Connector for ERP AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/zcc-ai-agents-overview.md)

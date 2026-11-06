@@ -8,7 +8,7 @@ product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -71,4 +71,6 @@ This section shows cards with counts of the following services and offerings ass
 This section shows aggregations from the latest CMDB Health test results for the Completeness, Correctness, Compliance, and Relationship KPIs, and the aggregated state of attestation. Color codes are used to denote pass/fail scores.
 
 **Note:** For more information on each section, see [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ci-form-cmdb-workspace.md).
+
+**Parent Topic:**[Viewing the cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md)
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 2
 keywords: [Moveworks chatbot, Moveworks Setup, trusted issuer, chatbot configuration]
-breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the Moveworks chatbot

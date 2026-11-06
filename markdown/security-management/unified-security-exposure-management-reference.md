@@ -26,4 +26,8 @@ List of roles installed with Security Exposure Management, defining user permiss
 Use this reference to understand the fields available on the Visualization widget form. These fields define how the widget appears, behaves, and groups data.
 -   **[Exception questionnaire scenarios for vulnerable items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-exception-ques-scenarios.md)**  
 The questionnaire displayed when a user requests an exception on a vulnerability item depends on which questionnaires are configured in the exception management record and which request type is selected.
+-   **[Target tables for scanner integrations in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/uep-scanners-target-tables.md)**  
+For scanners configured using unified exposure pipeline, provides information about the impacted target tables in Unified Security Exposure Management \(USEM\).
+-   **[Security asset fields for asset types in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/uep-asset-types-labels.md)**  
+Provides information about security asset fields added for various asset types in the unified exposure pipeline.
 

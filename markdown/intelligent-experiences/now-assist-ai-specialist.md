@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-ai-specialist.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-05"
+last_updated: "2026-10-27"
 reading_time_minutes: 1
 breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -31,9 +31,10 @@ The following table lists examples of AI specialists available as part of the Au
 
 |Product|Available AI specialists|
 |-------|------------------------|
-|[Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/psm-overview.md)|[AI L1 SPO Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/ztsd-agent-na-spo.md)|
-|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md)|[L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/l1-service-desk-ai-specialist.md)|
 |[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/finance-supply-chain-landing.md)|[AI L1 APO Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/zero-touch-service-desk-apo.md)|
+|[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_ITOMApplications.md)|[AIOps specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ai-specialist-aiops-overview.md)|
+|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md)|[L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/l1-service-desk-ai-specialist.md)|
+|[Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/psm-overview.md)|[AI L1 SPO Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/ztsd-agent-na-spo.md)|
 
 **Related topics**  
 

@@ -27,7 +27,7 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 **Note:** If you have configured multiple IdPs on your instance and want to select a specific IdP for your Engagement Messenger module, do the following:
 
 -   [Enable Engagement Messenger on a website when third-party application cookies are blocked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/allowlist-em-third-party-website.md)
--   [Custom URL with Identity Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/custom-url-with-multiple-identity-providers.md)
+-   [Configure a custom URL with an identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/custom-url-with-multiple-identity-providers.md)
 -   If you have multiple IdPs on your instance:
 
     -   In case of OIDC authentication type, the generated ID token should contain the client ID of a IdP record against which authentication is required.

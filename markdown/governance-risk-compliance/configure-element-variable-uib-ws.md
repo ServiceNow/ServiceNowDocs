@@ -36,6 +36,8 @@ Element variables are custom elements that are used in the Grid configuration. A
 
     For more information on the fields in the form, see [Element variable record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/element-variable-record-form.md).
 
+    For example, select `Database servers` in the **Element definition** field, enter `Backup window` in the **Question** field, and set **Type** to `Single-line text`.
+
 4.  Select **Submit**.
 
 

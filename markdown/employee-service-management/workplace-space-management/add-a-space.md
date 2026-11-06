@@ -358,7 +358,7 @@ Specify if a space type is usable or not by using the Space type configuration f
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

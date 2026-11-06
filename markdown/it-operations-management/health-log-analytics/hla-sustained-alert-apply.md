@@ -59,7 +59,7 @@ By default, the system calculates this duration automatically based on the metri
 
     Sustained alert feedback is applied to the metric. Anomalies that persist for less than the continuous duration threshold are suppressed. The sustained alert configuration applies across user sessions and system restarts.
 
-    The value **Sustained** is displayed underneath the **Applied feedback** label in the header strip at the top of the alert record.A value showing the applied duration and mode—for example, **Sustained: 12 min \(Smart\)** for adaptive mode or **Sustained: 20 min \(Custom\)** for manual mode—is displayed underneath the **Applied feedback** label in the header strip at the top of the alert record.
+    The value **Sustained** is displayed underneath the **Applied feedback** label in the header strip at the top of the alert record.A value showing the applied duration and mode is displayed underneath the **Applied feedback** label in the header strip at the top of the alert record. For example, **Sustained: 12 min \(Smart\)** for adaptive mode or **Sustained: 20 min \(Custom\)** for manual mode.
 
 5.  Remove the sustained duration threshold for anomalies like the one that triggered this alert.
 

@@ -16,7 +16,7 @@ The quiz designer provides a single interface that users with the assessment\_ad
 
 You can also use it to edit existing quizzes and change scoring parameters.
 
-Alternatively, you can use the modules of the [assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Assessments.md) to create and edit the records that make up a quiz. All quiz records are stored in assessment tables and displayed in Quiz views of those tables. For details, see [Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CreateQuizzesWithForms.md).
+Alternatively, you can use the modules of the [assessment engine]() to create and edit the records that make up a quiz. All quiz records are stored in assessment tables and displayed in Quiz views of those tables. For details, see [Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CreateQuizzesWithForms.md).
 
 ## Tools on the Quiz Designer
 

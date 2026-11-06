@@ -54,11 +54,11 @@ Role required: impact app admin, admin
 
 After completing Guided Setup, you can:
 
--   Configure additional instance integrations to expand Scan Engine coverage across your environment. See [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md).
+-   Configure additional instance integrations to expand Scan Engine coverage across your environment. See [Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md).
 -   Grant temporary instance access to your Impact Squad for support and troubleshooting. See [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/hop-access-impact-squad.md).
 -   Activate Now Assist Skills for Impact to enable AI-powered recommendations and insights. See [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md).
 -   Enable data collection for Value Management to track and measure the business impact of technical debt reduction. See [Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-toolkit.md).
--   Set up agents to enable AI-powered features such as Success Path, Value Story Builder, and the Health Agent. See .
+-   Set up Now Assist skill to enable AI-powered features such as Success Path, Value Story Builder, and the Health Agent. See [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md).
 
 -   **[Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md)**  
 Follow these instructions to install the Impact Store Application.

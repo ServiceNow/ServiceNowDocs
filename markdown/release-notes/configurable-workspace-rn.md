@@ -1,12 +1,13 @@
 ---
 title: Configurable Workspace release notes
-description: The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. See the following sections for release notes by version.The September 2026 release expands customization and AI-powered capabilities for lists, form templates, and declarative actions.
+description: The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. See the following sections for release notes by version.The November 2026 release of Configurable Workspace includes voice output for Screen Summarization.The September 2026 release expands customization and AI-powered capabilities for lists, form templates, and declarative actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/configurable-workspace-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Screen Summarization, voice output, accessibility]
 breadcrumb: [ServiceNow AI Platform user interface release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -36,6 +37,17 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
 
 
 **Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-ui-rn-landing.md)
+
+## November 2026
+
+The November 2026 release of Configurable Workspace includes voice output for Screen Summarization.
+
+### What's changed
+
+-   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/use-screen-summarization.md)**
+
+    Listen to AI-generated page or section summaries through an audio player with playback controls.
+
 
 ## Brazil Early Availability
 

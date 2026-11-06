@@ -15,7 +15,7 @@ breadcrumb: [\(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 
 Configure the Virtual Agent features, components, and integrations that you need to provide support to your employees, IT teams, and customers.
 
-Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For migration guidance, see [KB3159779: Virtual Agent NLU and Keyword Feature Deprecation Migration Guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159779).
 
 ## Conversational Interfaces Console
 

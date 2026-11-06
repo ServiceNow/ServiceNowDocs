@@ -7,7 +7,7 @@ release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---

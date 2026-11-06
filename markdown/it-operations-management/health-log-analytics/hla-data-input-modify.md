@@ -1,6 +1,6 @@
 ---
 title: Modify a data input configuration in Health Log Analytics
-description: Change the configuration of a data input for Health Log Analytics by adding a new path to an existing data input configuration or modifying the data input's MID Server destination and port.
+description: Change the configuration of a data input for Health Log Analytics. You can add a new path to an existing configuration or modify the MID Server destination and port.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-modify.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set
 
 # Modify a data input configuration in Health Log Analytics
 
-Change the configuration of a data input for Health Log Analytics by adding a new path to an existing data input configuration or modifying the data input's MID Server destination and port.
+Change the configuration of a data input for Health Log Analytics. You can add a new path to an existing configuration or modify the MID Server destination and port.
 
 ## Before you begin
 

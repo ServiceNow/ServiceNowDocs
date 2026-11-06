@@ -42,13 +42,13 @@ Role required: If you have an internal role, you can create dashboards with the 
 
     \[Omitted image "group-db-elements.png"\] Alt text: Shows check boxes to select to group three dashboard elements
 
-7.  \[Omitted image "modify-group-ungroup-db-elements.png"\] Alt text: Elements group menu with the Modify and Ungroup options highlighted
+7.  Specify background and border colors.
 
-8.  Specify background and border colors.
+8.  Select **Save**.
 
-9.  Select **Save**.
+9.  Modify the grouped elements or ungroup them.
 
-10. Modify the grouped elements or ungroup them.
+    \[Omitted image "modify-group-ungroup-db-elements.png"\] Alt text: Elements group menu with the Modify and Ungroup options highlighted
 
 
 ## Result

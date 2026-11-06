@@ -18,10 +18,6 @@ Learn more about dashboards with a sample workflow and reviewing the benefits it
 
 ## Dashboards overview
 
-**Note:** On net new Brazil instances and instances migrated to Platform Analytics experience, Core UI Responsive Dashboards functionality is replaced with Platform Analytics dashboards. For more information, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md).
-
-The dashboard\_admin role is required to create or edit Core UI Responsive Dashboards, which may still be necessary in Service Portal, for example.
-
 Core UI Responsive Dashboards show reports, Performance Analytics indicator widgets, interactive filters, and other Core UI components of the story of the data on your instance.
 
 Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-migration-migrate-dbs-you-own.md).

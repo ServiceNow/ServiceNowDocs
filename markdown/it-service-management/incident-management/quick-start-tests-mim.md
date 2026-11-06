@@ -8,7 +8,7 @@ product: Incident Management
 classification: incident-management
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, security network communication, snc, security, data, communication, connection]
-breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using a Secure Network Communication \(SNC\) connection in Zero Copy Connector for ERP

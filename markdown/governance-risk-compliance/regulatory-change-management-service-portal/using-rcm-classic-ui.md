@@ -7,7 +7,7 @@ release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Use the Regulatory Change Management application to manage regulatory changes ac
 -   **[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)**  
 Regulatory alerts are an aggregation of different regulatory events and documents that are sourced from multiple regulatory intelligence providers. Similar to web feeds, a regulatory alert is a record of these regulatory changes. Such changes are frequently updated, and the alerts help you stay informed about the regulatory landscape.
 -   **[Regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-task.md)**  
-When a manager or user marks an unassigned regulatory alert as applicable, a regulatory change task is created to analyze the impact of the regulatory change and coordinate the required compliance activities.
+When a manager or user marks an unassigned regulatory alert as applicable, a regulatory change task is created. It is used to analyze the impact of the regulatory change and coordinate the required compliance activities.
 -   **[Source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/source-doc-import-task.md)**  
 The Regulatory Change Management application processes the alerts that are externally sourced. Source document import tasks are automatically created whenever a source document alert record is marked as applicable. The source document can refer to the legislative and regulatory materials.
 

@@ -24,6 +24,8 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: How to review and activate an issue workflow
+
 The **Review** step provides a summary of the workflow's configuration, including its name, table, layout, state model, playbook, trigger condition, priority, state-to-stage mappings, and approvals. Reviewing this information helps you identify configuration issues before the workflow becomes active.
 
 The **Activate workflow** button is available only when the workflow reaches the **Review** step. Approvals are optional and don't have to be configured before you activate the workflow. See [Configure approvals for a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-approvals-for-a-workflow.md).

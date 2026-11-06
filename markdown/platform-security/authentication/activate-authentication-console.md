@@ -1,6 +1,6 @@
 ---
 title: Activate the policy-based login experience
-description: Activate the policy-based login experience so that you can create and manage the identifier-first login \(IFL\) policies that drive the next-generation login experience.
+description: Activate the policy-based login experience so that you can create and manage the identifier-first login policies that drive the policy-based login experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-authentication-console.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [Authentication Console, Authentication, Access Management]
 
 # Activate the policy-based login experience
 
-Activate the policy-based login experience so that you can create and manage the identifier-first login \(IFL\) policies that drive the next-generation login experience.
+Activate the policy-based login experience so that you can create and manage the identifier-first login policies that drive the policy-based login experience.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: `user_authn_admin`
 
 ## About this task
 
-You can activate the policy-based login experience it by enabling the `glide.authenticate.policy_based_login_experience.enabled` system property. After the property is active, you use create and manage IFL policies in the Authentication Console. For an overview of the console, see [Authentication Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/authentication-console.md).
+You can activate the policy-based login experience by enabling the `glide.authenticate.policy_based_login_experience.enabled` system property and turning on **Enable policy-based login** in the Authentication Console. After the experience is active, you can create and manage identifier-first login policies in the Authentication Console. For an overview of the console, see [Authentication Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/authentication-console.md).
 
 ## Procedure
 
@@ -41,19 +41,19 @@ You can activate the policy-based login experience it by enabling the `glide.aut
 
     This setting determines the first authentication factor during user login.
 
-7.  Create at least one active IFL policy.
+7.  Create at least one active identifier-first login policy.
 
-    See [Create an IFL policy for password authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-password.md) or [Create an IFL policy for SSO authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-sso.md).
+    See [Create an identifier-first login policy for password authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-password.md) or [Create an identifier-first login policy for SSO authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy-sso.md).
 
 
 ## Result
 
-The policy-based login experience is active. You can now create the IFL policies that route users during the identifier-first login flow.
+The policy-based login experience is active. You can now create the identifier-first login policies that route users during the identifier-first login flow.
 
 ## What to do next
 
--   Create your first policy. See Create an IFL policy.
--   Manage existing policies. See Manage IFL policies.
+-   Create your first policy. See [Create an identifier-first login policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ifl-policy.md).
+-   Manage existing policies. See [Manage identifier-first login policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/manage-ifl-policies.md).
 
-**Note:** The next-generation login experience takes effect only when this property is enabled and at least one active IFL policy exists. Enabling the property alone does not change the login flow.
+**Note:** The policy-based login experience takes effect only when the property is enabled, Enable policy-based login is turned on, and at least one active identifier-first login policy exists. Enabling the property alone doesn't change the login flow.
 

@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
 last_updated: "2026-09-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [target type, maintain above, maintain below, maintain constant, target breakdowns]
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,6 +31,8 @@ Depending on the target, a confirmation dialog box opens before the change is ap
 -   When the target has actuals, the dialog box warns that changing the type between Maximize, Minimize, and Maintain types resets planned target values and actual values in the breakdowns. Back up your actual values before proceeding.
 
 No dialog box opens when you change between two Maintain types, for example, from **Maintain above** to **Maintain constant**, or when you change to or from **Milestone**.
+
+If the target is stale, you can't change its type until its check-in frequency is cleared. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/stale-targets.md).
 
 ## Procedure
 

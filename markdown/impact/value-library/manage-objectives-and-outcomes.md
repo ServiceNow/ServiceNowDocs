@@ -9,7 +9,7 @@ classification: value-library
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Objectives and outcomes, Value Management, Using Impact, Impact]
+breadcrumb: [Objectives and outcomes, Value Management, Impact reference, Impact]
 ---
 
 # Manage objectives and outcomes
@@ -20,7 +20,7 @@ You can review objectives and outcomes tracking configuration, and access trend 
 
 Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
 
-An outcome whose success metric uses an estimated data definition cannot be tracked until that definition is configured. An indicator appears against any success metric that uses an estimated definition. While at least one metric on the page still needs configuring. An informational banner appears at the top explaining that estimated definitions have to be configured for high-fidelity value numbers, with a path to the Configure estimated data definition page.
+An outcome whose success metric uses an estimated data definition cannot be tracked until that definition is configured. An indicator appears against any success metric that uses an estimated definition. Hover over the indicator to see the tooltip: "Estimated data definition. Select Configure metric above to update." The indicator stays until the definition is configured and cannot be dismissed. Users with a qualifying role can select Configure metric to open the configuration page. Users without one see a message that a qualifying role is required, and no action is offered. A banner appears at the top of the page while at least one metric on the page still needs configuring. The banner explains that estimated definitions must be configured for high-fidelity value numbers, and links to the Configure estimated data definition page.
 
 ## Procedure
 

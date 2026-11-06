@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a Knowledge Graph schema to a chat assistant

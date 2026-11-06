@@ -20,7 +20,7 @@ AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\) stores
 
 A search profile contains settings that determine how AI Search generates search results for a given search. The search application's configuration specifies which search profile to use, and also determines how the generated results are displayed to users.
 
-For more information on AI search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-profiles-ais.md).
+For more information on AI search profiles, see .
 
 ## Create a search profile using ServiceNow Otto for PSDS
 
@@ -38,7 +38,7 @@ Role required: admin
 
 3.  On the Search Profile form, fill in the fields.
 
-    For a description of the field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-profile-form-ais.md).
+    For a description of the field values, see .
 
 4.  Select **Submit**.
 
@@ -49,7 +49,7 @@ The new search profile appears in the AI Search Search Profiles list with **Stat
 
 ### What to do next
 
-Your new search profile includes sample synonym and stop word dictionaries and a default typo handling dictionary. For more details on configuring and populating these dictionaries, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/synonyms-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/stop-words-ais.md), and [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/typo-handling-ais.md).
+Your new search profile includes sample synonym and stop word dictionaries and a default typo handling dictionary. For more details on configuring and populating these dictionaries, see , , and .
 
 To make content searchable using your new search profile, link one or more search sources to it.
 
@@ -81,7 +81,7 @@ Linking a search source to a search profile makes its filtered content available
 
     To configure single-turn AI Search, enter **ServiceNow Otto Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
 
-    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-prof-src-mapping-form-ais.md).
+    For a description of the field values, see .
 
 5.  Select **Submit**.
 

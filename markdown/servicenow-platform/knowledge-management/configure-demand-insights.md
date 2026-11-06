@@ -28,7 +28,7 @@ This task provides general steps to configure the Knowledge Demand Insights feat
 
 ## Procedure
 
-1.  [Configure similarity and clustering solution definitions to enable comparing knowledge bases with a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-km-solution-defintions.md).
+1.  [Configure similarity and clustering solution definitions to enable comparing knowledge bases with a task type]().
 
 2.  [Configure the combination of the task table and similarity and clustering solution definitions that are processed in a scheduled job for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/select-tasks-knowledge-bases.md).
 

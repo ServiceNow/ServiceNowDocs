@@ -43,19 +43,19 @@ Next, depending on the authentication type that you selected for your configured
 
 5.  Scroll down to the Embed code section and click **Copy code**.
 
-6.  Open the HTML file of your website and paste the copied code before the closing body tag.
+6.  Open the HTML file of your website in a text editor and paste the copied code before the closing body tag.
 
 7.  For a messenger module with OIDC-based or SAMl-based authentication, complete the following configuration.
 
-<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d107209e153">
+<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d107959e153">
 
 Authentication type
 
-</th><th align="left" id="d107209e156">
+</th><th align="left" id="d107959e156">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107209e162">
+</th></tr></thead><tbody><tr><td id="d107959e162">
 
 **OIDC-based**
 
@@ -70,7 +70,7 @@ This function enables authenticated users to log in to Engagement Messenger seam
 
 This function enables authenticated users to seamlessly log out from Engagement Messenger and your website.
 
-</td></tr><tr><td id="d107209e202">
+</td></tr><tr><td id="d107959e202">
 
 **SAML-based**
 
@@ -104,9 +104,7 @@ This function enables authenticated users to seamlessly log out from Engagement 
 
     **Note:** Beginning with the Brazil release, the upgraded customers can also modify the embed code to enable language switching.
 
-10. Open the website to which you added the Engagement Messenger code to verify that the launcher icon is available and click the icon to verify that it launches Engagement Messenger.
-
-11. Modify the embed code of Engagement Messenger to integrate Proactive Recommendations on a web page.
+10. Modify the embed code of Engagement Messenger to integrate Proactive Recommendations on a web page.
 
     For more information on using Engagement Messenger to integrate Proactive Recommendations on a web page, see [Use Engagement Messenger embed Code to integrate proactive recommendations on a web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/em-contextual-help.md).
 

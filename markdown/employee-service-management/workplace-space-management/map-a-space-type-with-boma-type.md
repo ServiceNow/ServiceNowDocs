@@ -81,7 +81,7 @@ The space type is mapped with a BOMA type. All the spaces that are assigned to t
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

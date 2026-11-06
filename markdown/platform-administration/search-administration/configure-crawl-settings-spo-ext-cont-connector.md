@@ -50,7 +50,7 @@ If your Microsoft SharePoint Online connector reaches the content indexing limit
 
 2.  In the Connectors list, select the record for the Microsoft SharePoint Online external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  Select one of the following **Content filtering** options:
 

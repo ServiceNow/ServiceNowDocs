@@ -154,5 +154,5 @@ Analyze de-duplication tasks to determine which CIs should remain active and whi
 
 [Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)
 
-[Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingADocumentIDField.md)
+[bundle-platadm.t_CreatingADocumentIDField]
 

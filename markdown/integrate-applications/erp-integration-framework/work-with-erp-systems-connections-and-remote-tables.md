@@ -7,7 +7,7 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, remote, table, remote table, model, extract, extraction table]
 breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -19,7 +19,7 @@ Use Zero Copy Connector for ERP \(Enterprise Resource Planning\) to work with ER
 
 The workflow of Zero Copy Connector for ERP generally follows its main sections, each of which you access by selecting the section icon in the contextual side panel.
 
-You can also build flows in Workflow Studio to use retrieved ERP data for processes or tasks outside of Zero Copy Connector for ERP. For more information, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md).
+You can also build flows in Workflow Studio to use retrieved ERP data for processes or tasks outside of Zero Copy Connector for ERP.
 
 Build an ERP model using remote tables and extraction tables to organize, load, and transform ERP data, as well as flows to query the ERP system.
 
@@ -71,7 +71,7 @@ ERP extraction tables
 
 </td><td>
 
-Extraction tables use an extract, transform, load \(ETL\) process to extract large amounts of data from the ERP system at regular intervals, and then transform and save it to a Glide table.For more information, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
+Extraction tables use an extract, transform, load \(ETL\) process to extract large amounts of data from the ERP system at regular intervals, and then transform and save it to a Glide table.For more information, see [Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 
 </td></tr></tbody>
 </table>

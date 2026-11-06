@@ -17,23 +17,37 @@ Use bubble visualizations to show multiple separate metrics on a single visualiz
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
-For information about the use of a Bubble visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-bubble-wrapper/usage) This site gives information about Bubble visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
+For information about the use of a Bubble visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-bubble-wrapper/usage)
+
+This site gives information about Bubble visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
 Bubble visualizations aggregate information over three different metrics, using the X axis, Y axis, and bubble size.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
 2.  Select **Create data visualization**.
 
-3.  Select the Bubble \(\[Omitted image "inline-data-vis-bubble.png"\] Alt text: bubble chart icon\) visualization type.
+3.  Provide a name and useful description for the visualization and select **Create data visualization**.
 
-4.  Configure the **Header and border**. Header and border options are the same for all data sources.
+    The description enables users to find the visualization more easily in the library.
+
+4.  Select the Bubble \(\[Omitted image "inline-data-vis-bubble.png"\] Alt text: bubble chart icon\) visualization type.
+
+5.  Select **Add a data source**.
+
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-sources-visualizations.md).
+
+    The **Suggested** data sources are the indicators and tables you have recently selected.
+
+    When you select a data source, you see a preview of the information in the source. Add conditions to the data source and then select **Add this source**.
+
+6.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
     None of the **Header and border** fields is required.
 
@@ -166,19 +180,15 @@ Title color
 Specify the text color of the title. The default title color is black, but you can choose a color that contrasts better with the header background. Only available when **Header background color** is selected.
 
 </td></tr></tbody>
-</table>5.  Choose a data source.
+</table>7.  Configure the metric, data update, and no data message options for your data source.
 
-    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-sources-visualizations.md).
-
-    You can choose one or more tables \(available in the base system\). When you select a table, you can filter it by conditions.
-
-    **Note:** You can choose to define a data source manually in JSON. However, this method is intended only for experts.
-
-6.  Select the options for your data source.
+    -   If your visualization represents table data, go to [Table data options for bubble visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-dv-bubble-table-data.md).
+    -   If your visualization represents indicator data, go to [Bubble data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dv-example-bubble.md).
+8.  Select the options for your data source.
 
     Go to [Table data options for bubble visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-dv-bubble-table-data.md).
 
-7.  Under **Presentation**, provide display and color information. In the **Colors** section, configure the colors and color rules.
+9.  Under **Presentation**, provide display and color information. In the **Colors** section, configure the colors and color rules.
 
 <table id="table_b5f_w23_dwb"><thead><tr><th>
 
@@ -231,7 +241,7 @@ Set color type
 
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
+</table>10. Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -266,7 +276,7 @@ Choose the event that occurs when a user selects in a visualization or one of it
 **Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
-</table>9.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
+</table>11. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
 ## What to do next

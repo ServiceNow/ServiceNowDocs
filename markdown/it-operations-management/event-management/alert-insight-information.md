@@ -20,7 +20,7 @@ Alert insight aids faster alert triage, enabling a quicker way to find a solutio
 
 Results from data analysis provide further information about the alert, beyond that of the alert form. This aids faster alert triage, enabling a quicker way to find a solution and expose the probable root cause of the alert.
 
-Information shown is from repeated alerts, similar alerts, incidents, problems, and change requests on the same CI, similar CIs, and other CIs that are related by CMDB relations or grouping.
+Information shown is from repeated alerts, similar alerts, incidents, problems, and change requests on the same CI, similar CIs, and CIs related by CMDB relations or grouping.
 
 **Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 

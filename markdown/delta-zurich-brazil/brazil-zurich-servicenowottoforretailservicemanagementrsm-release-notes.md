@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowottoforretailservicemanagementrsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -77,7 +77,15 @@ Zurich
 
 [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
- -   **[Store inquiry AI agent](https://www.servicenow.com/docs/access?context=agentic-workflows-now-assist-retail&family=zurich&ft:locale=en-US)**
+ |AI agent capabilities|Description|
+|---------------------|-----------|
+|Automated inquiry parsing|Analyzes incoming questions from stores and identifies key topics like discount policy, returns, and exceptions. It accurately categorizes and tags these inquiries, streamlining the processing and response to store queries.|
+|Intelligent policy look-up|Searches across multiple sources—such as past resolved cases, Knowledge Base articles, and their attached documents—to deliver precise and contextually relevant guidance.|
+|Response drafting with policy references|Automatically generates a suggested reply using clear policy language and provides the accurate source of the suggested reply for traceability by attaching or linking the reply.|
+|Learning from resolved cases|Continuously improves by indexing newly resolved inquiries, which expands its ability to respond to similar future cases.|
+|Update case information|Enables users to accept, edit, or reject the suggested resolution, and automatically updates the case resolution notes and status for accepted or edited responses, or adds work notes for rejected responses.|
+
+-   **[Store inquiry AI agent](https://www.servicenow.com/docs/access?context=agentic-workflows-now-assist-retail&family=zurich&ft:locale=en-US)**
 
 The store inquiry AI agent is an intelligent assistant designed to support retail store support agents in efficiently managing and resolving cases.
 

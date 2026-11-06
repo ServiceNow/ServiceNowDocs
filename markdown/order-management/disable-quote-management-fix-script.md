@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Disable Quote Management application objects

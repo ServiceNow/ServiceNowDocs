@@ -1,6 +1,6 @@
 ---
 title: Receive certificate notifications via email
-description: Configure certificate notifications to be delivered via email to relevant recipients.
+description: Configure certificate notifications to be delivered via email to relevant recipients. Configure certificate notifications so that you can receive alerts and initiate certificate renewal workflows directly from email
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/receive-email-certificate-notifications.html
 release: brazil

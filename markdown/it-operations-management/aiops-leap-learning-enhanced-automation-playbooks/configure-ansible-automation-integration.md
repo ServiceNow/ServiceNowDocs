@@ -39,7 +39,7 @@ For more details about the integration, select **Help** on the Connectors page, 
 
 ## Procedure
 
-1.  On the LEAP homepage, navigate to **Settings****Connectors**, and select **Connect**.
+1.  On the LEAP homepage, navigate to **Settings**, and select**Connectors** &gt; **.**.
 
     **Note:**
 
@@ -47,20 +47,22 @@ For more details about the integration, select **Help** on the Connectors page, 
 
     \[Omitted image "ansible-connector-leap-settings.png"\] Alt text: Ansible connector in LEAP settings
 
-2.  Configure the Ansible MCP Server Console connection by completing these fields:
+2.  Select **Connect** if Ansible Automation is not connected to LEAP.
+
+3.  Configure the Ansible MCP Server Console connection by completing these fields:
 
     |Field|Description|
     |-----|-----------|
     |MCP Server URL|The URL of the Ansible MCP Server Console endpoint.|
     |Authentication Method|API key authentication method.|
 
-3.  In the Token field, enter the API token used for authentication.
+4.  In the Token field, enter the API token used for authentication.
 
-4.  Assign the required roles to users who will work with Ansible integration:
+5.  Assign the required roles to users who will work with Ansible integration:
 
     -   sn\_itom\_leap.leap\_admin = For LEAP administrators who configure step-to-job mappings
     -   sn\_itom\_leap.leap\_agent = For incident responders who execute Ansible automations
-5.  Select **Save** to apply the configuration.
+6.  Select **Save** to apply the configuration.
 
 
 ## Result

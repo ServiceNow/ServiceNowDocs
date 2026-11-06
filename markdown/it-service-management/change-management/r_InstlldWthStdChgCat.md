@@ -36,7 +36,7 @@ Change request\[change\_request\]
 
 </td><td>
 
-Adds the standard change template version to the table
+Adds the standard change template version to the table.
 
 </td></tr><tr><td>
 

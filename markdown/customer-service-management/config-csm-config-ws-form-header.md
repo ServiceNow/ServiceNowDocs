@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-form-header.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-07"
 reading_time_minutes: 2
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -133,7 +133,7 @@ Workspace that is associated with this form header.
 
         For example, select **configHeaderId** to display the page property form. The **Value** field determines the placement of the secondary values.
 
-    3.  Enter the location of the secondary values in the **Values** field.
+    3.  Enter the location of the secondary values in the **Value** field.
 
         -   **sidebar**: The secondary values appear in the contextual side panel.
         -   **header**: The secondary values appear in the header along with the primary value.

@@ -7,9 +7,9 @@ release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-15"
 reading_time_minutes: 4
-breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Manage decision tables in Excel

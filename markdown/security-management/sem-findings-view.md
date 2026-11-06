@@ -32,6 +32,12 @@ You can use the Findings view to:
 
     Act faster with GenAI-powered important actions and insights.
 
+-   **Review fixes**
+
+    Review fixes for findings across all exposure types.
+
+    **Note:** It is applicable when both the Unified Exposure Pipeline \(sn\_vul\_int\_cmn\) and Fix Intel for Security Exposure Management \(sn\_vul\_fix\) applications are installed.
+
 
 \[Omitted video\] Description: SEM Finding view overview
 

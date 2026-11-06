@@ -57,8 +57,6 @@ The following predefined, HR Service Delivery Virtual Agent topics are available
 
 **Note:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately.
 
-**Warning:** General HR Inquiry is no longer available as one of the predefined topics.
-
 A topic defines the dialog between the Virtual Agent \(chat support bot\) and user to accomplish a specific goal. The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task.
 
 For more information, see [Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/design-va-topic.md).
@@ -122,7 +120,7 @@ Get pre-built topics or create new topics from the recommended topics for HR Ser
 
 \[Omitted image "topic-recom-setting.png"\] Alt text: Topic recommendation setting.
 
-For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see [\(Legacy\) Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-topic-recommendations.md).
+For HR Cases, this default setting ships with Taxonomy preselected to HRSD. The Filtered by setting displays cases created in the last 90 days. For more information on Topic Recommendations, see [\(Legacy\) Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-topic-recommendations.md).
 
 In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see [\(Legacy\) Topic Recommendations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/topic-recommendations-page.md).
 

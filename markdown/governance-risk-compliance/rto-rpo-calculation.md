@@ -18,6 +18,8 @@ The BCM application provides an assessment questionnaire for calculating the rec
 
 Before calculating the recovery time objective \(RTO\) and recovery point objective \(RPO\) in the business impact analysis \(BIA\), verify that all the required BCM applications are installed.
 
+**Note:** The RTO and RPO calculations rely on the Smart Assessment applications. Keep the Smart Assessment applications on a version that is compatible with your installed BCM version.
+
 ## BCM implementation
 
 Setting up the impact ratings to evaluate an impact category is a crucial step in business continuity management. To grasp the importance of configuring these impact categories, refer to the steps needed for implementing the BCM process, as outlined in the checklist.

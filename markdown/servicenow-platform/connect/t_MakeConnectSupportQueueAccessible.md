@@ -44,7 +44,7 @@ For example, you might create a module or add a link to a portal. The accepted U
 **Related topics**  
 
 
-[Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-steps-app-navigator-category.md)
+[bundle-cadev.t_CreateAModule]
 
 [Configure Connect Support widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/connect-support-sp.md)
 

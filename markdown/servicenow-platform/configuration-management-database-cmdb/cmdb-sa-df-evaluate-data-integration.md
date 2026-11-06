@@ -44,7 +44,7 @@ Role required: sn\_cmdb\_admin
     -   List of attributes and whether each is supported by the selected data integration source
 8.  When installed version is lower than the suggested version, select the **View available version** link to open the Application manager.
 
-    **Note:** The **View available version** link is available only when applicable for a data integration source. Also, only users with the admin role can install or upgrade an application. See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager.md).
+    **Note:** The **View available version** link is available only when applicable for a data integration source. Also, only users with the admin role can install or upgrade an application. See .
 
 9.  Determine which CI attributes are being populated by the integration and whether an upgrade is needed to improve the data coverage.
 

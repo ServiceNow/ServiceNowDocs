@@ -20,6 +20,8 @@ Accounts performing both UI and API login displays the accounts that using UI an
 
 **Note:** The accounts displayed on the page are based on activity over the past 30 days and any changes made today is reflected after 30 days.
 
+This category also receives any remainder of the security score. See [Security findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/security-score.md).
+
 \[Omitted image "mic-ui-login-integration.png"\] Alt text: Accounts performing both UI and API logins
 
 You can select the machine identity name to know more about the account and the recommendation to maintain a good security posture for the account.

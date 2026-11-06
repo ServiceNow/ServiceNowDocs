@@ -95,5 +95,5 @@ When the **csdm.lifecycle.migration.activated** system property is set to true a
 
 [Asset status values aligned to CSDM life cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.md)
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_ManagingAssets.md)
+[bundle-itam.c_ManagingAssets]
 

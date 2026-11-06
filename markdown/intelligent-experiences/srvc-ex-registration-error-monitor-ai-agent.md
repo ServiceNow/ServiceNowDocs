@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Service Exchange AI agents, Service Exchange, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Service Exchange AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Registration error monitor AI agent

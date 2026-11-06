@@ -1083,6 +1083,30 @@ Enables automatic CSR generation on the Certificate Inventory and Management **R
 
 </td></tr><tr><td>
 
+sn\_disco\_certmgmt.find\_and\_attach\_root\_certificate
+
+</td><td>
+
+Certificate Inventory and Management Finds the root certificate by its subject common name and links it to the certificate chain during discovery. This happens only when the root certificate is already in the CMDB. If no root is found, nothing is linked. Use this property when discovery retrieves only the server certificate, for example, when access to the root and intermediate certificates is restricted. When this property is enabled, discovery searches the certificates that are already in the CMDB for the root certificate of the discovered certificate and links it.
+
+ -   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_certmgmt.mark\_self\_signed\_for\_incomplete\_chain
+
+</td><td>
+
+Certificate Inventory and Management When discovery captures an incomplete certificate chain, sets the last captured certificate as its own root issuer and issuer. For example, this happens for a server certificate discovered without its root and intermediate certificates.
+
+ This doesn't change the certificate's Is self-signed value. Set the value of the property to false to turn this behavior off. This property isn't available in the base system. To change its value, create the property in the System Property \[sys\_properties\] table.
+
+ -   Type: true \| false
+-   Default value: true \(if the property doesn't exist\)
+
+</td></tr><tr><td>
+
 sn\_disco\_certmgmt.private\_key\_size
 
 </td><td>

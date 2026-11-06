@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-aiadmincenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -337,7 +337,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[AI Admin Center Next Experience workspace](https://www.servicenow.com/docs/access?context=now-assist-center-workspace&family=australia&ft:locale=en-US)**
+
+The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
 
 </td></tr><tr><td>
 
@@ -623,10 +626,12 @@ Brazil
 -   Get started right away with guided quick-start use cases that appear as actionable cards on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
 -   Automated assessment of your instance readiness helps you prepare for AI adoption. The readiness assessment enables you to assess whether updates, installations, or customizations on your instance could affect AI implementation. It helps you to identify configuration gaps, view actionable insights, measure readiness over time.
 -   Analyze your instance data to identify automation opportunities that provide the greatest efficiency gains. View and activate prebuilt AI agents that match the opportunities, or create and deploy new AI agents for them.
--   Use the ServiceNow Otto conversational experience to perform admin tasks, set up AI solutions, troubleshoot common issues, and get guided help.
+-   Use the ServiceNow Otto conversational experience to perform admin tasks, set up AI solutions, troubleshootand resolve common issues, and get guided help.
 -   Review and evaluate the readiness of your instance for AI adoption and instance upgrades.
 
  See [AI Admin Center](https://www.servicenow.com/docs/access?context=now-assist-center-landing-page&family=brazil&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

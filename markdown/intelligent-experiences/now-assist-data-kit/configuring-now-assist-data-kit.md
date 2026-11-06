@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: concept
-last_updated: "2026-09-29"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---

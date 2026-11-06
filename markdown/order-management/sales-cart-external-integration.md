@@ -1,18 +1,18 @@
 ---
 title: Sales Cart integration with external ordering systems
-description: External ordering systems can connect to the Sales Cart through the Sales Cart REST API, and can create, retrieve, update, and submit carts without depending on the Business Portal user interface. Carts created externally run the same pricing, validation, and order conversion logic as carts built in the Business Portal, so customers can view and work with them in either system.
+description: External ordering systems can connect to the Sales Cart through the Sales Cart REST API. Using the API, external systems can create, retrieve, update, and submit carts without depending on the Business Portal user interface. Carts created externally run the same pricing, validation, and order conversion logic as carts built in the Business Portal, so customers can view and work with them in either system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sales-cart-external-integration.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 10
 breadcrumb: [Configuring Sales Cart for Business Portal, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Sales Cart integration with external ordering systems
 
-External ordering systems can connect to the Sales Cart through the Sales Cart REST API, and can create, retrieve, update, and submit carts without depending on the Business Portal user interface. Carts created externally run the same pricing, validation, and order conversion logic as carts built in the Business Portal, so customers can view and work with them in either system.
+External ordering systems can connect to the Sales Cart through the Sales Cart REST API. Using the API, external systems can create, retrieve, update, and submit carts without depending on the Business Portal user interface. Carts created externally run the same pricing, validation, and order conversion logic as carts built in the Business Portal, so customers can view and work with them in either system.
 
 ## Integration model
 
@@ -38,7 +38,7 @@ The following table summarizes what the external ordering system does at each st
 |Identify the customer|Sends either an account and contact, or a consumer.|Authorizes the caller and applies record-level access.|
 |Build the cart|Creates a cart, sends product offerings and configurations, or adds lines to an existing Draft cart.|Stores the line hierarchy, validates that offerings exist, and resolves default values.|
 |Maintain checkout|Retrieves the cart, updates existing lines, assigns supported line-level billing details, or removes top-level lines.|Enforces Draft-state rules and recalculates pricing unless pricing is suppressed.|
-|Submit the order|Calls the submit-order operation when checkout is complete.|Validates top-level configurations, converts the cart to an order, and marks the cart Complete.|
+|Submit the order|Calls the submit-order operation when checkout is complete.|Validates top-level configurations, converts the cart to an order, and marks the cart Complete\(for carts with many line items, after the order finishes processing\).|
 
 ## Access and cart ownership
 
@@ -49,7 +49,7 @@ Requests from an external system are authorized against the access control that 
 
 A caller without either role can't reach the Sales Cart REST endpoints, regardless of the cart data requested.
 
-If you have configured a CPQ instance, then Sales Cart installs a role hierarchy in which the cart integrator role contains the cart editor role, and the cart editor role contains the cart viewer role. These roles control access to the cart records themselves, separately from the access control on the REST endpoints.
+If you have configured a ServiceNow CPQ instance, then Sales Cart installs a role hierarchy in which the cart integrator role contains the cart editor role, and the cart editor role contains the cart viewer role. These roles control access to the cart records themselves, separately from the access control on the REST endpoints.
 
 Callers see only the carts their own access permits. When an integrated system retrieves a list of carts, the caller's record-level access is applied to the query, so the response contains only carts that the caller is permitted to read. A filter supplied by the caller narrows that result further, but it can't widen it. For a consumer caller, a query rule narrows that access further to carts opened by the consumer's own user record, so a consumer reaches only their own carts.
 
@@ -62,7 +62,7 @@ Draft is the only state in which a cart accepts changes. The following operation
 -   Deleting the cart or one of its line items.
 -   Submitting the cart to create an order.
 
-A request against a cart in any other state is rejected and the cart is left unchanged. After a cart is submitted and the order is created, the cart state is set to Complete and the cart no longer accepts changes. A new cart is created for the next order.
+A request against a cart in any other state is rejected and the cart is left unchanged. After a cart is submitted and the order is created, the cart state is set to Complete and the cart no longer accepts changes. While the order is being created, the cart is in the Processing state. If order creation fails, the cart moves to the Cancelled state and can't be submitted. Neither state accepts changes. A new cart is created for the next order.
 
 ## One draft cart per customer
 
@@ -90,6 +90,8 @@ Sales Cart checks every product offering against the product catalog. If an offe
 Line items form a hierarchy. A configured product creates a top-level line with child lines beneath it. Only top-level lines can be deleted directly, and deleting one also deletes its child lines. A request to delete a child line on its own is rejected. To change a configuration, the integrated system updates the top-level line instead of editing its children.
 
 Adding a line, changing a line, and removing a line are three separate operations. The update operation changes lines that are already in the cart, matching each one by its sys\_id, and it applies to line attributes, characteristics, and pricing adjustments. It doesn't add or remove lines. An integrated system that sends a line the cart doesn't already hold has that line ignored rather than created, so adding a line uses the create operation and removing one uses the delete operation. Characteristics are replaced, not merged. When updating a line, include the complete characteristic set. A characteristic omitted from the request is removed from the line.
+
+To work with specific lines, an integrated system can query the cart line items that match an encoded query, for both account contacts and consumers. Results are limited to the specified cart, include only the line item fields configured for the cart that the caller can read, and return up to 50 line items per request. Consumers can retrieve line items only from their own carts. When it reads cart data \(retrieving a cart, retrieving a cart line item, or querying carts\), the response includes display values alongside the reference values for every attribute on the cart, its line items, and the line item characteristics. Create and update requests don't return display values. The external experience can then show readable names without extra lookups.
 
 Price list is resolved by the ServiceNow pricing engine. Pricing is recalculated after cart changes are committed, so the client does not make a separate pricing call. Deleting a line recalculates the header totals. Changing any cart-header value reprices every line, even when the change only corrects an address.
 
@@ -132,7 +134,9 @@ Submit a valid Draft cart to create an order. Before conversion, Sales Cart vali
 |Cart line characteristic|Order line characteristic|
 |Cart pricing adjustment|Order pricing adjustment|
 
-Line-level values, including billing account and payment profile, stay with their line. The sn\_l2c\_cart\_to\_order entity mapping governs the conversion. After the order is created, the cart becomes Complete.
+Line-level values, including billing account and payment profile, stay with their line. The sn\_l2c\_cart\_to\_order entity mapping governs the conversion. After the order is created, the cart becomes Complete. The order is created in the New state, and its channel is set to Self-service portal so that downstream processes can identify it as a self-service order.
+
+Carts with more than 20 line items are submitted asynchronously so the submit request returns quickly. The response is an accepted response that includes the inbound queue record ID instead of waiting for the full order. The cart moves to the Processing state, and then to Complete when the order is created or to Cancelled if order creation fails. A Cancelled cart can't be submitted again, so you create a new cart. To track progress, retrieve the cart and check its state.
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Install Impact

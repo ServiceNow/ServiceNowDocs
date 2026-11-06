@@ -80,7 +80,7 @@ Channels
 
 </td><td>
 
-Channel that must be used to compose and sent communication messages. Possible options are:-   DEX Desktop Assistant: Compose and send the notification message through DEX Desktop Assistant. For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
+Channel that must be used to compose and sent communication messages. Possible options are:-   DEX Desktop Assistant: Compose and send the notification message through DEX Desktop Assistant. For more information on DEX Desktop Assistant, see .
 -   Email – Compose and send the communication message as an email.
 -   SMS – Compose and send the communication message as SMS.
 -   Microsoft Teams notification - Compose and send communication messages as Microsoft Teams notifications.

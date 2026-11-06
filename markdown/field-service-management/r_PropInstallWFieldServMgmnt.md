@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_PropInstallWFieldServMgmnt.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 22
+last_updated: "2026-10-23"
+reading_time_minutes: 23
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
@@ -1236,6 +1236,16 @@ Enable on-hover popover on events in the calendar on Dispatcher Workspace.-   Ty
 
 </td></tr><tr><td>
 
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.operational\_notes\_enabled
+
+</td><td>
+
+Enable operational notes on Dispatcher Workspace.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
 sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.avoid\_ferry\_routes
 
 </td><td>
@@ -1252,6 +1262,16 @@ work.management.allow.doublebooking.event
 
 Allow dispatchers to double book tasks along with events-   Type: string
 -   Default value: false.
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_display\_time\_format
+
+</td><td>
+
+Sets the time format for the Dispatcher Workspace calendar, including the stacked time zone row headers. The default hides seconds. The user's platform time format is not changed.-   Type: string
+-   Default value: HH:mm
 -   Location: System Properties list \[sys\_properties\] table
 
 </td></tr></tbody>

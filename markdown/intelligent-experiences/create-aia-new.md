@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-aia-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-05"
+last_updated: "2026-10-15"
 reading_time_minutes: 5
 breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -86,7 +86,7 @@ The third way to build an AI agent is through an automation opportunity. When yo
 
     To let users invoke the AI agent directly, add it to Virtual Agent chat assistants.
 
-12. [Set up long-term memory and active learning controls for your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/map-ltm-aia-new.md).
+12. [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/long-term-memory-aia-new.md) and active learning controls for your AI agent.
 
     AI agents can learn from previous interactions, if configured to do so. You can choose the categories of information from previous interactions that the AI agent uses when handling new requests.
 

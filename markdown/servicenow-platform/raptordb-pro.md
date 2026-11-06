@@ -33,7 +33,7 @@ RaptorDB Professional includes the following features.
 |Optimized for ServiceNow workloads|Query performance optimized for ServiceNow AI Platform applications and workloads.|
 |Improved response time|Query performance designed for ServiceNow AI Platform workloads.|
 |Ultra-scale performance and scalability|Supports generative AI, machine-scale data use cases, user growth, applications, workloads, and analytics.|
-|Enhanced analytics with built-in column store|Accelerates analytical queries through integrated columnar storage and parallel query processing. For more information, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateCustomIndex.md).|
+|Enhanced analytics with built-in column store|Accelerates analytical queries through integrated columnar storage and parallel query processing. For more information, see .|
 |Advanced instance topology support|Supports complex deployment configurations across ServiceNow AI Platform instances, including shared and replicated topologies.|
 |Support for self-hosted environments|Available for organizations running ServiceNow AI Platform in self-hosted deployments.|
 |Live Connect|Available starting from Australia|

@@ -18,7 +18,7 @@ Import multiple classification codes at one go to your ServiceNow instance.
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 

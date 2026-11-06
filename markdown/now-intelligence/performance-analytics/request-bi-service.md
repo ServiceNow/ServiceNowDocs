@@ -1,5 +1,5 @@
 ---
-title: Request an analytics service
+title: Request an analytics service \(legacy\)
 description: Request services associated with dashboards, such as to request a new dashboard or access to an existing dashboard.Analytics service requests are assigned to the Analytics group who can review and fulfill the requests.You can activate the Self-Service Portal for Analytics plugin \(com.snc.pa.bi\_service\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/request-bi-service.html
@@ -9,16 +9,23 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Request an analytics service
+# Request an analytics service \(legacy\)
 
 Request services associated with dashboards, such as to request a new dashboard or access to an existing dashboard.
 
 ## Before you begin
 
 Role required: none
+
+## About this task
+
+**Important:**
+
+-   This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md).
+-   Does not work for net-new or fully migrated instances.
 
 ## Procedure
 

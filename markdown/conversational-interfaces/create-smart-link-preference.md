@@ -141,5 +141,5 @@ window.addEventListener('message', e => {
 
 ## What to do next
 
-If you would like to enable smart link preference for Microsoft Teams, you must first [Configure link authentication and opening experience in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/link-opening-authentication-msteams.md) and then [Configure smart links in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-teams-sso.md)
+If you would like to enable smart link preference for Microsoft Teams, you must first [Configure link authentication and opening experience in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/link-opening-authentication-msteams.md) and then [Configure smart links in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-teams-sso.md)
 

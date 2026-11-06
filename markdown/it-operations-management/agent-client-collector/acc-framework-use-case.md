@@ -40,5 +40,5 @@ To address these challenges, the financial organization implemented an agent-bas
 -   Improved compliance and audit readiness: Agent-based discovery provided granular, auditable data that met stringent regulatory requirements. This streamlined compliance reporting and reduced the risk of regulatory penalties.
 -   Enhanced security posture: By enforcing policies at the endpoint level, the organization strengthened its cybersecurity defenses, protecting sensitive financial data from potential threats.
 
-This approach enabled the financial institution to maintain control over its IT environment, support its remote workforce effectively, and ensure compliance with industry regulations - critical factors in safeguarding sensitive financial operations and maintaining customer trust.
+This approach enabled the financial institution to maintain control over its IT environment, support its remote workforce effectively, and ensure compliance with industry regulations. These are critical factors in safeguarding sensitive financial operations and maintaining customer trust.
 

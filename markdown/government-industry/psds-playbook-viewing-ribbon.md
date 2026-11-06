@@ -1,6 +1,6 @@
 ---
-title: View the ribbon information in Service Request Playbook
-description: You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the service record information, constituent contact details, and the case timeline.
+title: View the ribbon information in Service Request Administration
+description: You can view the information about the ribbon in the contextual side panel in Public Sector Workspace. The ribbon displays the important information about the case, such as the service record information, constituent contact details, and the case timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-playbook-viewing-ribbon.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Using the contextual side panel, Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# View the ribbon information in Service Request Playbook
+# View the ribbon information in Service Request Administration
 
-You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the service record information, constituent contact details, and the case timeline.
+You can view the information about the ribbon in the contextual side panel in Public Sector Workspace. The ribbon displays the important information about the case, such as the service record information, constituent contact details, and the case timeline.
 
 Select the record information icon \(\[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon.\) in the contextual side panel to view the information about the ribbon.
 

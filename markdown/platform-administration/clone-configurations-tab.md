@@ -7,6 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
+keywords: [Definitions tab, Configuration, Definitions, Configuration menu, Exclusions, Preservers, Clone profiles, Multi-instance view, Cleanup scripts, Clone settings, Clone instances]
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -16,7 +17,7 @@ Use the Configuration menu to access all clone-related settings, including exclu
 
 In the Clone Admin Console, all clone-related settings are consolidated under a single Configuration menu.
 
-**Note:** The Definitions tab has been deprecated and consolidated into the Configuration tab. If you are upgrading from an earlier version, use the Configuration menu instead.
+**Note:** The Definitions tab has been deprecated and consolidated into the Configuration tab. If you're upgrading from an earlier version, use the Configuration menu instead.
 
 **Before you begin**
 
@@ -35,15 +36,39 @@ To view child tables of a table, you can go to the following link and input thei
 
 By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ExcludeATableFromCloning.md).
 
-For information on guidelines when adding exclusions see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-exclusions-guidelines.md).
+For information on guidelines when adding exclusions, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-exclusions-guidelines.md).
+
+-   **Tables that can't be excluded**
+
+    Some tables are required for the target instance to function correctly after a clone. If you add any of the following tables to the excluded tables list, the clone ignores the exclusion and copies the table data as usual:
+
+    -   sys\_db\_object
+    -   sys\_metadata
+
+**Note:** No error appears when one of these tables is added to the exclusion list. The exclusion is skipped at clone time.
 
 ## Preservers
 
-The Preservers page displays a list of available data preservers, which are defined on the source instance. Preservers protect data on the target instance from being overwritten.
+The Preservers page lists the data preservers defined on the source instance. Preservers protect data on the target instance from being overwritten during a clone.
 
-Preservers work differently compared to exclusions. When preserving a table, the clone automation doesn't automatically preserve the child tables. Therefore, the child tables must be individually added to the preserver list. To create a preserver see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-new-clone-preserver.md).
+Use preservers for small sets of configuration and code, not large volumes of data.
 
-**Note:** Starting with RaptorDB, when you preserve a table, the clone automatically preserves the hierarchy and descendant tables. If you previously added child tables to preservers, they process normally. This automatic preservation applies only to RaptorDB instances.
+To keep clone duration low, add conditions to each preserver so that it preserves only the records you need.
+
+-   **Descendant tables**
+
+    When you preserve a table, clone automatically preserves all of its descendant tables. Existing preservers for child tables continue to work, so you don't need to remove them.
+
+    Because clone automatically includes descendant tables, preserving a parent table can significantly increase the number of preserved records.
+
+    **Note:** If the source or target instance is on MariaDB, clone doesn't automatically preserve descendant tables. Add a separate preserver for each child table you want to preserve.
+
+-   **Unsupported preservers**
+
+    Clone ignores preservers for the Attachment \[sys\_attachment\] and Attachment Document \[sys\_attachment\_doc\] tables. Instead, clone automatically preserves the attachments that belong to records in your other preserved tables.
+
+
+To create a preserver, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-new-clone-preserver.md).
 
 ## Cleanup Scripts
 
@@ -64,7 +89,7 @@ All cleanup scripts run in the global scope irrespective of the scope in which y
 
 **Note:** Verify that any custom scripts have error-handling logic. By default, if one script encounters an error, the rest of the ordered scripts don't execute. Starting with the Australia Patch 5 release, you can view a link to cleanup script status. Any changes to cleanup scripts, which are defined on the source, must happen before the Restore phase of a clone to be processed within that clone request.
 
-To create a cleanup script see [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-cleanup-script-latest.md).
+To create a cleanup script, see [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-cleanup-script-latest.md).
 
 ## Clone Profiles
 
@@ -95,7 +120,7 @@ Clone exclusions and preservers are both useful for managing your data. The grap
 |Scenario 3: Not excluding + Preserving|Records on the target instance remain the same and records from the source instance are copied over.|
 |Scenario 4: Not excluding + Not preserving|Records from the source instance replace records on the target instance.|
 
-**Important:** During a clone, data from the source instances replaces data from the target instance. Therefore, any in-progress development work on the target instance is overwritten. For example: Work-in-progress update sets, scoped apps that only exist on the target instance but not on the source instance. If you have in-progress update sets, you must export them before the clone and re-import them after the clone is finished. Custom applications that aren't yet deployed to the source instance must be reinstalled after the clone is completed.
+**Warning:** During a clone, data from the source instances replaces data from the target instance. Therefore, any in-progress development work on the target instance is overwritten. For example: Work-in-progress update sets, scoped apps that only exist on the target instance but not on the source instance. If you have in-progress update sets, you must export them before the clone and re-import them after the clone is finished. Custom applications that aren't yet deployed to the source instance must be reinstalled after the clone is completed.
 
 To learn more about clone and app development tips, see the [Leveraging System Clones for Seamless Development and Deployment Whitepaper](https://learning.servicenow.com/nowcreate/en?id=nc_asset&asset_id=ce3c254697cc82d06eedb30e6253af3b&nc_source=copy_asset_link).
 

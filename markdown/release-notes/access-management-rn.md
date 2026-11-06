@@ -1,6 +1,6 @@
 ---
 title: Access Management release notes
-description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Access Management.
+description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Access Management.The Brazil Patch 5 release adds an agent to help you understand access control lists \(ACLs\) for Access Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/access-management-rn.html
 release: brazil
@@ -47,5 +47,16 @@ The Brazil Early Availability release adds security features for Access Manageme
 -   **[Explore Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/exploring-access-control-list.md)**
 
     Improve access control predictability by enforcing strict denial when none of the referenced roles referenced in an ACL exist on the instance. This behavior doesn't apply to ACLs that have a mix of valid and invalid roles. This behavior is on by default for new instances. If you upgraded to this release, use the **glide.security.acl\_with\_invalid\_roles\_strict\_deny** property to turn it on. Navigate to **All** &gt; **Access Management** &gt; **Access Findings** to find these ACLs in the Access Checks list.
+
+
+## Brazil Patch 5
+
+The Brazil Patch 5 release adds an agent to help you understand access control lists \(ACLs\) for Access Management.
+
+### What's new
+
+-   **[ACL Explainer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-acl-explainer-ai-agent.md)**
+
+    Understand what controls access to your ServiceNow resources without having to review every ACL. This agent finds inherited ACLs and other information automatically, without you having to open multiple ACLs to troubleshoot access to a resource.
 
 

@@ -26,7 +26,7 @@ Role required:
 
 ## About this task
 
-Smart assessments are available at a demand level and the entire demands module level. Use the module level Smart Assessments menu item to view all assessments assigned to you across demands. Demand managers can view all assessments assigned to users but can't make any edits.
+Smart assessments are available at a demand level and the entire demands module level. Use the module level Smart Assessments menu item to view all assessments assigned to you across demands. Demand managers can view all assessments assigned to users but can't make any edits to them.
 
 ## Procedure
 

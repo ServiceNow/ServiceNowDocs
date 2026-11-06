@@ -1,6 +1,6 @@
 ---
 title: Add an MCP server from AI Control Tower
-description: Add an MCP server from the AI Control Tower.
+description: Add an MCP server from AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-contol-tower.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring A
 
 # Add an MCP server from AI Control Tower
 
-Add an MCP server from the AI Control Tower.
+Add an MCP server from AI Control Tower.
 
 ## Before you begin
 

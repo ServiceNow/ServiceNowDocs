@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-salescrmmobile-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -123,7 +123,16 @@ Brazil
 
 </td><td>
 
--   **[Home dashboard](https://www.servicenow.com/docs/access?context=view-your-day-sales-crm-mobile&family=brazil&ft:locale=en-US)**
+-   **[CRM Touchpoints](https://www.servicenow.com/docs/access?context=view-your-day-sales-crm-mobile&family=brazil&ft:locale=en-US)**
+
+Touchpoints track your interactions with contacts, accounts, leads, and opportunities. View them from the quick access section of My Day. Use the **My Touchpoints** tab to view the touchpoints related your records. On the **All** tab, users can view all the touchpoints in the instance. Open a touchpoint to view its owner, details, related records, and activities.
+
+-   **[ServiceNow Otto AI Interface activated by default](https://www.servicenow.com/docs/access?context=servicenow-otto-sales-crm-mobile&family=brazil&ft:locale=en-US)**
+
+ServiceNow Otto AI Interface on mobile is activated by default for users to access it.
+
+
+ -   **[Home dashboard](https://www.servicenow.com/docs/access?context=view-your-day-sales-crm-mobile&family=brazil&ft:locale=en-US)**
 
 View a personalized home dashboard summarizing your day, including today's meetings, tasks due, and opportunities in focus.
 

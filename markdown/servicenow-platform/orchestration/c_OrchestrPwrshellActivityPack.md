@@ -35,7 +35,7 @@ PowerShell activities are configured to return data to a workflow from a host us
 PowerShell uses the Windows Management Instrumentation \(WMI\) and Windows Remote Management \(WinRM\) protocols to enable Orchestration activities to run commands on remote Windows hosts.
 -   **[Join Domain activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_JoinDomainActivity.md)**  
 The Join Domain activity joins a Windows computer to a domain.
--   **[Install Windows App activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_InstallWindowsAppActivity.md)**  
+-   **[Install Windows App activity]()**  
 The Install Windows App activity installs an application from an MSI package on a Windows target machine.
 -   **[Change Service State activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_ChangeServiceState.md)**  
 The Change Service State activity starts or stops a Windows service on a remote system.

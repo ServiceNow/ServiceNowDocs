@@ -45,7 +45,7 @@ Role required: password\_reset\_admin
 
     2.  On the **Password Reset Details** tab of the Password Reset Process form, clear the **Auto-generate password** check box and then save the process definition.
 
-6.  Select [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/enable-password-policies.md)
+6.  Select Enable password policies on your instance
 
 7.  [Test the connection to the credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/test-cxn-to-credential-store.md).
 

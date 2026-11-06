@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Brand and personalize an assistant
@@ -88,8 +88,8 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
     A **Channels** section is shown for ServiceNow Otto for Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
 
-    -   [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-msteams-branding.md)
-    -   [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/slack-branding-overview.md)
+    -   [Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-msteams-branding.md)
+    -   [Configure branding for your Virtual Agent bot in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/slack-branding-overview.md)
     **Note:** Branding selections must happen in the channel, and not in the platform.
 
 2.  In the **Personalization** section, customize the assistant's tone, response length, and personal details.

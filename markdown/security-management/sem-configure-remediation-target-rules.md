@@ -158,15 +158,15 @@ Role required: admin
 
     -   In Workspace, this option appears in the Recalculate target date section
     -   In Classic view, use the **Target recalculation method** field.
-<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d437129e533">
+<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d439625e533">
 
 Choice
 
-</th><th align="left" id="d437129e536">
+</th><th align="left" id="d439625e536">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d437129e542">
+</th></tr></thead><tbody><tr><td id="d439625e542">
 
 **Default calculation**
 
@@ -174,7 +174,7 @@ Description
 
 Recalculates the RT date using the standard formula \(Target from \(date\) + Target \(days\)\), based on the rule that currently matches the finding's risk ratingthe finding. The Field change time-based recalculated date is not applied.
 
-</td></tr><tr><td id="d437129e559">
+</td></tr><tr><td id="d439625e559">
 
 **Recalculate from trigger field change date**
 
@@ -182,7 +182,7 @@ Recalculates the RT date using the standard formula \(Target from \(date\) + Tar
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the rule that matches the finding's updated values.
 
-</td></tr><tr><td id="d437129e569">
+</td></tr><tr><td id="d439625e569">
 
 **Recalculate from risk change date**
 
@@ -190,7 +190,7 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the new risk rating.
 
-</td></tr><tr><td id="d437129e579">
+</td></tr><tr><td id="d439625e579">
 
 **Recalculate from trigger field change date and always set to the earliest target date**
 
@@ -198,7 +198,7 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d437129e590">
+</td></tr><tr><td id="d439625e590">
 
 **Recalculate from risk change date and always set to earliest target date**
 
@@ -206,7 +206,7 @@ Compares the existing RT date with Field change time + Target \(days\) and appli
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d437129e600">
+</td></tr><tr><td id="d439625e600">
 
 **Recalculate from risk rating change date and set to the earliest target date only when risk rating increases \(available only when __Risk rating__ is selected as a trigger field\)**
 
@@ -214,7 +214,7 @@ Compares the existing RT date with Field change time + Target \(days\) and appli
 
 If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Compares the existing RT date and the recalculated RT date and applies whichever date is farther out \(later\).
 
-</td></tr><tr><td id="d437129e615">
+</td></tr><tr><td id="d439625e615">
 
 **Recalculate from risk change date and set to earliest target date only when risk rating increases**
 

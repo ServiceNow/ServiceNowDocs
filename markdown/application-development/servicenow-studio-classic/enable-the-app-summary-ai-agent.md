@@ -7,9 +7,9 @@ release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Enable the App Summary AI agent

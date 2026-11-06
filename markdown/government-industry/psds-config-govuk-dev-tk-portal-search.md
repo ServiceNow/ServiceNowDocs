@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: brazil
 topic_type: concept
 last_updated: "2026-06-02"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -137,7 +137,7 @@ Script defining the endpoint and API calls to fetch data. This field is only vis
 
  For an example of a data fetch script, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
 
- **Note:**  
+ **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
 
 </td></tr><tr><td>
 
@@ -145,9 +145,9 @@ Facet generation script
 
 </td><td>
 
-Script defining search facets for a scripted search source.  This field is only visible when **Is scripted source** is selected.
+Script defining search facets for a scripted search source. Enable your end users to filter search results for a more meaningful result set. This field is only visible when **Is scripted source** is selected.
 
- **Note:**  
+ **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Table
 
 </td><td>
 
-Select a table from the list that you want to draw your results from. You can select any table in the platform.**Note:** Only indexed tables return search results. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-single-table-for-indexing.md).
+Select a table from the list that you want to draw your results from. You can select any table in the platform.**Note:** Only indexed tables return search results. Learn more: .
 
 </td></tr><tr><td>
 
@@ -232,12 +232,30 @@ Using AI Search, GDS Service Portal users can find answers with features like au
 
 ### Procedure
 
-1.  
+1.  Navigate to **Service Portal** &gt; **Portals** and open a portal record.
+
+2.  On the form, select **Enable AI Search**.
+
+3.  In the **Search Application** field, select the search application configuration to use for the portal.
+
+    A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
+
+    For more information on defining a search application configuration, see Defining search application configurations.
+
+4.  In the **Search Results Configuration** field, select the search results configuration to enable for the portal.
+
+    A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can select a different configuration if needed.
+
+    For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-composite-dataset.md).
+
+5.  Select **Update**.
+
+
 ### Result
 
 AI Search is enabled throughout the portal, and constituents can use AI Search the next time they log in.
 
-The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-sources-ais.md) and [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/link-search-source-profile-ais.md).
+The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see Defining search sources and Link a search source to a search profile.
 
 To use AI Search for knowledge articles, you can keep the default **Knowledge Bases** search source or select a custom one.
 

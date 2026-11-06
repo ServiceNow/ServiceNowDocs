@@ -36,6 +36,8 @@ Several types of components are installed with activation of the Metric Intellig
 Validate that Metric Intelligence still works after you make any configuration change such as apply an upgrade or develop an application. Copy and configure these quick start tests to pass when using your instance-specific data.
 -   **[Event severities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/event-severities.md)**  
 The event severity numbers correspond to actual severities on the Metric Anomaly Score to Event Severity Maps page.
+-   **[Agent Client Collector Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-monitoring-system-properties.md)**  
+Lists the Agent Client Collector Monitoring system properties that control monitoring behavior.
 
 **Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-reference.md)
 

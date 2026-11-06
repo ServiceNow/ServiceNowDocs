@@ -9,7 +9,7 @@ classification: automated-test-framework-atf
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Custom UI test steps

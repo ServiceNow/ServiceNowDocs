@@ -44,9 +44,13 @@ This property enables you to specify the default measuring unit of an area.-   T
 **Related topics**  
 
 
+[Allocation - types, setting, and impact]()
+
 [Components installed with Workplace Space Management]()
 
 [View by Configuration form]()
 
 [KPI Configuration form]()
+
+[]()
 

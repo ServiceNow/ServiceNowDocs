@@ -36,6 +36,18 @@ Role required: sn\_bcm.admin
 
     \[Omitted image "impact-rating-example.png"\] Alt text: Impact rating example.
 
+    For example, create ratings for `Customer impact`, each with a description:
+
+    -   `Low` \(Value `1`; `Tolerable`\)
+    -   `Medium` \(Value `2`; `Not tolerable`\)
+    -   `High` \(Value `3`; `Tolerable`\)
+    -   `Critical` \(Value `4`; `Not tolerable`\)
+    Similarly, create ratings for `Operational impact` the same way:
+
+    -   `Low` \(Value `1`; `Not tolerable`\)
+    -   `Medium` \(Value `2`; `Tolerable`\)
+    -   `High` \(Value `3`; `Not tolerable`\)
+    -   `Critical` \(Value `4`; `Tolerable`\)
 4.  Select **Submit**.
 
 

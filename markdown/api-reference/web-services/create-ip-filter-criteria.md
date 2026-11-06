@@ -29,13 +29,15 @@ Role required: admin
 
 By default, all incoming IP addresses are blocked for Live Connect connections. To allow access only from trusted client machines, configure the Authentication Policy with an IP filter and policy condition.
 
-**Note:** For additional details on IP filtering, see [IP Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ip-filter.md) in the ServiceNow Platform Security guide.
+**Note:** For additional details on IP filtering, see [IP filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ip-filter.md) in the ServiceNow Platform Security guide.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Authentication Policies** &gt; **All Policies**.
 
 2.  Search for **Live Connect Authentication Policy** and open it.
+
+    **Warning:** In versions prior to Zurich Patch 13 and Australia Patch 6, this policy may be named **SQL API Authentication Policy**. If you can't find **Live Connect Authentication Policy**, search for **SQL API Authentication Policy** instead. Don't create a new policy — a duplicate policy can cause queries to fail.
 
 3.  From the **Policy Inputs** tab, select **New**.
 

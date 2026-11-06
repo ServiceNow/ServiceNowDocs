@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Microsoft Teams conference calls in Service Operations Workspace, Use Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Managing Microsoft Teams conference calls in Service Operations Workspace, Using Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Join a conference call from Microsoft Teams in Service Operations Workspace
@@ -37,5 +37,5 @@ Role required: itil
 7.  On the **Active** card, select **Join call**.
 
 
-**Parent Topic:**[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
+**Parent Topic:**[Managing Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
 

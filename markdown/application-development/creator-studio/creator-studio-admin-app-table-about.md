@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [An app's table, Administer, Creator Studio, Developing your application, Building applications]
+breadcrumb: [An app's table, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Changing the table for an app

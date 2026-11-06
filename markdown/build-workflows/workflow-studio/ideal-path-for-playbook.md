@@ -39,7 +39,11 @@ The number of branches you can mark as ideal for a given decision depends on how
 
 ## How the Golden path visualization works
 
-The Golden path visualization in Workflow Studio traces the ideal route through the entire playbook canvas when you enable **Golden path** from the **View options**. The following rules apply:
+The Golden path visualization in Workflow Studio traces the ideal route through the entire playbook canvas when you enable **Golden path** from the **View options**.
+
+\[Omitted image "playbook-golden-path-example.png"\] Alt text: In Workflow Studio, the ideal path of playbook execution after a decision is highlighted in golden color.
+
+The following rules apply for golden path visualization:
 
 -   The playbook must contain at least one decision that has an ideal branch configured.
 -   The visualization follows the ideal branch at each decision, highlighting all activities on that route in a golden color.

@@ -27,11 +27,11 @@ The following diagram shows the tables and their relationships within SOW for IT
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
-
 [Additional roles for SOW admin]()
 
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
+
+[Service Operations Workspace for ITSM glossary]()
 

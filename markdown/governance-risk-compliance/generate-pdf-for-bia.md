@@ -33,7 +33,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
 
-2.  In the List view, navigate to **Business Impact Analysis** and select any business impact analysis record that is in the **Review** or next state.
+2.  In the List view, navigate to **Business Impact Analysis** and select a business impact analysis record.
 
 3.  Select **Generate PDF** in the form.
 

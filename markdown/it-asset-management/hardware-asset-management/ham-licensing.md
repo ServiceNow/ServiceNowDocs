@@ -229,5 +229,3 @@ Assets with the following model categories are excluded from accessing Hardware 
 
 [Licensing framework for Hardware Asset Management solutions]()
 
-[Hardware Asset Management license exclusion]()
-

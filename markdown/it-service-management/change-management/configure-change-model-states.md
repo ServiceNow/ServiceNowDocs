@@ -39,7 +39,7 @@ Role required: change\_manager
 
 6.  Save the state and return to the Change Model form by selecting **Submit**.
 
-7.  Add a transition between the available states by selecting the display/hide hierarchical lists icon \(\[Omitted image "display-hide-hierarchial-lists.png"\] Alt text:\) for the model state that you want to apply the transition to.
+7.  Add a transition between the available states by selecting the display/hide hierarchical lists icon \[Omitted image "display-hide-hierarchial-lists.png"\] Alt text: for the model state that you want to apply the transition to.
 
     1.  Select **New**.
 
@@ -51,9 +51,9 @@ Role required: change\_manager
         |-----|-----------|
         |From|State that the change request is moving from.|
         |To|State that the change request is moving to.|
-        |Automatic Transition|Option for enabling automatic transition to the change request when the defined conditions are met. Selecting this option also helps prevent you from manually selecting the **State** field on the change request form.|
+        |Automatic Transition|Option for enabling automatic transition of the change request when the defined conditions are met. When this option is selected, you don't need to update the **State** field on the change request form manually.|
 
-    3.  Select the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text:\) and select **Save**.
+    3.  Select the form context menu icon \[Omitted image "form-context-menu.png"\] Alt text: and select **Save**.
 
     4.  Select **New** to add conditions for transition between states.
 
@@ -81,7 +81,7 @@ State Transition
 
 </td><td>
 
-This field is automatically set to the state that you're applying the condition to.
+State transition that the condition applies to. This field is set automatically.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Requires
 
 Condition for your transition.The available options are:
 
--   **Mandatory Fields**:Requires specified fields to be populated before the model state transitions.
+-   **Mandatory Fields**: Requires specified fields to be populated before the model state transitions.
 
 State field policies create and maintain conditions named **State Field Policy Managed**. To update the fields in these conditions, update the state field policies for the destination state. For more information, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-state-field-policies.md).
 
@@ -113,7 +113,7 @@ Condition \(condition builder\)
 
 </td><td>
 
-Condition that must be fulfilled to enable the state transition.This field is available only when **Transition Condition** is selected from **Requires** field.
+Condition that must be fulfilled to enable the state transition.This field is available only when **Transition Condition** is selected from the **Requires** field.
 
 </td></tr><tr><td>
 
@@ -121,9 +121,9 @@ Condition \(script\)
 
 </td><td>
 
-Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.This field is available only when **Transition Script** is selected from **Requires** field.
+Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.This field is available only when **Transition Script** is selected from the **Requires** field.
 
-**Note:** To edit this field, you need the **change\_model\_script\_admin** role. Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md).
+**Note:** To edit this field, you must have the change\_model\_script\_admin role. Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md).
 
 </td></tr><tr><td>
 

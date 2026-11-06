@@ -7,7 +7,7 @@ release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-09-19"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
@@ -80,7 +80,7 @@ On-Call read \[oc\_read\]
 
 </td><td>
 
-A user with the role can view \(read-only\) the On-Call Scheduling calendar, rotations, rosters, schedules, escalations, communication channel configuration, reports, and dashboards.
+A user with the role can view \(read-only\) the On-Call Scheduling calendar, rotations, rosters, schedules, escalations, communication channel configuration, reports, and dashboards.The oc\_read role has access to on-call dashboards only if the ITSM Analytics plugin \(sn\_itsm\_analytics\) version 4.1.2 or later is installed.
 
 </td></tr><tr><td>
 

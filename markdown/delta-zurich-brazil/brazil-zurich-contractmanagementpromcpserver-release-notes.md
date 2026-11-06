@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-contractmanagementpromcpserver-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -436,6 +436,8 @@ Brazil
 -   Contract playbooks for contract types are available in centralized location within Contract Management Pro. This allows administrators to handle change centrally instead of maintaining playbooks in different locations or local folders.
 
  See [Contract Management Pro MCP Server](https://www.servicenow.com/docs/access?context=cmpro-negotiation-mcp&family=brazil&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

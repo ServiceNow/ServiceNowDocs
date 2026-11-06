@@ -47,7 +47,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 6.  In the context field, enter one or two lines describing the focus of the story.
 
-    For example, enter context such as "progress tracking for onboarding steps to help users visualize their journey and reduce abandonment rates" to direct ServiceNow Otto toward a specific area of the epic.
+    For example, enter "progress tracking for onboarding steps to help users visualize their journey and reduce abandonment rates" to direct ServiceNow Otto toward a specific area of the epic.
 
 7.  Select **Generate**.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-activation-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 41
+last_updated: "2026-11-04"
+reading_time_minutes: 44
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -82,11 +82,22 @@ Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [
 
 </td></tr><tr><td>
 
+AI Cost Management
+
+</td><td>
+
+-   ****
+
+Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
 AI Desktop Actions
 
 </td><td>
 
-AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+AI Desktop Actions is available with activation of any ServiceNow Otto plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see .
 
 </td></tr><tr><td>
 
@@ -97,6 +108,41 @@ AI Risk and Compliance
 -   ****
 
 Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+**Important:** Governance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   ****
+
+AI Search is a ServiceNow AI Platform feature that is active by default.
+
+
+</td></tr><tr><td>
+
+AI Workflow Factory Prime
+
+</td><td>
+
+-   ****
+
+Install AI Workflow Factory Prime by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
+AIOps AI Specialist
+
+</td><td>
+
+-   ****
+
+Install the AIOps Experience \[sn\_sow\_aiops\] plugin and the AIOps AI Specialist \[sn\_ai\_aiops\_force\] plugin. Role required to onboard and configure the AIOps AI Specialist: evt\_mgmt\_admin or evt\_aiops\_manager.
 
 
 </td></tr><tr><td>
@@ -145,6 +191,17 @@ Install Advanced AI Search Management Tools by requesting it from the ServiceNow
 
 </td></tr><tr><td>
 
+Advanced Risk
+
+</td><td>
+
+-   ****
+
+Install Advanced Risk by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
 Agent Chat
 
 </td><td>
@@ -152,17 +209,6 @@ Agent Chat
 -   ****
 
 Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-agent-chat-configuring.md).
-
-
-</td></tr><tr><td>
-
-Agent Client Collector
-
-</td><td>
-
--   ****
-
-Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
 
 
 </td></tr><tr><td>
@@ -569,6 +615,17 @@ Upon activation, navigate to the Data Privacy or Data Discovery Store app to con
 
 </td></tr><tr><td>
 
+Decision tables
+
+</td><td>
+
+-   ****
+
+Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+
+</td></tr><tr><td>
+
 DevOps Change Velocity
 
 </td><td>
@@ -586,8 +643,11 @@ Developer Sandboxes
 
 -   ****
 
-Install the Developer Sandbox License Management \(`com.glide.dsb.licensing`\) plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI in App Engine Management Center on the controller instance to distribute packs.
+Install the Developer Sandboxes License Management \(`com.glide.dsb.licensing`\) plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI in App Engine Management Center on the controller instance to distribute packs.
 
+Beginning with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:
+
+    -   `glide.dev_sandbox.enabled`: Set to `true`.
 
 </td></tr><tr><td>
 
@@ -1141,7 +1201,7 @@ MCP Server Console
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
@@ -1165,6 +1225,19 @@ Mobile Platform
 -   ****
 
 Mobile Platform is a ServiceNow AI Platform feature that is active by default.
+
+
+</td></tr><tr><td>
+
+Next Experience
+
+</td><td>
+
+-   ****
+
+Next Experience is a ServiceNow AI Platform® feature that is active by default. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
+
+Theme Builder comes with the Next Experience and is active by default.
 
 
 </td></tr><tr><td>
@@ -1267,6 +1340,17 @@ Order Management
 -   ****
 
 Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
+Partner Passport Portal
+
+</td><td>
+
+-   ****
+
+Partner Passport Portal is installed on every instance with no separate plugin to activate. Check your entitlements to determine whether you can purchase partner applications. For more information, see .
 
 
 </td></tr><tr><td>
@@ -1678,6 +1762,17 @@ Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio C
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Cloud Cost Management \(CCM\)
+
+</td><td>
+
+-   ****
+
+Install ServiceNow Otto for Cloud Cost Management \(CCM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Contract Management Pro
 
 </td><td>
@@ -1718,6 +1813,17 @@ Query Generation, Analytics Generation, and the dashboard and data visualization
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 After installation, activate the relevant skills. For more information, see the relevant Configure topics under [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics.md).
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+-   ****
+
+Install ServiceNow Otto for Software Asset Management \(SAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -1862,6 +1968,17 @@ System Localization
 -   ****
 
 System Localization is a ServiceNow AI Platform feature that is active by default.
+
+
+</td></tr><tr><td>
+
+Table Builder
+
+</td><td>
+
+-   ****
+
+Install Table Builder by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-lux-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -183,7 +183,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+No activation is required. Lux is installed automatically on instances running Australia Patch 5 or later or Zurich Patch 12 or later.
+
 
 </td></tr><tr><td>
 
@@ -331,7 +334,16 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Build widget-based UI experiences that run on your instance, using Lit components for pages and widgets.
+-   Render pages on the server and stream the HTML to the browser, which hydrates it into an interactive single-page app.
+-   Show fully rendered content on first load, with markup that assistive technology and search engines can read.
+-   Fetch data on the server with loaders that run near your instance.
+-   Map your pages directory to URLs with file-based routing.
+-   Inherit the design system automatically through Tailwind and DaisyUI styling.
+-   Share data across widgets with the Context API, and across pages with layout data.
+-   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
+
+ See the Lux documentation for more information, [Lux Development](https://www.servicenow.com/docs/access?context=lux-development-landing&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 

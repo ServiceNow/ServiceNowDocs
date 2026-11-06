@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-strategicplanning-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 61
+last_updated: "2026-11-06"
+reading_time_minutes: 66
 breadcrumb: [Products combined by family]
 ---
 
@@ -514,7 +514,52 @@ Brazil
 
 </td><td>
 
--   **[Enterprise-wide deployment for demands](https://www.servicenow.com/docs/access?context=ewd-for-demands-dw&family=brazil&ft:locale=en-US)**
+-   **[Fiscal calendars for goals](https://www.servicenow.com/docs/access?context=fiscal-calendar-support-targets&family=brazil&ft:locale=en-US)**
+
+Create, edit, and break down goal targets on fiscal calendars. The supported calendar types are Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4. Target breakdowns, due dates, and roll-ups follow the fiscal periods of the active calendar. Gregorian calendar behavior does not change.
+
+-   **[Setting and switching goal calendars](https://www.servicenow.com/docs/access?context=set-a-goal-calendar&family=brazil&ft:locale=en-US)**
+
+Set the goal calendar to Gregorian, which is the default, or to fiscal. Fiscal calendars come in three types: Regular, 4-4-5, and 13 Period. Switch from Gregorian to fiscal in the **sn\_gfa.calendar\_type** system property. Switch between fiscal types by changing the fiscal calendar type property, setting the fiscal unit, and regenerating the fiscal periods. A calendar change can make targets stale.
+
+-   **[Fiscal check-in due dates and reminders](https://www.servicenow.com/docs/access?context=configure-target-checkin-reminders-spw&family=brazil&ft:locale=en-US)**
+
+Set check-in due dates by fiscal period for goal targets. When you enter actuals on a target breakdown, the check-in due date updates to match the fiscal period. Reminders for the Period check-in frequency follow the fiscal calendar.
+
+-   **[Fiscal planning range and time scale](https://www.servicenow.com/docs/access?context=fiscal-calendar-support-targets&family=brazil&ft:locale=en-US)**
+
+View goals in fiscal mode in the Strategic Planning workspace. The planning range, time scale, saved preferences, graph, stale target actions, and check-in panel all use the fiscal periods of the active calendar. The grid and goals list show the generated fiscal period names.
+
+-   **[Fiscal check-in frequencies for targets](https://www.servicenow.com/docs/access?context=fiscal-calendar-support-targets&family=brazil&ft:locale=en-US)**
+
+Choose a check-in frequency that the active fiscal calendar supports. The target form offers only the frequencies that are valid for the calendar and the target date range, including Period. The target breakdown preview shows each generated period with its display name. The server validates every frequency and period on save, so a rejected change keeps the current breakdowns and shows the reason.
+
+-   **[Stale target protection for goals](https://www.servicenow.com/docs/access?context=managing-stale-targets&family=brazil&ft:locale=en-US)**
+
+Identify goal targets that become stale after a goal calendar change. Only targets with breakdowns can become stale, and stale targets stay locked until they are recovered. Recover a stale target in one of two ways. An administrator runs the **Goal calendar alignment - Reset check-in frequency for stale targets** scheduled job, and the target owner then selects a check-in frequency again. Or the target owner duplicates the target and sets a check-in frequency on the copy. The copy starts without the remarks, work notes, and history of the stale target.
+
+-   **[AI target generation and goal insights in fiscal mode](https://www.servicenow.com/docs/access?context=generate-insights-for-goal-spw&family=brazil&ft:locale=en-US)**
+
+Generate goal targets with the AI target generation skill on fiscal calendars. Generation uses the active calendar, the allowed frequencies, and the generated period names and dates. The server validates the generated output before it fills the new target form. Goal insights read fiscal period history in period order and do not assume Gregorian months or quarters.
+
+-   **[Fiscal target automation and check-in history](https://www.servicenow.com/docs/access?context=target-actuals-automation-spw&family=brazil&ft:locale=en-US)**
+
+Automation writes target values into the breakdown of the current fiscal period, using the fiscal period boundaries in the fiscal calendar time zone. Check-in history records take their reporting period from the fiscal calendar, and the roll-up remark shows the fiscal period name.
+
+-   **[Track work within a state using substates](https://www.servicenow.com/docs/access?context=substates-in-eap&family=brazil&ft:locale=en-US)**
+
+Teams that do several kinds of work in one state can't see where that work waits. Substates divide a state into steps that match how your team works. A scrum master creates substates on the **Substates** tab of Team Settings, sets their order, and marks one default for each state. When you change the state of a story, the substate changes to the default of the new state. The **Substate** field is hidden for teams that have no substates.
+
+-   **[Spot overloaded lanes with WIP limits on the Planning board](https://www.servicenow.com/docs/access?context=wip-limits-in-eap&family=brazil&ft:locale=en-US)**
+
+A lane that holds more work than planned can hide where work is stuck. WIP limits make those lanes visible on the Planning board. Each lane header shows the number of stories and the limit, for example 3/5. An amber header marks a lane at its limit. A red header with an alert icon marks a lane over its limit. Counts update as you move stories, and a limit never blocks a move.
+
+-   **[Set WIP limits for your own team](https://www.servicenow.com/docs/access?context=set-wip-limits-for-kanban-lanes-in-eap&family=brazil&ft:locale=en-US)**
+
+Each team works differently, so each team sets its own limits. A scrum master selects **Team Settings** on the Planning board and adds limits on the **Kanban WIP limits** tab. Choose a lane, which is a state or a substate of the team, and enter the limit. The **Team** field is set automatically, and each lane can have one limit.
+
+
+ -   **[Enterprise-wide deployment for demands](https://www.servicenow.com/docs/access?context=ewd-for-demands-dw&family=brazil&ft:locale=en-US)**
 
 Partition demand data by any criteria, such as department or business unit, using Enterprise-Wide Deployment \(EWD\) partitioning on the Demand table and related entities. Demands are stamped with a matching partition, and users see only the demands, list views, search results, and dashboards for the partitions their role grants them.
 
@@ -533,7 +578,7 @@ The smart assessment form is more intuitive and supports text-based questions. T
 
 Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
 
--   **Kanban teams in the portfolio structure in EAP**
+-   **[Kanban teams in the portfolio structure in EAP](https://www.servicenow.com/docs/access?context=scrum-and-kanban-teams-in-eap&family=brazil&ft:locale=en-US)**
 
 Run Scrum and Kanban teams under the same Agile Release Train \(ART\). Select a planning methodology when you add a team to an ART, or set the Planning methodology field on an existing team. Kanban teams plan from the team backlog: sprint controls are hidden, planning intervals skip them, and the Home page shows the Kanban Team dashboard. Both team types appear side by side on the ART planning board.
 
@@ -792,11 +837,24 @@ Brazil
 
 </td><td>
 
--   **Switching a team to Kanban in EAP**
+-   **Target import check-in frequencies**
+
+Target import accepts Period as a check-in frequency. Import rejects a check-in frequency that the active calendar does not allow and shows a message that states the reason.
+
+-   **[Duplicate target behavior](https://www.servicenow.com/docs/access?context=create-a-copy-of-a-goal-or-target&family=brazil&ft:locale=en-US)**
+
+When you duplicate a target, the copy keeps the source check-in frequency only if the active calendar supports it. The copy gets new breakdowns from the active calendar and never copies the source breakdowns. The source target does not change.
+
+-   **[Find the open sprints that block Planning Interval completion](https://www.servicenow.com/docs/access?context=start-or-complete-iteration-in-eap&family=brazil&ft:locale=en-US)**
+
+When open child sprints prevent you from completing a Planning Interval, you must know which sprints to close. The completion alert now lists every open sprint by team. Each sprint links to the Agile board of the team for Agile Development 2.0 sprints. CWM teams link to the CWM board. All other sprints link to the EAP Backlog of the team.
+
+
+ -   **[Switching a team to Kanban in EAP](https://www.servicenow.com/docs/access?context=switch-agile-team-to-kanban-in-eap&family=brazil&ft:locale=en-US)**
 
 Sprints that aren't complete are cancelled when you set a team's Planning methodology to Kanban, including the team's current sprint. Completed and cancelled sprints aren't changed, and work items stay assigned to the sprints that were cancelled. A team connected to Collaborative Work Management \(CWM\) can't be switched to Kanban while it has active or planned sprints.
 
--   **Planning methodology on existing teams in EAP**
+-   **[Planning methodology on existing teams in EAP](https://www.servicenow.com/docs/access?context=scrum-and-kanban-teams-in-eap&family=brazil&ft:locale=en-US)**
 
 Each existing agile team is assigned a planning methodology when you upgrade: Scrum if the team or its configuration has a business calendar, Kanban if neither has one. Because Kanban teams don't show sprint controls, review any team created without a business calendar and set its Planning methodology to Scrum if that team plans in sprints.
 

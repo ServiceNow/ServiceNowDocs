@@ -77,6 +77,8 @@ Configure an impact rating to assess an impact category as low, moderate, high, 
 Configure a recovery tier with a set of business applications that follow a similar range of recovery time objective \(RTO\) values. Use the **Recovery Tiers** module in the Business Continuity Management application navigator to configure a recovery tier.
 -   **[Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md)**  
 Set up a recovery timeframe for a recovery tier. The recovery timeframe starts from when a disruptive event happens to the time when your business can resume usual operations. You can use the **Recovery Timeframes** module in the Business Continuity Management application to set up the timeline for the recovery timeframe.
+-   **[Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-phases.md)**  
+Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 -   **[Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-grid-category.md)**  
 Configure a grid category such as Dependency Assessment for the grid configuration. Use the **Grid Categories** module in the Business Continuity Management application navigator to configure the grid categories.
 -   **[Configure grid for BIA assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-grid-configuration-uib-ws.md)**  

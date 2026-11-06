@@ -52,7 +52,7 @@ Application
 
 </td><td>
 
-Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see .
+Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationFiles.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.

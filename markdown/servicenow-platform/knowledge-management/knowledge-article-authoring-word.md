@@ -24,12 +24,12 @@ Consider the following points when using the Knowledge Management - Add-in for M
 
 -   The URL is automatically generated for Word documents created in Microsoft SharePoint and Microsoft OneDrive with business accounts only.
 
-    For other applications, account types and custom SharePoint URLs, you must manually enter the URL in the **Document URL** field on the Knowledge form in Microsoft Word. For more information, see [Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-word.md).
+    For other applications, account types and custom SharePoint URLs, you must manually enter the URL in the **Document URL** field on the Knowledge form in Microsoft Word. For more information, see [Create a knowledge article in Microsoft Word]().
 
 -   The conversion time of a knowledge article from a Microsoft Word document depends on the document size.
 -   Headers and footers corresponding to pages in the Microsoft Word document appear as is in the knowledge article. You can remove headers and footers in the Microsoft word document before creating or updating the knowledge article.
 
-**Note:** As an admin, you must create a Restricted Caller Access Privileges record for the Microsoft Word add-in to publish a knowledge article content in scoped knowledge bases. For more information, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/restricted-caller-access-privilege.md).
+**Note:** As an admin, you must create a Restricted Caller Access Privileges record for the Microsoft Word add-in to publish a knowledge article content in scoped knowledge bases. For more information, see Restricted caller access privilege settings.
 
 ## Activation information
 
@@ -40,7 +40,7 @@ Activate the Knowledge Management - Add-in for Microsoft Word plugin \(com.snc.k
 
 [View a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-article-word.md)
 
-[Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-article-word.md)
+[Create a knowledge article in Microsoft Word]()
 
 [Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-article-word.md)
 

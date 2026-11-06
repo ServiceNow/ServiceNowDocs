@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [agentic development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
 audience: developer
-breadcrumb: [Explore, Agentic development, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Tool comparison for agentic development

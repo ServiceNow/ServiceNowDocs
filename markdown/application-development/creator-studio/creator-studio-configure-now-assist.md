@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring form generation in Creator Studio
@@ -28,7 +28,7 @@ Install the ServiceNow Otto for Creator application from the ServiceNow® Store 
 **Related topics**  
 
 
-[Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
+[Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
 
 [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

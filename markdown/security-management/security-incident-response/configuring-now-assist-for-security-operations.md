@@ -26,7 +26,7 @@ By sharing data with the ServiceNow® AI development program, you provide releva
 
 You can opt out of a ServiceNow instance from sharing data from the AI Admin Hub console. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md). Repeat the opt-out process for all instances that use the ServiceNow Otto functionality.
 
-Use the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md).
 
 **Note:** When you update the ServiceNow Otto for Security Incident Response \(SIR\) applications, its dependency applications are automatically updated.
 
@@ -89,7 +89,7 @@ Security incident quality assessment
 SIR data analysis
 
 </td></tr></tbody>
-</table>1.  [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+</table>1.  [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
     Install the ServiceNow Otto for Security Incident Response \(SIR\) application \(sn\_sec\_gen\_ai\) and Security Incident Response Core \[sn\_si\] applications.
 

@@ -20,7 +20,7 @@ Plan and configure your Knowledge Management implementation.
 
 Visit the following page on the ServiceNow Community for information on setting up Knowledge Management: [Knowledge Management Getting Started](https://www.servicenow.com/community/knowledge-management-articles/knowledge-management-getting-started/ta-p/2533067).
 
-You can also use Knowledge Management capabilities within a website built on Adobe Experience Manager \(AEM\). For more information, see [Integration with Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/aem-integration.md).
+You can also use Knowledge Management capabilities within a website built on Adobe Experience Manager \(AEM\). For more information, see Integration with Adobe Experience Manager.
 
 ## Using guided setup to implement Knowledge Management
 

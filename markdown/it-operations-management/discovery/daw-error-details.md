@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,7 +21,7 @@ To access Discovery error details in Discovery Admin Workspace, navigate to **Wo
 
 **Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. This page is only accessible when the **sn\_disco\_workspace.enable\_error\_framework** system property is enabled. Specific version requirements are noted for individual features where applicable.
 
-After selecting an error card, the header displays key information including the error title, severity, refined code, and category.
+After selecting an error, the header displays key information including the error title, severity, refined code, and category.
 
 \[Omitted image "daw-error-details-overview.png"\] Alt text: Error Details page in Discovery Admin Workspace
 

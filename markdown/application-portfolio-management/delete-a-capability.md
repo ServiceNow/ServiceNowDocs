@@ -16,7 +16,7 @@ Delete a capability that you no longer require.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_apm.apm\_user
 
 ## Procedure
 

@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __06 November 2026__:
+  * Brazil GA release
 - __16 October 2026__:
   * Removed ICW bundle
 - __08 October 2026__:

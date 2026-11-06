@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 26
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Multi-turn catalog ordering, genius results, generative AI]
-breadcrumb: [Chat experiences, Explore, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
 ---
 
 # Enhanced chat
@@ -207,13 +207,13 @@ These assets are associated with the chat icon \(\[Omitted image "nass-chat-bubb
 
 The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\) and in the **Show sources** section. These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-knowledge-graph-designer.md).
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-knowledge-graph-designer.md).
 
 \[Omitted image "nass-dw-kb-citation-popover-yp6.png"\] Alt text: Knowledge base article source and popover.
 
 ## External content connections citations
 
-The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\) and in the **Show sources** section. If external search sources are added to your information sources when [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connections:
+The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\) and in the **Show sources** section. If external search sources are added to your information sources when [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md), you can search through external content connections. This can include information from attachments and knowledge blocks, or from the following list of content connections:
 
 -   Adobe Acrobat Sign external content connector
 -   Adobe Experience Manager as a Cloud Service external content connector

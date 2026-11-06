@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-domainseparation-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 8
+last_updated: "2026-11-06"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -543,11 +543,7 @@ Brazil
 
 </td><td>
 
--   **Accessibility information**
-    -   All user interface elements in Domain Separation meet WCAG 2.1 Level AA standards for accessibility. The administration console and all configuration workflows are fully navigable by keyboard and compatible with screen readers including JAWS and NVDA.
-    -   Screen reader support includes proper ARIA labels for all UI components including domain policy configuration, access control settings, and cross-domain restriction interfaces.
-    -   Color contrast ratios meet WCAG AA standards across all features and workflows.
-    -   For accessibility questions or to report accessibility issues, contact ServiceNow Support.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -600,10 +596,7 @@ Brazil
 
 </td><td>
 
--   **Localization information**
-
-All user-facing strings in Domain Separation are localized for supported ServiceNow languages at general availability \(GA\). Supported languages include English, French, German, Spanish, Italian, Japanese, Portuguese, Chinese \(Simplified and Traditional\), and Korean. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Highlight information

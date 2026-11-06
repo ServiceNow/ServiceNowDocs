@@ -607,12 +607,12 @@ Available skills
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+
 
 </td><td>
 
--   [ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-discovery-skill.md)
--   [ERP data query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-query.md)
+-   ERP data discovery
+-   ERP data query
 
 </td></tr><tr><td>
 
@@ -655,11 +655,11 @@ Available skills
 
 </th></tr></thead><tbody><tr><td>
 
-
+[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
-Custom app record summarization
+[Custom app record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)
 
 </td></tr><tr><td>
 
@@ -667,16 +667,16 @@ Creator
 
 </td><td>
 
--   
+-   [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)
 -   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-catalog-item-using-now-assist.md)
--   App summary generation
--   
+-   [App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/summarize-an-app-in-servicenow-studio.md)
+-   [Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/client-script-summarization-generation.md)
 -   [Code Assist autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
 -   [Code Assist edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/edit-code-now-assist.md)
 -   [Code assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
 -   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-scripts-from-text.md)
--   Event handler generation
--   
+-   [Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-an-event-handler-with-now-assist.md)
+-   [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/generate-ui.md)
 -   [Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/turn-on-the-flow-execution-analysis-skill.md)
 -   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-landing.md)
 -   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-with-images-landing.md)
@@ -713,7 +713,7 @@ Available skills
 -   [Jumpstart Your ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-now-assist-creator.md)
 -   [Jumpstart Your ServiceNow Otto for Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-your-now-assist-document-intelligence.md)
 -   [Jumpstart Your ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-now-assist-virtual-agent.md)
--   [Jumpstart Your ServiceNow Otto Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-now-assist-skill-kit.md)
+-   [Jumpstart Your ServiceNow AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-now-assist-skill-kit.md)
 
 </td></tr></tbody>
 </table>

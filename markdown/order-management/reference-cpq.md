@@ -18,10 +18,8 @@ Reference for configure, price, and quote applications.
 Reference topics provide additional information about Advanced Approval Management.
 -   **[Components installed with Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-with-advanced-approval-mgmt-AI.md)**  
 MCP tools are installed with activation of the Advanced Approval Management AI plugin.
--   **[Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-with-pricing-management.md)**  
-Several types of components are installed with activation of the Pricing Management plugin, including tables and user roles.
--   **[Pricing Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-management-properties.md)**  
-System properties available with Pricing Management that enable you to control the precision applied to non-currency pricing values, tune how multiline pricing requests are processed, and set the level of detail captured for pricing engine troubleshooting.
+-   **[Pricing Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/price-management-reference.md)**  
+Reference topics provide additional information about the Pricing Management group of applications.
 -   **[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-reference.md)**  
 Reference topics provide additional information about the Quote Management application.
 -   **[Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-creation-fields-self-service.md)**  
@@ -30,8 +28,8 @@ Store the main details related to a quote submitted and track the life cycle of 
 Reference topics provide additional information on service contract life cycle and forms available within the Customer Contracts and Entitlements application.
 -   **[Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-sales-agreement.md)**  
 Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
--   **[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
-Reference topics provide additional information about CPQ.
+-   **[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+Reference topics provide additional information about ServiceNow CPQ.
 
 **Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-reference.md)
 

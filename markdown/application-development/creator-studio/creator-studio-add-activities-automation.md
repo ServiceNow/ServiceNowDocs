@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add activities to an app's playbook in Creator Studio

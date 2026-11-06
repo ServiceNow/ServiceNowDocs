@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-as
 release: brazil
 topic_type: concept
 last_updated: "2026-09-22"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -20,6 +20,23 @@ This agent processes an uploaded image, extracts tasks and task dependencies, an
 
 The AI agent integrates with order action catalogs, file upload services, and template management systems to produce standardized task plan templates with dependency graphs and action mappings. NOW LLM does not support this agent.
 
+The uploaded image should define the tasks and the tasks flow and dependency in a clear chart, with clear text visualization.
+
+From the image the agent always expects the first node or the root node as the specification and not tasks and all others will be tasks.
+
+\[Omitted image "task-plan-template-1.jpg"\] Alt text: example image for task plan template.
+
+Guidelines for image:
+
+-   Size of the image must be less than 10MB.
+-   Format of the image must be PNG, PDF, JPG.
+-   Connecting lines of tasks and node must not overlap.
+
+    \[Omitted image "task-plan-template-2.jpg"\] Alt text: Connecting lines of tasks and node must not overlap.
+
+    \[Omitted image "task-plan-3.png"\] Alt text: images with intersection or overlapping lines aren't supported by agent.
+
+
 To generate a template from an image, see [Generate a task plan template from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/generate-task-plan-template-from-image-somt.md). If no image is available, see [Generate a task plan template without an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/generate-task-plan-template-without-image-somt.md) instead.
 
 To modify the Image to task plan template AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md) and adjust the settings according to your requirements.
@@ -27,6 +44,8 @@ To modify the Image to task plan template AI agent, [Duplicate an agentic workfl
 To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-tool-aia.md) for details.
 
 Role required: sn\_task\_plan.admin and sn\_prd\_pm.product\_catalog\_admin
+
+**Important:** In the select channels and status page, make sure that the **Active** button is turned on to activate the AI agent.
 
 To access the agent in AI Agent Studio, see [Access the Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/access-image-to-task-plan-template-ai-agent-somt.md). To test the use case, see [Test the Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-image-to-task-plan-template-ai-agent-somt.md).
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cus
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -18,7 +18,7 @@ The contributor users feature provides unified customer support for internal and
 
 -   Enable service organizations to serve one another and external customers.
 -   Enable employees to request support for themselves and for external customers.
--   ​Enable middle office agents to work on specific case tasks that are required to resolve cases.
+-   Enable users to access customer- visible case tasks that are required to resolve cases.
 
 ## Overview of contributor user roles
 
@@ -146,7 +146,7 @@ Requester for service organization
 
 </td><td>
 
-A requester who can create cases on behalf of their business location.
+A requester who can create cases on behalf of their business organization.
 
  This user:
 
@@ -160,9 +160,9 @@ A requester who can create cases on behalf of their business location.
 This user can:
 
 -   Search knowledge articles and catalog items.
--   Create cases on behalf of their business location, including cases for catalog items \(requests\), and follow up on those cases.
+-   Create cases on behalf of their business organization, including cases for catalog items \(requests\), and follow up on those cases.
 -   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
--   View and follow up on other cases created for the user's business location.
+-   View and follow up on other cases created for the user's business organization.
 
  If also an internal user on a case, this user can:
 
@@ -190,6 +190,32 @@ This user can:
 
 -   Search knowledge articles and catalog items.
 -   Create cases on behalf of themselves, including cases for catalog items \(requests\).
+-   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
+-   View and follow up on the cases that they’ve created from themselves:
+    -   Add additional comments and attachments
+    -   Accept or reject a solution
+    -   Close a case
+    -   Receive notifications of case updates
+    -   Read work notes
+
+</td></tr><tr><td>
+
+Requester for self related to a business organization
+
+</td><td>
+
+A requester who can create and track cases for themselves while associating them with their business organization. This requester can also link any sold products or install base items assigned to them at a business organization to the case.
+
+ Business Organization Self Contributor
+
+ \[sn\_bus\_loc.business\_org\_self\_contributor\]
+
+</td><td>
+
+This user can:
+
+-   Search knowledge articles and catalog items.
+-   Create and track service cases for their assigned sold products and install base items at a business organization, without any involvement.
 -   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
 -   View and follow up on the cases that they’ve created from themselves:
     -   Add additional comments and attachments
@@ -297,7 +323,7 @@ Consumer
 
 </td></tr><tr><td>
 
-Business Location
+Business Organization
 
 </td><td>
 
@@ -352,8 +378,8 @@ Service organization contributor
 
 </td><td>
 
--   **My Cases for Business Locations**: cases created by the contributor user on behalf of their business locations.
--   **All Cases for Business Locations**: All cases created on behalf of the contributor's business locations, independent of who created the case.
+-   **My Cases for Business Locations**: cases created by the contributor user on behalf of their business organizations.
+-   **All Cases for Business Locations**: All cases created on behalf of the contributor's business organizations, independent of who created the case.
 
 </td></tr><tr><td>
 
@@ -421,7 +447,7 @@ This widget includes the following information for each case task:-   Task numbe
 </td></tr></tbody>
 </table>**Note:** If a playbook is available, the system opens the case task within in the playbook. If no playbook is available, the system opens the Case Task form.
 
-Depending on assigned roles, contributor users can see different modules in CSM Agent Workspace and CSM Configurable Workspace.
+Depending on assigned roles, contributor users can see different modules in CSM Agent Workspace and CRM Workspace.
 
 <table id="table_qxh_f5h_3nb"><thead><tr><th>
 
@@ -483,7 +509,7 @@ Users with the case task agent role have read-only access to some of the custome
 
 -   For B2B cases: Account and contact records, including addresses, sold products, and install base.
 -   For B2C cases: Consumer and household records, including addresses, sold products, install base, and head of household.
--   For business location cases: Service organization records, including internal contact information.
+-   For business organization cases: Service organization records, including internal contact information.
 
 **Related topics**  
 

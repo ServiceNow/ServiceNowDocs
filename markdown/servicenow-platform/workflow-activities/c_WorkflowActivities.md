@@ -24,14 +24,14 @@ For information about configuring different types of activities, click an activi
 
 ## Core activities provided in the base system
 
--   [Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
--   [Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_ConditionActivites.md)
--   [Notification workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_NotificationActivity.md)
+-   [Approval and rollback workflow activities]()
+-   [Condition Workflow activities]()
+-   [Notification workflow activity]()
 -   [Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 -   [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/workflows-as-subflows.md)
 -   [Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/r_TaskActivities.md)
--   [Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_TimerActivities.md)
--   [Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_UtilityActivities.md)
+-   [Timer workflow activities]()
+-   [Utility workflow activities]()
 
 ## Activities provided with Orchestration
 

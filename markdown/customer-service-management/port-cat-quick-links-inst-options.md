@@ -69,7 +69,7 @@ Sort Order
 
 </td><td>
 
-The order in which the catalog items appear on a widget.The default sort order is Z to A.
+The order in which the catalog items appear on a widget.The default sort order is A to Z.
 
 </td></tr></tbody>
 </table>|Instance option|Description|
@@ -111,7 +111,7 @@ The display style of a card on the widget.The available options are:
 -   Thumbnail
 -   Icon on top
 -   Icon on left
--   Simple text
+-   Title &amp; description
 -   Title only
 
 The default display style is Thumbnail.

@@ -64,7 +64,7 @@ Enter the actual user name of the applicative credential.
 
 </td><td>
 
-Enter the actual password of the applicative credential. Don’t use spaces or special characters for the credential name.
+Enter the actual password of the applicative credential. Don’t use spaces or special characters for the credential password.
 
 </td></tr><tr><td>
 

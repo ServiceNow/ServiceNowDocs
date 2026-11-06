@@ -29,7 +29,7 @@ Protect your sensitive data and stay compliant with regulatory  requirements a
 
 [Field Encryption Enterprise\[Omitted image "bus-security.svg"\] Alt text: Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)
 
- [Use Field Encryption to permit and deny access to encrypted data based on user role. Field Encryption includes basic key management using encryption modules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)
+ [Use Field Encryption Enterprise to permit and deny access to encrypted data based on user role. Field Encryption includes basic key management using encryption modules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Protect your sensitive data and stay compliant with regulatory  requirements a
 
 [Certificates\[Omitted image "bus-get-certified.svg"\] Alt text: Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Certificates.md)
 
- [Use certificates to establish secure connections and validate signatures.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Certificates.md)
+ [Use Certificates to establish secure connections and validate signatures.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Certificates.md)
 
 </td><td>
 
@@ -83,7 +83,7 @@ ServiceNow® Cloud Encryption offers encrypted storage for the database using bl
 -   **[Full disk encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/full-disk-encryption.md)**  
 Full disk encryption \(FDE\) applies encryption to the entire storage system within the database server only, because this is the only customer data-storing component. FDE protects only against physical loss or theft of storage devices. When encrypted disk servers are powered on and providing data, the encryption provides no additional protection.
 -   **[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-encryption.md)**  
-ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the Internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
+ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the internet to your ServiceNow instance. Data is encrypted in flight and remains encrypted at rest.
 -   **[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)**  
 ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 

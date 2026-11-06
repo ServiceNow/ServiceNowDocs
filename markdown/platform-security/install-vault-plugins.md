@@ -91,8 +91,8 @@ Included with the platform.
 
 </td><td>
 
--   [Activating Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-session-access.md)
--   [Activating Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-continuous-authentication.md)
+-   [Activate Zero Trust access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-session-access.md)
+-   [Activate Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-continuous-authentication.md)
 
 
 </td></tr></tbody>

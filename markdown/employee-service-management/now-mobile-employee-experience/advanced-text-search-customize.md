@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [AI Search in mobile, Configuring Now Mobile, Unified Employee Experience, Employee Service Management]
+breadcrumb: [AI Search in mobile, Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # Customize AI Search results

@@ -1,6 +1,6 @@
 ---
-title: Configuring the Access Simulator \(Take actions\)
-description: Configure the Take actions options to complete the role and group assignments that you wish to add after the simulation.
+title: Configure the Access Simulator \(Take actions\)
+description: Configure the Take actions options to complete the role and group assignments that you need to add after the simulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-access-simulator.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Access simulator, Access Analyzer, Access Management]
 ---
 
-# Configuring the Access Simulator \(Take actions\)
+# Configure the Access Simulator \(Take actions\)
 
-Configure the Take actions options to complete the role and group assignments that you wish to add after the simulation.
+Configure the Take actions options to complete the role and group assignments that you need to add after the simulation.
 
 ## Before you begin
 
@@ -30,6 +30,6 @@ Role required: access\_analyzer\_admin
 
 3.  Select **Accept**.
 
-4.  Click **Save**.
+4.  Select **Save**.
 
 

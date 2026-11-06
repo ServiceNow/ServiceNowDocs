@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-selfserviceandomnichannelengagementforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 28
 breadcrumb: [Products combined by family]
 ---
@@ -228,7 +228,7 @@ Initiate the wrap-up process before a call ends using the **Open Wrap-Up** butto
 Access primary call controls, such as Recording, Hold, Mute, Transfer, and Help Request, directly on the active call interface. When controls exceed five or the available display width, additional CCaaS-defined actions are available through an overflow menu.
 
 
- -   **[Web Embeddables](https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US)**
+ -   **[Configure Web Embeddables](https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US)**
 
 Embed ServiceNow components into any third-party website or web application to extend the ServiceNow AI Platform capabilities. You can use a library of default configurable components or create custom components.
 

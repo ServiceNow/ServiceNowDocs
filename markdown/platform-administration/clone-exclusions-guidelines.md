@@ -34,6 +34,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
     -   sys\_user
     -   sys\_user\_role
+    -   sys\_user\_has\_role
     -   sys\_user\_group
     -   sys\_user\_grmember
     -   sys\_group\_has\_role

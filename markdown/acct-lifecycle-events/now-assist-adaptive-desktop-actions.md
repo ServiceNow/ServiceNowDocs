@@ -16,7 +16,5 @@ Use ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) adapti
 
 With adaptive desktop actions, you describe what task you want to accomplish on the web at a high level in the tool configuration. The AI agent processes the request and generates an execution plan. It dynamically determines the specific steps needed to complete the task by analyzing the engagement's details, including health, success blueprints, product adoption data, and renewal date.
 
-For more information about AI desktop actions, see [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-landing-page.md).
-
 **Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
 

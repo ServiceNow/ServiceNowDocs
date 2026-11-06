@@ -36,6 +36,8 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
 
+    The Change Management - Collision Detector plugin \(com.snc.change.collision\) is now activated automatically when you upgrade to the Brazil release.
+
 
 ## Accessibility and localization
 
@@ -59,6 +61,8 @@ The Brazil Early Availability release introduces compliance dynamic schema, chan
 -   **[Change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-lockdown.md)**
 
     Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
+
+    **Note:** The Change lockdown depends on Change Management - Collision Detector plugin \(com.snc.change.collision\), this plugin is now activated automatically when you upgrade to the Brazil release.
 
 -   **[Change lockdown conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/lockdown-conflict-detection.md)**
 

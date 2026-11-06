@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-goalframeworkforspm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 10
+last_updated: "2026-11-06"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -133,7 +133,24 @@ Brazil
 
 </td><td>
 
--   **[Maintain-type targets](https://www.servicenow.com/docs/access?context=target-types-overview&family=brazil&ft:locale=en-US)**
+-   **[Fiscal calendars for goals](https://www.servicenow.com/docs/access?context=fiscal-calendar-goal-framework&family=brazil&ft:locale=en-US)**
+
+Create, edit, and break down goal targets on fiscal calendars. The supported calendar types are Standard, 13-Period, 4-4-5, 4-5-4, and 5-4-4. Target breakdowns, due dates, and roll-ups follow the fiscal periods of the active calendar. Gregorian calendar behavior does not change.
+
+-   **[Setting and switching goal calendars](https://www.servicenow.com/docs/access?context=set-a-goal-calendar&family=brazil&ft:locale=en-US)**
+
+Set the goal calendar to Gregorian, which is the default, or to fiscal. Fiscal calendars come in three types: Regular, 4-4-5, and 13 Period. Switch from Gregorian to fiscal in the **sn\_gfa.calendar\_type** system property. Switch between fiscal types by changing the fiscal calendar type property, setting the fiscal unit, and regenerating the fiscal periods. A calendar change can make targets stale.
+
+-   **[Fiscal check-in frequencies for targets](https://www.servicenow.com/docs/access?context=fiscal-calendar-goal-framework&family=brazil&ft:locale=en-US)**
+
+Choose a check-in frequency that the active fiscal calendar supports. The target form offers only the frequencies that are valid for the calendar and the target date range, including Period. The target breakdown preview shows each generated period with its display name. The server validates every frequency and period on save, so a rejected change keeps the current breakdowns and shows the reason.
+
+-   **[Stale target protection for goals](https://www.servicenow.com/docs/access?context=managing-stale-targets-gf&family=brazil&ft:locale=en-US)**
+
+Identify goal targets that become stale after a goal calendar change. Only targets with breakdowns can become stale, and stale targets stay locked until they are recovered. Recover a stale target in one of two ways. An administrator runs the **Goal calendar alignment - Reset check-in frequency for stale targets** scheduled job, and the target owner then selects a check-in frequency again. Or the target owner duplicates the target and sets a check-in frequency on the copy. The copy starts without the remarks, work notes, and history of the stale target.
+
+
+ -   **[Target types](https://www.servicenow.com/docs/access?context=target-types-gf&family=brazil&ft:locale=en-US)**
 
 Track targets that need to hold steady at a value over time, such as keeping server uptime above 98% for a year. In addition to **Maximize** and **Minimize**, the **Type** field on a target includes three options:
 
@@ -142,7 +159,7 @@ Track targets that need to hold steady at a value over time, such as keeping ser
     -   **Maintain constant**: The actual value must stay within a tolerance range of the final target.
 When you select a Maintain type, the **Target distribution** field is hidden on the target form.
 
--   **[Progress calculation for Maintain-type targets](https://www.servicenow.com/docs/access?context=target-types-overview&family=brazil&ft:locale=en-US)**
+-   **[Progress calculation for Maintain-type targets](https://www.servicenow.com/docs/access?context=target-types-gf&family=brazil&ft:locale=en-US)**
 
 Measure progress on Maintain-type targets by how consistently the metric meets the target across check-in periods. The system automatically calculates status for each target breakdown period that has an actual value:
 
@@ -151,7 +168,7 @@ Measure progress on Maintain-type targets by how consistently the metric meets t
     -   **Maintain constant**: Met when the actual falls within the tolerance range, bounds included.
 Target-level progress equals the number of periods that meet the target divided by the total periods up to the latest actual value, multiplied by 100. For example, a **Maintain above** target with a final target of 75 and quarterly actuals of 78, 72, 80, and 76 shows 75% progress. Three of 4 periods meet the target.
 
--   **[Target breakdowns for Maintain-type targets](https://www.servicenow.com/docs/access?context=target-breakdowns&family=brazil&ft:locale=en-US)**
+-   **[Target breakdowns for Maintain-type targets](https://www.servicenow.com/docs/access?context=target-breakdowns-gf&family=brazil&ft:locale=en-US)**
 
 Start every check-in period from the same value. When you save a Maintain-type target, each target breakdown gets a planned target equal to the final target value. You can edit the planned target of any breakdown. If the final target value is empty, breakdowns are created with a planned target of 0.
 
@@ -232,7 +249,7 @@ Brazil
 
 </td><td>
 
--   **[Target breakdown regeneration](https://www.servicenow.com/docs/access?context=target-breakdowns&family=brazil&ft:locale=en-US)**
+-   **[Target breakdown regeneration](https://www.servicenow.com/docs/access?context=target-breakdowns-gf&family=brazil&ft:locale=en-US)**
 
 Target breakdowns adjust to changes in a target's dates or final target value, and recorded actuals are kept:
 
@@ -240,7 +257,7 @@ Target breakdowns adjust to changes in a target's dates or final target value, a
     -   Moving the start date earlier adds breakdowns for the new periods, with the same planned target.
     -   Shortening or extending the end date removes or adds the matching breakdowns.
     -   Changing the final target value updates the planned target of every breakdown and recalculates status and progress.
--   **[Type field editable after actuals are recorded](https://www.servicenow.com/docs/access?context=change-target-type-spw&family=brazil&ft:locale=en-US)**
+-   **[Target type changes](https://www.servicenow.com/docs/access?context=change-target-type-gf&family=brazil&ft:locale=en-US)**
 
 Change the **Type** of a target after actual values are recorded, without deleting and recreating the target. When you change the type from Maximize to Minimize, or from Maximize to a Maintain type:
 
@@ -249,7 +266,7 @@ Change the **Type** of a target after actual values are recorded, without deleti
     -   Progress and attainment are recalculated using the new type's logic.
 A warning appears before you save the change. The change is recorded in the audit history.
 
--   **[Number field in the target list view](https://www.servicenow.com/docs/access?context=target-form-egm&family=brazil&ft:locale=en-US)**
+-   **[Number field in the target list view](https://www.servicenow.com/docs/access?context=target-form&family=brazil&ft:locale=en-US)**
 
 The **Number** field appears as a link in the actual value automation list view. That list view opens when you view targets in Core UI.
 
@@ -710,7 +727,7 @@ Brazil
 -   Align work items to goals and targets, and automate actual value updates by configuring target sources, ensuring real-time progress tracking without manual updates.
 -   Set target breakdowns at daily, weekly, monthly, quarterly, or yearly intervals. Distribute the final target value cumulatively or non-cumulatively across the defined time duration.
 
- See [Goal Framework and Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&family=brazil&ft:locale=en-US) for more information.
+ See [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

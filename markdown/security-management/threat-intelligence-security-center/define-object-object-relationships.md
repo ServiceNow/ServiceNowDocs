@@ -33,15 +33,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d185790e110">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d187307e110">
 
 Field
 
-</th><th align="left" id="d185790e113">
+</th><th align="left" id="d187307e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185790e119">
+</th></tr></thead><tbody><tr><td id="d187307e119">
 
 **Source Object**
 
@@ -49,7 +49,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d185790e128">
+</td></tr><tr><td id="d187307e128">
 
 **Source Object Type**
 
@@ -57,7 +57,7 @@ Select and define the source object.
 
 Defines the type of source object.
 
-</td></tr><tr><td id="d185790e137">
+</td></tr><tr><td id="d187307e137">
 
 **Target Object**
 
@@ -65,7 +65,7 @@ Defines the type of source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d185790e146">
+</td></tr><tr><td id="d187307e146">
 
 **Target Object Type**
 
@@ -73,7 +73,7 @@ Select and define the target object.
 
 Defines the type of target object.
 
-</td></tr><tr><td id="d185790e156">
+</td></tr><tr><td id="d187307e156">
 
 **Relationship Type**
 
@@ -85,7 +85,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d185790e175">
+</td></tr><tr><td id="d187307e175">
 
 **Start Time**
 
@@ -93,7 +93,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d185790e184">
+</td></tr><tr><td id="d187307e184">
 
 **Stop Time**
 
@@ -101,7 +101,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d185790e193">
+</td></tr><tr><td id="d187307e193">
 
 **Description**
 

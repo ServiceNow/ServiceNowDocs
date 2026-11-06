@@ -38,7 +38,7 @@ For information about collaborating on a task record using Microsoft Teams chat,
 
 4.  Edit the **Script** field.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)

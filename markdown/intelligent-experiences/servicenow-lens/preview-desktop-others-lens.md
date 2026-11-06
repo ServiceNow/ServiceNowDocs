@@ -75,7 +75,7 @@ By using Lens actions, you can perform one of the following tasks:
 
 7.  Select **Proceed with Lens**.
 
-    \[Omitted image "lens-actions-home-screen-proceed.png"\] Alt text: Proceed with Lens button.
+    \[Omitted image "image.lens-actions-home-screen-proceed"\] Alt text: Proceed with Lens button.
 
     Lens scanner opens in a separate window.
 
@@ -155,15 +155,15 @@ By using Lens actions, you can perform one of the following tasks:
 
 11. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d235435e758">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d236136e758">
 
 Task
 
-</th><th align="left" id="d235435e761">
+</th><th align="left" id="d236136e761">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d235435e767">
+</th></tr></thead><tbody><tr><td id="d236136e767">
 
 **Filling form**
 
@@ -173,7 +173,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d235435e788">
+</td></tr><tr><td id="d236136e788">
 
 **Previewing extracted data**
 

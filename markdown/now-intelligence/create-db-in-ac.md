@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-db-in-ac.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-25"
+last_updated: "2026-11-02"
 reading_time_minutes: 4
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -48,17 +48,23 @@ Role required: Any user with an internal role can create dashboards with the inl
 
     \[Omitted image "add-dv-modal.png"\] Alt text: Add data visualization dialogue box with options to add a New visualization or a Saved visualization
 
-6.  Select the information icon \[Omitted image "icon-info.png"\] Alt text: information icon to open the Details panel and edit the name and description of your dashboard.
+6.  When you select saved visualizations, choose from the **Select a Visualization from library** window.
+
+    Only the visualizations on the current page of the modal are added when you select Add to Dashboard. Select a larger number of records per page to choose more at the same time.
+
+    \[Omitted image "add-saved-dv-inline-db.png"\] Alt text: Select a Visualization from library modal with two visualizations selected and the Records per page list expanded.
+
+7.  Select the information icon \[Omitted image "icon-info.png"\] Alt text: information icon to open the Details panel and edit the name and description of your dashboard.
 
     You can also edit the dashboard's certification, visibility, and category. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-db-in-ac.md).
 
-7.  Arrange the elements on the canvas so that it tells the story you want to tell with your data.
+8.  Arrange the elements on the canvas so that it tells the story you want to tell with your data.
 
     You can also click and drag from the corners of the elements to resize them on the canvas.
 
-8.  Select **Add a tab** to create room for more information on additional tabs.
+9.  Select **Add a tab** to create room for more information on additional tabs.
 
-9.  Select **Save**
+10. Select **Save**
 
 
 ## What to do next

@@ -468,8 +468,6 @@ Role required: admin or mid\_server
 
 ### About this task
 
-Click this link to view the installation video:
-
 MID Servers can be configured to run using non-administrative accounts. Using non-admin accounts in conjunction with file permission enforcement can improve security by restricting access to MID Server files. sIf you choose to run a MID Server with a non-admin account, there are limitations that change the behavior of other applications. The following behavior changes can occur:
 
 -   The MID Server account needs appropriate credentials to run a Discovery schedule. If the credentials are insufficient, the MID Server falls back to the user account's privileges. A non-admin user account may not have the necessary privileges to access the Discovery target.

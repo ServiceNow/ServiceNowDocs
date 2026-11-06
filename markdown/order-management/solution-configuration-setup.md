@@ -1,20 +1,20 @@
 ---
 title: Solution configuration setup
-description: Solution configuration lets CPQ admins manage multiple blueprints in a single configuration. Configurable product actions include a blueprint definition and can pass data between configurations via defined fields.It's not clear to me how solution configuration and configurable product actions are related. This topic seems to concern the latter, despite the title.
+description: Solution configuration lets ServiceNow CPQ admins manage multiple blueprints in a single configuration. Configurable product actions include a blueprint definition and can pass data between configurations via defined fields.It's not clear to me how solution configuration and configurable product actions are related. This topic seems to concern the latter, despite the title.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configuration-setup.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Solution configuration setup
 
-Solution configuration lets CPQ admins manage multiple blueprints in a single configuration. Configurable product actions include a blueprint definition and can pass data between configurations via defined fields.
+Solution configuration lets ServiceNow CPQ admins manage multiple blueprints in a single configuration. Configurable product actions include a blueprint definition and can pass data between configurations via defined fields.
 
-Solution configuration is an environment level feature that is off by default. To have it enabled in an environment, log a case with CPQ Support.
+Solution configuration is an environment level feature that is off by default. To have it enabled in an environment, log a case with ServiceNow CPQ Support.
 
 Configurable product actions are a new type of product action that can be added to rules. They are similar to standard product actions, but have a blueprint defined and can include field mapping to pass data between configurations. Advanced configurable product actions require that the product ID and the blueprint fields are defined outside of the script.
 
@@ -25,7 +25,7 @@ Configurable product actions are a new type of product action that can be added 
     -   Separation of concerns: Administrators can segment out logical components from a configuration and allow different groups to work on blueprints without conflicting.
     -   Blueprint reusability: Blueprints can be reused both as part of a solution, multiple solutions, or as an independently configurable product. This leads to less duplication when a blueprint is needed for multiple contexts and less overhead for maintenance.
 -   For end users:
-    -   End users can seamlessly work through multiple configurations without needing to re-launch CPQ each time.
+    -   End users can seamlessly work through multiple configurations without needing to re-launch ServiceNow CPQ each time.
     -   You can clone the child configuration if it is a set-based configuration. The original node in a set must be in the valid state. Cloned nodes are independent of the original edits to a cloned node do not affect the source node.
     -   You can also add a blank node or remove node from the navigation sidebar.
 

@@ -30,7 +30,7 @@ The administrator configures which of the following items are copied to the new 
 
 **Note:** You cannot copy change details from a standard change.
 
-New change tasks can be created when a change is copied. If your change record has associated workflows that create change tasks, then these change tasks may not be copied because the workflow creates them. Only manually created tasks are copied, if the workflow when creating the task sets the **created\_from** field on the **change\_task** table to **workflow**. The **created\_from** field has a default value of **manual**.
+New change tasks can be created when a change is copied. If your change record has associated workflows that create change tasks, then these change tasks may not be copied because the workflow creates them. Only manually created tasks are copied, if the workflow when creating the task sets the **created\_from** field on the Change Task \[change\_task\] table to **workflow**. The **created\_from** field has a default value of **manual**.
 
 ## Procedure
 
@@ -40,7 +40,9 @@ New change tasks can be created when a change is copied. If your change record h
 
     Open the record to display its form. The Copy Change option is available from the form, and not from the list view.
 
-3.  In the change request form header, select the Additional Actions menu icon. \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change** to copy change request details.
+3.  In the change request form header, select the Additional Actions menu icon \[Omitted image "additional-actions.png"\] Alt text:, and then select **Copy Change** to copy change request details.
+
+    The Additional Actions menu icon is at the top of the change request form header. Select the icon to open the menu, and then select **Copy Change**. The option does not appear when you select the change in a list check box and it is hidden when the administrator sets the **Enable Copy Change** feature \(**com.snc.change\_request.enable\_copy**\) property to `false`.
 
     A preview of the new change record appears with values from the original source change record.
 
@@ -51,9 +53,9 @@ New change tasks can be created when a change is copied. If your change record h
 
 ## What to do next
 
-After an existing change request is copied and a new one created. A user with ITIL role then reviews, approves, implements, and closes the change request as necessary.
+After the change request is copied, a user with the itil role reviews, approves, implements, and closes the new change request as necessary.
 
-In addition, you can [associate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) to the newly created change request.
+In addition, you can [associate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) with the new change request.
 
 **Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md)
 

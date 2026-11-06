@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-salescrmfortelecommunications-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -133,11 +133,11 @@ Brazil
 
 </td><td>
 
--   **Task plan templates for Sales Customer Relationship Management \(Sales CRM\)**
+-   **[Task plan templates for Sales Customer Relationship Management \(Sales CRM\)](https://www.servicenow.com/docs/access?context=configure-task-plan-template&family=brazil&ft:locale=en-US)**
 
 Define and use task plan templates without a Sales Customer Relationship Management for Telecommunications \(SOMT\) license. Define task plan templates, task plan items, and dependencies, and trigger them based on order action \(add, change\) and product type.
 
--   **AI Agent for template-driven order orchestration**
+-   **[AI Agent for template-driven order orchestration](https://www.servicenow.com/docs/access?context=now-assist-task-template-generation-somt&family=brazil&ft:locale=en-US)**
 
 Generate reusable orchestration templates with an enhanced conversational AI Agent instead of a flat task list. When no template exists for a product specification, the agent converts an uploaded fulfilment-journey image into a draft template, or proposes one from the closest matching specification's past orders. Product Catalog Managers define dependencies and publish the template, which then automatically orchestrates the current and all future orders for that specification and action.
 
@@ -188,11 +188,11 @@ Brazil
 
 </td><td>
 
--   **Legal name persistence during account creation**
+-   **[Legal name persistence during account creation](https://www.servicenow.com/docs/access?context=account-details-form-fields&family=brazil&ft:locale=en-US)**
 
 Legal name entered during account creation is now correctly persisted. Previously, the value was mapped to a database field that did not exist.
 
--   **Order integrator role no longer blocks other roles from creating consumers and locations**
+-   **[Order integrator role no longer blocks other roles from creating consumers and locations](https://www.servicenow.com/docs/access?context=components-installed-with-order-management&family=brazil&ft:locale=en-US)**
 
 Fixed an access control issue where the order integrator role's create permissions on Consumer and Location records inadvertently blocked other roles, such as CSM Agent, from creating those records.
 

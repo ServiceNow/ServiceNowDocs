@@ -1,6 +1,6 @@
 ---
-title: Reference
-description: Reference section provides additional information about components installed with Mobile Agent
+title: Mobile Agent reference
+description: Find additional information about the components that are installed with Mobile Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/reference-for-itsm-mobile-agent.html
 release: brazil
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [ITSM Mobile Agent, IT Service Management]
 ---
 
-# Reference
+# Mobile Agent reference
 
-Reference section provides additional information about components installed with Mobile Agent
+Find additional information about the components that are installed with Mobile Agent.
 

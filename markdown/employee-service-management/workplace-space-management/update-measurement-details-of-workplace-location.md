@@ -108,7 +108,7 @@ The size of the workplace location is updated.
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

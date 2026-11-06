@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nba
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -63,7 +63,7 @@ An action that an agent can take or information they can share. For example, gui
 
 </td><td>
 
-A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.
+A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.**Important:** The Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. For more information, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
 
 </td></tr><tr><td>
 
@@ -72,6 +72,14 @@ A guided flow to follow. A decision tree is a multi-step process that includes a
 </td><td>
 
 A recommended value to use for a field. For example, this type of action can recommend the assignment group based on the text in the case short description.
+
+</td></tr><tr><td>
+
+**Playbooks**
+
+</td><td>
+
+An interactive workflow that guides agents through a series of steps to make decisions and resolve issues.
 
 </td></tr></tbody>
 </table>## AI search
@@ -131,13 +139,40 @@ Configure recommended actions to create a context, rule, and recommendations wit
 
 Optionally, set up the Guided Decisions Experience application so that you can create decision trees and then integrate them in recommended actions. Admins can complete the following setup tasks.
 
-|Setup task|Description|
-|----------|-----------|
-|[Install the Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-guided-decisions-exp-app-new.md)|Install the Guided Decisions Experience application from the ServiceNow® Store. This application enables you to configure decision trees that you can use as recommendations.|
-|[Configuring decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-guided-decisions.md)|Configure decision trees that agents can use to troubleshoot solutions for customer issues.|
-|[Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-guided-decisions-to-recommended-actions.md)|Add decision trees to recommended actions, so that agents can take relevant action during troubleshooting based on a record context.|
+<table id="table_xfr_pf1_1mb"><thead><tr><th>
 
-## Request apps from the ServiceNow Store
+Setup task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[Install the Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-guided-decisions-exp-app-new.md)
+
+</td><td>
+
+Install the Guided Decisions Experience application from the ServiceNow® Store. This application enables you to configure decision trees that you can use as recommendations.**Important:** The Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. For more information, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
+
+</td></tr><tr><td>
+
+[Configuring decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-guided-decisions.md)
+
+</td><td>
+
+Configure decision trees that agents can use to troubleshoot solutions for customer issues.
+
+</td></tr><tr><td>
+
+[Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-guided-decisions-to-recommended-actions.md)
+
+</td><td>
+
+Add decision trees to recommended actions, so that agents can take relevant action during troubleshooting based on a record context.
+
+</td></tr></tbody>
+</table>## Request apps from the ServiceNow Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

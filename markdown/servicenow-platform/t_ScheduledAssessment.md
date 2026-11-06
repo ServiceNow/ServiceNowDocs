@@ -42,5 +42,5 @@ Role required: assessment\_admin or admin
 **Related topics**  
 
 
-[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Assessments.md)
+[Assessments]()
 

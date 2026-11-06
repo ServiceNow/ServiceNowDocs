@@ -19,7 +19,7 @@ Create an enterprise catalog category to group related product catalog items wit
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 

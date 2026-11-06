@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Ensure that the target instance has assessments enabled.
 
-2.  Follow the procedure detailed in [Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/import-xml-file.md).
+2.  Follow the procedure detailed in .
 
 
 **Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)

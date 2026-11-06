@@ -63,7 +63,7 @@ ACC-M collects health metrics, performance data, and alert statuses from both on
 
 Improved response:
 
- With a unified view of all resources, the IT operations team can quickly identify where issues are occurring and prioritize them based on overall service impact, reducing their mean-time-to-resolution \(MTTR\).
+ With a unified view of all resources, the IT operations team can quickly identify where issues are occurring and prioritize them based on overall service impact. This reduces mean-time-to-resolution \(MTTR\).
 
 </td></tr><tr><td>
 

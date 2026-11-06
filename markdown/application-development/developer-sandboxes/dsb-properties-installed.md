@@ -7,9 +7,9 @@ release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-20"
 reading_time_minutes: 4
-breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Properties installed with Developer Sandboxes
@@ -34,6 +34,18 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+`glide.dev_sandbox.enabled`
+
+</td><td>
+
+Turns on sandboxes for the instance. The com.glide.dsb plugin doesn't enable sandboxes automatically.Type: true or false
+
+</td><td>
+
+Set to true before you add the instance through license management.
+
+</td></tr><tr><td>
+
 `glide.dev_sandbox.num.controller`
 
 </td><td>
@@ -48,7 +60,7 @@ Number of nodes that run as a controller.-   Type: number
 -   Decreasing converts unassigned nodes to nodes.
 -   More controller nodes mean you get fewer sandboxes.
 
- **Important:** Reconfigure this property after installing the com.glide.dsb.licensing plugin to ensure the correct number of controller nodes for your sandbox capacity. Failure to reconfigure this property after installation can result in incorrect sandbox availability.
+ **Important:** Reconfigure this property after installing the com.glide.dsb plugin to ensure the correct number of controller nodes for your sandbox capacity. Failure to reconfigure this property after installation can result in incorrect sandbox availability.
 
 </td></tr><tr><td>
 
@@ -214,7 +226,7 @@ Decreasing the value may help the upgrade go faster but at the cost of extra che
 
 </td><td>
 
-How long the controller node waits for a sandbox to export its altered update sets before an instance upgrade.If the timeout limit is hit, the upgrade continues regardless of export state.
+How long the controller node waits for a sandbox to export its altered update sets before an instance upgrade.If the timeout limit is reached, the upgrade continues regardless of export state.
 
 -   Type: number
 -   Default value: 10
@@ -223,19 +235,6 @@ How long the controller node waits for a sandbox to export its altered update se
 
 -   Decreasing the value may result in unexported updates.
 -   Increasing the value helps to ensure that changes are exported, but can delay the upgrade.
-
-</td></tr><tr><td>
-
-`glide.dev_sandbox.node.healthy_time_min`
-
-</td><td>
-
-Time window in which a node must report to sys\_cluster\_state to be considered healthy and included in sandbox capacity calculations.-   Type: number
--   Default value: 10
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -250,6 +249,35 @@ Maximum limit of concurrent sandbox allocations/retirements events.-   Type: num
 
 Increasing the value enables more concurrent allocations/retirement, but could overload the database.
 
+</td></tr><tr><td>
+
+`glide.dev_sandbox.pool.factor`
+
+</td><td>
+
+Percentage of the sandboxes on the instance that are pre-created and kept in the pool for faster allocation.-   Type: number
+-   Default value: 100
+-   Other possible values: 0-100
+
+</td><td>
+
+The pool never exceeds the number of sandboxes that aren't yet allocated.
+
+</td></tr><tr><td>
+
+`glide.dev_sandbox.pool.keep_alive_minutes`
+
+</td><td>
+
+Number of minutes that a pooled sandbox stays unclaimed before it's retired and replaced.-   Type: number
+-   Default value: 1440 \(24 hours\)
+-   Other possible values: 1-525600
+
+</td><td>
+
+-   Decreasing the value refreshes pooled sandboxes more often, so they stay closer to the current base instance state.
+-   Increasing the value keeps pooled sandboxes longer.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+</table>**Parent Topic:**[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-configuring-landing.md)
 

@@ -24,9 +24,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Supported versions
 
--   Yokohama Patch 4
 -   Zurich
 -   Australia
+-   Brazil
 
 ## Use cases
 

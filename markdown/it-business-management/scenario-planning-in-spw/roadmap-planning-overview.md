@@ -108,7 +108,7 @@ Integrate ServiceNow® Digital Portfolio Management \(DPM\) with Strategic Plann
 -   Optimize portfolio performance by monitoring services and their performance levels in a comprehensive roadmap.
 -   Make informed budgetary decisions and deliver shared outcomes by prioritizing backlogs and managing roadmaps of business applications.
 
-For more information, see [Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-explore-cfw.md).
+For more information, see Exploring Digital Portfolio Management.
 
 **Related topics**  
 

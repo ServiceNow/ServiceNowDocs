@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-enterprisearchitecture-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 44
 breadcrumb: [Products combined by family]
 ---
@@ -434,9 +434,9 @@ Query business application insights, capability mappings, architectural relation
 
 -   **[Enterprise Architecture for AICT plugin](https://www.servicenow.com/docs/access?context=eaw-aict&family=brazil&ft:locale=en-US)**
 
-    -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
+    -   Associate AI systems with business applications, even if you don't use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of the AI Control Tower Core \(app-ai-governance\) application.
     -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
-Before you upgrade, review [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://www.servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US).
+Before you upgrade, review [Installation and upgrade considerations](https://www.servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US).
 
 -   **[Migrate BA Product Model Map from EA Workspace job](https://www.servicenow.com/docs/access?context=eaw-run-migrate-ba-product-model-map-job&family=brazil&ft:locale=en-US)**
 
@@ -796,7 +796,7 @@ Australia
 
 Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&family=australia&ft:locale=en-US).
 
-Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+Now Assist features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install AI plugins in AI Admin Hub](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -847,7 +847,7 @@ Brazil
 
 -   **Additional requirements**
 
-ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
+ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install AI plugins in AI Admin Hub](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>

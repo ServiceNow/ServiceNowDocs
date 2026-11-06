@@ -52,8 +52,8 @@ The following system properties affect how you populate your Microsoft Excel spr
 
 -   **[Populating your Microsoft Excel spreadsheet with equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.md)**  
 Create and populate a Microsoft Excel spreadsheet with your existing ISA equipment model data. Positioning your existing data in the correct columns is crucial to the success of your upload.
--   **[Import your equipment model data using the data source and scheduled import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.md)**  
-After you complete your Microsoft Excel spreadsheet with your equipment model data, import it into the ServiceNow AI Platform by using the data source and scheduled import.
+-   **[Import equipment model data from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.md)**  
+After you enter the equipment model data into your Microsoft Excel spreadsheet, import it into the ServiceNow AI Platform by using the data source and scheduled import.
 
 **Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

@@ -8,16 +8,16 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Salesforce Quote Calculator Plugin, CPQ, configuration data, quote lines]
-breadcrumb: [Use cases, Using CPQ, CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Integrate configuration data with Quote Calculator
 
 Use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields in version 1.7 or earlier.
 
-**Note:** This article applies to the CPQ Extension for Salesforce CPQ package version 1.7 or earlier. If your version is 1.8 or later, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-case-configuration-line-item-to-quote-line-flow.md).
+**Note:** This article applies to the ServiceNow CPQ Extension for Salesforce CPQ package version 1.7 or earlier. If your version is 1.8 or later, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-case-configuration-line-item-to-quote-line-flow.md).
 
-Using the extended information of the CPQ ProductList object with the Salesforce Quote Calculator plugin \(QCP\), you can pass data from CPQ into Salesforce. Use this data to manipulate quote and quote line information.
+Using the extended information of the ServiceNow CPQ ProductList object with the Salesforce Quote Calculator plugin \(QCP\), you can pass data from ServiceNow CPQ into Salesforce. Use this data to manipulate quote and quote line information.
 
 ProductList.extended can only be populated with an advanced product action, as shown here.
 
@@ -33,7 +33,7 @@ To leverage this extended information, we will need to use the Salesforce [Quote
 
 \[Omitted image "cpq-salesforce-custom-scripts.png"\] Alt text: Performance
 
-Here, write a script to leverage the extended information from CPQ and use it to manipulate fields in SFDC. The following script is the sample script used in this instance.
+Here, write a script to leverage the extended information from ServiceNow CPQ and use it to manipulate fields in SFDC. The following script is the sample script used in this instance.
 
 ```
 export function onBeforeCalculate(quote, lines) {

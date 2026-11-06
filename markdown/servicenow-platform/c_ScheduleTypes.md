@@ -21,5 +21,5 @@ On-demand assessments require less setup. Scheduled assessments define users, or
 **Related topics**  
 
 
-[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Assessments.md)
+[Assessments]()
 

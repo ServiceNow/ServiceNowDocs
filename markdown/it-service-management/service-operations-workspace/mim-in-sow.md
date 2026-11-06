@@ -53,10 +53,10 @@ When responding to a major incident, some crucial actions include the following:
 -   Setting up conference calls to investigate and resolve the incident
 -   Escalating the incident when required
 
-You must define the communication plans that are associated with a major incident based on pre-defined conditions. Incident communication plans and related communication tasks are created for a major incident based on the communication plan definitions. Afterwards, tasks get executed as defined in the associated incident communication.
+You must define the communication plans that are associated with a major incident based on predefined conditions. Incident communication plans and related communication tasks are created for a major incident based on the communication plan definitions. Then, tasks run as defined in the associated incident communication.
 
 -   **[Major Incident Management process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/mim-process-sow.md)**  
-A major incident has a high impact and urgency that affects a large number of users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
+A major incident has a high impact and urgency that affects many users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
 -   **[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)**  
 Manage a major incident record with a playbook or the various tabs on the major incident record page.
 

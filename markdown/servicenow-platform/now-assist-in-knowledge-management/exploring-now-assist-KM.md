@@ -38,11 +38,7 @@ Agents can use the ServiceNow Otto panel available in their workspace. This conv
 **Related topics**  
 
 
-[Generate a knowledge article with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
-
-[Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
-
-[Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/gen-kb-now-assisthr.md)
+[bundle-csm.Now-Assist-generate-article-csm-workspace]
 
 [Generate a Knowledge article from the classic environment with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.md)
 

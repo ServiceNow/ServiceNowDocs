@@ -47,15 +47,15 @@ You can do these actions by using the ServiceNow Otto icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d410590e186">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d409362e174">
 
 Chat message window
 
-</th><th align="left" id="d410590e189">
+</th><th align="left" id="d409362e177">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d410590e197">
+</th></tr></thead><tbody><tr><td id="d409362e185">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d410590e217">
+</td></tr><tr><td id="d409362e205">
 
 **Left blank**
 
@@ -103,6 +103,10 @@ Generates a recommended reply that is based on the context of the conversation u
 [Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 

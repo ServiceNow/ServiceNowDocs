@@ -898,7 +898,7 @@ category
 
 </td><td>
 
-Optional. Filters the catalog query to a specific product category. When provided, only offerings that belong to the referenced category are evaluated and returned. This is useful for building category-specific storefronts or CPQ catalog panels.
+Optional. Filters the catalog query to a specific product category. When provided, only offerings that belong to the referenced category are evaluated and returned. This is useful for building category-specific storefronts or ServiceNow CPQ catalog panels.
 
 The id must refer to an existing Product Category record.
 

@@ -1,6 +1,6 @@
 ---
 title: Create predefined transition condition types
-description: Create predefined transition conditions to reuse the conditions for your Change models.
+description: Create predefined transition conditions to reuse the conditions for your change models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-predefined-transition-condition-type.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create a Change model, Configure, Change Management, IT Service Man
 
 # Create predefined transition condition types
 
-Create predefined transition conditions to reuse the conditions for your Change models.
+Create predefined transition conditions to reuse the conditions for your change models.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: change\_manager
 
 1.  Navigate to **All** &gt; **Application** &gt; **Module** &gt; **Change Model Condition Types**.
 
-    A list of transition conditions for Change requests appears.
+    A list of transition conditions for change requests appears.
 
 2.  Select **New**.
 
@@ -56,14 +56,6 @@ Detailed description of the condition type.
 
 </td></tr><tr><td>
 
-Condition Type
-
-</td><td>
-
-Type of condition that is either **condition** or **script**.
-
-</td></tr><tr><td>
-
 Table name
 
 </td><td>
@@ -84,9 +76,9 @@ Condition \(Script\)
 
 </td><td>
 
-Script that must be fulfilled for processing the transition. If passed, it returns a value of **true**.This field is available only when **Transition Script** is selected from **Requires** field.
+Script that runs against the record in the **Table name** field and returns `true` when the transition can proceed. This field appears when **script** is selected in the **Condition Type** field.This field is available only when **Transition Script** is selected from **Requires** field.
 
-**Note:** To edit this field, you need the **change\_model\_script\_admin** role. Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md).
+**Note:** To edit this field, . Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -97,4 +89,11 @@ Script that must be fulfilled for processing the transition. If passed, it retur
 
 
 **Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md)
+
+**Related topics**  
+
+
+[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/attach-process-change-model.md)
+
+[Configure state model transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ConfigStateModelTransit.md)
 

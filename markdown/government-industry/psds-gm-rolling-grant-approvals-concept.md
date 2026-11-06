@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Grants Management Proposal Playbook, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management, Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Rolling grant approvals

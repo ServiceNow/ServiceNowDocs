@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Evaluate access, Using Access Analyzer, Access Analyzer, Access Management]
+breadcrumb: [Use Evaluate access, Use Access Analyzer, Access Analyzer, Access Management]
 ---
 
 # Export Access Analyzer queries
@@ -26,26 +26,26 @@ The following procedure describes the steps for accessing Access Analyzer and us
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
 
-    The system displays the **Analyze access and permissions** homepage.
+    The system displays the **Analyze access and permissions** home page.
 
 2.  Select your criteria as follows:
 
     |Field|Description|
     |-----|-----------|
-    |Analyze by \*|Analyze access for a user, a role, or a group.|
-    |Select user \*|Specify a user name to select from the list.|
-    |Rule type \*|Analyze access for a table, UI page, REST Endpoint, or a client callable script include.|
-    |Select table \*|Specify a table name to select from the list.|
-    |Select record|Specify a record name to select from the list.|
-    |Select field|Specify a field name to select from the list.|
+    |Analyze by|Access analysis for a user, a role, or a group.|
+    |Select user|Name of the user to select from the list.|
+    |Rule type|Access analysis for a table, UI page, REST endpoint, or a client callable script include.|
+    |Select table|Name of the table to select from the list.|
+    |Select record|Name of the record to select from the list.|
+    |Select field|Name of the field to select from the list.|
 
 3.  Specify the description in the **Description** field.
 
-4.  Click **Analyze permissions**.
+4.  Select **Analyze permissions**.
 
     \[Omitted image "use-access-analyzer.png"\] Alt text: Permission evaluation of Abel Tuter
 
-    Access Analyzer displays **Access results** for the user. Similarly, you can analyze the permissions of a Group or Role for the following rule types:
+    Access Analyzer displays **Access results** for the user. Similarly, you can analyze the permissions of a group or role for the following rule types:
 
     -   Table \(record\)
     -   Client callable script include
@@ -54,7 +54,7 @@ The following procedure describes the steps for accessing Access Analyzer and us
 
     \[Omitted image "permissions-for-a-user.png"\] Alt text: Permission results
 
-5.  Click **Export**.
+5.  Select **Export**.
 
     1.  Choose the **File Type**.
 

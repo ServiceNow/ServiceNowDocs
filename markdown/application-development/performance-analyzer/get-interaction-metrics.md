@@ -9,7 +9,7 @@ classification: performance-analyzer
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Test applications, Performance Analyzer, Testing and debugging applications, Building applications]
+breadcrumb: [Test applications, Performance Analyzer, Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Get interaction metrics

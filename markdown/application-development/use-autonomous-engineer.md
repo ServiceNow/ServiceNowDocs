@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/use-autonomous-engineer.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-08"
+last_updated: "2026-10-22"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, agent packs, Build Agent, implementation plan, work items, parallel execution, agile user stories, ATF tests, update set, ServiceNow Studio, plan dashboard, MCP server, application development, requirements interview, ServiceNow products]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Use Autonomous Engineer to implement an application
@@ -21,8 +21,6 @@ Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your 
 **Note:** You must install the Autonomous Engineer app from the ServiceNow Store. Check your entitlements to see whether you can use Autonomous Engineer.
 
 Role required: admin
-
-## About this task
 
 ## Procedure
 
@@ -38,8 +36,8 @@ Role required: admin
 
     |Method|Steps|
     |------|-----|
-    |Describe your requirements in plain language|Enter a description of what you plan to implement in the chat panel. Include as much detail as available. See [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-example-prompts.md) for some ideas.|
-    |Upload a file of requirements|Attach a file, such as a CSV of user stories, to the chat panel.|
+    |**Describe your requirements in plain language**|Enter a description of what you plan to implement in the chat panel. Include as much detail as available. See [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-example-prompts.md) for some ideas.|
+    |**Upload a file of requirements**|Attach a file, such as a CSV of user stories, to the chat panel.|
 
 4.  Answer any interview questions that Autonomous Engineer asks to clarify your requirements.
 
@@ -53,7 +51,7 @@ Role required: admin
 
     Accurate acceptance criteria and test criteria improve execution quality and help Autonomous Engineer build and validate each work item correctly.
 
-    Autonomous Engineer generates a plan with work items, and approves the work items. Work items are structured in an Agile user story format and include acceptance criteria and test criteria. They are grouped into logical sections and sequenced using a dependency graph so that each work item executes only after any items it depends on are complete.
+    Autonomous Engineer generates a plan with work items for your review. Work items are structured in an Agile user story format and include acceptance criteria and test criteria. They are grouped into logical sections and sequenced using a dependency graph so that each work item executes only after any items it depends on are complete.
 
 6.  Select the plan in the chat panel to review its contents and work items in a new window.
 
@@ -66,8 +64,6 @@ Role required: admin
 8.  Review each work item.
 
 9.  Edit the content in the work item directly.
-
-    You can edit work items using the chat panel.
 
     1.  Select a work item to open it.
 
@@ -110,7 +106,7 @@ Role required: admin
 
 When all work items are complete, Autonomous Engineer generates an update set for the plan. Export the update set and deploy it to your UAT or production environment.
 
-For information on deploying update sets, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-update-sets.md).
+For information on deploying update sets, see [Deploying what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-deployment.md).
 
 **Parent Topic:**[Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-using-autonomous-engineer.md)
 

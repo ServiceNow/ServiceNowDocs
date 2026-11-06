@@ -25,3 +25,8 @@ You can access the dashboard in either of two ways.
 
 **Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
 
+-   **[Managing the Cloud Account Management cloud asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/manage-cam-ci-details.md)**  
+Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
+
+**Parent Topic:**[Viewing Cloud Account Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/about-cam-dashboard.md)
+

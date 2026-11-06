@@ -25,7 +25,7 @@ Role required: sam\_admin or sn\_cmdb\_admin, plus now\_assist\_panel\_user, to 
 
 The CMDB ingestion optimizer agentic workflow evaluates the software products and CI classes affected by a data or attribute gap on the Software Asset Management advisor dashboard.
 
-For more information about the ingestion sources this workflow recommends, see [Software data gap remediation using the ingestion optimizer agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ingestion-optimizer-c.md) and [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-remediation.md).
+For more information about the ingestion sources this workflow recommends, see [Software data gap remediation using the ingestion optimizer agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-ingestion-optimizer-c.md) and .
 
 ## Procedure
 

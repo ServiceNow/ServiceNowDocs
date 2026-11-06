@@ -16,7 +16,7 @@ Generate entities automatically via scheduled job once pillars, entity types, an
 
 ## Before you begin
 
-Role required: sn\_oper\_res.manager
+Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
 ## About this task
 

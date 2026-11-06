@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-26"
 reading_time_minutes: 1
 keywords: [enable smart assessments, smart assessments property, configure smart assessments]
-breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Assess demands with smart assessments, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Enable smart assessments
@@ -49,5 +49,5 @@ Demands route through smart assessments. No separate role assignment is needed f
 
 [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/smart-assessments-overview.md)
 
-[Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine-cf-config.md)
+[bundle-grc.smart-assessment-engine-cf-config]
 

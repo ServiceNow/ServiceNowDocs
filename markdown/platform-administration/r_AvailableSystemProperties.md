@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_Avai
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 145
+reading_time_minutes: 146
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -2147,6 +2147,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.log.off\_glide\_ingestion.enabled**
+
+    Enables logging MCP server activities in the System Logs. The logs don't include activity that occurs before you enable the system property. For more information, see [View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-mcp-server-logs.md).
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.login.no\_blank\_password**
 
     Prevents \(**true**\) or allows \(**false**\) logins from users with blank passwords. Often, importing lists of users creates many users with blank passwords. By default, this property is set to **true** on production instances.
@@ -2719,6 +2726,15 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: boolean
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.script.enforce\_scope\_checks\_on\_get\_ref\_record**
+
+    Used to enhance cross-scope access controls for the**getRefRecord\(\)** JavaScript API method to ensure authorization rules are followed consistently when retrieving information from other another application scope via the JavaScript method **getRefRecord\(\)**.
+
+    For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985)
+
+    -   Type: Boolean \(true \| false\)
+    -   Default value: True for new instances, starting with the Brazil release. False for upgraded instances \(meaning customers must “opt-in”\).
+    -   Location: To help prevent insecure configurations, this property cannot be manually added and with the value set to false. For assistance, contact customer support.
 -   **glide.script.log\_level**
 
     Controls the behavior of gs.log. Set this property to **none** to disable Glide script logging, or to **print** to save log data to the file system instead of the database. Use the default value **all** to save all Glide script logs to the database.
@@ -3075,7 +3091,7 @@ Some properties are available on a system properties form, but some lesser-used 
     Controls how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set. For more information about RCA privileges, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/restricted-caller-access-privilege.md).
 
     -   Type: string
-    -   Default value: DB\_LISTENER
+    -   Default value: SCRIPT\_ENGINE
     -   Valid values:
         -   DB\_LISTENER: Enables a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
         -   SCRIPT\_ENGINE: If an update set contains a script with changes, the script engine doesn't invalidate associated RCA records.

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/service-exchange-
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -36,43 +36,16 @@ See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 Now Service Exchange connections are now more secure and recover faster. Stronger authentication replaces password-based access, and the system automatically fixes known connection errors, so you spend less time on manual troubleshooting and keep integrations running reliably.
 
-### What's new
-
--   ****
-
 ### What's changed
 
--   **[Upgrade authorization on a provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown) and [Upgrade authorization on a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**
+-   **[Upgrade authorization on a provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-upgrade-authorization-provider.md) and [Upgrade authorization on a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-upgrade-authorization-consumer.md)**
 
     Upgrade consumer connections from Resource Owner Password Credentials \(ROPC\) to Client Credentials OAuth by using Upgrade Auth on the connection record, to authenticate connections as an application rather than of with a user's password, improving security and compliance. Run the upgrade once from the provider instance to update both instances, keep the connection active, and avoid off-boarding and re-onboarding the consumer.
 
 
--   **[Automatic mitigation for connection issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**
+-   **[Automatic mitigation for connection issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-auto-mitigation.md)**
 
     Fix known connection errors automatically when a connection goes down, to restore data exchange faster and reduce manual troubleshooting. Review each fix in the issue work notes in the Now Service Exchange Center.
-
-
-### What's deprecated or removed
-
--   ****
-
-### Plugin information
-
--   **New plugins**
-
-     \(\): 
-
--   **Deprecated plugins**
-
-     \(\): 
-
--   **Plugins planned for deprecation**
-
-     \(\): Planned for deprecation in . 
-
--   **Renamed or changed plugins**
-
-     \(\): 
 
 
 ## Version 2.4.0

@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact Value Management Data Collection Content Pack for Security Operations, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Security Operations, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Review Security Operations artifacts

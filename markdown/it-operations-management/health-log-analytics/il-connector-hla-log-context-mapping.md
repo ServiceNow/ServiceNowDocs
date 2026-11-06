@@ -17,11 +17,11 @@ breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITO
 
 Map your incoming log data to service instances, components, and source types so that Health Log Analytics can generate alerts in context.
 
-**Important:** To enable AI-powered automatic parsing and mapping of log data, the integration must be activated with AI.
+**Important:** To enable AI-powered automatic parsing and mapping of log data, the integration must be activated with AI capabilities.
 
 Mapping your log data to the correct context is especially important when the integration processes logs from multiple service instances and components. ServiceNow Otto suggests the best log field for mapping to service instances and components. When you use the AI-suggested field, or when that field is the default, an AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears. You can select a different field if needed. If the AI agent can't find a suitable match, HLA uses the system default. The system default also applies if the selected field is not present in the sample log.
 
-For a walkthrough of how to set up and review AI-suggested mappings, see [AI-assisted log mapping in Health Log Analytics](https://player.vimeo.com/video/1204161467?h=bf31a8c144&badge=0&autopause=0&player_id=0&app_id=58479).
+For a walkthrough of how to set up and review AI-suggested mappings, see [AI-assisted log mapping in Health Log Analytics](https://player.vimeo.com/video/1233137767?h=ddcf06f58c&badge=0&autopause=0&player_id=0&app_id=58479).
 
 ## Example
 

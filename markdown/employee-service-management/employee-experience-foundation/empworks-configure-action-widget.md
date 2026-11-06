@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 3
 keywords: [AIX action widget, task configuration, Employee Center action group, Employee Slate, Employee Works]
-breadcrumb: [Task configuration, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Task configuration, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure task scope and action widget

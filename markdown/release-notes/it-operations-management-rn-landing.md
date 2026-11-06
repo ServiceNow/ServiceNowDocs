@@ -16,8 +16,8 @@ IT Operations Management has new and updated features in the Brazil release.
 
 -   **[ITOM MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/itom-mcp-server-rn.md)**  
 The ServiceNow ITOM MCP Server Console lets agents fetch ITOM data and perform actions through an AI-enabled MCP Client using natural language, outside the ServiceNow UI.
--   **[Agent Client Collector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/agent-client-collector-rn-static.md)**  
-The ServiceNow® Agent Client Collector application enables you to monitor the service availability, performance, and infrastructure of your system. See the following sections for release notes by version.
+-   **[Digital End-User Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/digital-end-user-experience-rn.md)**  
+The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. See the following sections for release notes by version.
 -   **[ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/itom-aiops-rn.md)**  
 The ServiceNow® ITOM AIOps applications use machine learning and analytics to group alerts, detect infrastructure anomalies, and automate root-cause analysis across complex digital environments. The applications enable IT teams to proactively prevent outages and accelerate incident remediation. See the release notes of each individual ITOM AIOps application.
 -   **[ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/itom-visibility-rn.md)**  

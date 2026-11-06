@@ -50,7 +50,7 @@ Sets the number of days after which a running job is considered stale and automa
 
 </td><td>
 
-Starting with Discovery and Service Mapping Patterns version 1.35.0, determines if all CI records are reprocessed on the next job run. For more information, see [Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md).-   **Type**: Boolean
+Starting with Discovery and Service Mapping Patterns version 1.35.1, determines if all CI records are reprocessed on the next job run. For more information, see [Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md).-   **Type**: Boolean
 -   **Default value**: False
 
 </td></tr></tbody>

@@ -7,7 +7,7 @@ release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
 ---

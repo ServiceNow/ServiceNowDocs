@@ -1,12 +1,12 @@
 ---
 title: Developer Sandboxes release notes
-description: The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. See the following sections for release notes by version.The October 2026 release of Developer Sandboxes includes fully automated self-serve license assignment from App Engine Management Center and four free sandbox licenses available on all non-production instances.The Brazil Early Availability release introduces sandbox pooling for faster provisioning and automatic update set sources between production and sandbox instances.
+description: The ServiceNow Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. See the following sections for release notes by version.Sandboxes are retained during instance upgrades in Developer Sandboxes, sandboxes are kept during instance upgrades, and installing the com.glide.dsb plugin no longer enables sandboxes automatically.The October 2026 release of Developer Sandboxes includes fully automated self-serve license assignment from App Engine Management Center and four free sandbox licenses available on all non-production instances.The Brazil Early Availability release introduces sandbox pooling for faster provisioning and automatic update set sources between production and sandbox instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/developer-sandboxes-rn-static.html
 release: brazil
 topic_type: topic
-last_updated: "2026-09-15"
-reading_time_minutes: 3
+last_updated: "2026-10-26"
+reading_time_minutes: 4
 keywords: [developer sandbox, sandbox management, isolated development environment, parallel development, sandbox release notes, com.glide.dsb.licensing, sandbox plugin, source control integration, Git sandbox, delegated developer]
 audience: administrator
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
@@ -29,10 +29,25 @@ See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 -   **Activation information**
 
-    Install the Developer Sandbox License Management \(`com.glide.dsb.licensing`\) plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI in App Engine Management Center on the controller instance to distribute packs.
+    Install the Developer Sandboxes License Management \(`com.glide.dsb.licensing`\) plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI in App Engine Management Center on the controller instance to distribute packs.
 
+    Beginning with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:
+
+    -   `glide.dev_sandbox.enabled`: Set to `true`.
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+
+## November 2026
+
+Sandboxes are retained during instance upgrades in Developer Sandboxes, sandboxes are kept during instance upgrades, and installing the `com.glide.dsb` plugin no longer enables sandboxes automatically.
+
+### What's changed
+
+-   **[Manual sandbox enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-properties-installed.md)**
+
+    Starting with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:
+
+    -   `glide.dev_sandbox.enabled`: Set to `true`.
 
 ## October 2026
 

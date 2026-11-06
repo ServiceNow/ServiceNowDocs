@@ -8,7 +8,7 @@ product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Monitoring Schedule Optimization assignments, Scheduling and dispatching, Use, Field Service Management]
 ---
 
@@ -29,10 +29,22 @@ The Run Summary module provides a central location to track all optimization act
 -   Optimization horizon: Start and end dates of the optimization time window.
 -   Run status and timing.
 -   Task states showing how each task was processed:
+
     -   Assigned: The task was assigned to a technician.
     -   Dropped: The task wasn't considered for optimization
     -   Unassigned: The task wasn't assigned to a technician.
     -   Unchanged: The task wasn't modified during the optimization run.
+    **Note:**
+
+    When technicians don't have enough capacity, Schedule Optimization can't assign every task. The run still completes. The unassigned tasks wait for the next optimization run. What happens to a task depends on its state before the run:
+
+    -   Task was assigned before the run: Schedule Optimization unassigns the task. The run summary shows the task as Unassigned.
+    -   Task wasn't assigned before the run: The task stays in the pending dispatch queue unchanged. The run summary shows the task as Unchanged.
+    To resolve unscheduled tasks, do one of the following:
+
+    -   Assign the tasks manually.
+    -   Increase the technicians' work schedule capacity, and then run optimization on demand \(if on-demand optimization is configured\).
+    -   Wait for the next optimization run.
 -   Assignment group or territory states:
     -   Optimized: Assignment group or territory was sent to the optimization engine for processing.
     -   Error: Assignment group or territory encountered an error during optimization.
@@ -46,7 +58,7 @@ The Run Summary module provides a central location to track all optimization act
 
 [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
 [Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
 

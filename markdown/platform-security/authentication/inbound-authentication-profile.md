@@ -1,6 +1,6 @@
 ---
 title: REST API access policies
-description: REST API access policies allow you to restrict access to inbound REST APIs based on the authentication type and the specified filter criteria of the access policy.
+description: REST API access policies enable you to restrict access to inbound REST APIs based on the authentication type and the specified filter criteria of the access policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/inbound-authentication-profile.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [API access policy, Authentication, Access Management]
 
 # REST API access policies
 
-REST API access policies allow you to restrict access to inbound REST APIs based on the authentication type and the specified filter criteria of the access policy.
+REST API access policies enable you to restrict access to inbound REST APIs based on the authentication type and the specified filter criteria of the access policy.
 
 A REST API, also known as RESTful API is a type of application programming interface \(API\) that adheres to the guidelines of REST architectural style. REST APIs provide a high degree of flexibility making it prevalent across the web.
 

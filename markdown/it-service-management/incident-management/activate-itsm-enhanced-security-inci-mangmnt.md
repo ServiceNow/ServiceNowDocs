@@ -1,6 +1,6 @@
 ---
 title: Activate ITSM Enhanced Security Features for Incident Management
-description: Prevent unauthorized access to incident-related tables using deny unless authenticated ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
+description: Help prevent unauthorized access to incident-related tables by activating the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\), which uses deny unless authenticated access control lists \(ACLs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.html
 release: brazil
@@ -14,13 +14,13 @@ breadcrumb: [Enhanced security model features, Reference, Incident Management, I
 
 # Activate ITSM Enhanced Security Features for Incident Management
 
-Prevent unauthorized access to incident-related tables using deny unless authenticated ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
+Help prevent unauthorized access to incident-related tables by activating the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\), which uses deny unless authenticated access control lists \(ACLs\).
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** An admin can install and activate this plugin via support request.
+**Note:** A user with the admin role can install and activate this plugin by submitting a support request.
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md)
+**Parent Topic:**[Enhanced security model features for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md)
 

@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Build Agent, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Reference, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Supported metadata in Build Agent
@@ -44,6 +44,14 @@ Application menus and modules
 </td><td>
 
 Application menus are the top-level categories in the application navigator sidebar. Modules are the individual links within those categories and can link to tables, URLs, lists, or other platform resources. When Build Agent or Autonomous Engineer creates a new application with tables, it generates the corresponding navigator structure so users can access the application from the sidebar.
+
+</td></tr><tr><td>
+
+Advanced Work Assignment configurations
+
+</td><td>
+
+Queue definitions, service channels, inbox layouts, assignment rules, presence states, and queue item sorting configurations for ServiceNow Fluent SDK support.
 
 </td></tr><tr><td>
 

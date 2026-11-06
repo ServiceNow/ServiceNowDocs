@@ -1,6 +1,6 @@
 ---
 title: Time series visualization changes
-description: In the Brazil release, several time series visualizations have minor changes in their presentations.
+description: From the Brazil release, several time series visualizations have minor changes in their presentations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ts-dv-changes-b.html
 release: brazil
@@ -12,13 +12,13 @@ breadcrumb: [Time series visualizations, Create, Data visualizations, Platform A
 
 # Time series visualization changes
 
-In the Brazil release, several time series visualizations have minor changes in their presentations.
+From the Brazil release, several time series visualizations have minor changes in their presentations.
 
 The Data Visualizations bundle now renders charts using an updated charting engine. This change is behind the scenes — your existing charts, configurations, and data sources continue to work as before, with no action needed.
 
 ## Period over period
 
-Time Series charts now support Period over Period comparison. This overlays a prior period against the current one so you can spot trends and shifts at a glance. See the **Compare Period over Period** setting under Date ranges in the configuration panel.
+Time Series charts now support Period over Period comparisons for indicator visualizations. This overlays a prior period against the current one so you can spot trends and shifts at a glance. See the **Compare Period over Period** setting under Date ranges in the configuration panel.
 
 ## Legend pagination
 

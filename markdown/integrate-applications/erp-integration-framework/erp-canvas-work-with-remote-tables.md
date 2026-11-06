@@ -19,7 +19,7 @@ Remote tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\) en
 
 ## Remote tables are linked to ERP models
 
-**Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
+**Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system, and remains protected there.
 
 Each ERP remote table connects to one ERP model, which links the remote table to the ERP system and other related values. When building a remote table, you can add any of the fields that Zero Copy Connector for ERP finds when scanning the ERP system, which is connected through the ERP model. Scanning for and adding fields confirms that all necessary fields are available, such as when using the table as a data source when building an app.
 
@@ -29,7 +29,7 @@ The connected model, which is defined on the remote table **Details** tab, contr
 
 To promote data integrity, you can't create new remote tables in Zero Copy Connector for ERP, but you can clone existing models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
 
-ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table. For more information, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
+ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table.
 
 For general information about remote tables in the ServiceNow AI Platform, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md).
 

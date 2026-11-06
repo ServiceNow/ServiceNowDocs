@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing evaluation cost
@@ -24,6 +24,10 @@ Evaluating both ServiceNow and external AI systems consumes assists. Three setti
 **Related topics**  
 
 
+[Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-enable-evaluation.md)
+
+[Disable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-disable-evaluation.md)
+
 [Configure global metrics for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.md)
 
 [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-global-metrics-external.md)
@@ -33,6 +37,4 @@ Evaluating both ServiceNow and external AI systems consumes assists. Three setti
 [Configure asset-specific metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-external.md)
 
 [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md)
-
-[Disable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-disable-evaluation.md)
 

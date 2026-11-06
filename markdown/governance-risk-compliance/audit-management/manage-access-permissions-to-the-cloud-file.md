@@ -32,6 +32,8 @@ Role required: sn\_grc\_workspace.admin \(CRUD\), sn\_grc\_workspace.user \(Read
 
     \[Omitted image "cloud-file-configuration-record.png"\] Alt text: Cloud file configuration record.
 
+    In the **File location ID** field, enter the ID of the Microsoft SharePoint site or document library where the files are uploaded. For steps to find the ID, see [Find the File location ID for a Cloud file configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/get-sharepoint-file-location-id.md).
+
     Cloud file and folders are validated based on the following:
 
     -   **Folder structure**

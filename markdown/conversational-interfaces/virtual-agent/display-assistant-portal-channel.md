@@ -1,20 +1,20 @@
 ---
 title: Display your assistant on a portal, channel, or mobile app
-description: Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile app. To activate an assistant, at least one display experience must be configured.
+description: Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile apps. To activate an assistant, at least one display experience must be configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/display-assistant-portal-channel.html
 release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 11
-breadcrumb: [Create a chat assistant, View assistants, Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-10-27"
+reading_time_minutes: 12
+breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
 # Display your assistant on a portal, channel, or mobile app
 
-Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile app. To activate an assistant, at least one display experience must be configured.
+Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile apps. To activate an assistant, at least one display experience must be configured.
 
 ## Before you begin
 
@@ -28,9 +28,11 @@ Role required: virtual\_agent\_admin or admin
 
 The chat experience configuration defines how users interact with an assistant during a conversation, including message behavior, response generation, and fallback handling.
 
--   Standard chat is a condensed conversational support experience in a chat widget.
--   Enhanced chat is a conversational experience that includes a dynamic, movable, and resizable chat window, plus access to multiple active conversations.
--   Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
+For a comparison of standard, enhanced, and premium chat experiences, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
+
+-   [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-standard-chat.md) is a condensed conversational support experience in a chat widget.
+-   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-enhanced-chat.md) is a conversational experience that includes a dynamic, movable, and resizable chat window, plus access to multiple active conversations.
+-   [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-integrated-chat.md) is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
 
 If your instance is eligible, you can opt in to the premium chat experience. ServiceNow performs a set of readiness checks to determine whether your instance is eligible for premium chat. The default chat experience is enhanced chat. However, if you also previously had standard chat enabled, you still have that as an option.
 
@@ -45,7 +47,7 @@ If your instance doesn’t meet the requirements for premium chat, you can conti
 
 Premium chat is not available for instances that use regional data routing.
 
-In premium chat, catalog items have improved fluidity, but some are no longer conversational. They open in a catalog form instead. For more information, see [Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/explore.md).
+In premium chat, some catalog items open in a catalog form instead of a conversation. For more information, see [Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/explore.md).
 
 ## Procedure
 
@@ -61,7 +63,7 @@ In premium chat, catalog items have improved fluidity, but some are no longer co
 
     Natural Language Understanding \(NLU\) and large language model \(LLM\) topic discovery cannot coexist in the same portal.
 
-    1.  Choose between the standard/enhanced or premium chat experience. Select **Add**.
+    1.  Choose the standard/enhanced chat experience or the premium chat experience. Select **Add**.
 
         For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-standard-chat.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-enhanced-chat.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-integrated-chat.md).
 
@@ -71,7 +73,7 @@ In premium chat, catalog items have improved fluidity, but some are no longer co
 
         -   Enhanced chat with a dynamic, movable, and resizable chat window.
         -   Enhanced chat with the option to allow the search bar to open into a full-page chat experience.
-        -   Premium chat opens the search bar into a full-page chat experience.
+        -   Premium chat that opens the search bar into a full-page chat experience.
         If your portal has AI Search activated, enhanced chat includes the option to turn on the full-page chat experience. Select **Allow the search bar to open into a full-page chat experience**. Premium chat comes with the full-page chat experience.
 
         For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/prerequisites-enhanced-chat.md).
@@ -84,7 +86,7 @@ In premium chat, catalog items have improved fluidity, but some are no longer co
             -   Remain with standard chat.
             -   Enhanced chat with a dynamic, movable, and resizable chat window.
             -   Enhanced chat with the option to allow the search bar to open into a full-page chat experience.
-            -   Premium chat opens the search bar into a full-page chat experience.
+            -   Premium chat that opens the search bar into a full-page chat experience.
         -   If you’re using enhanced chat with a dynamic, movable, and resizable chat window, your chat experience options are:
             -   Remain with enhanced chat with a dynamic, movable, and resizable chat window.
             -   Enhanced chat with the option to allow the search bar to open into a full-page chat experience.
@@ -92,13 +94,13 @@ In premium chat, catalog items have improved fluidity, but some are no longer co
         -   For portals that do not have AI Search enabled, you can choose between standard chat and enhanced chat with a dynamic, movable, and resizable chat window.
         Enhanced chat and premium chat \(full-page experience\) are supported for default Customer Service Management \(CSM\) portals such as Business Portal, CSM Portal, and Consumer Service Portal \(CSP\). CSM portals must have AI Search enabled. Enhanced chat is the default when an assistant is added to a default CSM portal.
 
-        For premium chat, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to ensure that everything was prefilled correctly.
+        For premium chat, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to verify that everything was prefilled correctly.
 
         For information about the enhanced chat experience option, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
 
     2.  Select the ellipsis to remove a portal or edit settings to toggle between chat experiences.
 
-        \[Omitted image "sno-display-remove-portal-0826.png"\] Alt text: Ellipsis shows edit portal settings or remove a portal.
+        \[Omitted image "sno-display-remove-portal-0826.png"\] Alt text: Ellipsis menu with options to edit portal settings or remove a portal.
 
     3.  Select the **Allow public access for this assistant** check box to enable the assistant on public pages for all selected portals.
 
@@ -108,11 +110,11 @@ In premium chat, catalog items have improved fluidity, but some are no longer co
 
 2.  In **Channels**, select your preferred messaging channels to display a chat assistant.
 
-    ServiceNow Otto for Virtual Agent integrates with these channels: Slack, Microsoft Teams, Google Chat, SMS with Twilio, WhatsApp, and Amazon Connect. If the plugins are already installed, the available channel cards aren't displayed. For more information about integrating Virtual Agent with messaging apps, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+    ServiceNow Otto for Virtual Agent integrates with these channels: Slack, Microsoft Teams, Google Chat, SMS with Twilio, WhatsApp, and Amazon Connect. If the plugins are already installed, the available channel cards aren't displayed. For more information about integrating Virtual Agent with messaging apps, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
-    Getting the plugin redirects you to the ServiceNow Store. After the plugins are installed and configured, you can then select the ones that you want the assistant to integrate with.
+    Getting the plugin redirects you to the ServiceNow Store. After the plugins are installed and configured, you can then select the ones that you need the assistant to integrate with.
 
-    -   After the plugins are installed and configured, choose the ones that you want the assistant to integrate with by selecting from the **Add channel** drop-down menu.
+    -   After the plugins are installed and configured, choose the ones that you need the assistant to integrate with by selecting from the **Add channel** drop-down menu.
 
         \[Omitted image "NAinVA-display-channels-062026.png"\] Alt text: List of channels to integrate with Virtual Agent.
 
@@ -146,7 +148,7 @@ Mobile search widgets
 
 </td><td>
 
-Currently on enhanced chat with a dynamic, movable, and resizable window or full-page experience, your option is premium chat full-page experience.
+If you’re using enhanced chat with a dynamic, movable, and resizable window or full-page experience, your option is premium chat full-page experience.
 
 </td><td>
 
@@ -165,7 +167,7 @@ Chat launcher functions
 
 </td><td>
 
-Currently on standard chat, your options are enhanced chat full-page experience or premium chat full-page experience. Currently on enhanced chat, your option is premium chat full-page experience.
+If you’re using standard chat, your options are enhanced chat full-page experience or premium chat full-page experience. If you’re using enhanced chat, your option is premium chat full-page experience.
 
 </td><td>
 
@@ -183,7 +185,7 @@ Prominent action button override
 
 </td><td>
 
-Currently on standard chat, your options are enhanced chat full-page experience or premium chat full-page experience. Currently on enhanced chat, your option is premium chat full-page experience.
+If you’re using standard chat, your options are enhanced chat full-page experience or premium chat full-page experience. If you’re using enhanced chat, your option is premium chat full-page experience.
 
 </td><td>
 
@@ -201,7 +203,7 @@ Custom apps
 
 </td><td>
 
-Currently on standard chat, your options are enhanced chat full-page experience or premium chat full-page experience. Currently on enhanced chat, your option is premium chat full-page experience.
+If you’re using standard chat, your options are enhanced chat full-page experience or premium chat full-page experience. If you’re using enhanced chat, your option is premium chat full-page experience.
 
 </td><td>
 

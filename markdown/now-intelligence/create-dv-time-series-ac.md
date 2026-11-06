@@ -16,7 +16,7 @@ Show changes in data over time. Use different time series visualizations to emph
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -459,8 +459,10 @@ Each time series visualization type has a different set of display settings.
 If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.
 -   **[Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md)**  
 If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
+-   **[Period over period comparison in time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/period-over-period-comparison.md)**  
+Period over period comparison overlays several time periods of an indicator on one time series visualization so that you can spot patterns, trends, and anomalies across the periods.
 -   **[Time series visualization changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ts-dv-changes-b.md)**  
-In the Brazil release, several time series visualizations have minor changes in their presentations.
+From the Brazil release, several time series visualizations have minor changes in their presentations.
 -   **[Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dv-example-line.md)**  
 Time series visualizations show the changes in data over time. This example starts with a single indicator data source and adds more complexity.
 

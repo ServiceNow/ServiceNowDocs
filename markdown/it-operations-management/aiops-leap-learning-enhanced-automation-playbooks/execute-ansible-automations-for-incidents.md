@@ -1,6 +1,6 @@
 ---
-title: Execute Ansible automations for incidents
-description: Use the Ansible Execution Agent to automatically launch mapped Ansible job templates during incident remediation in the Service Operations Workspace, reducing manual effort and accelerating mean time to resolution.
+title: Execute Ansible playbooks for incidents
+description: The Ansible Execution Agent launches Ansible playbooks mapped to LEAP resolution steps in Service Operations Workspace that can reduce manual effort and time to resolve incidents.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.html
 release: brazil
@@ -13,96 +13,80 @@ keywords: [Ansible execution, incident remediation, automation, Service Operatio
 breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# Execute Ansible automations for incidents
+# Execute Ansible playbooks for incidents
 
-Use the Ansible Execution Agent to automatically launch mapped Ansible job templates during incident remediation in the Service Operations Workspace, reducing manual effort and accelerating mean time to resolution.
+The Ansible Execution Agent launches Ansible playbooks mapped to LEAP resolution steps in Service Operations Workspace that can reduce manual effort and time to resolve incidents.
 
 ## Before you begin
 
-Before executing Ansible automations:
-
 -   The Ansible Execution Agent must be configured and enabled
--   Step-to-job mappings must exist for the predicted automation opportunity group
+-   Ansible jobs must be mapped to resolution steps for the predicted automation opportunity group
 
-    For more information, refer to [Map Ansible jobs to resolution steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/map-ansible-jobs-to-resolution-steps.md).
+    For more information, see [Map Ansible jobs to resolution steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/map-ansible-jobs-to-resolution-steps.md).
 
 
-Role required: LEAP agent
+Role required: sn\_itom\_leap.leap\_ansible\_agent\_worker
 
 ## About this task
 
-When an incident arrives in SOW, LEAP predicts the automation opportunity group using existing clustering. For critical automation opportunities where resolution steps are generated, if step-to-job mappings exist for that group, automation options are presented to incident responders for execution.
+When an incident arrives in SOW, LEAP predicts the automation opportunity group. If any matching automation opportunities are found with resolution steps, they are used in the prediction. If the predicted automation opportunities are mapped to Ansible jobs, they are presented to incident responders for execution. When execution starts, the agent logs a journal entry on the incident record.
 
 ## Procedure
 
-1.  In SOW, select the incident.
+1.  In SOW, select and open the required incident.
 
-2.  In the **Recommendations** section, review the available automation options.
+2.  In the **Recommendations** section, review any available Ansible playbooks.
 
-    This section appears only if LEAP has predicted a critical automation opportunity group with step-to-job mappings.
+    This section appears only if LEAP has predicted an automation opportunity group with step-to-job mappings. If the Recommendations section doesn't appear, the incident might not be matched to an automation opportunity group.
 
-3.  Select the required method to complete the resolution
+3.  Complete the resolution step.
 
-<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d227111e139">
+<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d239150e133">
 
-Method
+If the step has.
 
-</th><th align="left" id="d227111e142">
+</th><th align="left" id="d239150e136">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d227111e148">
+</th></tr></thead><tbody><tr><td id="d239150e142">
 
-**Manual**
+**Manual \(no mapped Ansible jobs\)**
 
 </td><td>
 
-1.  Review the manual step description provided by the agent.
-2.  Perform the required manual actions.
-3.  Select **Step Completed** to confirm that the manual step is finished.
+1.  Complete the manual step description provided by the Ansible Execution Agent.
+2.  Select **Step Completed** after you finish it.
 
 
-</td></tr><tr><td id="d227111e175">
+</td></tr><tr><td id="d239150e166">
 
-**Automated**
+**Automated \(mapped Ansible jobs\)**
 
 </td><td>
 
 1.  Select **Execute Ansible Playbook**.
-2.  Provide the required inputs when prompted and confirm to proceed.
+2.  Review the job template details and complete all required launch inputs in the form presented, then proceed.
+3.  After the job launches, the agent reports the Ansible job ID and status. Confirm when you're ready to move to the next step.
 
 
 </td></tr></tbody>
-</table>4.  Monitor job execution status and respond to agent prompts:
+</table>4.  Review the execution summary when all steps are completed.
 
-5.  Review the execution summary when all steps are completed.
+    The agent provides a summary including total steps processed, jobs launched with their Ansible job IDs, manual steps completed, and any failures or errors. The agent also records the overall success or failure status on the incident record.
 
-    The agent provides a summary including total steps processed, jobs launched with their Ansible Job IDs, manual steps completed, and any failures or errors.
+    Ask the agent directly in the ServiceNow Otto panel at any point during execution. You can check job status, view job output, cancel a running job, or relaunch a failed job.
 
-6.  Update the incident record with the remediation results and close the incident if resolution is successful.
+5.  Close the incident if resolution is successful.
 
 
 ## Result
 
-The mapped Ansible automations are executed in sequence, with manual steps completed as needed. The incident is remediated using the automated workflow defined in the step-to-job mapping.
-
-## Example execution flow
-
-For a database connectivity incident, the execution might proceed as follows:
-
-1.  Agent: "Step 1: 'Restart the nginx service' — launching nginx-restart-playbook"
-2.  Agent: "Launched successfully. Ansible Job ID: 12345. Status: Running"
-3.  Agent: "Job completed successfully. Proceeding to next step."
-4.  Agent: "Step 2: 'Flush DNS cache' — this step has no playbook mapped. Please complete this step manually."
-5.  User: "Step completed" \(after manually flushing DNS cache\)
-6.  Agent: "Step 3: 'Verify service health' — launching health-check-playbook"
-7.  Agent: "All steps completed. Summary: 2 jobs launched, 1 manual step completed."
+The Ansible Execution Agent runs the mapped Ansible jobs in sequence. It prompts you to complete any manual steps, and records the overall success or failure status on the incident record.
 
 ## What to do next
 
-After execution:
-
 -   Review the Ansible job logs in Ansible Automation Platform for detailed execution information.
 -   Document any issues or improvements for future automation opportunity mappings.
--   Consider updating step-to-job mappings based on execution results and feedback.
+-   Update step-to-job mappings based on execution results and feedback.
 

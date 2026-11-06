@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # What ServiceNow product solves your problem

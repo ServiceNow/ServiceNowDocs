@@ -9,7 +9,7 @@ classification: creator-studio
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Deploying apps, Build apps, Creator Studio, Developing your application, Building applications]
+breadcrumb: [Deploying apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Request deployment for your app from Creator Studio to production

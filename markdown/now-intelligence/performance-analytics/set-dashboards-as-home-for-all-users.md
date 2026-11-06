@@ -1,5 +1,5 @@
 ---
-title: Set dashboards as home for all users
+title: Set Core UI dashboards as home for all users
 description: You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-dashboards-as-home-for-all-users.html
@@ -9,16 +9,20 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Set dashboards as home for all users
+# Set Core UI dashboards as home for all users
 
 You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 

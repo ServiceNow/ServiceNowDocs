@@ -54,7 +54,7 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 
     Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. Workflow Data Fabric Foundation, including [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integrationhub.md), [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-main-landing-page.md), [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center-landing-page.md), and [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog.md), is embedded in every tier edition. Workflow Data Fabric Advanced, adding [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md) and [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-quick-start.md), is available as a paid upgrade.
 
--   **RaptorDB**
+-   **[RaptorDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/raptordb.md)**
 
     RaptorDB is the next-generation ServiceNow database, purpose-built to deliver the performance and scale that AI-native workloads demand. RaptorDB Standard underpins every tier edition with improved response times and optimized query performance. RaptorDB Professional unlocks ultra-scale analytics, enhanced column-store capabilities, and advanced instance topology support for organizations running the most demanding generative AI and machine-scale data use cases.
 
@@ -78,6 +78,6 @@ To begin implementing the capabilities offered at each tier on your instance, se
 -   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)
 -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md)
 -   [Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-integrations-applications.md)
--   RaptorDB
+-   [RaptorDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/raptordb.md)
 -   [Now Assist for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-assist-for-itsm-rn.md)
 

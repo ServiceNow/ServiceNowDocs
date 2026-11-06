@@ -7,7 +7,7 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-20"
 reading_time_minutes: 2
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -139,7 +139,7 @@ function process(record) {
  You can copy code from an existing post-processor script to use as a starting point for your own script function. To access existing post-processor scripts, open the Search Scripted Post-processors \[sys\_search\_scripted\_processor\] table in list view by following these steps:
 
 1.  Select **All**.
-2.  In the Filter field, enter `sys_search_scripted_processor.list`.
+2.  In the navigation filter, enter `sys_search_scripted_processor.list`.
 3.  Press Enter.
 
 </td></tr></tbody>

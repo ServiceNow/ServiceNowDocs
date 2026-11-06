@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Components installed with Developer Sandboxes
@@ -33,6 +33,16 @@ Sandbox license admin \[sn\_dsb\_commons.sandbox\_license\_admin\]
 </td><td>
 
 Assign sandbox licenses to non-production instances in App Engine Management Center \(AEMC\).**Note:** You must have the com.glide.dsb.licensing plugin installed for this role.
+
+</td></tr><tr><td>
+
+App Engine admin
+
+ \[app\_engine\_admin\]
+
+</td><td>
+
+Required to assign licenses.
 
 </td></tr><tr><td>
 
@@ -204,5 +214,5 @@ Stores lifecycle events describing the deletion of a sandbox.
 Stores rules for partial copy tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+</table>**Parent Topic:**[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-configuring-landing.md)
 

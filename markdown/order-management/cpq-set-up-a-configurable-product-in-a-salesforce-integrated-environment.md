@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up configurable products, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in a Salesforce-integrated environment
@@ -20,13 +20,13 @@ Role required: Admin
 
 ## About this task
 
-If your CPQ SF Managed Package was installed in June 2022 or later, follow these steps to associate a configurable product with a blueprint.
+If your ServiceNow CPQ SF Managed Package was installed in June 2022 or later, follow these steps to associate a configurable product with a blueprint.
 
-**Note:** If your CPQ SF Managed Package was installed before June 2022, see [Set up a configurable product in a Salesforce-integrated environment \(older managed package\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.md).
+**Note:** If your ServiceNow CPQ SF Managed Package was installed before June 2022, see [Set up a configurable product in a Salesforce-integrated environment \(older managed package\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.md).
 
 ## Procedure
 
-1.  On the Salesforce Products tab, find the Product2 record to connect to a CPQ configuration experience \(blueprint\).
+1.  On the Salesforce Products tab, find the Product2 record to connect to a ServiceNow CPQ configuration experience \(blueprint\).
 
 2.  Associate the Product with a Price Book entry.
 
@@ -34,9 +34,9 @@ If your CPQ SF Managed Package was installed in June 2022 or later, follow these
 
 3.  Set the product to **Active** and **Enabled**, and then click **Save**.
 
-4.  On the SFDC Products tab, select the list view to CPQ View.
+4.  On the SFDC Products tab, select the list view to ServiceNow CPQ View.
 
-5.  Find the Product Name of the Product2 record created in step 3, and click the **Click Here** link under View CPQ Setup column.
+5.  Find the Product Name of the Product2 record created in step 3, and click the **Click Here** link under View ServiceNow CPQ Setup column.
 
 6.  Click **Associate Blueprint**.
 

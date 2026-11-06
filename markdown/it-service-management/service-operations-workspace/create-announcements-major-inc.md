@@ -176,7 +176,7 @@ Behaviour
 
 </td></tr><tr><td>
 
-Click target
+Select target
 
 </td><td>
 
@@ -192,7 +192,7 @@ Details page
 
 </td><td>
 
-Page that opens in the current browser tab. **Note:** This option is applicable only if the **Click target** field is set to **Page**.
+Page that opens in the current browser tab. **Note:** This option is applicable only if the **Select target** field is set to **Page**.
 
 Available if
 
@@ -202,7 +202,7 @@ Details URL
 
 </td><td>
 
-URL that opens in the current or new browser tab. **Note:** This option is applicable only if the **Click target** is set to **URL in current browser tab** or **URL in new browser tab**.
+URL that opens in the current or new browser tab. **Note:** This option is applicable only if the **Select target** is set to **URL in current browser tab** or **URL in new browser tab**.
 
 </td></tr><tr><td>
 

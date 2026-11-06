@@ -1,6 +1,6 @@
 ---
 title: Components installed with Change Management - Risk Intelligence
-description: Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
+description: Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-risk-intelligence.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Request Change Management - Risk Assessment, Change Management plug
 
 # Components installed with Change Management - Risk Intelligence
 
-Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
+Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, including tables.
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 

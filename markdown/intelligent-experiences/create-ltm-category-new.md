@@ -1,18 +1,18 @@
 ---
 title: Create long-term memory category
-description: Add a long-term memory category to add it an AI agent while setting up long term memory
+description: Create a category that defines the type of user information an AI agent can remember, such as work context or user preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ltm-category-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create long-term memory category
 
-Add a long-term memory category to add it an AI agent while setting up long term memory
+Create a category that defines the type of user information an AI agent can remember, such as work context or user preferences.
 
 ## Before you begin
 

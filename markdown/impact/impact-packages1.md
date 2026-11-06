@@ -20,7 +20,7 @@ Impact includes Platform Health, Instance Observer, Value Management, Product Ad
 
 |Package|What you get|
 |-------|------------|
-|Guided|The Impact App, 24/7 support, limited concurrence Accelerator catalog access, and guidance from a Customer Success Manager|
+|Guided|The Impact App, 24/7 support, limited concurrence Accelerator catalog access|
 |Total|Everything in Impact Guided, enhanced response times for Priority 1 and Priority 2 tickets, Developer Support, expanded access to the Accelerator catalog, and a dedicated Impact Squad|
 
 ## Integrated Success
@@ -36,11 +36,6 @@ The entitlements available for Impact features, Accelerator catalog concurrency,
 ## Impact Squad
 
 Impact Squad is a team of dedicated professionals who help you manage your Impact platform based on your Impact package entitlement.
-
-|Squad members|Package entitlement|
-|-------------|-------------------|
-|Customer Success Manager, Customer Success Executive, Platform Architect, Support Account Manager|Total|
-|Customer Success Manager|Guided|
 
 **Note:** See [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-squad.md) for details for each Impact Squad member.
 

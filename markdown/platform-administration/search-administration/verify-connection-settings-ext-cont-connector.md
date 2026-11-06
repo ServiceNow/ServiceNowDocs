@@ -33,7 +33,7 @@ Permission changes and revocations that occur after the connector is created can
 
 2.  In the Connectors list, select the record for the external content connector that you want to verify the connection settings and source system permissions for.
 
-3.  In the connector editor's Settings tab, select **Index management**.
+3.  In the connector editor's **Settings** tab, select **Index management**.
 
 4.  In the Trigger test crawl section, select **Trigger test crawl**.
 

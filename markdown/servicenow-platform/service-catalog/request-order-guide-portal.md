@@ -22,7 +22,7 @@ Role required: requester
 
 Select the **Allow Cloning** instance option on the Order Status page to display the **Additional Actions** section after placing the request.
 
-For information about the SC Order Guide widget, see [SC Order Guide widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sc-order-guide-widget.md).
+For information about the SC Order Guide widget, see SC Order Guide widget.
 
 ## Procedure
 

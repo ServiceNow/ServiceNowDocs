@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-financialservicescardoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 17
+last_updated: "2026-11-06"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -122,7 +122,19 @@ Australia
 
 </td><td>
 
--   **Date facilities were withdrawn**
+-   **Additional Mastercard fraud type options**
+
+Classify Mastercard fraud disputes more precisely by selecting from three additional fraud type options during card dispute intake:
+
+    -   53 - Testing-issuer
+    -   54 - Undetermined
+    -   57 - First-party misuse
+-   **Colombia payment reversion claim question**
+
+Capture the information that Colombian regulations require for Mastercard fraud disputes. When a Mastercard dispute uses reason code 4837, 4870, or 4871, the merchant is located in Colombia, and the cardholder billing currency is the Colombian Peso, the dispute intake form asks whether the cardholder has filed a reversion of payment claim under Colombian law. An answer is required.
+
+
+ -   **Date facilities were withdrawn**
 
 Dispute agents and cardholders can now record the date facilities were withdrawn by answering the question "Date of the facilities were withdrawn." This question displays only after answering Yes to "Certification that the facilities were withdrawn," and supports chargeback eligibility evaluation for reason code 13.2 \(Cancelled Recurring Transaction\).
 
@@ -141,7 +153,19 @@ Brazil
 
 </td><td>
 
--   **Date facilities were withdrawn**
+-   **Additional Mastercard fraud type options**
+
+Classify Mastercard fraud disputes more precisely by selecting from three additional fraud type options during card dispute intake:
+
+    -   53 - Testing-issuer
+    -   54 - Undetermined
+    -   57 - First-party misuse
+-   **Colombia payment reversion claim question**
+
+Capture the information that Colombian regulations require for Mastercard fraud disputes. When a Mastercard dispute uses reason code 4837, 4870, or 4871, the merchant is located in Colombia, and the cardholder billing currency is the Colombian Peso, the dispute intake form asks whether the cardholder has filed a reversion of payment claim under Colombian law. An answer is required.
+
+
+ -   **Date facilities were withdrawn**
 
 Dispute agents and cardholders can now record the date facilities were withdrawn by answering the question "Date of the facilities were withdrawn." This question displays only after answering Yes to "Certification that the facilities were withdrawn," and supports chargeback eligibility evaluation for reason code 13.2 \(Cancelled Recurring Transaction\).
 
@@ -236,7 +260,12 @@ Australia
 
 </td><td>
 
--   **Price-discrepancy question for Visa consumer disputes**
+-   **UI policy update for the merchant voucher question on Refund Not Processed disputes**
+
+The Mastercard-specific merchant voucher question in the dispute questionnaire displays for Refund Not Processed disputes when the transaction has one of the following merchant category codes \(MCCs\): 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The UI policy **Field: TransactionMerchantVoucherFutureUseInd - Show/Hide/Mandatory \(Consumer\)** controls this display. Before this release, the UI policy displayed the question for Goods or Services Not Provided disputes and for Travel and Entertainment disputes where the merchant issued a voucher. The question and the MCC list are unchanged. Dispute agents answer whether the merchant provided a voucher for future use and disclosed it in its terms and conditions. When Dispute Rules Content Pack for Mastercard is installed, the answer determines whether a chargeback for reason code \(RC\) 4853 is eligible.
+
+
+ -   **Price-discrepancy question for Visa consumer disputes**
 
 An existing question, originally used under the Processing Errors dispute category, has been repurposed for consumer disputes filed under reason code 13.3 \(Not as Described or Defective Merchandise/Services\). Dispute agents are asked "Is the dispute due to the difference between the quoted price and the actual charges made by the merchant?" and cardholders are asked "Is the dispute related to a discrepancy between the quoted price and the actual charges made by the merchant?" A Yes answer marks the dispute ineligible for reason code 13.3, since a price discrepancy is not a valid basis for that reason code under the Visa Chargeback Guide.
 
@@ -299,6 +328,10 @@ The Now Assist context menu \(NACM\) component replaces the AI Summary Card comp
 Dispute agents can share a generated summary to the claim's work notes from the summary component. Selecting **Share** opens an editable work notes dialog, where agents can edit the summary text before selecting **Save to work notes**.
 
 Activate the Dispute Summarization skill configuration for the summary component to appear. If the skill configuration isn't active, the component doesn't display on the dispute record page.
+
+-   **UI policy update for the merchant voucher question on Refund Not Processed disputes**
+
+The Mastercard-specific merchant voucher question in the dispute questionnaire displays for Refund Not Processed disputes when the transaction has one of the following merchant category codes \(MCCs\): 3000 through 3999, 4411, 4511, 4722, 6513, 7011, 7512, 7519, or 7922. The UI policy **Field: TransactionMerchantVoucherFutureUseInd - Show/Hide/Mandatory \(Consumer\)** controls this display. Before this release, the UI policy displayed the question for Goods or Services Not Provided disputes and for Travel and Entertainment disputes where the merchant issued a voucher. The question and the MCC list are unchanged. Dispute agents answer whether the merchant provided a voucher for future use and disclosed it in its terms and conditions. When Dispute Rules Content Pack for Mastercard is installed, the answer determines whether a chargeback for reason code \(RC\) 4853 is eligible.
 
 
  -   **Price-discrepancy question for Visa consumer disputes**
@@ -388,7 +421,7 @@ Australia
 
 -   **Now LLM Service deprecation notice**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>

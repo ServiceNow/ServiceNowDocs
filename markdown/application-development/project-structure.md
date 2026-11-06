@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 3
 keywords: [Project structure, What each entry is for, Fields in aiux.json, What the tree compiles to]
-breadcrumb: [Lux architecture, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux architecture, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Project structure
