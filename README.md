@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __6 November 2026__:
+  * Brazil GA
 - __08 October 2026__:
   * October monthly refresh
 - __10 September 2026__:
